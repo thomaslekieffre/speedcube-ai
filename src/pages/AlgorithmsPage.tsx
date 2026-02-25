@@ -9,18 +9,6 @@ import { useLocalizedData } from '@/hooks/useLocalizedData';
 
 const puzzleTypes = ['All', '3x3', '2x2', '4x4', '5x5', '6x6', 'Pyraminx', 'Skewb', 'Square-1', 'Megaminx'];
 
-const puzzleColor: Record<string, string> = {
-  '3x3': 'bg-primary',
-  '2x2': 'bg-accent',
-  '4x4': 'bg-warning',
-  '5x5': 'bg-orange-400',
-  '6x6': 'bg-yellow-400',
-  'Pyraminx': 'bg-emerald-400',
-  'Skewb': 'bg-cyan-400',
-  'Square-1': 'bg-pink-400',
-  'Megaminx': 'bg-blue-400',
-};
-
 export default function AlgorithmsPage() {
   const { t } = useTranslation(['algorithms', 'common']);
   const { localizeSet } = useLocalizedData();

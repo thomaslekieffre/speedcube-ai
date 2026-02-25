@@ -44,7 +44,7 @@ export function TwistyPlayer({
       const effectiveSetup = setupAlg || new Alg(algorithm).invert().toString();
 
       const player = new TP({
-        puzzle,
+        puzzle: puzzle as any,
         alg: algorithm,
         experimentalSetupAlg: effectiveSetup,
         ...(stickering

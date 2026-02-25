@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Monitor, Droplets, Star } from 'lucide-react';
+import { Monitor, Droplets } from 'lucide-react';
 import { Modal } from '@/components/ui/Modal';
 import { Badge } from '@/components/ui';
 import type { CubeHardware, Lube } from '@/types';

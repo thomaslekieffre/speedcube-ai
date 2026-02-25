@@ -15,13 +15,6 @@ const difficultyColors: Record<string, 'accent' | 'primary' | 'warning' | 'destr
   expert: 'destructive',
 };
 
-const difficultyAccent: Record<string, string> = {
-  beginner: 'bg-accent',
-  intermediate: 'bg-primary',
-  advanced: 'bg-warning',
-  expert: 'bg-destructive',
-};
-
 /* ── Puzzle mapping for every method ─────────────────────────── */
 
 const methodPuzzle: Record<string, string> = {

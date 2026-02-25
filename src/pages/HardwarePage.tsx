@@ -116,10 +116,6 @@ export default function HardwarePage() {
   const cubeBrands = useMemo(() => [...new Set(cubes.map((c) => c.brand))].sort(), []);
   const cubeYears = useMemo(() => [...new Set(cubes.map((c) => c.releaseYear))].sort((a, b) => b - a), []);
   const lubeBrands = useMemo(() => [...new Set(lubes.map((l) => l.brand))].sort(), []);
-  const tiers = ['all', 'flagship', 'mid', 'budget'] as const;
-  const lubeTypes = ['all', 'silicone', 'water-based', 'hybrid'] as const;
-  const lubeViscosities = ['all', 'light', 'medium', 'heavy'] as const;
-  const magneticOptions = ['all', 'yes', 'no'] as const;
 
   const localizedLubes = useMemo(() => lubes.map(localizeLube), [localizeLube]);
 
