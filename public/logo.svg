@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#f87171" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#ef4444" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#g1)" filter="url(#shadow)"/>
+
+  <!-- Cube - isometric 3D view -->
+  <!-- Top face -->
+  <path d="M256 120 L380 190 L256 260 L132 190 Z" fill="url(#g2)" opacity="0.95"/>
+  <!-- Left face -->
+  <path d="M132 190 L256 260 L256 384 L132 314 Z" fill="url(#g3)" opacity="0.9"/>
+  <!-- Right face -->
+  <path d="M256 260 L380 190 L380 314 L256 384 Z" fill="url(#g4)" opacity="0.85"/>
+
+  <!-- Grid lines - top face -->
+  <line x1="173" y1="155" x2="297" y2="225" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="215" y1="155" x2="339" y2="225" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="173" y1="190" x2="297" y2="120" stroke="white" stroke-width="0" opacity="0"/>
+  <line x1="194" y1="213" x2="318" y2="143" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  <line x1="215" y1="237" x2="339" y2="167" stroke="white" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Grid lines - left face -->
+  <line x1="132" y1="231" x2="256" y2="301" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="132" y1="273" x2="256" y2="343" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="173" y1="237" x2="173" y2="361" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="215" y1="260" x2="215" y2="384" stroke="white" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Grid lines - right face -->
+  <line x1="256" y1="301" x2="380" y2="231" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="256" y1="343" x2="380" y2="273" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="297" y1="260" x2="297" y2="384" stroke="white" stroke-width="1.5" opacity="0.25"/>
+  <line x1="339" y1="237" x2="339" y2="361" stroke="white" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Speed lines (motion effect) -->
+  <line x1="80" y1="160" x2="110" y2="160" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="60" y1="200" x2="105" y2="200" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="75" y1="240" x2="108" y2="240" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- AI sparkle dots -->
+  <circle cx="400" cy="130" r="5" fill="white" opacity="0.7"/>
+  <circle cx="420" cy="160" r="3" fill="white" opacity="0.5"/>
+  <circle cx="410" cy="105" r="3.5" fill="white" opacity="0.4"/>
+</svg>
