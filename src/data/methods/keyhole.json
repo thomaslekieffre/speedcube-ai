@@ -1,0 +1,41 @@
+{
+  "id": "keyhole",
+  "name": "Keyhole Method",
+  "description": "A transitional 3x3 method that bridges the gap between the beginner method and full CFOP. The keyhole technique uses an empty F2L slot as a 'keyhole' to insert edge pieces that would otherwise be difficult to place. It is faster than the beginner method because you solve the first two layers more efficiently, but it does not require learning full intuitive F2L. Many cubers use keyhole as a stepping stone before committing to F2L.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Cross",
+      "description": "Solve 4 bottom-layer edge pieces, same as CFOP cross. Solve on the bottom so you can see the rest of the cube while working on the next steps.",
+      "moveCountRange": "6-10 moves",
+      "tips": ["Same as CFOP cross — plan during inspection", "Solve on the bottom layer", "Aim for 8 moves or fewer"]
+    },
+    {
+      "name": "First Layer Corners",
+      "description": "Insert the 4 first-layer corners into their slots. This is the same as the beginner method. Position each corner above its target slot and use R U R' U' (or its mirror) to insert it.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Use R U R' U' trigger to cycle corners into position", "Each corner takes 1-5 repetitions of the trigger", "Leave one slot empty to use as the keyhole"]
+    },
+    {
+      "name": "Second Layer Edges (Keyhole)",
+      "description": "Insert middle-layer edges using the empty slot as a 'keyhole'. Instead of the slow beginner edge insertion algorithms, temporarily remove a first-layer corner, insert the edge piece using simple U + D moves, then replace the corner. This is significantly faster than the beginner's 8-move edge insertions.",
+      "moveCountRange": "16-20 moves",
+      "tips": ["Use the empty slot to 'drop in' edges from the top layer", "After inserting an edge, put the corner back and move to the next", "Much faster than the beginner method for second layer edges", "Works well until you learn full intuitive F2L"]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer using either the beginner method (4 steps) or 2-look OLL + 2-look PLL (also 4 steps but faster). The keyhole method does not change the last layer at all — use whichever LL approach you know.",
+      "algorithmSets": ["eoll", "ocll", "cpll", "epll"],
+      "moveCountRange": "20-35 moves",
+      "tips": ["Use 2-look OLL/PLL if you know it", "Otherwise use the beginner last layer", "The keyhole advantage is entirely in the first two layers"]
+    }
+  ],
+  "pros": ["Faster than beginner method without learning full F2L", "Only requires 2-3 new concepts, not dozens of algorithms", "Natural stepping stone to intuitive F2L", "Easy to understand — the 'keyhole' concept is intuitive", "Can be combined with any last layer approach"],
+  "cons": ["Slower than full F2L", "Still uses beginner-like first layer corners", "Not a standalone competitive method", "Most cubers skip this and go straight to intuitive F2L"],
+  "notableUsers": [],
+  "relatedSets": ["EOLL", "OCLL", "CPLL", "EPLL"],
+  "avgMoveCount": "80-100",
+  "yearCreated": 1981,
+  "creator": "Various",
+  "puzzle": "3x3"
+}

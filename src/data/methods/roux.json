@@ -1,0 +1,40 @@
+{
+  "id": "roux",
+  "name": "Roux",
+  "description": "A block-building method that relies heavily on M-slice moves. Known for low move count and ergonomic turning. Growing in popularity among top solvers.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "First Block (FB)",
+      "description": "Build a 1x2x3 block on the left side of the cube, containing the DL edge, two F2L pairs.",
+      "moveCountRange": "7-9 moves",
+      "tips": ["Plan first block in inspection", "Use wide moves for efficiency", "Practice multiple solutions for same scramble"]
+    },
+    {
+      "name": "Second Block (SB)",
+      "description": "Build a 1x2x3 block on the right side of the cube, mirroring the first block.",
+      "moveCountRange": "14-16 moves",
+      "tips": ["Look ahead to DR edge during FB", "Learn to track pieces efficiently", "Practice M-slice fluency"]
+    },
+    {
+      "name": "CMLL",
+      "description": "Solve the corners of the last layer while ignoring M-slice edges. 42 algorithms.",
+      "algorithmSets": ["CMLL"],
+      "moveCountRange": "9-11 moves",
+      "tips": ["CMLL has easier recognition than COLL", "42 algorithms total", "Many cases share similar triggers"]
+    },
+    {
+      "name": "LSE (Last Six Edges)",
+      "description": "Solve the remaining 6 edges using only M and U moves. Three sub-steps: EO, UL/UR, EP.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Master M U generators", "Edge orientation is key", "Practice 4c (last 4 edges) separately"]
+    }
+  ],
+  "pros": ["Low move count (~48 moves)", "Ergonomic M-slice moves", "Less algorithm-heavy than CFOP", "Rotationless solving"],
+  "cons": ["Fewer resources than CFOP", "Block building requires good visualization", "M-slice speed needed", "Harder inspection planning"],
+  "notableUsers": ["Kian Mansour", "Sean Patrick Villanueva"],
+  "relatedSets": ["CMLL"],
+  "avgMoveCount": "46-50",
+  "yearCreated": 2003,
+  "creator": "Gilles Roux"
+}

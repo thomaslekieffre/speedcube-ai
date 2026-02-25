@@ -1,0 +1,35 @@
+{
+  "id": "snyder",
+  "name": "Snyder",
+  "description": "An early advanced method created by Anthony Snyder in 1982. The Snyder method starts with a 2x2x2 block, expands into a complete first two layers, then finishes with a custom last layer approach. It was ahead of its time in using blockbuilding concepts and influenced later methods. The method aims for a low move count through efficient F2L construction and specialized last layer algorithms.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "2x2x2 Block",
+      "description": "Build a 2x2x2 block in any corner of the cube. This is done intuitively by pairing a corner with its three adjacent edges and building outward.",
+      "moveCountRange": "4-7 moves",
+      "tips": ["Plan the entire block during inspection", "Color neutrality allows choosing the easiest block", "Look for pre-formed pairs in the scramble"]
+    },
+    {
+      "name": "F2L Completion",
+      "description": "Expand the 2x2x2 block to complete the entire first two layers. This involves solving the remaining corners and edges of the bottom two layers using a combination of blockbuilding and pair insertion techniques.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "18-24 moves",
+      "tips": ["Extend the block into a 2x2x3 first when possible", "Use efficient pair insertions to minimize moves", "Plan transitions to avoid cube rotations"]
+    },
+    {
+      "name": "Custom Last Layer",
+      "description": "Solve the last layer using Snyder's specialized algorithm set. The method uses a unique approach to the last layer that can involve partial or full one-look solutions depending on the case recognized. Snyder developed custom algorithms optimized for move count.",
+      "algorithmSets": ["OLL", "PLL", "COLL"],
+      "moveCountRange": "12-18 moves",
+      "tips": ["Snyder's LL approach predates modern OLL/PLL standardization", "COLL can be used as a modern substitute for corner cases", "Recognition requires practice with the custom case set"]
+    }
+  ],
+  "pros": ["Very low move count (~40-50 moves)", "Pioneering blockbuilding approach", "Efficient F2L construction", "Historically significant in method development", "Teaches strong fundamental cube understanding"],
+  "cons": ["Extremely limited modern resources", "Custom last layer algorithms are not widely documented", "Not competitive with modern optimized methods", "Requires strong blockbuilding intuition", "Almost no community support or development"],
+  "notableUsers": ["Anthony Snyder"],
+  "relatedSets": ["F2L", "OLL", "PLL", "COLL"],
+  "avgMoveCount": "40-50",
+  "yearCreated": 1982,
+  "creator": "Anthony Snyder"
+}

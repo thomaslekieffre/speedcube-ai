@@ -1,0 +1,40 @@
+{
+  "id": "yruru",
+  "name": "YruRU",
+  "description": "YruRU is a modern CP-first method created by Yash Mehta in 2020. It solves corner permutation and a line on the bottom (CP Line), then expands into a 1x2x3 block, orients edges while building the right block, and finishes with a reduced last layer. The method is designed to be particularly ergonomic for one-handed (OH) solving due to its RU-dominant moveset. It shares philosophical roots with other CP-first approaches but offers a unique step sequence.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "CP Line",
+      "description": "Solve corner permutation for all 8 corners while simultaneously placing two bottom-layer edges to form a line (similar to ZZ's EOLine but for CP). This ensures corners only need orientation later.",
+      "moveCountRange": "6-9 moves",
+      "tips": ["Learn to recognize corner permutation states quickly", "Plan the full CP Line during inspection", "Only 12 CP states to learn", "Practice tracing corner cycles"]
+    },
+    {
+      "name": "Expand to 1x2x3",
+      "description": "Extend the line into a full 1x2x3 block on the left side by adding two corners and an edge. This creates the foundation for the rest of the solve.",
+      "moveCountRange": "5-8 moves",
+      "tips": ["Look ahead during CP Line to plan this step", "Minimize rotations by using wide moves", "Block should be on the left to enable RU solving"]
+    },
+    {
+      "name": "EO + Right Block",
+      "description": "Orient all remaining edges while simultaneously building the right-side 1x2x3 block. Since CP is already solved, this step focuses on EO and blockbuilding using primarily R and U moves.",
+      "moveCountRange": "16-20 moves",
+      "tips": ["Combine EO with pair insertion when possible", "RU moveset is very ergonomic, especially for OH", "Track edge orientation during left block construction"]
+    },
+    {
+      "name": "Reduced Last Layer",
+      "description": "Solve the last layer with a reduced set of algorithms. Corner permutation and edge orientation are already resolved, so only corner orientation and edge permutation remain. This can be done with 2GLL, COLL+EPLL, or other reduced sets.",
+      "algorithmSets": ["COLL", "PLL"],
+      "moveCountRange": "10-14 moves",
+      "tips": ["Only ~30 cases with CP and EO pre-solved", "COLL + EPLL is the standard approach", "Recognition is much simpler than full OLL+PLL"]
+    }
+  ],
+  "pros": ["Excellent for one-handed (OH) solving", "RU-dominant moveset is highly ergonomic", "Reduced last layer due to CP-first approach", "Low move count (~42-50 moves)", "Modern design with active development"],
+  "cons": ["CP recognition has a steep learning curve", "Planning CP Line in inspection is challenging", "Very new method with limited proven results", "Small community and few resources", "Requires understanding of corner permutation theory"],
+  "notableUsers": ["Yash Mehta"],
+  "relatedSets": ["COLL", "PLL"],
+  "avgMoveCount": "42-50",
+  "yearCreated": 2020,
+  "creator": "Yash Mehta"
+}

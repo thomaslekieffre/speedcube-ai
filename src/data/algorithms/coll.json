@@ -1,0 +1,610 @@
+{
+  "id": "coll",
+  "name": "COLL",
+  "puzzle": "3x3",
+  "description": "Corners of the Last Layer - 40 cases. These algorithms orient and permute corners while preserving edge orientation, leaving only an EPLL to solve.",
+  "category": "last-layer",
+  "caseCount": 40,
+  "algorithms": [
+    {
+      "id": "coll-as1",
+      "name": "COLL AS 1",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "y R U2 R' U' R U' R'",
+      "alternatives": [
+        { "notation": "R' U' R U' R' U2 R", "moveCount": 7, "votes": 14 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 16,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-as2",
+      "name": "COLL AS 2",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "y2 R2 D R' U R D' R' U R' U' R U' R'",
+      "alternatives": [
+        { "notation": "y R' U' R U' R' U R' D' R U R' D R2", "moveCount": 13, "votes": 4 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-as3",
+      "name": "COLL AS 3",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "y2 R2 D R' U2 R D' R2 U' R U' R'",
+      "alternatives": [
+        { "notation": "R' U' F' R U R' U' R' F R2 U' R' U R", "moveCount": 14, "votes": 2 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-as4",
+      "name": "COLL AS 4",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "y2 R' U' R U' R2 D' R U2 R' D R2",
+      "alternatives": [
+        { "notation": "y2 R U2 R' U2 r' F R F' M'", "moveCount": 9, "votes": 3 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-as5",
+      "name": "COLL AS 5",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "y2 r' F R F' r U R'",
+      "alternatives": [
+        { "notation": "R' U L U' R U L'", "moveCount": 7, "votes": 7 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 10,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-as6",
+      "name": "COLL AS 6",
+      "set": "COLL",
+      "subset": "Anti Sune",
+      "puzzle": "3x3",
+      "notation": "R U' R' U2 R U' R' U2 R' D' R U R' D R",
+      "alternatives": [
+        { "notation": "R U2 r' F R' F' r U' R U' R'", "moveCount": 11, "votes": 4 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s1",
+      "name": "COLL S 1",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U2 R'",
+      "alternatives": [
+        { "notation": "y' R' U2 R U R' U R", "moveCount": 7, "votes": 4 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s2",
+      "name": "COLL S 2",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' U R2 D R' U2 R D' R2",
+      "alternatives": [
+        { "notation": "r' F2 r U2 R U' r' F M'", "moveCount": 9, "votes": 3 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s3",
+      "name": "COLL S 3",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "L' R U R' U' L U2 R U2 R'",
+      "alternatives": [
+        { "notation": "y2 R2 D' R U2 R' D R2 U R' U R", "moveCount": 11, "votes": 4 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s4",
+      "name": "COLL S 4",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U R U' R D R' U' R D' R2",
+      "alternatives": [
+        { "notation": "y' F R' U2 R F' R' F U2 F' R", "moveCount": 10, "votes": 2 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s5",
+      "name": "COLL S 5",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "R U' L' U R' U' L",
+      "alternatives": [
+        { "notation": "R U' r' F R' F' r", "moveCount": 7, "votes": 7 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-s6",
+      "name": "COLL S 6",
+      "set": "COLL",
+      "subset": "Sune",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' F' R U R' U R U2 R' F R U' R'",
+      "alternatives": [
+        { "notation": "y2 R U R' U r' F R F' r U2 R'", "moveCount": 11, "votes": 4 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l1",
+      "name": "COLL L 1",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U R U' R' U R U' R' U R U2 R'",
+      "alternatives": [
+        { "notation": "y' R U2 R' U' R U R' U' R U R' U' R U' R'", "moveCount": 15, "votes": 9 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 16,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l2",
+      "name": "COLL L 2",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "R' U2 R' D' R U2 R' D R2",
+      "alternatives": [
+        { "notation": "R U R' U2 L U' R U L' U R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 25,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l3",
+      "name": "COLL L 3",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "y R U2 R D R' U2 R D' R2",
+      "alternatives": [
+        { "notation": "U2 R U2 R2 D' R U' R' D R2 U' R'", "moveCount": 11, "votes": 3 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l4",
+      "name": "COLL L 4",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "y F R' F' r U R U' r'",
+      "alternatives": [
+        { "notation": "y2 R2 D R' U R D' R' U' R'", "moveCount": 9, "votes": 2 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 21,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l5",
+      "name": "COLL L 5",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "y2 F' r U R' U' r' F R",
+      "alternatives": [
+        { "notation": "y x R' U R D' R' U' R D x'", "moveCount": 8, "votes": 3 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 19,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-l6",
+      "name": "COLL L 6",
+      "set": "COLL",
+      "subset": "L",
+      "puzzle": "3x3",
+      "notation": "y r U2 R2 F R F' R U2 r'",
+      "alternatives": [
+        { "notation": "y' R' U' R U R' F' R U R' U' R' F R2", "moveCount": 13, "votes": 11 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u1",
+      "name": "COLL U 1",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "R' U' R U' R' U2 R2 U R' U R U2 R'",
+      "alternatives": [
+        { "notation": "y2 R U R' U R U2 R2 U' R U' R' U2 R", "moveCount": 13, "votes": 3 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 21,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u2",
+      "name": "COLL U 2",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "R' F R U' R' U' R U R' F' R U R' U' R' F R F' R",
+      "alternatives": [
+        { "notation": "y' r U R' U' r' F R2 U' R' U' R U2 R' U' F'", "moveCount": 15, "votes": 6 }
+      ],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 19,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u3",
+      "name": "COLL U 3",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "y2 R2 D R' U2 R D' R' U2 R'",
+      "alternatives": [
+        { "notation": "R' U R U R' F' R U R' U' R' F R2 U' R' U' R", "moveCount": 17, "votes": 2 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 16,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u4",
+      "name": "COLL U 4",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "F R U' R' U R U R' U R U' R' F'",
+      "alternatives": [
+        { "notation": "y2 R' F2 R U2 R U2 R' F2 R U2 R'", "moveCount": 11, "votes": 4 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 18,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u5",
+      "name": "COLL U 5",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "R2 D' R U2 R' D R U2 R",
+      "alternatives": [
+        { "notation": "y2 L2 D' L U2 L' D L U2 L", "moveCount": 9, "votes": 2 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-u6",
+      "name": "COLL U 6",
+      "set": "COLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "R2 D' R U R' D R U R U' R' U' R",
+      "alternatives": [
+        { "notation": "R' U2 R F U' R' U' R U F'", "moveCount": 10, "votes": 13 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 16,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t1",
+      "name": "COLL T 1",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U' R2 U2 R U R' U R",
+      "alternatives": [
+        { "notation": "y' R U R2 U' R2 U' R2 U2 R U' R U' R'", "moveCount": 13, "votes": 2 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 18,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t2",
+      "name": "COLL T 2",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "R' U R U2 R' L' U R U' L",
+      "alternatives": [
+        { "notation": "R' U R U2 r' R' F R F' r", "moveCount": 10, "votes": 5 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t3",
+      "name": "COLL T 3",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "y R' F' r U R U' r' F",
+      "alternatives": [
+        { "notation": "y l' U' L U R U' r' F", "moveCount": 8, "votes": 8 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t4",
+      "name": "COLL T 4",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "y2 F R U R' U' R U' R' U' R U R' F'",
+      "alternatives": [
+        { "notation": "y2 F R' D' R U2 R' D R U2 F'", "moveCount": 10, "votes": 2 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 14,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t5",
+      "name": "COLL T 5",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "y' r U R' U' r' F R F'",
+      "alternatives": [
+        { "notation": "R U R D R' U' R D' R2", "moveCount": 9, "votes": 4 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-t6",
+      "name": "COLL T 6",
+      "set": "COLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "R' U R2 D r' U2 r D' R2 U' R",
+      "alternatives": [
+        { "notation": "y2 R U' R2 D' r U2 r' D R2 U R'", "moveCount": 11, "votes": 5 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 15,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi1",
+      "name": "COLL Pi 1",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "R U2 R2 U' R2 U' R2 U2 R",
+      "alternatives": [
+        { "notation": "R' U2 R2 U R2 U R2 U2 R'", "moveCount": 9, "votes": 4 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi2",
+      "name": "COLL Pi 2",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "y F U R U' R' U R U' R2 F' R U R U' R'",
+      "alternatives": [
+        { "notation": "R' F2 R U2 R U2 R' F2 U' R U' R'", "moveCount": 12, "votes": 9 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi3",
+      "name": "COLL Pi 3",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "R' U' F' R U R' U' R' F R2 U2 R' U2 R",
+      "alternatives": [
+        { "notation": "y F U R U' R' U R U2 R' U' R U R' F'", "moveCount": 14, "votes": 11 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi4",
+      "name": "COLL Pi 4",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R' F R2 U R' U' R U R' U' F'",
+      "alternatives": [
+        { "notation": "R U2 R' U' R U R' U2 r' F R F' M'", "moveCount": 13, "votes": 1 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 14,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi5",
+      "name": "COLL Pi 5",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "R U' L' U R' U L U L' U L",
+      "alternatives": [
+        { "notation": "y' R U2 R' U R' D' R U2 R' D R2 U' R'", "moveCount": 13, "votes": 8 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-pi6",
+      "name": "COLL Pi 6",
+      "set": "COLL",
+      "subset": "Pi",
+      "puzzle": "3x3",
+      "notation": "R' F' U' F U' R U S' R' U R S",
+      "alternatives": [
+        { "notation": "y' r U R' U R' F R F' R U' R' U R U2 r'", "moveCount": 15, "votes": 12 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 14,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-h1",
+      "name": "COLL H 1",
+      "set": "COLL",
+      "subset": "H",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U' R' U R U2 R'",
+      "alternatives": [
+        { "notation": "y' R U2 R' U' R U R' U' R U' R'", "moveCount": 11, "votes": 15 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 23,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-h2",
+      "name": "COLL H 2",
+      "set": "COLL",
+      "subset": "H",
+      "puzzle": "3x3",
+      "notation": "F R U' R' U R U2 R' U' R U R' U' F'",
+      "alternatives": [
+        { "notation": "f R2 S' U' R2 U' R2 U R2 F'", "moveCount": 10, "votes": 7 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 21,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-h3",
+      "name": "COLL H 3",
+      "set": "COLL",
+      "subset": "H",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U L' U R' U' L",
+      "alternatives": [
+        { "notation": "R U R' U R U r' F R' F' r", "moveCount": 11, "votes": 10 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "coll-h4",
+      "name": "COLL H 4",
+      "set": "COLL",
+      "subset": "H",
+      "puzzle": "3x3",
+      "notation": "y F R U R' U' R U R' U' R U R' U' F'",
+      "alternatives": [
+        { "notation": "y F U R U' R' U R U' R' U R U' R' F'", "moveCount": 14, "votes": 10 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 16,
+      "source": "speedcubedb"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "hd-method",
+  "name": "HD (Higgs-Demars)",
+  "description": "The HD (Higgs-Demars) method is an advanced 2x2 speedsolving technique. It involves solving one face first, then using HD-specific algorithms to complete the puzzle. The method leverages a streamlined algorithm set related to CLL, allowing for very low move counts and fast solves.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Solve First Face",
+      "description": "Solve one complete face of the 2x2 cube. Unlike the Ortega method, pieces should be correctly permuted relative to each other on this face, forming a proper layer.",
+      "moveCountRange": "3-6",
+      "tips": [
+        "Plan the entire first face during inspection",
+        "Try to influence the second layer during the first face solve",
+        "Color neutrality greatly improves efficiency for this step"
+      ]
+    },
+    {
+      "name": "HD Algorithms",
+      "description": "Apply HD algorithms to solve the remaining layer in one step. These algorithms simultaneously orient and permute all remaining pieces, similar to CLL but with HD-specific optimizations.",
+      "algorithmSets": ["CLL"],
+      "moveCountRange": "5-9",
+      "tips": [
+        "Learn to recognize cases from multiple angles",
+        "Drill algorithm execution for speed",
+        "Some cases have multiple algorithm options — choose the most ergonomic one"
+      ]
+    }
+  ],
+  "pros": [
+    "Very low move count (11-15 moves average)",
+    "One-look second step for fast finishes",
+    "Builds on CLL knowledge",
+    "Efficient for one-handed solving"
+  ],
+  "cons": [
+    "Requires learning a significant number of algorithms",
+    "First face must be solved correctly (not just oriented)",
+    "Less widely documented than Ortega or EG",
+    "Recognition can be difficult at first"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["CLL"],
+  "avgMoveCount": "11-15",
+  "creator": "Higgs & Demars"
+}

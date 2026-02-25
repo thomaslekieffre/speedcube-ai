@@ -1,0 +1,889 @@
+{
+  "id": "fruf",
+  "name": "FRUF",
+  "puzzle": "3x3",
+  "description": "F R U F' last-layer algorithms - 42 cases",
+  "category": "last-layer",
+  "caseCount": 42,
+  "algorithms": [
+    {
+      "id": "fruf-fruf-1",
+      "name": "FRUF 1",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F R' F' R F'",
+      "alternatives": [
+        {
+          "notation": "F' L' U2 L",
+          "moveCount": 4,
+          "votes": 2
+        },
+        {
+          "notation": "F' U L' U L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "L' U' L U U2' F",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-2",
+      "name": "FRUF 2",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U F'",
+      "alternatives": [
+        {
+          "notation": "U x R2 F R F' R U2 r' U r U x'",
+          "moveCount": 12,
+          "votes": 6
+        },
+        {
+          "notation": "U F' U' l' U' L U' L' U2 l U x R2 D2 R U R' D2 R U' R x'",
+          "moveCount": 21,
+          "votes": 3
+        },
+        {
+          "notation": "U3' F3",
+          "moveCount": 2
+        }
+      ],
+      "moveCount": 1,
+      "setup": "L F' L' F U2' F U",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-3",
+      "name": "FRUF 3",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U' F'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' F'",
+          "moveCount": 4,
+          "votes": 1
+        }
+      ],
+      "moveCount": 5,
+      "setup": "F U' F' U2' F U",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-4",
+      "name": "FRUF 4",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F' U' L' U L",
+      "alternatives": [
+        {
+          "notation": "F' r U' r' F",
+          "moveCount": 5,
+          "votes": 1
+        },
+        {
+          "notation": "U2 F' U' L' U' L",
+          "moveCount": 5
+        },
+        {
+          "notation": "U R U2 R' U' F R' F' R F'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 5,
+      "setup": "L' U L U F U2'",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-5",
+      "name": "FRUF 5",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' F R' F' R U2 R U2 R' F'",
+      "alternatives": [
+        {
+          "notation": "R' F R F' R U2 R' U F'",
+          "moveCount": 9,
+          "votes": 1
+        },
+        {
+          "notation": "U' L' U' L U L F' L2 U2 L",
+          "moveCount": 9
+        },
+        {
+          "notation": "U' R' F' U' F U R F'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U' L U2 L' U L U' U F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-6",
+      "name": "FRUF 6",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U R' U2 F'",
+      "alternatives": [],
+      "moveCount": 5,
+      "setup": "l' U L U L' U' l U' U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-7",
+      "name": "FRUF 7",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' L' U' L U L F' L2 U' L",
+      "alternatives": [
+        {
+          "notation": "U F' U2 L' U L U' L' U L",
+          "moveCount": 9
+        },
+        {
+          "notation": "F' U' L' U2 L U' L' U L",
+          "moveCount": 9
+        },
+        {
+          "notation": "U F' U2 L' U L U' r' F r",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U' L U2 L' U2' L U' U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-8",
+      "name": "FRUF 8",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U2 F'",
+      "alternatives": [
+        {
+          "notation": "U' R2 U2 R2 U' R2 U' R2 F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 5,
+      "setup": "l U L2' U L2 U2 l' U F U2'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-9",
+      "name": "FRUF 9",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U2 R' F'",
+      "alternatives": [
+        {
+          "notation": "U R U' R' U R U R' U2 F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "F' U' L' U L U2 L' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "F U' F' U L' U' L U' U F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-10",
+      "name": "FRUF 10",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' F2",
+      "alternatives": [
+        {
+          "notation": "U r U' r' U2 r U r' F'",
+          "moveCount": 8,
+          "votes": 1
+        },
+        {
+          "notation": "U r U R' U' r' R F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R U' R' U F' U' L' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U L U L' U L U' U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-11",
+      "name": "FRUF 11",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R' U2 R2 U R2 U R2 U R' F'",
+      "alternatives": [
+        {
+          "notation": "y' U R' U' R U R' U' R U R'",
+          "moveCount": 9,
+          "votes": 1
+        },
+        {
+          "notation": "R U' R' U R U' R' U2 F'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "F U' F' U L' U2 L U' U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-12",
+      "name": "FRUF 12",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U2 r' F' r U r U' r'",
+      "alternatives": [
+        {
+          "notation": "F R' F' R U' R U' R' U F'",
+          "moveCount": 10,
+          "votes": 1
+        },
+        {
+          "notation": "U' R U R' U2 M' U R U' r' F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "U' F' y' U R U2 R' U F' U' F",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "L U L2' U L2 U2' L' U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-13",
+      "name": "FRUF 13",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U' R' U R U2 R' F'",
+      "alternatives": [
+        {
+          "notation": "U2 F' U2 F U' F' U F U F'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U' L F' L F L' U L' U' L U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-14",
+      "name": "FRUF 14",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U R' F' U L' U' L",
+      "alternatives": [
+        {
+          "notation": "U2 F' L' U L U' L' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "R U R' U' R' F R F' U F'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U L U L' U' L U' U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-15",
+      "name": "FRUF 15",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U R U2 R' F' L' U' L",
+      "alternatives": [
+        {
+          "notation": "U F R' F' R2 U' R' U2 F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "F' U2 L' U' L U' L' U L",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' R' F' U' L' U' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "L' U' L U L' U' L U2 L' U L U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-16",
+      "name": "FRUF 16",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R' D' R U' R' D R U F'",
+      "alternatives": [
+        {
+          "notation": "U2 M' U R U' r' U2 F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R U R' U2 R U' R' U F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "F' U L' U L U2 L' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "F U' F' U2 L' U' L U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-17",
+      "name": "FRUF 17",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U' R' U F'",
+      "alternatives": [
+        {
+          "notation": "U2 R U R' U M' U R U' r' F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "U F' L' U' L U L' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "R U R' U' R U2 R' U F' L' U2 L",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U L U' L' U2 L U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-18",
+      "name": "FRUF 18",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U2 R' F'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "L' U' L U L' U' L F' L F L' U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-19",
+      "name": "FRUF 19",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U F2 r U r'",
+      "alternatives": [
+        {
+          "notation": "R U' R2 F R F2",
+          "moveCount": 6
+        },
+        {
+          "notation": "U S R U2 R' U' R U2 R' f'",
+          "moveCount": 9
+        },
+        {
+          "notation": "F' U2 F U' F' L' U2 L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U' L U L' U2 L U U F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-20",
+      "name": "FRUF 20",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U R U2 R' U F'",
+      "alternatives": [],
+      "moveCount": 5,
+      "setup": "L' U' L F' L F L2 U' L U' U2' F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-21",
+      "name": "FRUF 21",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F' L' U' L",
+      "alternatives": [],
+      "moveCount": 4,
+      "setup": "L' U' L U L' U L F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-22",
+      "name": "FRUF 22",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U R' U F'",
+      "alternatives": [
+        {
+          "notation": "F' U L F' L' F U' F U F'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 5,
+      "setup": "F R U2 R' F' U F U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-23",
+      "name": "FRUF 23",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F U R U' R' F2",
+      "alternatives": [
+        {
+          "notation": "U' R U R2 F R F2",
+          "moveCount": 6,
+          "votes": 1
+        },
+        {
+          "notation": "F' U' F U' F' U L' U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U' L U L' U' L U' L' U' L U U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-24",
+      "name": "FRUF 24",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U' R U' R' U F'",
+      "alternatives": [
+        {
+          "notation": "U2 R U R' U' R U' R' U2 F'",
+          "moveCount": 9,
+          "votes": 1
+        },
+        {
+          "notation": "U' R' U' R U' R' U2 R F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U2 r U R' U' r' R U2 F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U' L F' L' U' L U F U2' F U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-25",
+      "name": "FRUF 25",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U2 R U R' M' U R U' r' F'",
+      "alternatives": [
+        {
+          "notation": "U R U' R' U' F' L' U2 L",
+          "moveCount": 8
+        },
+        {
+          "notation": "U R U' R' U2 F' U L' U2 L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U L F' L F L' U' F R U' R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-26",
+      "name": "FRUF 26",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "y U' L' U L U L'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U' R U' R' U R U2 R' F'",
+          "moveCount": 12,
+          "votes": 1
+        },
+        {
+          "notation": "R U R' U2 R U R' U2 F'",
+          "moveCount": 9,
+          "votes": 1
+        },
+        {
+          "notation": "U' F' U F U F'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "L F' L' F L' U' L U U' F R U' R'",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-27",
+      "name": "FRUF 27",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R' F R F' U F'",
+      "alternatives": [
+        {
+          "notation": "U F' U L' U' L",
+          "moveCount": 5
+        },
+        {
+          "notation": "U2 R U' R' F' U' L' U L",
+          "moveCount": 8
+        },
+        {
+          "notation": "y L' U' L U L' y' U' L' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U L U' L' U L F R U' R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-28",
+      "name": "FRUF 28",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U' R' F R F2",
+      "alternatives": [
+        {
+          "notation": "R U' R' F2 r U r'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R U2 R' F' U L' U2 L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U' L F U R' F R F' U R U' R'",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-29",
+      "name": "FRUF 29",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R U2 R' F'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "L' U' L U F' L F L' U' F R U' R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-30",
+      "name": "FRUF 30",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U F'",
+      "alternatives": [
+        {
+          "notation": "y' R' U R' F R F' U'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 5,
+      "setup": "F U' R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-31",
+      "name": "FRUF 31",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "F2 r U r'",
+      "alternatives": [
+        {
+          "notation": "F2 L F L'",
+          "moveCount": 4
+        },
+        {
+          "notation": "U' R' F R F2",
+          "moveCount": 4
+        },
+        {
+          "notation": "F' U F U' F'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 4,
+      "setup": "L' U' L F' L F L' U' L' U L U2 F",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-32",
+      "name": "FRUF 32",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U R U' R' U F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "L' U L U' L F' L' F U' L' U L U2 F",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-33",
+      "name": "FRUF 33",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U R U2 R' F'",
+      "alternatives": [
+        {
+          "notation": "U R U R' U2 R U2 R' F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U' L U2 L' U' L U' L' U L U2 F",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-34",
+      "name": "FRUF 34",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U' R U' R' U2 F'",
+      "alternatives": [],
+      "moveCount": 5,
+      "setup": "L' U L U2 L' U L U L' U L U2 F",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-35",
+      "name": "FRUF 35",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "y' U2 R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "U2 F' U' F U F'",
+          "moveCount": 5
+        },
+        {
+          "notation": "U2 y' R' U' R U R'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "L F' L' F L' U L U2 L' U L U2 F",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-36",
+      "name": "FRUF 36",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "U M' U R U' r' F'",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U F' U' L' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U L U' F U' F' U L' U L U2 F",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-37",
+      "name": "FRUF 37",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U' R' U R U' R' U2 F'",
+      "alternatives": [
+        {
+          "notation": "y' R' U R' U2 R2 U R2 U R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 13,
+      "setup": "L' U L' U2 F' L2 F U2 L2 F U' R' F R F'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-38",
+      "name": "FRUF 38",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U2 R' U F'",
+      "alternatives": [
+        {
+          "notation": "F' U L' U2 L U L' U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "L' U' L U2 L' U L U' L' U' L F U' R' F R F'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-39",
+      "name": "FRUF 39",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' U' R U R' U2 F'",
+      "alternatives": [
+        {
+          "notation": "F' U2 L' U L U' L' U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "F U2 R U' R' U R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-40",
+      "name": "FRUF 40",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' F' L' U' L",
+      "alternatives": [
+        {
+          "notation": "y' R' U' R2 U2 R' U' R U' R2",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "L' U L R' F R U2 R' F' R F U' R' F R F'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-41",
+      "name": "FRUF 41",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' R' F R U R' U' F2",
+      "alternatives": [
+        {
+          "notation": "R U' R' U' F' U F U' F' U L' U' L",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "l' U l U2 l' U' l L' U' L F U' R' F R F'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "fruf-fruf-42",
+      "name": "FRUF 42",
+      "set": "FRUF",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "y F U F' L'",
+      "alternatives": [
+        {
+          "notation": "R U R' F'",
+          "moveCount": 4,
+          "votes": 2
+        }
+      ],
+      "moveCount": 4,
+      "setup": "F R U' R'",
+      "votes": 4,
+      "source": "speedcubedb"
+    }
+  ]
+}

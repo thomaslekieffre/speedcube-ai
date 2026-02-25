@@ -1,0 +1,101 @@
+{
+  "id": "epll",
+  "name": "EPLL",
+  "puzzle": "3x3",
+  "description": "Edge Permutation of the Last Layer - 4 cases. Used in ZZ, Petrus, and other EO-first methods where edges are already oriented after OLL, leaving only edge permutation.",
+  "category": "last-layer",
+  "caseCount": 4,
+  "algorithms": [
+    {
+      "id": "epll-ua",
+      "name": "EPLL Ua",
+      "set": "EPLL",
+      "subset": "3-Cycle",
+      "puzzle": "3x3",
+      "notation": "M2 U M U2 M' U M2",
+      "alternatives": [
+        {
+          "notation": "R U' R U R U R U' R' U' R2",
+          "moveCount": 11,
+          "votes": 55
+        },
+        {
+          "notation": "y2 R2 U' R' U' R U R U R U' R",
+          "moveCount": 11,
+          "votes": 30
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 175,
+      "source": "curated"
+    },
+    {
+      "id": "epll-ub",
+      "name": "EPLL Ub",
+      "set": "EPLL",
+      "subset": "3-Cycle",
+      "puzzle": "3x3",
+      "notation": "M2 U' M U2 M' U' M2",
+      "alternatives": [
+        {
+          "notation": "R2 U R U R' U' R' U' R' U R'",
+          "moveCount": 11,
+          "votes": 50
+        },
+        {
+          "notation": "y2 R' U R' U' R' U' R' U R U R2",
+          "moveCount": 11,
+          "votes": 28
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 170,
+      "source": "curated"
+    },
+    {
+      "id": "epll-h",
+      "name": "EPLL H",
+      "set": "EPLL",
+      "subset": "Double Swap",
+      "puzzle": "3x3",
+      "notation": "M2 U M2 U2 M2 U M2",
+      "alternatives": [
+        {
+          "notation": "R2 U2 R U2 R2 U2 R2 U2 R U2 R2",
+          "moveCount": 11,
+          "votes": 20
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 160,
+      "source": "curated"
+    },
+    {
+      "id": "epll-z",
+      "name": "EPLL Z",
+      "set": "EPLL",
+      "subset": "Double Swap",
+      "puzzle": "3x3",
+      "notation": "M' U M2 U M2 U M' U2 M2",
+      "alternatives": [
+        {
+          "notation": "M2 U M2 U M' U2 M2 U2 M'",
+          "moveCount": 9,
+          "votes": 40
+        },
+        {
+          "notation": "U M' U M2 U M2 U M' U2 M2 U'",
+          "moveCount": 11,
+          "votes": 15
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 130,
+      "source": "curated"
+    }
+  ]
+}

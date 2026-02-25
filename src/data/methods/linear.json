@@ -1,0 +1,65 @@
+{
+  "id": "linear",
+  "name": "Linear (Clock)",
+  "description": "A beginner-to-intermediate Clock method that solves each clock face one at a time in a fixed, linear order. The solver works through each of the 14 clock faces (9 front, 9 back, sharing 4 corner clocks) systematically, pressing pins to isolate individual faces and turning wheels to set each one to 12 o'clock. While not as fast as the simultaneous method, the linear approach is straightforward and easy to learn, making it the standard beginner method for Clock.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Solve Corner Clocks (Front)",
+      "description": "Solve the four corner clock faces on the front side one at a time. For each corner clock, press the pins to isolate that clock face, then turn the nearest wheel to set it to 12 o'clock. Work through all four corners systematically.",
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Press all pins down, then raise only the one at the corner you are solving",
+        "Turn the wheel closest to the target clock face",
+        "Work in a consistent order (e.g., clockwise from top-right)"
+      ]
+    },
+    {
+      "name": "Solve Edge Clocks (Front)",
+      "description": "Solve the four edge clock faces on the front side. Each edge clock is between two corner clocks. Press pins to isolate two adjacent corners and turn the wheel between them to set the edge clock.",
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Edge clocks are affected by two wheels",
+        "Press the two pins adjacent to the edge clock up, others down",
+        "Be careful not to undo previously solved corner clocks"
+      ]
+    },
+    {
+      "name": "Solve Center Clock (Front)",
+      "description": "Solve the center clock face on the front. Press all pins to the down position and turn any wheel to adjust the center. The center clock is affected by all four wheels when all pins are down.",
+      "moveCountRange": "1-2 moves",
+      "tips": [
+        "All pins down means all wheels affect the center equally",
+        "Only one turn needed to set the center",
+        "This is the easiest step"
+      ]
+    },
+    {
+      "name": "Flip and Solve Back",
+      "description": "Flip the Clock and repeat the process for the back side: solve corner clocks, edge clocks, and the center clock in order. Be mindful that back-side turns can affect front-side clocks through shared pins.",
+      "moveCountRange": "8-14 moves",
+      "tips": [
+        "The back side shares gear connections with the front",
+        "Solve back corners, then edges, then center",
+        "Check the front side after solving the back to verify nothing was disturbed",
+        "With experience, you can anticipate and prevent front-side disruptions"
+      ]
+    }
+  ],
+  "pros": [
+    "Easy to learn and understand",
+    "Systematic and predictable approach",
+    "Good introduction to Clock mechanics",
+    "Minimal memorization required",
+    "Each step is simple and isolated"
+  ],
+  "cons": [
+    "Slow compared to the simultaneous method",
+    "Many individual moves add up to a high total",
+    "Back-side solving can disrupt front-side clocks",
+    "Not competitive for speedcubing at high levels"
+  ],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "18-30"
+}

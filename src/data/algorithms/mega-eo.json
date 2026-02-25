@@ -1,0 +1,49 @@
+{
+  "id": "mega-eo",
+  "name": "Megaminx EO",
+  "puzzle": "Megaminx",
+  "description": "Megaminx Edge Orientation - 3 algorithms for orienting edges on the last layer of the Megaminx.",
+  "category": "Orientation",
+  "caseCount": 3,
+  "algorithms": [
+    {
+      "id": "mega-eo-1",
+      "name": "EO1",
+      "set": "Megaminx EO",
+      "subset": "Edge Orientation",
+      "puzzle": "Megaminx",
+      "notation": "F R U R' U' F'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-eo-2",
+      "name": "EO2",
+      "set": "Megaminx EO",
+      "subset": "Edge Orientation",
+      "puzzle": "Megaminx",
+      "notation": "F U R U' R' F'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-eo-3",
+      "name": "EO3",
+      "set": "Megaminx EO",
+      "subset": "Edge Orientation",
+      "puzzle": "Megaminx",
+      "notation": "F R U2 R2' F R F' U2' F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 15,
+      "source": "speedcubedb"
+    }
+  ]
+}

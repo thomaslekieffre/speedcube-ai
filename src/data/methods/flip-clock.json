@@ -1,0 +1,58 @@
+{
+  "id": "flip-clock",
+  "name": "Flip Method (Clock)",
+  "description": "The Flip method is a beginner-friendly Clock solving technique. It solves the front cross first, then the front corners, flips the puzzle, and solves the entire back side. This approach completes the front face fully before moving to the back, providing a straightforward and intuitive solving experience.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Front Cross",
+      "description": "Solve the four edge clocks on the front face to form a cross pattern. Use appropriate pin configurations to isolate and set each edge clock to 12 o'clock.",
+      "tips": [
+        "Develop a consistent solving order for the four edges",
+        "Press pins carefully to avoid affecting non-target clocks",
+        "Plan which edge to solve first based on the scramble"
+      ]
+    },
+    {
+      "name": "Front Corners",
+      "description": "Solve the four corner clocks on the front face. Since the front cross is already solved, use pin configurations that adjust corners without disturbing the edges.",
+      "tips": [
+        "Learn which pin combinations isolate corner clocks on the front",
+        "Be mindful that corner moves can affect the back face",
+        "Solve corners adjacent to already-correct edges when possible"
+      ]
+    },
+    {
+      "name": "Flip",
+      "description": "Flip the Clock puzzle over to access the back face. The front face should be fully solved at this point.",
+      "tips": [
+        "Flip quickly with a consistent grip",
+        "The front face is complete — now focus entirely on the back",
+        "Use the transition moment to mentally plan the back side"
+      ]
+    },
+    {
+      "name": "Solve Back Side",
+      "description": "Solve all clocks on the back face — both edges and corners. Use pin configurations that preserve the solved front face while correcting the back.",
+      "tips": [
+        "Understand how back-face moves interact with the front face",
+        "Use pins to isolate back-face clocks as much as possible",
+        "Practice this step extensively since it determines final solving speed"
+      ]
+    }
+  ],
+  "pros": [
+    "Very intuitive — solve one face completely before the other",
+    "Easy to learn for Clock beginners",
+    "Clear structure with minimal confusion",
+    "Good starting method before learning no-flip techniques"
+  ],
+  "cons": [
+    "Flip adds time to every solve",
+    "Back side solving can be constrained by front face preservation",
+    "Not used at competitive levels",
+    "Limited optimization compared to simultaneous methods"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

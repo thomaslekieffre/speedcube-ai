@@ -1,0 +1,58 @@
+{
+  "id": "lbl",
+  "name": "Layer by Layer (Classic)",
+  "description": "The classic layer-by-layer method that most cubers learn as their very first approach to solving the Rubik's Cube. LBL breaks the solve into 7 clearly defined steps, solving the cube one layer at a time from bottom to top. Each step uses only 1-2 short algorithms, making it extremely accessible. While it shares DNA with the beginner's method, this formulation emphasizes the full 7-step breakdown with explicit cross, corners, and edges stages for each layer.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "First Layer Cross",
+      "description": "Form a plus sign (cross) on the first layer (usually white), ensuring each edge piece matches the center color of its adjacent face. This establishes the foundation of the solve.",
+      "moveCountRange": "6-10 moves",
+      "tips": ["Start by finding the white edges in the scramble", "The daisy method (making a yellow-face cross first) can simplify this", "Make sure each edge matches the side center color, not just the white face"]
+    },
+    {
+      "name": "First Layer Corners",
+      "description": "Insert the 4 corner pieces of the first layer into their correct positions. Each corner is placed by positioning it above its target slot and using a short trigger algorithm.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Use R U R' U' (the sexy move) repeatedly to cycle corners", "Position each corner directly above its target slot", "May need up to 5 repetitions of the trigger per corner"]
+    },
+    {
+      "name": "Second Layer Edges",
+      "description": "Insert the 4 edge pieces of the middle layer into their correct positions. Two mirror algorithms handle inserting edges to the left or right.",
+      "moveCountRange": "16-24 moves",
+      "tips": ["Only 2 algorithms needed: one for left insert, one for right insert", "Find edges in the top layer that do not have yellow on them", "If an edge is stuck flipped in the middle layer, insert any edge to bump it out"]
+    },
+    {
+      "name": "Last Layer Cross",
+      "description": "Form a cross on the last layer (yellow face) by orienting the 4 edge pieces so yellow faces up. This step does not worry about edge positions, only orientation.",
+      "moveCountRange": "4-8 moves",
+      "tips": ["F R U R' U' F' is the key algorithm", "Apply based on the current pattern: dot, L-shape, or line", "Dot requires the algorithm 3 times, L-shape twice, line once"]
+    },
+    {
+      "name": "Last Layer Cross Permutation",
+      "description": "Move the yellow cross edges to their correct positions so each edge matches the center color of its adjacent face. The yellow cross is now correctly aligned.",
+      "moveCountRange": "6-10 moves",
+      "tips": ["Look for two adjacent edges that are already correct", "R U R' U R U2 R' U cycle algorithm", "May need to apply the algorithm 1-2 times"]
+    },
+    {
+      "name": "Last Layer Corners Position",
+      "description": "Move the last layer corners to their correct positions (the correct corner in each slot), without worrying about their orientation. Find one correctly positioned corner and cycle the others.",
+      "moveCountRange": "6-10 moves",
+      "tips": ["Look for a corner where all 3 colors match the surrounding centers", "Use U R U' L' U R' U' L to cycle 3 corners", "If no corner is correct, apply the algorithm once and then recheck"]
+    },
+    {
+      "name": "Last Layer Corners Orientation",
+      "description": "Orient the last layer corners so that yellow faces up on all of them, completing the cube. Each corner is twisted in place using a repeated trigger without disturbing the rest of the solve.",
+      "moveCountRange": "8-16 moves",
+      "tips": ["Use R' D' R D repeated 2 or 4 times per corner", "Do NOT turn the top layer between corners; only turn the bottom layer to bring the next corner into position", "The cube will look scrambled during this step, but trust the process"]
+    }
+  ],
+  "pros": ["Very easy to understand with clear visual progress at each step", "Requires only 6-8 short algorithms total", "Step-by-step approach minimizes confusion", "Perfect first method for absolute beginners", "Abundant tutorials in every format and language"],
+  "cons": ["Very high move count (~120-150 moves)", "Slow solve times even when well-practiced", "No natural progression path toward speed", "Many separate steps make the solve feel lengthy", "Layer restriction prevents efficient piece placement"],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "120-150",
+  "yearCreated": 1980,
+  "creator": "David Singmaster",
+  "puzzle": "3x3"
+}

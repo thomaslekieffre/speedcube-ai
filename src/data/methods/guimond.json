@@ -1,0 +1,56 @@
+{
+  "id": "guimond",
+  "name": "Guimond",
+  "description": "The Guimond method is a 2x2 speedsolving approach developed by Gaetan Guimond. It works by first orienting one face, then orienting the opposite face while separating the layers, and finally permuting all pieces. It avoids the need for a full CLL algorithm set by breaking the solve into orientation and permutation phases.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Orient First Face",
+      "description": "Orient one face of the cube so that all four stickers on that face share the same color. This is done intuitively and only requires orienting pieces, not placing them in the correct position.",
+      "moveCountRange": "3-5",
+      "tips": [
+        "Choose whichever face already has the most oriented pieces",
+        "Only 3 orientation cases exist for the first face",
+        "Practice recognizing orientation quickly by focusing on the D-layer stickers"
+      ]
+    },
+    {
+      "name": "Orient Opposite Face + Separate Layers",
+      "description": "Orient the opposite face so all four stickers match in color, while simultaneously separating the top and bottom layer pieces so each layer contains pieces from only one set.",
+      "moveCountRange": "4-7",
+      "tips": [
+        "There are a limited number of cases for this step — learn them all",
+        "Focus on both orientation and layer separation at the same time",
+        "This is the most algorithmic step of the method"
+      ]
+    },
+    {
+      "name": "Permute All Pieces",
+      "description": "Permute all pieces on both layers to reach the solved state. Since all pieces are already oriented and separated, only PBL-style algorithms are needed.",
+      "algorithmSets": ["PBL"],
+      "moveCountRange": "4-8",
+      "tips": [
+        "Learn all PBL cases for fast finishes",
+        "Recognition is key — practice identifying the permutation case quickly",
+        "Some cases can be solved with simple U-layer adjustments"
+      ]
+    }
+  ],
+  "pros": [
+    "Low algorithm count compared to CLL/EG methods",
+    "Orientation-first approach can be very fast with practice",
+    "Good stepping stone toward more advanced 2x2 methods",
+    "Consistent move count across solves"
+  ],
+  "cons": [
+    "Slightly higher move count than CLL-based methods",
+    "Layer separation can be tricky to learn initially",
+    "Not as widely used at the top level as EG or CLL",
+    "Recognition for the second step takes practice"
+  ],
+  "notableUsers": ["Gaetan Guimond"],
+  "relatedSets": ["PBL", "2x2 OLL"],
+  "avgMoveCount": "15-20",
+  "yearCreated": 2003,
+  "creator": "Gaetan Guimond"
+}

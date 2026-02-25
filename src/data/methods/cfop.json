@@ -1,0 +1,42 @@
+{
+  "id": "cfop",
+  "name": "CFOP (Fridrich)",
+  "description": "The most popular speedcubing method, used by the majority of world-class solvers. CFOP stands for Cross, F2L, OLL, PLL — four distinct stages that break the solve into manageable pieces.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Cross",
+      "description": "Solve the 4 edge pieces of one face (usually white) to form a plus sign on the bottom layer, ensuring edges align with center colors.",
+      "moveCountRange": "6-8 moves",
+      "tips": ["Plan the entire cross during inspection", "Solve on the bottom to see F2L pairs", "Aim for 8-move or fewer solutions"]
+    },
+    {
+      "name": "F2L (First Two Layers)",
+      "description": "Pair corner and edge pieces together and insert them into their correct slots, solving the first two layers simultaneously.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "28-32 moves",
+      "tips": ["Learn intuitive F2L before algorithms", "Track pairs during cross solve", "Reduce rotations by inserting from different angles"]
+    },
+    {
+      "name": "OLL (Orientation of Last Layer)",
+      "description": "Orient all pieces on the last layer so the top face is one solid color (yellow if white cross).",
+      "algorithmSets": ["OLL"],
+      "moveCountRange": "9-11 moves",
+      "tips": ["Start with 2-look OLL (10 algs)", "Learn full 57 OLL for sub-15", "Focus on recognition speed"]
+    },
+    {
+      "name": "PLL (Permutation of Last Layer)",
+      "description": "Permute all last layer pieces to their correct positions, completing the solve.",
+      "algorithmSets": ["PLL"],
+      "moveCountRange": "11-13 moves",
+      "tips": ["Learn all 21 PLLs early", "Practice 2-sided recognition", "Drill execution speed"]
+    }
+  ],
+  "pros": ["Most resources and tutorials available", "Efficient move count (~55-60 moves)", "Clear progression path", "Best for speed once mastered"],
+  "cons": ["57 OLL + 21 PLL algorithms to learn", "F2L can be difficult to learn intuitively", "Heavy algorithm dependence"],
+  "notableUsers": ["Feliks Zemdegs", "Max Park", "Tymon Kolasiński", "Yiheng Wang"],
+  "relatedSets": ["OLL", "PLL", "F2L", "COLL", "OLLCP", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U", "WV", "VLS"],
+  "avgMoveCount": "55-60",
+  "yearCreated": 1981,
+  "creator": "Jessica Fridrich"
+}

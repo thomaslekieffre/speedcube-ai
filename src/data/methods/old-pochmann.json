@@ -1,0 +1,69 @@
+{
+  "id": "old-pochmann",
+  "name": "Old Pochmann (3BLD)",
+  "description": "The standard beginner method for 3x3 blindfolded solving (3BLD), created by Stefan Pochmann. Old Pochmann (OP) uses a simple two-piece swapping technique to solve edges and corners one at a time. The solver memorizes the positions of all pieces, then executes a series of setup moves followed by a single swap algorithm (T-perm for edges, Y-perm for corners) to place each piece. Its simplicity and reliability make it the most recommended first 3BLD method.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Memorization (Edges)",
+      "description": "Memorize the cycle of all 12 edges. Starting from a buffer position (typically the UF or DF edge), trace where each piece needs to go, forming a sequence of letters or images. Each edge sticker is assigned a letter, and the solver traces the cycle: buffer goes to target, target's occupant becomes the next target, and so on until the cycle closes. Multiple cycles may be needed.",
+      "tips": [
+        "Use a lettering scheme (e.g., Speffz) where each sticker has a letter A-X",
+        "Practice letter-pair memorization using images or words",
+        "Start with UF or DF as your edge buffer",
+        "Keep track of solved and unsolved pieces carefully",
+        "Memo edges first, then corners (edges are harder to retain)"
+      ]
+    },
+    {
+      "name": "Memorization (Corners)",
+      "description": "Memorize the cycle of all 8 corners using the same letter-tracing technique. Starting from a buffer position (typically the UFR or UBL corner), trace the corner cycles. Corners have three stickers each, so the letter assigned depends on which sticker faces which direction.",
+      "tips": [
+        "UBL or UFR are common corner buffer positions",
+        "Corners cycle independently from edges",
+        "Practice distinguishing corner orientations (which sticker to read)",
+        "Use letter pairs combined with a story or journey method for memo"
+      ]
+    },
+    {
+      "name": "Execution (Corners)",
+      "description": "Solve all corners by executing the memorized sequence. For each target in the memo, perform a setup move to bring the target piece to a specific position, execute the Y-perm (or another corner-swapping algorithm), then undo the setup move. This swaps the buffer piece with the target piece. Repeat for each letter in the corner memo.",
+      "moveCountRange": "40-80 moves",
+      "tips": [
+        "Y-perm is the standard corner swap algorithm",
+        "Setup moves bring the target to the swap position without disturbing the buffer",
+        "Practice setup moves until they are automatic",
+        "Execute corners first so edge setup moves do not disturb solved corners (in OP/OP approach)"
+      ]
+    },
+    {
+      "name": "Execution (Edges)",
+      "description": "Solve all edges using the same setup-swap-undo technique. For each target in the edge memo, perform setup moves to bring the target edge to a specific position, execute the T-perm (or another edge-swapping algorithm), then reverse the setup moves. Repeat for the entire edge memo sequence.",
+      "moveCountRange": "60-120 moves",
+      "tips": [
+        "T-perm is the standard edge swap algorithm for Old Pochmann",
+        "Setup moves must preserve already-solved corners if doing corners first",
+        "Practice the setup moves for all 22 edge sticker positions",
+        "Some positions require only M-slice or U/D setup moves"
+      ]
+    }
+  ],
+  "pros": [
+    "Simplest 3BLD execution method — only 2 algorithms needed (T-perm and Y-perm)",
+    "Very reliable and easy to understand",
+    "Widely documented with many tutorials",
+    "Good foundation for understanding BLD solving concepts",
+    "Low error rate once mastered"
+  ],
+  "cons": [
+    "Very high move count (100-200+ total moves)",
+    "Slow execution compared to M2/R2 or 3-style",
+    "Setup moves add significant time",
+    "Not competitive for serious 3BLD speedcubing",
+    "Execution phase can be tediously long"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["PLL"],
+  "avgMoveCount": "100-200",
+  "creator": "Stefan Pochmann"
+}

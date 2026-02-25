@@ -1,0 +1,54 @@
+{
+  "id": "turbo",
+  "name": "TuRBo (3BLD)",
+  "description": "TuRBo is an advanced 3BLD (3x3 blindfolded) solving method created by Erik Akkersdijk in 2007. It solves two pieces at a time using U-layer setups, providing a systematic approach that sits between beginner methods (like Old Pochmann) and expert methods (like BH/3-style). TuRBo offers faster execution than setup-based methods while requiring fewer algorithms than full commutator approaches.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Memorize Edges and Corners",
+      "description": "Memorize the cycle sequences for all edges and corners. The memo is structured to work with TuRBo's two-at-a-time solving approach, where pieces are paired for simultaneous solving.",
+      "tips": [
+        "Use letter pairs for efficient memorization",
+        "Memo structure is similar to other BLD methods",
+        "Practice fast memo techniques independently from execution",
+        "Ensure parity detection during memo phase"
+      ]
+    },
+    {
+      "name": "Solve Edges Two at a Time",
+      "description": "Solve edge pieces two at a time by setting up target pieces to the U layer, then applying short algorithms that swap two edges simultaneously into their correct positions. This is more efficient than solving one piece at a time.",
+      "tips": [
+        "Learn the U-layer setup moves for all edge targets",
+        "The two-at-a-time approach significantly reduces total move count",
+        "Practice edge pair solving until setups become automatic",
+        "Handle odd-number edge cycles with an extra single swap"
+      ]
+    },
+    {
+      "name": "Solve Corners Two at a Time",
+      "description": "Solve corner pieces two at a time using a similar U-layer setup approach. Corners are set up and swapped in pairs using short algorithmic sequences.",
+      "tips": [
+        "Corner setups are generally simpler than edge setups",
+        "Practice corner pairs separately before combining with edges",
+        "Handle corner twist cases that may arise",
+        "Parity between edges and corners may require an additional algorithm"
+      ]
+    }
+  ],
+  "pros": [
+    "Faster than Old Pochmann and M2/R2 methods",
+    "Two-at-a-time solving reduces total algorithm count vs. one-at-a-time",
+    "Good stepping stone toward learning full 3-style/BH",
+    "Systematic U-layer setups are relatively easy to learn"
+  ],
+  "cons": [
+    "Slower execution than BH/3-style commutators",
+    "U-layer setups can be lengthy for some targets",
+    "Not commonly used at the very top competitive level",
+    "Fewer community resources compared to Old Pochmann or BH"
+  ],
+  "notableUsers": ["Erik Akkersdijk"],
+  "relatedSets": [],
+  "yearCreated": 2007,
+  "creator": "Erik Akkersdijk"
+}

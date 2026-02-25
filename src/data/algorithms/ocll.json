@@ -1,0 +1,113 @@
+{
+  "id": "ocll",
+  "name": "OCLL",
+  "puzzle": "3x3",
+  "description": "Orient Corners of the Last Layer — 7 cases. After edges are oriented (yellow cross), orient all 4 corners so the entire top face is yellow. Used as step 2 of 2-look OLL.",
+  "category": "last-layer",
+  "caseCount": 7,
+  "algorithms": [
+    {
+      "id": "ocll-sune",
+      "name": "Sune (1 Corner Oriented)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U2 R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "Hold so the single oriented corner is at front-left. You will see headlights (two matching stickers) on the left side.",
+      "votes": 200,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-antisune",
+      "name": "Anti-Sune (1 Corner Oriented)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "Hold so the single oriented corner is at front-right. No headlights visible — stickers look scattered.",
+      "votes": 190,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-h",
+      "name": "H / Double Sune (0 Corners, No Headlights)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U R' U' R U' R'",
+      "alternatives": [
+        { "notation": "R U R' U R U' R' U R U2 R'", "moveCount": 11, "votes": 30, "note": "Sune + U + Anti-Sune" }
+      ],
+      "moveCount": 11,
+      "setup": "No headlights on any side (no two matching corner stickers next to each other on any face). All 4 corners unoriented.",
+      "votes": 85,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-pi",
+      "name": "Pi (0 Corners, With Headlights)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' R U R' U' F'",
+      "alternatives": [
+        { "notation": "R U2 R2 U' R2 U' R2 U2 R", "moveCount": 9, "votes": 50, "note": "Faster but less intuitive" }
+      ],
+      "moveCount": 10,
+      "setup": "One side has headlights (two matching corner stickers). Hold headlights facing you (front). All 4 corners unoriented.",
+      "votes": 78,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-headlights",
+      "name": "U / Headlights (2 Diagonal Corners)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "R2 D R' U2 R D' R' U2 R'",
+      "alternatives": [
+        { "notation": "r U R' U' r' F R F'", "moveCount": 8, "votes": 60, "note": "Uses wide r move — faster once learned" },
+        { "notation": "R' F R B' R' F' R B", "moveCount": 8, "votes": 25 }
+      ],
+      "moveCount": 9,
+      "setup": "Two diagonally opposite corners are oriented (yellow on top). Hold so one oriented corner is at front-right. Headlights on left and right sides.",
+      "votes": 82,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-bowtie",
+      "name": "T / Bowtie (2 Adjacent Corners)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "F R' F' R U R U' R'",
+      "alternatives": [
+        { "notation": "F' r U R' U' r' F R", "moveCount": 8, "votes": 40, "note": "Uses wide r move — faster once learned" },
+        { "notation": "R U R' U' R' F R F'", "moveCount": 8, "votes": 35 }
+      ],
+      "moveCount": 8,
+      "setup": "Two adjacent corners are oriented. Hold them at the back. Front-left and front-right corners are unoriented.",
+      "votes": 68,
+      "source": "curated"
+    },
+    {
+      "id": "ocll-chameleon",
+      "name": "L / Chameleon (2 Adjacent Corners, Mirror)",
+      "set": "OCLL",
+      "subset": "Corner Orientation",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U' R'",
+      "alternatives": [
+        { "notation": "R U R' U R U2 R'", "moveCount": 7, "votes": 50, "note": "Sune — same case with different AUF" }
+      ],
+      "moveCount": 7,
+      "setup": "Two adjacent corners oriented, forming an L with yellow on top. Can be solved with Sune or Anti-Sune after AUF, but recognizing this case directly is faster. Hold oriented corners at back-left.",
+      "votes": 55,
+      "source": "curated"
+    }
+  ]
+}

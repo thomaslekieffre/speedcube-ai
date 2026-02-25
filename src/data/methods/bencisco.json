@@ -1,0 +1,54 @@
+{
+  "id": "bencisco",
+  "name": "Bencisco",
+  "description": "The Bencisco method is an intermediate FTO (Face-Turning Octahedron) solving technique created by Ben Streeter in 2018. It structures the FTO solve into block building, center solving, and corner-center pair insertion. This method provides a clear and logical framework for tackling the FTO puzzle efficiently.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Build Block",
+      "description": "Build an initial block on the FTO by combining connected pieces into a solved section. This block serves as the anchor for the rest of the solve and is built intuitively.",
+      "tips": [
+        "Plan the block during inspection for a fast start",
+        "Choose the block position based on which pieces are already connected",
+        "Efficient block building is the most important skill for this method",
+        "Practice building blocks from different starting positions"
+      ]
+    },
+    {
+      "name": "Solve Centers",
+      "description": "Solve the remaining center pieces of the FTO without disturbing the built block. Centers are placed using short algorithmic sequences or intuitive moves.",
+      "tips": [
+        "Learn how FTO moves affect centers specifically",
+        "Use the unsolved portions of the puzzle for setup moves",
+        "Solve centers in an order that minimizes disruption",
+        "Some centers can be solved simultaneously with efficient move sequences"
+      ]
+    },
+    {
+      "name": "Corner-Center Pairs",
+      "description": "Solve the remaining pieces by pairing corners with their adjacent centers and inserting them into their correct positions. This is similar in concept to F2L on a 3x3 but adapted to the FTO's octahedral geometry.",
+      "tips": [
+        "Learn the common pair cases and their insertions",
+        "Look ahead to the next pair while inserting the current one",
+        "Pair and insert efficiently to minimize move count",
+        "Practice recognizing pair cases from different viewing angles"
+      ]
+    }
+  ],
+  "pros": [
+    "Logical and structured approach to the FTO",
+    "Block building provides a strong foundation",
+    "Accessible for solvers transitioning from 3x3 methods",
+    "Good balance of intuition and algorithmic solving"
+  ],
+  "cons": [
+    "FTO-specific techniques require dedicated practice",
+    "Block building efficiency varies significantly between solves",
+    "Limited community resources and tutorials",
+    "FTO geometry is unfamiliar to most cubers initially"
+  ],
+  "notableUsers": ["Ben Streeter"],
+  "relatedSets": [],
+  "yearCreated": 2018,
+  "creator": "Ben Streeter"
+}

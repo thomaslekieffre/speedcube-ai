@@ -1,0 +1,348 @@
+{
+  "id": "anti-pll",
+  "name": "Anti PLL",
+  "puzzle": "3x3",
+  "description": "Anti PLL - 22 algorithms for recognizing and solving PLL cases from the inverse angle. Used for advanced last layer prediction.",
+  "category": "Last Layer",
+  "caseCount": 22,
+  "algorithms": [
+    {
+      "id": "anti-pll-1",
+      "name": "Aa",
+      "set": "Anti PLL",
+      "subset": "A",
+      "puzzle": "3x3",
+      "notation": "r R2 U r' F2 R F' r' F2 r2 U' M",
+      "alternatives": [
+        {"notation": "y2 R U' R2 D' r U r' D R2 U' R' U' R U R' U' R U' R'", "moveCount": 19, "votes": 2},
+        {"notation": "M' R' U L' U2 R U' r' U2 r L U' M", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 12,
+      "setup": "M' U L' r' U2' r U R' U2' L U' R M",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-2",
+      "name": "Ab",
+      "set": "Anti PLL",
+      "subset": "A",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U' R' U R U R2 D' r U' r' D R2 U R'",
+      "alternatives": [
+        {"notation": "y2 M R U' L U2 R' U r U2 r' L' U M'", "moveCount": 13, "votes": 1},
+        {"notation": "R' L2 F' R F2 L' F R U2 R2 F R L'", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 19,
+      "setup": "L R' F' R2' U2' R' F' L F2' R' F L2' R",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-3",
+      "name": "E",
+      "set": "Anti PLL",
+      "subset": "E",
+      "puzzle": "3x3",
+      "notation": "R2 U2 R2 U' R2 U' R' U2 R' F R' F' R2 U R' U R' F R F'",
+      "alternatives": [
+        {"notation": "R' F R U2 r U' r' U2 F' U2 r U R' U' M", "moveCount": 15, "votes": 1},
+        {"notation": "r' U r S' U f r' F' R U R' U' R' F r F'", "moveCount": 16, "votes": 1}
+      ],
+      "moveCount": 20,
+      "setup": "M' U R U' r' U2' F U2' r U r' U2' R' F' R",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-4",
+      "name": "F",
+      "set": "Anti PLL",
+      "subset": "F",
+      "puzzle": "3x3",
+      "notation": "r U R' U' M r' F R2 U' R' U' R U R' F' U M'",
+      "alternatives": [
+        {"notation": "r U R' U' M2 R' F R2 U' R' U' R U R' F' U M'", "moveCount": 17, "votes": 2},
+        {"notation": "M' U R l U2 R2 F r U' R U2 L' U r'", "moveCount": 14, "votes": 1}
+      ],
+      "moveCount": 17,
+      "setup": "M' U' r' L' U2' L r U' R' U r' F2' R F' R U'",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-5",
+      "name": "Ga",
+      "set": "Anti PLL",
+      "subset": "G",
+      "puzzle": "3x3",
+      "notation": "y R U2 R' F R' F' R2 U2 R' F R U' R' U' R U R' F'",
+      "alternatives": [
+        {"notation": "U' R' D' r U' r' D R2 U R' U' F' U2 F", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 18,
+      "setup": "F' U2' F U R U' R2' D' r U r' D R U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-6",
+      "name": "Gb",
+      "set": "Anti PLL",
+      "subset": "G",
+      "puzzle": "3x3",
+      "notation": "y F R U' R' S U' R U R' f' r U R' U' M r' F R F' M'",
+      "alternatives": [
+        {"notation": "U F' U2 F U R U' R2 D' r U r' D R", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 18,
+      "setup": "R' D' r U' r' D R2' U R' U' F' U2' F U'",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-7",
+      "name": "Gc",
+      "set": "Anti PLL",
+      "subset": "G",
+      "puzzle": "3x3",
+      "notation": "y2 R U2 R' F R' F' R2 U2 R' F R' F' R U R U' R'",
+      "alternatives": [
+        {"notation": "M' F' U F R2 r' U' R' F' r U' r' F2", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 17,
+      "setup": "F2' r U r' F R U r R2' F' U' F M",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-8",
+      "name": "Gd",
+      "set": "Anti PLL",
+      "subset": "G",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U' R' F R F' R U2 R2 F R F' R U2 R'",
+      "alternatives": [
+        {"notation": "U F R U' R2 D' r U' r' D R F R' F' R F'", "moveCount": 15, "votes": 0}
+      ],
+      "moveCount": 17,
+      "setup": "F R' F R F' R' D' r U r' D R2' U R' F' U'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-9",
+      "name": "H",
+      "set": "Anti PLL",
+      "subset": "H",
+      "puzzle": "3x3",
+      "notation": "r U R' U' M2 U R U' R' U' M'",
+      "alternatives": [
+        {"notation": "S R' U' R U R U R U' R' S'", "moveCount": 11, "votes": 4},
+        {"notation": "M U R U R' U' M2 U R U' R' U' M'", "moveCount": 11, "votes": 1}
+      ],
+      "moveCount": 11,
+      "setup": "r U R' U' M2' U R U' R' U' M'",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-10",
+      "name": "Ja",
+      "set": "Anti PLL",
+      "subset": "J",
+      "puzzle": "3x3",
+      "notation": "y' R' U R2 F2 D r' U r D' F2 R2 U' R",
+      "alternatives": [
+        {"notation": "y R' U R2 F2 D r' U' r D' F2 R2 U' R", "moveCount": 13, "votes": 1}
+      ],
+      "moveCount": 13,
+      "setup": "F R' F' U' F U R U' R' U' R2' U' R2' U2' R U' F' U2'",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-11",
+      "name": "Jb",
+      "set": "Anti PLL",
+      "subset": "J",
+      "puzzle": "3x3",
+      "notation": "y' R U' R2 B2 D' r U r' D B2 R2 U R'",
+      "alternatives": [
+        {"notation": "U' R D' F2 R2 U' r U r' U R2 F2 D R'", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 13,
+      "setup": "R D' F2' R2' U' r U' r' U R2' F2' D R' U",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-12",
+      "name": "Na",
+      "set": "Anti PLL",
+      "subset": "N",
+      "puzzle": "3x3",
+      "notation": "R2 U2 R' U2 F' U2 F f R2 f' U2 R U2 R2",
+      "alternatives": [
+        {"notation": "L' F U2 L2 F L' F2 L F' L2 U2 F' L", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 14,
+      "setup": "L' F U2' L2' F L' F2' L F' L2' U2' F' L",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-13",
+      "name": "Nb",
+      "set": "Anti PLL",
+      "subset": "N",
+      "puzzle": "3x3",
+      "notation": "U' R' F2 L F L2 U2 L U2 L' U2 L2 F' L' F2 R",
+      "alternatives": [
+        {"notation": "R2 U2 R U2 F' U2 F f R2 f' U2 R' U2 R2", "moveCount": 14, "votes": 1},
+        {"notation": "R F' U2 R2 F' R F2 R' F R2 U2 F R'", "moveCount": 13, "votes": 1}
+      ],
+      "moveCount": 15,
+      "setup": "R' F2' L F L2' U2' L U2' L' U2' L2' F' L' F2' R U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-14",
+      "name": "Pure",
+      "set": "Anti PLL",
+      "subset": "Pure",
+      "puzzle": "3x3",
+      "notation": "M' U2 M U2 M' U' M U2 M' U2 M U",
+      "alternatives": [
+        {"notation": "M' U2 M U2 M' U' M U2 M' U2 M", "moveCount": 11, "votes": 4},
+        {"notation": "M' U' M' U' M' U' M' U' M U' M U' M U' M U'", "moveCount": 16, "votes": 2}
+      ],
+      "moveCount": 12,
+      "setup": "U' M' U2' M U2' M' U M U2' M' U2' M",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-15",
+      "name": "Ra",
+      "set": "Anti PLL",
+      "subset": "R",
+      "puzzle": "3x3",
+      "notation": "x' R' F R2 U2 F R' U R F' U2 R2 F' R x",
+      "alternatives": [
+        {"notation": "F R' F' R U' R U R' S R' F R U R U' R' f' R U R'", "moveCount": 20, "votes": 1}
+      ],
+      "moveCount": 15,
+      "setup": "U' F' U F2' R2' U F' R F U' R2' F2' U' F U",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-16",
+      "name": "Rb",
+      "set": "Anti PLL",
+      "subset": "R",
+      "puzzle": "3x3",
+      "notation": "y2 R U' R2 F2 U' R F' R' U F2 R2 U R'",
+      "alternatives": [
+        {"notation": "U2 R U' R2 F2 U' R F' R' U F2 R2 U R'", "moveCount": 13, "votes": 0}
+      ],
+      "moveCount": 13,
+      "setup": "R U' R2' F2' U' R F R' U F2' R2' U R' U2'",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-17",
+      "name": "T",
+      "set": "Anti PLL",
+      "subset": "T",
+      "puzzle": "3x3",
+      "notation": "F R' F R2 U R' U' F2 U' r U' r' F",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "F' r U r' U F2' U R U' R2' F' R F'",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-18",
+      "name": "Ua",
+      "set": "Anti PLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "R' U' R U' M U R' U r U2 M U M'",
+      "alternatives": [
+        {"notation": "y S U2 R' U' R U R U S' R U' R'", "moveCount": 12, "votes": 2},
+        {"notation": "y2 L' U' L U' M' U L' U l U2 M' U M", "moveCount": 13, "votes": 1}
+      ],
+      "moveCount": 13,
+      "setup": "R U R' U M' U' R U' r' U2' M' U' M U",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-19",
+      "name": "Ub",
+      "set": "Anti PLL",
+      "subset": "U",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' U M' U' R U' r' U2 M' U' M",
+      "alternatives": [
+        {"notation": "y S U2 R U R' U' R' U' S' R' U R", "moveCount": 12, "votes": 1}
+      ],
+      "moveCount": 13,
+      "setup": "R' U' R U' M U R' U r U2' M U M' U",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-20",
+      "name": "V",
+      "set": "Anti PLL",
+      "subset": "V",
+      "puzzle": "3x3",
+      "notation": "U' F R' F' R U R U' R' f R f' U' r' U' R U M'",
+      "alternatives": [
+        {"notation": "y2 R U' R' U' R2 y R' F' R U' R U R' U' R U' R' F'", "moveCount": 18, "votes": 1}
+      ],
+      "moveCount": 17,
+      "setup": "x' z' D R2' F2' D R' F' U' F D' F' U2' F' U' R2' D' z x U2'",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-21",
+      "name": "Y",
+      "set": "Anti PLL",
+      "subset": "Y",
+      "puzzle": "3x3",
+      "notation": "y2 F R U' R' S U' R U R' f' r U R' U' M r' F R F' M'",
+      "alternatives": [
+        {"notation": "R U' R' S R' F R f' R U' B U2 B' R'", "moveCount": 14, "votes": 3},
+        {"notation": "y2 R U2 r' U2 F' R U' R' F R' F' R F U2 M'", "moveCount": 15, "votes": 1}
+      ],
+      "moveCount": 20,
+      "setup": "L R' F2' U' L' U L U' L F L' U F2' R U2' L'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "anti-pll-22",
+      "name": "Z",
+      "set": "Anti PLL",
+      "subset": "Z",
+      "puzzle": "3x3",
+      "notation": "y r U' M2 U r' U2 r U' M2 U r'",
+      "alternatives": [
+        {"notation": "R2 S' R2 U' S2 U' R2 S' R2", "moveCount": 9, "votes": 4},
+        {"notation": "r' U M2 U' r U2 r' U M2 U' r", "moveCount": 11, "votes": 3}
+      ],
+      "moveCount": 11,
+      "setup": "r' U M2' U' r U2' r' U M2' U' r",
+      "votes": 4,
+      "source": "speedcubedb"
+    }
+  ]
+}

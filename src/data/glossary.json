@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "auf",
+    "term": "AUF (Adjust U Face)",
+    "definition": "A U-layer adjustment move performed before or after an algorithm to align the last layer. Efficient AUF recognition saves time by avoiding unnecessary pauses.",
+    "category": "technique",
+    "relatedTerms": ["pll", "oll", "last-layer"]
+  },
+  {
+    "id": "algorithm",
+    "term": "Algorithm",
+    "definition": "A predefined sequence of moves that accomplishes a specific transformation on the cube. Algorithms are memorized and drilled for speed. Also called 'algs'.",
+    "category": "general",
+    "relatedTerms": ["trigger", "oll", "pll"]
+  },
+  {
+    "id": "blockbuilding",
+    "term": "Blockbuilding",
+    "definition": "A solving technique that creates blocks of solved pieces rather than solving layer by layer. Central to methods like Roux, Petrus, and FreeFOP.",
+    "category": "technique",
+    "relatedTerms": ["roux", "petrus", "f2l"]
+  },
+  {
+    "id": "corner-cutting",
+    "term": "Corner Cutting",
+    "definition": "A cube's ability to complete a turn even when the layer is slightly misaligned. Modern cubes can corner-cut up to 45 degrees or more, essential for fast turning.",
+    "category": "hardware",
+    "relatedTerms": ["magnetic", "maglev"]
+  },
+  {
+    "id": "cross",
+    "term": "Cross",
+    "definition": "The first step of CFOP and beginner methods. Four edge pieces are solved on one face to form a plus sign, with each edge aligned to its adjacent center color.",
+    "category": "technique",
+    "relatedTerms": ["cfop", "x-cross", "color-neutral"]
+  },
+  {
+    "id": "cfop",
+    "term": "CFOP",
+    "definition": "The most popular speedcubing method. Stands for Cross, F2L (First Two Layers), OLL (Orientation of Last Layer), PLL (Permutation of Last Layer). Created by Jessica Fridrich.",
+    "category": "method",
+    "relatedTerms": ["cross", "f2l", "oll", "pll"]
+  },
+  {
+    "id": "cll",
+    "term": "CLL (Corners of Last Layer)",
+    "definition": "An algorithm set that solves all last layer corners in one step, used primarily in 2x2 solving. Contains 42 algorithms.",
+    "category": "technique",
+    "relatedTerms": ["eg", "ortega", "cmll"]
+  },
+  {
+    "id": "cmll",
+    "term": "CMLL (Corners of Last Layer, ignoring M-slice)",
+    "definition": "An algorithm set used in the Roux method to solve last layer corners while ignoring the M-slice edges. Contains 42 algorithms with easier recognition than COLL.",
+    "category": "technique",
+    "relatedTerms": ["roux", "coll", "cll"]
+  },
+  {
+    "id": "coll",
+    "term": "COLL (Corners and Orientation of Last Layer)",
+    "definition": "An algorithm set that solves last layer corners while preserving edge orientation. 42 algorithms. Used as an advanced CFOP technique to influence PLL.",
+    "category": "technique",
+    "relatedTerms": ["oll", "pll", "zbll"]
+  },
+  {
+    "id": "color-neutral",
+    "term": "Color Neutral (CN)",
+    "definition": "The ability to start a solve on any color cross, not just white. Doubles the chance of finding an easy cross. Most top solvers are color neutral.",
+    "category": "technique",
+    "relatedTerms": ["cross", "cfop", "dual-neutral"]
+  },
+  {
+    "id": "cube-rotation",
+    "term": "Cube Rotation",
+    "definition": "Rotating the entire cube in your hands without turning any layers. Notated as x, y, z. Rotations slow down solves and should be minimized.",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "slice-move"]
+  },
+  {
+    "id": "dnf",
+    "term": "DNF (Did Not Finish)",
+    "definition": "A competition result when a solver fails to complete the puzzle within the time limit, or the cube is more than one move from solved when the timer stops.",
+    "category": "competition",
+    "relatedTerms": ["dns", "plus-2", "wca"]
+  },
+  {
+    "id": "dns",
+    "term": "DNS (Did Not Start)",
+    "definition": "A competition result recorded when a solver does not attempt a solve, either by choice or absence.",
+    "category": "competition",
+    "relatedTerms": ["dnf", "wca"]
+  },
+  {
+    "id": "eg",
+    "term": "EG (Erik-Gunnar)",
+    "definition": "An advanced 2x2 method that solves the first face then uses a single algorithm for the rest. Split into EG-0, EG-1, and EG-2 subsets based on the first face state.",
+    "category": "method",
+    "relatedTerms": ["cll", "ortega", "pbl"]
+  },
+  {
+    "id": "eolr",
+    "term": "EOLR (Edge Orientation + Left/Right)",
+    "definition": "An advanced Roux technique that solves edge orientation and positions the UL/UR edges simultaneously during LSE, reducing move count.",
+    "category": "technique",
+    "relatedTerms": ["roux", "lse", "edge-orientation"]
+  },
+  {
+    "id": "f2l",
+    "term": "F2L (First Two Layers)",
+    "definition": "The second step of CFOP. Corner-edge pairs are formed and inserted into slots to solve the first two layers simultaneously. Can be done intuitively or with algorithms (41 cases).",
+    "category": "technique",
+    "relatedTerms": ["cfop", "cross", "oll"]
+  },
+  {
+    "id": "finger-trick",
+    "term": "Finger Trick",
+    "definition": "A technique for executing cube moves using individual fingers rather than whole-hand movements. Essential for fast turning speed (TPS). Examples include index pushes, ring finger flicks, and thumb presses.",
+    "category": "technique",
+    "relatedTerms": ["tps", "algorithm", "trigger"]
+  },
+  {
+    "id": "first-look",
+    "term": "First Look",
+    "definition": "In two-look approaches (like 2-look OLL or 2-look PLL), the first algorithm applied. For OLL, first look orients edges; for PLL, first look solves corners.",
+    "category": "technique",
+    "relatedTerms": ["oll", "pll", "two-look"]
+  },
+  {
+    "id": "full-step",
+    "term": "Full Step",
+    "definition": "A solve where every stage of the method is performed without any skips. The opposite of a 'lucky' solve. Used to indicate a solve that represents true skill.",
+    "category": "general",
+    "relatedTerms": ["lucky", "oll-skip", "pll-skip"]
+  },
+  {
+    "id": "hardware",
+    "term": "Hardware",
+    "definition": "The physical cube itself and its components, including the mechanism, magnets, springs or MagLev system, and plastic type. Hardware choice affects turning feel and performance.",
+    "category": "hardware",
+    "relatedTerms": ["magnetic", "maglev", "lube", "smart-cube"]
+  },
+  {
+    "id": "inspection",
+    "term": "Inspection",
+    "definition": "The 15-second period before a WCA competition solve where the solver can examine the scrambled cube but not make any moves. Used to plan the cross and sometimes first F2L pair.",
+    "category": "competition",
+    "relatedTerms": ["cross", "wca", "plus-2"]
+  },
+  {
+    "id": "intuitive",
+    "term": "Intuitive",
+    "definition": "A solving approach based on understanding piece movements rather than memorized algorithms. Intuitive F2L is recommended before learning algorithmic F2L.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "blockbuilding", "algorithm"]
+  },
+  {
+    "id": "last-layer",
+    "term": "Last Layer",
+    "definition": "The final layer of the cube to be solved (typically the top). In CFOP this involves OLL and PLL. Advanced methods can solve it in one look (e.g., ZBLL).",
+    "category": "general",
+    "relatedTerms": ["oll", "pll", "zbll", "coll"]
+  },
+  {
+    "id": "lookahead",
+    "term": "Lookahead",
+    "definition": "The ability to track and plan upcoming pieces while executing current moves. Critical for fast F2L. Reduces pauses between pairs and is the key difference between sub-20 and sub-15 solvers.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "tps", "cross"]
+  },
+  {
+    "id": "lucky",
+    "term": "Lucky (Solve)",
+    "definition": "A solve where one or more steps are skipped due to the scramble. Common skips include OLL skip, PLL skip, or an already-formed F2L pair. Lucky solves are noted but still count.",
+    "category": "general",
+    "relatedTerms": ["full-step", "oll-skip", "pll-skip"]
+  },
+  {
+    "id": "magnetic",
+    "term": "Magnetic",
+    "definition": "A cube with magnets placed in each piece to provide tactile feedback and alignment. Virtually all modern speedcubes are magnetic. Types include edge magnets, corner magnets, and core magnets.",
+    "category": "hardware",
+    "relatedTerms": ["maglev", "hardware", "corner-cutting"]
+  },
+  {
+    "id": "maglev",
+    "term": "MagLev",
+    "definition": "A tensioning system using repelling magnets instead of springs. Provides a smoother, quieter feel with less friction. Standard in flagship cubes since 2022.",
+    "category": "hardware",
+    "relatedTerms": ["magnetic", "hardware", "corner-cutting"]
+  },
+  {
+    "id": "nxn",
+    "term": "NxN",
+    "definition": "A general term for NxNxN Rubik's Cube puzzles of any size. Common competition sizes are 2x2 through 7x7. Larger cubes use reduction methods to simplify to a 3x3 solve.",
+    "category": "general",
+    "relatedTerms": ["wca"]
+  },
+  {
+    "id": "oll",
+    "term": "OLL (Orientation of Last Layer)",
+    "definition": "The third step of CFOP. All pieces on the last layer are oriented so the top face is one solid color. Full OLL has 57 algorithms; 2-look OLL uses about 10.",
+    "category": "technique",
+    "relatedTerms": ["cfop", "pll", "coll", "f2l"]
+  },
+  {
+    "id": "one-handed",
+    "term": "One-Handed (OH)",
+    "definition": "A WCA event where the cube must be solved using only one hand. Typically uses the left hand. ZZ is popular for OH due to its rotationless, RUL-based F2L.",
+    "category": "competition",
+    "relatedTerms": ["wca", "zz"]
+  },
+  {
+    "id": "ortega",
+    "term": "Ortega",
+    "definition": "An intermediate 2x2 method. Steps: solve one face (ignoring permutation), orient opposite face (OLL), permute both layers simultaneously (PBL). About 12 total algorithms.",
+    "category": "method",
+    "relatedTerms": ["pbl", "cll", "eg"]
+  },
+  {
+    "id": "pbl",
+    "term": "PBL (Permutation of Both Layers)",
+    "definition": "The final step of the Ortega 2x2 method. Both layers are permuted simultaneously using one of about 6 algorithms.",
+    "category": "technique",
+    "relatedTerms": ["ortega", "cll"]
+  },
+  {
+    "id": "pll",
+    "term": "PLL (Permutation of Last Layer)",
+    "definition": "The fourth and final step of CFOP. All last layer pieces are moved to their correct positions. 21 algorithms total, named after letters (T-perm, Y-perm, etc.).",
+    "category": "technique",
+    "relatedTerms": ["cfop", "oll", "auf"]
+  },
+  {
+    "id": "plus-2",
+    "term": "+2 (Plus Two)",
+    "definition": "A 2-second time penalty in WCA competitions when the cube is one move away from solved when the timer stops, or when inspection exceeds 15 seconds (up to 17 seconds).",
+    "category": "competition",
+    "relatedTerms": ["dnf", "wca", "inspection"]
+  },
+  {
+    "id": "roux",
+    "term": "Roux",
+    "definition": "A block-building speedcubing method created by Gilles Roux. Steps: First Block, Second Block, CMLL, LSE. Known for low move count (~48) and heavy M-slice usage.",
+    "category": "method",
+    "relatedTerms": ["cmll", "lse", "blockbuilding"]
+  },
+  {
+    "id": "scramble",
+    "term": "Scramble",
+    "definition": "A specific sequence of moves applied to a solved cube to create a random state. In WCA competitions, scrambles are computer-generated and applied by designated scramblers.",
+    "category": "competition",
+    "relatedTerms": ["wca", "inspection"]
+  },
+  {
+    "id": "slice-move",
+    "term": "Slice Move",
+    "definition": "A move that turns only the middle layer of the cube. Notated as M (between L and R), E (between U and D), and S (between F and B). Central to Roux LSE.",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "cube-rotation", "roux"]
+  },
+  {
+    "id": "speedcubing",
+    "term": "Speedcubing",
+    "definition": "The competitive hobby of solving Rubik's Cubes and similar twisty puzzles as fast as possible. Governed by the World Cube Association (WCA) for official competitions.",
+    "category": "general",
+    "relatedTerms": ["wca", "sub-x"]
+  },
+  {
+    "id": "sub-x",
+    "term": "Sub-X",
+    "definition": "A milestone indicating a solver's average solve time is under X seconds. For example, 'sub-20' means consistently averaging under 20 seconds. Common milestones: sub-60, sub-30, sub-20, sub-15, sub-10.",
+    "category": "general",
+    "relatedTerms": ["speedcubing", "ao5", "ao12"]
+  },
+  {
+    "id": "tps",
+    "term": "TPS (Turns Per Second)",
+    "definition": "A measure of turning speed, calculated as total moves divided by solve time. Top solvers achieve 8-12 TPS. Higher TPS is not always better; efficiency and lookahead matter more.",
+    "category": "technique",
+    "relatedTerms": ["finger-trick", "lookahead"]
+  },
+  {
+    "id": "trigger",
+    "term": "Trigger",
+    "definition": "A short, commonly occurring sequence of moves that appears within many algorithms. Examples: R U R' U' (sexy move), R U R' (insert), F R U R' U' F' (OLL cross). Learning triggers speeds up algorithm execution.",
+    "category": "technique",
+    "relatedTerms": ["algorithm", "finger-trick"]
+  },
+  {
+    "id": "wca",
+    "term": "WCA (World Cube Association)",
+    "definition": "The international governing body for speedcubing competitions. Establishes regulations, validates records, and oversees official competitions worldwide. Founded in 2004.",
+    "category": "competition",
+    "relatedTerms": ["dnf", "plus-2", "inspection", "scramble"]
+  },
+  {
+    "id": "wide-move",
+    "term": "Wide Move",
+    "definition": "A move that turns two layers simultaneously. Notated with a lowercase letter (r, u, l) or 'w' suffix (Rw, Uw). Equivalent to a slice move plus a rotation. Useful for F2L insertions.",
+    "category": "notation",
+    "relatedTerms": ["slice-move", "cube-rotation"]
+  },
+  {
+    "id": "x-cross",
+    "term": "X-Cross (Extended Cross)",
+    "definition": "Solving the cross and one F2L pair simultaneously during inspection. Saves several seconds when spotted. Double and triple X-crosses exist but are rare.",
+    "category": "technique",
+    "relatedTerms": ["cross", "f2l", "cfop"]
+  },
+  {
+    "id": "zbll",
+    "term": "ZBLL (Zborowski-Bruchem Last Layer)",
+    "definition": "A massive algorithm set (493 algorithms) that solves the entire last layer in one look when edges are already oriented. Used with ZZ method or after CFOP with oriented edges.",
+    "category": "technique",
+    "relatedTerms": ["zz", "coll", "oll", "pll"]
+  },
+  {
+    "id": "zz",
+    "term": "ZZ",
+    "definition": "A speedcubing method created by Zbigniew Zborowski. Begins with EOLine (edge orientation + line), enabling rotationless F2L with only R, U, L moves. Popular for one-handed solving.",
+    "category": "method",
+    "relatedTerms": ["zbll", "edge-orientation", "one-handed"]
+  },
+  {
+    "id": "edge-orientation",
+    "term": "Edge Orientation (EO)",
+    "definition": "The state of an edge piece being 'good' or 'bad' relative to a reference axis. A 'bad' edge requires an F or B move to solve. EO is central to ZZ, Petrus, and Roux LSE.",
+    "category": "technique",
+    "relatedTerms": ["zz", "petrus", "roux", "corner-orientation"]
+  },
+  {
+    "id": "corner-orientation",
+    "term": "Corner Orientation (CO)",
+    "definition": "The rotational state of a corner piece. Each corner can be oriented correctly, twisted clockwise, or twisted counter-clockwise. OLL handles corner orientation in CFOP.",
+    "category": "technique",
+    "relatedTerms": ["oll", "edge-orientation", "coll"]
+  },
+  {
+    "id": "permutation",
+    "term": "Permutation",
+    "definition": "The positional arrangement of pieces on the cube. A piece is 'permuted' when it is in its correct location (though it may not be correctly oriented). PLL solves last layer permutation.",
+    "category": "general",
+    "relatedTerms": ["orientation", "pll", "pbl"]
+  },
+  {
+    "id": "orientation",
+    "term": "Orientation",
+    "definition": "The rotational state of a piece in its position. A piece can be in the correct position but oriented incorrectly (e.g., a twisted corner or flipped edge). OLL solves last layer orientation.",
+    "category": "general",
+    "relatedTerms": ["permutation", "oll", "edge-orientation", "corner-orientation"]
+  },
+  {
+    "id": "layer",
+    "term": "Layer",
+    "definition": "One horizontal or vertical slice of the cube. A 3x3 has three layers on each axis. The beginner method solves layer by layer; advanced methods break this paradigm.",
+    "category": "general",
+    "relatedTerms": ["slice-move", "last-layer"]
+  },
+  {
+    "id": "center",
+    "term": "Center Piece",
+    "definition": "The piece at the center of each face. On a standard 3x3, centers are fixed relative to each other and define the color of each face. On larger cubes, centers must be solved.",
+    "category": "general",
+    "relatedTerms": ["edge", "corner"]
+  },
+  {
+    "id": "edge",
+    "term": "Edge Piece",
+    "definition": "A piece with exactly two colored stickers, located between two centers. A 3x3 has 12 edge pieces. Edges can be oriented (good/bad) and permuted (correct/incorrect position).",
+    "category": "general",
+    "relatedTerms": ["center", "corner", "edge-orientation"]
+  },
+  {
+    "id": "corner",
+    "term": "Corner Piece",
+    "definition": "A piece with exactly three colored stickers, located at the vertices of the cube. A 3x3 has 8 corner pieces. Corners can be twisted in three orientations.",
+    "category": "general",
+    "relatedTerms": ["center", "edge", "corner-orientation"]
+  },
+  {
+    "id": "memo",
+    "term": "Memo (Memorization)",
+    "definition": "The memorization phase of blindfolded solving. Solvers memorize the position and orientation of all pieces using letter schemes and memory techniques before solving with a blindfold on.",
+    "category": "technique",
+    "relatedTerms": ["trace", "bld"]
+  },
+  {
+    "id": "trace",
+    "term": "Trace",
+    "definition": "The process of following piece cycles during blindfolded memorization. Solvers trace edges and corners separately, creating letter sequences that encode the entire cube state.",
+    "category": "technique",
+    "relatedTerms": ["memo", "bld"]
+  },
+  {
+    "id": "stackmat",
+    "term": "Stackmat Timer",
+    "definition": "The official timing device used in WCA competitions. Features touch-sensitive pads that start/stop the timer. Solvers must place both hands flat on the pads to start and stop.",
+    "category": "competition",
+    "relatedTerms": ["wca", "inspection"]
+  },
+  {
+    "id": "smart-cube",
+    "term": "Smart Cube",
+    "definition": "A Bluetooth-enabled cube with internal sensors that track each move in real time. Connects to apps for training, solving analysis, and online competition. Popular brands: GAN, MoYu.",
+    "category": "hardware",
+    "relatedTerms": ["hardware", "magnetic"]
+  },
+  {
+    "id": "lube",
+    "term": "Lube (Lubricant)",
+    "definition": "Lubricant applied to a cube's internal mechanism to modify its turning feel. Types include silicone-based (long-lasting) and water-based (faster, evaporates). Proper lubing is essential for optimal performance.",
+    "category": "hardware",
+    "relatedTerms": ["hardware", "magnetic"]
+  },
+  {
+    "id": "ao5",
+    "term": "Ao5 (Average of 5)",
+    "definition": "An average calculated from 5 solves by dropping the best and worst times and averaging the remaining 3. The standard averaging method in WCA competitions for most events.",
+    "category": "competition",
+    "relatedTerms": ["ao12", "sub-x", "wca"]
+  },
+  {
+    "id": "ao12",
+    "term": "Ao12 (Average of 12)",
+    "definition": "An average calculated from 12 solves by dropping the best and worst times and averaging the remaining 10. A common benchmark for tracking personal improvement outside of competition.",
+    "category": "competition",
+    "relatedTerms": ["ao5", "sub-x"]
+  },
+  {
+    "id": "bld",
+    "term": "BLD (Blindfolded)",
+    "definition": "A WCA event category where the solver memorizes the cube, dons a blindfold, and solves entirely from memory. Events include 3BLD, 4BLD, 5BLD, and Multi-Blind.",
+    "category": "competition",
+    "relatedTerms": ["memo", "trace", "wca"]
+  },
+  {
+    "id": "petrus",
+    "term": "Petrus",
+    "definition": "A blockbuilding speedcubing method created by Lars Petrus. Steps: 2x2x2 block, expand to 2x2x3, edge orientation, complete F2L, last layer. Known for low move count and deep cube understanding.",
+    "category": "method",
+    "relatedTerms": ["blockbuilding", "edge-orientation"]
+  },
+  {
+    "id": "lse",
+    "term": "LSE (Last Six Edges)",
+    "definition": "The final step of the Roux method. Solves the remaining 6 edges using only M and U moves. Sub-steps: edge orientation, UL/UR placement, and final edge permutation (4c).",
+    "category": "technique",
+    "relatedTerms": ["roux", "eolr", "slice-move"]
+  },
+  {
+    "id": "dual-neutral",
+    "term": "Dual Color Neutral",
+    "definition": "Being color neutral on two opposite colors (e.g., white and yellow). A stepping stone toward full color neutrality, offering some of the benefits with less mental overhead.",
+    "category": "technique",
+    "relatedTerms": ["color-neutral", "cross"]
+  },
+  {
+    "id": "oll-skip",
+    "term": "OLL Skip",
+    "definition": "When the last layer is already fully oriented after F2L, skipping the OLL step entirely. Occurs roughly 1 in 216 solves. Considered lucky.",
+    "category": "general",
+    "relatedTerms": ["oll", "pll-skip", "lucky", "full-step"]
+  },
+  {
+    "id": "pll-skip",
+    "term": "PLL Skip",
+    "definition": "When the last layer is already fully permuted after OLL, skipping the PLL step entirely. Occurs roughly 1 in 72 solves. Combined with OLL skip, gives a last-layer skip.",
+    "category": "general",
+    "relatedTerms": ["pll", "oll-skip", "lucky", "full-step"]
+  },
+  {
+    "id": "two-look",
+    "term": "Two-Look",
+    "definition": "An approach that breaks a step into two sub-steps, each requiring recognition and an algorithm. 2-look OLL uses ~10 algs instead of 57; 2-look PLL uses ~6 instead of 21.",
+    "category": "technique",
+    "relatedTerms": ["oll", "pll", "first-look"]
+  },
+  {
+    "id": "fmc",
+    "term": "FMC (Fewest Moves Challenge)",
+    "definition": "A WCA event where solvers have 60 minutes to find the shortest possible solution to a given scramble. Typical winning solutions are 20-25 moves. Uses techniques from multiple methods.",
+    "category": "competition",
+    "relatedTerms": ["wca", "blockbuilding", "petrus"]
+  },
+  {
+    "id": "ollcp",
+    "term": "OLLCP (OLL + Corner Permutation)",
+    "definition": "An advanced technique that solves OLL while simultaneously permuting corners, leaving only an EPLL (edge-only PLL). Contains about 331 algorithms across all OLL cases.",
+    "category": "technique",
+    "relatedTerms": ["oll", "coll", "pll"]
+  },
+  {
+    "id": "wv",
+    "term": "WV (Winter Variation)",
+    "definition": "An advanced CFOP technique applied when the last F2L pair has a connected corner-edge pair with the corner oriented. Orients the last layer corners during F2L insertion, leaving only an edge OLL.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "oll", "vls"]
+  },
+  {
+    "id": "vls",
+    "term": "VLS (Valk Last Slot)",
+    "definition": "An advanced technique that solves the last F2L slot and orients the last layer simultaneously. Named after Mats Valk. Contains over 200 algorithms.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "oll", "wv"]
+  },
+  {
+    "id": "x-rotation",
+    "term": "x Rotation",
+    "definition": "A whole-cube rotation around the R-L axis, in the direction of an R move. The cube tips forward so the U face becomes the F face. Used in notation to describe cube orientation changes.",
+    "category": "notation",
+    "relatedTerms": ["y-rotation", "z-rotation", "cube-rotation"]
+  },
+  {
+    "id": "y-rotation",
+    "term": "y Rotation",
+    "definition": "A whole-cube rotation around the U-D axis, in the direction of a U move. The cube turns left so the F face becomes the L face. Commonly used in F2L to change which slot you are facing.",
+    "category": "notation",
+    "relatedTerms": ["x-rotation", "z-rotation", "cube-rotation"]
+  },
+  {
+    "id": "z-rotation",
+    "term": "z Rotation",
+    "definition": "A whole-cube rotation around the F-B axis, in the direction of an F move. The cube tilts clockwise so the U face becomes the R face. Less commonly used than x and y rotations.",
+    "category": "notation",
+    "relatedTerms": ["x-rotation", "y-rotation", "cube-rotation"]
+  },
+  {
+    "id": "rw-move",
+    "term": "Rw / r (Wide R)",
+    "definition": "A wide move that turns the R layer and the adjacent middle layer together, equivalent to R + M' or an L move with an x rotation. Notated as Rw or lowercase r. Commonly used in F2L to avoid full cube rotations.",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "lw-move", "slice-move"]
+  },
+  {
+    "id": "lw-move",
+    "term": "Lw / l (Wide L)",
+    "definition": "A wide move that turns the L layer and the adjacent middle layer together, equivalent to L + M or an R move with an x' rotation. Notated as Lw or lowercase l.",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "rw-move", "slice-move"]
+  },
+  {
+    "id": "m-move",
+    "term": "M Move (Middle Slice)",
+    "definition": "A slice move turning the middle layer between L and R, in the direction of an L move. Central to Roux LSE and many last-layer algorithms. M' follows the direction of R.",
+    "category": "notation",
+    "relatedTerms": ["slice-move", "s-move", "e-move", "roux"]
+  },
+  {
+    "id": "s-move",
+    "term": "S Move (Standing Slice)",
+    "definition": "A slice move turning the middle layer between F and B, in the direction of an F move. Less common than M moves but appears in some algorithms and FMC solutions.",
+    "category": "notation",
+    "relatedTerms": ["slice-move", "m-move", "e-move"]
+  },
+  {
+    "id": "e-move",
+    "term": "E Move (Equatorial Slice)",
+    "definition": "A slice move turning the middle layer between U and D, in the direction of a D move. Rarely used in speed solving but appears in some edge-permutation algorithms and notation systems.",
+    "category": "notation",
+    "relatedTerms": ["slice-move", "m-move", "s-move"]
+  },
+  {
+    "id": "big-cube-notation",
+    "term": "Big Cube Notation (2R, 3Rw)",
+    "definition": "Extended notation for cubes larger than 3x3. A number prefix indicates which layer from the outside to turn (2R = second R layer). A number before 'w' indicates how many layers to turn together (3Rw = three rightmost layers).",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "rw-move", "nxn"]
+  },
+  {
+    "id": "pseudo-slot",
+    "term": "Pseudo-Slot",
+    "definition": "An F2L technique where a pair is intentionally inserted into the wrong slot because it requires fewer moves, with the plan to correct slot arrangement later. Most useful for the first two F2L pairs when multiple slots remain empty.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "multislotting"]
+  },
+  {
+    "id": "keyhole",
+    "term": "Keyhole",
+    "definition": "A solving technique that uses an empty F2L slot as a 'keyhole' to insert edge or corner pieces that would otherwise be difficult to place. Common in beginner-to-intermediate methods and as an F2L trick.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "cross"]
+  },
+  {
+    "id": "summer-variation",
+    "term": "SV (Summer Variation)",
+    "definition": "An advanced CFOP technique applied during the last F2L insertion when the edge is oriented but the corner is not. Solves the pair while orienting last-layer edges, leaving only corners to orient for OLL.",
+    "category": "technique",
+    "relatedTerms": ["wv", "f2l", "oll"]
+  },
+  {
+    "id": "zbls",
+    "term": "ZBLS (Zborowski-Bruchem Last Slot)",
+    "definition": "An advanced technique that solves the last F2L pair while simultaneously orienting all last-layer edges, setting up for ZBLL or a corners-only OLL. Contains over 300 algorithms.",
+    "category": "technique",
+    "relatedTerms": ["zbll", "f2l", "edge-orientation"]
+  },
+  {
+    "id": "vhls",
+    "term": "VHLS (Vandenbergh-Harris Last Slot)",
+    "definition": "A technique for orienting last-layer edges during the final F2L pair insertion when the pair is already formed. A subset of ZBLS containing about 32 algorithms. A practical stepping stone toward full ZBLS.",
+    "category": "technique",
+    "relatedTerms": ["zbls", "f2l", "edge-orientation"]
+  },
+  {
+    "id": "partial-edge-control",
+    "term": "Partial Edge Control",
+    "definition": "The practice of monitoring and correcting last-layer edge orientation during the last one or two F2L pairs, rather than controlling edges throughout the entire F2L phase. A practical compromise that captures most benefits of full edge control.",
+    "category": "technique",
+    "relatedTerms": ["edge-orientation", "f2l", "coll"]
+  },
+  {
+    "id": "influence",
+    "term": "Influence",
+    "definition": "The technique of choosing among multiple solutions for a current F2L pair based on how each option affects the position or orientation of future pieces. A softer form of multi-slotting that improves efficiency without additional algorithms.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "multislotting", "lookahead"]
+  },
+  {
+    "id": "multislotting",
+    "term": "Multislotting",
+    "definition": "An advanced F2L technique where two pairs are solved simultaneously or where one pair's insertion sets up the next pair for immediate solving. Can save 4-8 moves per solve when opportunities arise.",
+    "category": "technique",
+    "relatedTerms": ["f2l", "influence", "pseudo-slot"]
+  },
+  {
+    "id": "cutoff",
+    "term": "Cutoff",
+    "definition": "In a combined WCA competition round, the time a solver must beat in their first one or two solves to earn the remaining attempts. If the cutoff is not met, the solver does not complete the average.",
+    "category": "competition",
+    "relatedTerms": ["time-limit", "combined-round", "wca"]
+  },
+  {
+    "id": "time-limit",
+    "term": "Time Limit",
+    "definition": "The maximum allowed time for a single solve attempt in a WCA competition. If the solver exceeds this time, the attempt is recorded as a DNF. Typically 10 minutes for 3x3 but varies by event and competition.",
+    "category": "competition",
+    "relatedTerms": ["cutoff", "dnf", "wca"]
+  },
+  {
+    "id": "combined-round",
+    "term": "Combined Round",
+    "definition": "A WCA competition round format where solvers must beat a cutoff time in their first one or two attempts to earn the remaining attempts needed for a full average. Used to manage time at competitions with many competitors.",
+    "category": "competition",
+    "relatedTerms": ["cutoff", "time-limit", "wca"]
+  },
+  {
+    "id": "delegate",
+    "term": "Delegate",
+    "definition": "A WCA-appointed official who oversees competitions to ensure regulations are followed. Delegates approve competitions, verify results, and handle disputes. Each official competition must have at least one Delegate present.",
+    "category": "competition",
+    "relatedTerms": ["wca", "scrambler", "judge"]
+  },
+  {
+    "id": "scrambler",
+    "term": "Scrambler",
+    "definition": "A volunteer at a WCA competition responsible for applying official scramble sequences to cubes before solves. Scramblers must accurately apply computer-generated scrambles and are typically experienced cubers.",
+    "category": "competition",
+    "relatedTerms": ["scramble", "judge", "delegate"]
+  },
+  {
+    "id": "judge",
+    "term": "Judge",
+    "definition": "A volunteer at a WCA competition who administers individual solve attempts. Judges present the scrambled cube, ensure proper inspection procedure, monitor the solve, and record the time. Each solve requires a judge.",
+    "category": "competition",
+    "relatedTerms": ["delegate", "scrambler", "inspection"]
+  },
+  {
+    "id": "yau",
+    "term": "Yau (Method)",
+    "definition": "A 4x4 solving method created by Robert Yau. Steps: solve two opposite centers, solve three cross dedges, solve remaining centers, complete the cross, then solve as 3x3. The most popular 4x4 method among top solvers.",
+    "category": "method",
+    "relatedTerms": ["hoya", "redux", "nxn"]
+  },
+  {
+    "id": "hoya",
+    "term": "Hoya (Method)",
+    "definition": "A 4x4 solving method created by Jong-Ho Jeong. Similar to Yau but solves all centers before cross edges. Steps: solve all centers, solve cross dedges, then solve as 3x3. An alternative to Yau for 4x4 solving.",
+    "category": "method",
+    "relatedTerms": ["yau", "redux", "nxn"]
+  },
+  {
+    "id": "mehta",
+    "term": "Mehta (Method)",
+    "definition": "A relatively new 3x3 speedcubing method created by Yash Mehta. Steps: First Block, 3QB (three-quarter belt), EOLE (edge orientation + last edge), TDR or 6CP, then finish. Designed for low move count and minimal rotations.",
+    "category": "method",
+    "relatedTerms": ["cfop", "roux", "zz"]
+  },
+  {
+    "id": "redux",
+    "term": "Redux / Reduction",
+    "definition": "A big-cube solving strategy that reduces the puzzle to a 3x3 by first solving centers and pairing edges. The standard approach for 4x4 through 7x7. After reduction, the cube is solved using a normal 3x3 method.",
+    "category": "method",
+    "relatedTerms": ["yau", "hoya", "nxn"]
+  },
+  {
+    "id": "vandenbergh",
+    "term": "Vandenbergh (Method)",
+    "definition": "A 4x4 and big-cube method focusing on solving edges first before centers. Less popular than Yau and Redux but offers alternative approaches. Named after Dan Vandenbergh.",
+    "category": "method",
+    "relatedTerms": ["redux", "yau", "nxn"]
+  },
+  {
+    "id": "cage",
+    "term": "Cage (Method)",
+    "definition": "A big-cube solving technique where a 'cage' of edges and centers is built on one side before completing the rest. An alternative to pure reduction that some solvers find more intuitive for larger cubes.",
+    "category": "method",
+    "relatedTerms": ["redux", "nxn"]
+  },
+  {
+    "id": "columns-first",
+    "term": "Columns First",
+    "definition": "A 3x3 solving approach where the first two layers are built by constructing columns (corner-edge pairs stacked vertically) rather than using the traditional CFOP slot-based approach. A less common but valid alternative method.",
+    "category": "method",
+    "relatedTerms": ["cfop", "f2l"]
+  },
+  {
+    "id": "etm",
+    "term": "ETM (Execution Turn Metric)",
+    "definition": "A move counting system where every physical action counts as one move, including rotations and slice moves. Reflects the actual number of physical movements the solver makes. More relevant to real-world solving speed than other metrics.",
+    "category": "general",
+    "relatedTerms": ["stm", "htm", "qtm"]
+  },
+  {
+    "id": "stm",
+    "term": "STM (Slice Turn Metric)",
+    "definition": "A move counting system where any single-layer or slice turn counts as one move, but rotations are not counted. Slice moves like M and S count as one move. Often used in FMC discussions.",
+    "category": "general",
+    "relatedTerms": ["etm", "htm", "qtm"]
+  },
+  {
+    "id": "htm",
+    "term": "HTM (Half Turn Metric)",
+    "definition": "A move counting system where any face turn counts as one move, including 180-degree turns. R, R', and R2 each count as one move. The standard metric for FMC competitions and move count discussions.",
+    "category": "general",
+    "relatedTerms": ["etm", "stm", "qtm"]
+  },
+  {
+    "id": "qtm",
+    "term": "QTM (Quarter Turn Metric)",
+    "definition": "A move counting system where only 90-degree turns count as one move. A 180-degree turn (R2) counts as two moves. The strictest common metric. Rarely used in modern competition but appears in theoretical discussions.",
+    "category": "general",
+    "relatedTerms": ["etm", "stm", "htm"]
+  },
+  {
+    "id": "ergonomic",
+    "term": "Ergonomic",
+    "definition": "Describes algorithms or move sequences that are comfortable and efficient to execute with finger tricks. Ergonomic algorithms may not be the shortest in move count but are faster in practice due to better finger-trick flow.",
+    "category": "general",
+    "relatedTerms": ["finger-trick", "algorithm", "regripless"]
+  },
+  {
+    "id": "spammy",
+    "term": "Spammy",
+    "definition": "Describes a turning style or algorithm that relies on very fast, repetitive movements, often sacrificing precision for speed. Spammy algorithms use triggers like R U R' U' that can be executed almost mindlessly at high TPS.",
+    "category": "general",
+    "relatedTerms": ["tps", "finger-trick", "trigger"]
+  },
+  {
+    "id": "regripless",
+    "term": "Regripless",
+    "definition": "Describes an algorithm or sequence that can be executed without changing hand position on the cube. Regripless algorithms are faster because regrips cost 0.1-0.2 seconds each. A key factor in algorithm selection for speed.",
+    "category": "general",
+    "relatedTerms": ["finger-trick", "ergonomic", "algorithm"]
+  },
+  {
+    "id": "rotationless",
+    "term": "Rotationless",
+    "definition": "Describes a solve or solving style that avoids full cube rotations. Rotationless F2L uses wide moves, back-slot insertions, and deliberate pair tracking to eliminate rotations, saving 0.3-0.5 seconds per avoided rotation.",
+    "category": "general",
+    "relatedTerms": ["cube-rotation", "wide-move", "f2l"]
+  },
+  {
+    "id": "main-cube",
+    "term": "Main",
+    "definition": "A cuber's primary puzzle used for serious practice and competition. Choosing a main involves testing multiple cubes and selecting the one that best suits your turning style, magnet preference, and feel. Most competitive cubers have a dedicated main for each event.",
+    "category": "general",
+    "relatedTerms": ["hardware", "setup-cube"]
+  },
+  {
+    "id": "setup-cube",
+    "term": "Setup (Cube)",
+    "definition": "The specific configuration of a cube's adjustable features including tension, magnet strength, and lubrication. A well-dialed setup matches the solver's turning style. Solvers often spend significant time tuning their setup for optimal performance.",
+    "category": "general",
+    "relatedTerms": ["main-cube", "lube", "hardware"]
+  },
+  {
+    "id": "magnetized",
+    "term": "Magnetized",
+    "definition": "A cube that has had magnets added to its pieces, either from the factory or through aftermarket modification. Magnets provide alignment stability and tactile feedback. Virtually all competitive cubes since 2017 are magnetized.",
+    "category": "general",
+    "relatedTerms": ["magnetic", "hardware", "core-magnets"]
+  },
+  {
+    "id": "uv-coating",
+    "term": "UV Coating",
+    "definition": "A surface treatment applied to cube plastic using ultraviolet-cured coating. UV coating changes the texture and feel of the cube, typically making it smoother or grippier depending on the formulation. Popular as an aftermarket modification.",
+    "category": "hardware",
+    "relatedTerms": ["hardware", "setup-cube"]
+  },
+  {
+    "id": "ball-core",
+    "term": "Ball-Core",
+    "definition": "A core mechanism design using a spherical inner core that allows pieces to glide over a rounded surface rather than sharp edges. Provides smoother turning and better corner cutting. Found in premium cubes from manufacturers like GAN and MoYu.",
+    "category": "hardware",
+    "relatedTerms": ["hardware", "core-magnets", "corner-cutting"]
+  },
+  {
+    "id": "core-magnets",
+    "term": "Core Magnets",
+    "definition": "Magnets placed in the cube's core mechanism in addition to the standard edge and corner magnets. Core magnets interact with piece magnets to provide adjustable magnet strength without opening the cube. A feature of many modern flagship cubes.",
+    "category": "hardware",
+    "relatedTerms": ["magnetic", "magnetized", "ball-core"]
+  },
+  {
+    "id": "spring-tension",
+    "term": "Spring Tension",
+    "definition": "The tightness of the springs (or MagLev magnets) in a cube's core, controlling how firmly the layers are held together. Tighter tension increases stability and reduces pops but slows turning. Adjusted via screws under the center caps.",
+    "category": "hardware",
+    "relatedTerms": ["maglev", "hardware", "setup-cube"]
+  },
+  {
+    "id": "ges",
+    "term": "GES (GAN Elasticity System)",
+    "definition": "A proprietary tensioning system by GAN that uses interchangeable colored nuts with different spring strengths instead of traditional screw-adjusted springs. Each color represents a different tension level, allowing quick and precise tension changes.",
+    "category": "hardware",
+    "relatedTerms": ["spring-tension", "hardware", "setup-cube"]
+  },
+  {
+    "id": "torpedoes",
+    "term": "Torpedoes",
+    "definition": "Small plastic protrusions on cube edge pieces that extend into adjacent layers to prevent pieces from catching or popping during fast turning. A design feature that improves corner cutting and stability at the cost of slightly increased friction.",
+    "category": "hardware",
+    "relatedTerms": ["corner-cutting", "hardware"]
+  },
+  {
+    "id": "factory-lube",
+    "term": "Factory Lube",
+    "definition": "The lubricant pre-applied to cubes during manufacturing. Factory lube quality varies by brand and model. Many speedcubers clean out factory lube and apply their own preferred lubricants for a customized feel.",
+    "category": "hardware",
+    "relatedTerms": ["lube", "setup-cube", "hardware"]
+  },
+  {
+    "id": "cubeshape",
+    "term": "Cubeshape",
+    "definition": "The first step of Square-1 solving that restores the cube to a cubic shape from its scrambled state. Because SQ1 pieces can occupy mismatched positions, the puzzle often loses its cube form; cubeshape returns every layer to the correct square profile before permutation steps begin.",
+    "category": "puzzle",
+    "relatedTerms": ["sq1-slash", "parity"]
+  },
+  {
+    "id": "dedge",
+    "term": "Dedge (Double Edge)",
+    "definition": "A paired set of two edge pieces on a 4x4 cube that together function as a single edge in the reduced 3x3 solve. Pairing dedges is the core task of the reduction phase in methods like Yau and Hoya.",
+    "category": "puzzle",
+    "relatedTerms": ["redux", "yau", "hoya", "parity", "tredge"]
+  },
+  {
+    "id": "wing-edge",
+    "term": "Wing Edge",
+    "definition": "An edge piece located to the left or right of the true center-edge on a 5x5 or larger cube. Wing edges must be paired during the reduction phase. On a 5x5 each dedge position has two wings plus a central true-edge.",
+    "category": "puzzle",
+    "relatedTerms": ["tredge", "dedge", "redux", "nxn"]
+  },
+  {
+    "id": "tredge",
+    "term": "Tredge (Triple Edge)",
+    "definition": "A paired set of three edge pieces on a 5x5 cube — two wings and one true center-edge — that together function as a single edge in the reduced 3x3 solve. Fully pairing all 12 tredges is the main challenge of 5x5 reduction.",
+    "category": "puzzle",
+    "relatedTerms": ["wing-edge", "dedge", "redux", "nxn"]
+  },
+  {
+    "id": "oblique",
+    "term": "Oblique Center",
+    "definition": "An off-center piece on a 5x5 or larger cube that sits diagonally adjacent to the true center. On a 5x5, each face has four obliques that must be solved correctly because they define the face color alongside the inner centers.",
+    "category": "puzzle",
+    "relatedTerms": ["center", "nxn", "redux"]
+  },
+  {
+    "id": "freeslice",
+    "term": "Freeslice",
+    "definition": "A 4x4 and big-cube edge-pairing technique that uses a free (unsolved) slice layer to pair edges without disturbing already-paired dedges or solved centers. By temporarily shifting a slice, two edges can be matched and reinserted in fewer moves.",
+    "category": "puzzle",
+    "relatedTerms": ["dedge", "redux", "yau", "slice-move"]
+  },
+  {
+    "id": "parity",
+    "term": "Parity",
+    "definition": "A state on even-layered cubes (4x4, 6x6, etc.) where the puzzle appears to be correctly positioned but requires an algorithm unavailable on a standard 3x3, arising from the even number of layers allowing piece swaps invisible to the outer layer. OLL parity and PLL parity are the two common forms.",
+    "category": "puzzle",
+    "relatedTerms": ["nxn", "dedge", "redux", "oll", "pll"]
+  },
+  {
+    "id": "tip",
+    "term": "Tip (Pyraminx)",
+    "definition": "One of the four trivial corner pieces at the vertices of the Pyraminx that rotate independently of the rest of the puzzle. Tips can always be solved in a single move (or are already correct) and are typically fixed last or first without affecting other pieces.",
+    "category": "puzzle",
+    "relatedTerms": ["axial-piece"]
+  },
+  {
+    "id": "axial-piece",
+    "term": "Axial Center (Pyraminx)",
+    "definition": "One of the four fixed axial center pieces of the Pyraminx, each attached to a tip. Axials define the color of each face and cannot be moved relative to one another; only tips rotate around them. They serve the same function as fixed centers on a 3x3.",
+    "category": "puzzle",
+    "relatedTerms": ["tip", "center"]
+  },
+  {
+    "id": "pin",
+    "term": "Pin (Clock)",
+    "definition": "One of the nine protruding pins on the front and back of the Rubik's Clock puzzle. Pushing a pin in or out determines which clock dials are engaged when a wheel is rotated, controlling which clock hands move. Correct pin configuration is essential to every Clock algorithm.",
+    "category": "puzzle",
+    "relatedTerms": []
+  },
+  {
+    "id": "stickerless",
+    "term": "Stickerless",
+    "definition": "A cube constructed with colored plastic throughout each piece rather than using adhesive stickers applied to a black or white base. Stickerless cubes never peel or fade, but WCA regulations require the colors to be distinguishable on all sides simultaneously.",
+    "category": "puzzle",
+    "relatedTerms": ["hardware", "frosted-plastic"]
+  },
+  {
+    "id": "sq1-slash",
+    "term": "Slash / (Square-1 Move)",
+    "definition": "The fundamental move in Square-1 notation, written as /, that rotates the right half of both the top and bottom layers simultaneously by 180 degrees. Every Square-1 algorithm is built from slash moves combined with top (U) and bottom (D) rotations expressed as (top, bottom) pairs.",
+    "category": "puzzle",
+    "relatedTerms": ["cubeshape", "parity"]
+  },
+  {
+    "id": "lsll",
+    "term": "LSLL (Last Slot + Last Layer)",
+    "definition": "A family of algorithm sets that solves the final F2L slot and the entire last layer simultaneously in one algorithm. LSLL encompasses subsets like VLS, WV, and others depending on the state of the last pair and last-layer edges.",
+    "category": "technique",
+    "relatedTerms": ["vls", "wv", "f2l", "last-layer", "oll"]
+  },
+  {
+    "id": "eole",
+    "term": "EOLE (Edge Orientation + Last Edge)",
+    "definition": "A step in the Mehta method that orients all remaining edges while simultaneously placing the last bottom-layer edge into its correct position. Performed after the 3QB step, it sets up an efficient last layer.",
+    "category": "technique",
+    "relatedTerms": ["mehta", "edge-orientation", "three-qb"]
+  },
+  {
+    "id": "tdr",
+    "term": "TDR (Twisted Double Row)",
+    "definition": "A substep in the Mehta method performed after EOLE that permutes and orients corners using only R and U moves. TDR sets up a small subset of ZBLL or a dedicated finish, enabling very efficient last-layer recognition.",
+    "category": "technique",
+    "relatedTerms": ["mehta", "eole", "zbll"]
+  },
+  {
+    "id": "three-qb",
+    "term": "3QB (Three-Quarter Belt)",
+    "definition": "The second step of the Mehta method following the first block. Three of the four bottom-layer edges (the 'belt' around the equator) are solved while preserving the first block, setting up EOLE.",
+    "category": "technique",
+    "relatedTerms": ["mehta", "eole", "blockbuilding"]
+  },
+  {
+    "id": "lse-4c",
+    "term": "4c (LSE 4 Corners)",
+    "definition": "The final sub-step of Roux LSE in which the four U-layer corners are permuted using M and U moves after edges are fully oriented. Recognition involves identifying the U-layer corners' positions without rotating the cube.",
+    "category": "technique",
+    "relatedTerms": ["lse", "roux", "cmll", "eolr"]
+  },
+  {
+    "id": "pseudo-block",
+    "term": "Pseudo-Block",
+    "definition": "A pair of pieces that appear to form a solved block relative to the cube's current orientation, but are actually misplaced relative to the cube's true solved state. Pseudo-blocks can be exploited in blockbuilding and FMC to create efficient transitions.",
+    "category": "technique",
+    "relatedTerms": ["blockbuilding", "pseudo-slot", "roux", "fmc"]
+  },
+  {
+    "id": "inverse-scramble",
+    "term": "Inverse Scramble",
+    "definition": "In FMC, applying the scramble sequence in reverse (inverting each move and reversing the order) to reach the solved state from the scrambled state. Solvers analyze both the normal and inverse scramble to find starting points for efficient solutions.",
+    "category": "technique",
+    "relatedTerms": ["fmc", "niss", "skeleton"]
+  },
+  {
+    "id": "niss",
+    "term": "NISS (Normal-Inverse Scramble Switch)",
+    "definition": "An advanced FMC technique that allows switching between the normal scramble and its inverse during a solution. Moves performed on the normal scramble can be 'transferred' to the inverse and vice versa, greatly expanding the solution space.",
+    "category": "technique",
+    "relatedTerms": ["fmc", "inverse-scramble", "skeleton", "insertion"]
+  },
+  {
+    "id": "skeleton",
+    "term": "Skeleton (FMC)",
+    "definition": "A partial FMC solution that solves all but a small cycle of pieces (typically 3 corners or 3 edges). The skeleton is then completed by finding an insertion — a short sequence placed inside the skeleton — that resolves the remaining cycle.",
+    "category": "technique",
+    "relatedTerms": ["fmc", "insertion", "niss", "commutator"]
+  },
+  {
+    "id": "insertion",
+    "term": "Insertion (FMC)",
+    "definition": "A short sequence of moves, typically a commutator, that is inserted into a skeleton to solve remaining unsolved pieces. The insertion is placed at a point in the skeleton where pieces to be affected are conveniently positioned, minimizing the net move count added.",
+    "category": "technique",
+    "relatedTerms": ["fmc", "skeleton", "commutator", "niss"]
+  },
+  {
+    "id": "commutator",
+    "term": "Commutator",
+    "definition": "A sequence of the form [A, B] = A B A' B' that cycles three pieces while leaving all others undisturbed. Commutators are the theoretical foundation of blindfolded solving, FMC insertions, and many last-layer algorithms. The shorter the sequences A and B, the more efficient the commutator.",
+    "category": "technique",
+    "relatedTerms": ["conjugate", "insertion", "bld", "fmc"]
+  },
+  {
+    "id": "conjugate",
+    "term": "Conjugate (Setup Move)",
+    "definition": "A sequence of the form [S: A] = S A S' where S is a setup move that positions pieces favorably, A is a core algorithm or commutator, and S' undoes the setup. Conjugates extend the reach of algorithms to cases where pieces are not in standard positions.",
+    "category": "technique",
+    "relatedTerms": ["commutator", "algorithm", "insertion"]
+  },
+  {
+    "id": "podium",
+    "term": "Podium",
+    "definition": "A top-3 placement at a WCA competition, earning gold, silver, or bronze. Podium finishes are a major achievement milestone and are tracked on the WCA website per event.",
+    "category": "competition",
+    "relatedTerms": ["wca", "wca-id", "wr", "nr"]
+  },
+  {
+    "id": "mean-of-3",
+    "term": "Mo3 (Mean of 3)",
+    "definition": "A competition format where the result is the arithmetic mean of all three solves, with no times dropped. Used in WCA for 3x3 Fewest Moves and sometimes for unofficial events. Unlike Ao5, a single bad solve has full impact on the result.",
+    "category": "competition",
+    "relatedTerms": ["ao5", "best-of-x", "fmc", "wca"]
+  },
+  {
+    "id": "best-of-x",
+    "term": "Best-of-X (Bo1, Bo2, Bo3)",
+    "definition": "A WCA competition format where only the single best result out of X attempts counts. Used for events like Multi-Blind (Bo1 or Bo2) and 3x3 With Feet. Favors solvers who can produce one excellent solve rather than consistent averages.",
+    "category": "competition",
+    "relatedTerms": ["mean-of-3", "ao5", "wca", "bld"]
+  },
+  {
+    "id": "nr",
+    "term": "NR (National Record)",
+    "definition": "The best official result ever achieved in a WCA event within a given country. NRs are tracked separately for single and average. Breaking a national record is a major milestone and is announced during competitions.",
+    "category": "competition",
+    "relatedTerms": ["cr", "wr", "wca", "wca-id"]
+  },
+  {
+    "id": "cr",
+    "term": "CR (Continental Record)",
+    "definition": "The best official result ever achieved in a WCA event within a continent (e.g., North America, Europe, Asia). CRs are automatically also NRs and are rarer than national records.",
+    "category": "competition",
+    "relatedTerms": ["nr", "wr", "wca"]
+  },
+  {
+    "id": "wr",
+    "term": "WR (World Record)",
+    "definition": "The best official result ever achieved worldwide in a WCA event, tracked separately for single and average. World records are ratified by the WCA after competition results are processed and are displayed prominently on the WCA website.",
+    "category": "competition",
+    "relatedTerms": ["nr", "cr", "wca", "wca-id"]
+  },
+  {
+    "id": "wca-id",
+    "term": "WCA ID",
+    "definition": "A unique alphanumeric identifier assigned to every competitor who has participated in at least one official WCA competition. Formatted as YYYY[Name]NN (e.g., 2015PARK01), it links to a competitor's full result history on the WCA website.",
+    "category": "competition",
+    "relatedTerms": ["wca", "nr", "wr", "podium"]
+  },
+  {
+    "id": "comp-round",
+    "term": "Competition Round",
+    "definition": "A stage of a WCA event in which competitors attempt a set of solves. Events can have multiple rounds (e.g., first round, semi-final, final) with a cutoff number of competitors advancing between rounds. The final round determines official placements.",
+    "category": "competition",
+    "relatedTerms": ["wca", "cutoff", "combined-round", "ao5"]
+  },
+  {
+    "id": "warmup-solves",
+    "term": "Warmup Solves",
+    "definition": "Informal practice solves done shortly before competing in a round, used to acclimate turning feel, focus, and recognition speed. Many competitors perform a specific number of warmup solves as part of a pre-competition routine.",
+    "category": "competition",
+    "relatedTerms": ["session", "stackmat", "inspection"]
+  },
+  {
+    "id": "pb",
+    "term": "PB (Personal Best)",
+    "definition": "A solver's best-ever result in a given event, tracked for both single solve and average. PBs can be set in official WCA competition or in unofficial practice sessions. Chasing PBs is a primary motivation in the speedcubing community.",
+    "category": "competition",
+    "relatedTerms": ["sub-x", "ao5", "ao12", "nr"]
+  },
+  {
+    "id": "session",
+    "term": "Session",
+    "definition": "A defined block of practice time during which a cuber completes solves tracked together as a group. Timer apps like csTimer and Twisty Timer organize solves into sessions, allowing statistics such as Ao5, Ao12, and session mean to be monitored over time.",
+    "category": "general",
+    "relatedTerms": ["cubing-timer", "ao5", "ao12", "pb"]
+  },
+  {
+    "id": "cubing-timer",
+    "term": "Cubing Timer",
+    "definition": "A digital application used to time practice solves, track statistics, and manage sessions. Popular options include csTimer (browser-based), Twisty Timer (Android), and CubeDesk (desktop). Most apps support Stackmat timers, generate scrambles, and display Ao5/Ao12/session mean.",
+    "category": "general",
+    "relatedTerms": ["session", "scramble-generator", "stackmat", "ao5"]
+  },
+  {
+    "id": "scramble-generator",
+    "term": "Scramble Generator",
+    "definition": "Software that generates random-state scrambles for a given puzzle type. WCA-standard scramble generators (such as TNoodle) produce scrambles from a fully random cube state rather than a random sequence of moves, ensuring all states are equally likely.",
+    "category": "general",
+    "relatedTerms": ["scramble", "cubing-timer", "wca"]
+  },
+  {
+    "id": "reconstruction",
+    "term": "Reconstruction",
+    "definition": "A move-by-move record of a specific solve, annotated with the method and techniques used. Reconstructions are shared in the community for learning purposes, allowing others to study the decisions, lookahead, and efficiency of top solvers.",
+    "category": "general",
+    "relatedTerms": ["algorithm", "lookahead", "trainer"]
+  },
+  {
+    "id": "turning-style",
+    "term": "Turning Style",
+    "definition": "An individual solver's characteristic approach to physically moving the cube, encompassing finger-trick repertoire, grip, rotation frequency, and tempo. Turning style significantly affects which algorithms feel ergonomic and is a major factor in cube setup choices.",
+    "category": "general",
+    "relatedTerms": ["finger-trick", "tps", "ergonomic", "setup-cube"]
+  },
+  {
+    "id": "cube-explorer",
+    "term": "Cube Explorer",
+    "definition": "A software tool (originally by Herbert Kociemba) for finding optimal or near-optimal solutions to any 3x3 cube state using Kociemba's two-phase algorithm. Widely used by FMC solvers to verify solutions and by algorithm developers to find efficient sequences.",
+    "category": "general",
+    "relatedTerms": ["fmc", "algorithm", "scramble-generator", "notation-standard"]
+  },
+  {
+    "id": "trainer",
+    "term": "Algorithm Trainer",
+    "definition": "A tool or application designed to drill algorithm recognition and execution. Trainers present random cases from a chosen set (e.g., OLL, PLL, CMLL) and track recognition time, execution accuracy, and overall progress, enabling targeted practice of weak cases.",
+    "category": "general",
+    "relatedTerms": ["algorithm", "reconstruction", "session", "cubing-timer"]
+  },
+  {
+    "id": "notation-standard",
+    "term": "Singmaster Notation",
+    "definition": "The standard move notation for the Rubik's Cube introduced by David Singmaster in 1979. Uses letters R, L, U, D, F, B for face turns; an apostrophe for counter-clockwise; and '2' for half turns. Extended over time to include slices, wides, and rotations.",
+    "category": "notation",
+    "relatedTerms": ["wide-move", "slice-move", "cube-rotation", "big-cube-notation"]
+  },
+  {
+    "id": "flagship",
+    "term": "Flagship",
+    "definition": "A manufacturer's top-tier speedcube model, featuring the latest mechanism innovations, premium materials, and highest performance. Flagships from brands like GAN, MoYu, and DaYan are the most common competition main cubes and typically command the highest retail prices.",
+    "category": "hardware",
+    "relatedTerms": ["main-cube", "budget-cube", "maglev", "magnetic"]
+  },
+  {
+    "id": "budget-cube",
+    "term": "Budget Cube",
+    "definition": "An entry-level or mid-range speedcube designed to offer solid performance at a low price point. Budget cubes are recommended for beginners, as they are fast and magnetic but lack the fine-tunable mechanisms of flagship models. Examples include the MoYu RS3M and QiYi MS.",
+    "category": "hardware",
+    "relatedTerms": ["flagship", "hardware", "magnetic"]
+  },
+  {
+    "id": "tensioning-system",
+    "term": "Tensioning System",
+    "definition": "The mechanism by which the tightness of a cube's layers is adjusted. Traditional systems use screws and springs; modern alternatives include MagLev repulsion and proprietary systems like GAN's GES. Proper tensioning balances stability, corner cutting, and turning freedom.",
+    "category": "hardware",
+    "relatedTerms": ["spring-tension", "maglev", "ges", "setup-cube"]
+  },
+  {
+    "id": "auto-align",
+    "term": "Auto-Align (Magnetic Alignment)",
+    "definition": "The ability of piece magnets to snap a slightly misaligned layer into the correct position automatically during a solve. Strong auto-align reduces lockups and makes fast, less-precise turning viable. Adjustable-strength magnet systems allow solvers to tune this behavior.",
+    "category": "hardware",
+    "relatedTerms": ["magnetic", "core-magnets", "corner-cutting", "lockup"]
+  },
+  {
+    "id": "frosted-plastic",
+    "term": "Frosted Plastic",
+    "definition": "A matte, semi-translucent surface finish applied to cube pieces, as opposed to glossy or UV-coated plastic. Frosted plastic provides additional grip and a distinctive feel preferred by many solvers. Common in stickerless cubes and available as an aftermarket upgrade on some models.",
+    "category": "hardware",
+    "relatedTerms": ["stickerless", "uv-coating", "hardware"]
+  },
+  {
+    "id": "pop",
+    "term": "Pop",
+    "definition": "An event where one or more pieces fly out of the cube during a solve, invalidating the attempt in competition unless the piece is reinserted and the cube is returned to a valid state before the timer stops. Pops are caused by excessive corner cutting, high tension, or worn-out internals.",
+    "category": "hardware",
+    "relatedTerms": ["corner-cutting", "spring-tension", "lockup", "hardware"]
+  },
+  {
+    "id": "lockup",
+    "term": "Lockup",
+    "definition": "When a layer catches or jams mid-turn due to misalignment, forcing the solver to pause and correct the position before continuing. Lockups are a primary cause of time loss in fast solves. They can be reduced by proper magnet strength, tension, and lubrication.",
+    "category": "hardware",
+    "relatedTerms": ["catching", "auto-align", "spring-tension", "lube"]
+  },
+  {
+    "id": "catching",
+    "term": "Catching",
+    "definition": "The tendency of misaligned layers to block or 'catch' on each other during a turn, slowing or stopping the move. Distinct from a full lockup, catching is a brief resistance rather than a complete jam. Reduced by better corner-cutting geometry, torpedoes, and appropriate tension.",
+    "category": "hardware",
+    "relatedTerms": ["lockup", "corner-cutting", "torpedoes", "auto-align"]
+  }
+]

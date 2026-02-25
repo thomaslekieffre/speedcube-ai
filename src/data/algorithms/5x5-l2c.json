@@ -1,0 +1,351 @@
+{
+  "id": "5x5-l2c",
+  "name": "5x5 L2C",
+  "puzzle": "5x5",
+  "description": "Last 2 Centres algorithms for 5x5",
+  "category": "last-layer",
+  "caseCount": 18,
+  "algorithms": [
+    {
+      "id": "5x5-l2c-l2c-1",
+      "name": "L2C 1",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "U2 Rw U Rw' U Rw U2 Rw'",
+      "alternatives": [
+        {
+          "notation": "Rw U2 Rw' U' Rw U' Rw'",
+          "moveCount": 7,
+          "votes": 3
+        },
+        {
+          "notation": "U2 r U r' U r U2 r'",
+          "moveCount": 7,
+          "votes": 3
+        },
+        {
+          "notation": "U Rw U' Lw' U Rw' U' Lw",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-2",
+      "name": "L2C 2",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U M' U2 M U Rw'",
+      "alternatives": [
+        {
+          "notation": "Rw U' Rw' U2 Rw U2 Rw' U Rw U2 Rw'",
+          "moveCount": 11,
+          "votes": 2
+        },
+        {
+          "notation": "U Rw U Rw' U' Rw U Rw' U Rw U2' Rw'",
+          "moveCount": 11
+        },
+        {
+          "notation": "U2 Rw U' M' U Rw' U' M",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-3",
+      "name": "L2C 3",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw'",
+      "alternatives": [
+        {
+          "notation": "r U r'",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-4",
+      "name": "L2C 4",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw' U' Rw U' Rw'",
+      "alternatives": [
+        {
+          "notation": "U' r U r' U r U' r'",
+          "moveCount": 7,
+          "votes": 1
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-5",
+      "name": "L2C 5",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U' Rw' U' Rw U' Rw'",
+      "alternatives": [
+        {
+          "notation": "U 3Rw U Rw' U' 3R'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-6",
+      "name": "L2C 6",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U2 Rw' U Rw U2 Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-7",
+      "name": "L2C 7",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U' Rw'",
+      "alternatives": [
+        {
+          "notation": "r U' r'",
+          "moveCount": 3,
+          "votes": 1
+        }
+      ],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-8",
+      "name": "L2C 8",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U' Rw' U Rw U Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-9",
+      "name": "L2C 9",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw' U Rw U Rw'",
+      "alternatives": [
+        {
+          "notation": "U' 3Rw U' Rw' U 3R'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-10",
+      "name": "L2C 10",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U2 Rw' U' Rw U2 Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-11",
+      "name": "L2C 11",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U M' U2 M U' Rw'",
+      "alternatives": [
+        {
+          "notation": "U2 Rw U Rw' U' Rw U Rw' U' Rw U Rw' U'",
+          "moveCount": 12,
+          "votes": 3
+        },
+        {
+          "notation": "U2 Rw U' Rw' U Rw U' Rw' U Rw U' Rw'",
+          "moveCount": 11,
+          "votes": 1
+        },
+        {
+          "notation": "U Rw U' Rw' U' Rw U' Rw' U Rw U2 Rw'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-12",
+      "name": "L2C 12",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U' Rw' U2 Rw U' Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-13",
+      "name": "L2C 13",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U2 Rw'",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-14",
+      "name": "L2C 14",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw' U' Rw U2 Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-15",
+      "name": "L2C 15",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw' U Rw U2 Rw'",
+      "alternatives": [
+        {
+          "notation": "Rw U' Rw' U Rw U2 Rw'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "U' F r U' r' U' r U2 r'",
+          "moveCount": 8,
+          "votes": 1
+        },
+        {
+          "notation": "U' Rw U' Lw' U Rw' U' Lw",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-16",
+      "name": "L2C 16",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U' Rw' U Rw U' Rw'",
+      "alternatives": [
+        {
+          "notation": "U2 Rw U Lw' U Rw' U' Lw",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-17",
+      "name": "L2C 17",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "Rw U Rw' U' Rw U Rw'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "5x5-l2c-l2c-18",
+      "name": "L2C 18",
+      "set": "5x5 L2C",
+      "subset": "",
+      "puzzle": "5x5",
+      "notation": "M' U2 M U Rw U2 Rw'",
+      "alternatives": [
+        {
+          "notation": "r U2 r' U2 r U' r'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "U2 r U2 r' U2 r U r'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "U' Rw U' M' U' Rw' U M",
+          "moveCount": 7,
+          "votes": 1
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    }
+  ]
+}

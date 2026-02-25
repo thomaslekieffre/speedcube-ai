@@ -1,0 +1,75 @@
+{
+  "id": "sq1-parity",
+  "name": "SQ1 Parity",
+  "puzzle": "Square-1",
+  "description": "Square-1 Parity algorithms - 5 cases for fixing parity on the Square-1 puzzle.",
+  "category": "Parity",
+  "caseCount": 5,
+  "algorithms": [
+    {
+      "id": "sq1-parity-1",
+      "name": "Adj Parity",
+      "set": "SQ1 Parity",
+      "subset": "Parity",
+      "puzzle": "Square-1",
+      "notation": "/ -3,0 / 0,3 / 0,-3 / 0,3 / 2,0 / 0,2 / -2,0 / 4,0 / 0,-2 / 0,2 / -1,4 / 0,-3 / 0,3",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "0,-3 / 0,3 / 1,-4 / 0,-2 / 0,2 / -4,0 / 2,0 / 0,-2 / -2,0 / 0,-3 / 0,3 / 0,-3 / 3,0",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-parity-2",
+      "name": "Opp Parity",
+      "set": "SQ1 Parity",
+      "subset": "Parity",
+      "puzzle": "Square-1",
+      "notation": "/ 3,3 / -1,0 / 2,-4 / 4,-2 / 0,-2 / -4,2 / 1,-5 / 3,0 / 3,3 / 3,0",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "-3,0 / -3,-3 / -3,0 / -1,5 / 4,-2 / 0,2 / -4,2 / -2,4 / 1,0 / -3,-3",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-parity-3",
+      "name": "O+ Parity",
+      "set": "SQ1 Parity",
+      "subset": "Parity",
+      "puzzle": "Square-1",
+      "notation": "0,-1 / -2,-2 / 2,0 / -3,-3 / 0,1 / -2,-2 / 0,-2 / 2,2 / 0,-1 / 3,3 / 3,3",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-parity-4",
+      "name": "O- Parity",
+      "set": "SQ1 Parity",
+      "subset": "Parity",
+      "puzzle": "Square-1",
+      "notation": "/ -3,-3 / 0,1 / -2,-2 / 0,2 / 2,2 / 0,-1 / 3,3 / -2,0 / 2,2 / -3,-2",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-parity-5",
+      "name": "W Parity",
+      "set": "SQ1 Parity",
+      "subset": "Parity",
+      "puzzle": "Square-1",
+      "notation": "0,-1 / 1,-2 / -4,0 / 0,3 / 1,0 / 3,-2 / -4,0 / -4,0 / -2,2 / -1,0 / 0,-3 / -3,0",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    }
+  ]
+}

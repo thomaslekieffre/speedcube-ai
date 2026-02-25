@@ -1,0 +1,54 @@
+{
+  "id": "one-flip",
+  "name": "1-Flip",
+  "description": "The 1-Flip method is an intermediate Pyraminx speedsolving technique. It involves solving two of the three top edges while intentionally leaving one edge flipped, then solving the centers, and finally finishing all remaining edges. The deliberate misorientation in the first step creates favorable cases for the final step, balancing ease of planning with overall efficiency.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve 2 Top Edges (Leave 1 Flipped)",
+      "description": "Solve two of the three top-layer edges correctly while deliberately leaving the third edge flipped (incorrectly oriented). This intentional flip simplifies later steps and is planned during inspection.",
+      "moveCountRange": "2-4",
+      "tips": [
+        "Plan this step fully during inspection",
+        "Choose which edge to leave flipped based on what simplifies the solve",
+        "The flipped edge should be positioned to create easy later cases"
+      ]
+    },
+    {
+      "name": "Solve Centers",
+      "description": "Twist the tips to solve all center pieces. This aligns the centers with the partially-solved top layer.",
+      "moveCountRange": "2-4",
+      "tips": [
+        "Centers are solved by simple tip twists",
+        "Predict center orientations during the planning phase",
+        "This step should take almost no time"
+      ]
+    },
+    {
+      "name": "Finish All Edges",
+      "description": "Solve the remaining edges including the intentionally flipped edge from step one. The flipped edge creates specific cases that can be solved efficiently with L3E-related techniques.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "5-7",
+      "tips": [
+        "The flipped edge creates predictable finishing cases",
+        "Learn all the cases that arise from the 1-flip setup",
+        "Lookahead from the centers step into this step saves time"
+      ]
+    }
+  ],
+  "pros": [
+    "Easy first step that can be fully planned in inspection",
+    "Intentional flip creates favorable finishing cases",
+    "Accessible learning curve for intermediate solvers",
+    "Good stepping stone toward advanced Pyraminx methods"
+  ],
+  "cons": [
+    "Slightly higher move count than Nutella method",
+    "The concept of intentional misorientation can be unintuitive at first",
+    "Not as widely used as WO or top-first at competitions",
+    "Edge finishing step has more cases than standard L3E"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "10-15"
+}

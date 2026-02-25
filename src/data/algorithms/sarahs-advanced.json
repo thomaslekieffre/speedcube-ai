@@ -1,0 +1,3113 @@
+{
+  "id": "sarahs-advanced",
+  "name": "Sarah's Advanced",
+  "puzzle": "skewb",
+  "description": "Advanced Sarah method algorithms for Skewb",
+  "category": "last-layer",
+  "caseCount": 131,
+  "algorithms": [
+    {
+      "id": "sarah-s-advanced-1a",
+      "name": "1a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "y x R b' r' R' r z B' r B",
+      "alternatives": [
+        {
+          "notation": "R r' z' r' z r' R r' R r",
+          "moveCount": 10
+        },
+        {
+          "notation": "H z S z' H z H",
+          "moveCount": 7
+        },
+        {
+          "notation": "H z H z' S z H",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-1b",
+      "name": "1b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x r' B R r R' B r' B'",
+      "alternatives": [
+        {
+          "notation": "x r' R r R r' R' r z' r' R r R' B'",
+          "moveCount": 14,
+          "votes": 1
+        },
+        {
+          "notation": "z' S z' S z S z' H",
+          "moveCount": 7
+        },
+        {
+          "notation": "y x r' R r R z2 r' R r R' z' R r' R' r'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-2a",
+      "name": "2a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z2 H z' S z S z' S",
+      "alternatives": [
+        {
+          "notation": "y2 x r B R' B' r R r R' r' R r",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' x b' r' R r R' z' R r' R' r R r R'",
+          "moveCount": 14
+        },
+        {
+          "notation": "y2 x b' r' R r R r' R' r z r B r' B'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-2b",
+      "name": "2b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z S z' H z H z' H",
+      "alternatives": [
+        {
+          "notation": "x R b R' z' R r' R' B' r",
+          "moveCount": 10
+        },
+        {
+          "notation": "x z R' r' R' r z R r R' r z' r' R r R'",
+          "moveCount": 16
+        },
+        {
+          "notation": "y2 x B' r' R r R z R r R' r' R' r R'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-1c",
+      "name": "1c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "S z H z' S z H",
+      "alternatives": [
+        {
+          "notation": "x y2 r' R r R b' r R' b'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y x R r' R r R' B R' B' r' R' r R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x r B' b' r' B' r B b",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-1d",
+      "name": "1d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z' H z' S z H z' H",
+      "alternatives": [
+        {
+          "notation": "x r' R r z R r R' z' r' R' r R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x R' r' R' r z R r' R' r' R r R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x' R r' R' r' B R' r B",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-2c",
+      "name": "2c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z2 S z' H z H z' H",
+      "alternatives": [
+        {
+          "notation": "z2 H z' H z S z' H",
+          "moveCount": 7
+        },
+        {
+          "notation": "x r' R r' R' z' r' R r B R B'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x R' r' B' r B R r B'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-2d",
+      "name": "2d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z S z S z' H z S",
+      "alternatives": [
+        {
+          "notation": "y' x R r' R r B R' B' r' R' r",
+          "moveCount": 11
+        },
+        {
+          "notation": "x b r B r' B' z' r' R' b",
+          "moveCount": 10
+        },
+        {
+          "notation": "y2 z B' b' R r' b r B r'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-3a",
+      "name": "3a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z' S z2 H z' S z' S",
+      "alternatives": [
+        {
+          "notation": "x r2' R r B R r' R B",
+          "moveCount": 9
+        },
+        {
+          "notation": "y x R B R' B' R' r' R r R r' R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x r' R r R' r' R' r R B R B' R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-3b",
+      "name": "3b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "x B' R' B' r' R' B R' r'",
+      "alternatives": [
+        {
+          "notation": "y x R' r' R r R B R' B' R' B R B'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y2 x R r R' r' R' z' r' R r z R r'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x B R' B' R B R B' R' r' R' r R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-4a",
+      "name": "4a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "x r' R' r B R' B' R' r' R r R'",
+      "alternatives": [
+        {
+          "notation": "y2 x r R' r B r' z r R' r' R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "z S y S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-4b",
+      "name": "4b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "y x r' R r R B' r' R' r B R'",
+      "alternatives": [
+        {
+          "notation": "x B R B' r' R r R B R' B' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' x R r' R' r R r' R r B R' B' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "z2 H y' S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-3c",
+      "name": "3c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z S z S z H z2 S",
+      "alternatives": [
+        {
+          "notation": "y' x R r' R' r R' r' R r z r R r' R'",
+          "moveCount": 14
+        },
+        {
+          "notation": "y x B R B' R' r' R' r R r' R r R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x R' r R r' R' r R' r' z R r' R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-3d",
+      "name": "3d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "H z' H z' S z2 H",
+      "alternatives": [
+        {
+          "notation": "x r' R r R' r R r' R' z' R' r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "x r R' r' R r R' z' R B r' R r",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x r' R' r R z R r R' r' R r' R' r",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-4c",
+      "name": "4c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "y' x R r' R r z R r' R' r R r R'",
+      "alternatives": [
+        {
+          "notation": "y2 x r' R r R B R' B' R' r' R' r R",
+          "moveCount": 13
+        },
+        {
+          "notation": "x R r' R' r' R r R' z' r' R' r R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "z H y S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-4d",
+      "name": "4d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "y x R r' R ' r' z' r' R r R z R r R' r'",
+      "alternatives": [
+        {
+          "notation": "y' x r' R r R r' R' r B R B' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y x R' B R' B' r' R r R' r' R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "z2 S y' S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-5a",
+      "name": "5a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "x' S z2 S y2 x' H",
+      "alternatives": [
+        {
+          "notation": "x z' r' R z' r' R r z r R r' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "x R' r' R r R z B R' B' R r'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x z' r' R' r B r' R r z R r' R r",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-5b",
+      "name": "5b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x R r' B R' B' R' r' R r'",
+      "alternatives": [
+        {
+          "notation": "y z' S z2 S x y2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "y x b' r' R r R' z2 r' R' r R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "r R' r B x r' l r l' r",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-6a",
+      "name": "6a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y x R r' R r z2 R r' R' r b",
+      "alternatives": [
+        {
+          "notation": "y x R r' R r z B R' B' R r",
+          "moveCount": 11
+        },
+        {
+          "notation": "x r2' R' r z r R r R' b r'",
+          "moveCount": 11
+        },
+        {
+          "notation": "z H z2 x' S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-6b",
+      "name": "6b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y' x R' r R' r' z' r' R' r z R' r",
+      "alternatives": [
+        {
+          "notation": "y2 x r' R r' R' z2 r' R r R' B'",
+          "moveCount": 11
+        },
+        {
+          "notation": "z2 S y2 x' S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-5c",
+      "name": "5c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "x' S z2 S y2 x' S",
+      "alternatives": [
+        {
+          "notation": "y' x r' R r' R' r' R r R' z' R r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "x r' R' r R' z2 r' R r R' b'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' x R r R' r R r' R' r z' r' R r",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-5d",
+      "name": "5d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y z' S z2 S z2 x' H",
+      "alternatives": [
+        {
+          "notation": "x r' R' r R' r' R r R' B R' B'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x z R r R' z' R r z' r' R' r B",
+          "moveCount": 13
+        },
+        {
+          "notation": "x R r' R r R r' R' r z r' R r' R'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-6c",
+      "name": "6c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y' x B' r' R r R' z2 r' R r' R'",
+      "alternatives": [
+        {
+          "notation": "x r' R r R' z' R' r' R r R B R' B'",
+          "moveCount": 14
+        },
+        {
+          "notation": "y2 x B R B' R r' R' r R r' R r",
+          "moveCount": 12
+        },
+        {
+          "notation": "z S z2 y' S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-6d",
+      "name": "6d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi  + X Perm",
+      "puzzle": "skewb",
+      "notation": "y x r B R' B' R r z' r' R r",
+      "alternatives": [
+        {
+          "notation": "x z R r' R' r R B R' B' R' r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "x z r R' B r z' r2' R r B' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x r' R' r z r' R r R' r2/r' R r' R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-7a",
+      "name": "7a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y' x B r' R r' R' r B r'",
+      "alternatives": [
+        {
+          "notation": "z S S y2 x' S z2 S",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-7b",
+      "name": "7b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x r' z R r' R r z r' B' r",
+      "alternatives": [
+        {
+          "notation": "y x b' R r' R r R' b' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "z S S y' S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-7c",
+      "name": "7c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y' x r B' r' R r R' r B'",
+      "alternatives": [
+        {
+          "notation": "z' S S z2 y' S z2 S",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-7d",
+      "name": "7d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x B' r z R r' R' r z' B' r",
+      "alternatives": [
+        {
+          "notation": "y z' r' R r B' r' b B' l",
+          "moveCount": 9
+        },
+        {
+          "notation": "S S y S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-8a",
+      "name": "8a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x R' r R' B b r' R r'",
+      "alternatives": [
+        {
+          "notation": "y2 x r' R r B R' B' R' r' R' r R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "S z' S z' S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-8b",
+      "name": "8b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x R' r B R' B' r2' R' r",
+      "alternatives": [
+        {
+          "notation": "y x r' B R B' z' r' R r B'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' x B R' B r' R' r B R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' x r' R r R z' r' R' r B r' R r",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-8c",
+      "name": "8c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "H z H z H",
+      "alternatives": [
+        {
+          "notation": "x r R' r b' B' R r' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "y2 x R r' R' z' r' R r R z R r R' r",
+          "moveCount": 14
+        },
+        {
+          "notation": "S z H z S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-8d",
+      "name": "8d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "H z S z H",
+      "alternatives": [
+        {
+          "notation": "y x R B' r' R r z R' r R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "x B r' R' r z B R' B' r",
+          "moveCount": 10
+        },
+        {
+          "notation": "y2 x r' R r' B R B' r' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-9a",
+      "name": "9a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "y' x B' r' R r R B' R' r' R' r B'",
+      "alternatives": [
+        {
+          "notation": "y' x R r R' r B r' z' r' R r R' b",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' r' R r B' R B r' R' r R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "r' l r l' r' R' F r' R r",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-9b",
+      "name": "9b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "S z2 S z' S S",
+      "alternatives": [
+        {
+          "notation": "y' x B r' R r z R r' R' r R' r'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x z r B R' B' z' r' R' r B",
+          "moveCount": 11
+        },
+        {
+          "notation": "y2 x r' B R' B' r' R r R' r R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-10a",
+      "name": "10a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "x z r B r B' r' B'",
+      "alternatives": [
+        {
+          "notation": "y' z' B R r R' B' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "S z2 H",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-10b",
+      "name": "10b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "x B' r' B' r B r",
+      "alternatives": [
+        {
+          "notation": "x B' r' y' r' R r b",
+          "moveCount": 8
+        },
+        {
+          "notation": "z2 H z2 S",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-11a",
+      "name": "11a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "y' x R r' R' r' R r R' z' r' R r",
+      "alternatives": [
+        {
+          "notation": "z2 H z' S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-11b",
+      "name": "11b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "x r' R r R r' R' r z R r' R'",
+      "alternatives": [
+        {
+          "notation": "z S z S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-12a",
+      "name": "12a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "z S z' x' S z2 S",
+      "alternatives": [
+        {
+          "notation": "y' x r' R' r z R r' R' r R r R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' x r' R' r B' R z R r R' r' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x R r' R' r b r' R r R' z' R r' R'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-12b",
+      "name": "12b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "z2 H z x S z2 S",
+      "alternatives": [
+        {
+          "notation": "y x B R B' r' R r R' r' R' r",
+          "moveCount": 11
+        },
+        {
+          "notation": "y2 x R r' z r R r R' z2 r' R r",
+          "moveCount": 12
+        },
+        {
+          "notation": "z S z2 S z' H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-11c",
+      "name": "11c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "y x r R' r B r' R B",
+      "alternatives": [
+        {
+          "notation": "y x r2' R' r B r' R B",
+          "moveCount": 8
+        },
+        {
+          "notation": "z2 S z' S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-11d",
+      "name": "11d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "z H z H z2 H",
+      "alternatives": [
+        {
+          "notation": "y2 x R' r R' z' r' B R' r'",
+          "moveCount": 9
+        },
+        {
+          "notation": "z H z S z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-12c",
+      "name": "12c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "z H y' z' S z2 S",
+      "alternatives": [
+        {
+          "notation": "x B' R' r B' r' R r'",
+          "moveCount": 8
+        },
+        {
+          "notation": "z2 S z2 S z H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-12d",
+      "name": "12d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + O Perm",
+      "puzzle": "skewb",
+      "notation": "z2 S x y' S z2 S",
+      "alternatives": [
+        {
+          "notation": "x r R B' r B R' B",
+          "moveCount": 8
+        },
+        {
+          "notation": "z S z2 S z S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-13a",
+      "name": "13a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y x r' R' r' R' z' r' R r R B'",
+      "alternatives": [
+        {
+          "notation": "y x r' R' r B' r' R r B",
+          "moveCount": 9
+        },
+        {
+          "notation": "H x' y S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-13b",
+      "name": "13b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y' x B R B' r B R' B' r'",
+      "alternatives": [
+        {
+          "notation": "y' r B r' R r B' r' R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "z' S x' y S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-13c",
+      "name": "13c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "x r B R B' r' B R' B'",
+      "alternatives": [
+        {
+          "notation": "H x' y S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-13d",
+      "name": "13d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "x B' r' R' r B r' R r",
+      "alternatives": [
+        {
+          "notation": "z' S x' y S z2 S",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-14a",
+      "name": "14a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "z' H z' S z S",
+      "alternatives": [
+        {
+          "notation": "x R' r' R' r R r' R' r R r' R r",
+          "moveCount": 13
+        },
+        {
+          "notation": "x z R' r' R r B' r' R' r B R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y x r R r R' r' R r' R' r R r' R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-14b",
+      "name": "14b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "z H z' H z S",
+      "alternatives": [
+        {
+          "notation": "y x R' B' r' R r B r' R' r R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y2 x B R' B' r' R r R' z' R r' R' r B",
+          "moveCount": 14
+        },
+        {
+          "notation": "z S z' H z H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-14c",
+      "name": "14c",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "z' S z H z' H",
+      "alternatives": [
+        {
+          "notation": "y2 x r R r R' r' R' r R r R' r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "y2 x R' r' R r' R' r R r' R r R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "y z r' R' r R r' R' r' R r R' r R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-14d",
+      "name": "14d",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "z S z S z' H",
+      "alternatives": [
+        {
+          "notation": "z H z S z' S",
+          "moveCount": 5
+        },
+        {
+          "notation": "y' x R r R' B R B' R r2' R r",
+          "moveCount": 11
+        },
+        {
+          "notation": "x R r R' r R r' R' r R r' R' r'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-15a",
+      "name": "15a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "S S y S S S",
+      "alternatives": [
+        {
+          "notation": "x r' R r R r' z' r' R r z r R r'",
+          "moveCount": 14
+        },
+        {
+          "notation": "x R r' R' r' R B R' B' R' r' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x R r R' B' R r' R' r R r R' B'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-15b",
+      "name": "15b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "y' S S y' S S S",
+      "alternatives": [
+        {
+          "notation": "x r R' r' z' r' R' r z r R' r' R' r",
+          "moveCount": 14
+        },
+        {
+          "notation": "x R' r' R r z r b r' R r R' z' R r' R",
+          "moveCount": 16
+        },
+        {
+          "notation": "y2 x b' r' R r R r' R' r b' r' R r",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-16",
+      "name": "16",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + H or Z Perm",
+      "puzzle": "skewb",
+      "notation": "z' S z2 S z2 S",
+      "alternatives": [
+        {
+          "notation": "z S z2 S z2 H",
+          "moveCount": 5
+        },
+        {
+          "notation": "x r B R B' r2' R r R",
+          "moveCount": 9
+        },
+        {
+          "notation": "y2 x R' r' R' r' B R' B' r'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-17a",
+      "name": "17a",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + H or Z Perm",
+      "puzzle": "skewb",
+      "notation": "z S z' H z H z' S z H",
+      "alternatives": [
+        {
+          "notation": "y2 x r' R' r R B R' B' r' R r",
+          "moveCount": 11
+        },
+        {
+          "notation": "x r' R' r B R B' R' r' R r",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-17b",
+      "name": "17b",
+      "set": "Sarah's Advanced",
+      "subset": "Pi + H or Z Perm",
+      "puzzle": "skewb",
+      "notation": "z S z H z' H z S z' H",
+      "alternatives": [
+        {
+          "notation": "y2 x R r R' r' z' r' R r z R r' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x R r2' R' r B r' R r' R' r B",
+          "moveCount": 12
+        },
+        {
+          "notation": "x R r R' z' r' R' r R z R r' R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18a",
+      "name": "18a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "H z H z' H z H",
+      "alternatives": [
+        {
+          "notation": "S z' H x y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "z2 H z H x S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "y x b' r' R r R' z' R r' R' r'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18b",
+      "name": "18b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z' S z' S z S z' S",
+      "alternatives": [
+        {
+          "notation": "z' H z S x' y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "z S z' S y' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x r R r R' z R r' R' r b",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18c",
+      "name": "18c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z2 S z' H z S z' H",
+      "alternatives": [
+        {
+          "notation": "S z' H x y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "z2 H z H x S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x R r' R r z R r' R' r'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18d",
+      "name": "18d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z H z S z' H z S",
+      "alternatives": [
+        {
+          "notation": "z' H z S y S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z S z' S x' y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "x z r' R r' R' z' r' R r R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18e",
+      "name": "18e",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "y' x B r' R r R' z R r' R r",
+      "alternatives": [
+        {
+          "notation": "S z S z' S z S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z2 S z S y S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "H z' S x y S z2 S",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18f",
+      "name": "18f",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z' H z' H z H z' H",
+      "alternatives": [
+        {
+          "notation": "z H z' H y' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z' S z H x' y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "y2 x B r' R r R' z R r' R' r R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18g",
+      "name": "18g",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z2 H z' S z H z' S",
+      "alternatives": [
+        {
+          "notation": "H z' S y' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z2 S z' S x' y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "x R' r' R' r z R r R' r",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-18h",
+      "name": "18h",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Swirl Perm",
+      "puzzle": "skewb",
+      "notation": "z S z H z' S z H",
+      "alternatives": [
+        {
+          "notation": "z H z' H x' y S z2 S",
+          "moveCount": 8
+        },
+        {
+          "notation": "z' S z H y S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x z r R r R' z' r' R' r R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19a",
+      "name": "19a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z' H z S y' S z2 S",
+      "alternatives": [
+        {
+          "notation": "y' x r R r R' B R' B' R' r R'",
+          "moveCount": 11,
+          "votes": 1
+        },
+        {
+          "notation": "z2 S z2 S z' H z' H",
+          "moveCount": 7
+        },
+        {
+          "notation": "S z S z S z2 S",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19b",
+      "name": "19b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "S z' H y S z2 S",
+      "alternatives": [
+        {
+          "notation": "z S z2 S z S z S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z' H z' H z' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "y2 x r' R r z R r R' z R r' R' r b",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19c",
+      "name": "19c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z S z' S y S z2 S",
+      "alternatives": [
+        {
+          "notation": "z2 S z2 S z S z H",
+          "moveCount": 7
+        },
+        {
+          "notation": "S z' H z' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x r2' R r R' z' r' R r",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19d",
+      "name": "19d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z2 H z' H y' S z2 S",
+      "alternatives": [
+        {
+          "notation": "z S z2 S z' H z' S",
+          "moveCount": 7
+        },
+        {
+          "notation": "z' H z S z S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x R r R' z' r' R r R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19e",
+      "name": "19e",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z2 S z2 S z' S z' S",
+      "alternatives": [
+        {
+          "notation": "H z H z S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "y x B' R r R' r' R r R' B' r",
+          "moveCount": 11
+        },
+        {
+          "notation": "y2 x b r' R' r z2 r' R r b'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19f",
+      "name": "19f",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z S z2 S z H z H",
+      "alternatives": [
+        {
+          "notation": "S z' S z' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "y r' R r b' B z' R' r' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "x z' B' R r R' z2 R r' R' B",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19g",
+      "name": "19g",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z2 S z2 S z H z S",
+      "alternatives": [
+        {
+          "notation": "H z S z' S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x z R' r' R r z r R r R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "x r' R r' R' r' z' r' R' r R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-19h",
+      "name": "19h",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Wat Perm",
+      "puzzle": "skewb",
+      "notation": "z S z2 S z' S z' H",
+      "alternatives": [
+        {
+          "notation": "S z H z S z2 S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x r R r' R' z' R' r' R' r R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' x R r' R r R z R r R' r'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20a",
+      "name": "20a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "z S z' S",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20b",
+      "name": "20b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "S z S",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20c",
+      "name": "20c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "z2 H z H",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20d",
+      "name": "20d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "y r' B r' R r R' r2 B",
+      "alternatives": [
+        {
+          "notation": "z' H z' H",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20e",
+      "name": "20e",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x B' R r' R' r z r' R r",
+      "alternatives": [
+        {
+          "notation": "S z' H",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20f",
+      "name": "20f",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "y' x r' R' r z' r' R r R' B",
+      "alternatives": [
+        {
+          "notation": "z S z H",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20g",
+      "name": "20g",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "x y b r' R r R' z' R r' R'",
+      "alternatives": [
+        {
+          "notation": "y x R' r' R r R' z' R r' R' r B",
+          "moveCount": 12
+        },
+        {
+          "notation": "z' H z S",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-20h",
+      "name": "20h",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + X Perm",
+      "puzzle": "skewb",
+      "notation": "x R r R' z R r' R' r b'",
+      "alternatives": [
+        {
+          "notation": "x B' r' R r R' z R r' R' r R",
+          "moveCount": 12
+        },
+        {
+          "notation": "z2 H z' S",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21a",
+      "name": "21a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y x b' r' R r R z' r' B' r B r'",
+      "alternatives": [
+        {
+          "notation": "y' x R r' R' z' r' R r z r R r' R' r' R r R'",
+          "moveCount": 17
+        },
+        {
+          "notation": "z H z H z S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21b",
+      "name": "21b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y' x R r R' z R r' R' r z' r2' R r R'",
+      "alternatives": [
+        {
+          "notation": "x z R r R r' R' r' z' r' R r B'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y2 x B r' R r R z R r R' B R' B'",
+          "moveCount": 13
+        },
+        {
+          "notation": "z H z' S z' S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21c",
+      "name": "21c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x B' r R' r' B r R r'",
+      "alternatives": [
+        {
+          "notation": "x B' r' B r B' z r' R' r z' r'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x r' R z R r' z' r' R' r' R' r R' B",
+          "moveCount": 14
+        },
+        {
+          "notation": "z2 S z' S z' H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21d",
+      "name": "21d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x r' R' r' R r R B R' B' r",
+      "alternatives": [
+        {
+          "notation": "x r' R' r z' r' R r R' z R' r' R' r",
+          "moveCount": 14
+        },
+        {
+          "notation": "y x b' R r' R' r' z' r' R' r z' r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "y2 x r R' r' B' r R r' B",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21e",
+      "name": "21e",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y x R' r R' r' z' r' R' r z r R'",
+      "alternatives": [
+        {
+          "notation": "y2 x R r R' B R B' r' R r R r'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x R r R' r' R' z' r' R' r B R",
+          "moveCount": 12
+        },
+        {
+          "notation": "z' S z' H z' H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21f",
+      "name": "21f",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "y' x R r' z' r' R r z r R r' R",
+      "alternatives": [
+        {
+          "notation": "x r' R' z' r' R r z R r R r' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "z' S z S z H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21g",
+      "name": "21g",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x R' B' R r' y' r' R' z' R r R'",
+      "alternatives": [
+        {
+          "notation": "x R' r' R' r B R' B' R r' R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "y2 x r R' r z r R r R' r' z' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "x z B r' R r R r' R' r B r' R' r B",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-21h",
+      "name": "21h",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Horizontal U Perm",
+      "puzzle": "skewb",
+      "notation": "x r' R B R' B' R' r' R r'",
+      "alternatives": [
+        {
+          "notation": "y2 x r' R r R' r' R' z' r' R' r B R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "H z' H z' S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-22a",
+      "name": "22a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "x r R' r' R r R B R' B' r'",
+      "alternatives": [
+        {
+          "notation": "x z2 r B R B' R' r' R' r R r'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x r R' r' R r R B R' B' r'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-22b",
+      "name": "22b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "x B' R B R' B' R' r' R r B",
+      "alternatives": [
+        {
+          "notation": "x z2 B' r' R' r R B R B' R' B",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' R' r' R r z' r' R r R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-22c",
+      "name": "22c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "y r' R' r R z' R r' R' r",
+      "alternatives": [
+        {
+          "notation": "y x r R' r' z' r' R' r z r R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' x R' r' z' r' R r z r R r'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-22d",
+      "name": "22d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Vertical U Perm",
+      "puzzle": "skewb",
+      "notation": "y r R r' R' x r' R r R'",
+      "alternatives": [
+        {
+          "notation": "z2 R r R' r' z r' R r R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "x r R z R r' R' z' R' r' R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23a",
+      "name": "23a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "x z r R r' R' z' R' r' R r",
+      "alternatives": [
+        {
+          "notation": "z2 H z' H z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23b",
+      "name": "23b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "x R' r' R r z r R r' R'",
+      "alternatives": [
+        {
+          "notation": "y2 x B r R' r' B' r R r'",
+          "moveCount": 9
+        },
+        {
+          "notation": "z S z S z2 H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23c",
+      "name": "23c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "x r' R' r R z R r R' r'",
+      "alternatives": [
+        {
+          "notation": "z H z H z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23d",
+      "name": "23d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "x z R r R' r' z' r' R' r R",
+      "alternatives": [
+        {
+          "notation": "z2 S z' S z2 H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23e",
+      "name": "23e",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "y' R r R B R' B' R' r'",
+      "alternatives": [
+        {
+          "notation": "x z2 r R r R' r' R' z' r' R' r B",
+          "moveCount": 13
+        },
+        {
+          "notation": "S z H z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23f",
+      "name": "23f",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "y x B' r' R r R' z R' r' R r R",
+      "alternatives": [
+        {
+          "notation": "y x R B' r' B' r B r B R' B'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y r R B R B' R' r' R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "x2 r' R' z' R' r' R r z r R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23g",
+      "name": "23g",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "y2 x b r' R r R' z' R r R' r",
+      "alternatives": [
+        {
+          "notation": "y' z' r' R' r l' r' R r R",
+          "moveCount": 9
+        },
+        {
+          "notation": "y x r B' r' R r R' r z r' R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "H z S z2 H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-23h",
+      "name": "23h",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + O Perm",
+      "puzzle": "skewb",
+      "notation": "y r' R' r' R r z' r' R r",
+      "alternatives": [
+        {
+          "notation": "y x r' R r' R' z R r' R' r b'",
+          "moveCount": 11
+        },
+        {
+          "notation": "z' S z' H z2 S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-24a",
+      "name": "24a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "x z R r R' r' R r R' r z' r' R r",
+      "alternatives": [
+        {
+          "notation": "z' S z' H z S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-24b",
+      "name": "24b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "x r' R' r R r' R' r R' z R r' R'",
+      "alternatives": [
+        {
+          "notation": "x R B R' B' r' R' r R r' R' r R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x B r' R r' R' r B z' r' R' r",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' x R' r' R' r' z' r' R' r R r' R' r B'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-24c",
+      "name": "24c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "x r' R' r R' z R r' R' r R r' R'",
+      "alternatives": [
+        {
+          "notation": "x r' B R' B' R B R' B' R' r' R' r'",
+          "moveCount": 13
+        },
+        {
+          "notation": "x z2 r R r z B r' B' z' r' R' r' z' r",
+          "moveCount": 15
+        },
+        {
+          "notation": "z' H z' S z H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-24d",
+      "name": "24d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y' x R r' R r R' z R r' R' r R r' R'",
+      "alternatives": [
+        {
+          "notation": "y x R r R' r z' r' R r R' r' R r",
+          "moveCount": 13
+        },
+        {
+          "notation": "x B r' R r R' r' R r z r R r R",
+          "moveCount": 14
+        },
+        {
+          "notation": "S z H z' S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-25a",
+      "name": "25a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y' x r' R' r' z' r' R' r R r' R' r B",
+      "alternatives": [
+        {
+          "notation": "y2 x r R r R' r' R r R' z' R r' R' r R",
+          "moveCount": 15
+        },
+        {
+          "notation": "x z' r B r' R' r B r' R r' B'",
+          "moveCount": 12
+        },
+        {
+          "notation": "z2 S z' S z S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-25b",
+      "name": "25b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y2 r B R' B' R B R' B' R' r' R'",
+      "alternatives": [
+        {
+          "notation": "z' S z S z' S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-25c",
+      "name": "25c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y' x b' R r R' r' R r R' r z' r' R r'",
+      "alternatives": [
+        {
+          "notation": "x R r z r R r R' r' R r R' z' r'",
+          "moveCount": 14
+        },
+        {
+          "notation": "z H z H z' H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-25d",
+      "name": "25d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + Z Perm Conjugates",
+      "puzzle": "skewb",
+      "notation": "y2 x B' r' R r R' r' R r z r R r",
+      "alternatives": [
+        {
+          "notation": "x z r' R r R' z' b' r' R r R' z' R r' R' r'",
+          "moveCount": 17
+        },
+        {
+          "notation": "H z' H z H",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-26a",
+      "name": "26a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut+ Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "S z H H",
+      "alternatives": [
+        {
+          "notation": "S z' S S",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-26b",
+      "name": "26b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut+ Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "S z' H H",
+      "alternatives": [
+        {
+          "notation": "x r R r' R' r B R' B' R' r' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "x B r' R r R z R r R' r' R r R",
+          "moveCount": 14
+        },
+        {
+          "notation": "z2 S S z' S",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-26c",
+      "name": "26c",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut+ Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "z2 S S z H",
+      "alternatives": [
+        {
+          "notation": "z' H z H H",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-26d",
+      "name": "26d",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut+ Triple Sledge",
+      "puzzle": "skewb",
+      "notation": "z H H z H",
+      "alternatives": [
+        {
+          "notation": "x z' r' B R' B' R' r' R' r R r' R' r'",
+          "moveCount": 14
+        },
+        {
+          "notation": "z2 H z S S",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-27",
+      "name": "27",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + H or Z Perm and Pure Peanut",
+      "puzzle": "skewb",
+      "notation": "y2 B r' R r R' B' z' R r' R' r",
+      "alternatives": [
+        {
+          "notation": "z2 S S z S S",
+          "moveCount": 5
+        },
+        {
+          "notation": "y2 x r' R' z' r B r' R r y' r' R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "x z' B' r' R r R' B' z2 R r' R' r b'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-28",
+      "name": "28",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + H or Z Perm and Pure Peanut",
+      "puzzle": "skewb",
+      "notation": "S z' S S z' S z2 S",
+      "alternatives": [
+        {
+          "notation": "x z' r' R' r z r' R r R' r z' r' R' r R",
+          "moveCount": 16
+        },
+        {
+          "notation": "x z R' r' R r R' z R r' R' r z' r' R r",
+          "moveCount": 16
+        },
+        {
+          "notation": "x z r' R r x R r' R z R r' R' r",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-29a",
+      "name": "29a",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + H or Z Perm and Pure Peanut",
+      "puzzle": "skewb",
+      "notation": "y x r' R' r R r' R' r' z' r' R' r B",
+      "alternatives": [
+        {
+          "notation": "y x r R r' R' z' r' R' r z r' R r' R'",
+          "moveCount": 14
+        },
+        {
+          "notation": "x z' B' r' R r R z R r R' r' R r",
+          "moveCount": 14
+        },
+        {
+          "notation": "x z2 R r R' r' R r R z R r R' b'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-29b",
+      "name": "29b",
+      "set": "Sarah's Advanced",
+      "subset": "Peanut + H or Z Perm and Pure Peanut",
+      "puzzle": "skewb",
+      "notation": "y' r' R r y' r l B r' l B'",
+      "alternatives": [
+        {
+          "notation": "y z' r' R' r y z' r' R r b r' R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "z S z' H z S z' H z H",
+          "moveCount": 9
+        },
+        {
+          "notation": "x R r' R r' R' z' r' R r B' R",
+          "moveCount": 12,
+          "votes": -1
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-30a",
+      "name": "30a",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "y2 x B' r' B r B R r' R'",
+      "alternatives": [
+        {
+          "notation": "y2 x r B r' z' b' r' R' r b",
+          "moveCount": 10,
+          "votes": 1
+        },
+        {
+          "notation": "y' x R' r' R' r b z r B r' z' b' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x R' r' B' r B R r R' B'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-30b",
+      "name": "30b",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "y x B r' B' z' r' R' r b R",
+      "alternatives": [
+        {
+          "notation": "x B' r B r' B' z' r' R' r b'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' x R r R' r' R r R' r2 R r R' r'",
+          "moveCount": 13
+        },
+        {
+          "notation": "x B r B' r' B' z' r' R r",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-31",
+      "name": "31",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "y2 x b' r' R' r b z r B r'",
+      "alternatives": [
+        {
+          "notation": "y2 x b z r B r' B' z' r' R' r",
+          "moveCount": 11
+        },
+        {
+          "notation": "x z2 B R r R' B' r' B' r",
+          "moveCount": 10
+        },
+        {
+          "notation": "x z2 B' r' B' r B R r R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-u-perm",
+      "name": "U Perm",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "z' x S z2 S",
+      "alternatives": [
+        {
+          "notation": "y x b' r' R r R' z2 r' R r",
+          "moveCount": 10
+        },
+        {
+          "notation": "y x' r' R' r z2 R r' R' r b",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-32",
+      "name": "32",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "y x r' B r' B' z' r' R' r z B r'",
+      "alternatives": [
+        {
+          "notation": "y x r B' r B R r R' B' r",
+          "moveCount": 10
+        },
+        {
+          "notation": "y x R2' B' r' B' r B R r R",
+          "moveCount": 10
+        },
+        {
+          "notation": "x r' B' r' B' r B R r R r",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-33",
+      "name": "33",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "r R' r R' b' r B' r",
+      "alternatives": [
+        {
+          "notation": "r R' r R' x' B' R r' B",
+          "moveCount": 9
+        },
+        {
+          "notation": "r R' r R' y L' l L' l",
+          "moveCount": 9
+        },
+        {
+          "notation": "x r' R r R' B' r' B' r B r",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-34a",
+      "name": "34a",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "x b r' R r R' z2 r' R r R",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-34b",
+      "name": "34b",
+      "set": "Sarah's Advanced",
+      "subset": "L4C",
+      "puzzle": "skewb",
+      "notation": "x B' r' R r R' z2 r' R r R' r",
+      "alternatives": [
+        {
+          "notation": "y x R' r' R' r z2 R r' R' r b'",
+          "moveCount": 11,
+          "votes": -1
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-35a",
+      "name": "35a",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "y' x r' R r R' r R y' r' R r B' r",
+      "alternatives": [
+        {
+          "notation": "y' x b R r' b r R' b' r R' r'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y x r' R r R' b' R r' R r R' b' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "z' S z2 S x y' S z2 S",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-35b",
+      "name": "35b",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "y2 x R r' R' r B r' R r' R' r B r'",
+      "alternatives": [
+        {
+          "notation": "x r B' r' R r R' r B' r' R r R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x B' r' R r R' r R y' r' R r B' r'",
+          "moveCount": 14
+        },
+        {
+          "notation": "x z R r' b z' R B' r' R B' R' r",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-36a",
+      "name": "36a",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "H z2 H z H z2 H",
+      "alternatives": [
+        {
+          "notation": "y' x r' R' r B r' R r' R' r B r' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x R' r B r' R r' R' r B r' R r'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y x r' R r R' r B' r' R r R' r B'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-36b",
+      "name": "36b",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "S z2 S x' y S z2 S",
+      "alternatives": [
+        {
+          "notation": "y' x B r' R r' R' r B r' R r' R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "x B' r' R' r B r' R r z' r' R r R'",
+          "moveCount": 14
+        },
+        {
+          "notation": "y2 x B r' R r R' r R y' r' R r B'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-37a",
+      "name": "37a",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "S z S z' H z H",
+      "alternatives": [
+        {
+          "notation": "x B' r' R r R' r B' r' R r R' r",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' x r' R' r B r' R r z' r' R r R' z' r'",
+          "moveCount": 15
+        },
+        {
+          "notation": "y2 x R r' R r R' z' r2' R' r B r' R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sarah-s-advanced-37b",
+      "name": "37b",
+      "set": "Sarah's Advanced",
+      "subset": "L5C",
+      "puzzle": "skewb",
+      "notation": "x r' R r z' r B' R r' R' B' r",
+      "alternatives": [
+        {
+          "notation": "z' H z' H z S z' S",
+          "moveCount": 7
+        },
+        {
+          "notation": "x r B r' R r' R' r B r' R r' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y2 x r' R r' R' r B r' R r' R' r B",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    }
+  ]
+}

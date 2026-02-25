@@ -1,0 +1,61 @@
+{
+  "id": "hoya",
+  "name": "Hoya Method (4x4)",
+  "description": "An alternative 4x4 speedsolving method developed by Jong-Ho Jeong (known as Hoya). Unlike Yau, Hoya solves opposite centers first, then all four cross edges, then the remaining centers, before proceeding to edge pairing and a standard 3x3 finish. This order makes center building easier since cross edges are already placed, and offers a flexible, intuitive approach to 4x4 solving.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Opposite Centers",
+      "description": "Solve two opposite centers (typically white and yellow). Starting with just two centers gives maximum freedom for piece placement and efficient commutators.",
+      "moveCountRange": "10-16 moves",
+      "tips": ["Pick the two easiest opposite centers to start", "Use wide moves freely since nothing else is solved", "Plan the first center in inspection"]
+    },
+    {
+      "name": "All Cross Edges",
+      "description": "Pair and place all 4 cross dedges (double-edges) into their correct positions relative to the solved centers. Having only two centers solved provides enough freedom to pair edges efficiently.",
+      "moveCountRange": "12-18 moves",
+      "tips": ["Pair edges using slice moves without disrupting centers", "Plan multiple edge pairs in advance", "Use the unsolved sides to stage edge pieces"]
+    },
+    {
+      "name": "Remaining Centers",
+      "description": "Complete the remaining 4 centers around the already-placed cross edges. This step requires careful commutators to avoid disrupting the cross.",
+      "moveCountRange": "18-25 moves",
+      "tips": ["Solve adjacent centers in pairs for efficiency", "Use commutator-style insertions to preserve cross edges", "This step is easier because the cross constrains piece positions"]
+    },
+    {
+      "name": "3-2-3 Edge Pairing",
+      "description": "Pair all remaining dedges using the 3-2-3 technique, the same efficient edge pairing approach used in the Yau method. Place 3 edges in a slice, pair them, then handle 2 and 3 more.",
+      "moveCountRange": "30-40 moves",
+      "tips": ["Same 3-2-3 technique used in Yau applies here", "Look ahead to the next batch while pairing", "Minimize unnecessary slice moves and regrips"]
+    },
+    {
+      "name": "F2L (First Two Layers)",
+      "description": "With the cube reduced to a 3x3 state and the cross already complete, solve the first two layers by inserting corner-edge pairs into their slots using standard CFOP techniques.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "25-30 moves",
+      "tips": ["Standard CFOP F2L applies directly", "Cross is already solved, so begin F2L immediately", "Look ahead to OLL during last F2L pair"]
+    },
+    {
+      "name": "OLL (Orientation of Last Layer)",
+      "description": "Orient all pieces on the last layer so the top face is one color. OLL parity may need to be resolved on 4x4.",
+      "algorithmSets": ["OLL", "OLL Parity"],
+      "moveCountRange": "9-14 moves",
+      "tips": ["Recognize OLL parity before starting the algorithm", "Standard 3x3 OLL algorithms apply when no parity", "OLL parity adds approximately 12 moves"]
+    },
+    {
+      "name": "PLL (Permutation of Last Layer)",
+      "description": "Permute all last layer pieces into their correct positions to complete the solve. PLL parity may also occur.",
+      "algorithmSets": ["PLL", "PLL Parity"],
+      "moveCountRange": "11-15 moves",
+      "tips": ["Learn a fast PLL parity algorithm", "PLL parity occurs roughly half the time", "Standard 3x3 PLL applies when no parity"]
+    }
+  ],
+  "pros": ["Centers are easier to build after cross edges are placed", "Flexible and intuitive step ordering", "Good for one-handed 4x4 solving", "Shares many techniques with Yau, making it easy to switch"],
+  "cons": ["Less popular than Yau, so fewer tutorials and resources", "Slightly less efficient cross building than Yau", "Edge pairing step is identical but center step can be awkward", "Smaller competitive community"],
+  "notableUsers": ["Jong-Ho Jeong"],
+  "relatedSets": ["OLL", "PLL", "F2L", "OLL Parity", "PLL Parity"],
+  "avgMoveCount": "125-135",
+  "yearCreated": 2012,
+  "creator": "Jong-Ho Jeong (Hoya)",
+  "puzzle": "4x4"
+}

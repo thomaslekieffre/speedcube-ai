@@ -1,0 +1,414 @@
+{
+  "id": "pll",
+  "name": "PLL",
+  "puzzle": "3x3",
+  "description": "Permutation of the Last Layer - 21 cases. These algorithms permute all last layer pieces to their correct positions. The final step of the CFOP method.",
+  "category": "last-layer",
+  "caseCount": 21,
+  "algorithms": [
+    {
+      "id": "pll-aa",
+      "name": "PLL Aa",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "x R' U R' D2 R U' R' D2 R2 x'",
+      "alternatives": [
+        {
+          "notation": "y' x L2 D2 L' U' L D2 L' U L'",
+          "votes": 49,
+          "moveCount": 10
+        },
+        {
+          "notation": "l' U R' D2 R U' R' D2 R2 x'",
+          "votes": 41,
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 194,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ab",
+      "name": "PLL Ab",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "x R2 D2 R U R' D2 R U' R x'",
+      "alternatives": [
+        {
+          "notation": "y' x L U' L D2 L' U L D2 L2",
+          "votes": 28,
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 159,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-e",
+      "name": "PLL E",
+      "set": "PLL",
+      "subset": "Opp Swap",
+      "puzzle": "3x3",
+      "notation": "y x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+      "alternatives": [
+        {
+          "notation": "y R' U' R' D' R U' R' D R U R' D' R U R' D R2",
+          "votes": 46,
+          "moveCount": 17
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 159,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-f",
+      "name": "PLL F",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "y R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+      "alternatives": [
+        {
+          "notation": "y R' F R f' R' F R2 U R' U' R' F' R2 U R' S",
+          "votes": 43,
+          "moveCount": 16
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 189,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ga",
+      "name": "PLL Ga",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R2 U R' U R' U' R U' R2 D U' R' U R D'",
+      "alternatives": [
+        {
+          "notation": "R2 u R' U R' U' R u' R2 F' U F",
+          "votes": 26,
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 115,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-gb",
+      "name": "PLL Gb",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "D R' U' R U D' R2 U R' U R U' R U' R2",
+      "alternatives": [
+        {
+          "notation": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+          "votes": 104,
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 141,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-gc",
+      "name": "PLL Gc",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R2 U' R U' R U R' U R2 D' U R U' R' D",
+      "alternatives": [
+        {
+          "notation": "y2 R2 F2 R U2 R U2 R' F R U R' U' R' F R2",
+          "votes": 83,
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 90,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-gd",
+      "name": "PLL Gd",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+      "alternatives": [
+        {
+          "notation": "D' R U R' U' D R2 U' R U' R' U R' U R2",
+          "votes": 35,
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 112,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-h",
+      "name": "PLL H",
+      "set": "PLL",
+      "subset": "EPLL",
+      "puzzle": "3x3",
+      "notation": "M2 U' M2 U2 M2 U' M2",
+      "alternatives": [
+        {
+          "notation": "M2 U M2 U2 M2 U M2",
+          "votes": 133,
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 137,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ja",
+      "name": "PLL Ja",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "y2 x R2 F R F' R U2 r' U r U2 x'",
+      "alternatives": [
+        {
+          "notation": "y R' U L' U2 R U' R' U2 R L",
+          "votes": 67,
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 150,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-jb",
+      "name": "PLL Jb",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R U R' F' R U R' U' R' F R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R U2 L' U R' U' L",
+          "votes": 12,
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 204,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-na",
+      "name": "PLL Na",
+      "set": "PLL",
+      "subset": "Opp Swap",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "F' R U R' U' R' F R2 F U' R' U' R U F' R'",
+          "votes": 61,
+          "moveCount": 16
+        }
+      ],
+      "moveCount": 21,
+      "setup": "",
+      "votes": 141,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-nb",
+      "name": "PLL Nb",
+      "set": "PLL",
+      "subset": "Opp Swap",
+      "puzzle": "3x3",
+      "notation": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+      "alternatives": [
+        {
+          "notation": "r' D' F r U' r' F' D r2 U r' U' r' F r F'",
+          "votes": 106,
+          "moveCount": 16
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 126,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ra",
+      "name": "PLL Ra",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "y R U' R' U' R U R D R' U' R D' R' U2 R'",
+      "alternatives": [
+        {
+          "notation": "y R U R' F' R U2 R' U2 R' F R U R U2 R'",
+          "votes": 59,
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 150,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-rb",
+      "name": "PLL Rb",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R' U2 R U2 R' F R U R' U' R' F' R2",
+      "alternatives": [
+        {
+          "notation": "y R2 F R U R U' R' F' R U2 R' U2 R",
+          "votes": 73,
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 106,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-t",
+      "name": "PLL T",
+      "set": "PLL",
+      "subset": "Adj Swap",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "alternatives": [
+        {
+          "notation": "R2 u R2 u' R2 F2 u' F2 u F2",
+          "votes": 19,
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 209,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ua",
+      "name": "PLL Ua",
+      "set": "PLL",
+      "subset": "EPLL",
+      "puzzle": "3x3",
+      "notation": "y2 M2 U M U2 M' U M2",
+      "alternatives": [
+        {
+          "notation": "R U R' U R' U' R2 U' R' U R' U R",
+          "votes": 118,
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 133,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-ub",
+      "name": "PLL Ub",
+      "set": "PLL",
+      "subset": "EPLL",
+      "puzzle": "3x3",
+      "notation": "y2 M2 U' M U2 M' U' M2",
+      "alternatives": [
+        {
+          "notation": "R' U R' U' R' U' R' U R U R2",
+          "votes": 54,
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 125,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-v",
+      "name": "PLL V",
+      "set": "PLL",
+      "subset": "Opp Swap",
+      "puzzle": "3x3",
+      "notation": "R' U R' U' R D' R' D R' U D' R2 U' R2 D R2",
+      "alternatives": [
+        {
+          "notation": "R' U R U' R' f' U' R U2 R' U' R U' R' f R",
+          "votes": 89,
+          "moveCount": 16
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 104,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-y",
+      "name": "PLL Y",
+      "set": "PLL",
+      "subset": "Opp Swap",
+      "puzzle": "3x3",
+      "notation": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "F R' F R2 U' R' U' R U R' F' R U R' U' F'",
+          "votes": 58,
+          "moveCount": 16
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 161,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "pll-z",
+      "name": "PLL Z",
+      "set": "PLL",
+      "subset": "EPLL",
+      "puzzle": "3x3",
+      "notation": "M' U' M2 U' M2 U' M' U2 M2",
+      "alternatives": [
+        {
+          "notation": "M2 U M2 U M' U2 M2 U2 M'",
+          "votes": 82,
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 86,
+      "source": "speedcubedb"
+    }
+  ]
+}

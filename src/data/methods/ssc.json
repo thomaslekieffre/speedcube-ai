@@ -1,0 +1,39 @@
+{
+  "id": "ssc",
+  "name": "SSC (Shadowslice Snow Columns)",
+  "description": "Shadowslice Snow Columns (SSC) is a hybrid method that combines orient-first concepts with column-based solving. It was developed as an experimental approach that orients pieces early in the solve, then uses a column-building strategy to complete the first two layers before finishing with a reduced last layer. SSC blends ideas from multiple method families into a unique solving philosophy.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Edge Orientation + First Block Setup",
+      "description": "Orient edges and begin constructing a partial first block on the left side. Edge orientation is prioritized early to simplify later steps and enable efficient column building.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Combine EO with block setup moves for efficiency", "Recognize bad edges quickly", "Plan EO integration during inspection"]
+    },
+    {
+      "name": "Column Building",
+      "description": "Build columns (corner-edge pairs stacked vertically) to fill the first two layers. Columns are inserted using RU-based moves, taking advantage of the oriented edges from the first step.",
+      "moveCountRange": "16-20 moves",
+      "tips": ["Oriented edges make column insertion smoother", "Reduce rotations by inserting from multiple angles", "Track remaining pieces to plan insertions"]
+    },
+    {
+      "name": "Corner Orientation",
+      "description": "Orient the last layer corners. Since edges are already oriented from the first step, only corner orientation algorithms are needed.",
+      "algorithmSets": ["OLL"],
+      "moveCountRange": "5-8 moves",
+      "tips": ["Only corner OLL cases apply (7 cases)", "These are a subset of full OLL", "Fast recognition since edges are already oriented"]
+    },
+    {
+      "name": "Last Layer Permutation",
+      "description": "Permute all last layer pieces to their correct positions. With oriented pieces, this step uses PLL or can be split into corner and edge permutation.",
+      "algorithmSets": ["PLL"],
+      "moveCountRange": "11-14 moves",
+      "tips": ["Standard PLL algorithms apply", "Oriented edges may reduce applicable cases", "Practice 2-sided recognition for speed"]
+    }
+  ],
+  "pros": ["Interesting hybrid of orient-first and blockbuilding", "Decent move count (~45-55 moves)", "Oriented edges simplify later steps", "Creative alternative to mainstream methods", "Good for developing versatile solving skills"],
+  "cons": ["Very niche with a small community", "Limited tutorials and documentation", "Column building requires practice to execute efficiently", "Not competitive with mainstream methods for speed", "Method theory is still evolving"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL"],
+  "avgMoveCount": "45-55"
+}

@@ -1,0 +1,883 @@
+[
+  {
+    "id": "cross-planning",
+    "title": "Cross Planning During Inspection",
+    "description": "How to use your 15-second inspection time to plan the entire cross before you start solving.",
+    "category": "cross",
+    "level": "intermediate",
+    "content": "The cross is the foundation of every CFOP solve, and the 15-second inspection period is your opportunity to plan it entirely in your head. Top solvers never start turning until they have a complete plan for all four cross edges. Start by identifying where each of the four cross edges currently sits, then mentally trace a solution that solves them in 8 moves or fewer. The key insight is that cross edges interact with each other, so the order in which you solve them matters enormously.\n\nBegin your practice by solving the cross with your eyes closed. Inspect the cube, close your eyes, and execute your planned solution. If you cannot do this reliably, your planning is not thorough enough. Start with planning just 2 edges, then 3, then all 4. Many cubers hit a wall at the 3-to-4 edge transition, which is normal. Work through it by practicing 10-15 minutes of cross-only solves daily, focusing on efficiency rather than speed.\n\nAdvanced cross planning extends beyond just the four edges. Once you can consistently plan the cross in under 5 seconds of inspection, begin looking for the first F2L pair. An X-cross, where you solve the cross and one F2L pair simultaneously, can save 1-2 seconds per solve. Even if you do not solve an X-cross, knowing where your first pair will end up after the cross lets you transition into F2L without pausing.",
+    "keyPoints": [
+      "Plan all 4 cross edges during the 15-second inspection before making any moves",
+      "Practice blind cross execution to verify your planning is accurate",
+      "Aim for 8 moves or fewer for every cross solution",
+      "Solve the cross on the bottom so you can spot F2L pairs immediately",
+      "After mastering basic cross planning, look for X-cross opportunities",
+      "Color neutrality doubles your chances of finding an easy cross"
+    ]
+  },
+  {
+    "id": "lookahead-fundamentals",
+    "title": "Lookahead Fundamentals",
+    "description": "Understanding and developing lookahead, the most important skill separating intermediate and advanced solvers.",
+    "category": "lookahead",
+    "level": "intermediate",
+    "content": "Lookahead is the ability to search for and track your next pieces while your hands are executing the current algorithm or insertion. It is the single most impactful skill for breaking through plateaus between sub-30 and sub-15. The core principle is simple: your eyes should always be one step ahead of your hands. While inserting an F2L pair, your eyes should already be locating the next corner and edge that will form your next pair.\n\nThe biggest mistake cubers make when developing lookahead is turning too fast. Deliberate slow solving is the most effective training method. Set a metronome or simply force yourself to solve at 50-60% of your maximum TPS. At this slower speed, you have time to scan the cube and identify the next pair. The goal is to eliminate all pauses between F2L pairs. A solve with smooth, continuous turning at 4 TPS will often be faster than a solve with 7 TPS that has pauses between every pair.\n\nTo practice effectively, try the following drill: solve F2L while narrating out loud what your next pair is before you finish inserting the current one. If you cannot name the next pair, you are not looking ahead. Another excellent drill is solving with a metronome, maintaining a constant rhythm through the entire F2L phase. Over weeks and months, gradually increase the tempo. This trains your brain to process information at turning speed rather than pausing to think.",
+    "keyPoints": [
+      "Lookahead means your eyes track the next pieces while your hands execute the current step",
+      "Practice slow, pauseless solves rather than fast, choppy ones",
+      "Eliminate all pauses between F2L pairs as the primary goal",
+      "Turn at 50-60% speed during lookahead training sessions",
+      "Use metronome drills to build consistent turning rhythm",
+      "A smooth 4 TPS solve beats a paused 7 TPS solve in total time"
+    ]
+  },
+  {
+    "id": "finger-tricks-speed",
+    "title": "Finger Tricks for Speed",
+    "description": "Essential finger trick techniques that enable fast, fluid algorithm execution and higher TPS.",
+    "category": "finger-tricks",
+    "level": "beginner",
+    "content": "Finger tricks are the mechanical foundation of fast solving. Instead of regripping the cube to make each move, individual fingers push, pull, and flick layers. The most fundamental finger tricks include: right index finger pushing the R face forward (R move), right ring finger pulling the R face back (R' move), left index finger pushing the U face away (U' move), and right index or wrist turning U. Mastering these four basic movements enables execution of the most common trigger, R U R' U', at high speed.\n\nThe key to developing fast finger tricks is starting slow and focusing on form. Each move should be executed with minimal finger travel and no wrist rotation. Watch slow-motion videos of top solvers to study their hand positioning and finger movements. The cube should barely move in your hands during an algorithm. Common mistakes include gripping the cube too tightly, using the whole hand for single-layer turns, and regripping between moves. A loose, relaxed grip allows fingers to move independently.\n\nOnce basic tricks are comfortable, work on advanced techniques: double flicks (two moves with one finger motion), table abuse (using the table surface as leverage), and pinch moves for M-slice turns. The U2 move has multiple finger trick options depending on context, including a double push with the index finger or a wrist flick. Drilling algorithms in isolation, repeating them 50-100 times in a row, builds muscle memory. Focus on one algorithm at a time until it becomes completely automatic, then move to the next.",
+    "keyPoints": [
+      "Right index finger pushes for R, right ring finger pulls for R prime",
+      "Left index finger pushes for U prime, right index or wrist for U",
+      "Keep a loose, relaxed grip to allow independent finger movement",
+      "Start slow with correct form and gradually increase speed",
+      "Drill individual algorithms 50-100 times to build muscle memory",
+      "Minimize regrips and whole-hand movements during algorithms"
+    ]
+  },
+  {
+    "id": "f2l-efficiency",
+    "title": "F2L Efficiency",
+    "description": "Reducing F2L move count through smarter pair handling, fewer rotations, and better solutions.",
+    "category": "f2l",
+    "level": "intermediate",
+    "content": "F2L typically accounts for 50-60% of your total solve time, making it the phase with the greatest room for improvement. The average intermediate solver uses 35-40 moves for F2L, but top solvers achieve 25-30 moves through efficient pair solutions. The single biggest improvement you can make is reducing cube rotations. Each rotation costs about 0.3-0.5 seconds and disrupts lookahead. Learn to insert pairs from the back slots using R and L moves, and use wide moves (r, l) instead of rotations when possible.\n\nUnderstanding F2L cases at a conceptual level, rather than memorizing all 41 algorithms, gives you flexibility. Every F2L case involves three decisions: where is the corner, where is the edge, and how are they oriented relative to each other. Learn the three fundamental situations (corner in top layer with edge in top, corner in slot with edge in top, both in top layer separated) and develop intuitive solutions for each. When you do learn algorithmic solutions, learn multiple solutions for common cases and choose based on what gives better lookahead.\n\nAdvanced F2L efficiency comes from influencing later pairs while inserting current ones. For example, inserting a pair with R U R' might accidentally displace a piece you need, while R U' R' solves the same case and leaves your next pair accessible. Multislotting, solving two pairs simultaneously, and pseudo-pairs (solving with a different slot color arrangement) are techniques that top solvers use to shave moves. Practice by doing untimed F2L-only solves, counting your moves, and trying to reduce your average below 30.",
+    "keyPoints": [
+      "F2L is 50-60% of solve time and offers the biggest improvement potential",
+      "Reduce cube rotations by learning back-slot insertions with R and L moves",
+      "Use wide moves (r, l) instead of full cube rotations when possible",
+      "Understand cases conceptually rather than memorizing all 41 algorithms blindly",
+      "Learn multiple solutions for common cases to optimize for lookahead",
+      "Practice counting F2L moves and aim for under 30 moves total"
+    ]
+  },
+  {
+    "id": "color-neutrality",
+    "title": "Color Neutrality",
+    "description": "Why and how to become color neutral, allowing you to start your solve on any of the six colors.",
+    "category": "cross",
+    "level": "intermediate",
+    "content": "Color neutrality means being able to start your cross on any of the six faces, choosing whichever gives the easiest cross for a given scramble. Statistically, a color-neutral solver will find a cross that is 1-2 moves shorter on average compared to a single-color solver. Over thousands of solves, this adds up to significant time savings. More importantly, easier crosses lead to better first-pair visibility and smoother transitions into F2L.\n\nThe best time to become color neutral is as early as possible. If you currently average over 30 seconds, switching to CN now is strongly recommended. The transition takes 2-4 weeks of dedicated practice for most solvers. Start by adding one opposite color (if you solve white, add yellow). Practice both for a week until they feel equal. Then add two more colors (e.g., red and orange). Finally, add the remaining two. During the transition, your times will temporarily increase by 5-10 seconds. This is normal and expected.\n\nIf you already average under 20 seconds, the transition to CN is harder and the benefits are more debatable. Some elite solvers are not color neutral and still achieve world-class times. However, the general consensus in the community is that CN is worth pursuing at any level. To maintain CN once achieved, avoid falling back to a 'comfort color.' Deliberately practice your weakest colors. Some solvers use random color generators to force variety. Dual color neutrality (opposite colors like white/yellow) captures about 70% of the benefit of full CN and is a reasonable compromise.",
+    "keyPoints": [
+      "Color neutrality lets you pick the easiest cross from all 6 colors each solve",
+      "On average, CN saves 1-2 cross moves per solve compared to fixed-color solving",
+      "The best time to switch is when you average over 30 seconds",
+      "Expect a temporary 5-10 second increase during the transition period",
+      "Start with opposite colors, then add pairs gradually over 2-4 weeks",
+      "Dual color neutrality (2 opposite colors) captures about 70% of full CN benefit"
+    ]
+  },
+  {
+    "id": "practice-routine",
+    "title": "Practice Routine for Improvement",
+    "description": "A structured approach to daily practice that maximizes improvement rate and avoids plateaus.",
+    "category": "practice",
+    "level": "beginner",
+    "content": "Effective practice requires structure, not just doing hundreds of timed solves. The most efficient improvement routine balances three types of practice: targeted drilling, slow solves, and timed solves. A typical one-hour session might break down as: 15 minutes of algorithm drilling, 20 minutes of slow untimed solves focusing on lookahead or efficiency, and 25 minutes of timed solves. The ratio should shift depending on your current weakness.\n\nTargeted drilling means isolating specific skills and practicing them in repetition. For cross, do 50 cross-only solves, timing each one. For OLL/PLL, pick your 3 slowest algorithms and execute each one 50 times. For F2L, scramble the cube, solve the cross, then practice just one F2L pair at a time, rescrambling after each insertion. These focused sessions build specific skills much faster than full solves, where each skill only gets exercised a few times per solve.\n\nTracking your progress is essential for staying motivated and identifying weaknesses. Use a timer app that records your times and generates statistics. Review your averages weekly, not daily, since daily fluctuations are normal. If you plateau for more than 2-3 weeks, change your practice focus. Common plateau-breakers include: learning full OLL/PLL if using 2-look, focusing on cross efficiency, drilling slow lookahead solves, or learning new F2L solutions for your worst cases. Aim for at least 30 minutes of deliberate practice daily; consistency beats volume.",
+    "keyPoints": [
+      "Structure practice into drilling, slow solves, and timed solves rather than only timing",
+      "Spend 15 minutes daily on isolated algorithm drilling for your weakest algorithms",
+      "Do cross-only and F2L-only drills to build specific skills faster than full solves",
+      "Track weekly averages using a timer app to identify trends and weaknesses",
+      "If plateaued for 2-3 weeks, shift your practice focus to a different skill area",
+      "Consistent daily 30-minute practice beats occasional marathon sessions"
+    ]
+  },
+  {
+    "id": "last-layer-recognition",
+    "title": "Last Layer Recognition Speed",
+    "description": "Techniques for instantly recognizing OLL and PLL cases to eliminate pauses before algorithm execution.",
+    "category": "last-layer",
+    "level": "intermediate",
+    "content": "Recognition speed for OLL and PLL is often an overlooked bottleneck. Many solvers can execute their algorithms in under 1.5 seconds but take 1-2 seconds just to identify the case. Cutting recognition time to under 0.5 seconds effectively saves a full second per solve. For OLL, learn to recognize cases by the pattern of oriented and unoriented stickers on top, grouping similar-looking cases by their distinguishing features. The 57 OLL cases can be categorized into groups (dots, lines, crosses, corners) to speed up identification.\n\nPLL recognition is best done using a two-sided recognition system. Instead of doing a full AUF to find a 'recognition angle,' learn to identify each PLL from any angle by looking at the patterns on two adjacent sides. For each PLL, identify the key 'blocks' (pairs of same-colored stickers) and 'headlights' (two matching stickers separated by a different color). With practice, you can recognize all 21 PLLs from any AUF angle in under 0.3 seconds.\n\nTo train recognition, use algorithm trainers that show you random OLL or PLL cases and time how quickly you can name them (without executing). Flashcard-style apps work well. Another effective method is to scramble your cube, solve to the last layer, and practice recognizing the OLL/PLL case as quickly as possible before executing. Do not time the full solve; only time the recognition pause. Over time, recognition becomes as automatic as reading words: you do not spell out each letter, you just see the pattern and know.",
+    "keyPoints": [
+      "Recognition often takes 1-2 seconds but can be reduced to under 0.5 seconds with practice",
+      "Group OLL cases into families (dots, lines, crosses) for faster pattern matching",
+      "Use two-sided PLL recognition to identify cases from any AUF angle",
+      "Look for headlights and blocks as key PLL recognition features",
+      "Use flashcard apps and algorithm trainers to drill recognition separately from execution",
+      "Recognition should become automatic pattern matching, not conscious analysis"
+    ]
+  },
+  {
+    "id": "tps-vs-efficiency",
+    "title": "TPS vs Efficiency: The Speed Debate",
+    "description": "Understanding the balance between turning fast (TPS) and using fewer, smarter moves (efficiency).",
+    "category": "practice",
+    "level": "intermediate",
+    "content": "A common debate in the speedcubing community is whether solvers should focus on turning faster (higher TPS) or using fewer moves (efficiency). The answer is nuanced: both matter, but their relative importance changes at different skill levels. Below sub-30, improving efficiency (better cross solutions, fewer F2L moves, eliminating rotations) gives dramatically more return than turning faster. A solver doing 60 moves at 3 TPS (20 seconds) can drop to 50 moves at 3 TPS (16.7 seconds) just through efficiency, a massive improvement without turning any faster.\n\nAbove sub-15, TPS becomes increasingly important because there are diminishing returns on efficiency. World-class solvers average about 50-55 moves per solve, close to the theoretical optimum for human solving methods. At this level, the difference between a 6-second and an 8-second solve often comes down to TPS and recognition speed rather than move count. Top solvers achieve 8-12 TPS during algorithm execution and 4-6 TPS during F2L with lookahead.\n\nThe ideal approach is to train both simultaneously but with different practice types. Slow solves train efficiency and lookahead (reduce moves, improve planning). Speed drills and algorithm repetitions train TPS (faster finger tricks, smoother execution). Never sacrifice lookahead for TPS during full solves. A common trap is the 'TPS wall': solvers turn so fast they cannot look ahead, creating pauses that negate the speed gain. If your solves feel frantic and choppy, slow down until they feel smooth, then gradually speed up while maintaining that smoothness.",
+    "keyPoints": [
+      "Below sub-30, efficiency improvements give more time savings than turning faster",
+      "Above sub-15, TPS becomes more important as efficiency approaches its practical limit",
+      "World-class solvers average 50-55 moves at 8-12 TPS during algorithms",
+      "Train efficiency through slow solves and TPS through algorithm drilling separately",
+      "Never sacrifice lookahead continuity for higher raw turning speed",
+      "Smooth continuous turning at moderate TPS beats fast choppy turning with pauses"
+    ]
+  },
+  {
+    "id": "competition-mindset",
+    "title": "Competition Mindset",
+    "description": "Mental strategies for performing at your best during official WCA competitions.",
+    "category": "mental",
+    "level": "beginner",
+    "content": "Competition nerves are real and affect nearly every speedcuber, from beginners to world champions. The pressure of being watched, the unfamiliar environment, and the importance placed on results can cause times to increase by 2-5 seconds compared to home averages. The most important mental shift is reframing your goal: focus on the process (executing your solve well) rather than the outcome (getting a fast time). Before each solve, take a breath, clear your mind, and commit to executing your inspection plan without rushing.\n\nWarm-up strategy matters significantly. Arrive at the competition venue early and do at least 30-50 warm-up solves before your event. Start slow and gradually build speed. Many solvers make the mistake of doing frantic speed solves right before competing, which increases anxiety and leads to sloppy execution. Instead, finish your warm-up with 5-10 smooth, controlled solves at about 90% effort. This primes your muscle memory and builds confidence without spiking your adrenaline.\n\nDuring the round, treat each solve as independent. A bad solve does not predict the next one, and a great solve does not mean you should push harder on the next. If you get a DNF or a bad time, take a moment to reset mentally before the next scramble. Many personal bests happen after a terrible solve because the solver stops caring about the result and just solves naturally. Long-term, compete frequently. Competition performance improves with exposure. Your fifth competition will feel far more comfortable than your first.",
+    "keyPoints": [
+      "Focus on executing your solve process well, not on achieving a specific time",
+      "Arrive early and do 30-50 warm-up solves, finishing with smooth controlled ones",
+      "Treat each solve as completely independent from previous results",
+      "Take a breath and reset mentally after any bad solve before the next attempt",
+      "Compete frequently to build comfort with the competition environment",
+      "Solve at about 90% effort rather than pushing for maximum speed under pressure"
+    ]
+  },
+  {
+    "id": "cube-maintenance",
+    "title": "Cube Maintenance and Setup",
+    "description": "How to properly maintain, tension, and lubricate your speedcube for optimal performance.",
+    "category": "hardware",
+    "level": "beginner",
+    "content": "A well-maintained cube performs dramatically better than a neglected one. Modern speedcubes require periodic cleaning and re-lubrication to maintain their optimal feel. Over time, dust, skin oils, and dried lubricant accumulate inside the mechanism, making the cube feel sluggish or scratchy. A full cleaning involves disassembling the cube, wiping down all pieces with a microfiber cloth, and reassembling before applying fresh lubricant. Most solvers should do a deep clean every 2-4 weeks depending on usage.\n\nLubrication strategy depends on your preferred turning feel. A typical setup involves two types of lube: a heavier silicone lube (like Traxxas 50K or Weight 5) on the core and springs/MagLev system to control speed and reduce spring noise, and a lighter lube (like DNM-37, Silk, or Lunar) on the piece contact surfaces for smoothness and speed. Apply lube sparingly; a few drops go a long way. Over-lubing makes the cube gummy and slow. Break in new lube by doing 50-100 solves after application, as the feel changes significantly during break-in.\n\nTensioning and magnet adjustment are equally important. Most flagship cubes allow you to adjust tension (how tight the layers are) and magnet strength independently. Looser tensions allow faster turning and better corner cutting but increase the risk of pops and overshooting. Stronger magnets provide more stability and tactile feedback but can make the cube feel sluggish. Start with the manufacturer's recommended settings and make small adjustments until you find your personal sweet spot. Keep notes on your settings so you can reproduce them after cleaning.",
+    "keyPoints": [
+      "Deep clean your cube every 2-4 weeks by disassembling and wiping all pieces",
+      "Use heavy silicone lube on core and springs, light lube on piece surfaces",
+      "Apply lubricant sparingly as a few drops are sufficient and over-lubing makes the cube gummy",
+      "Break in new lube with 50-100 solves as the feel changes during initial use",
+      "Adjust tensions and magnet strength in small increments from manufacturer defaults",
+      "Keep notes on your preferred settings for consistent setup after maintenance"
+    ]
+  },
+  {
+    "id": "auf-prediction",
+    "title": "AUF Prediction",
+    "description": "Predicting the final U-face adjustment before finishing PLL to save crucial fractions of a second.",
+    "category": "last-layer",
+    "level": "advanced",
+    "content": "AUF prediction is the practice of determining what your final U-layer adjustment will be before you even begin executing your PLL algorithm. During PLL recognition, top solvers do not just identify the PLL case and the pre-AUF needed to start the algorithm. They also note the position of a reference sticker so they can predict the post-AUF, the adjustment required after the algorithm to complete the solve. This means the very last move of the solve is already decided before PLL execution begins, eliminating the recognition pause that would otherwise occur at the end.\n\nTo develop this skill, start by learning how each PLL algorithm affects the U layer. Every PLL has a fixed AUF offset, meaning the top layer will always end up a specific number of quarter turns away from solved after execution. For example, if a T-perm leaves the U layer one quarter turn clockwise from solved, and you already know your pre-AUF, you can calculate the post-AUF instantly. Create a reference sheet for each of your 21 PLLs, noting the AUF offset for each starting angle. With practice, this calculation becomes automatic.\n\nThe real speed gain from AUF prediction is not just skipping the post-PLL pause. It also allows you to integrate the final AUF into the last moves of the PLL itself, using finger tricks to flow the AUF seamlessly into the algorithm's ending. Some solvers even choose a different pre-AUF angle specifically because it results in an easier or faster post-AUF. For instance, you might choose to start a PLL from a different angle so that the post-AUF is a U2 double flick rather than a U-prime that requires a regrip. This level of optimization is what separates sub-8 solvers from sub-10 solvers and is a hallmark of truly elite last-layer technique.\n\nTo train AUF prediction, do sets of last-layer-only solves where you pause after PLL recognition to consciously predict the post-AUF, then execute and check. Initially this will be slow and deliberate. Over weeks, the prediction becomes subconscious, happening in parallel with recognition. A useful drill is to scramble only the last layer, recognize PLL plus both AUFs, and then execute the entire last layer with zero pauses. Track your recognition-to-completion time and aim to reduce the gap between PLL start and solve completion.",
+    "keyPoints": [
+      "Determine the post-AUF before beginning your PLL algorithm to eliminate the final pause",
+      "Each PLL has a fixed AUF offset that shifts the U layer by a predictable amount",
+      "Create a reference sheet noting the AUF offset for all 21 PLLs from each starting angle",
+      "Integrate the final AUF into the last moves of PLL for seamless execution",
+      "Choose pre-AUF angles that result in more finger-trick-friendly post-AUFs",
+      "Train with last-layer-only scrambles, pausing to predict post-AUF before executing"
+    ]
+  },
+  {
+    "id": "edge-control-f2l",
+    "title": "Edge Control During F2L",
+    "description": "Manipulating last-layer edge orientation while solving F2L pairs to influence easier OLL cases.",
+    "category": "f2l",
+    "level": "intermediate",
+    "content": "Edge control is the technique of intentionally orienting the last-layer edges while inserting F2L pairs, so that when you finish F2L, all four top-layer edges are already oriented. This effectively guarantees that your OLL case will be one of only seven cases (the cross OLLs) rather than the full set of 57, dramatically simplifying the last layer. When combined with COLL knowledge, edge control can even set up one-look last-layer finishes.\n\nThe principle behind edge control is straightforward: certain F2L insertions orient last-layer edges and others misoriented them. When you insert a pair using R U R', the impact on edge orientation differs from R U' R' or R U2 R'. By learning which insertions preserve or flip edge orientation, you can choose solutions that leave edges oriented whenever possible. The simplest rule of thumb is that F and B moves (and by extension, wide f and b moves) flip edge orientation, while R, U, and L moves preserve it. If your F2L solution avoids F and B moves, edges will remain in whatever state they were in.\n\nIn practice, full edge control is difficult because it constrains your F2L solutions and can increase move count. Most solvers practice partial edge control instead: they pay attention to edge orientation during the last one or two F2L pairs and make small adjustments to ensure edges are oriented. For example, if you notice three edges are already oriented heading into your last pair, you can choose an insertion that orients the fourth. This selective approach captures most of the benefit without significantly impacting F2L efficiency or lookahead.\n\nTo learn edge control, start by understanding how to read edge orientation. An edge on the U layer is oriented if its top-face sticker matches the U-face color or the D-face color (depending on your reference system). Practice checking edge orientation after each F2L pair insertion. Over time, you will naturally notice patterns and begin choosing insertions that help rather than hurt edge orientation. Combine this with knowledge of the seven cross OLLs for maximum benefit.",
+    "keyPoints": [
+      "Edge control orients LL edges during F2L so OLL reduces to just 7 cross cases",
+      "F and B moves flip edge orientation while R, U, and L moves preserve it",
+      "Full edge control on every pair is impractical; focus on the last 1-2 pairs",
+      "Check edge orientation after each F2L insertion to build awareness",
+      "Partial edge control captures most of the benefit without hurting F2L efficiency",
+      "Combine with COLL knowledge to enable one-look last-layer finishes"
+    ]
+  },
+  {
+    "id": "one-handed-basics",
+    "title": "One-Handed Solving Basics",
+    "description": "Getting started with OH solving, including grip techniques, finger tricks, and method adaptations.",
+    "category": "technique",
+    "level": "intermediate",
+    "content": "One-handed (OH) solving is a popular WCA event that challenges solvers to complete the cube using only one hand, typically the left hand for right-handed people (freeing the dominant hand for table starts). The fundamental grip for OH places the thumb on the front face, the pinky on the back face, and the three middle fingers on top. This grip allows the index and middle fingers to perform U moves, while the ring finger handles R moves. The cube rests primarily on the pinky and thumb, which provide stability.\n\nThe biggest adjustment from two-handed to one-handed solving is the limited set of comfortable moves. R and U moves are fast and natural. L moves require a table assist or a z rotation to temporarily convert them into R moves. D moves are generally avoided. This is why the ZZ method is popular for OH solving: its EOLine step eliminates the need for F and B moves during F2L, and the resulting RUL moveset is ideal for one-handed execution. CFOP solvers doing OH typically learn alternative F2L algorithms that minimize L, F, and B moves.\n\nFinger tricks for OH differ significantly from two-handed solving. The index finger pushes for U', the middle finger pulls for U, and table abuse (pressing the cube against the table surface) becomes a legitimate technique for certain moves like D and wide moves. R2 is typically done as a wrist flick rather than a double finger push. Start by practicing OH at a very slow pace, focusing on maintaining a stable grip and clean execution. It is normal for your OH times to be roughly double your two-handed times when starting out.\n\nTo improve at OH, dedicate specific practice sessions to it rather than just doing it occasionally. Drill your OH algorithms separately from your two-handed ones, as many will be different. Common trigger sequences like R U R' U' feel entirely different one-handed and need fresh muscle memory. Stretch your fingers and wrist before and after practice, as OH solving places more strain on the hand. Most OH-specific improvement comes from refining your turning accuracy and developing the finger strength to maintain control during fast algorithms.",
+    "keyPoints": [
+      "Use the standard OH grip: thumb on front, pinky on back, three fingers on top",
+      "R and U moves are fast and natural; L and F moves require workarounds",
+      "ZZ is popular for OH because its RUL moveset avoids F and B moves in F2L",
+      "Table abuse is a legitimate technique for D moves and wide moves in OH",
+      "Expect OH times to be roughly double your two-handed times initially",
+      "Dedicate specific practice sessions and learn OH-specific algorithms separately"
+    ]
+  },
+  {
+    "id": "blind-solving-intro",
+    "title": "Blind Solving Introduction",
+    "description": "An introduction to blindfolded solving including memorization techniques, Old Pochmann method, and letter pairs.",
+    "category": "technique",
+    "level": "advanced",
+    "content": "Blindfolded (BLD) solving is one of the most impressive and intellectually demanding events in speedcubing. Unlike speed solving, BLD requires two distinct phases: memorization (memo) and execution. During memo, you examine the cube with your eyes and encode the entire cube state into memory. Then you don a blindfold and solve the cube entirely from memory. The timer runs during both phases. Beginners typically have memo times of 3-10 minutes and execution times of 2-5 minutes, while top solvers memo in under 10 seconds and execute in under 15 seconds.\n\nThe most beginner-friendly execution method is Old Pochmann (OP). Old Pochmann solves corners and edges separately using a single setup-move-algorithm-undo-setup-move pattern. For edges, you use a T-perm (or similar algorithm) to swap the target piece into a buffer position. For corners, you use a Y-perm or similar. The beauty of OP is that you only need to know two algorithms; all the complexity is in the setup moves that position pieces correctly before the algorithm. Setup moves are intuitive and follow simple rules once you understand the buffer-target system.\n\nMemorization uses a letter scheme where each sticker position on the cube is assigned a letter (A through X for edges, A through X for corners). You trace the cycle of pieces starting from your buffer, noting the letter of each target. For example, if the edge memo produces the sequence D-K-R-F-M, you memorize these letters. To make long sequences memorable, solvers group letters into pairs and convert them into images or words. 'DK' might become 'Donkey Kong,' 'RF' might become 'Radio Frequency.' These vivid images are then placed along a mental journey (the method of loci) for reliable recall.\n\nStarting BLD can feel overwhelming, but the learning curve rewards patience. Begin by learning the letter scheme and practicing tracing (memo only, no solving) until you can accurately memo a cube in under 5 minutes. Then learn the OP execution method for edges only, solving scrambles where only edges need solving. Once edges are comfortable, add corners. Your first successful blind solve is a milestone that typically takes 2-4 weeks of dedicated practice. From there, speed improvement comes from faster memo techniques and eventually graduating to more advanced execution methods like M2 for edges or 3-style commutators.",
+    "keyPoints": [
+      "BLD solving has two phases: memorization (memo) and execution, both timed together",
+      "Old Pochmann uses just two algorithms with intuitive setup moves for all pieces",
+      "Each sticker position is assigned a letter; you trace cycles to generate a letter sequence",
+      "Letter pairs are converted into images or words for memorable encoding",
+      "Use the method of loci (memory palace) to store letter pair images in order",
+      "Start by learning memo only, then edges-only execution, then add corners gradually"
+    ]
+  },
+  {
+    "id": "warming-up-competition",
+    "title": "Warming Up for Competition",
+    "description": "How to effectively warm up before competition rounds to ensure peak performance.",
+    "category": "practice",
+    "level": "beginner",
+    "content": "Warming up before a competition round is just as important for speedcubing as it is for any physical activity. Your fingers, wrists, and brain all need time to reach peak performance. A cold start in competition often results in times that are 1-3 seconds slower than your warmed-up average. The ideal warm-up period is 15-30 minutes before your event is called, consisting of a structured mix of physical preparation, algorithm drilling, and controlled solves.\n\nStart your warm-up with gentle hand and finger stretches. Spread your fingers wide, make fists, rotate your wrists in circles, and gently pull each finger back to stretch the tendons. This increases blood flow and flexibility, reducing the risk of strain during fast solves. Next, do 5-10 minutes of slow, deliberate solves at about 60-70% speed, focusing on smooth execution and clean turning. This primes your muscle memory without building anxiety. Avoid checking your times during this phase; the goal is feel, not speed.\n\nAfter slow solves, transition to algorithm drilling. Run through your full OLL and PLL sets at moderate speed, paying attention to any algorithms that feel rusty or hesitant. If you find one that does not feel automatic, drill it 10-20 times in isolation. Then do 5-10 timed solves at about 85-90% effort. These should feel controlled and confident. Resist the urge to push for personal bests during warm-up, as that increases adrenaline and tension. Your last few warm-up solves should feel easy, smooth, and automatic.\n\nTiming your warm-up relative to your event is important. If you warm up too early and then sit idle for 30 minutes waiting for your group, your hands will cool down and you will lose the benefit. Try to finish your warm-up 5-10 minutes before you need to start competing. If there are delays, do occasional maintenance solves to keep your hands active. Also, bring your main cube and a backup to warm up with. Competition environments can be cold, noisy, and distracting, so having a familiar cube in your hands helps ground you and build confidence.",
+    "keyPoints": [
+      "Begin warming up 15-30 minutes before your event with hand and finger stretches",
+      "Start with slow deliberate solves at 60-70% speed to prime muscle memory",
+      "Drill any OLL or PLL algorithms that feel rusty during warm-up",
+      "Finish warm-up with smooth controlled solves at 85-90% effort, not max speed",
+      "Time your warm-up to finish 5-10 minutes before competing to stay warm",
+      "Bring your main cube and a backup to warm up with in the competition venue"
+    ]
+  },
+  {
+    "id": "dealing-with-plateaus",
+    "title": "Dealing with Plateaus",
+    "description": "Strategies for breaking through speed barriers when improvement seems to stall.",
+    "category": "practice",
+    "level": "intermediate",
+    "content": "Every speedcuber hits plateaus, periods where times stop improving despite continued practice. Common plateau points are sub-60, sub-30, sub-20, sub-15, and sub-10, each representing a barrier that requires new skills or deeper mastery of existing ones. Understanding why plateaus happen is the first step to breaking through them. Most plateaus occur because the skills that got you to your current level are not the same skills needed to reach the next level. A solver who reached sub-30 by turning fast might plateau because they never developed lookahead.\n\nThe most effective plateau-breaking strategy is honest self-assessment. Record 5-10 solves on video and watch them critically. Time each phase of your solve separately: cross, F2L pairs 1-4, OLL recognition, OLL execution, PLL recognition, PLL execution. Compare your splits to benchmarks for your target average. If your cross takes 3 seconds but F2L takes 15 seconds for a sub-20 solver, F2L is clearly the bottleneck. Many solvers waste time optimizing their strengths while ignoring their weaknesses, which produces minimal improvement.\n\nOnce you identify your bottleneck, dedicate 70-80% of your practice time to that specific weakness for 2-3 weeks. If F2L efficiency is the issue, do untimed F2L-only solves and count moves. If OLL/PLL recognition is slow, use algorithm trainers. If your cross is inconsistent, do 100 cross-only solves daily. This targeted approach feels tedious compared to doing full timed solves, but it produces breakthroughs that general practice cannot. Many solvers report that after a focused training block, their times drop significantly within days of returning to full solves.\n\nMental plateaus are equally real. If you have been stuck at the same average for months, the frustration itself can become a barrier. Taking a 2-3 day break from cubing and returning fresh often helps. Changing your practice environment, trying a different event (like OH or 4x4), or watching competition videos for inspiration can reignite motivation. Some solvers find that switching cubes or changing their cube setup provides a psychological fresh start. Remember that improvement is not linear; it comes in bursts separated by plateaus, and every world-class solver went through exactly what you are experiencing.",
+    "keyPoints": [
+      "Common plateaus occur at sub-60, sub-30, sub-20, sub-15, and sub-10 milestones",
+      "Record and review solves on video to identify your specific bottleneck phase",
+      "Time each solve phase separately to compare against benchmarks for your target average",
+      "Dedicate 70-80% of practice to your weakest area for 2-3 weeks at a time",
+      "Taking a 2-3 day break can help overcome mental plateaus and frustration",
+      "Improvement comes in bursts separated by plateaus; this pattern is normal and universal"
+    ]
+  },
+  {
+    "id": "turning-style-optimization",
+    "title": "Turning Style Optimization",
+    "description": "Understanding rough versus smooth turning styles and when to use each approach.",
+    "category": "technique",
+    "level": "intermediate",
+    "content": "Turning style refers to how aggressively or gently you turn the cube during a solve, and it has a profound impact on both speed and accuracy. Broadly, turning styles fall on a spectrum from rough (fast, aggressive, high-TPS movements) to smooth (controlled, flowing, moderate-TPS movements). Neither extreme is ideal; the best solvers dynamically adjust their turning style based on the phase of the solve and the specific situation.\n\nRough turning is characterized by fast, snappy movements with high instantaneous TPS. It is most effective during algorithm execution, where the moves are fully memorized and require no visual tracking. During a PLL algorithm, for example, you can turn as fast as your fingers allow because you know exactly what comes next. Rough turning is also appropriate for the cross, which is fully planned during inspection. The risk of rough turning is overshooting (turning past the intended position), lockups (layers catching on each other), and corner twists. Cubes set up with stronger magnets and moderate tensions help mitigate these issues.\n\nSmooth turning is characterized by deliberate, controlled movements at a moderate pace. It is essential during F2L, where you need to look ahead and track pieces. Turning too fast during F2L creates a 'blur' effect where pieces move faster than your eyes can track, destroying lookahead and forcing pauses. The goal during F2L is continuous, unbroken movement at a pace that allows your eyes to stay one step ahead. Many top solvers describe this as the cube 'flowing' through their hands. The transition between smooth F2L and rough last-layer execution should be seamless.\n\nTo develop your optimal turning style, experiment with your cube setup. A slightly looser, faster cube suits rough turning for algorithms, while a more controlled, magnetic cube suits smooth F2L turning. Since you use the same cube for both, find a setup that balances both needs. Practice switching between styles within a single solve. Do drills where you consciously turn smoothly through F2L, then burst into maximum speed for OLL and PLL. Over time, this style-switching becomes automatic. Video-record your solves and watch for moments where your turning style does not match the situation.",
+    "keyPoints": [
+      "Rough turning (fast, snappy) is best for pre-planned moves like cross and algorithms",
+      "Smooth turning (controlled, flowing) is essential during F2L for maintaining lookahead",
+      "Overshooting and lockups are the main risks of turning too aggressively",
+      "The best solvers dynamically switch between rough and smooth within a single solve",
+      "Cube setup should balance the needs of both aggressive algorithms and smooth F2L",
+      "Video-record solves to identify moments where turning style does not match the situation"
+    ]
+  },
+  {
+    "id": "multi-slotting-f2l",
+    "title": "Multi-Slotting F2L",
+    "description": "Solving two F2L pairs simultaneously to reduce overall move count and transition time.",
+    "category": "f2l",
+    "level": "advanced",
+    "content": "Multi-slotting is the advanced F2L technique of solving two corner-edge pairs at the same time, or solving one pair while simultaneously setting up or partially solving the next. This is distinct from simply having good lookahead; multi-slotting involves executing moves that progress two pairs within a single sequence. When executed well, multi-slotting can save 4-8 moves per solve, translating to roughly 0.5-1.5 seconds at high TPS.\n\nThe most common form of multi-slotting occurs when two F2L pairs share pieces in the U layer. Instead of solving one pair, then finding and solving the second, a skilled solver recognizes that both pairs can be influenced simultaneously. For example, when inserting a pair into the back-right slot, the moves might naturally bring the next pair's corner or edge into a favorable position. Advanced solvers plan insertions that intentionally set up the next pair. This requires seeing both pairs during inspection of the current one, which demands strong lookahead and deep F2L understanding.\n\nTrue simultaneous multi-slotting, where both pairs are inserted in a single algorithm-like sequence, is rare and situational. More commonly, multi-slotting manifests as 'influencing': choosing among several solutions for the current pair based on which one leaves the next pair in the best position. This is a softer form of multi-slotting that does not require memorizing new algorithms but does require knowing multiple solutions for each F2L case and being able to evaluate their downstream effects.\n\nTo develop multi-slotting ability, start by learning 2-3 solutions for each common F2L case. During untimed solves, deliberately pause after recognizing each pair and ask yourself: where is my next pair, and which insertion for the current pair leaves the next pair in the best position? This conscious evaluation is slow at first but builds the pattern recognition needed for real-time multi-slotting. Study reconstructions of fast solvers like Max Park and Tymon Kolasiński to see multi-slotting in action. Note how their F2L pairs seem to flow into each other with minimal transition moves.",
+    "keyPoints": [
+      "Multi-slotting solves two F2L pairs simultaneously or sets up the next while solving the current",
+      "Can save 4-8 moves per solve by reducing transition moves between pairs",
+      "The most practical form is influencing: choosing insertions that favor the next pair",
+      "Requires knowing multiple solutions for each F2L case to evaluate downstream effects",
+      "Practice by pausing to evaluate which insertion best positions the next pair",
+      "Study reconstructions of elite solvers to see real-world multi-slotting patterns"
+    ]
+  },
+  {
+    "id": "pseudo-slotting",
+    "title": "Pseudo-Slotting Techniques",
+    "description": "Intentionally solving F2L pairs into wrong slots for better efficiency and move count.",
+    "category": "f2l",
+    "level": "advanced",
+    "content": "Pseudo-slotting is the technique of intentionally inserting an F2L pair into a slot where it does not belong, planning to correct the arrangement later through a rotation or slot swap. This counterintuitive approach can save significant moves when a pair can be inserted into a 'wrong' slot in 2-3 moves but would require 8-10 moves to insert into its correct slot. The key insight is that the cost of fixing the slot arrangement later is often less than the cost of forcing correct placement now.\n\nThe simplest form of pseudo-slotting involves solving a pair into the front-right slot when it belongs in the back-right, then doing a y rotation so that the front-right becomes the back-right from your new perspective. This only works if the other slots are still unsolved, so pseudo-slotting is most useful for the first and second F2L pairs. A more advanced form involves deliberately solving two pairs in swapped positions and then using a single algorithm or short sequence to swap them into their correct slots simultaneously.\n\nPseudo-slotting becomes truly powerful when combined with color neutrality and flexible cross solutions. If you are color neutral, your cross can be solved in a way that positions the easiest F2L pairs near the front, allowing natural pseudo-slot insertions. Some solvers even choose suboptimal cross solutions because they enable pseudo-slots that save more moves than the cross costs. This whole-solve optimization thinking is characteristic of solvers pushing toward sub-10 averages.\n\nTo practice pseudo-slotting, do untimed F2L solves where you deliberately try inserting pairs into wrong slots whenever it seems shorter. After each insertion, evaluate whether the pseudo-slot actually saved moves compared to the direct insertion. Track your F2L move count with and without pseudo-slotting to measure the benefit. It takes time to develop the judgment for when pseudo-slotting helps versus when it creates complications, but with experience, the good opportunities become obvious. Start with the simple case of pseudo-slotting into the front-right slot and rotating, then expand to more complex scenarios.",
+    "keyPoints": [
+      "Pseudo-slotting inserts pairs into wrong slots when it requires fewer moves than correct placement",
+      "Most useful for the first two F2L pairs when multiple slots are still empty",
+      "The simplest form involves inserting into the front slot and doing a y rotation",
+      "Combines powerfully with color neutrality for whole-solve move count optimization",
+      "Practice by deliberately trying wrong-slot insertions and comparing move counts",
+      "Develop judgment for when pseudo-slotting saves moves versus when it creates complications"
+    ]
+  },
+  {
+    "id": "algorithm-drilling",
+    "title": "Algorithm Drilling Strategy",
+    "description": "How to learn and retain algorithms effectively through structured drilling and spaced repetition.",
+    "category": "practice",
+    "level": "beginner",
+    "content": "Learning algorithms is a fundamental part of speedcubing progression, from the initial 10 algorithms for 2-look OLL and PLL up to hundreds for advanced techniques like full OLL, PLL, and COLL. Many cubers struggle with algorithm retention because they try to learn too many at once or do not use effective memorization strategies. A structured approach to algorithm drilling makes the process faster, more reliable, and less frustrating.\n\nThe most effective method for learning a new algorithm is the isolation-repetition-integration cycle. First, isolate the algorithm: read it slowly, execute it move by move, and understand the finger tricks involved. Then repetition: execute the algorithm 30-50 times in a row until it feels automatic. Time yourself doing the algorithm 10 times consecutively and note the per-execution average. Finally, integration: practice recognizing the case on a scrambled cube and executing the algorithm in context. Many cubers skip the integration step and wonder why they freeze during solves; recognition and execution must be linked through practice.\n\nSpaced repetition is critical for long-term retention. After initially learning an algorithm, review it the next day, then 3 days later, then a week later, then two weeks later. If you cannot execute it smoothly at any review point, reset the interval. Apps like flashcard systems can automate this scheduling. A practical approach is to learn 2-3 new algorithms per week rather than 10 at once. Quality of retention matters more than speed of acquisition. It is better to know 30 algorithms perfectly than 57 algorithms shakily.\n\nWhen choosing which algorithms to learn, prioritize by frequency. Some OLL and PLL cases appear much more often than others. Learn the most common cases first to get the most benefit per algorithm learned. For PLL, the T-perm, Jb-perm, and Y-perm are among the most frequent. For OLL, cases with recognizable shapes (the cross cases, P-shapes, and W-shape) are good starting points. Also consider finger-trick friendliness: if an algorithm does not flow well with your turning style, search for an alternative. Multiple algorithms exist for every case, and the one that suits your finger tricks will always be faster than the 'optimal' one that feels awkward.",
+    "keyPoints": [
+      "Use the isolation-repetition-integration cycle: learn, drill 30-50 times, then practice in context",
+      "Apply spaced repetition: review after 1 day, 3 days, 1 week, and 2 weeks",
+      "Learn 2-3 new algorithms per week for reliable retention rather than many at once",
+      "Prioritize learning the most frequently occurring cases first for maximum benefit",
+      "Link recognition and execution through practice on scrambled cubes, not just repetition",
+      "Choose algorithms that suit your finger tricks over theoretically optimal ones"
+    ]
+  },
+  {
+    "id": "cube-ergonomics",
+    "title": "Cube Ergonomics and Injury Prevention",
+    "description": "Proper hand positioning and habits to avoid repetitive strain injuries from cubing.",
+    "category": "practice",
+    "level": "beginner",
+    "content": "Repetitive strain injuries (RSI) are a real concern for dedicated speedcubers who practice multiple hours daily. The repetitive, high-speed finger movements involved in cubing can lead to conditions like tendinitis, carpal tunnel syndrome, and trigger finger if proper precautions are not taken. Prevention is far easier than treatment, and good ergonomic habits established early will protect you throughout your cubing career.\n\nThe most important ergonomic principle is to maintain a relaxed grip. Many cubers, especially during timed solves, unconsciously death-grip the cube, creating tension throughout the hand, wrist, and forearm. This tension not only slows you down but dramatically increases strain on tendons and joints. Practice holding the cube with the minimum force needed to control it. Your fingers should rest lightly on the cube, using contact friction rather than squeezing force. Between solves, consciously relax your hands and shake them out.\n\nStretching before and after practice sessions is essential. A basic routine takes only 2-3 minutes: extend your fingers wide and hold for 10 seconds, make tight fists and hold for 10 seconds, rotate your wrists in circles both directions, gently pull each finger back to stretch the palm-side tendons, and press your palms together in a prayer position to stretch the wrists. If you practice for more than 30 minutes continuously, take a 5-minute break to stretch and rest your hands. The 30-5 rule (30 minutes practice, 5 minutes rest) is a good baseline.\n\nIf you experience pain, numbness, or tingling during cubing, stop immediately. These are warning signs that should not be ignored. Rest for at least 24-48 hours before resuming practice, and if symptoms persist, consult a doctor. Ice the affected area after sessions if you notice mild soreness. Some cubers find that switching between events (3x3, OH, big cubes) distributes the strain across different muscle groups. Using a cube with lighter magnets and smoother turning can also reduce the force needed per move. Your hands need to last a lifetime; a few days of rest is always worth preventing a chronic injury.",
+    "keyPoints": [
+      "Maintain a relaxed grip using contact friction rather than squeezing force",
+      "Stretch hands and fingers for 2-3 minutes before and after each practice session",
+      "Follow the 30-5 rule: take a 5-minute break every 30 minutes of continuous practice",
+      "Stop immediately if you experience pain, numbness, or tingling during cubing",
+      "Switch between events to distribute strain across different muscle groups",
+      "Use a cube with lighter magnets and smooth turning to reduce force per move"
+    ]
+  },
+  {
+    "id": "coll-ollcp-recognition",
+    "title": "COLL and OLLCP Recognition",
+    "description": "Recognizing corner permutation during OLL to select algorithms that simplify the PLL step.",
+    "category": "last-layer",
+    "level": "advanced",
+    "content": "COLL (Corners and Orientation of Last Layer) and OLLCP (OLL with Corner Permutation) are advanced last-layer techniques that solve OLL while simultaneously permuting the corners, leaving only an edge permutation (EPLL) for the final step. EPLL consists of just four cases (U-perm clockwise, U-perm counterclockwise, H-perm, Z-perm), all of which are fast and easy to recognize. This effectively upgrades your last layer from OLL + PLL to COLL/OLLCP + EPLL, which can be faster overall despite COLL algorithms sometimes being slightly longer than standard OLL.\n\nThe key to using COLL and OLLCP is recognition: you must identify both the OLL case and the corner permutation state before selecting your algorithm. During the last F2L pair insertion, trained solvers glance at the last-layer corners to determine their permutation. Corners can be in one of six permutation states: all solved, adjacent swap (front), adjacent swap (back), adjacent swap (left), adjacent swap (right), or diagonal swap. By identifying both the OLL pattern and the corner permutation, you select the specific COLL or OLLCP algorithm that solves both simultaneously.\n\nCOLL contains 42 algorithms covering the seven cross-OLL cases (where edges are already oriented) combined with the six corner permutation states. This makes COLL a natural companion to edge control during F2L. If you already practice partial edge control, learning COLL for the cross-OLL cases you encounter most frequently is a high-value investment. OLLCP extends this concept to all 57 OLL cases, totaling over 300 algorithms. Most solvers learn COLL first and selectively add OLLCP algorithms for their most common full OLL cases.\n\nTo begin learning COLL recognition, start with just one OLL case, such as the Sune (OLL 26). Learn all six COLL algorithms for that case and practice recognizing the corner permutation. A useful drill is to scramble the last layer into that OLL case repeatedly and practice identifying the corner permutation before executing. Once one case is comfortable, add another. Focus on the OLL cases you encounter most frequently for maximum return. Recognition speed improves with volume; expect to need hundreds of repetitions before corner permutation identification becomes automatic.",
+    "keyPoints": [
+      "COLL and OLLCP solve OLL and corner permutation simultaneously, leaving only EPLL",
+      "EPLL has just 4 fast cases: U-perm CW, U-perm CCW, H-perm, and Z-perm",
+      "Recognition requires identifying both the OLL case and corner permutation state",
+      "COLL has 42 algorithms covering the 7 cross-OLL cases with 6 corner permutations each",
+      "Learn COLL for your most frequent OLL cases first for maximum benefit",
+      "Combine with edge control during F2L to consistently reach cross-OLL states"
+    ]
+  },
+  {
+    "id": "cross-plus-one",
+    "title": "Cross+1 and X-Cross",
+    "description": "Solving the cross and first F2L pair together during inspection for a faster start.",
+    "category": "cross",
+    "level": "intermediate",
+    "content": "Cross+1 refers to planning not only the cross but also the first F2L pair during the 15-second inspection period, so you can transition seamlessly into F2L without pausing. An X-cross is the specific case where the cross and first F2L pair are solved simultaneously in a single sequence, often with fewer total moves than solving them separately. Both techniques reduce the pause between cross and F2L and give you a head start on the most time-consuming phase of the solve.\n\nThe foundation for cross+1 is strong cross planning. You must be able to plan your cross solution quickly enough to have remaining inspection time to locate your first F2L pair. If your cross planning takes 10+ seconds, there is no time for cross+1. Work on reducing cross planning to under 5 seconds consistently, freeing up 8-10 seconds to track where the first pair will end up after the cross is executed. This tracking is the hard part: you need to mentally simulate your cross solution and predict where specific pieces will land.\n\nA full X-cross goes further by integrating the first pair into the cross solution itself. Instead of solving four cross edges and then inserting a pair, you solve three cross edges, insert the pair (which may also position the fourth cross edge), and finish with the cross complete and one F2L slot solved. X-crosses often require creative solutions that are longer than optimal cross solutions but shorter than the combined cross + first pair. They are not always available, and forcing an X-cross when the pieces are not favorable can waste moves and inspection time.\n\nTo practice cross+1, start by doing cross-only solves but track where one specific F2L pair ends up. After executing the cross, check if the pair is where you predicted. Once your tracking is reliable, begin incorporating the pair insertion immediately after the cross with no pause. For X-crosses, use online trainers that generate scrambles with known X-cross solutions and practice finding them during inspection. Even if you only successfully execute a cross+1 or X-cross on 30-40% of solves, the time savings on those solves meaningfully improve your average.",
+    "keyPoints": [
+      "Cross+1 plans both the cross and first F2L pair during the 15-second inspection",
+      "Requires reducing cross planning to under 5 seconds to free inspection time for pair tracking",
+      "X-cross integrates the first pair into the cross solution as a single combined sequence",
+      "Do not force X-crosses when pieces are unfavorable; it can waste moves and inspection time",
+      "Practice by tracking where a specific F2L pair lands after cross execution",
+      "Even succeeding on 30-40% of solves provides meaningful average time improvement"
+    ]
+  },
+  {
+    "id": "reconstruction-analysis",
+    "title": "Reconstruction Analysis",
+    "description": "How to analyze and learn from your solves through detailed move-by-move reconstruction.",
+    "category": "practice",
+    "level": "intermediate",
+    "content": "Reconstruction analysis is the process of recording your solve, writing out every move you made, and analyzing each phase for inefficiencies. This is one of the most powerful improvement tools available to speedcubers, yet it is underutilized because it requires patience and effort. A single detailed reconstruction can reveal more about your weaknesses than a hundred timed solves, because it forces you to confront exactly what you did rather than relying on vague impressions of how the solve felt.\n\nTo reconstruct a solve, you need a recording of it, either from a smart cube that logs every move automatically, or from video. Smart cubes make reconstruction trivial since they export exact move sequences. With video, you slow down the playback and write out each move. Once you have the full sequence, divide it into phases: cross, F2L pair 1, pair 2, pair 3, pair 4, OLL, PLL. Count the moves in each phase and note the time taken. Compare these numbers to your goals: an efficient cross should be under 8 moves, each F2L pair under 8-10 moves, and total F2L under 30 moves.\n\nThe real insight comes from analyzing individual decisions. For each F2L pair, ask: was there a shorter solution I missed? Did I use an unnecessary rotation? Could I have inserted from a different angle to avoid a regrip? For the last layer, check if you recognized the case from the optimal angle or wasted time with extra AUFs. Compare your solutions to optimal solutions found in online databases. You will often discover that cases you solve in 10 moves have known 6-move solutions, revealing specific areas for improvement.\n\nMake reconstruction analysis a weekly habit rather than a daily one. Reconstruct 2-3 solves per week, choosing a mix of your best solves (to understand what went right), average solves (to find typical inefficiencies), and worst solves (to identify catastrophic errors). Over time, build a personal database of recurring inefficiencies. You might discover that you consistently use a suboptimal solution for a particular F2L case, or that you always pause at a specific point in the solve. These patterns, invisible during real-time solving, become obvious through reconstruction and give you clear targets for improvement.",
+    "keyPoints": [
+      "Reconstruct solves by recording every move and dividing into phases with move counts",
+      "Smart cubes automate move logging; video requires slow-motion playback analysis",
+      "Compare your solutions to optimal ones in online databases to find inefficiencies",
+      "Analyze 2-3 solves per week: one best, one average, one worst for balanced insight",
+      "Look for recurring patterns like suboptimal F2L solutions or consistent pausing points",
+      "A single detailed reconstruction reveals more than a hundred unanalyzed timed solves"
+    ]
+  },
+  {
+    "id": "metronome-speed-building",
+    "title": "Building Speed with Metronome",
+    "description": "Using rhythm and a metronome to develop consistent turning speed and eliminate pauses.",
+    "category": "practice",
+    "level": "intermediate",
+    "content": "Metronome training is a borrowed technique from music practice that translates remarkably well to speedcubing. The idea is simple: set a metronome to a specific BPM (beats per minute) and execute one move per beat, maintaining perfect rhythm through your entire solve. This forces consistent turning speed, eliminates the pauses that plague most intermediate solvers, and develops the internal sense of rhythm that characterizes smooth, fast solves.\n\nStart by determining your comfortable F2L TPS (turns per second). If you average 3 TPS during F2L, that translates to 180 BPM (beats per minute). Set your metronome to about 70% of that rate, around 126 BPM, and practice solving F2L with one move per beat. The deliberately slow pace ensures you have time to look ahead while maintaining continuous movement. Your goal is zero pauses: every beat gets a move, with no empty beats where you stop to think. If you cannot maintain the rhythm, lower the BPM until you can.\n\nOnce you can solve F2L at the slow tempo with no pauses, increase the BPM by 5-10 per session. This gradual increase trains your brain to process information at progressively higher speeds while maintaining the pause-free rhythm. Think of it like a musician increasing tempo on a difficult passage. The metronome prevents you from rushing ahead of your lookahead ability, which is the most common cause of pauses. Many solvers who try this method report that their solves feel qualitatively different after a few weeks: smoother, more continuous, and more controlled.\n\nYou can apply metronome training beyond F2L. Use it for cross execution, algorithm drilling, and even full solves. For algorithms, set the metronome to your target execution speed and practice matching the rhythm exactly. If an algorithm has 12 moves and you want to execute it in 1.5 seconds, that is 8 moves per second or 480 BPM, likely too fast for a metronome, so use the metronome at half-speed (240 BPM) with two moves per beat. Free metronome apps are widely available on phones and computers. Even 10 minutes of metronome practice per day can produce noticeable improvements in solve consistency within two weeks.",
+    "keyPoints": [
+      "Set a metronome and execute one move per beat to force consistent turning rhythm",
+      "Start at 70% of your comfortable F2L TPS and gradually increase by 5-10 BPM per session",
+      "The goal is zero empty beats: maintain continuous movement with no pauses to think",
+      "Metronome prevents rushing ahead of your lookahead ability, the main cause of pauses",
+      "Apply metronome training to cross, F2L, and algorithm drilling for comprehensive benefit",
+      "Even 10 minutes of daily metronome practice produces noticeable results within two weeks"
+    ]
+  },
+  {
+    "id": "face-building-2x2",
+    "title": "Efficient First Face on 2x2",
+    "description": "How to build the first face on a 2x2 quickly and set up good EG or Ortega second-layer cases.",
+    "category": "2x2",
+    "level": "beginner",
+    "content": "The first face on a 2x2 is conceptually simple but has enormous depth in terms of efficiency. Because the 2x2 has no center pieces, any face can be your bottom layer, and any of its four corners can be considered the anchor. The single most important habit to develop is color neutrality: being able to build any of the six faces equally well. This doubles or triples the number of cases you can start from a favorable position, reducing average first-face move count from around 5-6 moves down to 3-4.\n\nWhen building the first face, avoid picking up and placing corners one at a time in isolation. Instead, look for pairs of corners that are already adjacent and correctly oriented relative to each other. Inserting a pre-built pair into your first layer with one trigger (like a U2 R2 style move) is far faster than individually solving each corner. This pairs-based approach is the entry point to EG-style thinking and should be practiced from the beginning.\n\nDuring your 15-second WCA inspection, identify the first face color and mentally plan all four corners. Unlike the 3x3 cross which requires sequencing, a 2x2 first face of 4 corners can often be planned completely in 5-8 seconds, leaving time to spot your CLL or EG case. The ideal plan solves the first face in 5 moves or fewer. Practice this by doing first-face-only drills: scramble, inspect, solve just the first face, note the move count, and aim to never exceed 6 moves.",
+    "keyPoints": [
+      "Develop full color neutrality so you can build any of the six faces equally well",
+      "Look for pre-built corner pairs and insert them together rather than one corner at a time",
+      "Plan the entire first face during inspection, aiming for 5-8 seconds of planning",
+      "Target 5 moves or fewer for first-face execution at an advanced level",
+      "First-face-only drill: scramble, build only the face, count moves, repeat to build efficiency",
+      "Pairs-based first-face thinking is the foundation for transitioning to EG method"
+    ]
+  },
+  {
+    "id": "cll-recognition-speed",
+    "title": "Fast CLL Case Recognition",
+    "description": "Pattern recognition tricks and systems to identify CLL cases instantly on a 2x2.",
+    "category": "2x2",
+    "level": "intermediate",
+    "content": "CLL recognition on a 2x2 is fundamentally different from OLL recognition on a 3x3 because you must read both orientation and permutation simultaneously from a single layer of four corners. The naive approach of checking every sticker one by one is far too slow. Expert CLL recognition relies on building pattern templates that let you read the entire top layer in one or two glances.\n\nThe most effective recognition system starts with the top face. Identify how many of the top-face stickers match the top color: 0, 1, 2, or 4. Four means solved (skip or AUF). Zero means all corners are twisted, and you are likely looking at a T, U, L, or S shape when viewed from the side. From there, the side stickers narrow down the specific case within the group. Group your 42 CLL cases into families based on top-face pattern: headlights (two adjacent matching), bar (two opposite matching), chameleon, bowtie, etc. Learning the family first and the specific permutation second is faster than memorizing each case in isolation.\n\nFor the side recognition, train yourself to read two opposite faces simultaneously by positioning the cube diagonally in front of you. Rather than rotating the U layer during recognition, scan from a fixed viewpoint and learn what each case looks like from all four AUF positions. This 4-angle recognition is what separates fast and slow CLL solvers. Tools like CLL trainers on cstimer.net let you practice recognition in isolation without solving, which is the most efficient way to drill it. Set the trainer to show only the top layer and call the case name before flipping to check. Aim for sub-1-second recognition of every case before worrying about algorithm execution speed.",
+    "keyPoints": [
+      "Read top-face sticker count first (0, 1, 2, 4 matching) to narrow case family immediately",
+      "Group the 42 CLL cases into families: headlights, bar, chameleon, bowtie, diagonal, etc.",
+      "Train 4-angle recognition so you can identify every case regardless of U-layer rotation",
+      "Position cube diagonally to scan two opposite side faces simultaneously in one glance",
+      "Use isolation recognition drills on cstimer to practice case identification without solving",
+      "Target sub-1-second recognition before optimizing algorithm execution speed"
+    ]
+  },
+  {
+    "id": "eg-method-transition",
+    "title": "Transitioning from Ortega/CLL to EG Method",
+    "description": "When and how to move from beginner 2x2 methods to the full EG method for sub-5 solving.",
+    "category": "2x2",
+    "level": "advanced",
+    "content": "EG (Eriksson-Guimond) is the dominant expert method for 2x2, but knowing when to transition from Ortega or CLL is crucial. The EG method solves the first layer and last layer simultaneously in one step after building the first face, essentially making the solve a two-phase process: first face, then EG algorithm. EG-1 handles cases where the bottom layer is a solved bar of two corners, and EG-2 handles cases where the bottom layer is a diagonal. Ortega is a subset of EG where the bottom layer is already solved (this is EG-0).\n\nThe right time to start learning EG is when you have: (1) all 42 CLL cases memorized and executing smoothly under 1 second each, (2) consistent sub-3 averages with Ortega/CLL, and (3) solid color neutrality. EG-1 adds 42 new cases and EG-2 adds another 42, totaling 126 algorithms including EG-0. The learning order matters: start with EG-1 because it is triggered more often than EG-2 in practice.\n\nThe conceptual shift in EG is building the first face without caring about the bottom-layer permutation. Instead of solving a complete first layer, you accept any bottom-layer permutation and handle it in the EG algorithm. This feels counterintuitive at first because you must suppress the instinct to fix the bottom layer. Practice by deliberately building the first face and noting whether the bottom pair forms a bar (EG-1 trigger) or diagonal (EG-2 trigger). During this transition phase, use Ortega as a fallback for cases you have not yet learned in EG. Gradual replacement is more effective than trying to switch overnight. Most top 2x2 solvers average 7-9 moves per solve with full EG, compared to 11-13 for Ortega.",
+    "keyPoints": [
+      "Transition to EG when you have all 42 CLL cases memorized and are consistently sub-3",
+      "EG-1 handles bar bottom-layer permutations, EG-2 handles diagonal; learn EG-1 first",
+      "Full EG has 126 algorithms total across EG-0 (Ortega), EG-1, and EG-2",
+      "Build the first face without fixing the bottom permutation, then use the appropriate EG set",
+      "Use Ortega as fallback for unlearned EG cases during the transition period",
+      "Full EG averages 7-9 moves per solve versus 11-13 for Ortega, a significant gain"
+    ]
+  },
+  {
+    "id": "pyraminx-tips-first",
+    "title": "Solving Pyraminx Tips During Inspection",
+    "description": "How to handle the four trivial tip pieces on pyraminx efficiently, including planning during inspection.",
+    "category": "pyraminx",
+    "level": "beginner",
+    "content": "The four tips on a pyraminx are the simplest pieces in any WCA puzzle: each can be solved with a single move. Despite their simplicity, tip handling has a measurable impact on solve times and is worth optimizing carefully. The biggest mistake beginners make is solving tips reactively during the solve, which requires stopping to look, identify, and correct each tip individually.\n\nThe correct approach is to handle tips during inspection. In your 15 seconds, scan all four tips and mentally note which ones need a twist and in which direction. You can solve up to two tips before starting the timer at WCA competitions (the tips on the front-bottom-left and front-bottom-right vertices are often easiest to fix without disrupting inspection). Pre-solving tips before starting is legal and reduces solve time by eliminating those moves from the timed portion.\n\nBeyond WCA inspection, the deeper habit to develop is executing tip fixes during the natural flow of the solve without breaking rhythm. If you are about to grip the left vertex for a move, and that vertex's tip needs a fix, add the tip twist before or after your grip without pausing. The best pyraminx solvers integrate tip solutions seamlessly into their movement patterns so they are never a separate step. Practice by doing tip-only drills: scramble, solve only the four tips as fast as possible, reset. This builds the visual recognition speed needed to spot tip states instantly.",
+    "keyPoints": [
+      "Scan all four tips during inspection and plan which need fixing before starting the timer",
+      "Pre-solving tips before the timer starts is legal in WCA competition",
+      "Integrate tip fixes into natural grip transitions rather than treating them as separate steps",
+      "Practice tip-only drills: scramble and solve only the four tips for fast recognition training",
+      "Never break solve rhythm to explicitly address tips; weave them into the flow of other moves",
+      "Tips are single-move fixes but their handling can easily account for 0.3-0.5 seconds lost"
+    ]
+  },
+  {
+    "id": "pyraminx-l4e-intuitive",
+    "title": "Intuitive L4E on Pyraminx",
+    "description": "Understanding and executing Last 4 Edges on pyraminx intuitively before moving to algorithmic solutions.",
+    "category": "pyraminx",
+    "level": "intermediate",
+    "content": "L4E (Last 4 Edges) is the step in advanced pyraminx methods where, after orienting the three bottom vertices and solving one center, you must solve the four remaining edges. For beginners and intermediate solvers, L4E can feel chaotic because the pyraminx does not behave like a 3x3, and edges interact with vertices and centers in unfamiliar ways. Building an intuitive understanding before memorizing algorithms makes the transition to full algorithm sets much smoother.\n\nThe intuitive approach starts by recognizing L4E cases visually. There are 11 distinct L4E cases when the top vertex and tips are ignored (or already solved). Begin by learning the two simplest cases: the skip (already solved) and the single-swap case, which requires a short trigger. Next, learn to recognize the four-bar case (all four edges in a horizontal bar) and the two pairs of adjacent edges. These four cases cover the majority of what you will see in practice.\n\nFor each case, instead of memorizing an algorithm immediately, understand what needs to happen mechanically: which edges need to move where, and which moves accomplish that without disrupting the solved vertices. The key constraint is that U moves rotate all top edges together, and L/R/B moves cycle edges between layers while affecting vertices. Working within these constraints intuitively for 1-2 weeks before learning algorithms will give you a mental model that makes algorithm learning much faster. You will understand why the algorithms work rather than just executing memorized sequences, which improves retention and fingertrick development.",
+    "keyPoints": [
+      "L4E has 11 distinct cases; start by recognizing the most common 4-5 visually before learning algorithms",
+      "Learn the skip, single-swap, and four-bar cases first as they cover most practical occurrences",
+      "Understand that U moves rotate all top edges, while L/R/B moves cycle edges between layers",
+      "Intuitive L4E experience before algorithms gives you a mental model that speeds algorithm learning",
+      "Practice L4E in isolation: set up each case and solve it repeatedly to build recognition",
+      "The pyraminx edge-vertex interaction constraint is the key mechanical insight for intuitive solving"
+    ]
+  },
+  {
+    "id": "pyraminx-keyhole-technique",
+    "title": "Keyhole Technique for Pyraminx",
+    "description": "Using the keyhole method to solve pyraminx edges by exploiting an open slot as a working space.",
+    "category": "pyraminx",
+    "level": "intermediate",
+    "content": "The keyhole method is a technique borrowed from 3x3 F2L thinking and adapted for pyraminx. The idea is to leave one edge slot intentionally unsolved to use as a working space when inserting other edges. This is particularly useful in the bottom-layer edge phase of methods like Keyhole Pyraminx, where you solve three of the four bottom edges and then use the open slot to manipulate the fourth without disrupting the others.\n\nIn practice, after solving the three bottom vertices (the non-tip corners), identify the bottom three edges. Solve two of them first using simple U-layer setup moves and insertions. Leave the third bottom edge empty intentionally. Now, when the third edge is in the U layer in a bad orientation, you can cycle it through the empty slot to flip it without needing a long algorithm. The sequence is essentially: insert the edge into the empty slot, rotate to bring the correctly oriented slot above, then extract and re-insert. This technique reduces average move count for bottom-edge placement by 1-2 moves per edge.\n\nThe keyhole approach also applies during L4E preparation. Expert pyraminx solvers using methods like WO (White Only first) exploit the keyhole to set up favorable L4E cases rather than accepting whatever case appears naturally. By choosing which bottom edge to leave for last, you influence the L4E case you will face. Tracking which L4E cases result from different keyhole orders requires pattern recognition practice but can reduce average L4E difficulty significantly. This case-influencing approach is analogous to CFOP solvers steering toward easy OLL cases during F2L.",
+    "keyPoints": [
+      "Leave one bottom-edge slot intentionally empty to use as a working space for difficult insertions",
+      "Cycle edges through the empty slot to flip bad-orientation edges without disrupting solved pieces",
+      "Solve two of three bottom edges first, then use the third empty slot as the keyhole",
+      "The keyhole reduces average move count for bottom-edge placement by 1-2 moves per edge",
+      "Advanced application: choose which edge to leave last to influence the L4E case you get",
+      "Keyhole thinking is analogous to 3x3 F2L where an empty slot is used as a temporary workspace"
+    ]
+  },
+  {
+    "id": "megaminx-f2l-star",
+    "title": "Star-Based F2L for Megaminx",
+    "description": "How to efficiently build the first two layers of megaminx using a star-centered approach.",
+    "category": "megaminx",
+    "level": "intermediate",
+    "content": "Megaminx F2L is fundamentally similar to 3x3 F2L but scaled to a 12-sided puzzle with 11 F2L pairs instead of 4. The most efficient approach organizes these 11 pairs around the star structure of the bottom two layers. After placing the five bottom-layer edges (the star), the five F2L pairs around the star are inserted next, followed by the five pairs of the second layer. Treating the solve in these three sub-phases rather than as a continuous process makes lookahead much more manageable.\n\nFor the star phase, color neutrality is essential. Unlike 3x3 where most competitive solvers use one or two bottom colors, megaminx solvers should be comfortable starting from any of the 12 faces. At minimum, choose the bottom color that gives the best star in 10 moves or fewer. The star itself follows the same logic as a 3x3 cross: identify where the five bottom edges are and route them to their positions with minimal moves. The difference is that with 12 colors and 30 edges, inspection planning is harder and mostly limited to the star alone.\n\nFor F2L pair insertion on megaminx, the same intuitive logic applies as 3x3: find the corner-edge pair, align them, and insert. The key difference is that megaminx F2L allows more creative rerouting because moving one layer does not immediately affect all other slots. This relative independence between distant slots means you can work on multiple pairs simultaneously with less conflict. Develop a habit of scanning all five first-layer slots during each insertion and identifying which slot you will work on next. Lookahead on megaminx is easier than 3x3 for this reason: distant slots are truly isolated, so you can plan insertions further ahead.",
+    "keyPoints": [
+      "Divide megaminx F2L into three phases: star (5 bottom edges), first-layer pairs, second-layer pairs",
+      "Develop color neutrality to choose the starting face with the most efficient star in 10 moves",
+      "Star planning is analogous to 3x3 cross but covers five edges instead of four",
+      "Distant F2L slots on megaminx are more isolated than on 3x3, making multi-slot lookahead easier",
+      "Scan all five first-layer slots during each insertion to identify the next working slot",
+      "Apply the same corner-edge pairing intuition as 3x3 F2L for each of the 11 megaminx pairs"
+    ]
+  },
+  {
+    "id": "megaminx-last-layer",
+    "title": "Megaminx Last Layer Strategies",
+    "description": "Approaches to efficiently handle the megaminx last layer including OLL and PLL equivalents.",
+    "category": "megaminx",
+    "level": "intermediate",
+    "content": "The megaminx last layer has significantly more cases than 3x3 due to the 5-fold symmetry. There are 12 OLL cases (compared to 57 on 3x3) and 13 PLL cases (compared to 21 on 3x3). The smaller algorithm set is one reason megaminx is approachable: the last layer is actually simpler to learn algorithmically than 3x3 OLL+PLL.\n\nFor OLL, the recognition system groups cases by the number of oriented top edges and corners. The easiest approach is to first check if all five top edges are oriented (yellow on top if solving white-down). If they are not, identify the OLL case by the edge orientation pattern. The 12 OLL cases are typically named and grouped in sets of related patterns. Most megaminx OLL algorithms are straightforward adaptations of CFOP intuition and are 8-14 moves long. Learning them in pairs of related cases (e.g., cases that are related by a U move) speeds memorization.\n\nFor PLL, the 13 cases include the skip, which occurs more often on megaminx than on 3x3 due to the smaller case count. PLL recognition on megaminx reads the side stickers of the top layer and identifies which block of consecutive corners and edges are in the correct relative position. The most important recognition skill is identifying the solved block: the series of 1-3 consecutive pieces that are already in correct relative positions, which tells you where to align the U layer before executing the PLL algorithm. Practice PLL recognition by isolating it: scramble only the top layer and call the case name before checking. Consistent sub-2-second last-layer execution is achievable after a few months of focused practice.",
+    "keyPoints": [
+      "Megaminx has only 12 OLL and 13 PLL cases, fewer than 3x3 OLL+PLL combined",
+      "OLL recognition starts with checking if all five top edges are oriented, then reads corner pattern",
+      "Learn megaminx OLL algorithms in related pairs to exploit structural similarities",
+      "PLL recognition identifies the solved block of consecutive pieces to determine U-layer alignment",
+      "The PLL skip occurs more frequently on megaminx than 3x3 due to the smaller total case count",
+      "Practice OLL and PLL recognition in isolation before drilling full last-layer execution"
+    ]
+  },
+  {
+    "id": "sq1-cubeshape",
+    "title": "Mastering Square-1 Cubeshape",
+    "description": "Recognition and execution strategies for efficiently restoring Square-1 to cube shape.",
+    "category": "sq1",
+    "level": "intermediate",
+    "content": "Cubeshape is the first phase of every Square-1 solve and is unlike anything in other WCA puzzles. Because Square-1 can change shape, restoring it to a cube (cubeshape) is a prerequisite for all subsequent steps. The total number of cubeshape states is large, but the practical set that appears in competition is manageable with a structured recognition system.\n\nThe most widely used recognition approach reads the top and bottom layers as sequences of wide (corner) and narrow (edge) slots. A solved layer reads as WWNWWNWWN (three pairs of wide-wide-narrow). The current state of each layer is encoded as a sequence like WWN-WNN or similar, and a lookup table maps this pair of sequences to the correct cubeshape algorithm. Expert solvers memorize the most common states (appearing in roughly 80% of scrambles) and use intuitive handling for rare cases. Wen Tianning's recognition system and the cube20 cubeshape guide are the standard references.\n\nFor execution, cubeshape algorithms involve a sequence of slash moves (the equatorial cut, notated /) and U/D layer rotations. The critical habit is to recognize the shape of both layers simultaneously and execute the algorithm without additional recognition mid-algorithm. Many intermediate solvers read the state, execute one slash, re-read, execute another slash, which is far too slow. Instead, pre-compute the full sequence of slashes and layer turns during recognition, then execute the entire algorithm in continuous motion. Top SQ1 solvers execute cubeshape in under 2 seconds from scramble, which requires both fast recognition and pre-planned algorithm execution.",
+    "keyPoints": [
+      "Read each layer as a W (corner) and N (edge) sequence to encode the cubeshape state",
+      "A solved layer reads as WWNWWNWWN; identify how far each layer deviates from this pattern",
+      "Memorize the most common cubeshape states covering roughly 80% of competitive scrambles",
+      "Pre-plan the entire slash sequence during recognition rather than reading mid-algorithm",
+      "Execute cubeshape as a single continuous motion: recognition then uninterrupted execution",
+      "Reference Wen Tianning's recognition system or the cube20 cubeshape guide for systematic learning"
+    ]
+  },
+  {
+    "id": "sq1-parity-handling",
+    "title": "Understanding and Handling Square-1 Parity",
+    "description": "What Square-1 parity is, why it occurs, and how to handle it efficiently in competitive solving.",
+    "category": "sq1",
+    "level": "intermediate",
+    "content": "Square-1 parity is one of the most misunderstood concepts in speedcubing. Unlike 4x4 parity which arises from edge pairing, SQ1 parity is a structural feature of the puzzle: because corners and edges occupy the same layer slots interchangeably, it is possible to reach states that look like PLL cases but are actually in the opposite parity class from a solved cube. The parity state is determined by the number of slashes executed during cubeshape.\n\nPractically, SQ1 solving after cubeshape proceeds through CO (corner orientation), EO (edge orientation), CP (corner permutation), and EP (edge permutation). Parity manifests at the CP or EP step as a state that appears to require a swap of two pieces that should be impossible on a normal cube. The standard handling is to learn separate algorithm sets for parity and non-parity cases. Since parity occurs in exactly half of all scrambles, these doubled algorithm sets double the total case count for CP and EP.\n\nThe most efficient modern approach is to detect parity early, ideally during or immediately after cubeshape. Several cubeshape algorithms have parity built in or can be chosen to achieve a known parity state. By controlling parity during cubeshape, you can always enter CO with a known parity and use the smaller non-parity algorithm set exclusively. This parity control technique, used by top SQ1 solvers like Martin Vædele Egdal, requires learning which cubeshape moves change parity, but eliminates the need for separate parity CO/CP/EP algorithms entirely. Study the parity tracking charts available in the SQ1 community resources for your specific cubeshape approach.",
+    "keyPoints": [
+      "SQ1 parity comes from the interchangeable corner/edge slots, not from edge pairing like 4x4",
+      "Parity occurs in exactly half of all scrambles and manifests as an impossible-looking CP or EP case",
+      "The standard approach learns separate parity and non-parity algorithm sets for CP and EP",
+      "Advanced technique: control parity during cubeshape to always enter CO with known parity state",
+      "Parity control eliminates the need for separate parity algorithms, reducing total case count",
+      "Track parity by counting how many slashes change the parity state for your cubeshape algorithm"
+    ]
+  },
+  {
+    "id": "skewb-first-layer",
+    "title": "Efficient First Layer Strategies for Skewb",
+    "description": "How to solve the skewb first layer quickly using efficient case recognition and execution.",
+    "category": "skewb",
+    "level": "beginner",
+    "content": "The skewb first layer is deceptively simple in structure but requires a different mental model from 3x3. A skewb has four centers and eight corners, and the first layer consists of one center and four surrounding corners. Because skewb turns rotate three corners and one center simultaneously around a vertex axis, the interaction between pieces is unusual and takes time to internalize.\n\nThe most effective first-layer approach is the center-first method: solve the bottom center first, then solve each of the four surrounding corners. The center is easy because it can be inserted without affecting corners in most cases. For each of the four corners, you need to bring it to the correct position with the correct orientation. Because skewb corners can only be in two orientations (twisted clockwise or counter-clockwise relative to their position), recognition is binary: is the target sticker facing the right way or not?\n\nThe key efficiency insight for skewb first layer is that you should never solve pieces one at a time if two or three can be placed simultaneously. After placing 2-3 corners correctly, look for setups that place the remaining corners with a single turn sequence rather than individually inserting each one. The Sarah method and Meow method both exploit this by using the fifth corner (the top-back corner that shares no face with the bottom layer) as a helper piece that can be cycled to bring correct bottom-layer corners into position. Practice by doing first-layer-only drills and counting your moves, aiming for under 10 moves on average for the first four corners plus center.",
+    "keyPoints": [
+      "Solve the bottom center first, then the four surrounding corners in any convenient order",
+      "Skewb corners have only two orientations: correct or twisted, making recognition binary",
+      "Look for setup moves that place 2-3 corners simultaneously rather than solving individually",
+      "The top-back corner can be used as a helper piece to cycle bottom-layer corners into position",
+      "Target under 10 moves for the first layer on average (center plus four corners)",
+      "Practice first-layer-only drills with move counting to develop efficient solutions"
+    ]
+  },
+  {
+    "id": "skewb-advanced-algs",
+    "title": "Transitioning to Sarah's Advanced Skewb Method",
+    "description": "How to move from beginner skewb solving to Sarah's Advanced for faster and more efficient solves.",
+    "category": "skewb",
+    "level": "advanced",
+    "content": "Sarah's Advanced (also called SarahsAdvanced or SA) is the most commonly used expert skewb method among top competitors. It extends the basic Sarah method by replacing the two-step last layer (Sarah's Skewbs) with a one-look last layer approach covering all cases. The full SA set has 97 algorithms covering all combinations of last-layer corner orientation and permutation.\n\nThe prerequisite for learning SA is complete comfort with the basic Sarah method: first layer in one look, then standard last-layer algorithms. Before learning SA, your first layer should be consistently under 10 moves and your Sarah LL recognition should be instant. If you are still pausing during the basic Sarah LL, SA algorithms will not help because you will not be executing them from the correct lookahead state.\n\nSA recognition is the hardest part of the transition. Because the SA LL handles orientation and permutation simultaneously, you must read four corner orientations and their permutation relative to each other in a single glance. The recognition system groups cases by the number of correctly oriented top corners (0, 1, 2, or 4) and then reads permutation within each group. Start by learning only the orientation-correct cases (where all four top corners are already oriented correctly), which is a subset of 11 algorithms equivalent to PLL on skewb. Then learn the most common partial-orientation cases. Full SA learning typically takes 3-6 months of consistent practice. Many competitive skewb solvers use partial SA, knowing 40-60 of the 97 cases, and falling back to Sarah for the rest, which still provides a significant time advantage over full basic Sarah.",
+    "keyPoints": [
+      "Sarah's Advanced has 97 algorithms covering all one-look last-layer cases for skewb",
+      "Prerequisite: consistent sub-10-move first layer and instant recognition in basic Sarah method",
+      "SA recognition reads four corner orientations and their permutation simultaneously",
+      "Start learning SA with the 11 all-corners-oriented cases (equivalent to skewb PLL)",
+      "Partial SA (40-60 cases) with Sarah fallback still provides major improvement over basic Sarah",
+      "SA recognition groups cases by oriented-corner count (0, 1, 2, 4), then reads permutation"
+    ]
+  },
+  {
+    "id": "big-cube-center-building",
+    "title": "Center Building Strategies for Big Cubes",
+    "description": "Efficient techniques for building centers on 4x4 through 7x7 cubes.",
+    "category": "big-cubes",
+    "level": "intermediate",
+    "content": "Center building is the first major phase of big cube solving (after cross or star setup for specific methods) and its efficiency sets the pace for the entire solve. On a 4x4, centers consist of 4 pieces each across 6 faces; on 5x5, 9 pieces; on 6x6, 16 pieces; on 7x7, 25 pieces. The core principle across all sizes is the same: build centers in pairs on opposite faces to avoid undoing work, and use setup moves to bring pieces to a working position without disrupting already-completed centers.\n\nFor 4x4 centers, the standard approach builds opposite face pairs: white and yellow together, then two more opposite faces, then the last pair. Within each center, build three pieces first (a 1x3 bar or L-shape), then insert the fourth. Avoid building one piece at a time; always try to place two pieces with a single setup+commutator. The most efficient 4x4 center solve uses 3-4 moves per piece on average.\n\nOn 5x5 and larger, the freeslice technique becomes essential. Freeslice means using an inner-layer slice to move pieces to a working position without counting it as a slice move (since it is immediately undone or used as setup). For 5x5 centers, build a full 1x5 bar on one face, then rotate that face to lock it while you build the next section. The key lookahead skill for big cube centers is tracking which pieces are available on the current working face versus which are buried under already-solved pieces. Burying pieces is the most common inefficiency: always scan all faces before committing to a center piece placement to ensure you are not entombing a needed piece.",
+    "keyPoints": [
+      "Build centers in opposite-face pairs to avoid undoing work: white+yellow, then two more pairs",
+      "Never place one piece at a time; aim to place two pieces per setup+move combination",
+      "Freeslice technique: use inner-layer slices as setup moves that are immediately restored",
+      "On 5x5+, build complete 1x5 bars or 3x3 blocks before rotating to lock progress",
+      "Scan all faces before each placement to avoid burying needed pieces under completed sections",
+      "Target 3-4 moves per center piece on average; more than 6 moves per piece indicates inefficiency"
+    ]
+  },
+  {
+    "id": "big-cube-edge-pairing",
+    "title": "Advanced Edge Pairing Techniques for Big Cubes",
+    "description": "Freeslice, 3-2-1 pairing, and other advanced methods for efficient big cube edge reduction.",
+    "category": "big-cubes",
+    "level": "advanced",
+    "content": "Edge pairing on big cubes (4x4+) is the most technically demanding phase for most solvers, accounting for 30-40% of solve time on 4x4 and an even larger fraction on bigger cubes. Mastering advanced pairing techniques separates sub-40 second 4x4 solvers from those plateaued in the 50-60 second range.\n\nThe freeslice method is the foundational advanced technique. Instead of solving one edge pair at a time using setup moves that always preserve completed pairs, freeslice uses the fourth inner-layer slice as a temporary holding space. By moving a completed pair out of the way into the slice, you free up the U or D layer to bring multiple new pieces into position simultaneously, then restore the slice. The net result is placing 2-4 edges per move sequence rather than one. Freeslice requires tracking which edges are in the slice at all times, but becomes intuitive with practice.\n\nThe 3-2-1 method (also called dedges or the last-3-edges technique) handles the final unpaired edges at the end of edge reduction. When only 3 edge pairs remain unsolved, a specific algorithm cycles pieces between these three slots, and with 2 remaining edges, a different approach handles the last two. These ending algorithms ensure you never get stuck in a position requiring you to break up completed pairs. Learn the 3-2-1 sequences for both 4x4 and 5x5 as they differ slightly. Additionally, for 5x5 and larger, learn to recognize when edges are in a wing-flip state (correctly placed but wrongly oriented) and the specific moves that flip wings in place without disrupting the rest of the edge.",
+    "keyPoints": [
+      "Freeslice uses the inner-layer slice as temporary storage, allowing 2-4 edges to be paired per sequence",
+      "Track which edges are in the slice at all times during freeslice to avoid losing pairs",
+      "3-2-1 method handles the last 3 edge pairs with specific algorithms to avoid breaking completed pairs",
+      "Learn distinct 3-2-1 sequences for 4x4 and 5x5 as the geometry differs slightly",
+      "Recognize wing-flip states (correct position, wrong orientation) and handle with flip-in-place moves",
+      "Advanced edge pairing targets 2-4 edges placed per second of execution time on 4x4"
+    ]
+  },
+  {
+    "id": "yau-vs-hoya",
+    "title": "Yau vs Hoya: Choosing Your 4x4 Method",
+    "description": "A practical comparison of the Yau and Hoya methods for 4x4 to help you choose the right approach.",
+    "category": "big-cubes",
+    "level": "intermediate",
+    "content": "Yau and Hoya are the two dominant methods for 4x4 competitive solving, and choosing between them depends on your 3x3 background, solving style, and long-term goals. Both methods aim to reduce 4x4 to a 3x3 solve, but they differ in the order of center and edge completion.\n\nYau (created by Robert Yau) solves the cross edges first (before completing all centers), then the two centers adjacent to the cross, then the remaining four centers, then edge pairing, and finally a 3x3 solve. The advantage of Yau is that the cross edges are already solved by the time you reach the 3x3 phase, eliminating the need to solve the cross. This saves 1-2 seconds per solve at the expert level. The disadvantage is that finding the cross edges before centers are built requires tracking pieces through an incomplete cube, which is harder to learn initially.\n\nHoya (created by Jong-Ho Jeong) solves all six centers first (in a specific order that leaves the D-face center last for efficiency), then pairs the cross edges with the D-face, then pairs the remaining edges, then solves as a 3x3. Hoya is generally considered easier to learn and more intuitive for 3x3 CFOP solvers because the 3x3 phase is identical including the cross. It also allows better planning during center building.\n\nFor most intermediate solvers, Hoya is the recommended starting point because the learning curve is gentler and the transition from 3x3 is natural. Switch to Yau if you are consistently sub-45 with Hoya and want to optimize further. Top 4x4 solvers like Max Park (Yau) and Feliks Zemdegs (Yau-variant) demonstrate that Yau has a higher skill ceiling, but the difference below sub-35 is minimal.",
+    "keyPoints": [
+      "Yau solves cross edges first, skipping the 3x3 cross phase and saving 1-2 seconds at expert level",
+      "Hoya solves all centers first, then pairs cross edges, then completes edge pairing as a unit",
+      "Hoya is easier to learn for CFOP solvers because the 3x3 phase including the cross is unchanged",
+      "Yau has a higher learning curve because you track cross edges through an incomplete center build",
+      "Start with Hoya at the intermediate level; consider switching to Yau when consistently sub-45",
+      "Both methods converge to similar times below sub-35; method choice matters less than execution quality"
+    ]
+  },
+  {
+    "id": "clock-simultaneous-pins",
+    "title": "Pin Management and Simultaneous Solving on Clock",
+    "description": "How to efficiently manage Rubik's Clock pins to solve multiple clock faces simultaneously.",
+    "category": "clock",
+    "level": "intermediate",
+    "content": "Rubik's Clock is a puzzle where pin positions control which of the nine clock faces on each side move simultaneously. Understanding pin interaction is the key to reducing move count and solve time. Each of the four pins is a binary toggle that includes or excludes a quadrant of clocks from the current rotation. The nine front clocks and nine back clocks are linked: turning the puzzle over reverses which side is active but the pin configuration affects both sides simultaneously.\n\nThe most important insight for competitive Clock solving is that you should solve multiple faces in a single turn whenever possible. Pins 1+2 pressed creates a different active set than pin 1 alone, and these overlapping active sets allow you to solve 2-4 clocks with one turn if the algorithm is designed to exploit it. Modern Clock methods like the Brandelow method and its derivatives are built entirely around this principle, grouping faces by which pin configurations affect them and sequencing turns to avoid re-doing work.\n\nPin flipping speed is often overlooked but is a significant source of time. Practice flipping individual pins and combinations of pins until the physical motion is automatic. The optimal grip for Clock keeps your thumbs near the bottom edge for pin access while your index fingers control the dials. For WCA competition, the solve begins when you first touch the puzzle, so having a pre-planned pin sequence before starting is critical. During inspection, read the state of all nine front clocks and plan your entire front solve including which pins to use for each step. Most competitors who break 5 seconds have a completely planned front side before touching the puzzle.",
+    "keyPoints": [
+      "Each pin configuration activates a different quadrant subset of the nine clocks on each side",
+      "Solve 2-4 clocks simultaneously by choosing pin combinations that affect already-needed groups",
+      "Modern Clock methods sequence turns around pin configurations to avoid re-doing clock faces",
+      "Practice pin flipping until individual pins and combinations can be toggled in under 0.2 seconds",
+      "Plan your entire front side during inspection; sub-5 solvers complete the front without any pausing",
+      "The Brandelow method and derivatives are built explicitly around pin-group exploitation"
+    ]
+  },
+  {
+    "id": "clock-finger-positioning",
+    "title": "Optimal Finger Positioning for Clock",
+    "description": "Grip and finger positioning techniques to maximize turning speed and pin access on Rubik's Clock.",
+    "category": "clock",
+    "level": "beginner",
+    "content": "Rubik's Clock requires a unique grip that has no parallel in other WCA puzzles. Unlike cube events where you develop fingertricks for a rigid puzzle, Clock demands constant repositioning to access both dials and pins quickly. Developing an efficient grip is one of the lowest-hanging improvements available to Clock solvers.\n\nThe standard competitive grip holds the Clock horizontally with the active side facing you. Your dominant hand controls the primary dial (usually the center wheel or the top-right pin quadrant), while your non-dominant hand stabilizes the puzzle and operates the lower pins. The key is that your thumbs should always be positioned near the bottom edge of the puzzle, within reach of the lower two pins, while your index fingers curl over the top to access the upper two pins without changing your grip. Avoid the common beginner habit of repositioning the whole hand to flip each pin; instead, develop independent finger movements that flip pins while your other fingers hold the puzzle steady.\n\nFor dial turning, the most efficient technique uses your dominant index finger and thumb in a pinch grip on the target dial, turning in short rapid rotations without releasing. Practice turning each of the nine dials from your normal grip without repositioning. Time yourself turning a single dial the maximum 12 positions; under 1 second for 12 turns is a reasonable target. Between dial turns, practice transitioning to the most distant dial on the same side without a full grip change. The clock puzzles from Gan and MoYu have different dial spacing and resistance, so physical familiarity with your specific puzzle matters more on Clock than on any other WCA event."
+    ,
+    "keyPoints": [
+      "Hold Clock horizontally with thumbs near the bottom edge for constant lower-pin access",
+      "Train independent finger movements for pin flipping without repositioning the whole hand",
+      "Dominant hand controls primary dials; non-dominant hand stabilizes and operates alternate pins",
+      "Practice turning each of the nine dials from your standard grip without repositioning",
+      "Target under 1 second to turn a single dial the full 12 positions in practice drills",
+      "Familiarize with your specific Clock puzzle's dial spacing and resistance as it varies by brand"
+    ]
+  },
+  {
+    "id": "bld-memo-techniques",
+    "title": "Advanced BLD Memo Systems",
+    "description": "Letter pairs, images, and audio memory techniques for fast and reliable blindfolded cube memorization.",
+    "category": "bld",
+    "level": "advanced",
+    "content": "Memorization is the defining challenge of blindfolded solving. While beginners often use pure rote repetition of letter sequences, advanced BLD solvers use structured memory systems that encode information more reliably and can be recalled faster under competition pressure. The three main advanced memo approaches are letter pairs, visual imagery journeys, and audio association.\n\nLetter pair memo (also called LP or dual letter pair) is the most widely used system among top BLD solvers. In this approach, each pair of consecutive letters in your target sequence is pre-associated with a memorable image or word. For example, in a classic OP (Old Pochmann) or M2 system, if your buffer cycles produce the sequence A-B-C-D, you associate AB with one image and CD with another. With a complete letter pair table (676 entries for all two-letter combinations), you convert a 24-sticker memo sequence into 12 images, which are far easier to recall than an abstract letter string. Building the full table takes months, but even a partial table (your most common 100 pairs) provides significant benefit.\n\nFor the imagery journey, use the memory palace (method of loci) technique: pre-memorize 12-15 distinct locations along a familiar mental route and place your letter pair images at each location in sequence. During recall, mentally walk the route and read off the images. Audio association is an alternative approach where you assign sounds or words to letters and verbally rehearse the sequence in your head during memo. Some solvers combine techniques: using letter pairs for corners and audio for edges, or using imagery for the first half of memo and audio for the second. The best memo system is the one you can execute consistently under pressure, which is determined only through competition experience.",
+    "keyPoints": [
+      "Letter pair memo converts a 24-letter sequence into 12 images, dramatically reducing recall difficulty",
+      "A complete letter pair table has 676 entries; even partial tables of 100 pairs improve memo significantly",
+      "Memory palace (method of loci) places letter pair images at familiar mental locations for reliable recall",
+      "Audio association assigns sounds or words to letters for verbal rehearsal during memorization",
+      "Combine techniques (imagery for corners, audio for edges) to match each approach to its best use case",
+      "The best memo system is determined by competition performance, not practice room comfort"
+    ]
+  },
+  {
+    "id": "three-style-learning",
+    "title": "Systematic Approach to Learning 3-Style Commutators",
+    "description": "How to build and learn 3-style commutators for corners and edges in a structured, scalable way.",
+    "category": "bld",
+    "level": "expert",
+    "content": "3-Style is the dominant BLD method among competitive multi-BLD and single BLD solvers. Instead of using setup moves to target each piece into a buffer (as in OP/M2), 3-Style uses pure commutators: [A, B] = A B A' B', which cycles three pieces at a time without affecting anything else. Because commutators are mechanically elegant and often shorter than setup-based alternatives, 3-Style produces shorter, faster execution sequences. However, the algorithm count is enormous: approximately 300 edge commutators and 300 corner commutators, for around 600 algorithms total.\n\nThe key to learning 3-Style without being overwhelmed is a structured ordering approach. Start with pure commutators where A and B do not interfere with each other, producing the cleanest 8-10 move algorithms. These clean cases form about 30-40% of all positions. Learn these first because they are easy to derive and execute. Next, learn inner-slice commutators, which use M, E, or S slice moves as one of the two components. These are slightly more complex but still follow a clear pattern.\n\nFor corners, learn commutators targeting your buffer from each of the 23 other corner positions. Group them by which face of the cube the target appears on. All targets on the U face, for example, use commutators with a similar structure. This grouping lets you derive unfamiliar cases from familiar ones by analogy. Use the commutator generator at speedcubing.hkust.edu.hk to generate optimal commutators for cases you cannot derive, but always try to derive first. Derivation ability means you can recover from memo errors by figuring out a commutator on the fly, which is an essential competition skill.",
+    "keyPoints": [
+      "3-Style uses pure commutators [A, B] = ABA'B' to cycle three pieces at a time without setup moves",
+      "Total algorithm count is roughly 600: 300 edge commutators + 300 corner commutators",
+      "Start with pure non-interfering commutators (30-40% of cases) as they are easiest to derive",
+      "Learn inner-slice commutators next, grouping cases by the face containing the target piece",
+      "Group corner targets by face to exploit structural similarities and derive new cases by analogy",
+      "Develop on-the-fly derivation ability to recover from memo errors during competition"
+    ]
+  },
+  {
+    "id": "fmc-blockbuilding-strategy",
+    "title": "Blockbuilding Strategy for FMC",
+    "description": "How to use efficient blockbuilding approaches to minimize move count in Fewest Moves attempts.",
+    "category": "fmc",
+    "level": "advanced",
+    "content": "Fewest Moves Challenge (FMC) is the most strategically complex WCA event. Unlike speed events where fastest execution wins, FMC rewards problem-solving depth and methodical exploration. The dominant approach at expert level is blockbuilding: constructing a 2x2x3 block on one side of the cube and then extending it to a 2x2x3 + 2x2x2 F2L skeleton, ultimately leaving only a small last-layer case that can be finished efficiently.\n\nA strong FMC attempt starts with 10-15 minutes of pure exploration. Try multiple different 2x2x2 block starting points (up to 24 orientations times 8 corner targets = 192 possible starts). For each promising start, extend the 2x2x2 to a 2x2x3 by adding two edges. The goal is to find a 2x2x3 block in 8 moves or fewer. Anything over 10 moves is likely not worth pursuing. Once you have a 2x2x3, extend it by solving the adjacent 2x2x2 block (pseudo-blocking or direct blocking) to form an F2L-1 (all of F2L except one pair) in ideally under 18 total moves.\n\nThe final step is recognizing the remaining last-layer+1-pair case and finding an efficient finish. This might be a direct last-layer algorithm, an insertion opportunity, or a NISS switch. The key blockbuilding habits are: always count moves as you go and abandon branches that exceed your move budget; explore at least 8-10 different 2x2x2 block starts before committing; and keep a written log of each attempt with its move count to compare approaches. The average FMC result for someone who breaks the 30-move barrier is built on consistent blockbuilding, not lucky skips.",
+    "keyPoints": [
+      "Spend 10-15 minutes exploring multiple 2x2x2 block starting points before committing to one",
+      "Target a 2x2x3 block in 8 moves or fewer; abandon any approach exceeding 10 moves for this phase",
+      "Extend the 2x2x3 to an F2L-1 skeleton in ideally under 18 total moves before the last step",
+      "Keep a written log of each attempted approach with move counts to compare branches objectively",
+      "Explore at least 8-10 different 2x2x2 starts before deciding which to develop further",
+      "Consistent blockbuilding in the 25-30 move range is more reliable than hoping for lucky skips"
+    ]
+  },
+  {
+    "id": "fmc-niss-insertions",
+    "title": "NISS and Insertion Techniques for FMC",
+    "description": "How to use Normal-Inverse Scramble Switch and skeleton insertions to achieve sub-25 FMC results.",
+    "category": "fmc",
+    "level": "expert",
+    "content": "NISS (Normal-Inverse Scramble Switch) and insertions are the two techniques that separate 30-move FMC results from sub-25. Both are advanced techniques that require a solid blockbuilding foundation before they become useful, but they are what top FMC solvers use to achieve results in the 18-24 move range.\n\nNISS works by allowing you to apply moves to the inverse scramble when you get stuck on the normal scramble. The inverse scramble is what you would need to execute in reverse to return the cube to solved from the scrambled state. Moves on the inverse scramble correspond to moves at the end of your solution on the normal scramble. This means a NISS-switch lets you start blockbuilding from both ends of the solution simultaneously, dramatically expanding the solution space you can explore. The key insight is that a block built on the inverse scramble becomes a block at the end of the solution when you switch back to normal. Practice NISS by solving the first 2x2x2 block on normal, switching to inverse, building the extending 2x2x3 on inverse, then switching back. Write out the complete solution to verify it works.\n\nInsertions find a skeleton solution that almost solves the cube but leaves 3-5 specific pieces unsolved, then inserts a short commutator or algorithm into the middle of the skeleton to fix those pieces. The insertion point is chosen so that the inserted algorithm exploits the pieces already moved out of the way by the skeleton, reducing the effective length of the insertion. A 5-move insertion into a 20-move skeleton saves moves if the direct approach would require 8+ moves to fix those pieces. Learn to identify 3-cycle insertion opportunities (pure commutators) for both corners and edges, as these are the most common insertion types in competition.",
+    "keyPoints": [
+      "NISS allows building blocks on both the normal and inverse scramble simultaneously",
+      "Moves on the inverse scramble correspond to moves at the end of your normal solution",
+      "Practice NISS by building 2x2x2 on normal, switching to inverse for 2x2x3, then back to normal",
+      "Insertions place a short commutator into a skeleton at a point where other pieces are out of the way",
+      "A good insertion reduces a 5-piece problem to a 3-move net cost by exploiting the skeleton's structure",
+      "Learn 3-cycle insertion for both corners and edges as these are the most common competition insertions"
+    ]
+  },
+  {
+    "id": "zbll-learning-strategy",
+    "title": "Systematic ZBLL Learning Strategy",
+    "description": "How to approach learning all 493 ZBLL algorithms in a structured and efficient way.",
+    "category": "last-layer",
+    "level": "expert",
+    "content": "ZBLL (Zborowski-Bruchem Last Layer) solves the entire last layer in one algorithm when all edges are already oriented. Because the ZZ method orients all edges during F2L, ZBLL is the natural last-layer step for ZZ users, but CFOP solvers can also use it by orienting edges during F2L (EFLS, or by forcing EO during cross). The full ZBLL set has 493 algorithms, making it the largest commonly learned algorithm set in speedcubing.\n\nThe correct learning order is by recognition group, not by algorithm count. ZBLL is organized into 7 recognition groups based on the top-face corner orientation pattern: T, U, L, S, AS, Pi, and H shapes. Start with the H group (all four corners correctly oriented) which has only 6 cases and is the easiest to recognize. Next, learn the T group (two adjacent corners oriented, two not), which has 18 cases and the most straightforward recognition. Continue through U, L, S, AS, and Pi groups in rough order of recognition complexity.\n\nWithin each group, learn algorithms for your most common AUF positions first. You will encounter each AUF roughly equally, but starting with the U0 (no AUF) position of each case builds your foundational recognition. The ZBLL trainer on speedcubedb.com lets you drill any subset of cases in isolation. Use it to practice recognition without execution first: display the ZBLL case and call out the group and case number before revealing the algorithm. This recognition-first approach prevents the common mistake of learning algorithms you cannot reliably identify under time pressure. Experienced ZZ solvers typically learn one ZBLL group per month of focused practice.",
+    "keyPoints": [
+      "ZBLL has 493 algorithms across 7 recognition groups: T, U, L, S, AS, Pi, H",
+      "Start with the H group (6 cases, all corners oriented) for the easiest entry point",
+      "Follow H with the T group (18 cases) as it has the most straightforward recognition pattern",
+      "Learn algorithms within each group for U0 position first before learning all four AUF angles",
+      "Use speedcubedb.com ZBLL trainer for recognition-only drilling before adding execution",
+      "Experienced solvers target one ZBLL group per month; rushing leads to poor recognition under pressure"
+    ]
+  },
+  {
+    "id": "algorithmic-f2l",
+    "title": "When to Switch to Algorithmic F2L",
+    "description": "Understanding when and how to transition from purely intuitive F2L to algorithm-based solutions.",
+    "category": "f2l",
+    "level": "advanced",
+    "content": "Intuitive F2L is the standard teaching approach and serves most solvers well through the intermediate level. However, there comes a point where certain F2L cases consistently cost extra moves or time because the intuitive solution is inefficient. Knowing when to supplement with memorized algorithms and which cases to prioritize is what distinguishes intermediate CFOP solvers from advanced ones.\n\nThe cases where algorithmic F2L provides the clearest benefit are the awkward cases: those where the corner is in the top layer in the correct position but facing the wrong way, or where the edge is in the bottom layer already but needs to come out. These cases have a well-known tendency to produce 10-12 move intuitive solutions when optimal solutions are 6-8 moves. The specific cases from JPerm, CubeSkills, or the speedcubedb F2L section labeled as awkward (typically the cases numbered around 37-41 in standard numbering) are where to start.\n\nThe algorithm-intuition boundary is not sharp: you do not replace all intuitive F2L with memorized algorithms. Instead, you build a hybrid system where your intuition handles easy cases (corner and edge both in top layer, correct position) instantly, and you call up memorized algorithms for the specific awkward cases where you know intuition consistently fails you. A practical test: if you can solve a particular case in 8 moves or fewer intuitively more than 90% of the time, do not bother memorizing an algorithm for it. If you regularly use 10+ moves or hesitate for more than 1 second, learn the optimal algorithm.",
+    "keyPoints": [
+      "Awkward F2L cases (corner misoriented in slot, edge buried) benefit most from algorithmic solutions",
+      "Target cases where intuitive solutions regularly exceed 8 moves or cause hesitation over 1 second",
+      "Build a hybrid system: intuition for easy cases, memorized algorithms for consistently awkward ones",
+      "Reference JPerm, CubeSkills, or speedcubedb for the specific awkward case algorithms to prioritize",
+      "Test whether to memorize: if you solve a case in 8 moves or fewer 90%+ of the time, skip it",
+      "Do not replace all intuitive F2L with algorithms; the goal is targeted improvement, not full memorization"
+    ]
+  },
+  {
+    "id": "slot-prediction",
+    "title": "Predicting the Next F2L Slot",
+    "description": "How to identify and plan your next F2L pair during current pair execution for seamless transitions.",
+    "category": "f2l",
+    "level": "intermediate",
+    "content": "One of the most impactful skills in CFOP is the ability to find your next F2L pair while still executing the current one. This eliminates the pause between pairs that costs most intermediate solvers 0.5-1.5 seconds at each of the four transitions. The technical challenge is that during pair execution, your eyes must look at different parts of the cube than your hands are working on, which requires a deliberate split-attention training process.\n\nStart developing slot prediction with a specific drill: solve the first F2L pair completely, then stop. Without looking at the cube for more than 1 second, say aloud the position and orientation of the second pair. Re-do this until you can identify the second pair during the last 3-4 moves of the first pair. Then extend the drill to pairs 2 and 3, and finally 3 and 4. The reason you start with stopping and identifying is that it forces you to develop the visual search skill before combining it with movement.\n\nThe natural lookahead regions are the top layer and the un-solved slots. During F2L pair insertion (the final moves of inserting the pair into its slot), your hands are moving predictably and you do not need to watch them. This is your lookahead window. Train yourself to look at the top layer during every insertion rather than watching your hands. The specific thing to search for is either the next corner-edge pair assembled in the U layer, or a corner in a slot that can be connected to its edge with a simple setup. Identifying the location of both pieces of your next pair is the goal; you do not need to plan the full solution during lookahead, only to locate the pieces.",
+    "keyPoints": [
+      "Eliminate inter-pair pauses by identifying the next pair's position during the last 3-4 moves of the current pair",
+      "Drill pair-then-stop identification: execute a pair, stop, and locate the next pair from memory",
+      "Look at the top layer and open slots during insertion moves, not at your hands",
+      "Search the U layer for assembled pairs or slots containing corners that can connect to their edges",
+      "Goal of lookahead is piece location only, not full solution planning of the next pair",
+      "Extend prediction gradually: pairs 1-2, then 2-3, then 3-4 as each transition becomes consistent"
+    ]
+  },
+  {
+    "id": "magnet-strength-guide",
+    "title": "Understanding and Choosing Magnet Strength",
+    "description": "How to choose the right magnet strength for your cube based on turning style and personal preference.",
+    "category": "hardware",
+    "level": "beginner",
+    "content": "Magnetic cubes have become standard in competitive speedcubing, and understanding magnet strength is essential for choosing the right cube or setting up a custom magnet system. Magnet strength on speedcubes is typically measured by the magnet grade (N35, N38, N40, N50, N52) and the physical dimensions (diameter x height in millimeters). Higher N numbers indicate stronger neodymium magnets, and larger physical size increases strength further.\n\nFor 3x3 cubes, the most common magnet sizes used by manufacturers are 2x1mm, 4x2mm, and 6x2mm, ranging from very weak to strong. Weak magnets (roughly 2x1mm N35-38) give a smooth, fast feel with minimal snap between positions. Strong magnets (6x2mm N52) give a very pronounced snap and tactile feedback per move but slow down high-TPS turning. Most competitive solvers fall somewhere in the middle: 4x2mm N38-42 is the most commonly preferred range for 3x3.\n\nYour turning style determines which strength is optimal. Smooth, stable turners who rarely over-rotate prefer weaker magnets because the extra resistance is unnecessary and slows execution. Fast, less precise turners who sometimes lock up benefit from stronger magnets that self-correct and guide layers into alignment. If you are a new solver still developing consistency, start with medium magnets and adjust based on whether you experience more lockups (go stronger) or feel the cube is sluggish (go weaker). Most modern flagship cubes offer dual-adjustment systems via magnet slider positions or swappable magnet inserts, allowing you to experiment without buying a new cube.",
+    "keyPoints": [
+      "Magnet strength depends on grade (N35-N52) and physical size (diameter x height); both factors matter",
+      "Common 3x3 range: 2x1mm (weak/smooth) to 6x2mm (strong/snappy); 4x2mm N38-42 is most popular",
+      "Smooth, stable turners prefer weaker magnets; fast, less precise turners benefit from stronger magnets",
+      "New solvers should start with medium magnets and adjust based on lockup or sluggishness feedback",
+      "Modern flagship cubes with dual-adjustment systems let you experiment without purchasing new magnets",
+      "Magnet preference is personal and varies by event: bigger cubes often benefit from stronger magnets"
+    ]
+  },
+  {
+    "id": "lube-types-guide",
+    "title": "Different Lube Types and Their Effects",
+    "description": "A practical guide to silicone, weight, DNM-37, and other lubricants and how they affect cube feel.",
+    "category": "hardware",
+    "level": "beginner",
+    "content": "Lubrication is the most impactful maintenance action you can take for cube performance, and the wrong lube can ruin a cube just as surely as no lube. There are three main categories of cube lubricant: silicone oils, heavy silicone greases, and specialty compounds like DNM-37 and XT3.\n\nSilicone oil (like Martian Lubricant, Weight 1-8 from TheCubicle, or Traxxas 50K) is the most versatile lubricant. Light silicone oils (low weight numbers) make cubes faster and less controllable; heavy silicone oils slow cubes down and improve stability. For most solvers, applying a small amount of medium-weight silicone oil to the core and pieces is the baseline maintenance step. Silicone oil is safe on plastics and will not crack or degrade cube parts.\n\nHeavy greases like Cubicle Silk or Lubix are applied to the core mechanism and contact tracks rather than the piece surfaces. They increase inter-piece friction in a controlled way, providing smooth gliding motion rather than the click-and-release of oil alone. DNM-37, manufactured by Martian, is a water-based lubricant that provides a distinctive buttery feel and is very popular for 3x3 competition cubes. It wears off faster than silicone oil and must be reapplied more frequently.\n\nThe correct application method is as important as the lube itself. Always apply lubricants sparingly: a single drop of oil per core contact point, a rice-grain amount of grease per track. Over-lubing is the most common mistake and produces a slow, mushy, and inconsistent feel. Break in a freshly lubed cube by doing 100-200 turns to distribute the lube evenly before timing solves.",
+    "keyPoints": [
+      "Silicone oils are versatile and safe; light weights increase speed, heavy weights increase control",
+      "Heavy greases (Cubicle Silk, Lubix) go on core tracks and provide smooth gliding feel",
+      "DNM-37 gives a distinctive buttery competition feel but wears off faster and needs more frequent reapplication",
+      "Apply all lubricants sparingly: one drop of oil per contact point, rice-grain of grease per track",
+      "Over-lubing causes slow, mushy, inconsistent feel; it is the most common lubrication mistake",
+      "Break in freshly lubed cubes with 100-200 turns before timing to distribute lube evenly"
+    ]
+  },
+  {
+    "id": "cube-setup-tension",
+    "title": "How to Properly Tension and Set Up a Cube",
+    "description": "Step-by-step guidance for tensioning, spring configuration, and initial cube setup for optimal feel.",
+    "category": "hardware",
+    "level": "beginner",
+    "content": "Proper cube setup is a skill that takes time to develop but is essential for getting the most out of any puzzle. A correctly set up cube feels stable, pops rarely, and turns exactly as intended. A poorly set up cube with mismatched tensions or wrong springs will perform far below its potential regardless of quality.\n\nTension on a 3x3 refers to how tightly the screws in the core hold the center caps and, through them, the center pieces against the core tracks. Tighter tension (more clockwise turns of the screw) makes the cube stiffer and more resistant to corner cutting; looser tension (more counter-clockwise) makes it faster but more likely to pop. The goal is to find the minimum tension that eliminates pops during normal solving. Start with equal tension on all six sides (same number of turns from fully tightened), then test for pops by doing an M-slice heavy solve. If pops occur, tighten the sides where they happen by a half-turn at a time.\n\nModern cubes often have multiple adjustable components beyond just screw tension: spring compression (longer springs give more elasticity), spring type (gold, black, blue springs have different constants), and magnetic position (some cubes have slider or dial adjustments for magnet strength). For spring setup, softer springs are preferred for smooth turning while stiffer springs give more bounce and alignment assistance. Start with the default springs that came with the cube and only experiment after you have a baseline understanding of how the cube feels.\n\nBefore timing with any new cube, do at least 500 solves to break it in. Cubes change significantly as internal surfaces smooth out and plastic settles. A cube that feels too tight brand new often becomes perfect after break-in. Keep a log of your tension settings so you can reproduce your preferred feel after cleaning or re-lubing.",
+    "keyPoints": [
+      "Set equal tension on all six sides first, then fine-tune sides where pops occur during M-slice testing",
+      "Looser tension increases speed but risks pops; tightest setting that eliminates pops is the target",
+      "Adjust spring compression and type after establishing baseline tension; softer springs favor smooth turning",
+      "Modern cubes offer magnetic position adjustments separate from spring and screw tension settings",
+      "Log your exact tension settings so you can reproduce them after cleaning or re-lubing",
+      "Break in new cubes with at least 500 solves before final setup; feel changes significantly with use"
+    ]
+  },
+  {
+    "id": "competition-strategy",
+    "title": "Round Strategy and Cutoff Management in Competition",
+    "description": "How to approach WCA competition rounds strategically, including cutoff attempts and final round pacing.",
+    "category": "mental",
+    "level": "intermediate",
+    "content": "WCA competition rounds have a structure that rewards strategic thinking as much as solving ability. Most non-final rounds use a combined format with a cutoff: you must achieve a single time under the cutoff within your first two attempts to continue to the full five attempts. Understanding how to approach this structure strategically separates experienced competitors from those who treat every attempt identically.\n\nFor cutoff attempts, recognize that a DNF on attempt one puts enormous pressure on attempt two. If you are a borderline cutoff solver (your average is within 20% above the cutoff), prioritize safety over speed on attempt one. Execute a controlled solve, accept an extra 2-3 seconds of caution, and guarantee the cutoff. A careful, controlled cutoff solve is always better than a fast attempt that risks a DNF. Once through the cutoff, your mindset can shift.\n\nFor final rounds, the scoring uses the Ao5 (average of 5, dropping best and worst). This means your worst non-extreme result still counts. Many solvers focus excessively on getting one great single, but the higher-value play at the final-round level is eliminating bad results. A 12-second Ao5 with a 10-second best single is worse than a 11-second Ao5 with a 12-second best. Practice under Ao5 conditions and track not just your average but your worst non-dropped result across sessions. Reducing the floor of your distribution (eliminating the occasional slow solve) improves competition results more reliably than raising your ceiling with faster personal bests.",
+    "keyPoints": [
+      "Prioritize safety over speed on cutoff attempt one, especially if your average is within 20% of the cutoff",
+      "A controlled cutoff solve 2-3 seconds slower than your best is always better than a DNF risk",
+      "Final rounds score Ao5: your worst non-dropped result still counts and is high impact",
+      "Eliminating slow outliers improves competition Ao5 more reliably than pushing for faster personal bests",
+      "Track your worst non-dropped result across practice sessions as a key performance metric",
+      "Shift mindset between cutoff attempts (safety first) and final round attempts (consistency focused)"
+    ]
+  },
+  {
+    "id": "overcoming-nerves",
+    "title": "Managing Competition Anxiety and Pressure",
+    "description": "Practical techniques for handling competition nerves and performing closer to your practice average.",
+    "category": "mental",
+    "level": "intermediate",
+    "content": "Competition nerves are universal in speedcubing. Even world champions report elevated heart rates and anxiety at major competitions. The goal is not to eliminate nerves but to develop a relationship with them that allows consistent performance despite their presence. Untreated competition anxiety typically manifests as TPS drops (turning slower than practice), recognition failures (not seeing cases you know perfectly), and panic decisions (abandoning planned solutions mid-solve).\n\nThe most effective technique for managing acute competition nerves is controlled breathing before each solve. A simple 4-7-8 breath (inhale for 4 counts, hold for 7, exhale for 8) activates the parasympathetic nervous system and measurably reduces heart rate within 60 seconds. Do this between scrambling and starting your inspection. Even one controlled breath before each attempt creates a physiological state closer to your calm practice sessions.\n\nBeyond breathing, the single most important mental habit is process focus. Nerves are almost always future-focused: worry about results, rankings, and what other people will think. Process focus redirects attention to the present moment: this inspection, this cross plan, this pair. Before each attempt, explicitly focus your attention on one specific technical task: plan the full cross, find the first F2L pair during inspection, execute smooth lookahead on the first two pairs. This task-focus narrows attention away from outcome anxiety. Over time, competing regularly is the most reliable nervousness treatment: familiarity with the competition environment reduces its novelty and therefore its anxiety-producing power. Aim to attend at least four WCA competitions per year.",
+    "keyPoints": [
+      "Nerves are universal; the goal is consistent performance despite them, not elimination of anxiety",
+      "4-7-8 controlled breathing (inhale 4, hold 7, exhale 8) reduces heart rate measurably within 60 seconds",
+      "Take one controlled breath between scrambling and inspection to reset physiological state",
+      "Process focus redirects attention from outcome anxiety to a specific technical task for each attempt",
+      "Before each solve, name one explicit technical focus: plan full cross, find first F2L pair, etc.",
+      "Regular competition (at least four WCA events per year) is the most reliable long-term anxiety reducer"
+    ]
+  },
+  {
+    "id": "deliberate-practice",
+    "title": "Structured Deliberate Practice for Maximum Improvement",
+    "description": "How to apply deliberate practice principles to speedcubing for faster, more consistent improvement.",
+    "category": "mental",
+    "level": "intermediate",
+    "content": "Deliberate practice, formalized by psychologist Anders Ericsson, is distinguished from ordinary practice by four characteristics: it targets a specific weakness, operates at the edge of your current ability, requires intense focus, and includes immediate feedback. Most speedcubers engage in ordinary practice (doing timed solves and hoping to improve) rather than deliberate practice (targeting specific weaknesses with focused drills). This distinction explains why many solvers plateau despite practicing daily.\n\nTo apply deliberate practice to speedcubing, start with a weakness audit. Review your last 20 solves and categorize time lost by phase: cross, F2L pairs 1-4, OLL, PLL, and transitions between phases. Identify the single phase where you lose the most time relative to a solver 20% faster than you. This becomes your deliberate practice target for the next two weeks. Do not work on other phases during this period; exclusive focus is what creates rapid improvement.\n\nFor each training session targeting your weakness, structure it as follows: 10-15 minutes of isolated drilling (cross-only, single-slot F2L, OLL recognition, etc.), followed by 10-15 minutes of full solves with conscious attention on that phase, and then 5 minutes of reflection where you note what felt worse than your drilling. The reflection step is often skipped but is critical: it reveals the gap between your isolated skill (which improves quickly in drills) and your integrated skill (which transfers more slowly to full solves). Closing this drill-to-solve gap requires the full-solve phase with deliberate attention, not just more drills. A focused 40-minute deliberate practice session typically produces more improvement than two hours of undirected timed solves.",
+    "keyPoints": [
+      "Deliberate practice requires specific weakness targeting, edge-of-ability operation, focus, and feedback",
+      "Most cubers do ordinary practice (timed solves); deliberate practice targets specific weaknesses exclusively",
+      "Audit your last 20 solves by phase to identify where you lose the most time relative to faster solvers",
+      "Focus exclusively on one weakness for two weeks; avoid working on other phases in parallel",
+      "Structure sessions as: isolated drill, then full solves with conscious attention, then reflection",
+      "The reflection step reveals the drill-to-solve gap; closing it requires full solves with focused attention"
+    ]
+  }
+]

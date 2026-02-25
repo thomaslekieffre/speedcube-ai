@@ -1,0 +1,2047 @@
+{
+  "id": "zbll-t",
+  "name": "ZBLL T",
+  "puzzle": "3x3",
+  "description": "ZBLL T subset - 72 cases",
+  "category": "last-layer",
+  "caseCount": 72,
+  "algorithms": [
+    {
+      "id": "zbll-t-zbll-t-1",
+      "name": "ZBLL T 1",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y R' U' R U' R' U' R U2 L' R' U R U' L",
+      "alternatives": [
+        {
+          "notation": "y2 S R U' R2 U B' U' R2 U B R' S'",
+          "moveCount": 12,
+          "votes": 5
+        },
+        {
+          "notation": "y' R' U2 R' U' D R' U' R D' R U R U R2",
+          "moveCount": 14,
+          "votes": 5
+        },
+        {
+          "notation": "y R' U2 R2 U R2 U R F' R U2 R' U2 R' F R",
+          "moveCount": 15,
+          "votes": 3
+        }
+      ],
+      "moveCount": 14,
+      "setup": "L' U L U2' R' L' U L U R U R' U R y'",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-2",
+      "name": "ZBLL T 2",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y R' U2 R2 U R' U' R' U2 F' R U2 R U2 R' F",
+      "alternatives": [
+        {
+          "notation": "R' U2 R U' R' D R' U R U R' U2 R U' D' R",
+          "moveCount": 16,
+          "votes": 6
+        },
+        {
+          "notation": "M U R' F' r U r U' r' F M U' M'",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "R2 U2 R' U R U' R U2 R U L' U R U' L",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "L' U R' U' L U' R' U2' R' U R' U' R U2' R2'",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-3",
+      "name": "ZBLL T 3",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y2 R' U' R' D' R U' M' U2 r' D R2",
+      "alternatives": [
+        {
+          "notation": "R2 F2 R U2 R U2 R' F2 R U' R' U R",
+          "moveCount": 13,
+          "votes": 7
+        },
+        {
+          "notation": "R U R' U' D R' U R' U' R' U R2 D'",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R' U' R' D' R U' R' r U2 r' D R2",
+          "moveCount": 12,
+          "votes": 2
+        }
+      ],
+      "moveCount": 11,
+      "setup": "R' U' R U R' F2' R U2' R' U2' R' F2' R2'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-4",
+      "name": "ZBLL T 4",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y2 F R2 D R' U' R D' R2 U' R U2 R' U' F'",
+      "alternatives": [
+        {
+          "notation": "y' R D R' U' R D' R2 U R U' R' U' R U R' U' R",
+          "moveCount": 17,
+          "votes": 7
+        },
+        {
+          "notation": "R U R' U' R' U' F R f' R' U R S",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "y R2 U R2 U R2 U' R D R' U' R D' R",
+          "moveCount": 13,
+          "votes": 2
+        }
+      ],
+      "moveCount": 14,
+      "setup": "R' D R' U R D' R' U R2' U' R2' U' R2' y'",
+      "votes": 10,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-5",
+      "name": "ZBLL T 5",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y F R U R' U' R U R' U' F' R U R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y' R U2 R' U2 R U' R' U r' F R F' r U' R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y' R U2 R' U2 R U' R' U L' U R U' L U' R'",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y r' D' r U' r' F r U' r' F D r2 U r' U' r' F r F'",
+          "moveCount": 19,
+          "votes": 1
+        }
+      ],
+      "moveCount": 18,
+      "setup": "R U L' U R' U' L U' R U R' U2' R U2' R' y",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-6",
+      "name": "ZBLL T 6",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y2 R' U' R' D' R U R' D R2",
+      "alternatives": [
+        {
+          "notation": "y' F R F' r U R' U' r'",
+          "moveCount": 8,
+          "votes": 11
+        },
+        {
+          "notation": "y R' F' r U R U' r' F",
+          "moveCount": 8,
+          "votes": 6
+        },
+        {
+          "notation": "y l' U' L U R U' r' F",
+          "moveCount": 8,
+          "votes": 3
+        }
+      ],
+      "moveCount": 9,
+      "setup": "F' r U R' U' L' U l y'",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-7",
+      "name": "ZBLL T 7",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "R' U2 R F U' R' U R U F' R' U R",
+      "alternatives": [
+        {
+          "notation": "R U2 D' R U' R U R U' R2 D U' R'",
+          "moveCount": 13,
+          "votes": 1
+        },
+        {
+          "notation": "R' U2 R U' R2 F' R U R U' R' F R U2 R' U R",
+          "moveCount": 17,
+          "votes": 1
+        },
+        {
+          "notation": "R' U' R' D' R U2 R' D R U R U' R' U R U R' U R",
+          "moveCount": 19,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R' U' R F U' R' U' R U F' R' U2' R",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-8",
+      "name": "ZBLL T 8",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R U R' U R L' U R' U' R L",
+      "alternatives": [
+        {
+          "notation": "R U R' U' R U' R' U' F R U R' U' R' F' R",
+          "moveCount": 16,
+          "votes": 6
+        },
+        {
+          "notation": "R' F' U' F U R U R' U' F U R U' R' F' R",
+          "moveCount": 16,
+          "votes": 2
+        },
+        {
+          "notation": "y' R' U' R U R' U R r' F R' F' r R",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "L' R' U R U' L R' U' R U' R' U R y",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-9",
+      "name": "ZBLL T 9",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y F U R U2 R' U R U R' F'",
+      "alternatives": [
+        {
+          "notation": "L U2 R' U2 R U2 L' U' R' U R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y2 R U2 r' F2 r U2 R' U' L' U L",
+          "moveCount": 11
+        },
+        {
+          "notation": "y F U R U2 R' U' F' L' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "F R U' R' U' R U2' R' U' F' y'",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-10",
+      "name": "ZBLL T 10",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y R U R' U' R' F' R U2 R U2 R' F",
+      "alternatives": [
+        {
+          "notation": "y L' U2 L U2 L F' L' U' L' U L F",
+          "moveCount": 12
+        },
+        {
+          "notation": "y r' F2 r U2 r U' r' U' r' F r F",
+          "moveCount": 12
+        },
+        {
+          "notation": "y R U R' U2 R U R' y' R' U' R U2 R' U' R",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 12,
+      "setup": "F' R U2' R' U2' R' F R U R U' R' y'",
+      "votes": 17,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-11",
+      "name": "ZBLL T 11",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y' F U R' U' R F' R' U' R U R' U R",
+      "alternatives": [
+        {
+          "notation": "y R U R' U' R U R2 D' R U2 R' D R U' R U' R'",
+          "moveCount": 17,
+          "votes": 4
+        },
+        {
+          "notation": "x' M' U' R U L' U' R' U' R U R' U R",
+          "moveCount": 14,
+          "votes": 1
+        },
+        {
+          "notation": "L R' U' R U L' U' R' U' R U R' U R",
+          "moveCount": 14,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R' U' R U' R' U R U L U' R' U M x",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-12",
+      "name": "ZBLL T 12",
+      "set": "ZBLL T",
+      "subset": "T1",
+      "puzzle": "3x3",
+      "notation": "y' R' U R U R' U' R' D' R U2 R' D R U R",
+      "alternatives": [
+        {
+          "notation": "F' U f U2 R U2 R' U2 S'",
+          "moveCount": 9,
+          "votes": 3
+        },
+        {
+          "notation": "y r' F R U2 F U2 F' U2 M'",
+          "moveCount": 9,
+          "votes": 2
+        },
+        {
+          "notation": "y' R' U r U2 B U2 B' U2 M",
+          "moveCount": 9,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U' R' D' R U2' R' D R U R U' R' U' R y",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-13",
+      "name": "ZBLL T 13",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y2 R' U' R U D' R U' R U R U' R2 D",
+      "alternatives": [
+        {
+          "notation": "R U R D R' U R r' U2 r D' R2",
+          "moveCount": 12,
+          "votes": 6
+        },
+        {
+          "notation": "y2 R2 B2 R' U2 R' U2 R B2 R' U R U' R'",
+          "moveCount": 13,
+          "votes": 4
+        },
+        {
+          "notation": "R U R D R' U M U2 r D' R2",
+          "moveCount": 11,
+          "votes": 4
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R U R' U' R B2' R' U2' R U2' R B2' R2' y2'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-14",
+      "name": "ZBLL T 14",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' R' D' R U R' D R2 U' R' U R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R' D R2 U' R' U R U R' U' R U R2 D' R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R' U' R U R U f' U' F R U' R' S",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "R D' R' U R2 U' R2 U' R2 U2 R' D R'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R D' R U2' R2' U R2' U R2' U' R D R'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-15",
+      "name": "ZBLL T 15",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y R U R' U R U R' U2 L R U' R' U L'",
+      "alternatives": [
+        {
+          "notation": "y2 R' U' R U F U' R' U2 R U F' R' U2 R U2",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y' L U L' U L U L' U2 L R U' L' U R'",
+          "moveCount": 14,
+          "votes": 2
+        },
+        {
+          "notation": "S R' U R2 U' F U R2 U' F' R S'",
+          "moveCount": 12,
+          "votes": 2
+        }
+      ],
+      "moveCount": 14,
+      "setup": "L U' R U R' L' U2' R U' R' U' R U' R' y'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-16",
+      "name": "ZBLL T 16",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y2 F R U R' U' R' F' U2 R U R U' R2 U2 R",
+      "alternatives": [
+        {
+          "notation": "M U' r U R' U' R' F R F' M U M'",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "y' F U2 F' U F U' R U' R' U' R U2 R' U2 F'",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "L2 U2 L U' L' U L' U2 L' U' R U' L' U R'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R2' U R' U' R' U2' F R U R U' R' F' y2'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-17",
+      "name": "ZBLL T 17",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' r U R' U' r' F R F'",
+      "alternatives": [
+        {
+          "notation": "R U R D R' U' R D' R2",
+          "moveCount": 9,
+          "votes": 7
+        },
+        {
+          "notation": "R' F' R U R' U' R' F R U R",
+          "moveCount": 11,
+          "votes": 1
+        },
+        {
+          "notation": "x R' U' R D' R' U R D x'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 8,
+      "setup": "F R' F' r U R U' r' y",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-18",
+      "name": "ZBLL T 18",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "R' U' R U' R2 F' R U R U' R' F U R U' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "R2 D' R U2 R' D R U R U' R' U R U' R' U R U' R' U2 R",
+          "moveCount": 21,
+          "votes": 3
+        },
+        {
+          "notation": "y' R F R' U R U' R' U R U' F' R2 F' R U R U' R' F",
+          "moveCount": 19,
+          "votes": 3
+        },
+        {
+          "notation": "R U R D R' U' R D' r2 U' M2 U2 M2 U' M2",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 18,
+      "setup": "R' U' L U' R U L' U R' U' R U2' R' U2' R y",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-19",
+      "name": "ZBLL T 19",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y R2 U R' U' R' U R' U2 D R' U2 R D'",
+      "alternatives": [
+        {
+          "notation": "L U2 r' D' F r U' r' F' D r U' L'",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "U2 R U R D R' U2 R D' R' U' R' U R U' R' U' R U' R'",
+          "moveCount": 19,
+          "votes": 2
+        },
+        {
+          "notation": "y2 R U2 R' f' L U L' U' L' f R U' R'",
+          "moveCount": 13,
+          "votes": 2
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R U R' B' U R U R' U' B R U2' R' y2'",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-20",
+      "name": "ZBLL T 20",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U' R U' R' L U' R U R' L'",
+      "alternatives": [
+        {
+          "notation": "y' R U S' R' U' R S R2 F R F'",
+          "moveCount": 11,
+          "votes": 4
+        },
+        {
+          "notation": "y2 x' D R U' R' U R' U' D R' U R D2 x",
+          "moveCount": 14,
+          "votes": 2
+        },
+        {
+          "notation": "F U R' F2 R U' F' U' R U2 R' r U r' U2",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "L R U' R' U L' R U R' U R U' R' y",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-21",
+      "name": "ZBLL T 21",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' R U2 R' U2 R' F R U R U' R' F'",
+      "alternatives": [
+        {
+          "notation": "y R' U' R U2 R' F R U R' U' R' F' R U' R",
+          "moveCount": 15
+        },
+        {
+          "notation": "y R' U' R U2 R' U' R y R U R' U2 R U R'",
+          "moveCount": 15
+        },
+        {
+          "notation": "y' L' U' L U L F L' U2 L' U2 L F'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 12,
+      "setup": "F R U R' U' R' F' R U2' R U2' R' y",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-22",
+      "name": "ZBLL T 22",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' F' U' r' F2 r U F R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' F' U' L' U2 L U' L' U' L F",
+          "moveCount": 10,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R' U' R U' R' U R' F' R U R U' R' F R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y B' U' R' U2 R U' R' U' R B",
+          "moveCount": 10,
+          "votes": 1
+        }
+      ],
+      "moveCount": 10,
+      "setup": "F' L' U L U L' U2' L U F y",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-23",
+      "name": "ZBLL T 23",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y' R U' R' U' R U R D R' U2 R D' R' U' R'",
+      "alternatives": [
+        {
+          "notation": "y2 f R' F' U2 R' U2 R U2 S'",
+          "moveCount": 9,
+          "votes": 4
+        },
+        {
+          "notation": "F U' B' R2 U' R2 U R2 F' B",
+          "moveCount": 10,
+          "votes": 4
+        },
+        {
+          "notation": "y' R U' r' U2 F' U2 F U2 M'",
+          "moveCount": 9,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U R D R' U2' R D' R' U' R' U R U R' y",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-24",
+      "name": "ZBLL T 24",
+      "set": "ZBLL T",
+      "subset": "T2",
+      "puzzle": "3x3",
+      "notation": "y2 R L' U R' U' L U R U R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y R' U' R U R' U' R2 D R' U2 R D' R' U R' U R",
+          "moveCount": 17,
+          "votes": 2
+        },
+        {
+          "notation": "S' R U R' S R U' R' U' R U R' U' R' F R F'",
+          "moveCount": 17,
+          "votes": 1
+        },
+        {
+          "notation": "y' f' L' U L U' f R U R' U' R U' R'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 14,
+      "setup": "R U R' U R U' R' U' L' U R U' L R' y2'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-25",
+      "name": "ZBLL T 25",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "R' U R U2 L' R' U R U' L",
+      "alternatives": [
+        {
+          "notation": "R' U' R' U' R U R' F' R U R' U' R' F R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "R' U R U2 r' R' F R F' r",
+          "moveCount": 10,
+          "votes": 3
+        },
+        {
+          "notation": "y2 L' U R' U' L R U2 R' U' R",
+          "moveCount": 10,
+          "votes": 2
+        }
+      ],
+      "moveCount": 10,
+      "setup": "L' U R' U' R L U2' R' U' R",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-26",
+      "name": "ZBLL T 26",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y R U R2 F R F' R U' R' F' U F",
+      "alternatives": [
+        {
+          "notation": "y' R U R D R' U' R D' R' U2 R' U' R U' R'",
+          "moveCount": 15,
+          "votes": 6
+        },
+        {
+          "notation": "L' U2 L U L' U L U' L' U R U' L U R'",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "R U R' U R U2 R D R' U R D' R' U' R'",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 12,
+      "setup": "R U R' U R U2' R D R' U R D' R' U' R' y",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-27",
+      "name": "ZBLL T 27",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y2 R U' R' U2 L R U' R' U L'",
+      "alternatives": [
+        {
+          "notation": "y2 R' F R U R' U' R' F' R2 U' R' U2 R",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "r U R2 F R F' R U2 r' U r U r' U2",
+          "moveCount": 14,
+          "votes": 2
+        },
+        {
+          "notation": "R' U2 R U R2 F R U R U' R' F' R",
+          "moveCount": 13,
+          "votes": 2
+        }
+      ],
+      "moveCount": 10,
+      "setup": "L U' R U R' L' U2' R U R' y2'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-28",
+      "name": "ZBLL T 28",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R' D' R U R' D R U2 R U R' U R",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R' F R2 U' R' U' R U R' F' R U' R'",
+          "moveCount": 17,
+          "votes": 3
+        },
+        {
+          "notation": "y R' F R' F' R2 U' R' U R f R' f'",
+          "moveCount": 12,
+          "votes": 2
+        },
+        {
+          "notation": "y f R f' R' U' R U R2 F R F' R",
+          "moveCount": 12,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U' R U' R' U2' R' D' R U' R' D R U R y",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-29",
+      "name": "ZBLL T 29",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "F R U' R' U' R U2 R' U' F' R' U' R U' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "y' R U R' U R' D' R U R' D R U R' F R U R U' R' F'",
+          "moveCount": 20,
+          "votes": 3
+        },
+        {
+          "notation": "r' U' R' F2 R F' R' F2 R2 U' R' U2 r",
+          "moveCount": 13,
+          "votes": 3
+        },
+        {
+          "notation": "r' U' l' U2 R U' R' U2 l R U' R' U2 r",
+          "moveCount": 14,
+          "votes": 2
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R' U2' R U R' U R F U R U2' R' U R U R' F'",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-30",
+      "name": "ZBLL T 30",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "R' U2 R U R' U R F U R U2 R' U R U R' F'",
+      "alternatives": [
+        {
+          "notation": "r' U2 R U R2 F2 R F R' F2 R U r",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "y2 F R U R' U' R' F' R U' R' D' R U' R' D R U' R U' R'",
+          "moveCount": 20,
+          "votes": 2
+        },
+        {
+          "notation": "y2 L F R U2 R' U R U2 R2 F R F2 L'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 17,
+      "setup": "F R U' R' U' R U2' R' U' F' R' U' R U' R' U2' R",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-31",
+      "name": "ZBLL T 31",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y2 r U' r U2 R' F R U2 r2 F",
+      "alternatives": [
+        {
+          "notation": "R' U R U2 R' U' F' R U R' U R U2 R' F R",
+          "moveCount": 16,
+          "votes": 4
+        },
+        {
+          "notation": "y2 F' r2 U2 R' F' R U2 r' U r'",
+          "moveCount": 10,
+          "votes": 3
+        },
+        {
+          "notation": "y' F B' R U R' U' R' F R2 U' R' U' R U R' F' S",
+          "moveCount": 17,
+          "votes": 2
+        }
+      ],
+      "moveCount": 10,
+      "setup": "F' r2' U2' R' F' R U2' r' U r' y2'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-32",
+      "name": "ZBLL T 32",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y2 R' U' R2 U R' F' R U R' U' R' F R2 U' R' U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y' r U R' U' r' F R F' U R U R' U' R' F R2 U' R' U' R U R' F'",
+          "moveCount": 23,
+          "votes": 2
+        },
+        {
+          "notation": "y2 F R U' R' S U' R U f' U R2 F R F' R",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "R U R' U' R' U L' U2 R U' R' U2 L R2 U' R'",
+          "moveCount": 16,
+          "votes": 2
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R' U' R U R U R2' F' R U R U' R' F R U' R2' U R y2'",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-33",
+      "name": "ZBLL T 33",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U R' U' R U R' U' R' D' R U' R' D R",
+      "alternatives": [
+        {
+          "notation": "y2 R' U' R U' R' U R F U' R' U2 R U F'",
+          "moveCount": 14,
+          "votes": 5
+        },
+        {
+          "notation": "y2 R' U' R U' R' U R U L U2 R' U2 R U2 L'",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "R U R D R' U' R D' U R' U R' U' R U' R2 U' D R' U R D'",
+          "moveCount": 22
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R U R' D U R2' U2' R2' U R2' U R2' D' R U' R'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-34",
+      "name": "ZBLL T 34",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U' R' U' L' U2 R U2 R' U2 L",
+      "alternatives": [
+        {
+          "notation": "R U R' U R U' R' F' U' L' U2 L U F",
+          "moveCount": 14,
+          "votes": 3
+        },
+        {
+          "notation": "R U R' U R U' R' U' R' F2 R F2 L' U2 L",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y2 R' U R U' R' U' R U R' U' R U R D R' U R D' R'",
+          "moveCount": 19,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "L' U2' R U2' R' U2' L U R U R' U' R U' R'",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-35",
+      "name": "ZBLL T 35",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y2 R' D' R U R' D R U R U' R' U R U' R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "F U' R' U2 R U F' R' U' R U R' U R",
+          "moveCount": 14,
+          "votes": 7
+        },
+        {
+          "notation": "y' R U2 L' U2 L U2 R' U' L' U' L U L' U L",
+          "moveCount": 15
+        },
+        {
+          "notation": "y L U2 R' U2 R U2 L' U' R' U' R U R' U R",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R' U' R U' R' U R F U' R' U2' R U F'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-36",
+      "name": "ZBLL T 36",
+      "set": "ZBLL T",
+      "subset": "T3",
+      "puzzle": "3x3",
+      "notation": "y L' U2 R U2 R' U2 L U R U R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "R D R' U' R D' R' U' R' U R U' R' U R U R' U' R",
+          "moveCount": 19,
+          "votes": 4
+        },
+        {
+          "notation": "y2 F' U' L' U2 L U F R U R' U' R U' R'",
+          "moveCount": 14,
+          "votes": 1
+        },
+        {
+          "notation": "F' U L U2 L' U' F L U L' U' L U' L'",
+          "moveCount": 14,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U R' U R U' R' U' L' U2' R U2' R' U2' L y'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-37",
+      "name": "ZBLL T 37",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "R' D' R U R' D R2 U R' U2 R U' R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y R U R' L' U2 R U' R' U2 L U R U' R'",
+          "moveCount": 14,
+          "votes": 4
+        },
+        {
+          "notation": "y2 F U F' U2 R F R' U' R F' R' U' F U' F'",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "y S2 R U R' S' U R' U' F R' f' R2 U R",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R U R' U' L' U2' R U R' U2' L R U' R' y'",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-38",
+      "name": "ZBLL T 38",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y' R U R2 D' R U2 R' D R U2 R U R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "R' U2 R' D' R U2 R' D R' U R' U R U2 R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y' R2 F' R U S' R U' R' f R f R f'",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "R' U2 R' D' R U2 R' D R3 U R' U R U2 R'",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R U2' R' U' R U' R D' R U2' R' D R U2' R",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-39",
+      "name": "ZBLL T 39",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y R' U' R U' F U' R' U R U F' R' U R",
+      "alternatives": [
+        {
+          "notation": "y2 R D R' U' R D' R2 U' R U2 R' U R U R' U R",
+          "moveCount": 17,
+          "votes": 2
+        },
+        {
+          "notation": "y R D' R2 U' R U2 R' U R U R' U R U' R D R'",
+          "moveCount": 17,
+          "votes": 1
+        },
+        {
+          "notation": "y R' U' R U2 R2 F' R U R U' R' F R U2 R' U R",
+          "moveCount": 17
+        }
+      ],
+      "moveCount": 14,
+      "setup": "R' U' R F U' R' U' R U F' U R' U R y'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-40",
+      "name": "ZBLL T 40",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "R' U2 R' D' R U2 R' D R2 U' R' U2 R U R' U R",
+      "alternatives": [
+        {
+          "notation": "y2 R U2 R D R' U2 R D' R U' R U' R' U2 R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y' R' F2 R U' R2 F2 R2 U' R' U2 R' F2 R2",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "F R U R' U' F' R U R' U R U' R' U' R' F R F'",
+          "moveCount": 18,
+          "votes": 2
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R' U2' R U R' U R' D R' U2' R D' R' U2' R' y2'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-41",
+      "name": "ZBLL T 41",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y' l' U2 R' D2 R U2 R' D2 R2 x'",
+      "alternatives": [
+        {
+          "notation": "y' x R' U2 R' D2 R U2 R' D2 R2 x'",
+          "moveCount": 11,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R U2 R' U R U R' y' R' U' R U2 R' U' R",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y' l' U2 R' D2 R U2 R' D2 l2",
+          "moveCount": 9,
+          "votes": 2
+        }
+      ],
+      "moveCount": 10,
+      "setup": "x R2' D2' R U2' R' D2' R U2' l y",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-42",
+      "name": "ZBLL T 42",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y' l U2 R D2 R' U2 R D2 R2 x",
+      "alternatives": [
+        {
+          "notation": "y' x' R U2 R D2 R' U2 R D2 R2 x",
+          "moveCount": 11,
+          "votes": 4
+        },
+        {
+          "notation": "R' U2 R U' R' F R U R' U' R' F' R U' R",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "R' U2 R U' R' U' R y R U R' U2 R U R'",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 10,
+      "setup": "x' R2' D2' R' U2' R D2' R' U2' l' y",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-43",
+      "name": "ZBLL T 43",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y2 F R U R' U' R U' R' U' R U R' F'",
+      "alternatives": [
+        {
+          "notation": "f U R U' R' U R' U' R f' R' U R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y R' F' U' F U R F R' F' R U R U' R'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 13,
+      "setup": "F R U' R' U R U R' U R U' R' F' y2'",
+      "votes": 10,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-44",
+      "name": "ZBLL T 44",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U2 R U' R' U2 R U' R2 F' R U R U' R' F",
+      "alternatives": [
+        {
+          "notation": "F' U' F U R' F R2 U R' U' R' F' R2 U R'",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y R U R' U2 R D' R U' R' U' R U2 R' U D R'",
+          "moveCount": 16,
+          "votes": 1
+        },
+        {
+          "notation": "r U2 R2 F R F' U2 r' F R U R U' R' F'",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 18,
+      "setup": "L' R' U R U' L R' U' R U2' R U R2' U R2' U2' R' y2'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-45",
+      "name": "ZBLL T 45",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y R' U' R' D' R U R' D R U' R U' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "y2 r' D' r U' r' F2 r U' r' F' D r",
+          "moveCount": 12,
+          "votes": 4
+        },
+        {
+          "notation": "y2 F U' R' U2 R' U2 R U' R' U' R U R U F'",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "y2 f R f' R2 u' R U' R' U R' u R3 U R' U R U2 l' L' B' L B' L' B2 L B2 x'",
+          "moveCount": 27
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R U R' U R' D' R U' R' D R U R y'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-46",
+      "name": "ZBLL T 46",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y R U R' U R' D' R U' R' D R U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y2 R F R' U R U2 R' U R U F' R'",
+          "moveCount": 12,
+          "votes": 4
+        },
+        {
+          "notation": "y R U R D R' U' R D' R' U R' U R U2 R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "R' D' R U R' D R U2 R U2 R' U R U R'",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U' R' U' R U2' R' U2' R' D' R U' R' D R",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-47",
+      "name": "ZBLL T 47",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "r U R' U' r' F R F' R' U2 R U R' U R",
+      "alternatives": [
+        {
+          "notation": "R' U R2 D R' U R D' R' U R' U' R U' R' U' R",
+          "moveCount": 17,
+          "votes": 5
+        },
+        {
+          "notation": "y f R' F' R U2 R' F R F' R U2 R' S'",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "M' f' U' f r' U' R U' R U R' U R",
+          "moveCount": 13,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "x M U' L U2' R' U R U2' R' U L' U L",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-48",
+      "name": "ZBLL T 48",
+      "set": "ZBLL T",
+      "subset": "T4",
+      "puzzle": "3x3",
+      "notation": "y2 R U2 R' U' R U' R2 F' r U R U' r' F",
+      "alternatives": [
+        {
+          "notation": "y2 R U' R2 D' R U' R' D R U' R U R' U R U R'",
+          "moveCount": 17,
+          "votes": 6
+        },
+        {
+          "notation": "y2 F R U R' U' R' F' R U F' R U R' U' R' F R2 U' R'",
+          "moveCount": 19,
+          "votes": 1
+        },
+        {
+          "notation": "y2 M F R F' r U R' U R' U' R U' R'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 14,
+      "setup": "R U' R' U' R U' R' U R' D' R U R' D R2' U R' y2'",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-49",
+      "name": "ZBLL T 49",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y R' U' R U R' U' R2 D R' U R D' R' U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "R' U' R U R2 D' R U2 R' D R2 U2 R' U2 R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y' R2 U2 R U2 R' U L' R U R' U' R2 L",
+          "moveCount": 13,
+          "votes": 1
+        },
+        {
+          "notation": "F U R' D' r U2 r' D R2 U' R' U F'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R' U' R U2' R D R' U' R D' R2' U R U' R' U R y'",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-50",
+      "name": "ZBLL T 50",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U R' U' R U R' U R' D' R U R' D R",
+      "alternatives": [
+        {
+          "notation": "R' U D' R U2 R' D R' U' R U2 R' U' R2",
+          "moveCount": 14,
+          "votes": 4
+        },
+        {
+          "notation": "F U' R2 U R' U R U2 R2 U' R U2 R' F'",
+          "moveCount": 14,
+          "votes": 2
+        },
+        {
+          "notation": "y R D R' U R D' R' U R' U R U' R' U R U R' U' R",
+          "moveCount": 19,
+          "votes": 1
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R2' U R U2' R' U R D' R U2' R' D U' R",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-51",
+      "name": "ZBLL T 51",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y R U' R2 D' r U2 r' D R2 U' R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y R' U' R U' R' U' R2 D r' U2 r D' R2 U' R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R U2 R' U2 R U R2 D' R U' R' D R U2 R U' R'",
+          "moveCount": 17,
+          "votes": 1
+        },
+        {
+          "notation": "R U R' U' R' U R D R' U' R2 D' R D R2 D' R",
+          "moveCount": 17,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U R' U R U R2' D' r U2' r' D R2' U R' y'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-52",
+      "name": "ZBLL T 52",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' U2 R' D' R U R' D R2 U' R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R2 U R' D' R U R' D R' U' R2 U' R2",
+          "moveCount": 13,
+          "votes": 1
+        },
+        {
+          "notation": "y2 R' U F' R' U2 R U2 F U' R' U R2",
+          "moveCount": 12,
+          "votes": 1
+        },
+        {
+          "notation": "f R2 D R' U R D' R U' R' f' R' U R",
+          "moveCount": 14,
+          "votes": 1
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R2' U R2' U R D' R U' R' D R U' R2'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-53",
+      "name": "ZBLL T 53",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y2 r2 U R' U' r' F R F' U R' U' r' F R F'",
+      "alternatives": [
+        {
+          "notation": "y R U R D R' U R D' R' U L' U R' U' L",
+          "moveCount": 15,
+          "votes": 5
+        },
+        {
+          "notation": "y2 F U R' D' R U R' D R U' R' D' R U' R' D R F'",
+          "moveCount": 18,
+          "votes": 5
+        },
+        {
+          "notation": "y2 R2 D' R U' R' D R U R U R' U2 R' D' R U2 R' D R2",
+          "moveCount": 19,
+          "votes": 3
+        }
+      ],
+      "moveCount": 15,
+      "setup": "F R' F' r U R U' F R' F' r U R U' r2' y2'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-54",
+      "name": "ZBLL T 54",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y2 R2 F R U R' U' R' F' R' U' R2 U2 R U2 R",
+      "alternatives": [
+        {
+          "notation": "y r U r' R U R' U' R U R' U' r U' r' F R U R' U' F'",
+          "moveCount": 20,
+          "votes": 5
+        },
+        {
+          "notation": "f' U' F R' D' R U2 R' D R U' f R' F' R",
+          "moveCount": 15,
+          "votes": 5
+        },
+        {
+          "notation": "R U R' U R U' R' U R L' U L U2 R' U' L' U2 L",
+          "moveCount": 18,
+          "votes": 3
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R' U2' R2' U R F R U R U' R' F' R2' y2'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-55",
+      "name": "ZBLL T 55",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y2 R U' R2 D' r U2 r' D R2 U R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U R U' R' L' U2 R U R' U2 L",
+          "moveCount": 14,
+          "votes": 1
+        },
+        {
+          "notation": "y R U R' U' R2 D R' U2 R D' R2 U R U' R'",
+          "moveCount": 15
+        },
+        {
+          "notation": "L' U2 R U' R' U2 L R U R' U' R U' R'",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 11,
+      "setup": "R U' R2' D' r U2' r' D R2' U R' y2'",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-56",
+      "name": "ZBLL T 56",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "R' U R2 D r' U2 r D' R2 U' R",
+      "alternatives": [
+        {
+          "notation": "y R' U' R U R2 D' R U2 R' D R2 U' R' U R",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "y2 R' U' R U' R' U R U R' F' R U R' U' R' F R2",
+          "moveCount": 17,
+          "votes": 1
+        },
+        {
+          "notation": "L' U' L U' L' U L R U2 L' U' L U2 R'",
+          "moveCount": 14,
+          "votes": 1
+        }
+      ],
+      "moveCount": 11,
+      "setup": "R' U R2' D r' U2' r D' R2' U' R",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-57",
+      "name": "ZBLL T 57",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "R' U' R U2 R D R' U' R D' R2 U R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y2 R2 U' R D R' U' R D' R U R2 U R2",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "R' U2 R U2 R2 D' R U2 R' D R2 U' R' U R",
+          "moveCount": 15,
+          "votes": 1
+        },
+        {
+          "notation": "y F U' R U R2 D' r U2 r' D R U' F'",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R2' U' R2' U' R' D R' U R D' R' U R2' y2'",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-58",
+      "name": "ZBLL T 58",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y R' D' R U' R' D R U' R U' R' U R U' R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "y' R2 U R U2 R' U R D' R U2 R' D U' R",
+          "moveCount": 14,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R' U R U' R' U' R U R' U' R U' R D R' U' R D' R'",
+          "moveCount": 19,
+          "votes": 2
+        },
+        {
+          "notation": "F R U2 R' U R2 U2 R' U' R U' R2 U F'",
+          "moveCount": 14,
+          "votes": 1
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R2' F2' R U2' R U2' R' F' R U R' U' R' F' R2' y'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-59",
+      "name": "ZBLL T 59",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y R U R' U' R U R2 D' R U' R' D R U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "y2 R U R' U' R2 D R' U2 R D' R2 U2 R U2 R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y' R2 U' R U F' U2 R' U2 R F U' R",
+          "moveCount": 12,
+          "votes": 1
+        },
+        {
+          "notation": "L U L' U' L2 D L' U2 L D' L2 U2 L U2 L'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 17,
+      "setup": "R U R' U2' R' D' R U R' D R2' U' R' U R U' R' y'",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-60",
+      "name": "ZBLL T 60",
+      "set": "ZBLL T",
+      "subset": "T5",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' F' R U R' U' R' F R U' R' F R U R U' R' F'",
+      "alternatives": [
+        {
+          "notation": "y R U R' U R U R2 D' r U2 r' D R2 U R'",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y R' U R2 D r' U2 r D' R2 U R U R' U R",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y' R U R' U2 R' D' R U R' D R2 U' R' U2 R U2 R'",
+          "moveCount": 17,
+          "votes": 1
+        }
+      ],
+      "moveCount": 20,
+      "setup": "F R U R' U' R' F' R U R' F' R U R U' R' F R U' R' y2'",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-61",
+      "name": "ZBLL T 61",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y2 R U' R' U2 R U R' U2 R U R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' R' U' R U' R' U2 R U R' U2 R U R' U R",
+          "moveCount": 15,
+          "votes": 8
+        },
+        {
+          "notation": "y' r U R' U' r' F R F' R2 x F R F' R U2 r' U r U2 x' U2",
+          "moveCount": 21,
+          "votes": 1
+        },
+        {
+          "notation": "L U' L' U2 L U L' U2 L U L' U L U' L'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U' R U' R' U2' R U' R' U2' R U R' U R y",
+      "votes": 18,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-62",
+      "name": "ZBLL T 62",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U R U2 R' U' R U2 R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "R' U R U2 R' U' R U2 R' U' R U' R' U R",
+          "moveCount": 15,
+          "votes": 3
+        },
+        {
+          "notation": "y2 L' U L U2 L' U' L U2 L' U' L U' L' U L",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y L U L' U L U2 L' U' L U2 L' U' L U' L'",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U R' U R U2' R' U R U2' R' U' R U' R' y",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-63",
+      "name": "ZBLL T 63",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U R U' R' U R' U' R2 U' R2 U2 R",
+      "alternatives": [
+        {
+          "notation": "R U' R U2 R U2 R' U R U R' U' R' U R' U'",
+          "moveCount": 16,
+          "votes": 1
+        },
+        {
+          "notation": "y R' U R U2 R' U' R U' R U R' U' R' U' R U2 R U2 R'",
+          "moveCount": 19,
+          "votes": 1
+        },
+        {
+          "notation": "y R' F' U' F U' R U R2 F R F' U R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R2' U R2' U R U' R U R' U' R U' R' y",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-64",
+      "name": "ZBLL T 64",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U' R' U R U R' U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y2 L U2 L' U' L U' L' U L U L' U L U2 L'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U2' R' U' R U' R' U' R U R' U R U2' R'",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-65",
+      "name": "ZBLL T 65",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R U' R' U R U' R U R2 U R2 U2 R'",
+      "alternatives": [
+        {
+          "notation": "R' U R2 U R' U R' U' R U' R' U' R U R U' R'",
+          "moveCount": 17,
+          "votes": 3
+        },
+        {
+          "notation": "y L' U' L U' L' U L U' L U L2 U L2 U2 L'",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y z D R' U R' D' R U' R U' R D R' U D' z'",
+          "moveCount": 16,
+          "votes": 1
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R U2' R2' U' R2' U' R' U R' U' R U R' U R y",
+      "votes": 16,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-66",
+      "name": "ZBLL T 66",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y2 R' U2 R U R' U R U' R' U' R U' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "L' U2 L U L' U L U' L' U' L U' L' U2 L",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "y2 R' U2 R U R' U R U L' U' L U' L' U2 L",
+          "moveCount": 15
+        },
+        {
+          "notation": "R U2 R2 U R' U2 R2 U R U' R U' R U' R2",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R U R' U R U R' U' R U' R' U2' R y2'",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-67",
+      "name": "ZBLL T 67",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R2 U R2 U R2 U2 R' U R' U R",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U2 R' U2 R U R U' R' U R' U R",
+          "moveCount": 15,
+          "votes": 5
+        },
+        {
+          "notation": "L' U L2 F' L' F r' F U' F U F r",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "y L' U' L2 U L2 U L2 U2 L' U L' U L",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R' U' R U' R U2' R2' U' R2' U' R2' U R y",
+      "votes": 11,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-68",
+      "name": "ZBLL T 68",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R U R2 U' R2 U' R2 U2 R U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y2 R' U2 R U2 R U2 R' U' R' U R U' R U' R'",
+          "moveCount": 15,
+          "votes": 2
+        },
+        {
+          "notation": "R U' R2 F R F' R U' B U' B' U' R'",
+          "moveCount": 13,
+          "votes": 1
+        },
+        {
+          "notation": "R U2 R' U2 R' U' F U R U' R U R' U' F'",
+          "moveCount": 15,
+          "votes": 1
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R U R' U R' U2' R2' U R2' U R2' U' R' y",
+      "votes": 14,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-69",
+      "name": "ZBLL T 69",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U' R2 U2 R U R' U R",
+      "alternatives": [
+        {
+          "notation": "y2 L U2 L' U' L U' L2 U2 L U L' U L",
+          "moveCount": 13
+        },
+        {
+          "notation": "R U2 R' U' R U' R' U2 L' U2 L U L' U L",
+          "moveCount": 15
+        },
+        {
+          "notation": "y' R' U R2 U R' U R U2 R' U' R U R' U R U2 R2 U R",
+          "moveCount": 19
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R' U' R U' R' U2' R2' U R' U R U2' R'",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-70",
+      "name": "ZBLL T 70",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y2 R' U2 R U R' U R2 U2 R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U2 L U L' U L2 U2 L' U' L U' L'",
+          "moveCount": 13,
+          "votes": 2
+        },
+        {
+          "notation": "L' U2 L U L' U L U2 R U2 R' U' R U' R'",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 13,
+      "setup": "R U R' U R U2' R2' U' R U' R' U2' R y2'",
+      "votes": 13,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-71",
+      "name": "ZBLL T 71",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "R' U R U2 R' U' R U' R U R' U' R' U' R U R U' R'",
+      "alternatives": [
+        {
+          "notation": "x D' R' U R D R2 D2 R U' R' D2 R l",
+          "moveCount": 14,
+          "votes": 5
+        },
+        {
+          "notation": "y R2 U R2 U R U' R' U R2 U2 R' U R' U R U' R'",
+          "moveCount": 17,
+          "votes": 4
+        },
+        {
+          "notation": "y' R U R' U R U' R2 U' R' U' R U R' U' R2 U2 R",
+          "moveCount": 17,
+          "votes": 3
+        }
+      ],
+      "moveCount": 19,
+      "setup": "R U R' U' R' U R U R U' R' U R' U R U2' R' U' R",
+      "votes": 12,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "zbll-t-zbll-t-72",
+      "name": "ZBLL T 72",
+      "set": "ZBLL T",
+      "subset": "T6",
+      "puzzle": "3x3",
+      "notation": "y' R U R' U R U2 R' U2 R' U' R U' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "y' R U R' U R U2 R' L' U' L U' L' U2 L",
+          "moveCount": 14,
+          "votes": 6
+        },
+        {
+          "notation": "y L' U' L U' L' U2 L R U R' U R U2 R'",
+          "moveCount": 14,
+          "votes": 3
+        },
+        {
+          "notation": "y2 R U R' U' R' F D' R U R' D R2 U' R' F'",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "R' U2' R U R' U R U2' R U2' R' U' R U' R' y",
+      "votes": 16,
+      "source": "speedcubedb"
+    }
+  ]
+}

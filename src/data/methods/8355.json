@@ -1,0 +1,65 @@
+{
+  "id": "8355",
+  "name": "8355 Method",
+  "description": "A 3x3 method created by Gilles Roux (the creator of the Roux method) that breaks the solve into four distinct phases based on the number of pieces solved in each step: 8 pieces, then 3 more, then 5 more, then the final 5. It is a corners-first variant that solves all corners first, then tackles edges in groups. The method is notable for its unconventional approach and low algorithm count.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve 8 Corners",
+      "description": "Solve all 8 corners of the cube. This can be done using a corners-first approach — first solve the 4 bottom corners, then orient and permute the 4 top corners. With practice, all 8 corners can be solved intuitively or with minimal algorithms.",
+      "moveCountRange": "12-18 moves",
+      "tips": [
+        "Learn to solve bottom corners intuitively",
+        "Use Sune and anti-Sune for top corner orientation",
+        "Practice planning corner solutions during inspection"
+      ]
+    },
+    {
+      "name": "Solve 3 Middle-Layer Edges",
+      "description": "Insert 3 of the 4 middle-layer edges into their correct positions. Leave one middle-layer slot empty to use as a working space for subsequent steps.",
+      "moveCountRange": "8-12 moves",
+      "tips": [
+        "Use the empty slot as a keyhole for easier insertion",
+        "Choose which edge to leave out strategically",
+        "M-slice moves are helpful here"
+      ]
+    },
+    {
+      "name": "Solve 5 Edges (Top Layer + Last Middle Edge)",
+      "description": "Solve the 4 top-layer edges and the remaining middle-layer edge simultaneously. This step uses the empty middle slot to manipulate edges into place. Typically involves orienting and then permuting the edges.",
+      "moveCountRange": "10-15 moves",
+      "tips": [
+        "Focus on edge orientation first",
+        "Use M and U moves for efficient manipulation",
+        "This is the trickiest step — practice edge recognition"
+      ]
+    },
+    {
+      "name": "Solve Last 5 Edges (Bottom Layer + Remaining)",
+      "description": "Solve the final 4 bottom-layer edges plus any remaining edge to complete the cube. This typically involves flipping the cube and using edge-cycling techniques.",
+      "moveCountRange": "10-14 moves",
+      "tips": [
+        "Edge 3-cycles are useful here",
+        "Practice smooth M-slice execution",
+        "This step becomes very fast with practice"
+      ]
+    }
+  ],
+  "pros": [
+    "Very few algorithms required",
+    "Unique corners-first approach builds understanding of the cube",
+    "Created by Gilles Roux, a respected method designer",
+    "Good for developing intuitive solving skills"
+  ],
+  "cons": [
+    "Higher move count than Roux or CFOP",
+    "Not competitive for speedcubing",
+    "Limited resources and community",
+    "Edge steps can be tricky for beginners"
+  ],
+  "notableUsers": ["Gilles Roux"],
+  "relatedSets": [],
+  "avgMoveCount": "50-60",
+  "yearCreated": 2003,
+  "creator": "Gilles Roux"
+}

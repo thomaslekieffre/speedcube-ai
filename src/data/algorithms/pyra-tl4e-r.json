@@ -1,0 +1,1914 @@
+{
+  "id": "pyra-tl4e-r",
+  "name": "TL4E-R",
+  "puzzle": "Pyraminx",
+  "description": "Twisted Last 4 Edges (Right) for Pyraminx. L4E cases with a twisted right tip, covering bar positions and both orientations.",
+  "category": "last-layer",
+  "caseCount": 118,
+  "algorithms": [
+    {
+      "id": "pyra-tl4e-r-sledge-1-plus",
+      "name": "TL4E-R + - Sledge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R L R' L'",
+      "alternatives": [
+        {
+          "notation": "L R' L R U' L2' U L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sledge-1-minus",
+      "name": "TL4E-R - - Sledge 1",
+      "set": "TL4E-R",
+      "subset": "- - Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R'",
+      "alternatives": [
+        {
+          "notation": "R' U' L' U R",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sledge-2-plus",
+      "name": "TL4E-R + - Sledge 2",
+      "set": "TL4E-R",
+      "subset": "+ - Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R L' U R",
+      "alternatives": [
+        {
+          "notation": "L2 U L' U' L R' L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sledge-2-minus",
+      "name": "TL4E-R - - Sledge 2",
+      "set": "TL4E-R",
+      "subset": "- - Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' R L U' L'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sledge-3-minus",
+      "name": "TL4E-R - - Sledge 3",
+      "set": "TL4E-R",
+      "subset": "- - Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' R' L' R",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-hedge-1-plus",
+      "name": "TL4E-R + - Hedge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R L R L' R'",
+      "alternatives": [
+        {
+          "notation": "R' U' L U R",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-hedge-1-minus",
+      "name": "TL4E-R - - Hedge 1",
+      "set": "TL4E-R",
+      "subset": "- - Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R' L R' L'",
+      "alternatives": [
+        {
+          "notation": "L' U' L2 U R' L' R L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-hedge-2-plus",
+      "name": "TL4E-R + - Hedge 2",
+      "set": "TL4E-R",
+      "subset": "+ - Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R L R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L U L' R' L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-hedge-2-minus",
+      "name": "TL4E-R - - Hedge 2",
+      "set": "TL4E-R",
+      "subset": "- - Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R' L' U R",
+      "alternatives": [
+        {
+          "notation": "R' L R L' U L U' L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-hedge-3-plus",
+      "name": "TL4E-R + - Hedge 3",
+      "set": "TL4E-R",
+      "subset": "+ - Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U' R U R",
+      "alternatives": [
+        {
+          "notation": "R' L R L U L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-clockwise-cycle-1-plus",
+      "name": "TL4E-R + - Clockwise Cycle 1",
+      "set": "TL4E-R",
+      "subset": "+ - Clockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L R L' R'",
+      "alternatives": [
+        {
+          "notation": "R' L R",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-clockwise-cycle-1-minus",
+      "name": "TL4E-R - - Clockwise Cycle 1",
+      "set": "TL4E-R",
+      "subset": "- - Clockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' L U R' U' L' R",
+      "alternatives": [
+        {
+          "notation": "R U R2' L R U L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-clockwise-cycle-2-minus",
+      "name": "TL4E-R - - Clockwise Cycle 2",
+      "set": "TL4E-R",
+      "subset": "- - Clockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R L R' L' R",
+      "alternatives": [
+        {
+          "notation": "R' L' R L R' L R L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-counterclockwise-cycle-1-plus",
+      "name": "TL4E-R + - Counterclockwise Cycle 1",
+      "set": "TL4E-R",
+      "subset": "+ - Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' L U R U' L' R",
+      "alternatives": [
+        {
+          "notation": "L2 U' R' L' R2 U' R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-counterclockwise-cycle-1-minus",
+      "name": "TL4E-R - - Counterclockwise Cycle 1",
+      "set": "TL4E-R",
+      "subset": "- - Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' U R'",
+      "alternatives": [
+        {
+          "notation": "R' L' R",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-counterclockwise-cycle-2-plus",
+      "name": "TL4E-R + - Counterclockwise Cycle 2",
+      "set": "TL4E-R",
+      "subset": "+ - Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L' R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "L2 R' L' R L' R' L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-counterclockwise-cycle-2-minus",
+      "name": "TL4E-R - - Counterclockwise Cycle 2",
+      "set": "TL4E-R",
+      "subset": "- - Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R' L' R'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-counterclockwise-cycle-3-minus",
+      "name": "TL4E-R - - Counterclockwise Cycle 3",
+      "set": "TL4E-R",
+      "subset": "- - Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R' U L R L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-righty-1-plus",
+      "name": "TL4E-R + - Righty 1",
+      "set": "TL4E-R",
+      "subset": "+ - Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U R",
+      "alternatives": [
+        {
+          "notation": "L' U' L U L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-righty-1-minus",
+      "name": "TL4E-R - - Righty 1",
+      "set": "TL4E-R",
+      "subset": "- - Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' U L' U' L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-righty-2-plus",
+      "name": "TL4E-R + - Righty 2",
+      "set": "TL4E-R",
+      "subset": "+ - Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' R' U R2",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-righty-2-minus",
+      "name": "TL4E-R - - Righty 2",
+      "set": "TL4E-R",
+      "subset": "- - Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R2 U R' U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-lefty-1-plus",
+      "name": "TL4E-R + - Lefty 1",
+      "set": "TL4E-R",
+      "subset": "+ - Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R2 U R L R' L' R",
+      "alternatives": [
+        {
+          "notation": "R' L' R L2 U L' U' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-lefty-1-minus",
+      "name": "TL4E-R - - Lefty 1",
+      "set": "TL4E-R",
+      "subset": "- - Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U R' L R L' R'",
+      "alternatives": [
+        {
+          "notation": "R' L' R U L U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-lefty-2-plus",
+      "name": "TL4E-R + - Lefty 2",
+      "set": "TL4E-R",
+      "subset": "+ - Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L' U' L2 R' L' U' R",
+      "alternatives": [
+        {
+          "notation": "R U R' U' L R' L R L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-lefty-2-minus",
+      "name": "TL4E-R - - Lefty 2",
+      "set": "TL4E-R",
+      "subset": "- - Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R' L' U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-lefty-3-minus",
+      "name": "TL4E-R - - Lefty 3",
+      "set": "TL4E-R",
+      "subset": "- - Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U' R' U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sexy-1-plus",
+      "name": "TL4E-R + - Sexy 1",
+      "set": "TL4E-R",
+      "subset": "+ - Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "L' U L U' L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sexy-1-minus",
+      "name": "TL4E-R - - Sexy 1",
+      "set": "TL4E-R",
+      "subset": "- - Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R' U R",
+      "alternatives": [
+        {
+          "notation": "L' U' L' U L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sexy-2-plus",
+      "name": "TL4E-R + - Sexy 2",
+      "set": "TL4E-R",
+      "subset": "+ - Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R U' R2 U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sexy-2-minus",
+      "name": "TL4E-R - - Sexy 2",
+      "set": "TL4E-R",
+      "subset": "- - Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U' R U R' U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-ugly-1-plus",
+      "name": "TL4E-R + - Ugly 1",
+      "set": "TL4E-R",
+      "subset": "+ - Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "L U L' U' R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-ugly-1-minus",
+      "name": "TL4E-R - - Ugly 1",
+      "set": "TL4E-R",
+      "subset": "- - Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L' R' U' R2 U R2'",
+      "alternatives": [
+        {
+          "notation": "L' U L U' L R' L2' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-ugly-2-plus",
+      "name": "TL4E-R + - Ugly 2",
+      "set": "TL4E-R",
+      "subset": "+ - Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R L' U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-ugly-2-minus",
+      "name": "TL4E-R - - Ugly 2",
+      "set": "TL4E-R",
+      "subset": "- - Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R L2' U L U R'",
+      "alternatives": [
+        {
+          "notation": "L R' L' R L' U R U' R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-ugly-3-plus",
+      "name": "TL4E-R + - Ugly 3",
+      "set": "TL4E-R",
+      "subset": "+ - Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R U R U R2 U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-dl-flip-1-plus",
+      "name": "TL4E-R + - DL Flip 1",
+      "set": "TL4E-R",
+      "subset": "+ - DL Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R L' R'",
+      "alternatives": [
+        {
+          "notation": "L U' L' R' L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-dl-flip-1-minus",
+      "name": "TL4E-R - - DL Flip 1",
+      "set": "TL4E-R",
+      "subset": "- - DL Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' U' R'",
+      "alternatives": [
+        {
+          "notation": "R' L' R L U L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-polish-flip-1-plus",
+      "name": "TL4E-R + - Right Polish Flip 1",
+      "set": "TL4E-R",
+      "subset": "+ - Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' L' U L R' U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-polish-flip-1-minus",
+      "name": "TL4E-R - - Right Polish Flip 1",
+      "set": "TL4E-R",
+      "subset": "- - Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R L' U' L",
+      "alternatives": [
+        {
+          "notation": "R' L' R U' L U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-polish-flip-2-plus",
+      "name": "TL4E-R + - Right Polish Flip 2",
+      "set": "TL4E-R",
+      "subset": "+ - Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' U L R' L' U R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-polish-flip-2-minus",
+      "name": "TL4E-R - - Right Polish Flip 2",
+      "set": "TL4E-R",
+      "subset": "- - Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "L2 U L' R U' R' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-polish-flip-3-plus",
+      "name": "TL4E-R + - Right Polish Flip 3",
+      "set": "TL4E-R",
+      "subset": "+ - Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' U' R L U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-polish-flip-1-plus",
+      "name": "TL4E-R + - Left Polish Flip 1",
+      "set": "TL4E-R",
+      "subset": "+ - Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "L U L' U R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-polish-flip-1-minus",
+      "name": "TL4E-R - - Left Polish Flip 1",
+      "set": "TL4E-R",
+      "subset": "- - Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L' U' L R U' R2'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-polish-flip-2-plus",
+      "name": "TL4E-R + - Left Polish Flip 2",
+      "set": "TL4E-R",
+      "subset": "+ - Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "L' R U R' L U' L2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-polish-flip-2-minus",
+      "name": "TL4E-R - - Left Polish Flip 2",
+      "set": "TL4E-R",
+      "subset": "- - Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R L' U' R U' R2'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-polish-flip-3-minus",
+      "name": "TL4E-R - - Left Polish Flip 3",
+      "set": "TL4E-R",
+      "subset": "- - Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' R' U R L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sus-1-plus",
+      "name": "TL4E-R + - SUS 1",
+      "set": "TL4E-R",
+      "subset": "+ - SUS",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L2 U' L R U R2",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-sus-1-minus",
+      "name": "TL4E-R - - SUS 1",
+      "set": "TL4E-R",
+      "subset": "- - SUS",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' L R L2' U' L",
+      "alternatives": [
+        {
+          "notation": "R' L R U' R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-anti-sus-1-plus",
+      "name": "TL4E-R + - Anti-SUS 1",
+      "set": "TL4E-R",
+      "subset": "+ - Anti-SUS",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L2 R' L' U R U' R",
+      "alternatives": [
+        {
+          "notation": "R' L' R U R' L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-anti-sus-1-minus",
+      "name": "TL4E-R - - Anti-SUS 1",
+      "set": "TL4E-R",
+      "subset": "- - Anti-SUS",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R' L' U L2 R L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-1-plus",
+      "name": "TL4E-R + - Good Niky 1",
+      "set": "TL4E-R",
+      "subset": "+ - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R2 U R U' L' U L",
+      "alternatives": [
+        {
+          "notation": "R U R' U L R U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-1-minus",
+      "name": "TL4E-R - - Good Niky 1",
+      "set": "TL4E-R",
+      "subset": "- - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R L' U L",
+      "alternatives": [
+        {
+          "notation": "L' U' L' U' R U' R' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-2-plus",
+      "name": "TL4E-R + - Good Niky 2",
+      "set": "TL4E-R",
+      "subset": "+ - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U' R U L' U' L",
+      "alternatives": [
+        {
+          "notation": "R' U R U R' U L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-2-minus",
+      "name": "TL4E-R - - Good Niky 2",
+      "set": "TL4E-R",
+      "subset": "- - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' U' L2 U R' L' R U L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-3-plus",
+      "name": "TL4E-R + - Good Niky 3",
+      "set": "TL4E-R",
+      "subset": "+ - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R L R L' R' U R U R'",
+      "alternatives": [
+        {
+          "notation": "R' L U R U R' U R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-niky-3-minus",
+      "name": "TL4E-R - - Good Niky 3",
+      "set": "TL4E-R",
+      "subset": "- - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R' U R L' U' L",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-1-plus",
+      "name": "TL4E-R + - Good Sochi 1",
+      "set": "TL4E-R",
+      "subset": "+ - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "L' R U R' U L U L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-1-minus",
+      "name": "TL4E-R - - Good Sochi 1",
+      "set": "TL4E-R",
+      "subset": "- - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U R' U' R2 U R",
+      "alternatives": [
+        {
+          "notation": "R U' R' L' U' R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-2-plus",
+      "name": "TL4E-R + - Good Sochi 2",
+      "set": "TL4E-R",
+      "subset": "+ - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U L' U L R",
+      "alternatives": [
+        {
+          "notation": "L U' R' L R U' L2' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-2-minus",
+      "name": "TL4E-R - - Good Sochi 2",
+      "set": "TL4E-R",
+      "subset": "- - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U' R' U R2 U' R",
+      "alternatives": [
+        {
+          "notation": "R' L' U' R U' R' U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-3-plus",
+      "name": "TL4E-R + - Good Sochi 3",
+      "set": "TL4E-R",
+      "subset": "+ - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' U' R U R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-good-sochi-3-minus",
+      "name": "TL4E-R - - Good Sochi 3",
+      "set": "TL4E-R",
+      "subset": "- - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' R L R' L' R'",
+      "alternatives": [
+        {
+          "notation": "R' U' R U' R' U' L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-1-plus",
+      "name": "TL4E-R + - Super Sledge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R L R L' U R'",
+      "alternatives": [
+        {
+          "notation": "R' L R L U' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-1-minus",
+      "name": "TL4E-R - - Super Sledge 1",
+      "set": "TL4E-R",
+      "subset": "- - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L R' L' R'",
+      "alternatives": [
+        {
+          "notation": "L U L' R' L' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-2-plus",
+      "name": "TL4E-R + - Super Sledge 2",
+      "set": "TL4E-R",
+      "subset": "+ - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U R U' R",
+      "alternatives": [
+        {
+          "notation": "R' U' L' U L2 R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-2-minus",
+      "name": "TL4E-R - - Super Sledge 2",
+      "set": "TL4E-R",
+      "subset": "- - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' L R L'",
+      "alternatives": [
+        {
+          "notation": "R' L U' L2' U R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-3-plus",
+      "name": "TL4E-R + - Super Sledge 3",
+      "set": "TL4E-R",
+      "subset": "+ - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L' U R",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-sledge-3-minus",
+      "name": "TL4E-R - - Super Sledge 3",
+      "set": "TL4E-R",
+      "subset": "- - Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L U L2' R",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-hedge-1-plus",
+      "name": "TL4E-R + - Super Hedge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Super Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R L R L' R'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-super-hedge-1-minus",
+      "name": "TL4E-R - - Super Hedge 1",
+      "set": "TL4E-R",
+      "subset": "- - Super Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R' L' U' L",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-niky-1-plus",
+      "name": "TL4E-R + - Bad Niky 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R U R2",
+      "alternatives": [
+        {
+          "notation": "L U' L' U' R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-niky-1-minus",
+      "name": "TL4E-R - - Bad Niky 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R U' L' U L",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-niky-2-plus",
+      "name": "TL4E-R + - Bad Niky 2",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U L R U' R' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-niky-3-plus",
+      "name": "TL4E-R + - Bad Niky 3",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R U' L U' L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sochi-1-plus",
+      "name": "TL4E-R + - Bad Sochi 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U R' U R U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sochi-1-minus",
+      "name": "TL4E-R - - Bad Sochi 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R' L' U L R",
+      "alternatives": [
+        {
+          "notation": "R' L' R U L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sochi-2-minus",
+      "name": "TL4E-R - - Bad Sochi 2",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R' L' U R'",
+      "alternatives": [
+        {
+          "notation": "L' R U R' L' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sochi-3-minus",
+      "name": "TL4E-R - - Bad Sochi 3",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L U L' U R' L' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-spam-1-plus",
+      "name": "TL4E-R + - Right Spam 1",
+      "set": "TL4E-R",
+      "subset": "+ - Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L U' R U' R2",
+      "alternatives": [
+        {
+          "notation": "R' L R U L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-right-spam-1-minus",
+      "name": "TL4E-R - - Right Spam 1",
+      "set": "TL4E-R",
+      "subset": "- - Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' L' U' L U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-spam-1-plus",
+      "name": "TL4E-R + - Left Spam 1",
+      "set": "TL4E-R",
+      "subset": "+ - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U' L R L2 U' L",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-spam-1-minus",
+      "name": "TL4E-R - - Left Spam 1",
+      "set": "TL4E-R",
+      "subset": "- - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L2' U' L R' U R",
+      "alternatives": [
+        {
+          "notation": "R' U' R' L R L' U L' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-left-spam-2-minus",
+      "name": "TL4E-R - - Left Spam 2",
+      "set": "TL4E-R",
+      "subset": "- - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R' L2' U L R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sledge-1-plus",
+      "name": "TL4E-R + - Bad Sledge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U L R U' R2",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sledge-1-minus",
+      "name": "TL4E-R - - Bad Sledge 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' U L' U L R",
+      "alternatives": [
+        {
+          "notation": "L U' L' U' R' L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-hedge-1-plus",
+      "name": "TL4E-R + - Bad Hedge 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L' U L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R' L U' L R' L' R U R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-hedge-1-minus",
+      "name": "TL4E-R - - Bad Hedge 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L2 R' L' U R2 U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-hedge-2-plus",
+      "name": "TL4E-R + - Bad Hedge 2",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L2 R L' U R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sexy-1-plus",
+      "name": "TL4E-R + - Bad Sexy 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R L' U R'",
+      "alternatives": [
+        {
+          "notation": "R' L' R U' R' L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sexy-1-minus",
+      "name": "TL4E-R - - Bad Sexy 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U R U' R' L' U L R",
+      "alternatives": [
+        {
+          "notation": "R' U R U R' U L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sexy-2-plus",
+      "name": "TL4E-R + - Bad Sexy 2",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L' U L R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sexy-2-minus",
+      "name": "TL4E-R - - Bad Sexy 2",
+      "set": "TL4E-R",
+      "subset": "- - Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R L2' U L R'",
+      "alternatives": [
+        {
+          "notation": "R' L' U R U R' U R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-sexy-3-plus",
+      "name": "TL4E-R + - Bad Sexy 3",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L' U' L U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-ugly-1-plus",
+      "name": "TL4E-R + - Bad Ugly 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R U R' U' R'",
+      "alternatives": [
+        {
+          "notation": "R' L U' R U' R' U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-ugly-1-minus",
+      "name": "TL4E-R - - Bad Ugly 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L R' L' U' R'",
+      "alternatives": [
+        {
+          "notation": "R' L R U R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-ugly-2-plus",
+      "name": "TL4E-R + - Bad Ugly 2",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U' L2 R' L' U' R",
+      "alternatives": [
+        {
+          "notation": "R' U' R U' R' U' L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-ugly-2-minus",
+      "name": "TL4E-R - - Bad Ugly 2",
+      "set": "TL4E-R",
+      "subset": "- - Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R' U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-ugly-3-minus",
+      "name": "TL4E-R - - Bad Ugly 3",
+      "set": "TL4E-R",
+      "subset": "- - Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U L R' U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-righty-1-plus",
+      "name": "TL4E-R + - Bad Righty 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U' R' U R U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-righty-1-minus",
+      "name": "TL4E-R - - Bad Righty 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R U L U R U' L' R'",
+      "alternatives": [
+        {
+          "notation": "R' U L' U' L U' L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-righty-2-minus",
+      "name": "TL4E-R - - Bad Righty 2",
+      "set": "TL4E-R",
+      "subset": "- - Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' L' U L U' R",
+      "alternatives": [
+        {
+          "notation": "L' R U R' U L' U L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-lefty-1-plus",
+      "name": "TL4E-R + - Bad Lefty 1",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R L U R' U' L' U' R'",
+      "alternatives": [
+        {
+          "notation": "R' L U L' U L U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-lefty-1-minus",
+      "name": "TL4E-R - - Bad Lefty 1",
+      "set": "TL4E-R",
+      "subset": "- - Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R' U' R U L' U' L",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-bad-lefty-2-plus",
+      "name": "TL4E-R + - Bad Lefty 2",
+      "set": "TL4E-R",
+      "subset": "+ - Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U' L U R' U R",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' R U' R' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-1-plus",
+      "name": "TL4E-R + - Double Sexy 1",
+      "set": "TL4E-R",
+      "subset": "+ - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U R' U R'",
+      "alternatives": [
+        {
+          "notation": "L' U' L U L' U L2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-1-minus",
+      "name": "TL4E-R - - Double Sexy 1",
+      "set": "TL4E-R",
+      "subset": "- - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "L U' L U' L' U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-2-plus",
+      "name": "TL4E-R + - Double Sexy 2",
+      "set": "TL4E-R",
+      "subset": "+ - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' U R' U R",
+      "alternatives": [
+        {
+          "notation": "L' U L U' L' U' L2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-2-minus",
+      "name": "TL4E-R - - Double Sexy 2",
+      "set": "TL4E-R",
+      "subset": "- - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' R U' R2'",
+      "alternatives": [
+        {
+          "notation": "L U L U L' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-3-plus",
+      "name": "TL4E-R + - Double Sexy 3",
+      "set": "TL4E-R",
+      "subset": "+ - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' R' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U L2 U L' U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-3-minus",
+      "name": "TL4E-R - - Double Sexy 3",
+      "set": "TL4E-R",
+      "subset": "- - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' L U' L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-4-plus",
+      "name": "TL4E-R + - Double Sexy 4",
+      "set": "TL4E-R",
+      "subset": "+ - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R' U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' U' L2 U' L' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-sexy-4-minus",
+      "name": "TL4E-R - - Double Sexy 4",
+      "set": "TL4E-R",
+      "subset": "- - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U R U R2'",
+      "alternatives": [
+        {
+          "notation": "L' U L U L U L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-ugly-1-plus",
+      "name": "TL4E-R + - Double Ugly 1",
+      "set": "TL4E-R",
+      "subset": "+ - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R' L R' L' U R",
+      "alternatives": [
+        {
+          "notation": "L U' L' U R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-ugly-1-minus",
+      "name": "TL4E-R - - Double Ugly 1",
+      "set": "TL4E-R",
+      "subset": "- - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R L' R U R2'",
+      "alternatives": [
+        {
+          "notation": "R' L' R U' L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-ugly-2-plus",
+      "name": "TL4E-R + - Double Ugly 2",
+      "set": "TL4E-R",
+      "subset": "+ - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "R' L U' L' U L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-tl4e-r-double-ugly-2-minus",
+      "name": "TL4E-R - - Double Ugly 2",
+      "set": "TL4E-R",
+      "subset": "- - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' R' L R L' R'",
+      "alternatives": [
+        {
+          "notation": "R' L' U' L U L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    }
+  ]
+}

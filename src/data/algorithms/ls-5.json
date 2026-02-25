@@ -1,0 +1,1099 @@
+{
+  "id": "ls-5",
+  "name": "LS-5",
+  "puzzle": "2x2",
+  "description": "Last Slot 5 - One-look last-slot algorithms for 2x2. Solves the last slot while orienting and permuting the remaining corners in one step.",
+  "category": "last-layer",
+  "caseCount": 42,
+  "algorithms": [
+    {
+      "id": "ls-5-hammer-a-1",
+      "name": "LS-5 Hammer-A 1",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "R' F R2 U2 R' U R U' R' F",
+      "alternatives": [
+        {
+          "notation": "R' F R F' R U R' F R' F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "R' F R F' R U' R' U R U2 R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) F' R U' R' F2 R U' R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "F2 R U2 R' U2 R' F2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "F' R U2 R' U2 R' F R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-a-2",
+      "name": "LS-5 Hammer-A 2",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "R U2 R2 F' R U R U' R' F",
+      "alternatives": [
+        {
+          "notation": "y (U2) R' F R2 U' R' F R' F2 R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R U2 R' U' R2 U R2 U' R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "R' F2 R U2 R U2 R' F2",
+          "moveCount": 8
+        },
+        {
+          "notation": "F' R U R' U' R' F R2 U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-a-3",
+      "name": "LS-5 Hammer-A 3",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "y' (U') R U2 R' U2 R' F R' F'",
+      "alternatives": [
+        {
+          "notation": "F' R' F R F' R U R' F",
+          "moveCount": 9
+        },
+        {
+          "notation": "R2 U R2 U' R2 U R' F R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y R' U R2 U' R2 U' R F",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-a-4",
+      "name": "LS-5 Hammer-A 4",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "y R2 U' F R2 U' R' U R' U R2",
+      "alternatives": [
+        {
+          "notation": "y R2 U' R' U R' U' R U R2 F",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-a-5",
+      "name": "LS-5 Hammer-A 5",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "y' (U') R' U R' U R' U2 R U' R2",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-a-6",
+      "name": "LS-5 Hammer-A 6",
+      "set": "LS-5",
+      "subset": "Hammer-A",
+      "puzzle": "2x2",
+      "notation": "y2 R2 B2 R' U2 R B2 R2",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-b-1",
+      "name": "LS-5 Hammer-B 1",
+      "set": "LS-5",
+      "subset": "Hammer-B",
+      "puzzle": "2x2",
+      "notation": "(U2) R U R2 F R F' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "(U') R U' R' F R' F' R U2 R U2 R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "R U2 R'",
+          "moveCount": 3
+        },
+        {
+          "notation": "y R' F2 R F' R U R2 F' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R U2 R' F R' F' R",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' (U2) R' F R F' R U R2 U R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-b-2",
+      "name": "LS-5 Hammer-B 2",
+      "set": "LS-5",
+      "subset": "Hammer-B",
+      "puzzle": "2x2",
+      "notation": "(U) F R' F' R U R U R2 F R F'",
+      "alternatives": [
+        {
+          "notation": "y2 (U) R U' R' F R' F' R2 B2 R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y R' U' R' F2 R U R",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U') F U2 R' F' R U' F2",
+          "moveCount": 8
+        },
+        {
+          "notation": "R2 U2 R' U R' U R' F R F' R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-b-3",
+      "name": "LS-5 Hammer-B 3",
+      "set": "LS-5",
+      "subset": "Hammer-B",
+      "puzzle": "2x2",
+      "notation": "(U) R' F2 R F' R U' R' F R' F2 R",
+      "alternatives": [
+        {
+          "notation": "(U2) R' F R F' R U' R' F R' F' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y R' U' F R F' R U' R U2 R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-hammer-b-4",
+      "name": "LS-5 Hammer-B 4",
+      "set": "LS-5",
+      "subset": "Hammer-B",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R' U' R2 U R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y R' F R F' R U R' U2 R' F R",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-a-1",
+      "name": "LS-5 Spaceship-A 1",
+      "set": "LS-5",
+      "subset": "Spaceship-A",
+      "puzzle": "2x2",
+      "notation": "(U) R' F' R F R U R2 F' R",
+      "alternatives": [
+        {
+          "notation": "R' F2 R U' R U2 R' F",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' F R F' R U2 R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U') F2 R U2 R U' R' F R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' (U') R' U' R U' R' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') F' R U2 R' F R U2 R' F",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-a-2",
+      "name": "LS-5 Spaceship-A 2",
+      "set": "LS-5",
+      "subset": "Spaceship-A",
+      "puzzle": "2x2",
+      "notation": "(U2) R' U2 R' U2 F R F' R U R'",
+      "alternatives": [
+        {
+          "notation": "F' R U2 R' U R' F2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "R U2 R' F R' F' R U R U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U') R' U R U' R' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') R U R' F2 R U R' F",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-a-3",
+      "name": "LS-5 Spaceship-A 3",
+      "set": "LS-5",
+      "subset": "Spaceship-A",
+      "puzzle": "2x2",
+      "notation": "(U') R U R2 F2 R F' R' F2 R",
+      "alternatives": [
+        {
+          "notation": "F R U2 R2 F2 R F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U2) R' U2 R U2 R U2 R' F R F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U') R2 U' R' U R2",
+          "moveCount": 7
+        },
+        {
+          "notation": "y R2 F R2 U R' U' R U' R' U' R",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-a-4",
+      "name": "LS-5 Spaceship-A 4",
+      "set": "LS-5",
+      "subset": "Spaceship-A",
+      "puzzle": "2x2",
+      "notation": "(U2) R' U' R U R' F R F' R' U' R2",
+      "alternatives": [
+        {
+          "notation": "(U) F R' F' R2 U2 R2 F R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R2 U R' U R U2 R' U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-a-5",
+      "name": "LS-5 Spaceship-A 5",
+      "set": "LS-5",
+      "subset": "Spaceship-A",
+      "puzzle": "2x2",
+      "notation": "(U') R U2 R U' R' U R' U' F R' F",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-b-1",
+      "name": "LS-5 Spaceship-B 1",
+      "set": "LS-5",
+      "subset": "Spaceship-B",
+      "puzzle": "2x2",
+      "notation": "R U R' U' F R' F' R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R' F' R U2 R U2 R' F",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U) R U R' U R' F R F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U) R U2 R' U' F2 R U R' F",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U) R' F R F' U' F R' F' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' R2 U' R U R2",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-b-2",
+      "name": "LS-5 Spaceship-B 2",
+      "set": "LS-5",
+      "subset": "Spaceship-B",
+      "puzzle": "2x2",
+      "notation": "(U') F' U F R U R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' (U) F R U R' U' R F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) F' R U' R' F2 U R U2 R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y (U) F' R U R' U' R U' R' F",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U2) R' U R U R' U' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-b-3",
+      "name": "LS-5 Spaceship-B 3",
+      "set": "LS-5",
+      "subset": "Spaceship-B",
+      "puzzle": "2x2",
+      "notation": "(U') R2 U R2 U' R2 U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y' (U2) F R U' R2 U' R2 U R' F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "R F R' F' R U R U' R' U R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-spaceship-b-4",
+      "name": "LS-5 Spaceship-B 4",
+      "set": "LS-5",
+      "subset": "Spaceship-B",
+      "puzzle": "2x2",
+      "notation": "y' (U') R U R2 U R U2 R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-stollery-1",
+      "name": "LS-5 Stollery 1",
+      "set": "LS-5",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R2 F R F' R U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "F R' F' R U2 R' F R F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U) R' F2 R F' R' F2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U) F2 R U R' F U' R U2 R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U2) R' U R' U' R U' F R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "F' U F U2 R U' R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-stollery-2",
+      "name": "LS-5 Stollery 2",
+      "set": "LS-5",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "y (U2) R2 F R U' R U2 R' F R",
+      "alternatives": [
+        {
+          "notation": "y' R U R' U' R' F R2 F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' (U') F R F' U2 R' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) R U2 R' U F' R U' R' F2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y F R' F2 R F2 R' F2 R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' R' U R U2 F R' F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-stollery-3",
+      "name": "LS-5 Stollery 3",
+      "set": "LS-5",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "y' R' U' R U2 R' F R' F' R2",
+      "alternatives": [
+        {
+          "notation": "(U2) R' F2 R F2 R' F2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' (U) R2 F R F' R U' F R2 F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U) R' U R' F R F' R U' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y F U2 R U R' U' F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-stollery-4",
+      "name": "LS-5 Stollery 4",
+      "set": "LS-5",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "y R' F' R U2 R' F' R2 U' R' F",
+      "alternatives": [
+        {
+          "notation": "(U') R' F2 R F R' F2 R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-stollery-5",
+      "name": "LS-5 Stollery 5",
+      "set": "LS-5",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "(U) R' U R F R' F' R2 U' R' U R'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-1",
+      "name": "LS-5 Pinwheel 1",
+      "set": "LS-5",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y (U2) R' F' R2 U' R' F R' F' R",
+      "alternatives": [
+        {
+          "notation": "(U) R U' R2 F2 R F' U R' F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U2) R' F' R2 U R' U R U2 R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U) R' F R' F' R2 U R' U' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' R' U R U' F R2 F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U) R2 U2 R' U2 R' U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-2",
+      "name": "LS-5 Pinwheel 2",
+      "set": "LS-5",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R U' R' F R2 F' R2",
+      "alternatives": [
+        {
+          "notation": "y' (U') R' F R' F' R U2 R U R' U' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U) F R' F' U2 R U2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "y (U) R' U R' F' R2 U R' F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U2) R' F R U2 R U' R' F",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R2 U2 R U2 R' U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-3",
+      "name": "LS-5 Pinwheel 3",
+      "set": "LS-5",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R U' R' F U2 R2 F R2",
+      "alternatives": [
+        {
+          "notation": "(U) F R F' R U R2 U2 R U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U) R U' R' U2 F U2 F",
+          "moveCount": 9
+        },
+        {
+          "notation": "F' U F U' R U2 R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U') R U' R' U' R U R' U R U2 R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-4",
+      "name": "LS-5 Pinwheel 4",
+      "set": "LS-5",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y' (U') F R2 F' R U2 R U2 R'",
+      "alternatives": [
+        {
+          "notation": "(U) R U2 R' U2 R U R' U' R U' R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-5",
+      "name": "LS-5 Pinwheel 5",
+      "set": "LS-5",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y' (U') R' F R' F' R U R' U' R U R2",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-a-1",
+      "name": "LS-5 Turtle-A 1",
+      "set": "LS-5",
+      "subset": "Turtle-A",
+      "puzzle": "2x2",
+      "notation": "y' F R F' R U2 R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' (U2) R' U' R2 U' R' F R' F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R F' R U R' U2 R' F2",
+          "moveCount": 9
+        },
+        {
+          "notation": "y (U') F' R U R' U R U' R' F",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U R2 U' R2 U' R2 U2 R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U') R U' R U2 R' U R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-a-2",
+      "name": "LS-5 Turtle-A 2",
+      "set": "LS-5",
+      "subset": "Turtle-A",
+      "puzzle": "2x2",
+      "notation": "(U) F' R U R' U' R U2 R2 F' R",
+      "alternatives": [
+        {
+          "notation": "y' R' U' R U' R' U' F R' F' R2",
+          "moveCount": 11
+        },
+        {
+          "notation": "F R' F' R U2 R' U2 R' U2 R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U2) R' F R F' R U2 R U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U2) R' U' F2 R U2 R U' R' F",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U') R2 U R' U2 R U' R2",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-a-3",
+      "name": "LS-5 Turtle-A 3",
+      "set": "LS-5",
+      "subset": "Turtle-A",
+      "puzzle": "2x2",
+      "notation": "y' (U') R U' R' U R' F R' F' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R U' R' F R' F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R' U' R2 F R F' R U' R' U2 R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y R' F R F' R U R' U R' F R",
+          "moveCount": 12
+        },
+        {
+          "notation": "R U2 R2 F2 R U R' F R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-a-4",
+      "name": "LS-5 Turtle-A 4",
+      "set": "LS-5",
+      "subset": "Turtle-A",
+      "puzzle": "2x2",
+      "notation": "(U) R U R' U' R' F R F' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' F R U' R2 U R2 U R' F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U2) R' U R' U' R U R' U2 R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-a-5",
+      "name": "LS-5 Turtle-A 5",
+      "set": "LS-5",
+      "subset": "Turtle-A",
+      "puzzle": "2x2",
+      "notation": "(U') R U R' U R U' R' U2 R U' R'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-b-1",
+      "name": "LS-5 Turtle-B 1",
+      "set": "LS-5",
+      "subset": "Turtle-B",
+      "puzzle": "2x2",
+      "notation": "(U2) R' F R2 U' R' F' R' F R",
+      "alternatives": [
+        {
+          "notation": "y R' U2 F R U2 R' F U' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "R' F' U' F U' R U2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' U2 R U' R' U R U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U2 R' U2 R' F R F' R U R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "F R' F' R U' R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-b-2",
+      "name": "LS-5 Turtle-B 2",
+      "set": "LS-5",
+      "subset": "Turtle-B",
+      "puzzle": "2x2",
+      "notation": "R U2 R' U2 R U2 R' U2 R' F R F'",
+      "alternatives": [
+        {
+          "notation": "R' F2 R F' U R' F2 R F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y (U2) R U2 R' U2 R U2 R' F R U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U) R U R' U R' U2 R' U2 R",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U) R U2 R2 F2 R F' U R' F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U' F R F' U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-b-3",
+      "name": "LS-5 Turtle-B 3",
+      "set": "LS-5",
+      "subset": "Turtle-B",
+      "puzzle": "2x2",
+      "notation": "F U2 R2 F R U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "y' (U) F R U' R2 F R F' R U2 F'",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U) R U2 R' U' R U R' F R' F' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U') R' U' R U2 R' U2 R U' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y2 R B2 R2 F R F' R U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-turtle-b-4",
+      "name": "LS-5 Turtle-B 4",
+      "set": "LS-5",
+      "subset": "Turtle-B",
+      "puzzle": "2x2",
+      "notation": "(U') F' U R' F' R U' R' F R F",
+      "alternatives": [
+        {
+          "notation": "y' (U2) R' U R U R' F R' F' R U R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-poser-1",
+      "name": "LS-5 Pinwheel-Poser 1",
+      "set": "LS-5",
+      "subset": "Pinwheel-Poser",
+      "puzzle": "2x2",
+      "notation": "y' R2 F R2 F' R U R'",
+      "alternatives": [
+        {
+          "notation": "y' (U2) R U2 R' U2 R' F R2 F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U) F R2 F' U R' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') R U R' U' R U R' U' R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "R' U2 R' U2 F R F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "y' R' U R U' R2 F R F' R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-poser-2",
+      "name": "LS-5 Pinwheel-Poser 2",
+      "set": "LS-5",
+      "subset": "Pinwheel-Poser",
+      "puzzle": "2x2",
+      "notation": "y' (U') R' U R U R2 F R F' R",
+      "alternatives": [
+        {
+          "notation": "y' (U) R2 U2 R U R' U' F R F' U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U) R U2 R' U F' U' F",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' R U2 R' U' R U' R' F R F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y F' U2 F' U2 R U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "y R' F R U' R2 F R U' R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-poser-3",
+      "name": "LS-5 Pinwheel-Poser 3",
+      "set": "LS-5",
+      "subset": "Pinwheel-Poser",
+      "puzzle": "2x2",
+      "notation": "y (U') R' F R F' R U R2 F R",
+      "alternatives": [
+        {
+          "notation": "y F' R U R' U2 R' F' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') R U' R U2 R' U2 R2",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' (U) R U2 R' U' R2 U R' U2 R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-5-pinwheel-poser-4",
+      "name": "LS-5 Pinwheel-Poser 4",
+      "set": "LS-5",
+      "subset": "Pinwheel-Poser",
+      "puzzle": "2x2",
+      "notation": "y' R' F R F' R U R' F R F'",
+      "alternatives": [
+        {
+          "notation": "(U) R U2 R2 F R F' U' R U R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "R' F' R U' R' F2 R2 U R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "eg-method",
+  "name": "EG Method (2x2)",
+  "description": "The most advanced and fastest method for 2x2 speedcubing. EG (named after Erik Akkersdijk and Gunnar Krig) builds upon CLL by relaxing the requirement for a fully solved first layer. Instead, the solver only needs to complete a face on the bottom (oriented, not necessarily permuted), then applies a single algorithm to solve the entire remaining cube. EG encompasses three subsets: EG-0 (layer solved, identical to CLL), EG-1 (face solved with adjacent swap on bottom), and EG-2 (face solved with diagonal swap on bottom). Together these total around 130 algorithms.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Solve First Face",
+      "description": "Solve one face of the 2x2 (all four stickers the same color on one side) and place it on the bottom. Unlike CLL, the four corners do NOT need to be correctly permuted. This is the same first step as Ortega. You then identify which EG subset applies: EG-0 if the bottom layer happens to be fully solved, EG-1 if there is an adjacent corner swap, or EG-2 if there is a diagonal corner swap.",
+      "moveCountRange": "2-5 moves",
+      "tips": [
+        "Plan the entire face during inspection, as with Ortega",
+        "Be color-neutral to find the easiest face",
+        "During inspection, also try to identify whether it will be EG-0, EG-1, or EG-2",
+        "Prioritize faces that result in easier EG cases"
+      ]
+    },
+    {
+      "name": "EG Algorithm (One-Look Solve)",
+      "description": "Apply a single algorithm to solve the entire cube from the face-solved state. The algorithm set depends on the bottom layer permutation state: EG-0 (same as CLL, 42 algorithms) when the bottom layer is solved, EG-1 (42 algorithms) when there is an adjacent swap in the bottom layer, and EG-2 (42 algorithms) when there is a diagonal swap. Recognition involves reading both the top face pattern and the side stickers to determine the exact case.",
+      "algorithmSets": ["CLL", "EG-1", "EG-2"],
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "Start by learning EG-0 (CLL) first, then add EG-1 and EG-2",
+        "EG-1 cases are generally considered more common and useful to learn first after CLL",
+        "Two-sided recognition is essential at this level",
+        "Practice identifying the bottom layer state quickly"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest possible 2x2 method — used by all top competitors",
+    "First face is easier to solve than CLL's first layer (permutation not required)",
+    "One-look solve from face state",
+    "Sub-1.5 averages achievable by top solvers",
+    "Very flexible first step"
+  ],
+  "cons": [
+    "Approximately 130 algorithms total (EG-0 + EG-1 + EG-2)",
+    "Recognition is complex due to identifying bottom layer state and top pattern simultaneously",
+    "Significant time investment to learn all subsets",
+    "Diminishing returns over CLL for casual solvers"
+  ],
+  "notableUsers": ["Zayn Khanani", "Tymon Kolasiński"],
+  "relatedSets": ["CLL", "EG-1", "EG-2"],
+  "avgMoveCount": "8-14",
+  "yearCreated": 2006,
+  "creator": "Erik Akkersdijk and Gunnar Krig"
+}

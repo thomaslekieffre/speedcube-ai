@@ -1,0 +1,35 @@
+{
+  "id": "reduction",
+  "name": "Reduction Method (Big Cubes)",
+  "description": "The foundational method for solving big cubes (4x4 and larger). Reduction works by first solving all centers, then pairing all edges, effectively reducing the puzzle to a 3x3 state that can be finished with any standard 3x3 method. This approach scales naturally to any cube size: 4x4, 5x5, 6x6, 7x7, and beyond. While specialized methods like Yau and Hoya reorder the steps for speed, pure reduction follows a straightforward centers-then-edges sequence that is easy to understand.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Centers",
+      "description": "Solve all 6 center blocks of the cube. On a 4x4, each center is a 2x2 block of pieces; on a 5x5, each is a 3x3 block, and so on. Centers are solved using commutators and wide moves, typically starting with opposite faces.",
+      "moveCountRange": "20-60+ moves (varies by cube size)",
+      "tips": ["Solve opposite centers first for maximum freedom", "Use wide moves and commutators", "On 5x5+ solve the center cross first, then fill in edges", "Larger cubes require more moves but the same concepts apply"]
+    },
+    {
+      "name": "Edge Pairing",
+      "description": "Pair all edge pieces (dedges on 4x4, tredges on 5x5, etc.) so that each edge group functions as a single 3x3-style edge. On a 4x4, there are 12 edges to pair; on a 5x5, each edge has 3 pieces to group together.",
+      "moveCountRange": "30-80+ moves (varies by cube size)",
+      "tips": ["Use slice-flip-slice technique for basic pairing", "3-2-3 pairing is more efficient on 4x4", "On 5x5+, freeslice method speeds up pairing", "Look ahead to the next edges while pairing current ones"]
+    },
+    {
+      "name": "3x3 Stage",
+      "description": "With all centers solved and edges paired, the cube now behaves like a standard 3x3. Solve it using any 3x3 method (CFOP, Roux, ZZ, etc.). On even-layered cubes (4x4, 6x6), OLL parity and PLL parity may occur and require special algorithms.",
+      "algorithmSets": ["OLL", "PLL", "OLL Parity", "PLL Parity"],
+      "moveCountRange": "45-60 moves",
+      "tips": ["Any 3x3 method works for this stage", "Learn OLL parity and PLL parity algorithms for even-layered cubes", "Parity does not occur on odd-layered cubes (5x5, 7x7)", "Plan your 3x3 cross during the final edge pairs"]
+    }
+  ],
+  "pros": ["Scales to any cube size (4x4, 5x5, 6x6, 7x7, and beyond)", "Simple concept that builds on existing 3x3 knowledge", "Easy to understand the overall solving strategy", "Good foundation before learning specialized big cube methods", "Same framework applies to all even and odd big cubes"],
+  "cons": ["OLL parity and PLL parity on even-layered cubes are disruptive", "Many edges to pair on larger cubes makes solves lengthy", "Slower than specialized methods like Yau for competition", "Center building becomes tedious on 6x6 and larger", "Does not optimize cross building like Yau or Hoya"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL", "OLL Parity", "PLL Parity"],
+  "avgMoveCount": "120-300+",
+  "yearCreated": 1982,
+  "creator": "Traditional approach",
+  "puzzle": "4x4+"
+}

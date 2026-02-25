@@ -1,0 +1,53 @@
+{
+  "id": "keyhole-pyra",
+  "name": "Keyhole (Pyraminx)",
+  "description": "A beginner-to-intermediate Pyraminx method that uses a keyhole technique. The solver leaves one position open (the 'keyhole') while inserting edges one at a time, then solves the final edges. This method is very intuitive and requires minimal algorithms, making it a popular choice for those transitioning from absolute beginner methods. The keyhole concept is easy to grasp and applies fundamental puzzle-solving logic.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist all four tips to match their adjacent center colors. This trivial step can be done at any time during the solve.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Do tips whenever convenient",
+        "Some solvers prefer tips first, others do them last"
+      ]
+    },
+    {
+      "name": "Solve First Two Edges Using Keyhole",
+      "description": "Choose a bottom edge position as the keyhole (open slot). Solve two of the three bottom edges by using the open keyhole position to cycle edges without disturbing already-solved pieces. Insert edges one at a time, always keeping one slot open as a working space.",
+      "moveCountRange": "3-6 moves",
+      "tips": [
+        "Pick the easiest edge to place first",
+        "Use the open slot strategically — it allows free movement",
+        "This step is entirely intuitive"
+      ]
+    },
+    {
+      "name": "Solve Remaining Edges",
+      "description": "Close the keyhole and solve the remaining edges. This involves placing the last bottom edge and simultaneously ensuring the top edges are correct. A few simple algorithms or intuitive moves handle the final cases.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Recognize whether remaining edges need cycling or flipping",
+        "Learn the small set of finishing algorithms",
+        "With practice, this step can be done quickly"
+      ]
+    }
+  ],
+  "pros": [
+    "Very intuitive — minimal algorithms needed",
+    "Keyhole concept is easy to understand",
+    "Good stepping stone to L4E and other advanced methods",
+    "Flexible and forgiving approach"
+  ],
+  "cons": [
+    "Higher move count than L4E or Oka",
+    "Not used competitively at high levels",
+    "Keyhole management adds extra moves",
+    "Limited speed ceiling"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "11-16"
+}

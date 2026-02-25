@@ -1,0 +1,964 @@
+{
+  "id": "f2l",
+  "name": "F2L",
+  "puzzle": "3x3",
+  "description": "First Two Layers - 42 intuitive and algorithmic cases for simultaneously solving the first two layers. The second step of the CFOP method.",
+  "category": "f2l",
+  "caseCount": 41,
+  "algorithms": [
+    {
+      "id": "f2l-1",
+      "name": "F2L 1",
+      "set": "F2L",
+      "subset": "Free Pairs",
+      "puzzle": "3x3",
+      "notation": "U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R U' R'",
+          "moveCount": 4,
+          "votes": 121
+        },
+        {
+          "notation": "R' F R F'",
+          "moveCount": 4,
+          "votes": 42
+        },
+        {
+          "notation": "y' r' U' R U M'",
+          "moveCount": 5,
+          "votes": 14
+        }
+      ],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 121,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-2",
+      "name": "F2L 2",
+      "set": "F2L",
+      "subset": "Free Pairs",
+      "puzzle": "3x3",
+      "notation": "F R' F' R",
+      "alternatives": [
+        {
+          "notation": "F R' F' R",
+          "moveCount": 4,
+          "votes": 58
+        },
+        {
+          "notation": "y' U' R' U R",
+          "moveCount": 3,
+          "votes": 26
+        },
+        {
+          "notation": "U' F' U F",
+          "moveCount": 3,
+          "votes": 14
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 58,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-3",
+      "name": "F2L 3",
+      "set": "F2L",
+      "subset": "Free Pairs",
+      "puzzle": "3x3",
+      "notation": "F' U' F",
+      "alternatives": [
+        {
+          "notation": "F' U' F",
+          "moveCount": 3,
+          "votes": 48
+        },
+        {
+          "notation": "y' R' U' R",
+          "moveCount": 3,
+          "votes": 27
+        },
+        {
+          "notation": "y L' U' L",
+          "moveCount": 3,
+          "votes": 10
+        }
+      ],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 48,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-4",
+      "name": "F2L 4",
+      "set": "F2L",
+      "subset": "Free Pairs",
+      "puzzle": "3x3",
+      "notation": "R U R'",
+      "alternatives": [
+        {
+          "notation": "R U R'",
+          "moveCount": 3,
+          "votes": 57
+        },
+        {
+          "notation": "y' f R f'",
+          "moveCount": 3,
+          "votes": 7
+        },
+        {
+          "notation": "y F U F'",
+          "moveCount": 3,
+          "votes": 4
+        }
+      ],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 57,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-5",
+      "name": "F2L 5",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U' R U R' U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U2 R U' R'",
+          "moveCount": 7,
+          "votes": 65
+        },
+        {
+          "notation": "F2 L' U' L U F2",
+          "moveCount": 6,
+          "votes": 13
+        },
+        {
+          "notation": "U' R U R' U' R U2 R'",
+          "moveCount": 7,
+          "votes": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 65,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-6",
+      "name": "F2L 6",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U' r U' R' U R U r'",
+      "alternatives": [
+        {
+          "notation": "U' r U' R' U R U r'",
+          "moveCount": 7,
+          "votes": 43
+        },
+        {
+          "notation": "y' U R' U' R U2 R' U R",
+          "moveCount": 7,
+          "votes": 23
+        },
+        {
+          "notation": "d R' U' R U2 R' U R",
+          "moveCount": 8,
+          "votes": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 43,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-7",
+      "name": "F2L 7",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "U' R U2 R' U' R U2 R'",
+          "moveCount": 7,
+          "votes": 34
+        },
+        {
+          "notation": "M' U' M U2 r U' r'",
+          "moveCount": 7,
+          "votes": 29
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 34,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-8",
+      "name": "F2L 8",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "d R' U2 R U R' U2 R",
+      "alternatives": [
+        {
+          "notation": "d R' U2 R U R' U2 R",
+          "moveCount": 8,
+          "votes": 33
+        },
+        {
+          "notation": "r' U2 R2 U R2 U r",
+          "moveCount": 7,
+          "votes": 29
+        },
+        {
+          "notation": "y' U R' U2 R U2 R' U R",
+          "moveCount": 7,
+          "votes": 12
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 33,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-9",
+      "name": "F2L 9",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U' R U' R' U F' U' F",
+      "alternatives": [
+        {
+          "notation": "U' R U' R' U F' U' F",
+          "moveCount": 7,
+          "votes": 36
+        },
+        {
+          "notation": "F R U R' U' F' R U' R'",
+          "moveCount": 9,
+          "votes": 14
+        },
+        {
+          "notation": "U' R U' R' d R' U' R",
+          "moveCount": 7,
+          "votes": 10
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 36,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-10",
+      "name": "F2L 10",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U' R U R' U R U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U R U R'",
+          "moveCount": 7,
+          "votes": 38
+        },
+        {
+          "notation": "U2 R U' R' U' R U R'",
+          "moveCount": 7,
+          "votes": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 38,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-11",
+      "name": "F2L 11",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U F' U' F",
+      "alternatives": [
+        {
+          "notation": "U' R U2 R' U F' U' F",
+          "moveCount": 7,
+          "votes": 39
+        },
+        {
+          "notation": "y' R U2 R2 U' R2 U' R'",
+          "moveCount": 7,
+          "votes": 35
+        },
+        {
+          "notation": "U' R U2 R' d R' U' R",
+          "moveCount": 7,
+          "votes": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 39,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-12",
+      "name": "F2L 12",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U' R' U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U R U' R' U2 R U' R'",
+          "moveCount": 11,
+          "votes": 31
+        },
+        {
+          "notation": "R' U2 R2 U R2 U R",
+          "moveCount": 7,
+          "votes": 23
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 31,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-13",
+      "name": "F2L 13",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "y' U R' U R U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "y' U R' U R U' R' U' R",
+          "moveCount": 7,
+          "votes": 41
+        },
+        {
+          "notation": "M' U' R U R' U2 R U' r'",
+          "moveCount": 9,
+          "votes": 15
+        },
+        {
+          "notation": "R U' R' U R' F R F' R U' R'",
+          "moveCount": 11,
+          "votes": 13
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 41,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-14",
+      "name": "F2L 14",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "U' R U' R' U R U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U' R' U R U R'",
+          "moveCount": 7,
+          "votes": 45
+        },
+        {
+          "notation": "R U2 R' U2 R U R' U2 R U' R'",
+          "moveCount": 11,
+          "votes": 4
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 45,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-15",
+      "name": "F2L 15",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "R' D' R U' R' D R U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R' D' R U' R' D R U R U' R'",
+          "moveCount": 11,
+          "votes": 35
+        },
+        {
+          "notation": "M U r U' r' U' M'",
+          "moveCount": 7,
+          "votes": 31
+        },
+        {
+          "notation": "R U R' U2 R U' R' U R U' R'",
+          "moveCount": 11,
+          "votes": 29
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 35,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-16",
+      "name": "F2L 16",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "R U' R' U2 F' U' F",
+      "alternatives": [
+        {
+          "notation": "R U' R' U2 F' U' F",
+          "moveCount": 7,
+          "votes": 35
+        },
+        {
+          "notation": "R U' R' U2 y' R' U' R",
+          "moveCount": 8,
+          "votes": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 35,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-17",
+      "name": "F2L 17",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "R U2 R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R U R'",
+          "moveCount": 7,
+          "votes": 36
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 36,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-18",
+      "name": "F2L 18",
+      "set": "F2L",
+      "subset": "Connected",
+      "puzzle": "3x3",
+      "notation": "y' R' U2 R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "y' R' U2 R U R' U' R",
+          "moveCount": 7,
+          "votes": 27
+        },
+        {
+          "notation": "y L' U2 L U L' U' L",
+          "moveCount": 7,
+          "votes": 13
+        },
+        {
+          "notation": "F' U2 F U F' U' F",
+          "moveCount": 7,
+          "votes": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 27,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-19",
+      "name": "F2L 19",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U R U2 R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R U2 R' U R U' R'",
+          "moveCount": 7,
+          "votes": 36
+        },
+        {
+          "notation": "U R U2 R2 F R F'",
+          "moveCount": 6,
+          "votes": 3
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 36,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-20",
+      "name": "F2L 20",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "y' U' R' U2 R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y' U' R' U2 R U' R' U R",
+          "moveCount": 7,
+          "votes": 30
+        },
+        {
+          "notation": "U' R U' R2 F R F' R U' R'",
+          "moveCount": 9,
+          "votes": 19
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 30,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-21",
+      "name": "F2L 21",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "U2 R U R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U2 R U R' U R U' R'",
+          "moveCount": 7,
+          "votes": 27
+        },
+        {
+          "notation": "R U' R' U2 R U R'",
+          "moveCount": 7,
+          "votes": 15
+        },
+        {
+          "notation": "R B U2 B' R'",
+          "moveCount": 5,
+          "votes": 5
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 27,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-22",
+      "name": "F2L 22",
+      "set": "F2L",
+      "subset": "Disconnected",
+      "puzzle": "3x3",
+      "notation": "r U' r' U2 r U r'",
+      "alternatives": [
+        {
+          "notation": "r U' r' U2 r U r'",
+          "moveCount": 7,
+          "votes": 27
+        },
+        {
+          "notation": "F' L' U2 L F",
+          "moveCount": 5,
+          "votes": 19
+        },
+        {
+          "notation": "y' U2 R' U' R U' R' U R",
+          "moveCount": 7,
+          "votes": 17
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 27,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "f2l-23",
+      "name": "F2L 23",
+      "set": "F2L",
+      "subset": "Edge in Slot",
+      "puzzle": "3x3",
+      "notation": "R U' R' U y' R' U R",
+      "alternatives": [
+        {
+          "notation": "R U' R' U y' R' U R",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-24",
+      "name": "F2L 24",
+      "set": "F2L",
+      "subset": "Edge in Slot",
+      "puzzle": "3x3",
+      "notation": "y' U R' U' R U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "y' U R' U' R U' R' U' R",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-25",
+      "name": "F2L 25",
+      "set": "F2L",
+      "subset": "Edge in Slot",
+      "puzzle": "3x3",
+      "notation": "U' R U R' d R' U' R",
+      "alternatives": [
+        {
+          "notation": "U' R U R' d R' U' R",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-26",
+      "name": "F2L 26",
+      "set": "F2L",
+      "subset": "Edge in Slot",
+      "puzzle": "3x3",
+      "notation": "d R' U' R d' R U R'",
+      "alternatives": [
+        {
+          "notation": "d R' U' R d' R U R'",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-27",
+      "name": "F2L 27",
+      "set": "F2L",
+      "subset": "Corner in Slot",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U R U' R'",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-28",
+      "name": "F2L 28",
+      "set": "F2L",
+      "subset": "Corner in Slot",
+      "puzzle": "3x3",
+      "notation": "y' R' U R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y' R' U R U' R' U R",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-29",
+      "name": "F2L 29",
+      "set": "F2L",
+      "subset": "Corner in Slot",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U' R U R' U' R U R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-30",
+      "name": "F2L 30",
+      "set": "F2L",
+      "subset": "Corner in Slot",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R' F R F' R U R' U' R U R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-31",
+      "name": "F2L 31",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U2 R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U R U2 R' U R U' R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-32",
+      "name": "F2L 32",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U' R U R' U' R U R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-33",
+      "name": "F2L 33",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U' R U R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R U' R' U' R U R' U R U' R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-34",
+      "name": "F2L 34",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "U' R U R' d R' U' R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "U' R U R' d R' U' R U' R' U R",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-35",
+      "name": "F2L 35",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "U' R U2 R' U2 R U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U2 R' U2 R U R'",
+          "moveCount": 7,
+          "votes": 0
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-36",
+      "name": "F2L 36",
+      "set": "F2L",
+      "subset": "Both in Slot",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U' R U' R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R U' R' U' R U' R' U R U' R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-37",
+      "name": "F2L 37",
+      "set": "F2L",
+      "subset": "Corner Twisted",
+      "puzzle": "3x3",
+      "notation": "R2 U R' U R U2 R' U R2",
+      "alternatives": [
+        {
+          "notation": "R2 U R' U R U2 R' U R2",
+          "moveCount": 9,
+          "votes": 0
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-38",
+      "name": "F2L 38",
+      "set": "F2L",
+      "subset": "Corner Twisted",
+      "puzzle": "3x3",
+      "notation": "R U R' U2 R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U2 R U R' U' R U R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-39",
+      "name": "F2L 39",
+      "set": "F2L",
+      "subset": "Corner Twisted",
+      "puzzle": "3x3",
+      "notation": "R U' R' U R U' R' U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U R U' R' U2 R U' R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-40",
+      "name": "F2L 40",
+      "set": "F2L",
+      "subset": "Corner Twisted",
+      "puzzle": "3x3",
+      "notation": "R U' R' d R' U2 R U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "R U' R' d R' U2 R U2 R' U R",
+          "moveCount": 10,
+          "votes": 0
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "f2l-41",
+      "name": "F2L 41",
+      "set": "F2L",
+      "subset": "Corner Twisted",
+      "puzzle": "3x3",
+      "notation": "R U' R' U' R U R' U2 R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U' R U R' U2 R U' R'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    }
+  ]
+}

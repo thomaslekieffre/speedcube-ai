@@ -1,0 +1,1021 @@
+{
+  "id": "ls-4",
+  "name": "LS-4",
+  "puzzle": "2x2",
+  "description": "Last Slot 4 - One-look last-slot algorithms for 2x2. Solves the last slot while orienting and permuting the remaining corners in one step.",
+  "category": "last-layer",
+  "caseCount": 40,
+  "algorithms": [
+    {
+      "id": "ls-4-sune-a-1",
+      "name": "LS-4 Sune-A 1",
+      "set": "LS-4",
+      "subset": "Sune-A",
+      "puzzle": "2x2",
+      "notation": "F R U2 R' U R U' R' F",
+      "alternatives": [
+        {
+          "notation": "(U') y' R U2 R U2 R' F R' F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "R U R' F R' F' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U) R' F2 R F' U R' F R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' R' U R U2 R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U2) y R' F' R2 F' U' R' U' R F",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-a-2",
+      "name": "LS-4 Sune-A 2",
+      "set": "LS-4",
+      "subset": "Sune-A",
+      "puzzle": "2x2",
+      "notation": "(U2) F R F' R U R2 U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y (U2) R' F' R2 U R U' R' F R' F'",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U') R U2 R' F R' F' R2 U' R' F R' F' R",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-a-3",
+      "name": "LS-4 Sune-A 3",
+      "set": "LS-4",
+      "subset": "Sune-A",
+      "puzzle": "2x2",
+      "notation": "(U') R U R2 F R F' U2 R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y2 (U2) x U' R' F2 R U' R' U' R U R' F'",
+          "moveCount": 14
+        },
+        {
+          "notation": "R' F R F' U R U2 R' U2 R U' R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-a-4",
+      "name": "LS-4 Sune-A 4",
+      "set": "LS-4",
+      "subset": "Sune-A",
+      "puzzle": "2x2",
+      "notation": "R2 F R F' U R U2 R' U R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R2 F2 R U2 R U' R' F",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-a-5",
+      "name": "LS-4 Sune-A 5",
+      "set": "LS-4",
+      "subset": "Sune-A",
+      "puzzle": "2x2",
+      "notation": "(U2) R' U R' U' F R' F' R U' R",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-b-1",
+      "name": "LS-4 Sune-B 1",
+      "set": "LS-4",
+      "subset": "Sune-B",
+      "puzzle": "2x2",
+      "notation": "y' R F R' F' R U2 R U' R2",
+      "alternatives": [
+        {
+          "notation": "y (U2) F' R U' R' U' R U' R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R F R' F' R U2 R U2 R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y R2 F' R U R' F R2 U R' U' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U2) R U' R2 U' R2 U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y R U' R' F U2 R' F' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-b-2",
+      "name": "LS-4 Sune-B 2",
+      "set": "LS-4",
+      "subset": "Sune-B",
+      "puzzle": "2x2",
+      "notation": "(U2) R' U2 R U2 R2 F R F' U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' (U') R' U' R U R2 F R F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R' F R F' U2 R' F R F' R U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "R' U R U2 R' U R' U R' U' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U' R' U R U R' U' R' F R F'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U') R U' R' U' R' F' R U R U' R' F",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-b-3",
+      "name": "LS-4 Sune-B 3",
+      "set": "LS-4",
+      "subset": "Sune-B",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R2 F R F' U R U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "(U2) R' F R' F' U' F R' F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' F2 R F' U R U2 R2 F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' F R F' R' U2 R' U2 F R F'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-b-4",
+      "name": "LS-4 Sune-B 4",
+      "set": "LS-4",
+      "subset": "Sune-B",
+      "puzzle": "2x2",
+      "notation": "F U2 R' F R U F'",
+      "alternatives": [
+        {
+          "notation": "y R' F R U R' F R U2 R U' R' F",
+          "moveCount": 13
+        },
+        {
+          "notation": "y R' U' F R F' R U' R U2 R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-b-5",
+      "name": "LS-4 Sune-B 5",
+      "set": "LS-4",
+      "subset": "Sune-B",
+      "puzzle": "2x2",
+      "notation": "F R' F R U R' F2 R F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-c-1",
+      "name": "LS-4 Sune-C 1",
+      "set": "LS-4",
+      "subset": "Sune-C",
+      "puzzle": "2x2",
+      "notation": "(U') F R' F' R U' R U R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U R U' R' U' R' F R F'",
+          "moveCount": 12
+        },
+        {
+          "notation": "R U' R U' R' F R' F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "F R' F' R U' R U2 R' F R' F' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "F R U2 R2 F R",
+          "moveCount": 6
+        },
+        {
+          "notation": "(U2) R U R2 F R F' R' F R F'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-c-2",
+      "name": "LS-4 Sune-C 2",
+      "set": "LS-4",
+      "subset": "Sune-C",
+      "puzzle": "2x2",
+      "notation": "(U') F R' F' R U2 R' U2 R U2 R",
+      "alternatives": [
+        {
+          "notation": "y F U2 R' F' R U R U' R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U2) R' U2 F R' F' R U R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U) R' F' R U' R' F2 U' R U R' U2 R",
+          "moveCount": 14
+        },
+        {
+          "notation": "F R' F' R2 U2 R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "(U2) R' U2 R U2 R' U R U' R' U R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-c-3",
+      "name": "LS-4 Sune-C 3",
+      "set": "LS-4",
+      "subset": "Sune-C",
+      "puzzle": "2x2",
+      "notation": "R U R' F R' F' R2 U R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "(U') R' U' R U R2 F R F' R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-sune-c-4",
+      "name": "LS-4 Sune-C 4",
+      "set": "LS-4",
+      "subset": "Sune-C",
+      "puzzle": "2x2",
+      "notation": "R U R' U R U' R' F R' F' R2 U R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' F' U F R U' R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-a-1",
+      "name": "LS-4 Pi-A 1",
+      "set": "LS-4",
+      "subset": "Pi-A",
+      "puzzle": "2x2",
+      "notation": "y (U) R' F' R U2 F' R U R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R' F R F' R U2 R' U' R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y (U2) F' R U' R' U2 R' F R F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U' R2 U' R U' R' U2 R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y (U2) F' R U R2 F R F' R U R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U2) R2 F R F' R U' R' U2 R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-a-2",
+      "name": "LS-4 Pi-A 2",
+      "set": "LS-4",
+      "subset": "Pi-A",
+      "puzzle": "2x2",
+      "notation": "(U) F' U' F U2 R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y (U2) F' R U R2 F' R U' R' F2 R",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U') F' R U2 R' U' R U' R' F R U' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U2) R U R' U2 R' F R F' R' F R F'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U2) R' F' R U R' F2 R F2",
+          "moveCount": 9
+        },
+        {
+          "notation": "y (U) R' F' R U R' F' R U2 R' F' R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-a-3",
+      "name": "LS-4 Pi-A 3",
+      "set": "LS-4",
+      "subset": "Pi-A",
+      "puzzle": "2x2",
+      "notation": "(U2) F R U' R' U R U' R2 F R",
+      "alternatives": [
+        {
+          "notation": "R' F R F' U R U' R' U2 R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U2) F R U' R2 F R F' R' F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U' R' U2 R' F R F' R U R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U') R U R' U' R U2 R U2 R2",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-a-4",
+      "name": "LS-4 Pi-A 4",
+      "set": "LS-4",
+      "subset": "Pi-A",
+      "puzzle": "2x2",
+      "notation": "(U') R U R' F R' F' R U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' (U') R' F R F' R2 U R' U R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') F' R U2 R' U2 R' F R2 U' R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-a-5",
+      "name": "LS-4 Pi-A 5",
+      "set": "LS-4",
+      "subset": "Pi-A",
+      "puzzle": "2x2",
+      "notation": "F R' F' R F R' F' R2 U2 R'",
+      "alternatives": [
+        {
+          "notation": "F' U R U2 R' U2 R' F R2 U' R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-b-1",
+      "name": "LS-4 Pi-B 1",
+      "set": "LS-4",
+      "subset": "Pi-B",
+      "puzzle": "2x2",
+      "notation": "(U) R U R' U2 R U2 R' F R' F' R",
+      "alternatives": [
+        {
+          "notation": "y (U2) F' R U R2 U' R U' R' U2 R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y (U2) F' R U R' U2 R' F R F' R U R'",
+          "moveCount": 14
+        },
+        {
+          "notation": "y' (U2) R' U2 R' F R F' R U' R' U2 R",
+          "moveCount": 13
+        },
+        {
+          "notation": "F R' F' R2 U' R' U R U2 R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U) R U2 R' U2 R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-b-2",
+      "name": "LS-4 Pi-B 2",
+      "set": "LS-4",
+      "subset": "Pi-B",
+      "puzzle": "2x2",
+      "notation": "R U2 R' U R U' R' F R' F' R",
+      "alternatives": [
+        {
+          "notation": "(U) F2 R F2 R' F2 U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' R' U2 R U2 R' U2 R U2 R' U' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U2) F R U R U' R' F' R2 U2 R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U') F R U' R' U R U' R' F'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-b-3",
+      "name": "LS-4 Pi-B 3",
+      "set": "LS-4",
+      "subset": "Pi-B",
+      "puzzle": "2x2",
+      "notation": "(U2) y2 x' R F' R U R2 F' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "(U') F' U' R' F' R U' R' F R F",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U) F R U R' U' R U2 R2 F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "F R' F' R2 U R' F R' F' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "R' U2 R' U R' U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-b-4",
+      "name": "LS-4 Pi-B 4",
+      "set": "LS-4",
+      "subset": "Pi-B",
+      "puzzle": "2x2",
+      "notation": "y F U' R U2 R' U' R U R' F'",
+      "alternatives": [
+        {
+          "notation": "(U2) R U2 R2 F R F' U2 R U' R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-pi-b-5",
+      "name": "LS-4 Pi-B 5",
+      "set": "LS-4",
+      "subset": "Pi-B",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R U2 R' U2 R U' R U R2",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-u-1",
+      "name": "LS-4 U 1",
+      "set": "LS-4",
+      "subset": "U",
+      "puzzle": "2x2",
+      "notation": "(U2) F R' F' R2 U' R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "(U') R U' R' U R' F R F' R U R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U2) R' U' R U' R' F R F' R U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U') R U R' U' R U' R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U2) R2 F R U R' U' R' F' R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' R U' R U R' U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-u-2",
+      "name": "LS-4 U 2",
+      "set": "LS-4",
+      "subset": "U",
+      "puzzle": "2x2",
+      "notation": "y' (U') R2 U R' U R' F R F' R'",
+      "alternatives": [
+        {
+          "notation": "(U') R U' F R' F' R U R U' R2",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U2) R' F' R U R' F R F' R U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U2) R' U2 R' U2 R",
+          "moveCount": 6
+        },
+        {
+          "notation": "y' R' F R F' R U' R U2 R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R' F' R F R U' R2 F R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-u-3",
+      "name": "LS-4 U 3",
+      "set": "LS-4",
+      "subset": "U",
+      "puzzle": "2x2",
+      "notation": "R2 F R F' R U2 R' F R' F'",
+      "alternatives": [
+        {
+          "notation": "y (U2) F U R U R' U' R U' R' U F'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-l-1",
+      "name": "LS-4 L 1",
+      "set": "LS-4",
+      "subset": "L",
+      "puzzle": "2x2",
+      "notation": "(U) R U' R' U R' F R F'",
+      "alternatives": [
+        {
+          "notation": "(U2) F R' F' R2 U' R2 F R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') R2 F R F' R' U' R2",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' (U2) R' U' R U R' F' R U R U' R' F",
+          "moveCount": 14
+        },
+        {
+          "notation": "y R2 F R U' R",
+          "moveCount": 6
+        },
+        {
+          "notation": "y2 R B2 U' R' F R' F' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-l-2",
+      "name": "LS-4 L 2",
+      "set": "LS-4",
+      "subset": "L",
+      "puzzle": "2x2",
+      "notation": "y' R2 F' R U' R' F2 R2",
+      "alternatives": [
+        {
+          "notation": "(U) R' F R' F' R U2 R' U' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U2) F' R U R U' R' F R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' (U2) R' F R' F' R U R U' R' U' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "F2 R U R' F",
+          "moveCount": 5
+        },
+        {
+          "notation": "R U2 R' U2 R U' R' F R' F' R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-l-3",
+      "name": "LS-4 L 3",
+      "set": "LS-4",
+      "subset": "L",
+      "puzzle": "2x2",
+      "notation": "R U' R' U R' F R F' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' (U2) R' F R' F' U' R' U R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' R2 F R F' R",
+          "moveCount": 6
+        },
+        {
+          "notation": "y' F R' F' R2 U' R' U R2",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-t-1",
+      "name": "LS-4 T 1",
+      "set": "LS-4",
+      "subset": "T",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R2 F R F' R U' F R F'",
+      "alternatives": [
+        {
+          "notation": "(U2) R2 F' R U R' U' R' F R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U) F R F' U R' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' R' U' R' F R F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U') R2 U' R' F R' F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "y' (U) R2 F R F' R U R' U' R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-t-2",
+      "name": "LS-4 T 2",
+      "set": "LS-4",
+      "subset": "T",
+      "puzzle": "2x2",
+      "notation": "(U') R U R' F R' F' R2 U2 R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R U' R' U R' F R F' R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U') R' U' R' U F R F'",
+          "moveCount": 8
+        },
+        {
+          "notation": "y' (U2) R' U' F' R U' R' F2 R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-t-3",
+      "name": "LS-4 T 3",
+      "set": "LS-4",
+      "subset": "T",
+      "puzzle": "2x2",
+      "notation": "R U2 R' F R F' R U R' U' R'",
+      "alternatives": [
+        {
+          "notation": "y' (U2) R' U' F R F' R U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-t-4",
+      "name": "LS-4 T 4",
+      "set": "LS-4",
+      "subset": "T",
+      "puzzle": "2x2",
+      "notation": "(U) R U R' U F' U' F",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-1",
+      "name": "LS-4 H 1",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "y (U2) R' F' R U' R' F R F' R U R'",
+      "alternatives": [
+        {
+          "notation": "y F U' R U' R' F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "y (U2) R' F' R U R' U' R U' R' U2 R",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U2) R U R' U' R U' R2 F R F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y (U) F' R U' R' F U2 R' F R F'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U') R U R' U R' U2 R' F R F'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-2",
+      "name": "LS-4 H 2",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "(U2) R2 U2 R U R' U R U2 R' U' R",
+      "alternatives": [
+        {
+          "notation": "R' U2 R' F R U R' U' R' F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "y (U) R' F R U R' F' R U R' F' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y (U2) F' R U' R2 F R F' R U2 R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' R' F2 R U R' U2 F R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-3",
+      "name": "LS-4 H 3",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "R U' F R' F' R'",
+      "alternatives": [
+        {
+          "notation": "R U R2 F R F' R U R' U' R U R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "y' (U) R2 F R F' R U R' U R U' R' U2 R",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-4",
+      "name": "LS-4 H 4",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "y (U2) R' F' R2 B2 R' U' R B' R'",
+      "alternatives": [
+        {
+          "notation": "(U) R U R' U' R U' R U' R' F R' F'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-5",
+      "name": "LS-4 H 5",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R' U' R2 U2 R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R U' R2 F R F' R U R2 F R F'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "ls-4-h-6",
+      "name": "LS-4 H 6",
+      "set": "LS-4",
+      "subset": "H",
+      "puzzle": "2x2",
+      "notation": "y' F R F' R U' R U' R' U2 R U' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    }
+  ]
+}

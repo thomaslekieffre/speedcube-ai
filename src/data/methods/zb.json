@@ -1,0 +1,42 @@
+{
+  "id": "zb",
+  "name": "ZB (Zborowski-Bruchem)",
+  "description": "An advanced extension of CFOP created by Zbigniew Zborowski and Ron van Bruchem. The ZB method modifies the last F2L pair insertion to simultaneously orient last layer edges (ZBF2L), then solves the entire last layer in one look using ZBLL. This eliminates the OLL step entirely and achieves a two-look solve after cross. While extremely algorithm-heavy (over 800 algorithms total), ZB represents the theoretical optimum for a cross-based method.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Cross",
+      "description": "Solve the four bottom-layer edge pieces to form a cross, identical to the CFOP cross step.",
+      "moveCountRange": "6-8 moves",
+      "tips": ["Plan the entire cross during inspection", "Solve on the bottom to look ahead to F2L", "Cross efficiency is critical for competitive times"]
+    },
+    {
+      "name": "First Three F2L Pairs",
+      "description": "Solve three of the four corner-edge pairs in the first two layers using standard F2L techniques.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "20-24 moves",
+      "tips": ["Use standard intuitive or algorithmic F2L", "Plan pair tracking during cross solve", "Leave the easiest slot for the ZBF2L step"]
+    },
+    {
+      "name": "ZBF2L (Last Pair + Edge Orientation)",
+      "description": "Insert the last F2L pair while simultaneously orienting all last layer edges. This step replaces the normal last pair insertion and eliminates the need for OLL. There are 306 ZBF2L algorithms covering every case.",
+      "algorithmSets": ["F2L", "VLS", "WV"],
+      "moveCountRange": "8-12 moves",
+      "tips": ["306 algorithms is a massive undertaking", "WV and VLS are subsets that cover common cases", "Recognition requires tracking both the pair and LL edge orientation"]
+    },
+    {
+      "name": "ZBLL (Last Layer)",
+      "description": "Solve the entire last layer in one algorithm. Since all edges are already oriented from ZBF2L, only ZBLL cases apply (493 algorithms). This completes the solve in a single look.",
+      "algorithmSets": ["ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+      "moveCountRange": "12-15 moves",
+      "tips": ["493 algorithms divided into 7 subsets", "Learn one subset at a time", "2-sided recognition is essential for speed", "COLL + EPLL is a simpler alternative"]
+    }
+  ],
+  "pros": ["Only two looks after cross (last pair + last layer)", "Very low move count (~45-50 moves)", "Maximum efficiency for cross-based solving", "Powerful last layer skip potential"],
+  "cons": ["Over 800 algorithms total (306 ZBF2L + 493 ZBLL)", "Enormous time investment to learn fully", "ZBF2L recognition is very difficult", "Very few solvers have mastered the complete set", "Diminishing returns compared to standard CFOP + ZBLL"],
+  "notableUsers": ["Tymon Kolasiński"],
+  "relatedSets": ["F2L", "VLS", "WV", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+  "avgMoveCount": "45-50",
+  "yearCreated": 2003,
+  "creator": "Zbigniew Zborowski & Ron van Bruchem"
+}

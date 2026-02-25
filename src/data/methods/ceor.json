@@ -1,0 +1,38 @@
+{
+  "id": "ceor",
+  "name": "CEOR",
+  "description": "CEOR is a modern method that begins by permuting corners and building a first block simultaneously (CPFB), followed by edge orientation with the dM slice, then blockbuilding to complete the first two layers, and finishing with a reduced last layer. By solving corner permutation early, CEOR reduces the last layer to a smaller algorithm set. It represents the growing trend of CP-first methods in modern speedcubing theory.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "CPFB (Corner Permutation + First Block)",
+      "description": "Simultaneously permute all corners into their correct orbits and build a 1x2x3 first block on the left side. Corner permutation is solved relative to the first block, ensuring that CP is resolved for the rest of the solve.",
+      "moveCountRange": "9-12 moves",
+      "tips": ["This is the hardest step to plan in inspection", "Learn to recognize corner permutation states", "Practice combining CP resolution with block building", "Color neutrality expands options significantly"]
+    },
+    {
+      "name": "EOdM (Edge Orientation + dM Slice)",
+      "description": "Orient all remaining edges while placing edges into the dM slice (the down and middle layer columns on the right side). This step prepares the cube for efficient right-block construction.",
+      "moveCountRange": "7-10 moves",
+      "tips": ["Track bad edges during CPFB", "dM placement reduces work in the next step", "Use R and U moves primarily"]
+    },
+    {
+      "name": "Right Block (Blockbuilding)",
+      "description": "Complete the right-side 1x2x3 block to finish the first two layers. Since edges are oriented and corner permutation is solved, this step is straightforward blockbuilding.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Oriented edges make pair insertion efficient", "No cube rotations needed", "Plan transitions from EO step"]
+    },
+    {
+      "name": "Reduced Last Layer",
+      "description": "Solve the last layer with a reduced algorithm set. Since corner permutation and edge orientation are already solved, the last layer only requires corner orientation and edge permutation, significantly fewer cases than full OLL+PLL.",
+      "algorithmSets": ["COLL", "PLL"],
+      "moveCountRange": "10-14 moves",
+      "tips": ["CP already solved means only 2GLL or COLL+EPLL needed", "Far fewer cases than standard OLL+PLL", "Recognition is simplified with pre-solved CP"]
+    }
+  ],
+  "pros": ["Reduced last layer due to early CP solving", "Low move count (~42-50 moves)", "Ergonomic RU-dominant moveset", "No cube rotations after first block", "Strong theoretical efficiency"],
+  "cons": ["CPFB planning is extremely difficult", "CP recognition takes significant practice", "Very limited resources and tutorials", "Small community of practitioners", "Steep learning curve for the CP-first concept"],
+  "notableUsers": [],
+  "relatedSets": ["COLL", "PLL"],
+  "avgMoveCount": "42-50"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "heise",
+  "name": "Heise",
+  "description": "A fully intuitive method created by Ryan Heise in 2003 that requires zero algorithms. The Heise method builds four 1x2x2 blocks, orients edges, then uses commutators to finish the solve. It achieves an impressively low move count through pure understanding of cube mechanics rather than memorized sequences. Regarded as one of the most elegant methods in cubing, it is primarily used for fewest-moves challenges and by those seeking a deep understanding of the puzzle.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Build Four 1x2x2 Blocks",
+      "description": "Create four separate 1x2x2 blocks (each consisting of one corner and one edge) and arrange them so that two blocks share an edge on each side. This forms the skeleton of the solve while leaving flexibility for efficient solutions.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Look for blocks that already exist in the scramble", "Plan as many blocks as possible during inspection", "Blocks do not need to be placed in final position yet"]
+    },
+    {
+      "name": "Orient Remaining Edges",
+      "description": "Orient all remaining edges that are not part of the four blocks. Edge orientation is defined relative to the F/B axis, and this step ensures all edges can be solved without F or B moves.",
+      "moveCountRange": "3-5 moves",
+      "tips": ["Edge orientation should be considered during block building", "Sometimes EO can be solved for free during block construction", "Fewer bad edges means fewer moves"]
+    },
+    {
+      "name": "Solve Edges and Two Corners",
+      "description": "Place all remaining edges and two of the remaining corners into their correct positions. This is done intuitively by matching edges to blocks and inserting corner-edge pairs. After this step, only three corners remain unsolved.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Think of this as completing F2L minus three corners", "Use blockbuilding techniques to pair and insert pieces", "Leave corners that form an easy 3-cycle for the last step"]
+    },
+    {
+      "name": "3-Corner Commutator",
+      "description": "Solve the final three corners using a commutator. A commutator is a sequence of moves in the form A B A' B' that cycles three pieces without disturbing the rest of the cube. This step requires understanding of how corner pieces move.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Learn basic commutator structures (A B A' B')", "Setup moves can simplify the commutator", "Practice finding short commutators for different corner positions"]
+    }
+  ],
+  "pros": ["Zero algorithms required — fully intuitive", "Very low move count (~35-45 moves)", "Develops deep understanding of cube mechanics", "Excellent for FMC (Fewest Moves Challenge)", "Elegant and satisfying to use"],
+  "cons": ["Extremely difficult to learn and master", "Very slow turning speed due to constant thinking", "No competitive speedsolving results", "Requires strong understanding of commutators", "Almost no structured tutorials available"],
+  "notableUsers": ["Ryan Heise"],
+  "relatedSets": [],
+  "avgMoveCount": "35-45",
+  "yearCreated": 2003,
+  "creator": "Ryan Heise"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "yau",
+  "name": "Yau Method (4x4)",
+  "description": "The dominant 4x4 speedsolving method, developed by Robert Yau. It builds on the reduction approach but reorders the steps to allow efficient cross building and better lookahead. By solving three cross edges first, then centers, then the final cross edge alongside edge pairing, solvers can transition seamlessly into a 3x3-stage CFOP finish. Yau is used by virtually all top 4x4 competitors worldwide.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "First 3 Cross Edges",
+      "description": "Pair and place 3 of the 4 cross dedges (double-edges) into their correct positions on the bottom face. Leaving one cross edge unsolved preserves a free slice for efficient center building.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Plan at least 2 cross edges in inspection", "Use wide moves to pair edges without disrupting others", "Color neutrality helps find easier solutions"]
+    },
+    {
+      "name": "3 F2L Centers",
+      "description": "Build the centers for 3 of the faces used in F2L (the non-cross face centers are solved later). The free slice left by the missing cross edge makes center commutators easier.",
+      "moveCountRange": "15-25 moves",
+      "tips": ["Solve opposite centers first for better efficiency", "Use the free slice to maneuver pieces", "Plan center solutions during edge pairing"]
+    },
+    {
+      "name": "Last Cross Edge + Last Centers",
+      "description": "Pair and insert the final cross edge while completing the remaining centers. This step closes the freedom of the cube and transitions into edge pairing.",
+      "moveCountRange": "8-14 moves",
+      "tips": ["Try to solve the last cross edge and final centers simultaneously", "Keep track of which centers are unsolved", "Avoid disrupting already-completed cross edges"]
+    },
+    {
+      "name": "3-2-3 Edge Pairing",
+      "description": "Pair all remaining dedges using the 3-2-3 technique: place 3 unpaired edges in a slice, pair them with a slice move, then repeat with 2, then 3 more edges. This is the most efficient edge pairing strategy for 4x4.",
+      "moveCountRange": "30-40 moves",
+      "tips": ["Learn the 3-2-3 cycle structure thoroughly", "Look ahead to the next set of edges while pairing", "Minimize slice moves and regrips", "Practice recognizing edge pieces quickly across all faces"]
+    },
+    {
+      "name": "F2L (First Two Layers)",
+      "description": "With the cube now reduced to a 3x3 state and the cross already solved, complete the first two layers by pairing and inserting corner-edge pairs into their slots, exactly as in CFOP.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "25-30 moves",
+      "tips": ["The cross is already done, so start F2L immediately", "Use standard CFOP F2L algorithms and intuition", "Watch for OLL and PLL parity setups"]
+    },
+    {
+      "name": "OLL (Orientation of Last Layer)",
+      "description": "Orient all last layer pieces so the top face is a solid color. On 4x4, there is a chance of encountering OLL parity, which requires an additional algorithm.",
+      "algorithmSets": ["OLL", "OLL Parity"],
+      "moveCountRange": "9-14 moves",
+      "tips": ["Learn to recognize OLL parity early", "OLL parity algorithm adds ~12 moves when it occurs", "Standard 3x3 OLL algorithms apply when no parity"]
+    },
+    {
+      "name": "PLL (Permutation of Last Layer)",
+      "description": "Permute all last layer pieces to their correct positions. PLL parity can also occur on 4x4, requiring an additional algorithm to correct.",
+      "algorithmSets": ["PLL", "PLL Parity"],
+      "moveCountRange": "11-15 moves",
+      "tips": ["PLL parity occurs about 50% of the time on 4x4", "Learn a fast PLL parity algorithm early", "Standard 3x3 PLL algorithms apply when no parity"]
+    }
+  ],
+  "pros": ["Efficient cross construction built into the method", "Excellent lookahead throughout the solve", "Standard method for competitive 4x4 solving", "Smooth transition from edge pairing into 3x3 stage", "Very well-documented with abundant resources"],
+  "cons": ["Center building with a free slot requires practice", "3-2-3 edge pairing has a significant learning curve", "OLL and PLL parity algorithms are long and disruptive", "Inspection planning is difficult on 4x4"],
+  "notableUsers": ["Yiheng Wang", "Max Park", "Sebastian Weyer"],
+  "relatedSets": ["OLL", "PLL", "F2L", "OLL Parity", "PLL Parity"],
+  "avgMoveCount": "120-130",
+  "yearCreated": 2009,
+  "creator": "Robert Yau",
+  "puzzle": "4x4"
+}

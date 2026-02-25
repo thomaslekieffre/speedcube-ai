@@ -1,0 +1,43 @@
+{
+  "id": "cfop-2lll",
+  "name": "CFOP 2-Look Last Layer",
+  "description": "CFOP with 2-Look Last Layer — the most popular intermediate approach. Uses full OLL (57 algorithms) and full PLL (21 algorithms) so each last layer step is solved in a single look and recognition. This is what most cubers mean by 'learning full CFOP'. Combined with efficient F2L, this is enough for sub-20 or even sub-15 averages.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Cross",
+      "description": "Solve 4 bottom-layer edges in under 8 moves, fully planned during the 15-second inspection. Advanced solvers plan the cross and predict the first F2L pair.",
+      "moveCountRange": "5-8 moves",
+      "tips": ["Always plan the full cross during inspection", "Consider color neutrality for easier crosses", "Spot your first F2L pair during inspection"]
+    },
+    {
+      "name": "F2L (First Two Layers)",
+      "description": "Solve the first two layers by pairing and inserting corner-edge pairs into 4 slots. Use a mix of intuitive understanding and learned algorithms for the 41 standard cases. Develop lookahead to track the next pair while inserting the current one.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "25-32 moves",
+      "tips": ["Know optimal solutions for all 41 cases", "Have 2-3 solutions per case for angle flexibility", "Reduce rotations with wide moves and back-slot insertions", "Lookahead is the single most impactful skill to develop"]
+    },
+    {
+      "name": "OLL (Orientation of Last Layer)",
+      "description": "Orient all last layer pieces in one algorithm. Full OLL contains 57 distinct cases, each with a unique top-face pattern. Recognition takes practice but becomes instant with drilling.",
+      "algorithmSets": ["OLL"],
+      "moveCountRange": "7-12 moves",
+      "tips": ["Learn in groups: dots, P-shapes, W-shapes, L-shapes, lines, crosses", "Focus on recognition speed — the alg should be automatic", "Some OLLs are rare; prioritize common cases first"]
+    },
+    {
+      "name": "PLL (Permutation of Last Layer)",
+      "description": "Permute all last layer pieces in one algorithm. 21 PLL cases, each named after a letter. Two-sided recognition (looking at front + one side) enables fast identification.",
+      "algorithmSets": ["PLL"],
+      "moveCountRange": "9-15 moves",
+      "tips": ["Learn two-sided recognition for instant PLL identification", "G-perms are the hardest — spend extra time on them", "Practice AUF prediction to save 0.3-0.5 seconds per solve"]
+    }
+  ],
+  "pros": ["1-look OLL and PLL — fast last layer", "78 total algorithms (57 OLL + 21 PLL)", "Most popular competitive approach", "Abundant resources and algorithm databases", "Enough for sub-15 with good F2L"],
+  "cons": ["78 algorithms is a significant memorization effort", "Learning takes several months", "Diminishing returns after full OLL/PLL — next improvements come from F2L", "Some OLL cases are rare and hard to justify learning"],
+  "notableUsers": ["Feliks Zemdegs", "Max Park", "Tymon Kolasiński"],
+  "relatedSets": ["OLL", "PLL", "F2L"],
+  "avgMoveCount": "55-60",
+  "yearCreated": 1981,
+  "creator": "Jessica Fridrich",
+  "puzzle": "3x3"
+}

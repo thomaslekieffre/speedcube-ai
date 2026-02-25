@@ -1,0 +1,258 @@
+{
+  "id": "eo4a",
+  "name": "EO4A",
+  "puzzle": "3x3",
+  "description": "Edge Orientation 4 Algorithms - simplified EO subset",
+  "category": "last-layer",
+  "caseCount": 9,
+  "algorithms": [
+    {
+      "id": "eo4a-all-6",
+      "name": "All 6",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "R U' r' U' M' U r U r'",
+      "alternatives": [
+        {
+          "notation": "M' U M U2 M U M' U M U' M'",
+          "moveCount": 11,
+          "votes": 4
+        },
+        {
+          "notation": "M' U' M' U2 M' U' M U' M' U' M'",
+          "moveCount": 11
+        },
+        {
+          "notation": "M' U M U2 M U M' U M U M'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "r U' r' U' M U r U R'",
+      "votes": 15,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-2-top-2-bot",
+      "name": "2 Top 2 Bot",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U2 M' U2 M U M'",
+      "alternatives": [
+        {
+          "notation": "M U2 M' U2 M' U' M'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "M U2 M' U2 M' U M'",
+          "moveCount": 7
+        },
+        {
+          "notation": "M' U2 M U2 M U M'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M' U2' M U2' M",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-bottom-2",
+      "name": "Bottom 2",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U' M' U M U' M'",
+      "alternatives": [
+        {
+          "notation": "M2 R U R' U' M' U R U' r'",
+          "moveCount": 10
+        },
+        {
+          "notation": "M' U' M' U M U M'",
+          "moveCount": 7
+        },
+        {
+          "notation": "M' U M' U' M U M'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M' U M U' M",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-top-2-front-2",
+      "name": "Top 2 Front 2",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U' M'",
+      "alternatives": [
+        {
+          "notation": "y2 M U M'",
+          "moveCount": 3,
+          "votes": 4
+        },
+        {
+          "notation": "M' U M'",
+          "moveCount": 3,
+          "votes": 3
+        },
+        {
+          "notation": "y2 M U' M'",
+          "moveCount": 3,
+          "votes": 1
+        }
+      ],
+      "moveCount": 3,
+      "setup": "M U M",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-4-top",
+      "name": "4 Top",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U2 M' U2 M' U' M'",
+      "alternatives": [
+        {
+          "notation": "M' U2 M U2 M' U M'",
+          "moveCount": 7
+        },
+        {
+          "notation": "M' U2 M' U2 M' U M'",
+          "moveCount": 7
+        },
+        {
+          "notation": "M' U2 M U2 M' U' M'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M U2' M U2' M",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-2-top-opp",
+      "name": "2 Top Opp",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U' M U M' U' M'",
+      "alternatives": [
+        {
+          "notation": "R U R' U' M' U R U' r'",
+          "moveCount": 9,
+          "votes": 3
+        },
+        {
+          "notation": "M' U' M U M' U M'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "R U r' U r' U' r2 U' r' U r' U R",
+          "moveCount": 13,
+          "votes": 1
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M U M' U' M",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-2-top-adj",
+      "name": "2 Top Adj",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U M' U2 M' U' M'",
+      "alternatives": [
+        {
+          "notation": "U M' U' M U2 M' U' M'",
+          "moveCount": 7,
+          "votes": 2
+        },
+        {
+          "notation": "M' U M' U2 M' U M'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "U M' U' M' U2 M' U' M'",
+          "moveCount": 7,
+          "votes": 1
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M U2' M U' M",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-1-top-1-bot",
+      "name": "1 Top 1 Bot",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M' U' M' U' M U' M'",
+      "alternatives": [
+        {
+          "notation": "U M2 U2 M' U' M U2 M' U' M'",
+          "moveCount": 9,
+          "votes": 1
+        },
+        {
+          "notation": "U' M' U M' U2 M U M'",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "M U M' U M U M'",
+          "moveCount": 7,
+          "votes": 1
+        }
+      ],
+      "moveCount": 7,
+      "setup": "M U M' U M U M",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "eo4a-2-top-adj-2-bot",
+      "name": "2 Top Adj 2 Bot",
+      "set": "EO4A",
+      "subset": "",
+      "puzzle": "3x3",
+      "notation": "M2 U' M' U' M'",
+      "alternatives": [
+        {
+          "notation": "U M2 U M' U M'",
+          "moveCount": 5
+        },
+        {
+          "notation": "M' U' M U M U' M'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U M' U' M' U' M' U' M' U'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 5,
+      "setup": "M U M U M2'",
+      "votes": 5,
+      "source": "speedcubedb"
+    }
+  ]
+}

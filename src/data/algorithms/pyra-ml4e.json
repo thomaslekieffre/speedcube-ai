@@ -1,0 +1,948 @@
+{
+  "id": "pyra-ml4e",
+  "name": "ML4E",
+  "puzzle": "Pyraminx",
+  "description": "Modified Last 4 Edges for Pyraminx. An optimized variant of L4E with Right Slot and Left Slot approaches.",
+  "category": "last-layer",
+  "caseCount": 56,
+  "algorithms": [
+    {
+      "id": "pyra-ml4e-sledge-1",
+      "name": "ML4E Sledge 1",
+      "set": "ML4E",
+      "subset": "Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U L' U' L R",
+      "alternatives": [
+        {
+          "notation": "L U' S L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-sledge-2",
+      "name": "ML4E Sledge 2",
+      "set": "ML4E",
+      "subset": "Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' S U' R",
+      "alternatives": [
+        {
+          "notation": "U' L R U' R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-hedge-1",
+      "name": "ML4E Hedge 1",
+      "set": "ML4E",
+      "subset": "Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U H R",
+      "alternatives": [
+        {
+          "notation": "U' L U' R U R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-hedge-2",
+      "name": "ML4E Hedge 2",
+      "set": "ML4E",
+      "subset": "Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' U L U' R",
+      "alternatives": [
+        {
+          "notation": "U' L H U L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-clockwise-cycle-1",
+      "name": "ML4E Clockwise Cycle 1",
+      "set": "ML4E",
+      "subset": "Clockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "U R' H R",
+      "alternatives": [
+        {
+          "notation": "U' L H L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-clockwise-cycle-2",
+      "name": "ML4E Clockwise Cycle 2",
+      "set": "ML4E",
+      "subset": "Clockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U' L U' R",
+      "alternatives": [
+        {
+          "notation": "L U' R U' R' U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-counterclockwise-cycle-1",
+      "name": "ML4E Counterclockwise Cycle 1",
+      "set": "ML4E",
+      "subset": "Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "U R' S R",
+      "alternatives": [
+        {
+          "notation": "U' L S L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-counterclockwise-cycle-2",
+      "name": "ML4E Counterclockwise Cycle 2",
+      "set": "ML4E",
+      "subset": "Counterclockwise Cycle",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U L U R",
+      "alternatives": [
+        {
+          "notation": "L U R U R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-righty-1",
+      "name": "ML4E Righty 1",
+      "set": "ML4E",
+      "subset": "Righty",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L'",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-lefty-1",
+      "name": "ML4E Lefty 1",
+      "set": "ML4E",
+      "subset": "Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-sexy-1",
+      "name": "ML4E Sexy 1",
+      "set": "ML4E",
+      "subset": "Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U' L U L'",
+      "alternatives": [],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-ugly-1",
+      "name": "ML4E Ugly 1",
+      "set": "ML4E",
+      "subset": "Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U' R",
+      "alternatives": [],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-dr-flip-1",
+      "name": "ML4E DR Flip 1",
+      "set": "ML4E",
+      "subset": "DR Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U' L2 R' L' R2",
+      "alternatives": [
+        {
+          "notation": "L U' H L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-dr-flip-2",
+      "name": "ML4E DR Flip 2",
+      "set": "ML4E",
+      "subset": "DR Flip",
+      "puzzle": "Pyraminx",
+      "notation": "L2 R' L' R2 U' R' U' L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-dl-flip-1",
+      "name": "ML4E DL Flip 1",
+      "set": "ML4E",
+      "subset": "DL Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' U S R",
+      "alternatives": [
+        {
+          "notation": "L U R U R2' L R L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-dl-flip-2",
+      "name": "ML4E DL Flip 2",
+      "set": "ML4E",
+      "subset": "DL Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R2' L R L2' U L U R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-db-flip-1",
+      "name": "ML4E DB Flip 1",
+      "set": "ML4E",
+      "subset": "DB Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' H U' R",
+      "alternatives": [
+        {
+          "notation": "L S U L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-4-flip-1",
+      "name": "ML4E 4 Flip 1",
+      "set": "ML4E",
+      "subset": "4 Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R U' R' L' U L R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L' U L R U' R' L'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-right-polish-flip-1",
+      "name": "ML4E Right Polish Flip 1",
+      "set": "ML4E",
+      "subset": "Right Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "U' L R U' R' L' U' L U L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-left-polish-flip-1",
+      "name": "ML4E Left Polish Flip 1",
+      "set": "ML4E",
+      "subset": "Left Polish Flip",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' U L R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L' U L U' L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-sus-1",
+      "name": "ML4E SUS 1",
+      "set": "ML4E",
+      "subset": "SUS",
+      "puzzle": "Pyraminx",
+      "notation": "R' S L' U' L R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' S L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-anti-sus-1",
+      "name": "ML4E Anti-SUS 1",
+      "set": "ML4E",
+      "subset": "Anti-SUS",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L H R",
+      "alternatives": [
+        {
+          "notation": "L H R U R' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-good-niky-1",
+      "name": "ML4E Good Niky 1",
+      "set": "ML4E",
+      "subset": "Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R",
+      "alternatives": [
+        {
+          "notation": "L R U R' L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-good-sochi-1",
+      "name": "ML4E Good Sochi 1",
+      "set": "ML4E",
+      "subset": "Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-sledge-1",
+      "name": "ML4E Super Sledge 1",
+      "set": "ML4E",
+      "subset": "Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L H U' R",
+      "alternatives": [
+        {
+          "notation": "L U S L'",
+          "moveCount": 4
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-sledge-2",
+      "name": "ML4E Super Sledge 2",
+      "set": "ML4E",
+      "subset": "Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' S R U L' U L R",
+      "alternatives": [
+        {
+          "notation": "U L H U' L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-sledge-3",
+      "name": "ML4E Super Sledge 3",
+      "set": "ML4E",
+      "subset": "Super Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L R U R' S U L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-hedge-1",
+      "name": "ML4E Super Hedge 1",
+      "set": "ML4E",
+      "subset": "Super Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' H R",
+      "alternatives": [
+        {
+          "notation": "U' L H L' U' R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-hedge-2",
+      "name": "ML4E Super Hedge 2",
+      "set": "ML4E",
+      "subset": "Super Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' S U R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' S U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-super-hedge-3",
+      "name": "ML4E Super Hedge 3",
+      "set": "ML4E",
+      "subset": "Super Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L H U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-niky-1",
+      "name": "ML4E Bad Niky 1",
+      "set": "ML4E",
+      "subset": "Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U' L U R",
+      "alternatives": [
+        {
+          "notation": "U L U R U' R' U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-sochi-1",
+      "name": "ML4E Bad Sochi 1",
+      "set": "ML4E",
+      "subset": "Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' L' U L U R",
+      "alternatives": [
+        {
+          "notation": "L U R U R' U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-right-spam-1",
+      "name": "ML4E Right Spam 1",
+      "set": "ML4E",
+      "subset": "Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L H U R",
+      "alternatives": [
+        {
+          "notation": "L U R U' R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-right-spam-2",
+      "name": "ML4E Right Spam 2",
+      "set": "ML4E",
+      "subset": "Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' U S L' U' L U' R",
+      "alternatives": [
+        {
+          "notation": "U L U' R U' R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-right-spam-3",
+      "name": "ML4E Right Spam 3",
+      "set": "ML4E",
+      "subset": "Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "L U R' L' R U R U' R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-left-spam-1",
+      "name": "ML4E Left Spam 1",
+      "set": "ML4E",
+      "subset": "Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U L U' R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' S U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-left-spam-2",
+      "name": "ML4E Left Spam 2",
+      "set": "ML4E",
+      "subset": "Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U L' U L R",
+      "alternatives": [
+        {
+          "notation": "L U' H R U R' U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-left-spam-3",
+      "name": "ML4E Left Spam 3",
+      "set": "ML4E",
+      "subset": "Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' L R L' U' L' U L",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-sledge-1",
+      "name": "ML4E Bad Sledge 1",
+      "set": "ML4E",
+      "subset": "Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' S L' U' L R",
+      "alternatives": [
+        {
+          "notation": "L R U R' U L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-sledge-2",
+      "name": "ML4E Bad Sledge 2",
+      "set": "ML4E",
+      "subset": "Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' S L' U' L U' R",
+      "alternatives": [
+        {
+          "notation": "U' L U' R U R' U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-hedge-1",
+      "name": "ML4E Bad Hedge 1",
+      "set": "ML4E",
+      "subset": "Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L U' R",
+      "alternatives": [
+        {
+          "notation": "L U H R U R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-hedge-2",
+      "name": "ML4E Bad Hedge 2",
+      "set": "ML4E",
+      "subset": "Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U L' U' L U R",
+      "alternatives": [
+        {
+          "notation": "U L H R U R' U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-sexy-1",
+      "name": "ML4E Bad Sexy 1",
+      "set": "ML4E",
+      "subset": "Bad Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L H R",
+      "alternatives": [
+        {
+          "notation": "U L H R U' R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-ugly-1",
+      "name": "ML4E Bad Ugly 1",
+      "set": "ML4E",
+      "subset": "Bad Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' S L' U L R",
+      "alternatives": [
+        {
+          "notation": "L R U R' S L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-righty-1",
+      "name": "ML4E Bad Righty 1",
+      "set": "ML4E",
+      "subset": "Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' H U' R",
+      "alternatives": [
+        {
+          "notation": "L U' H U' L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-righty-2",
+      "name": "ML4E Bad Righty 2",
+      "set": "ML4E",
+      "subset": "Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' L' U' L U' L' U L R",
+      "alternatives": [
+        {
+          "notation": "U L U' L' U L R U' R' L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-righty-3",
+      "name": "ML4E Bad Righty 3",
+      "set": "ML4E",
+      "subset": "Bad Righty",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L U L' U L R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-lefty-1",
+      "name": "ML4E Bad Lefty 1",
+      "set": "ML4E",
+      "subset": "Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "R' U S U R",
+      "alternatives": [
+        {
+          "notation": "L U S U L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-lefty-2",
+      "name": "ML4E Bad Lefty 2",
+      "set": "ML4E",
+      "subset": "Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R U' R' L' U L R",
+      "alternatives": [
+        {
+          "notation": "U L R U R' U R U' R' L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-bad-lefty-3",
+      "name": "ML4E Bad Lefty 3",
+      "set": "ML4E",
+      "subset": "Bad Lefty",
+      "puzzle": "Pyraminx",
+      "notation": "L R U R' U' R U' R' L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-sexy-1",
+      "name": "ML4E Double Sexy 1",
+      "set": "ML4E",
+      "subset": "Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' H R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "L U' L' U' L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-sexy-2",
+      "name": "ML4E Double Sexy 2",
+      "set": "ML4E",
+      "subset": "Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R U' R' S R",
+      "alternatives": [
+        {
+          "notation": "U L U L' U' L U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-sexy-3",
+      "name": "ML4E Double Sexy 3",
+      "set": "ML4E",
+      "subset": "Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U' L U' L' U L U L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-ugly-1",
+      "name": "ML4E Double Ugly 1",
+      "set": "ML4E",
+      "subset": "Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U R' U' R",
+      "alternatives": [
+        {
+          "notation": "U L S L' U' L U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-ugly-2",
+      "name": "ML4E Double Ugly 2",
+      "set": "ML4E",
+      "subset": "Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U R U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "U L U' L' U L H L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-ml4e-double-ugly-3",
+      "name": "ML4E Double Ugly 3",
+      "set": "ML4E",
+      "subset": "Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' R U R' U R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    }
+  ]
+}

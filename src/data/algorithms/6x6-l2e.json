@@ -1,0 +1,71 @@
+{
+  "id": "6x6-l2e",
+  "name": "6x6 L2E",
+  "puzzle": "6x6",
+  "description": "Last 2 Edges algorithms for 6x6",
+  "category": "last-layer",
+  "caseCount": 3,
+  "algorithms": [
+    {
+      "id": "6x6-l2e-wing-parity",
+      "name": "Wing Parity",
+      "set": "6x6 L2E",
+      "subset": "",
+      "puzzle": "6x6",
+      "notation": "2R' U2 2L F2 2L' F2 2R2 U2 2R U2 2R' U2 F2 2R2 F2",
+      "alternatives": [
+        {
+          "notation": "2R2 B2 U2 2L U2 2R' U2 2R U2 F2 2R F2 2L' B2 2R2",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "6x6-l2e-middle-parity",
+      "name": "Middle Parity",
+      "set": "6x6 L2E",
+      "subset": "",
+      "puzzle": "6x6",
+      "notation": "3R' U2 3L F2 3L' F2 3R2 U2 3R U2 3R' U2 F2 3R2 F2",
+      "alternatives": [
+        {
+          "notation": "3R2 B2 U2 3L U2 3R' U2 3R U2 F2 3R F2 3L' B2 3R2",
+          "moveCount": 15,
+          "votes": 2
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "6x6-l2e-swap-single-piece",
+      "name": "Swap single piece",
+      "set": "6x6 L2E",
+      "subset": "",
+      "puzzle": "6x6",
+      "notation": "3L' U2 3L' U2 F2 3L' F2 3R U2 3R' U2 3L2",
+      "alternatives": [
+        {
+          "notation": "3L' U2 3L' U2 3L' 3R U2 3L' U2 3L U2 3R' U2 3L2",
+          "moveCount": 14,
+          "votes": 1
+        },
+        {
+          "notation": "U2 3R U2 3R U2 F2 3R F2 3L' U2 3L U2 3R2 U2",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    }
+  ]
+}

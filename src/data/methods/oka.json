@@ -1,0 +1,54 @@
+{
+  "id": "oka",
+  "name": "Oka (Pyraminx)",
+  "description": "An advanced Pyraminx method developed by Yusuf Oka. The Oka method focuses on solving a top layer (or block) first, then using optimized algorithms to finish the remaining edges in one look. It is designed for high-level Pyraminx speedcubing and emphasizes efficient blockbuilding and low move counts. The method allows for excellent lookahead and planning during inspection.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist all four tips to match their adjacent centers. Trivial step done at any point.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Handle tips whenever convenient during the solve",
+        "Can be incorporated during other steps"
+      ]
+    },
+    {
+      "name": "Solve Top",
+      "description": "Solve the top layer by building a complete top with all three edges correctly placed and oriented around the top tip. This creates a fully solved top face and the three edges connecting to it.",
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Plan the entire top during inspection",
+        "Be color-neutral to find the easiest top to solve",
+        "Use efficient move sequences — avoid unnecessary turns"
+      ]
+    },
+    {
+      "name": "Solve Bottom Edges",
+      "description": "Solve the three remaining bottom-layer edges using algorithms. Since the top is fully solved, the bottom edges need to be cycled and/or flipped into position. This step has a small number of cases that can be solved in one look.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Recognize bottom edge cases quickly by checking orientations",
+        "Only a handful of cases exist for three bottom edges",
+        "Practice transitioning smoothly from top solve to bottom algorithms"
+      ]
+    }
+  ],
+  "pros": [
+    "Very low move count overall",
+    "Full top can be planned in inspection",
+    "Clean two-phase structure (top then bottom)",
+    "Highly competitive at the top level"
+  ],
+  "cons": [
+    "Requires excellent inspection planning",
+    "Color neutrality is almost essential",
+    "Limited resources compared to L4E",
+    "Top layer must be fully solved, which can be harder than building a V"
+  ],
+  "notableUsers": ["Yusuf Oka"],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "8-13",
+  "creator": "Yusuf Oka"
+}

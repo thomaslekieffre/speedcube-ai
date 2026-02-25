@@ -1,0 +1,43 @@
+{
+  "id": "freefop",
+  "name": "FreeFOP",
+  "description": "A flexible variant of CFOP that relaxes the rigid cross-first approach. FreeFOP allows solvers to build a pseudo cross (where cross edges may not be in their exact final positions) and use pseudo-slotting techniques during F2L, correcting alignment at the end. This freedom enables more efficient solutions by taking advantage of whatever favorable configurations appear in the scramble rather than forcing a fixed sequence.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Pseudo Cross",
+      "description": "Build a cross-like structure on the bottom face, but with relaxed placement rules. Cross edges may be offset by a U-layer adjustment, or the cross may be built on a non-standard face. The key idea is solving whichever cross is most efficient rather than a predetermined one.",
+      "moveCountRange": "4-7 moves",
+      "tips": ["Look for crosses that are already partially formed", "A pseudo cross offset by one U move is fine", "Color neutrality is almost essential for FreeFOP", "Shorter crosses leave more moves for efficient F2L"]
+    },
+    {
+      "name": "Flexible F2L",
+      "description": "Insert corner-edge pairs into their slots, but with the freedom to use pseudo-slotting: pairs may go into non-standard slots and be corrected later. Solvers can also build pairs across different slot positions and adjust at the end of F2L.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "24-30 moves",
+      "tips": ["Pseudo-slotting allows inserting pairs into any open slot", "Plan which slots to fill based on what pairs are easy to form", "Correct the pseudo offset when inserting the last pair", "Think of F2L as building blocks, not following a fixed order"]
+    },
+    {
+      "name": "OLL (Orientation of Last Layer)",
+      "description": "Orient all pieces on the last layer so the top face is one solid color. Standard OLL algorithms apply, identical to CFOP.",
+      "algorithmSets": ["OLL"],
+      "moveCountRange": "9-11 moves",
+      "tips": ["Same 57 OLL cases as CFOP", "2-look OLL works as a stepping stone", "Pseudo cross does not affect OLL"]
+    },
+    {
+      "name": "PLL (Permutation of Last Layer)",
+      "description": "Permute all last layer pieces to their correct positions. The AUF (Adjust Upper Face) at the end may be more complex if a pseudo offset was used throughout the solve.",
+      "algorithmSets": ["PLL"],
+      "moveCountRange": "11-13 moves",
+      "tips": ["AUF may need extra attention due to pseudo cross offset", "All 21 standard PLL algorithms apply", "Practice recognizing PLL from multiple angles"]
+    }
+  ],
+  "pros": ["More efficient than rigid CFOP due to flexible cross and F2L", "Fewer cube rotations by choosing convenient slots", "Encourages creative and adaptive solving", "Lower move count than standard CFOP (~48-55 moves)", "Builds deeper cube understanding"],
+  "cons": ["Harder to plan cross and F2L during inspection", "Less systematic than CFOP, making it harder to practice consistently", "AUF can be tricky with pseudo offsets", "Very few dedicated tutorials or resources", "Requires strong cube visualization skills"],
+  "notableUsers": ["Various top CFOP solvers incorporate FreeFOP elements"],
+  "relatedSets": ["OLL", "PLL", "F2L"],
+  "avgMoveCount": "48-55",
+  "yearCreated": 2010,
+  "creator": "Community variant",
+  "puzzle": "3x3"
+}

@@ -1,0 +1,2202 @@
+{
+  "id": "mega-pll",
+  "name": "Megaminx PLL",
+  "puzzle": "Megaminx",
+  "description": "Megaminx PLL - Full set of Permutation of the Last Layer algorithms for Megaminx.",
+  "category": "Last Layer",
+  "caseCount": 151,
+  "algorithms": [
+    {
+      "id": "mega-pll-1",
+      "name": "A1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL A",
+      "puzzle": "Megaminx",
+      "notation": "R' F' R U R U' R2' F R U R' F' R F U'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 36,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-2",
+      "name": "A1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL A",
+      "puzzle": "Megaminx",
+      "notation": "F' R' F R U' R' F' R2 U R' U' R' F R",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-3",
+      "name": "A2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL A",
+      "puzzle": "Megaminx",
+      "notation": "BR' R2' U L U' R U L' U' R BR",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-4",
+      "name": "A2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL A",
+      "puzzle": "Megaminx",
+      "notation": "BR' R' U L U' R' U L' U' R2 BR",
+      "alternatives": [
+        {
+          "notation": "R' U2' R U' R' F' R U R' U' R' F R U2' R",
+          "moveCount": 14,
+          "votes": 0
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-5",
+      "name": "B1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL B",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U R U2 R' U' R' U R2 U2' R'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-6",
+      "name": "B1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL B",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R' U2' R U R U' R2' U2 R",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-7",
+      "name": "B2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL B",
+      "puzzle": "Megaminx",
+      "notation": "R2' U' R2 U2' R' U2 R' U' R U R' U R2 U2' R' U' R",
+      "alternatives": [
+        {
+          "notation": "y2 R' U R U2 R2' U' R U' R' U R U2' R U2 R2' U R2",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-8",
+      "name": "B2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL B",
+      "puzzle": "Megaminx",
+      "notation": "R2 U R2' U2 R U2' R U R' U' R U' R2' U2 R U R'",
+      "alternatives": [
+        {
+          "notation": "y2'R U' R' U2' R2 U R' U R U' R' U2 R' U2' R2 U' R2'",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-9",
+      "name": "C1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U R' U2 R U' R' U' R2 U R' U R' U' R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "y' R' U' R U2 R U2 R' U R' U' R2 U2' R' U2 R' U2 R",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-10",
+      "name": "C1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U2' R' U R U R2' U' R U' R U R2' U R",
+      "alternatives": [
+        {
+          "notation": "y' R U R' U2' R' U2' R U' R U R2' U2 R U2' R U2' R'",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-11",
+      "name": "C2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R' U2' R2 U R2' U R2 U2 R' U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-12",
+      "name": "C2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U' R U2 R2' U' R2 U' R2' U2' R U R' U2 R",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-13",
+      "name": "C3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U R2' U2 R2 U R2' U2' R2 U2 R2'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-14",
+      "name": "C3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U' R2 U2' R2' U' R2 U2 R2' U2' R2",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-15",
+      "name": "C4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U2 R2 U R2' U2' R2 U' R2' U2' R2",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-16",
+      "name": "C4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2' R2 U' R2' U2' R2 U' R2' U2 R2 U R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-17",
+      "name": "C5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U2' R' U2' R' U2' R U' R U R2' U2 R U R",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-18",
+      "name": "C5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U2 R U2 R U2 R' U R' U' R2 U2' R' U' R'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-19",
+      "name": "C6-",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R' U R U2' R2' U' R U2' R' U R U R' U R U R",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-20",
+      "name": "C6+",
+      "set": "Megaminx PLL",
+      "subset": "PLL C",
+      "puzzle": "Megaminx",
+      "notation": "R U' R' U2 R2 U R' U2 R U' R' U' R U' R' U' R'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-21",
+      "name": "D-",
+      "set": "Megaminx PLL",
+      "subset": "PLL D",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U R' U' R U' R' U2 R U2' R' U2' R",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-22",
+      "name": "D+",
+      "set": "Megaminx PLL",
+      "subset": "PLL D",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U R' U R U2' R' U2 R U2 R'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-23",
+      "name": "E1",
+      "set": "Megaminx PLL",
+      "subset": "PLL E",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R' U' R F' R U R' U' R' F R2 U' R2' U R",
+      "alternatives": [
+        {
+          "notation": "y2 R' U' R' DR' R U' R' DR R U R' DR' R U R' DR R2",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-24",
+      "name": "E2",
+      "set": "Megaminx PLL",
+      "subset": "PLL E",
+      "puzzle": "Megaminx",
+      "notation": "x' R U' R' dR R U R' dR' R U R' dR R U' R' dR' x",
+      "alternatives": [
+        {
+          "notation": "y' R2 U R' U' y R U R' U' R U R' U' R U R' F U' F2'",
+          "moveCount": 18,
+          "votes": 2
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-25",
+      "name": "E3",
+      "set": "Megaminx PLL",
+      "subset": "PLL E",
+      "puzzle": "Megaminx",
+      "notation": "L' R U2 R' U' R U R' U' R U R' U' R U' R' L",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-26",
+      "name": "F1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-27",
+      "name": "F1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2 R2' U R2 U2 R2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-28",
+      "name": "F2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U2' R U2 R2' U R U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-29",
+      "name": "F2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R' U2' R2 U' R' U R' U2 R",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-30",
+      "name": "F3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U R' U' R2 U2' R' U2 R' U R",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-31",
+      "name": "F3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U' R U R2' U2 R U2' R U' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-32",
+      "name": "F4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U' R2' U2 R2 U2 R' U2' R' U2' R U2 R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-33",
+      "name": "F4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R2 U2' R2' U2' R U2 R U2 R' U2' R'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-34",
+      "name": "F5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R' U2 R U2 R U2' R2' U2' R2 U R' U R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-35",
+      "name": "F5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL F",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R U2' R' U2' R' U2 R2 U2 R2' U' R U' R'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-36",
+      "name": "G1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL G",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R2' U2 R U2' R U' R' U2' R U' R2' U2' R2 U2 R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-37",
+      "name": "G1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL G",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R2 U2' R' U2 R' U R U2 R' U R2 U2 R2' U2' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-38",
+      "name": "G2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL G",
+      "puzzle": "Megaminx",
+      "notation": "F U2' R' U' R F' R' U' R F U' R' U2' R U2 F'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-39",
+      "name": "G2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL G",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R' U' R U2' R2' U2 L U' R U L' R' U2' R",
+      "alternatives": [
+        {
+          "notation": "y2 R' U2 R L U' R' U L' U2' R2 U2 R' U R U2 R'",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-40",
+      "name": "H1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL H",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R' U' R2 U' R' U R' U R U R U R' U R' U' R2 U' R' U R' U R",
+      "alternatives": [
+        {
+          "notation": "R' dR R U' R' dR' R U' R' dR R U' R' dR' R U' R' dR R U' R' dR' R",
+          "moveCount": 23,
+          "votes": 0
+        },
+        {
+          "notation": "F' R U R' U' R' F R U' R U2' R' U R U R' U2' R U2' R'",
+          "moveCount": 20,
+          "votes": 0
+        }
+      ],
+      "moveCount": 27,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-41",
+      "name": "H1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL H",
+      "puzzle": "Megaminx",
+      "notation": "R' dR R U R' dR' R U R' dR R U R' dR' R U R' dR R U R' dR' R",
+      "alternatives": [
+        {
+          "notation": "F R U2 R' U' R U' R' F' R' F' U' F U' F' U2 F R",
+          "moveCount": 18,
+          "votes": 0
+        },
+        {
+          "notation": "R' U' R U' R U R2' U R U' R U' R' U' R' U' R U' R U R2' U R U' R U' R'",
+          "moveCount": 27,
+          "votes": 0
+        }
+      ],
+      "moveCount": 23,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-42",
+      "name": "H2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL H",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2' R2 U R2' U R2 y R2 U R2' U R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-43",
+      "name": "H2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL H",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2 R2' U' R2 U' R2' y' R2' U' R2 U' R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-44",
+      "name": "I1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 BR2' U R2' U' R2 U' BR2 U' R2'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-45",
+      "name": "I1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' F2 U' R2 U R2' U F2' U R2",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-46",
+      "name": "I2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2 U BR2' U R2' U R2 U' BR2 R2' U R2 U2 R2'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-47",
+      "name": "I2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2' U' F2 U' R2 U' R2' U F2' R2 U' R2' U2' R2",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-48",
+      "name": "I3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R2' U2' R U2 R U2 R' U2' R' U' R U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "y R2' U' R2 U' R2' U2 R2 U2' y R2 U R2' U2 R2 U2 R2'",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-49",
+      "name": "I3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R2 U2 R' U2' R' U2' R U2 R U R' U2' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' R2 U R2' U R2 U2' R2' U2 y' R2' U' R2 U2' R2' U2' R2",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-50",
+      "name": "I4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R U R' U R' U2' R U R' U R2 U' R' U2 R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-51",
+      "name": "I4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R' U2' F' R U R U' R' F R' U2 R U R",
+      "alternatives": [
+        {
+          "notation": "y' R U2' R' U' R U' R U2 R' U' R U' R2' U R U2' R'",
+          "moveCount": 17,
+          "votes": 0
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-52",
+      "name": "I5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U R2' U' R U' R' U2 R U' R U' R' U2' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-53",
+      "name": "I5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R' U2' R F' R U R' U' R' F U2 R U R",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R2 U R' U R U2' R' U R' U R U2 R'",
+          "moveCount": 17,
+          "votes": 0
+        }
+      ],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-54",
+      "name": "I6-",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2' F2 R2 U' R2' F2' R2 U2 R2' F2 R2 U' R2' F2' R2",
+      "alternatives": [
+        {
+          "notation": "y2' R2' F2 R2 U R2' F2' R2 U2' R2' F2 R2 U R2' F2' R2",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-55",
+      "name": "I6+",
+      "set": "Megaminx PLL",
+      "subset": "PLL I",
+      "puzzle": "Megaminx",
+      "notation": "R2 BR2' R2' U' R2 BR2 R2' U2 R2 BR2' R2' U' R2 BR2 R2'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-56",
+      "name": "J1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "F U' R' F R2 U' R' U' R U R' F' R U R' F'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-57",
+      "name": "J1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "R U R' F' R U R' U' R' F R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "y2' R U R2' F' R U R U' R' F R U' R'",
+          "moveCount": 13,
+          "votes": 0
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-58",
+      "name": "J2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U2' R U' R' U' R' U2' R U R' U R2 U R'",
+      "alternatives": [
+        {
+          "notation": "y2' R U2 R' U R2' U' R U' R U R' U R2 U2 R' U R' U' R' U R2",
+          "moveCount": 22,
+          "votes": 0
+        }
+      ],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-59",
+      "name": "J2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U2 R' U R U R U2 R' U' R U' R2' U' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-60",
+      "name": "J3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "F U F' R2' F U' F U' R2 U R2' U F2' R2",
+      "alternatives": [
+        {
+          "notation": "y2' R U' R2' U' R U' R' U2 R U R U R' U2 R U2' R'",
+          "moveCount": 18,
+          "votes": 0
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-61",
+      "name": "J3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL J",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R' U2' R U R U R2' U R2 U2 R2' U2' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-62",
+      "name": "K1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL K",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U R2' U' R2 U R2' U' R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-63",
+      "name": "K1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL K",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U' R2 U R2' U' R2 U R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-64",
+      "name": "K2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL K",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U2' R' U R' U' R' F R2 U' R' U' R U R' F'",
+      "alternatives": [],
+      "moveCount": 20,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-65",
+      "name": "K2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL K",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R U' R' U2 R U2' R' U' R U2' R' U R U2' R' U R",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-66",
+      "name": "L1",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R U R' U R U' R' U2 R U' R U R' U R U2' R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-67",
+      "name": "L2",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U R U' R' U' R U' R2' U' R U' R' U' R U R' U2 R",
+      "alternatives": [],
+      "moveCount": 21,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-68",
+      "name": "L3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R' U2 R U R U R2' U R U' R U R' U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 21,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-69",
+      "name": "L3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "F U2' F' U2' R F R' U' R F' U2' R' U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-70",
+      "name": "L4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R' U R U2 R U2 R' U R' U' R U' R U' R' U' R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-71",
+      "name": "L4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U R U R' U R' U R U' R U2' R' U2' R' U' R U2 R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-72",
+      "name": "L5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U' R2' U2 R U R' U' R U2 R' U R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-73",
+      "name": "L5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U R' U R2 U2' R' U' R U R' U2' R U' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-74",
+      "name": "L6-",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U2' R' U R U' R' U2' R2 U R' U R U2' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-75",
+      "name": "L6+",
+      "set": "Megaminx PLL",
+      "subset": "PLL L",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R U' R' U R U2 R2' U' R U' R' U2 R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-76",
+      "name": "M",
+      "set": "Megaminx PLL",
+      "subset": "PLL M",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2' R' U2' R U R' U R2 U' R' U2 R U' R' U R U' R'",
+      "alternatives": [
+        {
+          "notation": "y2' R U R' U' R U R' U2' R U R2' U' R U' R' U2 R U2 R U' R'",
+          "moveCount": 21,
+          "votes": 0
+        }
+      ],
+      "moveCount": 21,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-77",
+      "name": "N1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL N",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R' U2' R U' R' U2' R U2 R",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-78",
+      "name": "N1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL N",
+      "puzzle": "Megaminx",
+      "notation": "y2' R U2 R U2' R' U' R U2' R' U2 R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' F' R U R' U' R' F R2 U2' R'",
+          "moveCount": 13,
+          "votes": 0
+        },
+        {
+          "notation": "y R U2 R2' F' R U R U' R' F R U2' R'",
+          "moveCount": 13,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-79",
+      "name": "N2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL N",
+      "puzzle": "Megaminx",
+      "notation": "R' L' U2' R U' L R' U L' U2' R U2' L",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-80",
+      "name": "N2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL N",
+      "puzzle": "Megaminx",
+      "notation": "R L U2 L' U R' L U' R U2 L' U2 R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-81",
+      "name": "P1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R' F R U R U' R' y' R2' U' R U' R' U2 R BR",
+      "alternatives": [
+        {
+          "notation": "y2' BL' BR' R BR BL BR' R2' U' R U' R' U2 R BR",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-82",
+      "name": "P1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R' F R2 U R' U R U2' R' U R' F' R F U' F'",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-83",
+      "name": "P2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "BR' R' U2' R U R' U R2 BR BL' BR' R' BR BL",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-84",
+      "name": "P2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "F U F' R' F R U' R U2 R' U' R U' R2' F' R",
+      "alternatives": [],
+      "moveCount": 16,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-85",
+      "name": "P3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R2 U' R2' U2 R U R U2' R U R2' U R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-86",
+      "name": "P3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R U R2' U R2 U2' R' U' R' U2 R' U' R2 U' R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-87",
+      "name": "P4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2 R2' U' R2 U' R' U2 R' U' R' U2' R2 U R2' U R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-88",
+      "name": "P4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL P",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2' R2 U R2' U R U2' R U R U2 R2' U' R2 U' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-89",
+      "name": "Q1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL Q",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U2' R2' U R2 U2' R2' U' R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-90",
+      "name": "Q1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL Q",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U2 R2 U' R2' U2 R2 U R2' U2 R2",
+      "alternatives": [
+        {
+          "notation": "F' R' F U F' R F U R' U2 R U' R' U' R U2 R' U R",
+          "moveCount": 19,
+          "votes": 0
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-91",
+      "name": "Q2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL Q",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U R U2 R2' U2 R U R' U2 R",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-92",
+      "name": "Q2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL Q",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U' R' U2' R2 U2' R' U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-93",
+      "name": "R1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R' U R2 U2' R2' U' R U R U2 R' U R'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-94",
+      "name": "R1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R U' R2' U2 R2 U R' U' R' U2' R U' R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-95",
+      "name": "R2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R U' R U2' R' U' R' U R2 U2 R2' U' R U2 R'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-96",
+      "name": "R2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R' U R' U2 R U R U' R2' U2' R2 U R' U2' R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-97",
+      "name": "R3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R2 U' R' U' R' U R U R' U R2 U R' U R U' R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-98",
+      "name": "R3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R U R2' U R U R U' R' U' R U' R2' U' R U' R' U R",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-99",
+      "name": "R4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R U' R2' U' R U' R' U' R U R U R2' U R",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-100",
+      "name": "R4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL R",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U R' U R2 U R' U R U R' U' R' U' R2 U' R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-101",
+      "name": "S1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U2' R' U2' R U R U R' U R U2' R'",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-102",
+      "name": "S1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R U2 R' U' R' U' R U' R' U2 R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-103",
+      "name": "S2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U2 R2' U R U2' R U R U2 R2' U' R2 U' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-104",
+      "name": "S2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U2' R2 U' R' U2 R' U' R' U2' R2 U R2' U R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-105",
+      "name": "S3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R U R2' U R2 U2' R' U' R' U2 R' U' R2 U2' R2' U2' R2",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-106",
+      "name": "S3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R2 U' R2' U2 R U R U2' R U R2' U2 R2 U2 R2'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-107",
+      "name": "S4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U2 R2 U' R2' U2' R2 U' R2' U2' R2",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-108",
+      "name": "S4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2' R2 U' R2' U2' R2 U R2' U2 R2 U R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-109",
+      "name": "S5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R' U2' R2 U' R' U R' U2 R U2 R U2 R' U2 R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-110",
+      "name": "S5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R U R U2 R2' U R U' R U2' R' U2' R' U2' R U2' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-111",
+      "name": "S6-",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R' U' R U' R' U' R U2 R' U R2 U2 R' U' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-112",
+      "name": "S6+",
+      "set": "Megaminx PLL",
+      "subset": "PLL S",
+      "puzzle": "Megaminx",
+      "notation": "R U R U R' U R U R' U2' R U' R2' U2' R U R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-113",
+      "name": "T1",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-114",
+      "name": "T2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R2' F R U R U' R' F' R U2' R' U2 R",
+      "alternatives": [
+        {
+          "notation": "y R U2 R' U2' R BR' R' U' R U R BR R2'",
+          "moveCount": 13,
+          "votes": 0
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-115",
+      "name": "T2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R U2 R' F R U R' U' R' F' R2",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-116",
+      "name": "T3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U R2' U' R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-117",
+      "name": "T3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U R2' U' R2 U R2' U2 R2",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-118",
+      "name": "T4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U2' R2' U2' R2 U' R2' U2' R2 U R' U R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-119",
+      "name": "T4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL T",
+      "puzzle": "Megaminx",
+      "notation": "R U R' F' R U R' U' R' F R U' R' F R2 U' R' U' R U R' F'",
+      "alternatives": [
+        {
+          "notation": "y R U R' U2 R2 U2 R2' U R2 U2 R2' U' R U' R'",
+          "moveCount": 15,
+          "votes": 0
+        },
+        {
+          "notation": "R U R' U R2 U2' R2' U' R2 U2' R2' U2' R U' R'",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 22,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-120",
+      "name": "U1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL U",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R' U' R2 U' R' U R' U R",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-121",
+      "name": "U1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL U",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U' R U R2' U R U' R U' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-122",
+      "name": "U2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL U",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U R' U' R2 U' R' U R' U R U2' R U' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-123",
+      "name": "U2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL U",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R' U' R U' R U R2' U R U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-124",
+      "name": "V1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R2' F R F' R U' R' F' U F R U' R'",
+      "alternatives": [
+        {
+          "notation": "y2 R U2' R' U2 R' U2 R U2 R' U R U' R U2' R'",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-125",
+      "name": "V1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R' dR' R U' R' dR R U R U' R' U' R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-126",
+      "name": "V2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R U' R' F U R U' R' F' R U R' F' U' F R U R'",
+      "alternatives": [
+        {
+          "notation": "y' R U R' F' U' F R U R' F R' F' R2 U2' R'",
+          "moveCount": 15,
+          "votes": 0
+        }
+      ],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-127",
+      "name": "V2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R' U R U R' U' R' dR' R U R' dR R U2' R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-128",
+      "name": "V3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R2' U R U R' U' R U R U' R2 U' R' U R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-129",
+      "name": "V3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R U R2 U' R' U' R U R' U' R' U R2' U R U' R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-130",
+      "name": "V4-",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R U' R U R2' U R' U' R' U R U' R' U' R2 U R",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-131",
+      "name": "V4+",
+      "set": "Megaminx PLL",
+      "subset": "PLL V",
+      "puzzle": "Megaminx",
+      "notation": "R' U R' U' R2 U' R U R U' R' U R U R2' U' R'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-132",
+      "name": "W",
+      "set": "Megaminx PLL",
+      "subset": "PLL W",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R' U2 R U2 R U' R2' U2 R2 U2 R' U R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-133",
+      "name": "X1",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "F U2 R U2' R' U R U R' U2' F' R' U' R U2' R' U2' R",
+      "alternatives": [],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-134",
+      "name": "X2",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "F R U R' F U R' U' F' U R2 U2' R' F'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-135",
+      "name": "X3",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U' R' U2 R2 U R' U2 R' U2' R2 U' R' U2 R' U R",
+      "alternatives": [
+        {
+          "notation": "y2' R2 U R2' U R U2' R' U R' U2' R U R' U R2 U R U' R2'",
+          "moveCount": 19,
+          "votes": 0
+        },
+        {
+          "notation": "y' R U R2' U2 R2 U2 R2' y' R' U' R U2 R' U' R U BR",
+          "moveCount": 17,
+          "votes": 0
+        }
+      ],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-136",
+      "name": "X4",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R2 U' R' U R U' R2' U' R2 U R' U' R U R2' U2 R",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-137",
+      "name": "X5-",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R2' U' R U2' R' U R U R' U R2 U' R' U2' R U2' R' U' R",
+      "alternatives": [
+        {
+          "notation": "y2' R U' R' U2' R U2' R' U' R2 U R' U R U R' U2' R U' R2'",
+          "moveCount": 19,
+          "votes": 0
+        }
+      ],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-138",
+      "name": "X5+",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R' U R U2 R' U2 R U R2' U' R U' R' U' R U2 R' U R2",
+      "alternatives": [
+        {
+          "notation": "y2 R2 U R' U2 R U' R' U' R U' R2' U R U2 R' U2 R U R'",
+          "moveCount": 19,
+          "votes": 0
+        }
+      ],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-139",
+      "name": "X6-",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R U2' R U R2' U R U R' U' R U' R U' R2' U R U2 R'",
+      "alternatives": [],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-140",
+      "name": "X6+",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R' U2 R' U' R2 U' R' U' R U R' U R' U R2 U' R' U2' R",
+      "alternatives": [
+        {
+          "notation": "y2' F R U R' U' R U' R2' U' F' U' F U2 R U' R U R' F'",
+          "moveCount": 20,
+          "votes": 0
+        }
+      ],
+      "moveCount": 19,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-141",
+      "name": "X7-",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R U R2' F' R U2' R U' R' U2' R' F R U R U R' U2' R U' R'",
+      "alternatives": [],
+      "moveCount": 21,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-142",
+      "name": "X7+",
+      "set": "Megaminx PLL",
+      "subset": "PLL X",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' F' U' F U R U R' U R U2' F R' F' R U R U' R2'",
+      "alternatives": [],
+      "moveCount": 22,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-143",
+      "name": "Y1-",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "F R' F' R U R U' R' F R U' R' U R U R' F'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-144",
+      "name": "Y1+",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+      "alternatives": [],
+      "moveCount": 17,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-145",
+      "name": "Y2-",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "R2' U2 R2 U2' R2' U R2 U2' R2' U2 R2",
+      "alternatives": [
+        {
+          "notation": "y2 R2 U2' R2' U2 R2 U2 R2' U2 R2 U2' R2'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-146",
+      "name": "Y2+",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U2 R2 U' R2' U2 R2 U2' R2'",
+      "alternatives": [
+        {
+          "notation": "y2' R2' U2 R2 U2' R2' U2' R2 U2' R2' U2 R2",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-147",
+      "name": "Y3-",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "R2' U' R2 U' R2' U2 R2 U2' R2' U' R2 U' R2' U2 R2",
+      "alternatives": [
+        {
+          "notation": "y2' R2' F2' R U2' R U2 R' F R U R' U' R' F R2",
+          "moveCount": 16,
+          "votes": 0
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-148",
+      "name": "Y3+",
+      "set": "Megaminx PLL",
+      "subset": "PLL Y",
+      "puzzle": "Megaminx",
+      "notation": "y R2 U R2' U R2 U2' R2' U2 R2 U R2' U R2 U2' R2'",
+      "alternatives": [
+        {
+          "notation": "R2 U BR2' U R2' U R2 U' BR2 U2' R2'",
+          "moveCount": 11,
+          "votes": 0
+        }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-149",
+      "name": "Z1",
+      "set": "Megaminx PLL",
+      "subset": "PLL Z",
+      "puzzle": "Megaminx",
+      "notation": "R' U' F R U' R' U' R U2 R' F' R F U' F' R' U2 R",
+      "alternatives": [],
+      "moveCount": 18,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-150",
+      "name": "Z2",
+      "set": "Megaminx PLL",
+      "subset": "PLL Z",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R' U' R F R' F' U R F' U' F U2' R",
+      "alternatives": [],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-pll-151",
+      "name": "Z3",
+      "set": "Megaminx PLL",
+      "subset": "PLL Z",
+      "puzzle": "Megaminx",
+      "notation": "R' L' U2 L U R BR F U2' BR' U' F'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    }
+  ]
+}

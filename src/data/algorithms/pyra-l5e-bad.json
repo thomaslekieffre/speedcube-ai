@@ -1,0 +1,1454 @@
+{
+  "id": "pyra-l5e-bad",
+  "name": "L5E Bad Layers",
+  "puzzle": "Pyraminx",
+  "description": "Last 5 Edges (Bad Layers) for Pyraminx. Advanced L5E cases with Nutella, Peanut, Krish, and 2-Flip subsets.",
+  "category": "last-layer",
+  "caseCount": 83,
+  "algorithms": [
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-1",
+      "name": "L5E Bad Layers Nutella - Nutella 1",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "[r] R' U R L' U L U",
+      "alternatives": [
+        {
+          "notation": "[l'] L U' L' R U' R' U'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-1",
+      "name": "L5E Bad Layers Peanut - Nutella 1",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U L R' U R2 U' L' R'",
+      "alternatives": [
+        {
+          "notation": "U' R' L U' L2' U R L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-nutella-1",
+      "name": "L5E Bad Layers Left Krish - Nutella 1",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R2' U' L R L2' U' L",
+      "alternatives": [
+        {
+          "notation": "U' R U' R2' L R U' L2' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-nutella-1",
+      "name": "L5E Bad Layers Right Krish - Nutella 1",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U L2 R' L' U R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "U L' U' L2 U R' L' R2 U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-sune-1",
+      "name": "L5E Bad Layers 2-Flip - Sune 1",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Sune",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U L R U R' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' L' U L R U R' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-2",
+      "name": "L5E Bad Layers Nutella - Nutella 2",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "[r] U' L' U' L R' U' R",
+      "alternatives": [
+        {
+          "notation": "[l'] U R U R' L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-2",
+      "name": "L5E Bad Layers Peanut - Nutella 2",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U R L U R U' R2' L'",
+      "alternatives": [
+        {
+          "notation": "U' L' R' U' L' U L2 R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-nutella-2",
+      "name": "L5E Bad Layers Left Krish - Nutella 2",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L2 R L' U R",
+      "alternatives": [
+        {
+          "notation": "U' L U R' L R2 U' R' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-nutella-2",
+      "name": "L5E Bad Layers Right Krish - Nutella 2",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U' L R' L2' U L R'",
+      "alternatives": [
+        {
+          "notation": "U' L' R U R2' L' R U' L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-sune-2",
+      "name": "L5E Bad Layers 2-Flip - Sune 2",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Sune",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' U R' L R' L'",
+      "alternatives": [
+        {
+          "notation": "R L' U' L' U L U R' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-3",
+      "name": "L5E Bad Layers Nutella - Nutella 3",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "[b] U' R U' R2' L R L' U'",
+      "alternatives": [
+        {
+          "notation": "[b'] U L' U L2 R' L' R U",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-3",
+      "name": "L5E Bad Layers Peanut - Nutella 3",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L R L' U R'",
+      "alternatives": [
+        {
+          "notation": "L U L' R' L' R U' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-sune-3",
+      "name": "L5E Bad Layers 2-Flip - Sune 3",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Sune",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U R U R' U' R' L",
+      "alternatives": [
+        {
+          "notation": "R' L' R L2 U L' R U R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-4",
+      "name": "L5E Bad Layers Nutella - Nutella 4",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "R' Rw U R' L R L2'",
+      "alternatives": [
+        {
+          "notation": "L Lw' U' L R' L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-4",
+      "name": "L5E Bad Layers Peanut - Nutella 4",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' L2 R' L' U' R2 U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U R2' L R U L2' U' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-5",
+      "name": "L5E Bad Layers Nutella - Nutella 5",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L2 R L' R' U' R",
+      "alternatives": [
+        {
+          "notation": "L R U' R2 L' R L U L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-5",
+      "name": "L5E Bad Layers Peanut - Nutella 5",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R' H",
+      "alternatives": [
+        {
+          "notation": "R' L' R L S",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-nutella-6",
+      "name": "L5E Bad Layers Nutella - Nutella 6",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L R' L2' U' L R",
+      "alternatives": [
+        {
+          "notation": "L U' L' R' L R2 U R' L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-nutella-6",
+      "name": "L5E Bad Layers Peanut - Nutella 6",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Nutella",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R2' U L R L2' U L",
+      "alternatives": [
+        {
+          "notation": "L' U L2 U' R' L' R2 U' R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-oka-1",
+      "name": "L5E Bad Layers Nutella - Oka 1",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R L' U L U R'",
+      "alternatives": [
+        {
+          "notation": "U R L U L' U R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-oka-1",
+      "name": "L5E Bad Layers Peanut - Oka 1",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R U' R' U R'",
+      "alternatives": [
+        {
+          "notation": "U L' U' L' U L U' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-oka-1",
+      "name": "L5E Bad Layers Left Krish - Oka 1",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U L R L' U R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' L' U R' L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-oka-1",
+      "name": "L5E Bad Layers Right Krish - Oka 1",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' U R U' L R' L'",
+      "alternatives": [
+        {
+          "notation": "U' R' L' R U' L U L' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-anti-sune-1",
+      "name": "L5E Bad Layers 2-Flip - Anti-Sune 1",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Anti-Sune",
+      "puzzle": "Pyraminx",
+      "notation": "R U R U' R' L' U' L R'",
+      "alternatives": [
+        {
+          "notation": "L' R U' R' L' U' L U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-oka-2",
+      "name": "L5E Bad Layers Nutella - Oka 2",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U R U' L' U' L R'",
+      "alternatives": [
+        {
+          "notation": "R U' L U' L' R'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-oka-2",
+      "name": "L5E Bad Layers Peanut - Oka 2",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R U R' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U L' U' L U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-oka-2",
+      "name": "L5E Bad Layers Left Krish - Oka 2",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R' U L' R' U R L",
+      "alternatives": [
+        {
+          "notation": "U R L U L' R' U L' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-oka-2",
+      "name": "L5E Bad Layers Right Krish - Oka 2",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R' U L' R' U R L",
+      "alternatives": [
+        {
+          "notation": "U L' U' L U' R L U' L' R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-anti-sune-2",
+      "name": "L5E Bad Layers 2-Flip - Anti-Sune 2",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Anti-Sune",
+      "puzzle": "Pyraminx",
+      "notation": "L' R U R U' R' U' L R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' L U' L R' L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-oka-3",
+      "name": "L5E Bad Layers Nutella - Oka 3",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' R' U' R U' L",
+      "alternatives": [
+        {
+          "notation": "U L' R U' R' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-oka-3",
+      "name": "L5E Bad Layers Peanut - Oka 3",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R' U' R U R",
+      "alternatives": [
+        {
+          "notation": "U L U' L U L' U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-oka-3",
+      "name": "L5E Bad Layers Left Krish - Oka 3",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R L' U' L R' U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "U L U' L' U' L' R U' R' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-oka-3",
+      "name": "L5E Bad Layers Right Krish - Oka 3",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R U R L' U L R'",
+      "alternatives": [
+        {
+          "notation": "U L' R U R' L U L U L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-anti-sune-3",
+      "name": "L5E Bad Layers 2-Flip - Anti-Sune 3",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Anti-Sune",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R2' U' R L' U' L",
+      "alternatives": [
+        {
+          "notation": "L' R U' L' U' L U L R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-oka-4",
+      "name": "L5E Bad Layers Nutella - Oka 4",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "L' U R' U R L",
+      "alternatives": [
+        {
+          "notation": "U' L' U R U R' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-oka-4",
+      "name": "L5E Bad Layers Peanut - Oka 4",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "L U L U' L' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-oka-4",
+      "name": "L5E Bad Layers Left Krish - Oka 4",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "U R U' R' U' R' U' R L' U' L",
+      "alternatives": [
+        {
+          "notation": "R U' R' L U' L' U' L' U' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-oka-4",
+      "name": "L5E Bad Layers Right Krish - Oka 4",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' U R U R U R'",
+      "alternatives": [
+        {
+          "notation": "U' L' U L U L U L' R U R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-oka-5",
+      "name": "L5E Bad Layers Nutella - Oka 5",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Oka",
+      "puzzle": "Pyraminx",
+      "notation": "[u'] L R' U' R U' L'",
+      "alternatives": [
+        {
+          "notation": "[u] R' L U L' U R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-left-bar-1",
+      "name": "L5E Bad Layers Nutella - Left Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' U L' U L R L",
+      "alternatives": [
+        {
+          "notation": "R U' R' L R U' R2' L' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-left-bar-1",
+      "name": "L5E Bad Layers Peanut - Left Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R' U R U' R",
+      "alternatives": [
+        {
+          "notation": "R' L' R U' L R U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-left-bar-1",
+      "name": "L5E Bad Layers Left Krish - Left Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "U L' U' R' L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-1",
+      "name": "L5E Bad Layers Right Krish - Left Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L' R' U' R' U R'",
+      "alternatives": [
+        {
+          "notation": "L' U L' U' L' R' L R L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-left-bars-1",
+      "name": "L5E Bad Layers 2-Flip - Left Bars 1",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Left Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U L R L2' U' L R U' R2'",
+      "alternatives": [
+        {
+          "notation": "U' L' R U' R2' L R L2' U' L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-left-bar-2",
+      "name": "L5E Bad Layers Nutella - Left Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R2 U L R' L2' U' L",
+      "alternatives": [
+        {
+          "notation": "R L R U R' U L' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-left-bar-2",
+      "name": "L5E Bad Layers Peanut - Left Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U L R U' L R' L'",
+      "alternatives": [
+        {
+          "notation": "L U' L' U' R' L' R U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-left-bar-2",
+      "name": "L5E Bad Layers Left Krish - Left Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L R U R",
+      "alternatives": [
+        {
+          "notation": "U' L U L R U' R' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-2",
+      "name": "L5E Bad Layers Right Krish - Left Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' L U' R' U R' U' R'",
+      "alternatives": [
+        {
+          "notation": "U L' U' L' U L' U' R U' R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-left-bars-2",
+      "name": "L5E Bad Layers 2-Flip - Left Bars 2",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Left Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U' R L R L2' U' L R'",
+      "alternatives": [
+        {
+          "notation": "U' L U' L2' R U' R2' L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-left-bar-3",
+      "name": "L5E Bad Layers Nutella - Left Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R L2' U' L U' R U R2'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-left-bar-3",
+      "name": "L5E Bad Layers Peanut - Left Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U' L R' L' U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' R' U L' U' L U' L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-left-bar-3",
+      "name": "L5E Bad Layers Left Krish - Left Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "[b] R U R' L' U'",
+      "alternatives": [
+        {
+          "notation": "[b] U' R' L' U L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-3",
+      "name": "L5E Bad Layers Right Krish - Left Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U L U R' U' L'",
+      "alternatives": [
+        {
+          "notation": "U' R' U' L' U R U L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-left-bars-3",
+      "name": "L5E Bad Layers 2-Flip - Left Bars 3",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Left Bars",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R2' L' R U' L2 U' L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-left-bar-4",
+      "name": "L5E Bad Layers Nutella - Left Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L U L U L R L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-left-bar-4",
+      "name": "L5E Bad Layers Peanut - Left Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R L' U R' U L' U L",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-4",
+      "name": "L5E Bad Layers Right Krish - Left Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' R L R' L'",
+      "alternatives": [
+        {
+          "notation": "U' R' L' R L U' L' U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-left-bar-5",
+      "name": "L5E Bad Layers Peanut - Left Bar 5",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R U' L R L' U L R L'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-5",
+      "name": "L5E Bad Layers Right Krish - Left Bar 5",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R' U' R",
+      "alternatives": [
+        {
+          "notation": "U L U' L' R' L' R L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-1",
+      "name": "L5E Bad Layers Left Krish - Right Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R2' U R L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L R' L' R L U L2' U' L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-6",
+      "name": "L5E Bad Layers Right Krish - Left Bar 6",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U R' U' L' U' L U R'",
+      "alternatives": [
+        {
+          "notation": "U' L' U R U' R' U' L' U L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-right-bar-1",
+      "name": "L5E Bad Layers Nutella - Right Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' L' U L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R L U' R U' R' L' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-right-bar-1",
+      "name": "L5E Bad Layers Peanut - Right Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' U R' L' U' L",
+      "alternatives": [
+        {
+          "notation": "L R U R' L U' L' U L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-2",
+      "name": "L5E Bad Layers Left Krish - Right Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R2' U' R U L' U L",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U L U' L2' U L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-left-bar-7",
+      "name": "L5E Bad Layers Right Krish - Left Bar 7",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Left Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' L U R' U' R2 U R'",
+      "alternatives": [
+        {
+          "notation": "U' L' U L2 U' L' U R U' R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-right-bars-1",
+      "name": "L5E Bad Layers 2-Flip - Right Bars 1",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Right Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U L2 R' L' R2 U R",
+      "alternatives": [
+        {
+          "notation": "U' R' L' R2 U R' L' U L2",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-right-bar-2",
+      "name": "L5E Bad Layers Nutella - Right Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' L' U' L U' R L",
+      "alternatives": [
+        {
+          "notation": "U L U' L2 U' R' L R2 U R'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-right-bar-2",
+      "name": "L5E Bad Layers Peanut - Right Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U L R L' U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U' R' L' U R' L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-3",
+      "name": "L5E Bad Layers Left Krish - Right Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U L U R U' L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R' U' L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-right-bar-1",
+      "name": "L5E Bad Layers Right Krish - Right Bar 1",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U L R' L'",
+      "alternatives": [
+        {
+          "notation": "R' L' R U L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-right-bars-2",
+      "name": "L5E Bad Layers 2-Flip - Right Bars 2",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Right Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U R2 L' U L2 R' L'",
+      "alternatives": [
+        {
+          "notation": "U' L U L' R' L' R2 U R' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-right-bar-3",
+      "name": "L5E Bad Layers Nutella - Right Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' R2 U R' U L' U' L2",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-right-bar-3",
+      "name": "L5E Bad Layers Peanut - Right Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R L U' R U R' U R' L'",
+      "alternatives": [
+        {
+          "notation": "U L' U R' L R U L U L'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-4",
+      "name": "L5E Bad Layers Left Krish - Right Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U L R L' R' U R U R'",
+      "alternatives": [
+        {
+          "notation": "L' U L U L' R' L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-right-bar-2",
+      "name": "L5E Bad Layers Right Krish - Right Bar 2",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U' R' L' U L R'",
+      "alternatives": [
+        {
+          "notation": "U' L' R U R' L' U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-2-flip-right-bars-3",
+      "name": "L5E Bad Layers 2-Flip - Right Bars 3",
+      "set": "L5E Bad Layers",
+      "subset": "2-Flip - Right Bars",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L2 R L' U R U R2'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-nutella-right-bar-4",
+      "name": "L5E Bad Layers Nutella - Right Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Nutella - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R' U' R' U' R' L' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-right-bar-4",
+      "name": "L5E Bad Layers Peanut - Right Bar 4",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' R U' L U' R U' R'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-5",
+      "name": "L5E Bad Layers Left Krish - Right Bar 5",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L R L' R'",
+      "alternatives": [
+        {
+          "notation": "L' R' L R L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-right-krish-right-bar-3",
+      "name": "L5E Bad Layers Right Krish - Right Bar 3",
+      "set": "L5E Bad Layers",
+      "subset": "Right Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' [b] U L R U' R'",
+      "alternatives": [
+        {
+          "notation": "[b'] L' U' L R U",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-peanut-right-bar-5",
+      "name": "L5E Bad Layers Peanut - Right Bar 5",
+      "set": "L5E Bad Layers",
+      "subset": "Peanut - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' U R' L' R U' R' L' R",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-6",
+      "name": "L5E Bad Layers Left Krish - Right Bar 6",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L' U L U R U' R",
+      "alternatives": [
+        {
+          "notation": "U' L U' L U R U R' U' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-bad-left-krish-right-bar-7",
+      "name": "L5E Bad Layers Left Krish - Right Bar 7",
+      "set": "L5E Bad Layers",
+      "subset": "Left Krish - Right Bar",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R2' U R U' L' U L",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U' L U L2' U' L",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    }
+  ]
+}

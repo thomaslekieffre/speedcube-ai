@@ -1,0 +1,308 @@
+[
+  {
+    "event": "2x2x2",
+    "eventId": "222",
+    "single": {
+      "time": "0.39",
+      "holder": "Ziyu Ye (叶梓渝)",
+      "nationality": "China",
+      "competition": "Hefei Open 2025",
+      "date": "2025-10-25"
+    },
+    "average": {
+      "time": "0.86",
+      "holder": "Sujan Feist",
+      "nationality": "USA",
+      "competition": "Kids America Christmas OH 2025",
+      "date": "2025-12-13"
+    }
+  },
+  {
+    "event": "3x3x3",
+    "eventId": "333",
+    "single": {
+      "time": "2.76",
+      "holder": "Teodor Zajder",
+      "nationality": "Poland",
+      "competition": "GLS Big Cubes Gdańsk 2026",
+      "date": "2026-02-07"
+    },
+    "average": {
+      "time": "3.84",
+      "holder": "Xuanyi Geng (耿暄一)",
+      "nationality": "China",
+      "competition": "Beijing Winter 2026",
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "event": "4x4x4",
+    "eventId": "444",
+    "single": {
+      "time": "15.18",
+      "holder": "Tymon Kolasiński",
+      "nationality": "Poland",
+      "competition": "Spanish Championship 2025",
+      "date": "2025-12-06"
+    },
+    "average": {
+      "time": "18.56",
+      "holder": "Tymon Kolasiński",
+      "nationality": "Poland",
+      "competition": "Seoul Winter 2026",
+      "date": "2026-01-17"
+    }
+  },
+  {
+    "event": "5x5x5",
+    "eventId": "555",
+    "single": {
+      "time": "30.45",
+      "holder": "Tymon Kolasiński",
+      "nationality": "Poland",
+      "competition": "WCA Asian Championship 2024",
+      "date": "2024-11-01"
+    },
+    "average": {
+      "time": "34.31",
+      "holder": "Tymon Kolasiński",
+      "nationality": "Poland",
+      "competition": "WCA World Championship 2025",
+      "date": "2025-07-03"
+    }
+  },
+  {
+    "event": "6x6x6",
+    "eventId": "666",
+    "single": {
+      "time": "57.69",
+      "holder": "Max Park",
+      "nationality": "USA",
+      "competition": "Burbank Big Cubes 2025",
+      "date": "2025-04-26"
+    },
+    "average": {
+      "time": "1:05.04",
+      "holder": "Max Park",
+      "nationality": "USA",
+      "competition": "Nub Open Trabuco Hills Fall 2025",
+      "date": "2025-10-04"
+    }
+  },
+  {
+    "event": "7x7x7",
+    "eventId": "777",
+    "single": {
+      "time": "1:33.48",
+      "holder": "Max Park",
+      "nationality": "USA",
+      "competition": "Nub Open Trabuco Hills Fall 2025",
+      "date": "2025-10-04"
+    },
+    "average": {
+      "time": "1:36.86",
+      "holder": "Max Park",
+      "nationality": "USA",
+      "competition": "Nub Open Trabuco Hills Fall 2025",
+      "date": "2025-10-04"
+    }
+  },
+  {
+    "event": "3x3x3 Blindfolded",
+    "eventId": "333bf",
+    "single": {
+      "time": "11.67",
+      "holder": "Charlie Eggins",
+      "nationality": "Australia",
+      "competition": "Cubing at The Cube 2026",
+      "date": "2026-01-10"
+    },
+    "average": {
+      "time": "14.05",
+      "holder": "Charlie Eggins",
+      "nationality": "Australia",
+      "competition": "Cubing at The Cube 2026",
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "event": "3x3x3 Fewest Moves",
+    "eventId": "333fm",
+    "single": {
+      "time": "16",
+      "holder": "Jacob Sherwen Brown",
+      "nationality": "United Kingdom",
+      "competition": "Rubik's UK Championship FMC 2024",
+      "date": "2024-10-26"
+    },
+    "average": {
+      "time": "19.67",
+      "holder": "Radomił Baran",
+      "nationality": "Poland",
+      "competition": "5BLD Masters Opole 2025",
+      "date": "2025-03-01"
+    }
+  },
+  {
+    "event": "3x3x3 One-Handed",
+    "eventId": "333oh",
+    "single": {
+      "time": "5.66",
+      "holder": "Dhruva Sai Meruva",
+      "nationality": "Switzerland",
+      "competition": "Swiss Nationals 2024",
+      "date": "2024-10-04"
+    },
+    "average": {
+      "time": "7.72",
+      "holder": "Luke Garrett",
+      "nationality": "USA",
+      "competition": "Chicagoland Newcomers 2025",
+      "date": "2025-03-09"
+    }
+  },
+  {
+    "event": "Clock",
+    "eventId": "clock",
+    "single": {
+      "time": "1.53",
+      "holder": "Lachlan Gibson",
+      "nationality": "New Zealand",
+      "competition": "Hasty Hastings 2025",
+      "date": "2025-09-27"
+    },
+    "average": {
+      "time": "2.24",
+      "holder": "Brendyn Dunagan",
+      "nationality": "USA",
+      "competition": "Temecula Valley Winter 2025",
+      "date": "2025-12-13"
+    }
+  },
+  {
+    "event": "Megaminx",
+    "eventId": "minx",
+    "single": {
+      "time": "21.99",
+      "holder": "Timofei Tarasenko",
+      "nationality": "Russia",
+      "competition": "Tashkent Open 2025",
+      "date": "2025-12-06"
+    },
+    "average": {
+      "time": "24.38",
+      "holder": "Timofei Tarasenko",
+      "nationality": "Russia",
+      "competition": "Tashkent Open 2025",
+      "date": "2025-12-06"
+    }
+  },
+  {
+    "event": "Pyraminx",
+    "eventId": "pyram",
+    "single": {
+      "time": "0.73",
+      "holder": "Simon Kellum",
+      "nationality": "USA",
+      "competition": "Middleton Meetup Thursday 2023",
+      "date": "2023-12-21"
+    },
+    "average": {
+      "time": "1.14",
+      "holder": "Lingkun Jiang (姜凌坤)",
+      "nationality": "China",
+      "competition": "Zhengzhou Zest 2025",
+      "date": "2025-12-27"
+    }
+  },
+  {
+    "event": "Skewb",
+    "eventId": "skewb",
+    "single": {
+      "time": "0.75",
+      "holder": "Carter Kucala",
+      "nationality": "USA",
+      "competition": "Going Fast in Grandview 2024",
+      "date": "2024-03-23"
+    },
+    "average": {
+      "time": "1.37",
+      "holder": "Ignacy Samselski",
+      "nationality": "Poland",
+      "competition": "CFL Justynów 2025",
+      "date": "2025-06-14"
+    }
+  },
+  {
+    "event": "Square-1",
+    "eventId": "sq1",
+    "single": {
+      "time": "3.40",
+      "holder": "Hassan Khanani",
+      "nationality": "USA",
+      "competition": "Steel City Sprint PA 2026",
+      "date": "2026-01-24"
+    },
+    "average": {
+      "time": "4.63",
+      "holder": "Sameer Aggarwal",
+      "nationality": "USA",
+      "competition": "Cubing in Southern Oregon 2025",
+      "date": "2025-02-01"
+    }
+  },
+  {
+    "event": "4x4x4 Blindfolded",
+    "eventId": "444bf",
+    "single": {
+      "time": "51.96",
+      "holder": "Stanley Chapel",
+      "nationality": "USA",
+      "competition": "4BLD in a Madison Hall 2023",
+      "date": "2023-01-28"
+    },
+    "average": {
+      "time": "59.39",
+      "holder": "Stanley Chapel",
+      "nationality": "USA",
+      "competition": "New York Multimate PBQ II 2025",
+      "date": "2025-06-13"
+    }
+  },
+  {
+    "event": "5x5x5 Blindfolded",
+    "eventId": "555bf",
+    "single": {
+      "time": "1:58.59",
+      "holder": "Stanley Chapel",
+      "nationality": "USA",
+      "competition": "Multi Mayhem VA 2026",
+      "date": "2026-01-02"
+    },
+    "average": {
+      "time": "2:27.63",
+      "holder": "Stanley Chapel",
+      "nationality": "USA",
+      "competition": "MCC Epsilon 2019",
+      "date": "2019-12-15"
+    }
+  },
+  {
+    "event": "3x3x3 Multi-Blind",
+    "eventId": "333mbf",
+    "single": {
+      "time": "63/65 58:23",
+      "holder": "Graham Siggins",
+      "nationality": "USA",
+      "competition": "Please Be Quiet Reno 2025",
+      "date": "2025-10-18"
+    },
+    "average": {
+      "time": "",
+      "holder": "",
+      "nationality": "",
+      "competition": "",
+      "date": ""
+    }
+  }
+]

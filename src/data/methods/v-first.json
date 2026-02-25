@@ -1,0 +1,56 @@
+{
+  "id": "v-first",
+  "name": "V-First (Pyraminx)",
+  "description": "A Pyraminx method that prioritizes building a V-shape (one solved edge) as the first step after tips, then solves the remaining edges. V-First is essentially the foundation shared by L4E, Bell, and other modern Pyraminx methods. As a standalone approach, V-First emphasizes flexible V selection and using intuitive or semi-algorithmic techniques to finish the last four edges. It is the standard intermediate Pyraminx framework.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist all four tips to match their adjacent center colors. This trivial step can be handled at any point.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Handle tips at any convenient moment",
+        "Tip orientation never affects other pieces"
+      ]
+    },
+    {
+      "name": "Build V",
+      "description": "Solve one edge to create a V-shape — a solved edge with its two adjacent matching centers. The V is typically placed at the back of the Pyraminx. Color neutrality is important: choose whichever edge is easiest to place. The V can often be planned entirely during inspection.",
+      "moveCountRange": "1-4 moves",
+      "tips": [
+        "Be fully color-neutral for V selection",
+        "Plan the V completely during inspection",
+        "Choose the V that requires the fewest moves",
+        "Place the V at the back so you can see the remaining edges"
+      ]
+    },
+    {
+      "name": "Solve Last 4 Edges",
+      "description": "Solve the remaining four edges. This can be done intuitively (for beginners) or with algorithms (for speed). The intuitive approach involves placing edges one at a time, while the algorithmic approach solves all four in one look. There are approximately 16 distinct cases.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "4-9 moves",
+      "tips": [
+        "Start with intuitive solutions, then learn algorithms",
+        "Recognize edge positions and orientations quickly",
+        "Practice the most common cases first",
+        "Mirror algorithms reduce total learning load"
+      ]
+    }
+  ],
+  "pros": [
+    "Natural and intuitive framework",
+    "Flexible V selection allows easy starts",
+    "Scalable from intuitive to algorithmic solving",
+    "Foundation for more advanced Pyraminx methods (L4E, Bell)",
+    "Low move count"
+  ],
+  "cons": [
+    "Intuitive L4E solving is slower than algorithmic approaches",
+    "Requires color neutrality for best results",
+    "Generic approach — specialized methods like Bell are faster at the top level",
+    "L4E recognition takes practice to master"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "8-14"
+}

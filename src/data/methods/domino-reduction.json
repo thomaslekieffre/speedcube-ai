@@ -1,0 +1,31 @@
+{
+  "id": "domino-reduction",
+  "name": "Domino Reduction",
+  "description": "Domino Reduction is a two-phase method that first reduces the cube to a 'domino state' where all pieces are oriented and E-slice edges are separated, then solves the cube using only half-turn moves on the restricted axes. It is named because the reduced state resembles the constraints of a domino puzzle. This method is widely used in Fewest Moves Challenge (FMC) as the first phase of many competitive solutions, and its concepts underpin Thistlethwaite's and Kociemba's computer algorithms.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Edge Orientation",
+      "description": "Orient all 12 edges so that none require an F or B quarter turn to be solved. Bad edges are identified and flipped using F/B moves, after which F and B are restricted to double turns only.",
+      "moveCountRange": "4-7 moves",
+      "tips": ["Use the standard F/B axis rule to identify bad edges", "This is identical to EO in ZZ and Petrus methods", "Fewer bad edges means fewer moves needed", "In FMC, try multiple EO solutions to find short ones"]
+    },
+    {
+      "name": "Corner Orientation + E-slice Separation",
+      "description": "Orient all 8 corners (so all U/D stickers face U or D) and separate the 4 E-slice edges into the E-slice. The E-slice edges do not need to be permuted correctly yet. After this step, the cube is in the 'domino' state.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Use R and L moves with U/D adjustments for CO", "E-slice edges can often be placed during CO", "The domino state is the key milestone of this method", "In FMC, this phase is often combined with EO using NISS"]
+    },
+    {
+      "name": "Domino Solve (Half-Turn Phase)",
+      "description": "Solve the cube completely using only R2, L2, F2, B2, U, and D moves (half turns on R/L/F/B, any turns on U/D). All pieces are in their correct orbits, so the remaining solve is constrained to this reduced move group.",
+      "moveCountRange": "14-20 moves",
+      "tips": ["Think of this as solving a simpler puzzle within the cube", "Corner permutation and edge permutation can be solved separately", "Many FMC solvers use blockbuilding in the domino state", "Half-turn moves are easy to execute quickly"]
+    }
+  ],
+  "pros": ["Very low move count (~30-40 moves)", "Essential technique for competitive FMC", "Clean theoretical framework based on group theory", "Domino state is a powerful intermediate goal", "Concepts transfer to many other methods"],
+  "cons": ["CO + E-slice separation is challenging to plan", "Not efficient for speedsolving due to planning overhead", "Requires understanding of piece orientation theory", "Half-turn phase still requires significant thought", "Better suited for FMC than timed solving"],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "30-40"
+}

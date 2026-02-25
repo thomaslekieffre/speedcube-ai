@@ -1,0 +1,2128 @@
+{
+  "id": "pyra-l5e-yy",
+  "name": "L5E Yin/Yang",
+  "puzzle": "Pyraminx",
+  "description": "Last 5 Edges Yin/Yang for Pyraminx. L5E cases categorized by Yin and Yang patterns.",
+  "category": "last-layer",
+  "caseCount": 127,
+  "algorithms": [
+    {
+      "id": "pyra-l5e-yy-yin-1a-1",
+      "name": "L5E Yin/Yang Yin - 1A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' L' U' L",
+      "alternatives": [
+        {
+          "notation": "L U R U R' L U L2'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R2' L' R L U R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1a-1",
+      "name": "L5E Yin/Yang Yang - 1A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L' U' R' U R",
+      "alternatives": [
+        {
+          "notation": "L U L' U' R' L R L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L U R' L' U' L R L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-1a-2",
+      "name": "L5E Yin/Yang Yin - 1A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U R' U R",
+      "alternatives": [
+        {
+          "notation": "R' U' L' R' L R2",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1a-2",
+      "name": "L5E Yin/Yang Yang - 1A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R L' U L",
+      "alternatives": [
+        {
+          "notation": "L U' R' L R U L2'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L R U' R' L' U R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1a-3",
+      "name": "L5E Yin/Yang Yang - 1A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R L U' R' L' R U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1a-4",
+      "name": "L5E Yin/Yang Yang - 1A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1A",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U L R L' U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-1b-1",
+      "name": "L5E Yin/Yang Yin - 1B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L R' L' R U L U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1b-1",
+      "name": "L5E Yin/Yang Yang - 1B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U' L R' U' R2",
+      "alternatives": [
+        {
+          "notation": "L U L' U R U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L2 R L' R' U' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-1b-2",
+      "name": "L5E Yin/Yang Yin - 1B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R' L' U' R2",
+      "alternatives": [
+        {
+          "notation": "L R U R' L' R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-1b-2",
+      "name": "L5E Yin/Yang Yang - 1B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' L U' L'",
+      "alternatives": [
+        {
+          "notation": "L U R L R' L2'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-1b-3",
+      "name": "L5E Yin/Yang Yin - 1B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' L R U L' U' L",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-1b-4",
+      "name": "L5E Yin/Yang Yin - 1B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 1B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' R' L' R U L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-2a-1",
+      "name": "L5E Yin/Yang Yin - 2A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 2A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R L' U L' U L",
+      "alternatives": [
+        {
+          "notation": "L' R U' R2' L' R U L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L U' R U' R2' U' R L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-2a-1",
+      "name": "L5E Yin/Yang Yang - 2A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 2A",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L2' U' L R U R'",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L' U' R U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R2' L R U' L' U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-2b-1",
+      "name": "L5E Yin/Yang Yin - 2B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 2B",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' R U' R' U' R",
+      "alternatives": [
+        {
+          "notation": "L U' R U R' L U' L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-2b-1",
+      "name": "L5E Yin/Yang Yang - 2B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 2B",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U' L R L' R",
+      "alternatives": [
+        {
+          "notation": "R' L R U' L'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-2b-2",
+      "name": "L5E Yin/Yang Yin - 2B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 2B",
+      "puzzle": "Pyraminx",
+      "notation": "L U R' U' L' R2 U' R'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-2b-2",
+      "name": "L5E Yin/Yang Yang - 2B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 2B",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U R L' U' L R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-3a-1",
+      "name": "L5E Yin/Yang Yin - 3A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 3A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R U L' U' L",
+      "alternatives": [
+        {
+          "notation": "L' R' L R2 U R' L' U' L",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' U L' U' L2 U L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-3a-1",
+      "name": "L5E Yin/Yang Yang - 3A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 3A",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U L2 R L' U' R2'",
+      "alternatives": [
+        {
+          "notation": "L U' R' L' R U' R U' R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' U L' U L2 U L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-3b-1",
+      "name": "L5E Yin/Yang Yin - 3B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 3B",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U R",
+      "alternatives": [
+        {
+          "notation": "L' U R' L' R L2",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-3b-1",
+      "name": "L5E Yin/Yang Yang - 3B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 3B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U' L R' U R2",
+      "alternatives": [
+        {
+          "notation": "R' L R L' U L U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-3b-2",
+      "name": "L5E Yin/Yang Yin - 3B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 3B",
+      "puzzle": "Pyraminx",
+      "notation": "L2 U' L' R U R' L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-3b-2",
+      "name": "L5E Yin/Yang Yang - 3B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 3B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L U R L2' U L",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-4a-1",
+      "name": "L5E Yin/Yang Yin - 4A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 4A",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L2' U L R",
+      "alternatives": [
+        {
+          "notation": "R2' U' R U' L' U R L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-4a-1",
+      "name": "L5E Yin/Yang Yang - 4A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 4A",
+      "puzzle": "Pyraminx",
+      "notation": "L2 U L' U R U' L' R'",
+      "alternatives": [
+        {
+          "notation": "R2 L R' U' R' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-4a-2",
+      "name": "L5E Yin/Yang Yin - 4A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 4A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R L2' U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-4a-2",
+      "name": "L5E Yin/Yang Yang - 4A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 4A",
+      "puzzle": "Pyraminx",
+      "notation": "L U' R' L' R2 U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-4b-1",
+      "name": "L5E Yin/Yang Yin - 4B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 4B",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U' R U R' U R",
+      "alternatives": [
+        {
+          "notation": "R' L R U L2' U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-4b-1",
+      "name": "L5E Yin/Yang Yang - 4B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 4B",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U' R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "R' L R U L' U' L U' L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5a-1",
+      "name": "L5E Yin/Yang Yin - 5A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L' U L",
+      "alternatives": [
+        {
+          "notation": "L' U' R U' R' L",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5a-1",
+      "name": "L5E Yin/Yang Yang - 5A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U' R U R2' U' R",
+      "alternatives": [
+        {
+          "notation": "L U R U R' U' L U L2'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5a-2",
+      "name": "L5E Yin/Yang Yin - 5A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U' R' U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5a-2",
+      "name": "L5E Yin/Yang Yang - 5A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U R U' R2' U R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5a-3",
+      "name": "L5E Yin/Yang Yin - 5A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L' U' L",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5a-4",
+      "name": "L5E Yin/Yang Yin - 5A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U R' U' R U L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5b-1",
+      "name": "L5E Yin/Yang Yin - 5B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R2' U R",
+      "alternatives": [
+        {
+          "notation": "L U L2' R' L R",
+          "moveCount": 6
+        },
+        {
+          "notation": "R2' L' R U L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5b-1",
+      "name": "L5E Yin/Yang Yang - 5B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U' L U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' L U L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-5b-2",
+      "name": "L5E Yin/Yang Yin - 5B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L R' L' R U' L U L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L R U L R' L2'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5b-2",
+      "name": "L5E Yin/Yang Yang - 5B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' L U' L'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5b-3",
+      "name": "L5E Yin/Yang Yang - 5B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' U' R U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-5b-4",
+      "name": "L5E Yin/Yang Yang - 5B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 5B",
+      "puzzle": "Pyraminx",
+      "notation": "R U L U' L' U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6a-1",
+      "name": "L5E Yin/Yang Yin - 6A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R' U' R",
+      "alternatives": [
+        {
+          "notation": "L' R U R' U L",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6a-1",
+      "name": "L5E Yin/Yang Yang - 6A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U' R' L R' L'",
+      "alternatives": [
+        {
+          "notation": "R' L' R L2 U' L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "L' R L' U' R' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6a-2",
+      "name": "L5E Yin/Yang Yin - 6A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L R' U R",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6a-2",
+      "name": "L5E Yin/Yang Yang - 6A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L' U R' U' R",
+      "alternatives": [
+        {
+          "notation": "L U' L' U R' L R L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' L' U' R' L R2",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6a-3",
+      "name": "L5E Yin/Yang Yin - 6A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U L' U L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6a-4",
+      "name": "L5E Yin/Yang Yin - 6A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' R' U R U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6b-1",
+      "name": "L5E Yin/Yang Yin - 6B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U' L U R' U' R2",
+      "alternatives": [
+        {
+          "notation": "R U' R' U L' U' L2 U L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6b-1",
+      "name": "L5E Yin/Yang Yang - 6B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "R U L' U L R'",
+      "alternatives": [
+        {
+          "notation": "L U L' R U' R'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-6b-2",
+      "name": "L5E Yin/Yang Yin - 6B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' L' U L2 U' L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6b-2",
+      "name": "L5E Yin/Yang Yang - 6B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' U L U L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6b-3",
+      "name": "L5E Yin/Yang Yang - 6B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' R U R'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-6b-4",
+      "name": "L5E Yin/Yang Yang - 6B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 6B",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L U L' U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7a-1",
+      "name": "L5E Yin/Yang Yin - 7A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R2 U R' L' U' L",
+      "alternatives": [
+        {
+          "notation": "R U' R' L' U L2 U' L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R2' L' R U L U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7a-1",
+      "name": "L5E Yin/Yang Yang - 7A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' U R2 U' R",
+      "alternatives": [
+        {
+          "notation": "R U R' L U L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "L2 R L' R' U L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7a-2",
+      "name": "L5E Yin/Yang Yin - 7A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' R' U' R' U R",
+      "alternatives": [
+        {
+          "notation": "L U' R U L R' L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7a-2",
+      "name": "L5E Yin/Yang Yang - 7A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "R2 U R' U' L R' L'",
+      "alternatives": [
+        {
+          "notation": "L U' L' R U' R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "L U' R L R' L2'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7a-3",
+      "name": "L5E Yin/Yang Yin - 7A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' U L R L' R'",
+      "alternatives": [
+        {
+          "notation": "R' U' L' U' L2 U L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7a-4",
+      "name": "L5E Yin/Yang Yin - 7A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L2 U' L' U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7a-5",
+      "name": "L5E Yin/Yang Yin - 7A 5",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7A",
+      "puzzle": "Pyraminx",
+      "notation": "L U' R' U' R2 U R' L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7b-1",
+      "name": "L5E Yin/Yang Yin - 7B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L R' U' R",
+      "alternatives": [
+        {
+          "notation": "R' L' R U' L' U L2",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L' R L U' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7b-1",
+      "name": "L5E Yin/Yang Yang - 7B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R U' R2' U R",
+      "alternatives": [
+        {
+          "notation": "L U L2' U' L R U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L2 R L' U' R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-7b-2",
+      "name": "L5E Yin/Yang Yin - 7B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L' U L",
+      "alternatives": [
+        {
+          "notation": "L2' U' L U R' L R",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2 U L' R' L R'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7b-2",
+      "name": "L5E Yin/Yang Yang - 7B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' R L U L U' L'",
+      "alternatives": [
+        {
+          "notation": "R' U L' U' R' L R2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7b-3",
+      "name": "L5E Yin/Yang Yang - 7B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U' R' L' R L",
+      "alternatives": [
+        {
+          "notation": "L R U' R2' U R U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7b-4",
+      "name": "L5E Yin/Yang Yang - 7B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L U' L2' U L U R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-7b-5",
+      "name": "L5E Yin/Yang Yang - 7B 5",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 7B",
+      "puzzle": "Pyraminx",
+      "notation": "L U R U R2' U' R L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8a-1",
+      "name": "L5E Yin/Yang Yin - 8A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U R' L' U L",
+      "alternatives": [
+        {
+          "notation": "L2 U R' L' R U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-8a-1",
+      "name": "L5E Yin/Yang Yang - 8A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "R2' L R L' R' U R2",
+      "alternatives": [
+        {
+          "notation": "R' U' L U R L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8a-2",
+      "name": "L5E Yin/Yang Yin - 8A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U L R' L' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-8a-2",
+      "name": "L5E Yin/Yang Yang - 8A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "L R U R2' U' L' R",
+      "alternatives": [
+        {
+          "notation": "L U L' R' L R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8a-3",
+      "name": "L5E Yin/Yang Yin - 8A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' U R2 U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-8a-3",
+      "name": "L5E Yin/Yang Yang - 8A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' R2 U R2' U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8a-4",
+      "name": "L5E Yin/Yang Yin - 8A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L2 R' L' U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8a-5",
+      "name": "L5E Yin/Yang Yin - 8A 5",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' L' U L R' U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-8b-1",
+      "name": "L5E Yin/Yang Yin - 8B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 8B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L U' L R L'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U' R' L' R U' L",
+          "moveCount": 9
+        },
+        {
+          "notation": "L2 R' L' U R U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-8b-1",
+      "name": "L5E Yin/Yang Yang - 8B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 8B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R' L R2 L'",
+      "alternatives": [
+        {
+          "notation": "L R U' R' U L' R U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R2' L R U' L' U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-8b-2",
+      "name": "L5E Yin/Yang Yang - 8B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 8B",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L U R L' R2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9a-1",
+      "name": "L5E Yin/Yang Yin - 9A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "L U R' U' L' R",
+      "alternatives": [
+        {
+          "notation": "L2 R' L' R L U' L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9a-1",
+      "name": "L5E Yin/Yang Yang - 9A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U' L R L' U' R",
+      "alternatives": [
+        {
+          "notation": "L U' L2' U' L R U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9a-2",
+      "name": "L5E Yin/Yang Yin - 9A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L R' L' R",
+      "alternatives": [
+        {
+          "notation": "R' L' U' L2 U R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9a-2",
+      "name": "L5E Yin/Yang Yang - 9A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' U' R' L R L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9a-3",
+      "name": "L5E Yin/Yang Yin - 9A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R L2' U' L2 U L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9a-3",
+      "name": "L5E Yin/Yang Yang - 9A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L R U' L2' U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9a-4",
+      "name": "L5E Yin/Yang Yang - 9A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "R U R2' L R U' L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9a-5",
+      "name": "L5E Yin/Yang Yang - 9A 5",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R U' R' L U L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9b-1",
+      "name": "L5E Yin/Yang Yin - 9B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L U' R L' U' L",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L R' L2' R",
+          "moveCount": 8
+        },
+        {
+          "notation": "L' R' L U' L R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-9b-1",
+      "name": "L5E Yin/Yang Yang - 9B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 9B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U L R L' U R'",
+      "alternatives": [
+        {
+          "notation": "L R U R' U R' L' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9b-2",
+      "name": "L5E Yin/Yang Yin - 9B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U R' U' L' R L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-9b-3",
+      "name": "L5E Yin/Yang Yin - 9B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 9B",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L2 U L' U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-10a-1",
+      "name": "L5E Yin/Yang Yin - 10A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' L' U' L R' U R",
+      "alternatives": [
+        {
+          "notation": "L R U R' L U L2'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L' R U' L U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-10a-1",
+      "name": "L5E Yin/Yang Yang - 10A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U' L R' U' R2",
+      "alternatives": [
+        {
+          "notation": "L' U' L R U R' L U' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "L2 R L' U R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-10a-2",
+      "name": "L5E Yin/Yang Yin - 10A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R' L' U' R2",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-10a-2",
+      "name": "L5E Yin/Yang Yang - 10A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "L U R' L R U L2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-10a-3",
+      "name": "L5E Yin/Yang Yin - 10A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U L R' L' U R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-10a-3",
+      "name": "L5E Yin/Yang Yang - 10A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 10A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' R' L R U' L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-10b-1",
+      "name": "L5E Yin/Yang Yin - 10B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 10B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L' U L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R U R2' L' R U' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L R U L' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-10b-1",
+      "name": "L5E Yin/Yang Yang - 10B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 10B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L2 R L' U R'",
+      "alternatives": [
+        {
+          "notation": "L U' R U' R' L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L2 R' L' U' R L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-10b-2",
+      "name": "L5E Yin/Yang Yin - 10B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 10B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R L' U L' R' L' R",
+      "alternatives": [
+        {
+          "notation": "L' R U' R2' L' R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-10b-2",
+      "name": "L5E Yin/Yang Yang - 10B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 10B",
+      "puzzle": "Pyraminx",
+      "notation": "R L' U L2 R L' R2'",
+      "alternatives": [
+        {
+          "notation": "L U L' R U' R' L R L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11a-1",
+      "name": "L5E Yin/Yang Yin - 11A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' L R L' R'",
+      "alternatives": [
+        {
+          "notation": "L' R' L R L' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11a-1",
+      "name": "L5E Yin/Yang Yang - 11A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L' U L U' R'",
+      "alternatives": [
+        {
+          "notation": "R U L U L' R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' L' U L2 U L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11a-2",
+      "name": "L5E Yin/Yang Yin - 11A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "L U R' L' R U' L U L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11a-2",
+      "name": "L5E Yin/Yang Yang - 11A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "L U L' U' R U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11a-3",
+      "name": "L5E Yin/Yang Yang - 11A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U' L U L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11a-4",
+      "name": "L5E Yin/Yang Yang - 11A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11A",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' U' L U' L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11b-1",
+      "name": "L5E Yin/Yang Yin - 11B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' U R U L",
+      "alternatives": [
+        {
+          "notation": "L' U' R U R' U' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R' U R2 U R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11b-1",
+      "name": "L5E Yin/Yang Yang - 11B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U' R L' U' L R",
+      "alternatives": [
+        {
+          "notation": "L R U' R' L U' L2'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L' R L2 U' L' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11b-2",
+      "name": "L5E Yin/Yang Yin - 11B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' L' U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11b-2",
+      "name": "L5E Yin/Yang Yang - 11B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L R U R2' U' R",
+      "alternatives": [
+        {
+          "notation": "L U L' U' R' L R U' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "L R' U' R2 L R' L2'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11b-3",
+      "name": "L5E Yin/Yang Yin - 11B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U' R' U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-11b-3",
+      "name": "L5E Yin/Yang Yang - 11B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L2' U L R U' R'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-11b-4",
+      "name": "L5E Yin/Yang Yin - 11B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 11B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' L' U L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12a-1",
+      "name": "L5E Yin/Yang Yin - 12A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L R' U R2",
+      "alternatives": [
+        {
+          "notation": "L' U L' R U R' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L2 R L' R2' U R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12a-1",
+      "name": "L5E Yin/Yang Yang - 12A 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "R U L' U' L U R'",
+      "alternatives": [
+        {
+          "notation": "R L U' L' U' R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' L U' L2' U' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12a-2",
+      "name": "L5E Yin/Yang Yin - 12A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U L R' L' U R",
+      "alternatives": [
+        {
+          "notation": "R U R' L' U' L' U L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' L U L2' R' L R2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12a-2",
+      "name": "L5E Yin/Yang Yang - 12A 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' U R U R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12a-3",
+      "name": "L5E Yin/Yang Yin - 12A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U' R' L' U L",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12a-3",
+      "name": "L5E Yin/Yang Yang - 12A 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R' U L U' L'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12a-4",
+      "name": "L5E Yin/Yang Yang - 12A 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12A",
+      "puzzle": "Pyraminx",
+      "notation": "L U L' U R U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12b-1",
+      "name": "L5E Yin/Yang Yin - 12B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' R' U' R L",
+      "alternatives": [
+        {
+          "notation": "L' U R U' R' U L",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R U' R2' U' R L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12b-1",
+      "name": "L5E Yin/Yang Yang - 12B 1",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "R L R' L' R U R'",
+      "alternatives": [
+        {
+          "notation": "L' U L R' L' R L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12b-2",
+      "name": "L5E Yin/Yang Yin - 12B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U L' U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yang-12b-2",
+      "name": "L5E Yin/Yang Yang - 12B 2",
+      "set": "L5E Yin/Yang",
+      "subset": "Yang - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L R L' U R' U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12b-3",
+      "name": "L5E Yin/Yang Yin - 12B 3",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L U R' U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-l5e-yy-yin-12b-4",
+      "name": "L5E Yin/Yang Yin - 12B 4",
+      "set": "L5E Yin/Yang",
+      "subset": "Yin - 12B",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U R' U R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oll-2x2",
+  "name": "2x2 OLL",
+  "puzzle": "2x2",
+  "description": "Ortega OLL for 2x2 — 7 cases. Orients all pieces on the last layer of the 2x2 cube. Part of the Ortega method.",
+  "category": "last-layer",
+  "caseCount": 7,
+  "algorithms": [
+    {"id":"oll-2x2-1","name":"2x2 OLL Sune","set":"2x2 OLL","subset":"Sune","puzzle":"2x2","notation":"R U R' U R U2 R'","alternatives":[{"notation":"R U R2 U' R2 U R","moveCount":7,"votes":5},{"notation":"R U' L' U R' U' L","moveCount":7,"votes":2}],"moveCount":7,"setup":"","votes":40,"source":"speedcubedb"},
+    {"id":"oll-2x2-2","name":"2x2 OLL Anti Sune","set":"2x2 OLL","subset":"Anti Sune","puzzle":"2x2","notation":"R U2 R' U' R U' R'","alternatives":[{"notation":"y L' U' L U' L' U2 L","moveCount":7,"votes":9},{"notation":"y' R' U' R U' R' U2 R","moveCount":7,"votes":5}],"moveCount":7,"setup":"","votes":20,"source":"speedcubedb"},
+    {"id":"oll-2x2-3","name":"2x2 OLL Pi","set":"2x2 OLL","subset":"Pi","puzzle":"2x2","notation":"F R U R' U' R U R' U' F'","alternatives":[{"notation":"R U' R2 U R2 U R2 U' R","moveCount":9,"votes":12},{"notation":"R U2 R2 U' R2 U' R2 U2 R","moveCount":9,"votes":7}],"moveCount":10,"setup":"","votes":30,"source":"speedcubedb"},
+    {"id":"oll-2x2-4","name":"2x2 OLL P","set":"2x2 OLL","subset":"P","puzzle":"2x2","notation":"F R U R' U' F'","alternatives":[{"notation":"y2 F U R U' R' F'","moveCount":6,"votes":2}],"moveCount":6,"setup":"","votes":28,"source":"speedcubedb"},
+    {"id":"oll-2x2-5","name":"2x2 OLL L","set":"2x2 OLL","subset":"L","puzzle":"2x2","notation":"y F' R U R' U' R' F R","alternatives":[{"notation":"F R U' R' U' R U R' F'","moveCount":9,"votes":25},{"notation":"F R' F' R U R U' R'","moveCount":8,"votes":7}],"moveCount":8,"setup":"","votes":32,"source":"speedcubedb"},
+    {"id":"oll-2x2-6","name":"2x2 OLL T","set":"2x2 OLL","subset":"T","puzzle":"2x2","notation":"R U R' U' R' F R F'","alternatives":[{"notation":"R U2 R U2 R2","moveCount":5,"votes":1}],"moveCount":8,"setup":"","votes":34,"source":"speedcubedb"},
+    {"id":"oll-2x2-7","name":"2x2 OLL H","set":"2x2 OLL","subset":"H","puzzle":"2x2","notation":"R2 U2 R' U2 R2","alternatives":[{"notation":"R2 U2 R U2 R2","moveCount":5,"votes":13}],"moveCount":5,"setup":"","votes":33,"source":"speedcubedb"}
+  ]
+}

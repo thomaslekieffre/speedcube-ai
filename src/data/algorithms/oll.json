@@ -1,0 +1,1093 @@
+{
+  "id": "oll",
+  "name": "OLL",
+  "puzzle": "3x3",
+  "description": "Orientation of the Last Layer - 57 cases. These algorithms orient all last layer pieces so the top face is one color. Part of the CFOP method.",
+  "category": "last-layer",
+  "caseCount": 57,
+  "algorithms": [
+    {
+      "id": "oll-1",
+      "name": "OLL 1",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "R U2 R2 F R F' U2 R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y R U' R2 D' r U' r' D R2 U R'",
+          "moveCount": 11,
+          "votes": 34
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 140,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-2",
+      "name": "OLL 2",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y' R U' R2 D' r U r' D R2 U R'",
+      "alternatives": [
+        {
+          "notation": "F R U R' U' S R U R' U' f'",
+          "moveCount": 11,
+          "votes": 61
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 81,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-3",
+      "name": "OLL 3",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y R' F2 R2 U2 R' F R U2 R2 F2 R",
+      "alternatives": [
+        {
+          "notation": "r' R2 U R' U r U2 r' U M'",
+          "moveCount": 10,
+          "votes": 28
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 48,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-4",
+      "name": "OLL 4",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y' R' F2 R2 U2 R' F' R U2 R2 F2 R",
+      "alternatives": [
+        {
+          "notation": "y' f R U R' U' f' U F R U R' U' F'",
+          "moveCount": 13,
+          "votes": 26
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 40,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-5",
+      "name": "OLL 5",
+      "set": "OLL",
+      "subset": "Square Shapes",
+      "puzzle": "3x3",
+      "notation": "r' U2 R U R' U r",
+      "alternatives": [
+        {
+          "notation": "y2 l' U2 L U L' U l",
+          "moveCount": 7,
+          "votes": 35
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 76,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-6",
+      "name": "OLL 6",
+      "set": "OLL",
+      "subset": "Square Shapes",
+      "puzzle": "3x3",
+      "notation": "r U2 R' U' R U' r'",
+      "alternatives": [
+        {
+          "notation": "F U' R2 D R' U' R D' R2 U F'",
+          "moveCount": 11,
+          "votes": 3
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 84,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-7",
+      "name": "OLL 7",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "r U R' U R U2 r'",
+      "alternatives": [
+        {
+          "notation": "S' R U R' U R U2 R' U S",
+          "moveCount": 10,
+          "votes": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 74,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-8",
+      "name": "OLL 8",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "y2 r' U' R U' R' U2 r",
+      "alternatives": [
+        {
+          "notation": "l' U' L U' L' U2 l",
+          "moveCount": 7,
+          "votes": 46
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 49,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-9",
+      "name": "OLL 9",
+      "set": "OLL",
+      "subset": "Fish Shapes",
+      "puzzle": "3x3",
+      "notation": "y R U R' U' R' F R2 U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' S' R U' R' S",
+          "moveCount": 9,
+          "votes": 19
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 85,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-10",
+      "name": "OLL 10",
+      "set": "OLL",
+      "subset": "Fish Shapes",
+      "puzzle": "3x3",
+      "notation": "R U R' U R' F R F' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y F U F' R' F R U' R' F' R",
+          "moveCount": 10,
+          "votes": 16
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 57,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-11",
+      "name": "OLL 11",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "r' R2 U R' U R U2 R' U M'",
+      "alternatives": [
+        {
+          "notation": "y2 r U R' U R' F R F' R U2 r'",
+          "moveCount": 11,
+          "votes": 36
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 45,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-12",
+      "name": "OLL 12",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "y' M' R' U' R U' R' U2 R U' M",
+      "alternatives": [
+        {
+          "notation": "F R U R' U' F' U F R U R' U' F'",
+          "moveCount": 13,
+          "votes": 28
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 36,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-13",
+      "name": "OLL 13",
+      "set": "OLL",
+      "subset": "Knight Move Shapes",
+      "puzzle": "3x3",
+      "notation": "F U R U2 R' U' R U R' F'",
+      "alternatives": [
+        {
+          "notation": "F U R U' R2 F' R U R U' R'",
+          "moveCount": 11,
+          "votes": 40
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 43,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-14",
+      "name": "OLL 14",
+      "set": "OLL",
+      "subset": "Knight Move Shapes",
+      "puzzle": "3x3",
+      "notation": "R' F R U R' F' R F U' F'",
+      "alternatives": [
+        {
+          "notation": "r U R' U' r' F R2 U R' U' F'",
+          "moveCount": 11,
+          "votes": 28
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 55,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-15",
+      "name": "OLL 15",
+      "set": "OLL",
+      "subset": "Knight Move Shapes",
+      "puzzle": "3x3",
+      "notation": "r' U' r R' U' R U r' U r",
+      "alternatives": [
+        {
+          "notation": "y2 l' U' l L' U' L U l' U l",
+          "moveCount": 10,
+          "votes": 35
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 39,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-16",
+      "name": "OLL 16",
+      "set": "OLL",
+      "subset": "Knight Move Shapes",
+      "puzzle": "3x3",
+      "notation": "r U r' R U R' U' r U' r'",
+      "alternatives": [
+        {
+          "notation": "r U M U R' U' r U' r'",
+          "moveCount": 9,
+          "votes": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 74,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-17",
+      "name": "OLL 17",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y2 F R' F' R U S' R U' R' S",
+      "alternatives": [
+        {
+          "notation": "R U R' U R' F R F' U2 R' F R F'",
+          "moveCount": 13,
+          "votes": 57
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 50,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-18",
+      "name": "OLL 18",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y R U2 R2 F R F' U2 M' U R U' r'",
+      "alternatives": [
+        {
+          "notation": "y F S' R U' R' S R U2 R' U' F'",
+          "moveCount": 11,
+          "votes": 24
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 40,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-19",
+      "name": "OLL 19",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "y S' R U R' S U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "M U R U R' U' M' R' F R F'",
+          "moveCount": 11,
+          "votes": 36
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 50,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-20",
+      "name": "OLL 20",
+      "set": "OLL",
+      "subset": "Dot Case",
+      "puzzle": "3x3",
+      "notation": "r U R' U' M2 U R U' R' U' M'",
+      "alternatives": [
+        {
+          "notation": "M' U2 M U2 M' U M U2 M' U2 M",
+          "moveCount": 11,
+          "votes": 41
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 56,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-21",
+      "name": "OLL 21",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U' R' U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y R U2 R' U' R U R' U' R U' R'",
+          "moveCount": 11,
+          "votes": 48
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 76,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-22",
+      "name": "OLL 22",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "R U2 R2 U' R2 U' R2 U2 R",
+      "alternatives": [
+        {
+          "notation": "R' U2 R2 U R2 U R2 U2 R'",
+          "moveCount": 9,
+          "votes": 19
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 94,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-23",
+      "name": "OLL 23",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "R2 D R' U2 R D' R' U2 R'",
+      "alternatives": [
+        {
+          "notation": "y2 R2 D' R U2 R' D R U2 R",
+          "moveCount": 9,
+          "votes": 39
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 102,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-24",
+      "name": "OLL 24",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "r U R' U' r' F R F'",
+      "alternatives": [
+        {
+          "notation": "y' x' R U R' D R U' R' D' x",
+          "moveCount": 10,
+          "votes": 12
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 110,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-25",
+      "name": "OLL 25",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "R U2 R D R' U2 R D' R2",
+      "alternatives": [
+        {
+          "notation": "y F' r U R' U' r' F R",
+          "moveCount": 8,
+          "votes": 73
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 96,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-26",
+      "name": "OLL 26",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "y R U2 R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "R' U' R U' R' U2 R",
+          "moveCount": 7,
+          "votes": 42
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 79,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-27",
+      "name": "OLL 27",
+      "set": "OLL",
+      "subset": "OCLL",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' R' U2 R U R' U R",
+          "moveCount": 7,
+          "votes": 15
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 102,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-28",
+      "name": "OLL 28",
+      "set": "OLL",
+      "subset": "All Corners Oriented",
+      "puzzle": "3x3",
+      "notation": "r U R' U' M U R U' R'",
+      "alternatives": [
+        {
+          "notation": "R' F R S R' F' R S'",
+          "moveCount": 8,
+          "votes": 25
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 110,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-29",
+      "name": "OLL 29",
+      "set": "OLL",
+      "subset": "Awkward Shapes",
+      "puzzle": "3x3",
+      "notation": "r2 D' r U r' D r2 U' r' U' r",
+      "alternatives": [
+        {
+          "notation": "y R U R' U' R U' R' F' U' F R U R'",
+          "moveCount": 13,
+          "votes": 38
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 55,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-30",
+      "name": "OLL 30",
+      "set": "OLL",
+      "subset": "Awkward Shapes",
+      "puzzle": "3x3",
+      "notation": "y' r' D' r U' r' D r2 U' r' U r U r'",
+      "alternatives": [
+        {
+          "notation": "y2 F U R U2 R' U' R U2 R' U' F'",
+          "moveCount": 11,
+          "votes": 40
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 46,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-31",
+      "name": "OLL 31",
+      "set": "OLL",
+      "subset": "P Shapes",
+      "puzzle": "3x3",
+      "notation": "R' U' F U R U' R' F' R",
+      "alternatives": [
+        {
+          "notation": "y2 S' L' U' L U L F' L' f",
+          "moveCount": 9,
+          "votes": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 76,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-32",
+      "name": "OLL 32",
+      "set": "OLL",
+      "subset": "P Shapes",
+      "puzzle": "3x3",
+      "notation": "S R U R' U' R' F R f'",
+      "alternatives": [
+        {
+          "notation": "y2 L U F' U' L' U L F L'",
+          "moveCount": 9,
+          "votes": 20
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 70,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-33",
+      "name": "OLL 33",
+      "set": "OLL",
+      "subset": "T Shapes",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y2 L' U' L U L F' L' F",
+          "moveCount": 8,
+          "votes": 5
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 115,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-34",
+      "name": "OLL 34",
+      "set": "OLL",
+      "subset": "C Shapes",
+      "puzzle": "3x3",
+      "notation": "y f R f' U' r' U' R U M'",
+      "alternatives": [
+        {
+          "notation": "y2 R U R2 U' R' F R U R U' F'",
+          "moveCount": 11,
+          "votes": 53
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 77,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-35",
+      "name": "OLL 35",
+      "set": "OLL",
+      "subset": "Fish Shapes",
+      "puzzle": "3x3",
+      "notation": "R U2 R2 F R F' R U2 R'",
+      "alternatives": [
+        {
+          "notation": "f R U R' U' f' R U R' U R U2 R'",
+          "moveCount": 13,
+          "votes": 6
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 55,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-36",
+      "name": "OLL 36",
+      "set": "OLL",
+      "subset": "W Shapes",
+      "puzzle": "3x3",
+      "notation": "y R U R2 F' U' F U R2 U2 R'",
+      "alternatives": [
+        {
+          "notation": "y2 L' U' L U' L' U L U L F' L' F",
+          "moveCount": 12,
+          "votes": 51
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 56,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-37",
+      "name": "OLL 37",
+      "set": "OLL",
+      "subset": "Fish Shapes",
+      "puzzle": "3x3",
+      "notation": "F R' F' R U R U' R'",
+      "alternatives": [
+        {
+          "notation": "F R U' R' U' R U R' F'",
+          "moveCount": 9,
+          "votes": 69
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 77,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-38",
+      "name": "OLL 38",
+      "set": "OLL",
+      "subset": "W Shapes",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U' R' U' R' F R F'",
+      "alternatives": [
+        {
+          "notation": "y F R U' R' S U' R U R' f'",
+          "moveCount": 10,
+          "votes": 7
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 89,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-39",
+      "name": "OLL 39",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "y' R U R' F' U' F U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "y' f' r U r' U' r' F r S",
+          "moveCount": 9,
+          "votes": 44
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 46,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-40",
+      "name": "OLL 40",
+      "set": "OLL",
+      "subset": "Lightning Shapes",
+      "puzzle": "3x3",
+      "notation": "y R' F R U R' U' F' U R",
+      "alternatives": [
+        {
+          "notation": "y' f R' F' R U R U' R' S'",
+          "moveCount": 9,
+          "votes": 33
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 67,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-41",
+      "name": "OLL 41",
+      "set": "OLL",
+      "subset": "Awkward Shapes",
+      "puzzle": "3x3",
+      "notation": "y2 R U R' U R U2 R' F R U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "y2 F U R2 D R' U' R D' R2 F'",
+          "moveCount": 10,
+          "votes": 21
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 51,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-42",
+      "name": "OLL 42",
+      "set": "OLL",
+      "subset": "Awkward Shapes",
+      "puzzle": "3x3",
+      "notation": "R' U' R U' R' U2 R F R U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "y F S' R U R' U' F' U S",
+          "moveCount": 9,
+          "votes": 25
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 40,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-43",
+      "name": "OLL 43",
+      "set": "OLL",
+      "subset": "P Shapes",
+      "puzzle": "3x3",
+      "notation": "y R' U' F' U F R",
+      "alternatives": [
+        {
+          "notation": "y2 F' U' L' U L F",
+          "moveCount": 6,
+          "votes": 26
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 61,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-44",
+      "name": "OLL 44",
+      "set": "OLL",
+      "subset": "P Shapes",
+      "puzzle": "3x3",
+      "notation": "f R U R' U' f'",
+      "alternatives": [
+        {
+          "notation": "y2 F U R U' R' F'",
+          "moveCount": 6,
+          "votes": 67
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 70,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-45",
+      "name": "OLL 45",
+      "set": "OLL",
+      "subset": "T Shapes",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "y R' F' U' F U R",
+          "moveCount": 6,
+          "votes": 17
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 103,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-46",
+      "name": "OLL 46",
+      "set": "OLL",
+      "subset": "C Shapes",
+      "puzzle": "3x3",
+      "notation": "R' U' R' F R F' U R",
+      "alternatives": [
+        {
+          "notation": "R' F' U' F R U' R' U2 R",
+          "moveCount": 9,
+          "votes": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 75,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-47",
+      "name": "OLL 47",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "y' F R' F' R U2 R U' R' U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "F' L' U' L U L' U' L U F",
+          "moveCount": 10,
+          "votes": 37
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 38,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-48",
+      "name": "OLL 48",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' R U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "y2 f U R U' R' U R U' R' f'",
+          "moveCount": 10,
+          "votes": 6
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 67,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-49",
+      "name": "OLL 49",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "y2 r U' r2 U r2 U r2 U' r",
+      "alternatives": [
+        {
+          "notation": "l U' l2 U l2 U l2 U' l",
+          "moveCount": 9,
+          "votes": 14
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 59,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-50",
+      "name": "OLL 50",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "r' U r2 U' r2 U' r2 U r'",
+      "alternatives": [
+        {
+          "notation": "y2 R' F R2 B' R2 F' R2 B R'",
+          "moveCount": 9,
+          "votes": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 51,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-51",
+      "name": "OLL 51",
+      "set": "OLL",
+      "subset": "Line Shapes",
+      "puzzle": "3x3",
+      "notation": "y2 F U R U' R' U R U' R' F'",
+      "alternatives": [
+        {
+          "notation": "f R U R' U' R U R' U' f'",
+          "moveCount": 10,
+          "votes": 51
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 62,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-52",
+      "name": "OLL 52",
+      "set": "OLL",
+      "subset": "Line Shapes",
+      "puzzle": "3x3",
+      "notation": "y2 R' F' U' F U' R U R' U R",
+      "alternatives": [
+        {
+          "notation": "R U R' U R U' B U' B' R'",
+          "moveCount": 10,
+          "votes": 45
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 55,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-53",
+      "name": "OLL 53",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "r' U' R U' R' U R U' R' U2 r",
+      "alternatives": [
+        {
+          "notation": "y2 l' U' L U' L' U L U' L' U2 l",
+          "moveCount": 11,
+          "votes": 25
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 33,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-54",
+      "name": "OLL 54",
+      "set": "OLL",
+      "subset": "L Shapes",
+      "puzzle": "3x3",
+      "notation": "r U R' U R U' R' U R U2 r'",
+      "alternatives": [
+        {
+          "notation": "y' r U2 R' U' R U R' U' R U' r'",
+          "moveCount": 11,
+          "votes": 26
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 45,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-55",
+      "name": "OLL 55",
+      "set": "OLL",
+      "subset": "Line Shapes",
+      "puzzle": "3x3",
+      "notation": "y R' F U R U' R2 F' R2 U R' U' R",
+      "alternatives": [
+        {
+          "notation": "y R' F R U R U' R2 F' R2 U' R' U R U R'",
+          "moveCount": 15,
+          "votes": 32
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 50,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-56",
+      "name": "OLL 56",
+      "set": "OLL",
+      "subset": "Line Shapes",
+      "puzzle": "3x3",
+      "notation": "r U r' U R U' R' U R U' R' r U' r'",
+      "alternatives": [
+        {
+          "notation": "r U r' U R U' R' M' U R U2 r'",
+          "moveCount": 12,
+          "votes": 30
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 33,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "oll-57",
+      "name": "OLL 57",
+      "set": "OLL",
+      "subset": "All Corners Oriented",
+      "puzzle": "3x3",
+      "notation": "R U R' U' M' U R U' r'",
+      "alternatives": [
+        {
+          "notation": "y R U' R' S' R U R' S",
+          "moveCount": 8,
+          "votes": 12
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 94,
+      "source": "speedcubedb"
+    }
+  ]
+}

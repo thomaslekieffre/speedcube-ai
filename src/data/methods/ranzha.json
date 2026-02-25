@@ -1,0 +1,55 @@
+{
+  "id": "ranzha",
+  "name": "Ranzha",
+  "description": "The Ranzha method is an intermediate Skewb speedsolving technique created by Brandon Harnish. It emphasizes intuition-based solving rather than heavy algorithm reliance, making it a creative and flexible approach. The method builds on concepts from Sarah's method family and offers a balance between algorithmic and intuitive solving.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "First Face",
+      "description": "Solve a complete face of the Skewb intuitively. This establishes the base layer and provides reference points for the remaining solve.",
+      "moveCountRange": "3-6",
+      "tips": [
+        "Plan the first face during inspection for a fast start",
+        "Be color-neutral to find the easiest face to solve",
+        "Use efficient insertions — avoid unnecessary moves"
+      ]
+    },
+    {
+      "name": "Opposite Face Corners",
+      "description": "Solve or orient the corners of the opposite face using intuitive techniques. This step brings the top-layer corners into their correct positions relative to the solved first face.",
+      "moveCountRange": "3-5",
+      "tips": [
+        "Use intuitive understanding of how Skewb moves affect opposite-layer corners",
+        "Sledgehammer and anti-sledgehammer sequences are useful here",
+        "Predict the state of these corners during the first face step"
+      ]
+    },
+    {
+      "name": "Finish Centers and Alignment",
+      "description": "Complete the solve by aligning all remaining centers. This may involve short algorithmic sequences from the Sarah family or intuitive adjustments.",
+      "algorithmSets": ["Sarah", "Sarah's Advanced"],
+      "moveCountRange": "4-7",
+      "tips": [
+        "Familiarity with Sarah's algorithms speeds up this step",
+        "Some finishes can be done purely intuitively",
+        "Practice recognizing the center configurations quickly"
+      ]
+    }
+  ],
+  "pros": [
+    "Encourages intuitive understanding of the Skewb",
+    "Flexible solving approach with room for creativity",
+    "Builds naturally on Sarah method knowledge",
+    "Good balance of speed and low algorithm count"
+  ],
+  "cons": [
+    "Intuition-based steps have variable efficiency",
+    "Less structured than purely algorithmic methods",
+    "Documentation and tutorials are limited",
+    "May not be consistent enough for top-level competition"
+  ],
+  "notableUsers": ["Brandon Harnish"],
+  "relatedSets": ["Sarah", "Sarah's Advanced"],
+  "avgMoveCount": "12-18",
+  "creator": "Brandon Harnish"
+}

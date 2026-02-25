@@ -1,0 +1,55 @@
+{
+  "id": "lbl-2x2",
+  "name": "Layer by Layer (2x2)",
+  "description": "The beginner method for the 2x2 cube. It applies the same layer-by-layer logic used in beginner 3x3 methods but simplified for the 2x2. The solver first completes one layer (both face color and correct permutation), then orients the last layer corners, and finally permutes them. It requires very few algorithms and is the easiest way to learn to solve a 2x2.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Solve First Layer",
+      "description": "Solve one complete layer of the 2x2 cube. All four bottom pieces must be correctly oriented and positioned relative to each other. Start with one corner, then insert the remaining three corners one at a time using simple intuitive moves (R U R' or similar triggers).",
+      "moveCountRange": "5-10 moves",
+      "tips": [
+        "Start with a color you are comfortable with (usually white)",
+        "Insert corners one at a time",
+        "Use R U R' type moves to insert corners without disturbing solved ones",
+        "Plan the first two corners during inspection"
+      ]
+    },
+    {
+      "name": "Orient Last Layer Corners",
+      "description": "Orient the four top-layer corners so the top face is a solid color. Use the Sune algorithm (R U R' U R U2 R') repeatedly to twist corners into the correct orientation. This may need to be applied multiple times from different angles.",
+      "moveCountRange": "7-14 moves",
+      "tips": [
+        "Sune and its reverse (Antisune) are the main algorithms for this step",
+        "Count the number of correctly oriented top-face stickers to determine the case",
+        "This is identical to 3x3 beginner last layer corner orientation"
+      ]
+    },
+    {
+      "name": "Permute Last Layer Corners",
+      "description": "Move the top-layer corners into their correct positions while keeping their orientation. Use a corner-cycling algorithm to swap pieces into place. The typical algorithm is a variation of the A-perm or a simple corner 3-cycle.",
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "Check adjacent side stickers to determine if corners need swapping",
+        "A single permutation algorithm can solve all cases (applied 1-2 times)",
+        "Line up one correct corner first, then cycle the remaining three"
+      ]
+    }
+  ],
+  "pros": [
+    "Very easy to learn with only 2-3 algorithms",
+    "Uses the same logic as beginner 3x3 methods",
+    "Great for absolute beginners",
+    "No complex recognition required",
+    "Good foundation for understanding the 2x2"
+  ],
+  "cons": [
+    "Very slow compared to Ortega, CLL, or EG",
+    "High move count for a 2x2 method",
+    "Three-step last layer is inefficient",
+    "No competitive potential"
+  ],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "18-30"
+}

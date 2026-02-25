@@ -1,0 +1,56 @@
+{
+  "id": "sarah-beginner",
+  "name": "Sarah's Beginner Method (Skewb)",
+  "description": "The standard beginner method for Skewb, created by Sarah Strong. This method breaks the Skewb solve into simple, manageable steps using very few algorithms. The solver first solves one face, then positions the remaining centers, and finally solves the last layer. It is the most recommended starting method for Skewb beginners and is widely taught in tutorials.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Solve First Face (Bottom)",
+      "description": "Solve one face of the Skewb completely. Place the center on the bottom and then solve the four corners of that face so they all match the center color. This is done intuitively using basic Skewb moves (sledgehammer: R' L R L').",
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Start with whichever color is easiest",
+        "The sledgehammer (R' L R L') is your main tool",
+        "Practice solving the face from different starting positions",
+        "Plan during inspection"
+      ]
+    },
+    {
+      "name": "Solve Remaining Centers",
+      "description": "Position the four remaining centers (top and four sides) into their correct locations. Use the sledgehammer move and its inverse to cycle centers without disturbing the solved bottom face. After this step, all five remaining centers are solved.",
+      "moveCountRange": "3-8 moves",
+      "tips": [
+        "Use the sledgehammer from different angles to move centers",
+        "Keep the solved face on the bottom throughout",
+        "This step is semi-intuitive with one key algorithm"
+      ]
+    },
+    {
+      "name": "Solve Last Layer Corners",
+      "description": "Position and orient the four remaining top-layer corners to complete the Skewb. This uses a simple corner-twisting algorithm applied from different angles. The main algorithm is a 4-move sequence (sledgehammer) applied repeatedly.",
+      "algorithmSets": ["Sarah"],
+      "moveCountRange": "4-12 moves",
+      "tips": [
+        "The sledgehammer solves corners through repeated application",
+        "Set up the corners so the algorithm places them correctly",
+        "There are only a few cases to recognize"
+      ]
+    }
+  ],
+  "pros": [
+    "Very easy to learn — only 1-2 algorithms needed",
+    "Widely taught with many tutorials available",
+    "Good introduction to Skewb mechanics",
+    "Intuitive steps build understanding of the puzzle"
+  ],
+  "cons": [
+    "Slow compared to intermediate and advanced methods",
+    "High move count",
+    "Last layer corners step can be repetitive",
+    "Not competitive for speedcubing"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["Sarah"],
+  "avgMoveCount": "15-25",
+  "creator": "Sarah Strong"
+}

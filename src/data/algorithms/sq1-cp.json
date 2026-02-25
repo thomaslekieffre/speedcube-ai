@@ -1,0 +1,134 @@
+{
+  "id": "sq1-cp",
+  "name": "SQ1 CP",
+  "puzzle": "Square-1",
+  "description": "Corner Permutation algorithms for Square-1 - 8 cases. These algorithms permute the corners after orientation is complete.",
+  "category": "permutation",
+  "caseCount": 8,
+  "algorithms": [
+    {
+      "id": "sq1-cp-1",
+      "name": "Adj / Solved",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ -3,3 / 3,0 / 0,-3 / 0,3 / 0,-3 /",
+      "alternatives": [
+        { "notation": "/ 3,-3 / -3,0 / 0,3 / 0,-3 / 0,3 /", "moveCount": 12, "votes": 3 }
+      ],
+      "moveCount": 12,
+      "setup": "/ 0,-3 / 0,3 / 0,-3 / 3,0 / -3,3 /",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-2",
+      "name": "Opp / Solved",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ 3,3 / -3,0 / 3,3 / -3,0 / 3,3 /",
+      "alternatives": [
+        { "notation": "/ -3,-3 / 3,0 / -3,-3 / 3,0 / -3,-3 /", "moveCount": 12, "votes": 0 },
+        { "notation": "/ -3,-3 / -3,0 / -3,-3 / -3,0 / -3,-3 /", "moveCount": 12, "votes": 0 },
+        { "notation": "/ 3,3 / -3,0 / 3,3 / -3,0 / 3,3 /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "/ 3,3 / -3,0 / 3,3 / -3,0 / 3,3 /",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-3",
+      "name": "Solved / Adj",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ -3,3 / 0,-3 / 3,0 / -3,0 / 3,0 /",
+      "alternatives": [
+        { "notation": "/ 3,-3 / 0,3 / -3,0 / 3,0 / -3,0 /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "/ 3,0 / -3,0 / 3,0 / 0,-3 / -3,3 /",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-4",
+      "name": "Solved / Opp",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ 3,3 / 0,3 / 3,3 / 0,3 / 3,3 /",
+      "alternatives": [
+        { "notation": "/ -3,-3 / 0,-3 / -3,-3 / 0,-3 / -3,-3 /", "moveCount": 12, "votes": 0 },
+        { "notation": "/ 3,3 / 0,-3 / 3,3 / 0,-3 / 3,3 /", "moveCount": 12, "votes": 0 },
+        { "notation": "/ -3,-3 / 0,3 / -3,-3 / 0,3 / -3,-3 /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "/ 3,3 / 0,3 / 3,3 / 0,3 / 3,3 /",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-5",
+      "name": "Adj / Adj",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ -3,0 / 3,3 / 0,-3 /",
+      "alternatives": [
+        { "notation": "/ 0,-3 / 3,3 / -3,0 /", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "/ 0,-3 / 3,3 / -3,0 /",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-6",
+      "name": "Opp / Adj",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ 3,0 / -3,0 / 3,0 / -3,0 /",
+      "alternatives": [
+        { "notation": "/ -3,0 / 3,0 / -3,0 / 3,0 /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "/ 3,0 / -3,0 / 3,0 / -3,0 /",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-7",
+      "name": "Adj / Opp",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ 0,-3 / 0,3 / 0,-3 / 0,3 /",
+      "alternatives": [
+        { "notation": "/ 0,3 / 0,-3 / 0,3 / 0,-3 /", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "/ 0,3 / 0,-3 / 0,3 / 0,-3 /",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-cp-8",
+      "name": "Opp / Opp",
+      "set": "SQ1 CP",
+      "subset": "CP",
+      "puzzle": "Square-1",
+      "notation": "/ -3,3 / 3,-3 /",
+      "alternatives": [
+        { "notation": "/ 3,-3 / -3,3 /", "moveCount": 6, "votes": 1 }
+      ],
+      "moveCount": 6,
+      "setup": "/ 3,-3 / -3,3 /",
+      "votes": 2,
+      "source": "speedcubedb"
+    }
+  ]
+}

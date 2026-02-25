@@ -1,0 +1,73 @@
+{
+  "id": "yau5",
+  "name": "Yau5",
+  "description": "Yau5 is the 5x5 adaptation of the Yau method, designed for efficient speedsolving on the 5x5 Rubik's cube. It begins by solving two opposite centers, then three cross edge triplets, followed by the remaining centers, edge pairing, and finally a CFOP-based 3x3 stage. This order allows for better lookahead and more efficient edge pairing compared to standard reduction.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Solve 2 Opposite Centers",
+      "description": "Solve two opposite centers (typically white and yellow, or D and U). These serve as anchors for the rest of the solve and provide orientation reference.",
+      "moveCountRange": "10-16",
+      "tips": [
+        "Plan the first center during inspection if possible",
+        "Solve both centers efficiently using slice moves",
+        "Choose the two easiest opposite centers to start with"
+      ]
+    },
+    {
+      "name": "Solve 3 Cross Edge Triplets",
+      "description": "Pair and solve three of the four cross dedge triplets (three-piece edge groups). These are placed into their correct positions relative to the solved centers, partially forming the 3x3 cross.",
+      "moveCountRange": "15-25",
+      "tips": [
+        "Look for pre-formed pairs to save moves",
+        "Use freestyle edge pairing techniques",
+        "Place edges relative to the solved centers for correct cross positioning"
+      ]
+    },
+    {
+      "name": "Solve Remaining Centers",
+      "description": "Solve the four remaining centers without disturbing the already-solved centers and cross edges. This requires careful use of commutators and slice sequences.",
+      "moveCountRange": "20-30",
+      "tips": [
+        "Use the unsolved cross edge slot for freedom of movement",
+        "Plan center solutions to avoid breaking paired edges",
+        "Practice common center commutators for efficiency"
+      ]
+    },
+    {
+      "name": "Edge Pairing",
+      "description": "Pair all remaining edge triplets, including the last cross edge. This step uses slice-flip-slice and freestyle techniques to create fully paired dedges, reducing the puzzle to a 3x3 state.",
+      "moveCountRange": "30-45",
+      "tips": [
+        "Pair the last cross edge early in this phase",
+        "Use 3-2-3 edge pairing for the last edges",
+        "Lookahead during pairing significantly reduces solve time"
+      ]
+    },
+    {
+      "name": "CFOP 3x3 Stage",
+      "description": "Solve the now-reduced 3x3 cube using CFOP. The cross is mostly complete from earlier steps, so finish F2L, OLL, and PLL as normal.",
+      "algorithmSets": ["F2L", "OLL", "PLL"],
+      "moveCountRange": "45-55",
+      "tips": [
+        "The cross should only need 1-2 moves to complete",
+        "Watch for OLL and PLL parity cases specific to big cubes",
+        "Strong CFOP fundamentals directly improve 5x5 times"
+      ]
+    }
+  ],
+  "pros": [
+    "Better lookahead than standard reduction for 5x5",
+    "Early cross edges allow smoother transition to 3x3 stage",
+    "Used by many top 5x5 solvers worldwide",
+    "Natural extension of Yau4 knowledge"
+  ],
+  "cons": [
+    "Complex edge pairing with triplets instead of pairs",
+    "Remaining centers step can be inefficient if not practiced",
+    "Parity algorithms add time to some solves",
+    "Inspection planning is limited due to puzzle complexity"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL", "F2L"]
+}

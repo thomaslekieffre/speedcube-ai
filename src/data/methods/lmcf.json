@@ -1,0 +1,33 @@
+{
+  "id": "lmcf",
+  "name": "LMCF (Low Movecount Corners First)",
+  "description": "LMCF (Low Movecount Corners First) is a corners-first method optimized for minimal move count. It solves all eight corners first, then places the E-layer edges (E2L), and finishes with the last five or six edges (L5E/L6E). Unlike the classic Waterman corners-first approach, LMCF uses modern techniques to achieve an impressively low move count while remaining relatively accessible. It is popular among cubers interested in efficient solving without heavy algorithm memorization.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve All Corners",
+      "description": "Solve all eight corners of the cube. This typically involves solving the first layer corners intuitively, then using CLL or Ortega-style techniques to orient and permute the last layer corners.",
+      "algorithmSets": ["CLL"],
+      "moveCountRange": "10-15 moves",
+      "tips": ["First layer corners can be solved intuitively", "CLL handles the last layer corners in one step", "Practice fast corner recognition", "Solving corners first gives a unique cube perspective"]
+    },
+    {
+      "name": "E2L (Equator Two Layers / E-slice Edges)",
+      "description": "Place the four equatorial (E-slice / middle layer) edges into their correct positions. With all corners solved, these edges can be inserted using M and U moves without disturbing the corners.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Use M and U moves to cycle edges into position", "Preserve corner positions throughout", "Track all four E-slice edges before starting"]
+    },
+    {
+      "name": "L5E / L6E (Last 5 or 6 Edges)",
+      "description": "Solve the remaining five or six edges (depending on whether one edge was solved during E2L). This step uses M and U moves to orient and permute the remaining edges, completing the solve.",
+      "algorithmSets": ["ELL"],
+      "moveCountRange": "12-18 moves",
+      "tips": ["Edge orientation should be tracked from earlier steps", "M U generators can solve most cases", "Break into sub-steps: orient edges, then permute", "L5E is similar to LSE in Roux but with different constraints"]
+    }
+  ],
+  "pros": ["Low move count (~35-45 moves)", "Fewer algorithms than CFOP", "Corners-first gives unique cube understanding", "Ergonomic M and U moves in later steps", "Good introduction to corners-first solving"],
+  "cons": ["Corners-first thinking is unfamiliar to most solvers", "L5E/L6E can be slow without practice", "Not competitive for top-level speedsolving", "Limited resources compared to mainstream methods", "Edge steps require good M-slice fluency"],
+  "notableUsers": [],
+  "relatedSets": ["CLL", "ELL"],
+  "avgMoveCount": "35-45"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "sq1-co",
+  "name": "SQ1 CO",
+  "puzzle": "Square-1",
+  "description": "Corner Orientation algorithms for Square-1 - 7 cases. These algorithms orient the corners after cubeshape is solved.",
+  "category": "orientation",
+  "caseCount": 7,
+  "algorithms": [
+    {
+      "id": "sq1-co-1",
+      "name": "2-2",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -1,0",
+      "alternatives": [],
+      "moveCount": 3,
+      "setup": "1,0 / -1,0",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-2",
+      "name": "3-1",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,0 / -1,0",
+      "alternatives": [
+        { "notation": "1,0 / -3,0 / -1,0", "moveCount": 5, "votes": 0 },
+        { "notation": "1,0 / 0,3 / -1,0", "moveCount": 5, "votes": 0 },
+        { "notation": "1,0 / 0,-3 / -1,0", "moveCount": 5, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "1,0 / -3,0 / -1,0",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-3",
+      "name": "Opp / Opp",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,3 / -1,0",
+      "alternatives": [
+        { "notation": "1,0 / -3,-3 / -1,0", "moveCount": 5, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "1,0 / -3,-3 / -1,0",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-4",
+      "name": "Adj / Opp",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 0,3 / 0,3 / -1,0",
+      "alternatives": [
+        { "notation": "1,0 / 0,-3 / 0,-3 / 1,0", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "1,0 / 0,-3 / 0,-3 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-5",
+      "name": "Opp / Adj",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -3,0 / -3,0 / -1,0",
+      "alternatives": [
+        { "notation": "1,0 / 3,0 / 3,0 / -1,0", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "1,0 / -3,0 / -3,0 / -1,0",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-6",
+      "name": "1-3",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,6 / -1,0",
+      "alternatives": [
+        { "notation": "1,0 / -3,6 / -1,0", "moveCount": 5, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "1,0 / -3,-6 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-co-7",
+      "name": "0-4",
+      "set": "SQ1 CO",
+      "subset": "CO",
+      "puzzle": "Square-1",
+      "notation": "/ 6,6 / -1,1",
+      "alternatives": [],
+      "moveCount": 5,
+      "setup": "1,-1 / -6,-6",
+      "votes": 1,
+      "source": "speedcubedb"
+    }
+  ]
+}

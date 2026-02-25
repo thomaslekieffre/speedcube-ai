@@ -1,0 +1,79 @@
+{
+  "id": "lbl-mega",
+  "name": "Layer by Layer (Megaminx)",
+  "description": "The standard method for solving the Megaminx, applying layer-by-layer logic to the dodecahedral puzzle. Like the 3x3 LBL method but adapted for 12 faces instead of 6, the solver works from one face down to the opposite face, solving one layer of faces at a time. The method involves solving the first face, then the surrounding star and edges, working through the middle layers, and finally handling the last face. Most Megaminx solvers use some variation of LBL, making it the foundation of Megaminx solving.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve First Face (Star + Corners)",
+      "description": "Solve the first face of the Megaminx completely — the center is fixed, so solve the five edges (forming a star) and five corners. This is done intuitively by inserting edges and then corners, similar to solving the first layer of a 3x3.",
+      "moveCountRange": "20-30 moves",
+      "tips": [
+        "Start with whichever face has the most pieces already in place",
+        "Solve the star (edges) first, then insert corners",
+        "Use R U R' type moves adapted for the Megaminx's pentagonal faces",
+        "Plan as much as possible during inspection"
+      ]
+    },
+    {
+      "name": "Solve Adjacent Faces (First Two Layers Equivalent)",
+      "description": "Solve the five faces adjacent to the first face by inserting edge-corner pairs, similar to F2L on a 3x3. Work around the Megaminx, solving the band of five faces one at a time. Each face requires placing its edges and corners relative to the already-solved portions.",
+      "moveCountRange": "50-80 moves",
+      "tips": [
+        "Work systematically around the Megaminx",
+        "Use keyhole techniques when possible",
+        "Pay attention to which slot you are filling to avoid disturbing solved pieces",
+        "This step takes the most time — practice efficiency"
+      ]
+    },
+    {
+      "name": "Solve Middle Layer Edges",
+      "description": "Place the remaining edges in the equatorial region and middle layers. Use edge-insertion algorithms to place edges without disturbing the solved top half. This is similar to middle-layer edge insertion on a 3x3.",
+      "moveCountRange": "30-50 moves",
+      "tips": [
+        "Work from the top down toward the last face",
+        "Use the unsolved bottom area as a working space",
+        "Keep track of which edges still need placing"
+      ]
+    },
+    {
+      "name": "Last Face Edges (Star)",
+      "description": "Solve the five edges of the last face to form a star. This involves orienting and then permuting the last five edges. Algorithms similar to 3x3 last layer edge techniques are used but adapted for five edges.",
+      "algorithmSets": ["Megaminx EO", "Megaminx EP"],
+      "moveCountRange": "10-20 moves",
+      "tips": [
+        "Orient edges first (flip them so the correct color faces up)",
+        "Then permute edges into their correct positions",
+        "Five-edge cycles are common"
+      ]
+    },
+    {
+      "name": "Last Face Corners",
+      "description": "Solve the five corners of the last face by orienting and then permuting them. This completes the Megaminx. Corner orientation uses Sune-type algorithms, and permutation uses corner-cycling algorithms.",
+      "algorithmSets": ["Megaminx CO", "Megaminx CP"],
+      "moveCountRange": "10-25 moves",
+      "tips": [
+        "Orient corners first, then permute",
+        "Sune and anti-Sune work for corner orientation",
+        "Corner 3-cycles handle permutation",
+        "This step is very similar to 3x3 last layer corners"
+      ]
+    }
+  ],
+  "pros": [
+    "Most intuitive approach to the Megaminx",
+    "Uses familiar 3x3 techniques adapted for the Megaminx",
+    "Clear step-by-step progression",
+    "Well-documented with many tutorials",
+    "Foundation for all Megaminx solving"
+  ],
+  "cons": [
+    "High total move count due to the puzzle's complexity",
+    "Many pieces make the solve long (2-5 minutes typical)",
+    "Last layer can be slow with basic algorithms",
+    "Requires patience and good piece tracking"
+  ],
+  "notableUsers": ["Juan Pablo Huanqui", "Amos Nordman"],
+  "relatedSets": ["Megaminx OLL", "Megaminx PLL", "Megaminx CO", "Megaminx CP", "Megaminx EO", "Megaminx EP"],
+  "avgMoveCount": "130-200"
+}

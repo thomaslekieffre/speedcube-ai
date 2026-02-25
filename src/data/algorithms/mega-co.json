@@ -1,0 +1,230 @@
+{
+  "id": "mega-co",
+  "name": "Megaminx CO",
+  "puzzle": "Megaminx",
+  "description": "Megaminx Corner Orientation - 16 algorithms for orienting corners on the last layer of the Megaminx.",
+  "category": "Orientation",
+  "caseCount": 16,
+  "algorithms": [
+    {
+      "id": "mega-co-1",
+      "name": "CO 1",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R U R' U2' R U' R'",
+      "alternatives": [{"notation": "y2' R2' DR' R U2 R' DR R U2' R", "moveCount": 10, "votes": 0}],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 9,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-2",
+      "name": "CO 2",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "F R U2 R' U' R U' R' F'",
+      "alternatives": [
+        {"notation": "y2' R BR R' F R BR' R' F'", "moveCount": 9, "votes": 3},
+        {"notation": "y' R U R U2 R' U' R U' R' U' R'", "moveCount": 11, "votes": 1}
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-3",
+      "name": "CO 3",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U R U2 R'",
+      "alternatives": [
+        {"notation": "y' R U2' R' U' R U2' R'", "moveCount": 7, "votes": 0},
+        {"notation": "L' U2' L U' L' U2' L", "moveCount": 7, "votes": 0}
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-4",
+      "name": "CO 4",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U' R' F R U R U' R' F'",
+      "alternatives": [
+        {"notation": "F R' F' L F R F' L'", "moveCount": 8, "votes": 0},
+        {"notation": "R' F R BR' R' F' R BR", "moveCount": 8, "votes": 0}
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-5",
+      "name": "CO 5",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R U2' R'",
+      "alternatives": [{"notation": "y2 L U' R' U L' U' R U", "moveCount": 8, "votes": 0}],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-6",
+      "name": "CO 6",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R' U' R U' R' U2 R",
+      "alternatives": [{"notation": "y2 L' U' L U' L' U2 L", "moveCount": 7, "votes": 0}],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-7",
+      "name": "CO 7",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U' R'",
+      "alternatives": [{"notation": "y' R' F R F' L F R' F' R L'", "moveCount": 10, "votes": 0}],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-8",
+      "name": "CO 8",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R U2 R'",
+      "alternatives": [
+        {"notation": "y L' U2' L U L' U L", "moveCount": 7, "votes": 0},
+        {"notation": "y' R' L F R F' L' F R' F' R", "moveCount": 10, "votes": 0}
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-9",
+      "name": "CO 9",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U R' U' R U' R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-10",
+      "name": "CO 10",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R U' R' U R U2' R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-11",
+      "name": "CO 11",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R U R' U' R U2' R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-12",
+      "name": "CO 12",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U' R2' U' R U' R' U2 R",
+      "alternatives": [{"notation": "R U2' R' U2' R U2 R' U2' R U' R'", "moveCount": 11, "votes": 0}],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-13",
+      "name": "CO 13",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R2' U' R2 U' R2' U2 R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-14",
+      "name": "CO 14",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R' U2' R2 U R2' U R2 U2' R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-15",
+      "name": "CO 15",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U2 R U2' R' U R U2' R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-co-16",
+      "name": "CO 16",
+      "set": "Megaminx CO",
+      "subset": "Corner Orientation",
+      "puzzle": "Megaminx",
+      "notation": "R U2 R' U' R U2 R' U2' R U' R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "waterman",
+  "name": "Waterman (Corners First)",
+  "description": "A corners-first method developed by Marc Waterman in 1981. Unlike most modern methods that build layers or blocks, Waterman solves all corners first, then uses M-slice and U moves to solve the remaining edges. It was one of the fastest methods of its era and remains a fascinating alternative approach to the cube. The method rewards strong understanding of corner permutation and edge manipulation.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "First Layer Corners",
+      "description": "Solve all four corners of the first layer (typically the bottom layer). This can be done intuitively or with short algorithms.",
+      "moveCountRange": "5-8 moves",
+      "tips": ["Plan corner placement during inspection", "Use color neutrality to find easy cases", "Practice intuitive corner insertion"]
+    },
+    {
+      "name": "Last Layer Corners",
+      "description": "Solve all four corners of the last layer while preserving the first layer corners. This involves orienting and permuting the U-layer corners.",
+      "algorithmSets": ["CLL"],
+      "moveCountRange": "7-11 moves",
+      "tips": ["CLL algorithms solve orientation and permutation simultaneously", "Learn to recognize corner cases quickly", "42 CLL algorithms cover all cases"]
+    },
+    {
+      "name": "Edge Orientation",
+      "description": "Orient all twelve edges so they can be solved without F or B moves. This step ensures the remaining solve uses only M, U, and slice moves.",
+      "moveCountRange": "3-6 moves",
+      "tips": ["Identify bad edges quickly", "This step is similar to EO in ZZ and Petrus", "Usually only a few edges need flipping"]
+    },
+    {
+      "name": "Last Layer Edges",
+      "description": "Place the four edges of the last layer into their correct positions using M and U moves.",
+      "algorithmSets": ["ELL"],
+      "moveCountRange": "6-10 moves",
+      "tips": ["ELL algorithms handle all edge-only last layer cases", "Recognition is based on edge positions relative to solved corners", "29 ELL algorithms total"]
+    },
+    {
+      "name": "Middle and First Layer Edges",
+      "description": "Solve the remaining eight edges (four middle layer, four first layer) using M and U moves. Since edges are oriented, this step is efficient and ergonomic.",
+      "moveCountRange": "10-15 moves",
+      "tips": ["Use M and U generators to cycle edges into place", "Plan ahead to avoid disrupting solved edges", "This step can be broken into sub-steps for easier learning"]
+    }
+  ],
+  "pros": ["Unique solving perspective teaches deep cube understanding", "Low move count (~40-50 moves)", "Ergonomic M and U slice moves in later steps", "Historically significant method"],
+  "cons": ["Very few modern resources or tutorials", "Corner-first approach feels unintuitive to most solvers", "Difficult to plan ahead due to non-standard order", "Not competitive with modern methods for speedsolving"],
+  "notableUsers": ["Marc Waterman", "Daan Krammer"],
+  "relatedSets": ["CLL", "ELL"],
+  "avgMoveCount": "40-50",
+  "yearCreated": 1981,
+  "creator": "Marc Waterman"
+}

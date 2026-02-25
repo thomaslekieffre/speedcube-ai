@@ -1,0 +1,56 @@
+{
+  "id": "sarah-intermediate",
+  "name": "Sarah's Intermediate Method (Skewb)",
+  "description": "The intermediate-level Skewb method by Sarah Strong, building upon the beginner method. This method solves a face on the first layer, then uses a more efficient approach for the remaining pieces by solving the top face and then finishing with a permutation step. It introduces a few more algorithms but significantly reduces solve times compared to the beginner method. It is the standard progression path for Skewb solvers before learning advanced one-look techniques.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve First Face (Layer)",
+      "description": "Solve one face of the Skewb and ensure the adjacent centers are also correctly placed. This is similar to the beginner method but with more emphasis on also getting the centers correct in fewer moves. The bottom face corners and adjacent center pieces should all be solved.",
+      "moveCountRange": "3-6 moves",
+      "tips": [
+        "Plan the entire first face during inspection",
+        "Be color-neutral to choose the easiest starting face",
+        "Use efficient sledgehammer sequences",
+        "Aim to also influence center placement while solving the face"
+      ]
+    },
+    {
+      "name": "Orient Top Face Corners",
+      "description": "Orient the four top corners so the top face is one solid color. This is done using a set of algorithms similar to OLL on a 3x3. The Skewb has fewer cases than a cube, making this step manageable.",
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Learn to recognize the top face orientation patterns",
+        "There are approximately 5-6 orientation cases",
+        "Some cases can be solved with a single sledgehammer"
+      ]
+    },
+    {
+      "name": "Permute Top Corners and Remaining Centers",
+      "description": "Permute the top corners and any remaining misplaced centers to solve the Skewb completely. This step uses permutation algorithms to move the final pieces into place without disturbing the oriented faces.",
+      "algorithmSets": ["Sarah"],
+      "moveCountRange": "3-8 moves",
+      "tips": [
+        "Recognize permutation cases by looking at side sticker colors",
+        "There are about 4-5 permutation cases",
+        "Practice smooth algorithm execution for speed"
+      ]
+    }
+  ],
+  "pros": [
+    "Significant speed improvement over beginner method",
+    "Moderate algorithm count (approximately 10-12 total)",
+    "Clear progression from beginner Skewb method",
+    "Sub-5 times achievable with practice"
+  ],
+  "cons": [
+    "Not as fast as advanced one-look methods",
+    "More algorithms than the beginner method",
+    "Two-step last layer is inherently slower than one-look",
+    "Less popular than the beginner or advanced methods"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["Sarah"],
+  "avgMoveCount": "12-18",
+  "creator": "Sarah Strong"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "petrus",
+  "name": "Petrus",
+  "description": "One of the earliest speedcubing methods, based on blockbuilding. Solves a 2x2x2 block, expands it, then finishes with fewer algorithms than CFOP.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "2x2x2 Block",
+      "description": "Build a 2x2x2 block in any corner of the cube.",
+      "moveCountRange": "4-7 moves",
+      "tips": ["Plan during inspection", "Color neutrality helps", "Multiple solutions exist for each case"]
+    },
+    {
+      "name": "2x2x3 Block",
+      "description": "Expand the 2x2x2 block into a 2x2x3 block.",
+      "moveCountRange": "7-9 moves",
+      "tips": ["Look for efficient expansions", "Minimize rotations", "Track pieces carefully"]
+    },
+    {
+      "name": "Edge Orientation",
+      "description": "Orient the remaining bad edges while preserving the 2x2x3 block.",
+      "moveCountRange": "3-5 moves",
+      "tips": ["Learn to recognize bad edges", "Usually 0-4 bad edges remain", "Quick step once mastered"]
+    },
+    {
+      "name": "F2L Completion",
+      "description": "Complete the first two layers using the oriented edges advantage.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Edges already oriented makes this smoother", "Block-build the remaining pairs"]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer with oriented edges (similar to ZZ last layer).",
+      "moveCountRange": "12-15 moves",
+      "tips": ["Can use COLL + EPLL", "Or standard OLL + PLL"]
+    }
+  ],
+  "pros": ["Low move count", "Deep understanding of cube mechanics", "Edge orientation advantage", "Good for FMC"],
+  "cons": ["Not as fast as CFOP for speedsolving", "Block building is slow at first", "Limited modern resources", "Higher skill floor"],
+  "notableUsers": ["Lars Petrus"],
+  "relatedSets": ["OLL", "PLL"],
+  "avgMoveCount": "45-55",
+  "yearCreated": 1981,
+  "creator": "Lars Petrus"
+}

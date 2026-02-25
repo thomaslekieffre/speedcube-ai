@@ -1,0 +1,70 @@
+{
+  "id": "fmc-blockbuilding",
+  "name": "FMC Blockbuilding",
+  "description": "The foundational approach for Fewest Moves Challenge (FMC) solving. FMC Blockbuilding involves constructing blocks of solved pieces (typically 2x2x2 and 2x2x3 blocks) using efficient move sequences, then extending these blocks to complete the solve in as few moves as possible. Unlike speedcubing methods that prioritize speed, FMC blockbuilding prioritizes move efficiency above all else. Solvers search for lucky cases, use NISS, insertions, and other FMC techniques in combination with blockbuilding. This is the core strategy used by virtually all competitive FMC solvers.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Find 2x2x2 Block",
+      "description": "Search for an efficient way to build a 2x2x2 block (one corner and three adjacent edges plus their connecting pieces). Try multiple starting moves and orientations to find a block that can be built in very few moves (ideally 3-5). This is a brute-force search through many possible starting sequences.",
+      "moveCountRange": "3-6 moves",
+      "tips": [
+        "Try many different starting moves (R, F, U, etc.) and check for easy blocks",
+        "Look for pre-existing pairs or pseudo-pairs in the scramble",
+        "Do not commit to the first block you find — search for alternatives",
+        "Checking the inverse scramble often reveals easier blocks (NISS)"
+      ]
+    },
+    {
+      "name": "Extend to 2x2x3 Block",
+      "description": "Extend the 2x2x2 block into a 2x2x3 block by adding one additional edge and one corner-edge pair. This larger block solves a 2x2x3 section of the cube. Search for the most efficient extension, trying different approaches and move sequences.",
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Look for pieces that are already near the 2x2x2 block",
+        "Try extending in different directions (height vs width)",
+        "Keyhole techniques can save moves during extension",
+        "Consider switching to the inverse scramble (NISS) for easier extensions"
+      ]
+    },
+    {
+      "name": "F2L Minus Slot (Leave One Slot)",
+      "description": "Solve the first two layers except for one corner-edge slot. This leaves a 'skeleton' that is almost complete. Solving this step efficiently often requires creative blockbuilding, pair insertions, and pseudo-block techniques. The unsolved slot gives flexibility for the next step.",
+      "moveCountRange": "5-10 moves",
+      "tips": [
+        "Leave the slot that allows the best continuation for the last layer",
+        "Pseudo-blocks (blocks that are correct modulo an AUF) are very useful",
+        "This is where creativity and search depth matter most",
+        "Try multiple approaches and compare move counts"
+      ]
+    },
+    {
+      "name": "Complete F2L and Solve Last Layer",
+      "description": "Finish the last F2L slot and solve the last layer. In FMC, this is often done by finding a 'skeleton' — a sequence that solves everything except a few pieces (typically a 3-cycle of corners or edges). Then use insertions to solve the remaining pieces within the existing skeleton, adding minimal extra moves.",
+      "moveCountRange": "8-16 moves",
+      "tips": [
+        "Finding a skeleton with only a 3-cycle remaining is the goal",
+        "Insertions: find a place in your skeleton where a commutator cancels moves",
+        "Check for cancellations at every point in the skeleton",
+        "Multiple insertions can handle 4+ unsolved pieces",
+        "The best FMC solves often have 5-8 moves of cancellation from insertions"
+      ]
+    }
+  ],
+  "pros": [
+    "Core technique used by all top FMC solvers",
+    "Develops deep understanding of cube structure",
+    "Can achieve sub-25 move solutions with skill",
+    "World record solutions use blockbuilding as the foundation",
+    "Flexible and creative process"
+  ],
+  "cons": [
+    "Requires extensive search and trial-and-error",
+    "Not applicable to speedcubing (too slow to think through)",
+    "1-hour time limit means search must be efficient",
+    "Very steep learning curve for optimal blockbuilding",
+    "Results vary widely based on the scramble"
+  ],
+  "notableUsers": ["Sebastiano Tronto", "Cale Schoon"],
+  "relatedSets": [],
+  "avgMoveCount": "22-30"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sarah-advanced-method",
+  "name": "Sarah's Advanced Method (Skewb)",
+  "description": "The most advanced and fastest Skewb method, building on Sarah Strong's method series. The advanced method uses a one-look approach: after solving the first face, the remaining five faces are solved in a single algorithm (one-look last layer). This requires learning a large set of algorithms but results in extremely fast solves. It is the standard method used by world-class Skewb solvers and is necessary for achieving sub-3 times consistently.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Solve First Face",
+      "description": "Solve one face of the Skewb with all four corners correctly colored. As with the other Sarah methods, place the face on the bottom. The four corners must show the correct color on the bottom face, but the rest of the cube will be unsolved. Plan this entirely in inspection.",
+      "moveCountRange": "2-5 moves",
+      "tips": [
+        "Full color neutrality is essential for finding easy first faces",
+        "Plan the entire first face plus begin to predict the top during inspection",
+        "Keep solutions efficient — even one extra move slows down the solve",
+        "Aim for 3-4 move first face solutions"
+      ]
+    },
+    {
+      "name": "One-Look Last Layer",
+      "description": "Solve the entire remaining Skewb (top face corners, top center, and four side centers) in a single algorithm. This requires recognizing the exact state of all remaining pieces and applying the correct algorithm from a set of approximately 100+ cases. Recognition involves reading the top face and side stickers simultaneously.",
+      "algorithmSets": ["Sarah's Advanced"],
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "Group algorithms by top face pattern to aid learning",
+        "Two-sided recognition is essential — look at top and one side",
+        "Drill recognition speed separately from execution speed",
+        "Some cases are mirrors, reducing effective learning load",
+        "Practice predicting the case during first face solve"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest Skewb method available",
+    "One-look finish after first face is extremely efficient",
+    "Used by all top Skewb competitors",
+    "Sub-2 averages achievable by elite solvers",
+    "Clean two-step structure (face + one algorithm)"
+  ],
+  "cons": [
+    "Approximately 100+ algorithms to learn",
+    "Recognition is complex and takes significant practice",
+    "Large time investment to learn the full algorithm set",
+    "First face must be planned very efficiently to be competitive"
+  ],
+  "notableUsers": ["Łukasz Burliga"],
+  "relatedSets": ["Sarah's Advanced"],
+  "avgMoveCount": "9-14",
+  "creator": "Sarah Strong"
+}

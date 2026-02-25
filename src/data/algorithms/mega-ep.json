@@ -1,0 +1,75 @@
+{
+  "id": "mega-ep",
+  "name": "Megaminx EP",
+  "puzzle": "Megaminx",
+  "description": "Megaminx Edge Permutation - 5 algorithms for permuting edges on the last layer of the Megaminx.",
+  "category": "Permutation",
+  "caseCount": 5,
+  "algorithms": [
+    {
+      "id": "mega-ep-1",
+      "name": "EP 1",
+      "set": "Megaminx EP",
+      "subset": "Edge Permutation",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2' R2' U' R2 U2' R2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-ep-2",
+      "name": "EP 2",
+      "set": "Megaminx EP",
+      "subset": "Edge Permutation",
+      "puzzle": "Megaminx",
+      "notation": "R2 U2 R2' U R2 U2 R2'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-ep-3",
+      "name": "EP 3",
+      "set": "Megaminx EP",
+      "subset": "Edge Permutation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' F' R U R' U' R' F R2 U' R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-ep-4",
+      "name": "EP 4",
+      "set": "Megaminx EP",
+      "subset": "Edge Permutation",
+      "puzzle": "Megaminx",
+      "notation": "R U R' U R' U' R2 U' R' U R' U R U2'",
+      "alternatives": [],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "mega-ep-5",
+      "name": "EP 5",
+      "set": "Megaminx EP",
+      "subset": "Edge Permutation",
+      "puzzle": "Megaminx",
+      "notation": "L R U2 L' U R' L U' R U2 L' U2 R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 4,
+      "source": "speedcubedb"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "3-style",
+  "name": "3-Style Commutators (3BLD)",
+  "description": "The most advanced and fastest method for 3x3 blindfolded solving. 3-Style uses commutator-based 3-cycles (hence the name '3-style') to solve three pieces at a time rather than swapping two pieces. Each algorithm is a commutator of the form [A, B] = A B A' B', which cycles three pieces while leaving everything else untouched. With unique algorithms for every possible 3-cycle of edges and corners, 3-style requires learning hundreds of algorithms but produces drastically lower move counts and faster execution than Old Pochmann or M2. All world-class 3BLD solvers use 3-style.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Memorization (Edges)",
+      "description": "Memorize edge cycles using letter tracing with a buffer piece (commonly UF or DF). The memo generates pairs of letters — each pair represents one 3-cycle to execute. Unlike Old Pochmann where each letter is one swap, in 3-style each pair of letters is one commutator that cycles three edges.",
+      "tips": [
+        "Each pair of memo letters corresponds to one 3-cycle algorithm",
+        "Odd-length cycles require special handling (floating targets or partial cycles)",
+        "Audio memo (hearing letter pairs) is popular for edges among top solvers",
+        "Speed of memorization is often the bottleneck — drill memo separately"
+      ]
+    },
+    {
+      "name": "Memorization (Corners)",
+      "description": "Memorize corner cycles using letter tracing with a buffer piece (commonly UBL or UFR). Like edges, each pair of letters represents one 3-cycle commutator. Corner memo is typically done using visual/image memo with letter pairs.",
+      "tips": [
+        "Visual memo using images/words for letter pairs is standard for corners",
+        "Practice corner memo to under 10 seconds for competitive times",
+        "Memory palaces or journey method aids long-term retention during solve",
+        "Twisted/flipped buffers require special handling"
+      ]
+    },
+    {
+      "name": "Execution (Corners)",
+      "description": "Execute corner 3-cycles using commutator algorithms. Each commutator [A, B] cycles the buffer piece and two target pieces. There are hundreds of unique corner commutators depending on the target positions. Commutators typically consist of an interchange move, an insertion move, and their inverses, totaling 8-12 moves per cycle.",
+      "moveCountRange": "20-40 moves",
+      "tips": [
+        "Learn commutators as [interchange, insertion] pairs",
+        "Many commutators share common patterns (pure commutators, A9 variants, etc.)",
+        "Practice deriving commutators rather than pure memorization",
+        "Group learning by target position for systematic progress"
+      ]
+    },
+    {
+      "name": "Execution (Edges)",
+      "description": "Execute edge 3-cycles using commutator algorithms. Edge commutators often use M-slice and S-slice moves for efficiency. Like corners, each commutator cycles three edges (buffer + two targets) in 8-12 moves.",
+      "moveCountRange": "20-40 moves",
+      "tips": [
+        "M-slice commutators are very common for edges",
+        "Practice 3-cycles that involve the M-slice for speed",
+        "Edge commutators can be faster than corner commutators due to M-slice ergonomics",
+        "Learn to handle parity (odd number of swaps) with a single swap algorithm"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest possible 3BLD execution method",
+    "Very low move count (40-80 total moves for execution)",
+    "Used by all world-class 3BLD solvers",
+    "Sub-15 single solves achievable by elite solvers",
+    "Elegant mathematical foundation in commutator theory",
+    "Applicable to bigger cube BLD as well"
+  ],
+  "cons": [
+    "Hundreds of unique commutator algorithms to learn",
+    "Extremely steep learning curve",
+    "Significant time investment to become proficient",
+    "Deriving commutators on the fly is a skill that takes months to develop",
+    "Recognition and recall speed are challenging"
+  ],
+  "notableUsers": ["Max Hilliard", "Tommy Cherry", "Jack Cai"],
+  "relatedSets": [],
+  "avgMoveCount": "40-80"
+}

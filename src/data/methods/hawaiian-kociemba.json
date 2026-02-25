@@ -1,0 +1,32 @@
+{
+  "id": "hawaiian-kociemba",
+  "name": "Hawaiian Kociemba",
+  "description": "Hawaiian Kociemba is a method inspired by Herbert Kociemba's two-phase computer algorithm, adapted for human solving. The method starts by orienting all edges and forming an 'arrow' pattern on the first face, then completes the solve using a restricted RUL moveset. It is named for its origin in the Hawaiian cubing community. The approach is relatively accessible while achieving a respectable move count.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "EO Arrow",
+      "description": "Orient all 12 edges and simultaneously create an 'arrow' shape on the bottom face — the cross center plus one correctly placed edge and its adjacent corner-edge pair. This step establishes the foundation while ensuring all edges are oriented for an efficient finish.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Learn to spot bad edges quickly using the F/B axis rule", "The arrow gives a starting point for F2L-like solving", "Practice combining EO with arrow formation"]
+    },
+    {
+      "name": "First Two Layers with RUL",
+      "description": "Complete the first two layers using only R, U, and L moves (plus their inverses and double turns). Since all edges are oriented, F2L pairs can be built and inserted without F or B moves, similar to ZZ's F2L step.",
+      "moveCountRange": "18-22 moves",
+      "tips": ["Very similar to ZZF2L once EO is done", "RUL moveset is ergonomic and rotation-free", "Plan pair insertions to maintain efficiency"]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer. With edges already oriented, the last layer is reduced to OCLL (orient corners) followed by PLL, or can be solved with ZBLL for a single-look finish.",
+      "algorithmSets": ["OLL", "PLL", "COLL"],
+      "moveCountRange": "12-16 moves",
+      "tips": ["Only 7 OCLL cases since edges are oriented", "Standard PLL applies for permutation", "COLL + EPLL is an efficient intermediate approach"]
+    }
+  ],
+  "pros": ["Approachable for intermediate solvers", "Good move count (~40 moves)", "Rotation-free F2L after EO", "Ergonomic RUL moveset", "Interesting bridge between beginner and advanced methods"],
+  "cons": ["EO arrow step requires practice to plan efficiently", "Fewer resources than mainstream methods", "Not widely used competitively", "Limited community development", "EO recognition can be tricky for beginners"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL", "COLL"],
+  "avgMoveCount": "38-42"
+}

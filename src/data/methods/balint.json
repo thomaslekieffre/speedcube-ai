@@ -1,0 +1,64 @@
+{
+  "id": "balint",
+  "name": "Balint",
+  "description": "The Balint method is an advanced Megaminx speedsolving technique created by Balint Bodor. It follows a structured approach of solving the star (first layer edges), F2L pairs, freestyle S2L (Second-to-Last Layer), and finishing with the last layer. The freestyle S2L phase distinguishes it from other methods by allowing more intuitive and flexible solving of the penultimate layers.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Star",
+      "description": "Solve the first layer edges to form a star pattern on the bottom face of the Megaminx. This establishes the foundation for the F2L phase.",
+      "moveCountRange": "8-14",
+      "tips": [
+        "Plan as much of the star as possible during inspection",
+        "Build the star efficiently by inserting edges without unnecessary rotations",
+        "Color neutrality can help find easier star solutions"
+      ]
+    },
+    {
+      "name": "First 2 Layers (F2L)",
+      "description": "Solve the first two layers by pairing corners with their adjacent edges and inserting them into their correct slots. This is similar to 3x3 F2L but extended to the Megaminx's pentagonal geometry.",
+      "moveCountRange": "40-60",
+      "tips": [
+        "Work on multiple F2L pairs simultaneously when possible",
+        "Develop intuitive F2L solutions rather than memorizing algorithms",
+        "Efficient F2L is the biggest time saver in Megaminx solving"
+      ]
+    },
+    {
+      "name": "Freestyle S2L",
+      "description": "Solve the second-to-last layer using freestyle techniques. Unlike rigid algorithmic approaches, this step allows creative block building and intuitive piece placement to handle the S2L efficiently.",
+      "moveCountRange": "30-50",
+      "tips": [
+        "Use a combination of intuition and short algorithms",
+        "Look for pieces that can be paired and inserted together",
+        "Freestyle approach allows adapting to each unique scramble"
+      ]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer of the Megaminx using OLL and PLL algorithms adapted for the Megaminx. This includes orienting and then permuting all last-layer pieces.",
+      "algorithmSets": ["Megaminx OLL", "Megaminx PLL"],
+      "moveCountRange": "15-25",
+      "tips": [
+        "Megaminx LL algorithms are longer than 3x3 — practice execution speed",
+        "Learn the most common cases first and expand gradually",
+        "Good recognition saves significant time on the last layer"
+      ]
+    }
+  ],
+  "pros": [
+    "Freestyle S2L allows creative and flexible solving",
+    "Lower move count potential than fully algorithmic S2L approaches",
+    "Adapts well to different scrambles",
+    "Good for solvers with strong intuitive solving skills"
+  ],
+  "cons": [
+    "Freestyle S2L has a steep learning curve",
+    "Inconsistent S2L times due to variable difficulty",
+    "Requires deep understanding of Megaminx piece interactions",
+    "Last layer algorithms are lengthy and require significant memorization"
+  ],
+  "notableUsers": ["Balint Bodor"],
+  "relatedSets": ["Megaminx OLL", "Megaminx PLL"],
+  "creator": "Balint Bodor"
+}

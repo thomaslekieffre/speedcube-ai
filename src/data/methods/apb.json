@@ -1,0 +1,38 @@
+{
+  "id": "apb",
+  "name": "APB (Athefre's Pair and Block)",
+  "description": "APB (Athefre's Pair and Block) is a modern method that combines blockbuilding with strategic pair placement and edge orientation. It builds a 2x2x3 block, places a down-back-right pair, orients edges while inserting another pair, then finishes with LXS (Last X Slots) techniques. APB is part of the newer wave of method development that seeks efficient alternatives to traditional CFOP and Roux approaches.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "2x2x3 Block",
+      "description": "Build a 2x2x3 block on the left side of the cube. This block consists of the entire left layer (1x2x3) plus an additional corner-edge pair extending it to a 2x2x3 shape.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Plan the block during inspection", "Look for pre-existing pairs to speed up construction", "Color neutrality helps find easier blocks", "Can be built using Petrus-style expansion from a 2x2x2"]
+    },
+    {
+      "name": "dBR Pair",
+      "description": "Place the down-back-right (dBR) corner-edge pair into its correct position. This pair fills a specific slot in the first two layers and sets up the solve for efficient EO + pair insertion in the next step.",
+      "moveCountRange": "4-7 moves",
+      "tips": ["Track this pair during block building", "Efficient placement reduces total move count", "Use R and U moves to insert without disrupting the block"]
+    },
+    {
+      "name": "EOPair (Edge Orientation + Pair)",
+      "description": "Orient all remaining edges while simultaneously inserting the last remaining F2L pair. This step combines two objectives to save moves and sets up the cube for a smooth last layer finish.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Combining EO with pair insertion is the method's key innovation", "Practice recognizing edge orientation quickly", "The pair position relative to bad edges determines the solution"]
+    },
+    {
+      "name": "LXS (Last X Slots / Last Layer)",
+      "description": "Solve the remaining pieces on the last layer. With edges oriented and F2L complete, the last layer is reduced, and various algorithm sets can be applied depending on the approach chosen (ZBLL, COLL+EPLL, or OCLL+PLL).",
+      "algorithmSets": ["OLL", "PLL", "COLL", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+      "moveCountRange": "12-15 moves",
+      "tips": ["With EO done, only OCLL cases for corner orientation", "ZBLL gives a one-look finish", "COLL + EPLL is a good intermediate approach", "Only 7 OCLL cases since edges are pre-oriented"]
+    }
+  ],
+  "pros": ["Low move count (~42-50 moves)", "Efficient EO integration saves moves", "Flexible last layer options", "Modern design with growing community interest", "Good balance of intuition and algorithms"],
+  "cons": ["EOPair step recognition is complex", "2x2x3 block building requires strong planning", "Limited tutorials and resources", "Small community of practitioners", "Requires good understanding of edge orientation"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL", "COLL", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+  "avgMoveCount": "42-50"
+}

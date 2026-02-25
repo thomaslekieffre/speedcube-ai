@@ -1,0 +1,982 @@
+{
+  "id": "tcll-minus",
+  "name": "TCLL-",
+  "puzzle": "2x2",
+  "description": "Twisty CLL- - CLL cases where one corner is twisted counter-clockwise. Mirrors TCLL+ for the opposite twist direction.",
+  "category": "last-layer",
+  "caseCount": 40,
+  "algorithms": [
+    {
+      "id": "tcll-minus-hammer-1",
+      "name": "TCLL- Hammer 1",
+      "set": "TCLL-",
+      "subset": "Hammer",
+      "puzzle": "2x2",
+      "notation": "(U') x U R' U' R U R' U' R x'",
+      "alternatives": [
+        {
+          "notation": "y' (U') F R2 F' U R' U R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) R U R' U2 F R' F' R2 U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U R' F R' F' R U' R U2 R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "R' U2 R' U2 R U' R' F R F'",
+          "moveCount": 10
+        },
+        {
+          "notation": "R U' R U' R' F R' F' R U' R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-hammer-2",
+      "name": "TCLL- Hammer 2",
+      "set": "TCLL-",
+      "subset": "Hammer",
+      "puzzle": "2x2",
+      "notation": "(U') F R' F' R F R' F' R",
+      "alternatives": [
+        {
+          "notation": "(U') R U2 R' y' U R' U R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R2 U' R' U2 R' U2 F R' F'",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U) F R F' U2 F' U' F R2",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') R' F R F' R2 U R2 U' R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y' (U') R' U R U' R2 F R F' U R",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-hammer-3",
+      "name": "TCLL- Hammer 3",
+      "set": "TCLL-",
+      "subset": "Hammer",
+      "puzzle": "2x2",
+      "notation": "y (U2) F' L F L' U' R' F2 R U' R' F R",
+      "alternatives": [
+        {
+          "notation": "y' R2' F R F' R U2 R' U' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U') F R U R' U' R' F' R2 U R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U2) R2 F R F' R U R' U' R' F R F' R",
+          "moveCount": 15
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-hammer-4",
+      "name": "TCLL- Hammer 4",
+      "set": "TCLL-",
+      "subset": "Hammer",
+      "puzzle": "2x2",
+      "notation": "(U') R' F R y' R U' R2 U R2",
+      "alternatives": [
+        {
+          "notation": "y (U2) F U' R U2 R2 F' R U R U' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U) R U2 R2 F R F' U2 R U R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-1",
+      "name": "TCLL- Spaceship 1",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "R U R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "y F U' R U R' U R U R' F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U') R U R' F R' F' R U R' F R F'",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U') R' F R F' U R U2 R2 F R F'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U) R' U R U R' F R' F' R U' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "y (U') R' F U' R' F R2 U' R' U2 R",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-2",
+      "name": "TCLL- Spaceship 2",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "(U2) F R U R' U' R' F' R F R' F' R",
+      "alternatives": [
+        {
+          "notation": "(U') R' U2 R U2 R F R' F' R",
+          "moveCount": 10
+        },
+        {
+          "notation": "y (U) R' F R2 U' R' U' R' F R F",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U) F2 R U' R' U2 R' F R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U R' U' F R' F2 R U' R' F2 R",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-3",
+      "name": "TCLL- Spaceship 3",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "y F U' R U R' U' F' R' F R",
+      "alternatives": [
+        {
+          "notation": "(U') F R U R' F R U' R2 F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U) R2 U' R2 U R2 U2 F R2 F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U) R2 U' R U R2 U' F R F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U') R' F R' F' R U F R' F' R U R",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-4",
+      "name": "TCLL- Spaceship 4",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "(U) R U2 R2 F R F' R U' R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R U R' U' F R' F R U R' F R",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U') R' F R F' U' R' F R F' R U' R'",
+          "moveCount": 13
+        },
+        {
+          "notation": "R U R' U R2 U' R' F R' F' R U R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-5",
+      "name": "TCLL- Spaceship 5",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "(U) R2 U' R' U2 R' F R U R' U' R F'",
+      "alternatives": [
+        {
+          "notation": "R U R' U R U' R' U' F R' F' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y (U') F2 R' F' R U' R U' R' F'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-6",
+      "name": "TCLL- Spaceship 6",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "R U' R' U F R F' R U R' U R'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-spaceship-7",
+      "name": "TCLL- Spaceship 7",
+      "set": "TCLL-",
+      "subset": "Spaceship",
+      "puzzle": "2x2",
+      "notation": "(U2) R U R' U R' F R F' U2 R U R'",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-stollery-1",
+      "name": "TCLL- Stollery 1",
+      "set": "TCLL-",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "(U) R2 U R2 U' R U2 R' U2 R",
+      "alternatives": [
+        {
+          "notation": "y' R2 F R' F' U' R U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "F R' F' U R2 U R2' U' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) R U' R' U' R' F R F' R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' R2 F' R U2 R U2 R' F R",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U2) R U' R' U R U2 R2 F R F'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-stollery-2",
+      "name": "TCLL- Stollery 2",
+      "set": "TCLL-",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R U2 R' U2 R U' R2 U R2",
+      "alternatives": [
+        {
+          "notation": "F2 R U2 R' F U R' F' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) R F' R U R' U' R' F R U R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "R' F R U R U' R' F' R U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "R2 U R' U R' U' F R' F' R2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y F' R' F2 R2 U' R' U R' F' R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-stollery-3",
+      "name": "TCLL- Stollery 3",
+      "set": "TCLL-",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "(U2) F2 R U R' F U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' R' U F' R U R' U' R' F R2",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R' F2 R F2 R' F2 R2 U R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U) R2 U' R' F R' F' U' R U' R'",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-stollery-4",
+      "name": "TCLL- Stollery 4",
+      "set": "TCLL-",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "(U) R2 U R' U R U2 R2 U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R U R' U2 R' U' F R F' U R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' R' F R' F' R U R U' R' U2 R",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U') F R' F' R U' R U' R' U R U R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-stollery-5",
+      "name": "TCLL- Stollery 5",
+      "set": "TCLL-",
+      "subset": "Stollery",
+      "puzzle": "2x2",
+      "notation": "(U') R' F2 R F R' F2 R F' U F",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-1",
+      "name": "TCLL- Pinwheel 1",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "R2 U R' U R' U2 R U2 R' U2 R",
+      "alternatives": [
+        {
+          "notation": "R' U2 R' U2 R2 F R' F' R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' R2 F' R U2 R U R' F2 R",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-2",
+      "name": "TCLL- Pinwheel 2",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "F U' F' R U' R2 F2 R U' F",
+      "alternatives": [
+        {
+          "notation": "y' R' U' R' F R F' U2 R U' R' U R",
+          "moveCount": 13
+        },
+        {
+          "notation": "R U' F R2 U' F R F2 R'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-3",
+      "name": "TCLL- Pinwheel 3",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "F R' U2 R2 U F R2 U R2 U2 R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U2 R' U' R F' U F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) F R' F' R2 U R2 U2 R U R' U R",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-4",
+      "name": "TCLL- Pinwheel 4",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "F' R U2 R2 F2 R U R' F' R F'",
+      "alternatives": [
+        {
+          "notation": "R' U2 R' U R2 F' U F R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' F R2 U' F L U2 L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-5",
+      "name": "TCLL- Pinwheel 5",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "y F R U' R' F R U2 R' U2 R U2 R'",
+      "alternatives": [
+        {
+          "notation": "R U R' U' R U R2 U' F R' F' R U R",
+          "moveCount": 14
+        }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-6",
+      "name": "TCLL- Pinwheel 6",
+      "set": "TCLL-",
+      "subset": "Pinwheel",
+      "puzzle": "2x2",
+      "notation": "F R U2' R' F' U' R U R' U' F",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-two-face-1",
+      "name": "TCLL- Two-Face 1",
+      "set": "TCLL-",
+      "subset": "Two-Face",
+      "puzzle": "2x2",
+      "notation": "R2 U R' U R U2 R' U2 R'",
+      "alternatives": [
+        {
+          "notation": "(U2) R2 U' R' F R' F' R U2 R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U/U') F' R' F R F U' R U R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "(U) R' F R F' R U2 R' U' R U R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-two-face-2",
+      "name": "TCLL- Two-Face 2",
+      "set": "TCLL-",
+      "subset": "Two-Face",
+      "puzzle": "2x2",
+      "notation": "R2 U R2 U' R2 U R U' R'",
+      "alternatives": [
+        {
+          "notation": "y (U') R U2 R' U R' F' R F2",
+          "moveCount": 10
+        },
+        {
+          "notation": "y (U/U') R' F R U' F R U R' F'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) F' U' F R2 U' R2 U' R2 U R2",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-two-face-3",
+      "name": "TCLL- Two-Face 3",
+      "set": "TCLL-",
+      "subset": "Two-Face",
+      "puzzle": "2x2",
+      "notation": "R2 U R2 U' R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y2 L U2 L F' L' F L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "y (U/U') R' U R U' R' F' U F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R U' R' U' F R' F' R U' R U R'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-two-face-4",
+      "name": "TCLL- Two-Face 4",
+      "set": "TCLL-",
+      "subset": "Two-Face",
+      "puzzle": "2x2",
+      "notation": "R2 U R2 U F' U' F U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-two-face-5",
+      "name": "TCLL- Two-Face 5",
+      "set": "TCLL-",
+      "subset": "Two-Face",
+      "puzzle": "2x2",
+      "notation": "y (U2) F U2 F R' F' R F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-turtle-1",
+      "name": "TCLL- Turtle 1",
+      "set": "TCLL-",
+      "subset": "Turtle",
+      "puzzle": "2x2",
+      "notation": "y (U') L' U L U' L' U L",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U R' U' F R F' U R",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U2) R' U' R U R' U R' F R F' R",
+          "moveCount": 13
+        },
+        {
+          "notation": "(U) R U R' U y L' U2 L",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U') R U2 R' U2 F R' F' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' R' U2 R U R2 F R F'",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-turtle-2",
+      "name": "TCLL- Turtle 2",
+      "set": "TCLL-",
+      "subset": "Turtle",
+      "puzzle": "2x2",
+      "notation": "y' (U') R' U R U' R' U R",
+      "alternatives": [
+        {
+          "notation": "y' (U) R' U R U' R2' F R F' R U' R' U2 R",
+          "moveCount": 15
+        },
+        {
+          "notation": "(U) F R F' R U R2 U' R U R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U) F R F' U R' U2 R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' F R' F' U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "y' (U) R' F R' F' R2 U R' U R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-turtle-3",
+      "name": "TCLL- Turtle 3",
+      "set": "TCLL-",
+      "subset": "Turtle",
+      "puzzle": "2x2",
+      "notation": "y' (U2) R' U R2 U2 R U2 R'",
+      "alternatives": [
+        {
+          "notation": "R' F' R F R' F' R2 U R2 F' R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U2) R' F' R U2 R U2 R' U2 F",
+          "moveCount": 10
+        },
+        {
+          "notation": "R2 U R2 U' R F R F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-turtle-4",
+      "name": "TCLL- Turtle 4",
+      "set": "TCLL-",
+      "subset": "Turtle",
+      "puzzle": "2x2",
+      "notation": "y' (U') R' U R2 U R U' R'",
+      "alternatives": [
+        {
+          "notation": "y' (U') R U2 R F R' F' R U2 R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U) R U R' U' R U2 R' U' R' F R F'",
+          "moveCount": 13
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-poser-1",
+      "name": "TCLL- Pinwheel Poser 1",
+      "set": "TCLL-",
+      "subset": "Pinwheel Poser",
+      "puzzle": "2x2",
+      "notation": "y (U') R U' R' U F R U2 R' F2",
+      "alternatives": [
+        {
+          "notation": "R U2 R U' R' F R2 F' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' (U') R' U2' F R' F' R2",
+          "moveCount": 8
+        },
+        {
+          "notation": "(U) F R' F' R2 U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U) R U R' F R' F' R U2 R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "F' R' F2 R U' F",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-poser-2",
+      "name": "TCLL- Pinwheel Poser 2",
+      "set": "TCLL-",
+      "subset": "Pinwheel Poser",
+      "puzzle": "2x2",
+      "notation": "(U) R2 F U' R U F2 U R'",
+      "alternatives": [
+        {
+          "notation": "(U) F U R U' R2 F' R F R' F' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "y' (U') x' R' F R2 U' R' U",
+          "moveCount": 9
+        },
+        {
+          "notation": "y (U) F U' R U2 R' F'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-poser-3",
+      "name": "TCLL- Pinwheel Poser 3",
+      "set": "TCLL-",
+      "subset": "Pinwheel Poser",
+      "puzzle": "2x2",
+      "notation": "(U') F R' F' U R F R2 F' R2",
+      "alternatives": [
+        {
+          "notation": "y (U') R' F R2 U' R' F",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-poser-4",
+      "name": "TCLL- Pinwheel Poser 4",
+      "set": "TCLL-",
+      "subset": "Pinwheel Poser",
+      "puzzle": "2x2",
+      "notation": "(U) R2 U' R U' R' U2 R U' R' U R'",
+      "alternatives": [
+        {
+          "notation": "(U') F' U2 R U' R' F2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-pinwheel-poser-5",
+      "name": "TCLL- Pinwheel Poser 5",
+      "set": "TCLL-",
+      "subset": "Pinwheel Poser",
+      "puzzle": "2x2",
+      "notation": "(U') F' U2 F2 R F' R U R2",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-gun-1",
+      "name": "TCLL- Gun 1",
+      "set": "TCLL-",
+      "subset": "Gun",
+      "puzzle": "2x2",
+      "notation": "(U) R U2 R' U2 R U R'",
+      "alternatives": [
+        {
+          "notation": "(U2) F R U2 R' F R U' R2 F R",
+          "moveCount": 11
+        },
+        {
+          "notation": "(U) R U R' U' F R' F' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "(U2) F R' F' R2 U' R' U' R U' R'",
+          "moveCount": 11
+        },
+        {
+          "notation": "y' (U') R' F R' F' R U2 R",
+          "moveCount": 9
+        },
+        {
+          "notation": "R2 U R' F R F' R' U' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-gun-2",
+      "name": "TCLL- Gun 2",
+      "set": "TCLL-",
+      "subset": "Gun",
+      "puzzle": "2x2",
+      "notation": "(U) R U' R U R2 U' R2",
+      "alternatives": [
+        {
+          "notation": "y' (U) R' U2 F R F' R U R2 U' R",
+          "moveCount": 12
+        },
+        {
+          "notation": "(U) R2' F R F' U' R' U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' (U') R' U' R U' R' F R' F' R2",
+          "moveCount": 11
+        },
+        {
+          "notation": "F2 R U' R' U R' F2 R",
+          "moveCount": 8
+        },
+        {
+          "notation": "R U' R' U2 F R F' R U R2",
+          "moveCount": 10
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-gun-3",
+      "name": "TCLL- Gun 3",
+      "set": "TCLL-",
+      "subset": "Gun",
+      "puzzle": "2x2",
+      "notation": "y (U) R' U R U2 R' U2 R",
+      "alternatives": [
+        {
+          "notation": "R F2 R F2 R' F2 R U' R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "y' R' U R F R F'",
+          "moveCount": 7
+        },
+        {
+          "notation": "(U) R U2 R U' R' F R' F' R U R'",
+          "moveCount": 12
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    },
+    {
+      "id": "tcll-minus-gun-4",
+      "name": "TCLL- Gun 4",
+      "set": "TCLL-",
+      "subset": "Gun",
+      "puzzle": "2x2",
+      "notation": "y (U) R2 U' R2 U R U' R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "best2x2algs"
+    }
+  ]
+}

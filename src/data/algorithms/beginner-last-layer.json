@@ -1,0 +1,91 @@
+{
+  "id": "beginner-last-layer",
+  "name": "Beginner Last Layer",
+  "puzzle": "3x3",
+  "description": "The simplest last layer method for absolute beginners. 4 intuitive steps: orient edges, orient corners, permute corners, permute edges. Uses only basic algorithms.",
+  "category": "last-layer",
+  "caseCount": 4,
+  "algorithms": [
+    {
+      "id": "bll-orient-edges",
+      "name": "Orient Edges (Make Cross)",
+      "set": "Beginner Last Layer",
+      "subset": "Step 1",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' F'",
+      "alternatives": [
+        {
+          "notation": "F U R U' R' F'",
+          "moveCount": 6,
+          "votes": 60
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 200,
+      "source": "curated"
+    },
+    {
+      "id": "bll-orient-corners",
+      "name": "Orient Corners (Sune)",
+      "set": "Beginner Last Layer",
+      "subset": "Step 2",
+      "puzzle": "3x3",
+      "notation": "R U R' U R U2 R'",
+      "alternatives": [
+        {
+          "notation": "R U2 R' U' R U' R'",
+          "moveCount": 7,
+          "votes": 55
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 195,
+      "source": "curated"
+    },
+    {
+      "id": "bll-permute-corners",
+      "name": "Permute Corners",
+      "set": "Beginner Last Layer",
+      "subset": "Step 3",
+      "puzzle": "3x3",
+      "notation": "U R U' L' U R' U' L",
+      "alternatives": [
+        {
+          "notation": "R U R' F' R U R' U' R' F R2 U' R'",
+          "moveCount": 13,
+          "votes": 30
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 150,
+      "source": "curated"
+    },
+    {
+      "id": "bll-permute-edges",
+      "name": "Permute Edges (3-Cycle)",
+      "set": "Beginner Last Layer",
+      "subset": "Step 4",
+      "puzzle": "3x3",
+      "notation": "R U' R U R U R U' R' U' R2",
+      "alternatives": [
+        {
+          "notation": "R2 U R U R' U' R' U' R' U R'",
+          "moveCount": 11,
+          "votes": 40
+        },
+        {
+          "notation": "M2 U M U2 M' U M2",
+          "moveCount": 7,
+          "votes": 45
+        }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 140,
+      "source": "curated"
+    }
+  ]
+}

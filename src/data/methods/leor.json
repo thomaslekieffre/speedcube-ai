@@ -1,0 +1,38 @@
+{
+  "id": "leor",
+  "name": "LEOR",
+  "description": "LEOR is a hybrid method that combines elements of Roux-style blockbuilding with ZZ-style edge orientation. It builds a 1x2x3 first block on the left side, then orients all edges while placing E-slice and D-layer edges (EOStripe), builds the right block, and finishes with a last layer that benefits from pre-oriented edges. LEOR offers an interesting middle ground between Roux and ZZ, inheriting strengths from both methods.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "First Block (1x2x3)",
+      "description": "Build a 1x2x3 block on the left side of the cube, identical to the Roux first block. This block contains the DL edge and two corner-edge pairs.",
+      "moveCountRange": "7-9 moves",
+      "tips": ["Plan the entire first block during inspection", "Same techniques as Roux FB apply here", "Color neutrality is highly recommended", "Practice multiple solutions per scramble"]
+    },
+    {
+      "name": "EOStripe",
+      "description": "Orient all remaining edges while placing key edges into the E-slice and bottom layer to form a 'stripe' pattern. This step transitions the solve from blockbuilding into an EO-based approach, ensuring all subsequent moves can avoid F and B quarter turns.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Identify bad edges during first block construction", "The stripe includes the DB and DF edges plus E-slice edges", "Use F and B moves to fix EO before restricting to RUL", "This is the method's signature step"]
+    },
+    {
+      "name": "Right Block",
+      "description": "Build the right-side 1x2x3 block to complete the first two layers. Since all edges are oriented, this step uses only R and U moves, making it very ergonomic and rotation-free.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Very similar to ZZ right block or Roux second block", "No rotations needed thanks to oriented edges", "RU moveset is fast and ergonomic", "Look ahead to LL during right block completion"]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer with all edges already oriented. This can be done with OCLL + PLL, COLL + EPLL, or full ZBLL for a one-look finish.",
+      "algorithmSets": ["OLL", "PLL", "COLL", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+      "moveCountRange": "12-15 moves",
+      "tips": ["Only 7 OCLL corner cases since edges are oriented", "ZBLL gives a powerful one-look finish (493 algs)", "COLL + EPLL is a good stepping stone to full ZBLL", "Same LL as ZZ method"]
+    }
+  ],
+  "pros": ["Combines strengths of Roux and ZZ", "Low move count (~42-50 moves)", "Rotation-free F2L after EOStripe", "Ergonomic RU moveset for right block", "Flexible last layer options including ZBLL"],
+  "cons": ["EOStripe step is unique and requires dedicated practice", "Fewer resources than Roux or ZZ individually", "First block to EO transition can be awkward", "Small community compared to mainstream methods", "Planning EOStripe in inspection is difficult"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL", "COLL", "ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U"],
+  "avgMoveCount": "42-50"
+}

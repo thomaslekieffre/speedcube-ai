@@ -1,0 +1,51 @@
+{
+  "id": "eoll",
+  "name": "EOLL",
+  "puzzle": "3x3",
+  "description": "Edge Orientation of the Last Layer — 3 cases. Orient all 4 last-layer edges so yellow faces up. After this step you have a yellow cross on top. Used as step 1 of 2-look OLL.",
+  "category": "last-layer",
+  "caseCount": 3,
+  "algorithms": [
+    {
+      "id": "eoll-dot",
+      "name": "Dot (No Edges Oriented)",
+      "set": "EOLL",
+      "subset": "Edge Orientation",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' F' U2 F U R U' R' F'",
+      "alternatives": [
+        { "notation": "F R U R' U' F' f R U R' U' f'", "moveCount": 12, "votes": 30, "note": "Line then L-shape — easy to remember" }
+      ],
+      "moveCount": 13,
+      "setup": "No edges are oriented (no yellow on top face edges). Apply Line alg to get L-shape, then L-shape alg to get Cross. Or use this single algorithm from any angle.",
+      "votes": 120,
+      "source": "curated"
+    },
+    {
+      "id": "eoll-l-shape",
+      "name": "L-Shape (2 Adjacent Edges)",
+      "set": "EOLL",
+      "subset": "Edge Orientation",
+      "puzzle": "3x3",
+      "notation": "F U R U' R' F'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "Two adjacent edges are oriented, forming an L-shape. Hold the L so the two oriented edges point to the back and to the left (9 o'clock position).",
+      "votes": 110,
+      "source": "curated"
+    },
+    {
+      "id": "eoll-line",
+      "name": "Line (2 Opposite Edges)",
+      "set": "EOLL",
+      "subset": "Edge Orientation",
+      "puzzle": "3x3",
+      "notation": "F R U R' U' F'",
+      "alternatives": [],
+      "moveCount": 6,
+      "setup": "Two opposite edges are oriented, forming a horizontal line. Hold the line horizontal (left to right).",
+      "votes": 130,
+      "source": "curated"
+    }
+  ]
+}

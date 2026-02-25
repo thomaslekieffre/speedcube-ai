@@ -1,0 +1,467 @@
+[
+  {
+    "id": "cubicle-silk",
+    "name": "Cubicle Silk",
+    "brand": "TheCubicle",
+    "type": "water-based",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Water-based speed lube that makes cubes faster and smoother. Evaporates over time and needs reapplication. Great for a quick speed boost on piece surfaces.",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel",
+      "Quick application",
+      "Piece surfaces"
+    ]
+  },
+  {
+    "id": "cubicle-dnm-37",
+    "name": "Cubicle DNM-37",
+    "brand": "TheCubicle",
+    "type": "water-based",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Premium water-based lubricant and community favorite for speed. Makes cubes very fast and smooth. Widely considered the best water-based cube lube available.",
+    "bestFor": [
+      "Maximum speed",
+      "Smooth turning",
+      "Competition prep",
+      "Piece surfaces"
+    ]
+  },
+  {
+    "id": "cubicle-lunar",
+    "name": "Cubicle Lunar",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Light silicone lube that provides a fast, papery, crispy feel. Much longer-lasting than water-based alternatives. Excellent on piece contact surfaces.",
+    "bestFor": [
+      "Fast papery feel",
+      "Long-lasting speed",
+      "Piece lubrication",
+      "Crispy turning"
+    ]
+  },
+  {
+    "id": "cubicle-mystic",
+    "name": "Cubicle Mystic",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "Medium-weight silicone lube that provides a smooth, creamy feel. Balances speed and control well. Good all-around lube for most cubers.",
+    "bestFor": [
+      "Balanced feel",
+      "Smooth creamy turning",
+      "All-around use",
+      "Moderate speed"
+    ]
+  },
+  {
+    "id": "cubicle-martian",
+    "name": "Cubicle Martian",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "Medium-weight silicone lube with a unique gummy and smooth feel. Slightly heavier than Mystic. Adds a controlled, tactile quality to turning.",
+    "bestFor": [
+      "Gummy smooth feel",
+      "Control",
+      "Tactile feedback",
+      "Piece surfaces"
+    ]
+  },
+  {
+    "id": "cubicle-stardust",
+    "name": "Cubicle Stardust",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Light silicone lube designed for a fast, airy, effortless feel. Similar weight to Lunar but with a different texture. Makes cubes feel lighter to turn.",
+    "bestFor": [
+      "Airy feel",
+      "Effortless turning",
+      "Speed",
+      "Light touch"
+    ]
+  },
+  {
+    "id": "cubicle-weight-1",
+    "name": "Cubicle Weight 1",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Lightest in the numbered weight series. Thin silicone oil for speeding up cubes. Best applied to piece tracks and contact surfaces for a fast, free-flowing feel.",
+    "bestFor": [
+      "Speeding up cubes",
+      "Light lubrication",
+      "Piece tracks",
+      "Fast feel"
+    ]
+  },
+  {
+    "id": "cubicle-weight-3",
+    "name": "Cubicle Weight 3",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "Medium weight silicone lube in the numbered series. Versatile option that works on both pieces and core. Provides a balanced, smooth feel without excessive slowdown.",
+    "bestFor": [
+      "All-around use",
+      "Moderate control",
+      "Core and pieces",
+      "Balanced feel"
+    ]
+  },
+  {
+    "id": "cubicle-weight-5",
+    "name": "Cubicle Weight 5",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$5",
+    "description": "Heavy silicone lubricant for slowing down cubes and providing a gummy, controlled feel. Best applied to the core and springs. Longest lasting of the weight series.",
+    "bestFor": [
+      "Slowing down cubes",
+      "Gummy feel",
+      "Control",
+      "Core lubrication"
+    ]
+  },
+  {
+    "id": "scs-cosmic-silk",
+    "name": "SCS Cosmic Silk",
+    "brand": "SpeedCubeShop",
+    "type": "water-based",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "SpeedCubeShop's water-based speed lube. Provides a fast, silky feel on piece surfaces. Evaporates over time like other water-based lubes. Great for a quick tune-up.",
+    "bestFor": [
+      "Silky speed",
+      "Quick tune-up",
+      "Piece surfaces",
+      "Smooth feel"
+    ]
+  },
+  {
+    "id": "scs-cosmic-speed",
+    "name": "SCS Cosmic Speed",
+    "brand": "SpeedCubeShop",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Light silicone lube from SpeedCubeShop for maximum speed. Long-lasting compared to water-based options. Applies to piece surfaces for a fast, smooth experience.",
+    "bestFor": [
+      "Maximum speed",
+      "Long-lasting",
+      "Piece surfaces",
+      "Competitive cubing"
+    ]
+  },
+  {
+    "id": "scs-cosmic-compound-x",
+    "name": "SCS Cosmic Compound X",
+    "brand": "SpeedCubeShop",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$5",
+    "description": "Heavy compound lube from SpeedCubeShop designed for core and spring application. Slows down and stabilizes overly fast cubes. Provides a controlled, dampened feel.",
+    "bestFor": [
+      "Core application",
+      "Stabilizing cubes",
+      "Dampened feel",
+      "Spring lubrication"
+    ]
+  },
+  {
+    "id": "traxxas-10k",
+    "name": "Traxxas 10K Differential Oil",
+    "brand": "Traxxas",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$10",
+    "description": "10,000 cSt RC car differential oil. Lighter than the popular 50K variant. Good for slightly slowing a cube without making it too gummy. Applied to the core.",
+    "bestFor": [
+      "Moderate slowdown",
+      "Core lubrication",
+      "Spring noise",
+      "Controlled dampening"
+    ]
+  },
+  {
+    "id": "traxxas-30k",
+    "name": "Traxxas 30K Differential Oil",
+    "brand": "Traxxas",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$10",
+    "description": "30,000 cSt RC car differential oil. Middle ground between 10K and 50K. Provides noticeable slowdown and a smooth, controlled core feel without being too thick.",
+    "bestFor": [
+      "Core dampening",
+      "Moderate gumminess",
+      "Spring lubrication",
+      "Control"
+    ]
+  },
+  {
+    "id": "traxxas-50k",
+    "name": "Traxxas 50K Differential Oil",
+    "brand": "Traxxas",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$10",
+    "description": "50,000 cSt RC car differential silicone oil. The most popular non-cube-brand lube in the community. Applied to core and springs to significantly slow down and stabilize cubes.",
+    "bestFor": [
+      "Slowing down fast cubes",
+      "Core lubrication",
+      "Spring noise reduction",
+      "Maximum control"
+    ]
+  },
+  {
+    "id": "angstrom-dignitas",
+    "name": "Angstrom Dignitas",
+    "brand": "Angstrom",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$8",
+    "description": "Premium piece lube from Angstrom Research. Designed specifically for cube piece contact surfaces. Provides an extremely smooth, fast, long-lasting feel.",
+    "bestFor": [
+      "Piece surfaces",
+      "Premium smooth feel",
+      "Long-lasting speed",
+      "High-end setup"
+    ]
+  },
+  {
+    "id": "angstrom-gravitas",
+    "name": "Angstrom Gravitas",
+    "brand": "Angstrom",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$8",
+    "description": "Premium core lube from Angstrom Research. Designed for core and spring application. Works in tandem with Dignitas for a complete premium lube setup.",
+    "bestFor": [
+      "Core lubrication",
+      "Premium setup",
+      "Pairs with Dignitas",
+      "Spring dampening"
+    ]
+  },
+  {
+    "id": "gan-magic-lube",
+    "name": "GAN Magic Lube",
+    "brand": "GAN",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$6",
+    "description": "GAN's own cube lubricant designed for their puzzles. Light silicone formula that works well on piece surfaces. Often included with premium GAN cube purchases.",
+    "bestFor": [
+      "GAN cubes",
+      "Piece surfaces",
+      "Light speed boost",
+      "Quick maintenance"
+    ]
+  },
+  {
+    "id": "gan-standard-lube",
+    "name": "GAN Standard Lube",
+    "brand": "GAN",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "GAN's standard cube lubricant. Medium viscosity silicone that provides a balanced feel. Included with some GAN cube packages for basic maintenance.",
+    "bestFor": [
+      "GAN cubes",
+      "All-around maintenance",
+      "Balanced feel",
+      "Beginner friendly"
+    ]
+  },
+  {
+    "id": "lubicle-black",
+    "name": "Lubicle Black",
+    "brand": "Lubicle",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$6",
+    "description": "Heavy silicone-based lube designed for core application. Slows cubes down and eliminates spring noise. Provides a smooth, controlled, dampened feel.",
+    "bestFor": [
+      "Core application",
+      "Slowing cubes",
+      "Spring noise elimination",
+      "Control"
+    ]
+  },
+  {
+    "id": "lubicle-speedy",
+    "name": "Lubicle Speedy",
+    "brand": "Lubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$6",
+    "description": "Light silicone lube for piece surfaces. Designed to increase speed and provide a smooth, fast feel. Long-lasting formula that maintains performance over many solves.",
+    "bestFor": [
+      "Speed boost",
+      "Piece surfaces",
+      "Smooth fast feel",
+      "Long-lasting performance"
+    ]
+  },
+  {
+    "id": "cubicle-weight-2",
+    "name": "Cubicle Weight 2",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "Light-medium silicone lube sitting between Weight 1 and Weight 3 in the numbered series. Provides slightly more control than Weight 1 while still keeping cubes fast. Great for piece surfaces when you want speed with a touch of smoothness.",
+    "bestFor": [
+      "Light-medium feel",
+      "Piece surfaces",
+      "Speed with control",
+      "Bridging Weight 1 and 3"
+    ]
+  },
+  {
+    "id": "cubicle-weight-4",
+    "name": "Cubicle Weight 4",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "Medium-heavy silicone lube between Weight 3 and Weight 5 in the numbered series. Provides noticeable slowdown and a controlled, slightly gummy feel without being as thick as Weight 5. Works on both pieces and core.",
+    "bestFor": [
+      "Medium-heavy feel",
+      "Controlled turning",
+      "Core and pieces",
+      "Bridging Weight 3 and 5"
+    ]
+  },
+  {
+    "id": "cubicle-nebula",
+    "name": "Cubicle Nebula",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "heavy",
+    "price": "$5",
+    "description": "Premium thick silicone lube from TheCubicle with a distinctly gummy, dense feel. Significantly slows cubes down and adds a heavy, tactile quality to every turn. Ideal for cubers who want maximum control and a plush, cushioned sensation.",
+    "bestFor": [
+      "Gummy thick feel",
+      "Maximum control",
+      "Heavy dampening",
+      "Plush turning"
+    ]
+  },
+  {
+    "id": "scs-cosmic-compound-v",
+    "name": "SCS Cosmic Compound V",
+    "brand": "SpeedCubeShop",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "Medium weight compound lube from SpeedCubeShop. Sits between Cosmic Speed and Cosmic Compound X in thickness. Provides a balanced, smooth feel suitable for both pieces and core applications.",
+    "bestFor": [
+      "Balanced compound feel",
+      "Medium control",
+      "Core and pieces",
+      "Versatile application"
+    ]
+  },
+  {
+    "id": "scs-cosmic-lube",
+    "name": "SCS Cosmic Lube",
+    "brand": "SpeedCubeShop",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$5",
+    "description": "SpeedCubeShop's all-purpose silicone lubricant. A versatile, medium-weight lube that works well for general cube maintenance. Good entry point into the Cosmic lube lineup for beginners.",
+    "bestFor": [
+      "All-purpose use",
+      "General maintenance",
+      "Beginner friendly",
+      "Versatile silicone"
+    ]
+  },
+  {
+    "id": "moyu-lube",
+    "name": "MoYu Lube",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$4",
+    "description": "MoYu's official silicone cube lubricant. A straightforward medium-weight silicone lube designed to work well with MoYu puzzles. Affordable option that provides decent smoothness and longevity.",
+    "bestFor": [
+      "MoYu cubes",
+      "Budget-friendly",
+      "General maintenance",
+      "Medium smooth feel"
+    ]
+  },
+  {
+    "id": "qiyi-m2-lube",
+    "name": "QiYi M2 Lube",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$4",
+    "description": "QiYi's official cube lubricant. A medium-weight silicone formula designed for QiYi puzzles. Provides a smooth, balanced feel at an affordable price point. Good for routine maintenance.",
+    "bestFor": [
+      "QiYi cubes",
+      "Affordable maintenance",
+      "Smooth balanced feel",
+      "Routine lubrication"
+    ]
+  },
+  {
+    "id": "scs-celeritas",
+    "name": "Celeritas",
+    "brand": "SpeedCubeShop",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$6",
+    "description": "SpeedCubeShop's premium piece lube engineered for maximum speed and a silky-smooth feel. Designed specifically for piece contact surfaces, delivering a fast, refined turning experience that lasts through many solves.",
+    "bestFor": [
+      "Premium speed",
+      "Piece surfaces",
+      "Silky smooth feel",
+      "Competition prep"
+    ]
+  },
+  {
+    "id": "cubicle-solar",
+    "name": "Cubicle Solar",
+    "brand": "TheCubicle",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$5",
+    "description": "A newer addition to TheCubicle's silicone lube lineup. Provides a fast, clean feel with a slightly different texture profile than Lunar and Stardust. Designed for piece surfaces with excellent longevity.",
+    "bestFor": [
+      "Fast clean feel",
+      "Piece surfaces",
+      "Long-lasting",
+      "Modern cubes"
+    ]
+  },
+  {
+    "id": "xmd-qiyi-silicone-lube",
+    "name": "XMD/QiYi Silicone Lube",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$3",
+    "description": "Budget-friendly light silicone lube from QiYi's XMD line. An affordable entry-level option that provides basic speed and smoothness. Great for beginners or cubers on a budget who want a simple, no-frills silicone lube.",
+    "bestFor": [
+      "Budget option",
+      "Beginners",
+      "Basic speed boost",
+      "Affordable maintenance"
+    ]
+  }
+]

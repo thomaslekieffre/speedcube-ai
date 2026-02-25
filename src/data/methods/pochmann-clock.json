@@ -1,0 +1,58 @@
+{
+  "id": "pochmann-clock",
+  "name": "Pochmann/Clochmann",
+  "description": "The Pochmann method (also known as Clochmann) is a beginner-friendly Clock solving technique. It solves the puzzle in four phases: front cross, flip, back cross, and corners. This structured approach makes it easy to learn and provides a clear framework for solving the Clock puzzle from start to finish.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Front Cross",
+      "description": "Solve the four edge clocks on the front face to form a cross pattern. Each edge clock is set to the correct time by pressing the appropriate pins and turning the wheels.",
+      "tips": [
+        "Work on one edge clock at a time",
+        "Press the correct pin configuration to isolate the edge you are solving",
+        "Develop a consistent order for solving the four edges"
+      ]
+    },
+    {
+      "name": "Flip",
+      "description": "Flip the Clock puzzle over to access the back face. This is a physical step that transitions from front-face solving to back-face solving.",
+      "tips": [
+        "Flip quickly and consistently to save time",
+        "Maintain your grip for a smooth transition",
+        "Mentally prepare for the back cross while flipping"
+      ]
+    },
+    {
+      "name": "Back Cross",
+      "description": "Solve the four edge clocks on the back face, forming a cross on this side. The technique mirrors the front cross step but on the opposite face.",
+      "tips": [
+        "Use the same systematic approach as the front cross",
+        "Be careful not to disturb the already-solved front face",
+        "Pin configurations on the back affect the front — learn the interactions"
+      ]
+    },
+    {
+      "name": "Corners",
+      "description": "Solve all four corner clocks. Since the crosses on both faces are already solved, the corners can be adjusted using specific pin and wheel combinations.",
+      "tips": [
+        "Corner solving affects both faces simultaneously",
+        "Learn the pin patterns that isolate corner clocks",
+        "Practice the corner step in isolation to build speed"
+      ]
+    }
+  ],
+  "pros": [
+    "Easy to learn for Clock beginners",
+    "Clear four-phase structure with no ambiguity",
+    "Good foundation for learning more advanced Clock methods",
+    "Consistent and reliable solving approach"
+  ],
+  "cons": [
+    "Flip adds time compared to no-flip methods",
+    "Not competitive at the highest level",
+    "Sequential approach limits optimization potential",
+    "Back cross can accidentally disturb front face work"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

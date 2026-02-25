@@ -1,0 +1,61 @@
+{
+  "id": "columns-first",
+  "name": "Columns First",
+  "description": "A lesser-known 3x3 method that solves the cube by first building columns (corner-edge pairs) without regard to their relative positions, then uses algorithms to solve the remaining pieces. Instead of building layers, the solver creates four vertical columns connecting opposite faces, then orients and permutes remaining pieces. It is considered a novel approach that provides a different perspective on the cube.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Build Columns",
+      "description": "Create four columns by pairing each bottom-layer corner with its corresponding top-layer corner via the connecting edge. Each column is a vertical 1x1x3 strip. The four columns are built without necessarily being in the correct positions relative to each other.",
+      "moveCountRange": "20-30 moves",
+      "tips": [
+        "Focus on pairing corners with edges intuitively",
+        "Use keyhole-style techniques to insert columns without disturbing others",
+        "Plan the first column during inspection"
+      ]
+    },
+    {
+      "name": "Orient Columns",
+      "description": "Ensure all columns are oriented correctly so that top and bottom face colors face up and down respectively. This is similar to an orientation step but applied to the column structures.",
+      "moveCountRange": "5-10 moves",
+      "tips": [
+        "Recognize orientation patterns quickly",
+        "This step is analogous to OLL but for columns"
+      ]
+    },
+    {
+      "name": "Permute Columns",
+      "description": "Move all four columns into their correct positions relative to each other. After this step, the top and bottom layers' corners are solved, and the middle layer edges remain.",
+      "moveCountRange": "5-10 moves",
+      "tips": [
+        "Learn the permutation algorithms for column arrangements",
+        "There are relatively few cases compared to PLL"
+      ]
+    },
+    {
+      "name": "Solve Middle Layer Edges",
+      "description": "Insert the four middle-layer edges into their correct positions to complete the solve. Various techniques can be used including commutators or dedicated algorithms.",
+      "moveCountRange": "8-15 moves",
+      "tips": [
+        "Use 3-cycle commutators for efficient edge placement",
+        "Some cases can be solved intuitively"
+      ]
+    }
+  ],
+  "pros": [
+    "Unique approach that develops strong understanding of cube structure",
+    "Relatively few algorithms needed",
+    "Good for developing spatial reasoning",
+    "Interesting alternative perspective to layer-based methods"
+  ],
+  "cons": [
+    "Not competitive for speedcubing",
+    "Higher move count than mainstream methods",
+    "Very few resources and tutorials available",
+    "Column building can be inefficient"
+  ],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "50-70",
+  "yearCreated": 1981
+}

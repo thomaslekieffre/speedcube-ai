@@ -1,0 +1,54 @@
+{
+  "id": "wo",
+  "name": "WO (Wedel-Odder)",
+  "description": "The WO (Wedel-Odder) method is an intermediate Pyraminx speedsolving technique. It works by first solving three edges on the top layer, then solving the centers, and finishing with the last three edges (L3E). This top-down approach provides a structured and efficient solve with a manageable algorithm count.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Solve 3 Top Edges",
+      "description": "Solve three edges around the top tip of the Pyraminx. These edges form a ring around the top vertex and establish the orientation for the rest of the solve.",
+      "moveCountRange": "3-5",
+      "tips": [
+        "Plan this step entirely during inspection",
+        "Choose the top tip based on which gives the easiest start",
+        "This step is fully intuitive — no algorithms needed"
+      ]
+    },
+    {
+      "name": "Solve Centers",
+      "description": "Solve the three center pieces to match their adjacent faces. The centers must be twisted to align with the already-solved top edges.",
+      "moveCountRange": "2-4",
+      "tips": [
+        "Centers are solved by twisting the tips",
+        "Try to predict center orientations during the first step",
+        "This step should be nearly instant with practice"
+      ]
+    },
+    {
+      "name": "Last 3 Edges (L3E)",
+      "description": "Solve the remaining three edges in the bottom layer using L3E algorithms. This is the only algorithmic step of the method.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "4-6",
+      "tips": [
+        "There are only a few L3E cases to learn",
+        "Practice recognition from different angles",
+        "Some L3E cases can be anticipated during the centers step"
+      ]
+    }
+  ],
+  "pros": [
+    "Simple and logical top-down structure",
+    "Very few algorithms required (only L3E)",
+    "Easy to plan first step in inspection",
+    "Competitive solve times for intermediate solvers"
+  ],
+  "cons": [
+    "Top edge solving can be awkward for some scrambles",
+    "Not as move-efficient as Nutella or advanced methods",
+    "Limited optimization potential at the highest level",
+    "Center step can disrupt lookahead flow"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "10-14"
+}

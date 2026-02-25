@@ -1,0 +1,39 @@
+{
+  "id": "belt",
+  "name": "Belt (Equator First)",
+  "description": "An unconventional method that begins by solving the four middle-layer (equatorial) edges first, forming a 'belt' or ring around the cube's equator. After the belt is formed, the top and bottom layers are solved. This approach inverts the typical layer-by-layer logic and offers a fresh perspective on the cube, though it is generally less efficient than mainstream methods.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Belt / Equator Edges",
+      "description": "Solve the four edges of the middle layer (E-slice), forming a complete ring or belt around the equator of the cube. Each edge must be placed in its correct position with correct orientation.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Identify all four E-slice edges before starting", "Insert edges one at a time without disturbing solved ones", "This step is similar to placing middle layer edges in beginner methods"]
+    },
+    {
+      "name": "First Face Corners and Edges",
+      "description": "Solve all corners and edges of one face (top or bottom) while preserving the belt. This involves placing four edges and four corners into their correct positions.",
+      "moveCountRange": "18-25 moves",
+      "tips": ["Work on edges first, then corners", "Use algorithms that preserve the middle layer", "Cross-like edge placement can help structure this step"]
+    },
+    {
+      "name": "Last Face Edges",
+      "description": "Solve the four edges of the remaining face. Since the belt and one full face are solved, these edges must be placed carefully to avoid disruption.",
+      "moveCountRange": "10-15 moves",
+      "tips": ["Orient edges before permuting them", "Limit moves to those that preserve solved layers", "Similar techniques to last layer edge solving"]
+    },
+    {
+      "name": "Last Face Corners",
+      "description": "Orient and permute the final four corners to complete the solve. This is the last step and can use OLL/PLL corner subsets or dedicated algorithms.",
+      "algorithmSets": ["OLL", "PLL"],
+      "moveCountRange": "12-18 moves",
+      "tips": ["Standard corner OLL and PLL algorithms can be adapted", "Sune and A-perm variants are commonly used", "Practice recognition from this unusual solving angle"]
+    }
+  ],
+  "pros": ["Unique and interesting approach to the cube", "Good for developing spatial awareness", "Middle layer is solved early, providing a visual anchor", "Relatively easy to understand conceptually"],
+  "cons": ["High move count (~60-80 moves)", "Not competitive for speedsolving", "Limited resources and community support", "Later steps are constrained by the need to preserve the belt", "Less ergonomic than layer or block methods"],
+  "notableUsers": [],
+  "relatedSets": ["OLL", "PLL"],
+  "avgMoveCount": "60-80",
+  "yearCreated": 1981
+}

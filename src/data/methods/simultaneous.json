@@ -1,0 +1,55 @@
+{
+  "id": "simultaneous",
+  "name": "Simultaneous (Clock)",
+  "description": "An advanced Clock solving method where the solver manipulates multiple clock faces simultaneously by pressing specific pin combinations and turning both wheels at once. Rather than solving one clock face at a time, the simultaneous method identifies pin configurations that allow adjusting multiple faces in parallel, dramatically reducing total move count and solve time. This is the method used by top Clock speedcubers and is essential for achieving sub-4 times.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Front Face Setup",
+      "description": "With the Clock front-facing, analyze all 9 clock faces on the front and determine the optimal sequence of pin presses and wheel turns to solve as many front faces as possible. Use both the upper-right and upper-left wheels simultaneously when beneficial. Strategic pin pressing allows you to affect multiple clocks at once.",
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Memorize which pin combinations affect which clock faces",
+        "Practice reading all 9 faces quickly during inspection",
+        "Look for opportunities to solve two or more faces with one turn",
+        "Speed of pin pressing is as important as turn speed"
+      ]
+    },
+    {
+      "name": "Flip and Solve Back",
+      "description": "Flip the Clock over and solve the back faces using the same simultaneous approach. The back shares pins and gears with the front, so some adjustments affect both sides. Plan the back moves to complement the front without undoing progress.",
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Understand how back moves affect the front",
+        "Practice the flip transition for speed",
+        "Plan back-side moves during front-side solving",
+        "The relationship between front and back is key to advanced Clock solving"
+      ]
+    },
+    {
+      "name": "Final Adjustments",
+      "description": "Make any remaining adjustments to clock faces that were not fully solved during the front and back phases. This may involve targeted single-face corrections using specific pin combinations. Ideally, this step is minimal or unnecessary.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Plan to minimize final adjustments",
+        "Sometimes flipping back to the front is needed for the last correction",
+        "Advanced solvers can eliminate this step entirely with optimal planning"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest Clock method — used by all top competitors",
+    "Low move count due to simultaneous adjustments",
+    "Sub-3 times achievable by elite solvers",
+    "Elegant and efficient solving approach"
+  ],
+  "cons": [
+    "Complex pin-combination memorization",
+    "Requires deep understanding of Clock gear mechanics",
+    "Both-sides planning is mentally demanding",
+    "Very different from other puzzle-solving approaches — no transferable skills"
+  ],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "10-18"
+}

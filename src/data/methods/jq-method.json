@@ -1,0 +1,56 @@
+{
+  "id": "jq-method",
+  "name": "JQ Method",
+  "description": "The JQ Method is an advanced Square-1 solving technique created by Jack Triton. It combines cubeshape solving with block building and an algorithmic finish, offering an alternative approach to the standard Vandenbergh or Lin methods. The method leverages efficient cubeshape algorithms, intuitive block building, and a streamlined algorithmic endgame.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Cubeshape",
+      "description": "Transform the Square-1 from its scrambled shape back into a cube. This step uses cubeshape algorithms to bring the puzzle into a solvable cubic form.",
+      "algorithmSets": ["SQ1 Cube Shape"],
+      "moveCountRange": "2-5 slices",
+      "tips": [
+        "Learn all cubeshape cases for fast execution",
+        "Recognize shapes quickly by counting edge and corner pieces on each half",
+        "Some shapes can be solved in fewer slices with optimal algorithms"
+      ]
+    },
+    {
+      "name": "Block Building",
+      "description": "Build blocks of correctly paired and positioned pieces using intuitive techniques. This phase organizes pieces into useful groupings that simplify the algorithmic finish.",
+      "moveCountRange": "4-7 slices",
+      "tips": [
+        "Look for pre-formed pairs and blocks after cubeshape",
+        "Use slice moves creatively to build multiple blocks",
+        "This step benefits greatly from practice and pattern recognition"
+      ]
+    },
+    {
+      "name": "Algorithmic Finish",
+      "description": "Complete the solve using algorithms to handle edge permutation and parity. This step resolves all remaining pieces using known algorithm sets.",
+      "algorithmSets": ["SQ1 EP", "SQ1 Parity"],
+      "moveCountRange": "4-6 slices",
+      "tips": [
+        "Learn EP algorithms for fast finishes",
+        "Recognize parity early to plan the correct algorithm",
+        "Some cases can be combined for more efficient solutions"
+      ]
+    }
+  ],
+  "pros": [
+    "Block building phase allows creative and efficient solving",
+    "Lower slice count than some traditional methods",
+    "Good for solvers who prefer intuitive middle phases",
+    "Algorithmic finish provides consistency"
+  ],
+  "cons": [
+    "Requires strong understanding of Square-1 mechanics",
+    "Block building step has high variability between solves",
+    "Fewer community resources compared to Vandenbergh",
+    "Parity handling adds complexity"
+  ],
+  "notableUsers": ["Jack Triton"],
+  "relatedSets": ["SQ1 Cube Shape", "SQ1 EP", "SQ1 Parity"],
+  "avgMoveCount": "12-18 slices",
+  "creator": "Jack Triton"
+}

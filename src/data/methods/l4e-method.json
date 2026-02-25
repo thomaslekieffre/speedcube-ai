@@ -1,0 +1,57 @@
+{
+  "id": "l4e-method",
+  "name": "L4E (Last 4 Edges) for Pyraminx",
+  "description": "The most popular intermediate-to-advanced Pyraminx speedcubing method. L4E works by first solving one edge intuitively to create a V-shape (a solved edge plus its two adjacent centers), then solving the remaining four edges simultaneously using a set of algorithms. With optimized algorithms and good recognition, L4E is very fast and is used by many top Pyraminx solvers.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist the four trivial tips to match their adjacent center colors. This can be done at any point during the solve but is typically handled first or concurrently with other steps.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Handle tips whenever convenient",
+        "Many fast solvers twist tips during inspection or while solving other steps",
+        "Tips never affect other pieces"
+      ]
+    },
+    {
+      "name": "Build V (First Edge)",
+      "description": "Solve one edge to create a V-shape — two connected faces that are each partially complete. This is done intuitively and quickly. The V consists of one solved edge flanked by its two matching centers (which are always solved on Pyraminx).",
+      "moveCountRange": "1-4 moves",
+      "tips": [
+        "Plan the V during inspection",
+        "Choose the V based on which edge is easiest to solve",
+        "Being color-neutral for V selection is very important",
+        "The V should be placed at the back of the Pyraminx"
+      ]
+    },
+    {
+      "name": "L4E (Last 4 Edges)",
+      "description": "Solve the remaining four edges in one step using L4E algorithms. There are approximately 16 cases (excluding mirrors and inverses). Recognition involves checking the four unsolved edges' colors and positions. This is the core of the method and where speed is gained.",
+      "algorithmSets": ["L4E"],
+      "moveCountRange": "4-8 moves",
+      "tips": [
+        "Learn all L4E algorithms for one-look solving",
+        "Practice recognition by noting edge orientations and positions",
+        "Many cases are mirrors of each other, reducing the total learning load",
+        "Sub-3 is very achievable with L4E mastery"
+      ]
+    }
+  ],
+  "pros": [
+    "Very fast method — used by top Pyraminx competitors",
+    "Relatively few algorithms (~16 L4E cases)",
+    "Simple structure: V + one-look finish",
+    "Low move count",
+    "Well-documented with many resources"
+  ],
+  "cons": [
+    "L4E recognition can be tricky at first",
+    "V selection requires color neutrality for optimal efficiency",
+    "Some L4E algorithms are awkward to execute",
+    "Marginally slower than Oka or Bell for the very fastest solvers"
+  ],
+  "notableUsers": ["Drew Brads", "Tymon Kolasiński"],
+  "relatedSets": ["L4E", "L3E"],
+  "avgMoveCount": "8-14"
+}

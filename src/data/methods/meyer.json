@@ -1,0 +1,73 @@
+{
+  "id": "meyer",
+  "name": "Meyer (4x4)",
+  "description": "The Meyer method is an advanced 4x4 speedsolving technique that adapts the Roux philosophy to big cubes. Instead of reducing to a CFOP-style 3x3 solve, Meyer builds a Roux-style block structure after centers and edge pairing. It begins by solving R and L centers, building a 1x3x4 block, solving the remaining centers, pairing edges, and finishing with a Roux-based 3x3 stage including CMLL.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Solve R/L Centers",
+      "description": "Solve the right and left centers of the 4x4 cube. These centers form the foundation for the Roux-style block building that follows.",
+      "moveCountRange": "8-14",
+      "tips": [
+        "Plan center placement during inspection",
+        "Use efficient slice moves to avoid disrupting future work",
+        "Color neutrality on the R/L axis helps find easier solutions"
+      ]
+    },
+    {
+      "name": "Build 1x3x4 Block",
+      "description": "Build a 1x3x4 block on one side, combining a center column with paired edges and corner-edge pairs. This is analogous to the first Roux block but adapted for 4x4.",
+      "moveCountRange": "12-20",
+      "tips": [
+        "Look for pre-formed pairs during center solving",
+        "Build the block efficiently by combining edge pairing with block building",
+        "Practice this step extensively as it is the most intuitive and creative phase"
+      ]
+    },
+    {
+      "name": "Solve Last 4 Centers",
+      "description": "Solve the remaining four centers (F, B, U, D) without disturbing the completed block and R/L centers.",
+      "moveCountRange": "10-16",
+      "tips": [
+        "Use slice moves that preserve the existing block",
+        "Plan center solutions to minimize move count",
+        "This step requires good spatial awareness"
+      ]
+    },
+    {
+      "name": "Edge Pairing",
+      "description": "Pair all remaining edges while preserving the solved centers and block. This reduces the puzzle to a Roux-solvable 3x3 state.",
+      "moveCountRange": "15-25",
+      "tips": [
+        "Use slice-flip-slice techniques for efficient pairing",
+        "Try to pair multiple edges per sequence",
+        "Keep track of which edges still need pairing"
+      ]
+    },
+    {
+      "name": "Roux 3x3 Stage",
+      "description": "Complete the solve using Roux method techniques on the now-reduced 3x3 state. This includes finishing the second block, CMLL, and last six edges.",
+      "algorithmSets": ["CMLL"],
+      "moveCountRange": "25-35",
+      "tips": [
+        "Strong Roux fundamentals make this step much faster",
+        "CMLL recognition should be automatic",
+        "LSE (Last Six Edges) step benefits from practice with M-slice moves"
+      ]
+    }
+  ],
+  "pros": [
+    "Lower move count than Yau for Roux users",
+    "Leverages existing Roux skills for 4x4 solving",
+    "Creative and flexible block-building phase",
+    "Good rotationless solving potential"
+  ],
+  "cons": [
+    "Steeper learning curve than Yau or reduction",
+    "Fewer resources and tutorials available",
+    "Block building on 4x4 requires strong spatial reasoning",
+    "Edge pairing while preserving blocks can be tricky"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["CMLL"]
+}

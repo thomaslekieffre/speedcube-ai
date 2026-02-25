@@ -1,0 +1,39 @@
+{
+  "id": "human-thistlethwaite",
+  "name": "Human Thistlethwaite (HTA)",
+  "description": "A human-adapted version of Morwen Thistlethwaite's famous computer algorithm. The original algorithm was the first to prove the cube could always be solved in a bounded number of moves by progressively restricting the available move set. The Human Thistlethwaite Algorithm (HTA) translates this concept into four manageable phases that a human can execute, reducing the cube step by step until it can be solved with only half-turn moves.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Phase 1: Edge Orientation (EO)",
+      "description": "Orient all 12 edges so that they can be solved without using quarter-turn F or B moves. This restricts the cube from the full move group <R, L, U, D, F, B> to <R, L, U, D, F2, B2>.",
+      "moveCountRange": "6-9 moves",
+      "tips": ["Learn to identify 'bad' edges that need flipping", "Use F and B moves to flip edges, then avoid them afterwards", "Similar to EO step in ZZ method"]
+    },
+    {
+      "name": "Phase 2: Corner Orientation + E-slice Separation",
+      "description": "Orient all 8 corners and move the 4 E-slice (equatorial) edges into the E-slice (they do not need to be permuted correctly yet). After this phase the cube is restricted to <R, L, U2, D2, F2, B2>.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Corner orientation uses R and L moves with U2/D2 adjustments", "Focus on getting E-slice edges into the middle layer", "This is the most complex phase to learn"]
+    },
+    {
+      "name": "Phase 3: Orbit Placement",
+      "description": "Place all pieces into their correct orbits: corners into their correct tetrads, edges into their correct slices, and fix corner parity. After this phase, the cube is restricted to <R2, L2, U2, D2, F2, B2> (half turns only).",
+      "moveCountRange": "10-12 moves",
+      "tips": ["Think of corners in two groups of four (tetrads)", "Edges must be in their home slice", "This phase establishes the domino reduction state"]
+    },
+    {
+      "name": "Phase 4: Half-Turn Solve",
+      "description": "Solve the cube completely using only half-turn (180-degree) moves. Since all pieces are in their correct orbits, the cube can be solved with only R2, L2, U2, D2, F2, B2 moves.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Limited number of cases in the half-turn group", "Algorithms are easy to execute quickly", "Can be solved with pattern recognition and short sequences"]
+    }
+  ],
+  "pros": ["Methodical and logical approach to solving", "Good move count (~40-45 moves)", "Teaches important group theory concepts", "Each phase strictly reduces the problem", "Interesting alternative to layer-based methods"],
+  "cons": ["Phase transitions require careful recognition", "Not competitive for speedsolving", "Steep learning curve for understanding the theory", "Few dedicated tutorials compared to mainstream methods", "Phase 2 and 3 recognition can be challenging"],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "40-45",
+  "yearCreated": 1981,
+  "creator": "Morwen Thistlethwaite (adapted for human use)"
+}

@@ -1,0 +1,310 @@
+{
+  "id": "csp",
+  "name": "CSP",
+  "puzzle": "Square-1",
+  "description": "Cubeshape Parity algorithms for Square-1 - 20 cases. These algorithms fix parity during or after the cubeshape step, ensuring the puzzle can be solved without encountering parity errors later.",
+  "category": "last-layer",
+  "caseCount": 20,
+  "algorithms": [
+    {
+      "id": "csp-1",
+      "name": "CSP Star/Star",
+      "set": "CSP",
+      "subset": "Star",
+      "puzzle": "Square-1",
+      "notation": "/ (3,3) / (3,0) / (0,-3) / (-3,0) / (3,3) /",
+      "alternatives": [
+        { "notation": "/ (-3,-3) / (0,3) / (3,0) / (-3,0) / (-3,-3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-2",
+      "name": "CSP Kite/Kite",
+      "set": "CSP",
+      "subset": "Kite",
+      "puzzle": "Square-1",
+      "notation": "/ (3,0) / (-3,0) / (0,3) / (0,-3) /",
+      "alternatives": [
+        { "notation": "/ (-3,0) / (3,0) / (0,-3) / (0,3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-3",
+      "name": "CSP Barrel/Barrel",
+      "set": "CSP",
+      "subset": "Barrel",
+      "puzzle": "Square-1",
+      "notation": "/ (3,-3) / (-3,3) /",
+      "alternatives": [
+        { "notation": "/ (-3,3) / (3,-3) /", "moveCount": 6, "votes": 0 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-4",
+      "name": "CSP Shield/Shield",
+      "set": "CSP",
+      "subset": "Shield",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,0) / (0,3) / (-3,0) / (3,0) / (-3,0) /",
+      "alternatives": [
+        { "notation": "/ (3,0) / (0,-3) / (3,0) / (-3,0) / (3,0) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-5",
+      "name": "CSP Square/Square",
+      "set": "CSP",
+      "subset": "Square",
+      "puzzle": "Square-1",
+      "notation": "/ (3,0) / (-3,3) / (3,-3) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (-3,0) / (3,-3) / (-3,3) / (0,-3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-6",
+      "name": "CSP Fist/Fist",
+      "set": "CSP",
+      "subset": "Fist",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,0) / (3,0) / (3,0) / (-3,0) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (3,0) / (-3,0) / (-3,0) / (3,0) / (0,-3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-7",
+      "name": "CSP Scallop/Scallop",
+      "set": "CSP",
+      "subset": "Scallop",
+      "puzzle": "Square-1",
+      "notation": "/ (0,3) / (0,-3) / (3,0) / (-3,0) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (0,-3) / (0,3) / (-3,0) / (3,0) / (0,-3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-8",
+      "name": "CSP Star/Square",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,3) / (3,0) / (0,-3) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (3,-3) / (-3,0) / (0,3) / (0,-3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-9",
+      "name": "CSP Kite/Barrel",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,0) / (-3,3) / (0,-3) /",
+      "alternatives": [
+        { "notation": "/ (-3,0) / (3,-3) / (0,3) /", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-10",
+      "name": "CSP Shield/Square",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,0) / (3,0) / (0,3) / (-3,3) /",
+      "alternatives": [
+        { "notation": "/ (3,0) / (-3,0) / (0,-3) / (3,-3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-11",
+      "name": "CSP Barrel/Square",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,-3) / (0,3) / (-3,0) /",
+      "alternatives": [
+        { "notation": "/ (-3,3) / (0,-3) / (3,0) /", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-12",
+      "name": "CSP Star/Kite",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,3) / (-3,0) / (3,0) / (0,-3) / (-3,0) /",
+      "alternatives": [
+        { "notation": "/ (-3,-3) / (3,0) / (-3,0) / (0,3) / (3,0) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-13",
+      "name": "CSP Scallop/Kite",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (0,3) / (-3,0) / (3,0) / (0,-3) /",
+      "alternatives": [
+        { "notation": "/ (0,-3) / (3,0) / (-3,0) / (0,3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-14",
+      "name": "CSP Fist/Barrel",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,0) / (-3,0) / (0,3) / (3,-3) /",
+      "alternatives": [
+        { "notation": "/ (-3,0) / (3,0) / (0,-3) / (-3,3) /", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-15",
+      "name": "CSP Star/Shield",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,3) / (0,-3) / (3,0) / (-3,0) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (-3,-3) / (0,3) / (-3,0) / (3,0) / (0,-3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-16",
+      "name": "CSP Fist/Kite",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,0) / (3,0) / (0,3) / (0,-3) / (3,0) /",
+      "alternatives": [
+        { "notation": "/ (3,0) / (-3,0) / (0,-3) / (0,3) / (-3,0) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-17",
+      "name": "CSP Scallop/Barrel",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (0,3) / (3,-3) / (-3,0) /",
+      "alternatives": [
+        { "notation": "/ (0,-3) / (-3,3) / (3,0) /", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-18",
+      "name": "CSP Shield/Kite",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (3,0) / (0,-3) / (-3,0) / (3,0) / (0,-3) /",
+      "alternatives": [
+        { "notation": "/ (-3,0) / (0,3) / (3,0) / (-3,0) / (0,3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-19",
+      "name": "CSP Scallop/Shield",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (0,3) / (-3,0) / (0,3) / (3,0) / (-3,0) /",
+      "alternatives": [
+        { "notation": "/ (0,-3) / (3,0) / (0,-3) / (-3,0) / (3,0) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "csp-20",
+      "name": "CSP Fist/Shield",
+      "set": "CSP",
+      "subset": "Mixed",
+      "puzzle": "Square-1",
+      "notation": "/ (-3,0) / (0,3) / (3,0) / (-3,0) / (0,3) /",
+      "alternatives": [
+        { "notation": "/ (3,0) / (0,-3) / (-3,0) / (3,0) / (0,-3) /", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mehta",
+  "name": "Mehta",
+  "description": "A modern speedcubing method created by Yash Mehta in 2020 that blends block-building with algorithmic steps to achieve a very low move count. Mehta uses a unique sequence: build a first block, solve three quarter-belt edges, orient edges while placing the last edge, solve the DR corner and orient remaining corners, then finish with ZBLL. It is one of the newest competitive methods and represents a fresh approach to 3x3 solving.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "First Block (FB)",
+      "description": "Build a 1x2x3 block on the left side of the cube, similar to the first block in Roux. This block contains the DL edge and two corner-edge pairs.",
+      "moveCountRange": "7-9 moves",
+      "tips": ["Plan the entire first block in inspection", "Color neutrality greatly expands options", "Practice finding efficient block-building solutions"]
+    },
+    {
+      "name": "3QB (3 Quarter Belt)",
+      "description": "Solve 3 of the 4 edges in the E-layer belt (the equatorial slice), leaving one edge unsolved. This step positions the cube for efficient edge orientation.",
+      "moveCountRange": "6-9 moves",
+      "tips": ["Track belt edges during first block", "Leave the most convenient edge unsolved", "Use R and U moves primarily"]
+    },
+    {
+      "name": "EOLE (Edge Orientation + Last E-slice Edge)",
+      "description": "Orient all remaining edges on the cube while simultaneously placing the last E-layer edge. After this step, all edges are oriented, unlocking efficient corner-solving algorithms.",
+      "moveCountRange": "7-10 moves",
+      "tips": ["Learn to recognize edge orientation quickly", "This step is the bridge between intuitive and algorithmic phases", "Approximately 70 algorithms for full EOLE"]
+    },
+    {
+      "name": "TDR (Solve DR + Corner Orientation)",
+      "description": "Solve the DR (down-right) edge position and orient all remaining corners. This leaves the cube in a state solvable by ZBLL or a similar last-layer algorithm set.",
+      "moveCountRange": "7-9 moves",
+      "tips": ["Recognition combines DR edge position with corner orientation", "Approximately 46 algorithms", "Practice smooth transitions into ZBLL recognition"]
+    },
+    {
+      "name": "ZBLL Finish",
+      "description": "Solve the last layer in one look using ZBLL algorithms. Since all edges are oriented, only ZBLL cases apply. This step completes the entire solve.",
+      "algorithmSets": ["ZBLL U", "ZBLL T", "ZBLL L", "ZBLL H", "ZBLL Pi", "ZBLL S", "ZBLL AS"],
+      "moveCountRange": "12-15 moves",
+      "tips": ["ZBLL is 493 algorithms but many share patterns", "Can use COLL + EPLL as a simpler alternative", "Fast ZBLL execution is key to competitive Mehta times"]
+    }
+  ],
+  "pros": ["Very low move count (~40-45 moves)", "Ergonomic fingertricks throughout", "Fewer cube rotations than CFOP", "Novel approach that avoids traditional F2L structure", "Strong potential as method theory continues to develop"],
+  "cons": ["Very new method with limited competitive results", "Fewer resources and tutorials compared to CFOP or Roux", "Complex recognition for EOLE and TDR steps", "Steep learning curve for the full algorithm sets", "Requires ZBLL knowledge for optimal performance"],
+  "notableUsers": ["Yash Mehta", "Mehta community"],
+  "relatedSets": ["ZBLL U", "ZBLL T", "ZBLL L", "ZBLL H", "ZBLL Pi", "ZBLL S", "ZBLL AS"],
+  "avgMoveCount": "40-45",
+  "yearCreated": 2020,
+  "creator": "Yash Mehta",
+  "puzzle": "3x3"
+}

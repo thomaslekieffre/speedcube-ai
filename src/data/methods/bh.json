@@ -1,0 +1,53 @@
+{
+  "id": "bh",
+  "name": "BH (3BLD)",
+  "description": "The BH (Beyer-Hardwick) method is an expert-level 3BLD (3x3 blindfolded) solving technique. It uses pre-memorized 3-cycle commutators for both edges and corners, allowing the solver to solve any piece cycle in a single optimized algorithm. This is the gold standard for competitive BLD solving and is used by virtually all top BLD solvers worldwide.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Memorize Edges and Corners",
+      "description": "Memorize the complete cycle sequence for both edges and corners. Advanced memory techniques such as letter pairs, images, and memory palaces are used to encode the solving sequence rapidly.",
+      "tips": [
+        "Use a well-optimized letter scheme",
+        "Letter pairs with vivid images dramatically improve memo speed",
+        "Memory palaces (method of loci) help maintain order",
+        "Practice memo speed as a separate skill from execution",
+        "Review and refine your letter pair list regularly"
+      ]
+    },
+    {
+      "name": "Execute Edge 3-Cycles",
+      "description": "Solve all edges using pre-memorized 3-cycle commutators. Each pair of letters in the memo corresponds to one commutator that cycles three edge pieces. Every possible edge target combination has a specific optimized commutator.",
+      "tips": [
+        "Learn commutators for all edge target pairs — there are hundreds",
+        "Start with intuitive commutators and optimize over time",
+        "Drill frequently used commutators for speed",
+        "Understand the structure of commutators (A B A' B') to derive forgotten ones"
+      ]
+    },
+    {
+      "name": "Execute Corner 3-Cycles",
+      "description": "Solve all corners using pre-memorized 3-cycle commutators. Similar to edges, each memo pair triggers a specific corner commutator that cycles three corner pieces.",
+      "tips": [
+        "Corner commutators are generally shorter than edge commutators",
+        "Learn to recognize corner twist cases that require special handling",
+        "Practice corner execution separately before integrating with edges",
+        "Parity handling (when edge and corner cycle counts differ) must be addressed"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest BLD execution method available",
+    "Used by all top-level BLD solvers",
+    "Optimal move count for each 3-cycle",
+    "Scales well to multi-blind and bigger cubes"
+  ],
+  "cons": [
+    "Requires memorizing hundreds of commutators",
+    "Extremely steep learning curve",
+    "Takes months or years to fully learn all cases",
+    "Deriving forgotten commutators mid-solve is slow"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "briggs",
+  "name": "Briggs",
+  "description": "The Briggs method is a CP-first Roux variant created by Joseph Briggs in 2015. It starts with CPFB (corner permutation + first block), builds a 1x2x2 square on the right side, then inserts a pair while simultaneously orienting corners and creating an arrow on the last layer. The final step is a reduced last layer that benefits from pre-solved corner permutation. Briggs was one of the earlier methods to explore the CP-first concept that has since gained traction in the method development community.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "CPFB (Corner Permutation + First Block)",
+      "description": "Solve corner permutation for all corners while simultaneously building a 1x2x3 first block on the left side. This is the most planning-intensive step and determines the efficiency of the rest of the solve.",
+      "moveCountRange": "9-12 moves",
+      "tips": ["Plan as much as possible during inspection", "Learn to identify the 12 corner permutation cases", "Practice combining CP with Roux-style first block building", "Color neutrality is especially beneficial here"]
+    },
+    {
+      "name": "1x2x2 Square",
+      "description": "Build a 1x2x2 block (one corner-edge pair plus one edge) on the right side of the cube. This partially fills the second block and sets up the next step.",
+      "moveCountRange": "5-8 moves",
+      "tips": ["Look for pre-formed pairs", "Use R and U moves to minimize disruption", "Plan this step during CPFB execution"]
+    },
+    {
+      "name": "Pair Insertion + CO + Arrow",
+      "description": "Insert the last right-block pair while simultaneously orienting the remaining corners and creating an 'arrow' pattern on the last layer (one correctly oriented edge adjacent to the solving slot). This multi-purpose step is the key innovation of the Briggs method.",
+      "algorithmSets": ["CMLL"],
+      "moveCountRange": "10-14 moves",
+      "tips": ["This step combines multiple goals into one", "Recognition requires tracking the pair, corners, and LL edges", "Practice the specific algorithms for each case", "The arrow pattern simplifies the final step"]
+    },
+    {
+      "name": "Reduced Last Layer",
+      "description": "Solve the remaining last layer pieces. With corner permutation and orientation already solved and an arrow established, the last layer is reduced to a small set of edge-only cases, solvable with M and U moves.",
+      "moveCountRange": "10-14 moves",
+      "tips": ["Very few cases compared to full LL", "M and U moves dominate this step", "Similar to LSE in Roux but further reduced", "Fast execution due to ergonomic moveset"]
+    }
+  ],
+  "pros": ["Reduced last layer due to CP-first approach", "Low move count (~42-50 moves)", "Innovative multi-purpose steps", "Good ergonomics with RU and MU movesets", "Pioneering CP-first design that influenced later methods"],
+  "cons": ["CPFB planning is very demanding", "Multi-purpose steps have complex recognition", "Small community and limited resources", "Pair + CO + Arrow step has many cases", "Steep learning curve for CP recognition"],
+  "notableUsers": ["Joseph Briggs"],
+  "relatedSets": ["CMLL"],
+  "avgMoveCount": "42-50",
+  "yearCreated": 2015,
+  "creator": "Joseph Briggs"
+}

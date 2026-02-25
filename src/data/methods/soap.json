@@ -1,0 +1,55 @@
+{
+  "id": "soap",
+  "name": "SOAP",
+  "description": "SOAP (Separate, Orient All, Permute) is an intermediate 2x2 speedsolving method. It breaks the solve into three clear phases: separating pieces into their correct layers, orienting all pieces, and then permuting them into their final positions. This structured approach makes it accessible while still being competitive.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Separate",
+      "description": "Separate the pieces so that each layer contains only the pieces that belong to it. Top-layer pieces go to the top and bottom-layer pieces go to the bottom, regardless of their orientation or exact position.",
+      "moveCountRange": "3-6",
+      "tips": [
+        "Focus only on which layer each piece belongs to, not its orientation",
+        "This step is fully intuitive",
+        "Practice recognizing which pieces need to be swapped between layers"
+      ]
+    },
+    {
+      "name": "Orient All",
+      "description": "Orient all pieces on both layers so that the top and bottom face colors are correct. After this step, both faces should show a solid color, though pieces may not be in their correct positions.",
+      "algorithmSets": ["2x2 OLL"],
+      "moveCountRange": "4-7",
+      "tips": [
+        "Learn the orientation algorithms for both layers",
+        "Some cases allow orienting both layers simultaneously",
+        "Recognition speed improves significantly with practice"
+      ]
+    },
+    {
+      "name": "Permute",
+      "description": "Permute all pieces on both layers to reach the solved state. Since everything is already oriented, this reduces to a PBL (Permutation of Both Layers) step.",
+      "algorithmSets": ["PBL"],
+      "moveCountRange": "4-7",
+      "tips": [
+        "PBL algorithms are shared with the Ortega method",
+        "Learn to recognize permutation cases quickly by checking adjacent sticker pairs",
+        "Some lucky cases skip this step entirely"
+      ]
+    }
+  ],
+  "pros": [
+    "Clear, logical three-phase structure",
+    "Relatively low algorithm count",
+    "Shares PBL algorithms with Ortega method",
+    "Good balance of speed and ease of learning"
+  ],
+  "cons": [
+    "Higher move count than one-look methods like CLL or EG",
+    "Three-step process means more pauses than two-step methods",
+    "Not commonly used at the highest competitive level",
+    "Separation step can be awkward for certain scrambles"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["2x2 OLL", "PBL"],
+  "avgMoveCount": "15-20"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "nautilus",
+  "name": "Nautilus",
+  "description": "A hybrid blockbuilding and algorithmic method for the 3x3. Nautilus builds a 1x2x3 block (similar to Roux's first block), then solves the remaining pieces using a combination of last slot and last layer techniques. It blends the intuitive blockbuilding of Roux with algorithmic efficiency, offering a unique solving experience that emphasizes both creativity and speed.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "First Block (FB)",
+      "description": "Build a 1x2x3 block on the left side of the cube, typically on the D-layer. This block includes the DL edge, and two corner-edge pairs forming a 1x2x3 shape. This step is identical to Roux first block building.",
+      "moveCountRange": "7-9 moves",
+      "tips": [
+        "Plan the entire first block during inspection",
+        "Use wide moves and rotations to build efficiently",
+        "Study multiple solutions for the same scramble to improve flexibility"
+      ]
+    },
+    {
+      "name": "Second Square",
+      "description": "Build a 1x2x2 square (a 'square' consisting of one corner-edge pair plus the DR edge) on the right side of the bottom layer. This partially completes the second block without fully extending it to a full 1x2x3.",
+      "moveCountRange": "5-8 moves",
+      "tips": [
+        "Look ahead during first block to plan this step",
+        "Keep the first block preserved while building",
+        "Practice efficient pairing techniques"
+      ]
+    },
+    {
+      "name": "Last Slot + Last Layer (LSLL)",
+      "description": "Solve the last F2L slot (the remaining corner-edge pair on the right side) and the last layer in fewer steps than traditional approaches. Various sub-methods can be used here including ZBLS + ZBLL, Winter Variation + PLL, or other LSLL approaches. The key idea is to influence the last layer state while inserting the last pair.",
+      "algorithmSets": ["ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U", "WV", "VLS", "OLL", "PLL"],
+      "moveCountRange": "18-25 moves",
+      "tips": [
+        "Learn VLS or Winter Variation to orient last layer edges during last slot insertion",
+        "ZBLL knowledge significantly reduces total move count",
+        "Practice recognizing last layer state before inserting the last pair"
+      ]
+    }
+  ],
+  "pros": [
+    "Lower move count than CFOP due to efficient blockbuilding",
+    "Flexible and creative first two steps",
+    "LSLL approach can skip OLL entirely with enough algorithm knowledge",
+    "Fewer rotations than CFOP"
+  ],
+  "cons": [
+    "Requires strong blockbuilding intuition",
+    "LSLL sub-methods require many algorithms (especially ZBLL)",
+    "Fewer resources and community support compared to mainstream methods",
+    "Inspection planning is more demanding"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["ZBLL AS", "ZBLL H", "ZBLL L", "ZBLL Pi", "ZBLL S", "ZBLL T", "ZBLL U", "WV", "VLS", "OLL", "PLL", "F2L"],
+  "avgMoveCount": "40-50",
+  "yearCreated": 2019,
+  "creator": "Trangium"
+}

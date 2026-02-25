@@ -1,0 +1,54 @@
+{
+  "id": "nutella",
+  "name": "Nutella",
+  "description": "The Nutella method is an advanced Pyraminx speedsolving technique known for its low move count and creative solving approach. It begins by solving the top layer with a specific 3-color front face constraint, then simultaneously solves centers and the top, and finishes with L3E. The method's strength lies in its efficiency and the simultaneous nature of its middle step.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Top with 3-Color Front",
+      "description": "Solve the top layer while ensuring the front face displays exactly three colors. This constraint sets up the puzzle for an efficient simultaneous solve in the next step.",
+      "moveCountRange": "3-5",
+      "tips": [
+        "Plan this entirely during inspection",
+        "The 3-color front constraint is key — do not skip it",
+        "Practice identifying the best top/front orientation quickly"
+      ]
+    },
+    {
+      "name": "Simultaneous Center + Top Finish",
+      "description": "Solve the centers and complete the top layer simultaneously. This step exploits the 3-color front constraint to solve multiple elements at once, keeping the move count very low.",
+      "moveCountRange": "2-4",
+      "tips": [
+        "This step flows naturally from a correct first step",
+        "Learn the small set of cases that arise from the 3-color setup",
+        "Speed comes from recognizing the simultaneous solve patterns"
+      ]
+    },
+    {
+      "name": "Last 3 Edges (L3E)",
+      "description": "Solve the final three edges using L3E algorithms. The setup from previous steps often results in favorable L3E cases.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "4-6",
+      "tips": [
+        "Anticipate the L3E case during the previous step",
+        "Favorable cases occur more often with good setup",
+        "Full L3E knowledge allows one-looking this step"
+      ]
+    }
+  ],
+  "pros": [
+    "Very low move count (9-13 moves average)",
+    "Simultaneous solving step is highly efficient",
+    "Competitive at the highest level of Pyraminx solving",
+    "Elegant and creative approach to the puzzle"
+  ],
+  "cons": [
+    "Requires strong understanding of Pyraminx mechanics",
+    "3-color front constraint takes time to master",
+    "Fewer learning resources compared to LBL or top-first methods",
+    "Recognition for the simultaneous step is difficult to develop"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "9-13"
+}

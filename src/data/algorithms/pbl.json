@@ -1,0 +1,16 @@
+{
+  "id": "pbl",
+  "name": "PBL",
+  "puzzle": "2x2",
+  "description": "Permutation of Both Layers — 6 cases. Solves both layers simultaneously on the 2x2 cube after OLL. Part of the Ortega method.",
+  "category": "last-layer",
+  "caseCount": 6,
+  "algorithms": [
+    {"id":"pbl-1","name":"PBL Adj","set":"PBL","subset":"Adjacent","puzzle":"2x2","notation":"y R U R' F' R U R' U' R' F R2 U' R'","alternatives":[{"notation":"y R' F R F' R U2 R' U R U2 R'","moveCount":11,"votes":22}],"moveCount":13,"setup":"","votes":30,"source":"speedcubedb"},
+    {"id":"pbl-2","name":"PBL Opp","set":"PBL","subset":"Opposite","puzzle":"2x2","notation":"R U' R' U' F2 U' R U R' U F2","alternatives":[{"notation":"F R U' R' U' R U R' F' R U R' U' R' F R F'","moveCount":17,"votes":16}],"moveCount":11,"setup":"","votes":25,"source":"speedcubedb"},
+    {"id":"pbl-3","name":"PBL Opp Opp","set":"PBL","subset":"Opposite-Opposite","puzzle":"2x2","notation":"R2 F2 R2","alternatives":[{"notation":"R2 B2 R2","moveCount":3,"votes":15}],"moveCount":3,"setup":"","votes":29,"source":"speedcubedb"},
+    {"id":"pbl-4","name":"PBL Adj Adj","set":"PBL","subset":"Adjacent-Adjacent","puzzle":"2x2","notation":"R2 U' B2 U2 R2 U' R2","alternatives":[{"notation":"y2 R2 U' R2 U2 F2 U' R2","moveCount":7,"votes":18}],"moveCount":7,"setup":"","votes":35,"source":"speedcubedb"},
+    {"id":"pbl-5","name":"PBL Adj Opp","set":"PBL","subset":"Adjacent-Opposite","puzzle":"2x2","notation":"R U' R F2 R' U R'","alternatives":[{"notation":"R' F R' F2 R U' R","moveCount":7,"votes":12}],"moveCount":7,"setup":"","votes":35,"source":"speedcubedb"},
+    {"id":"pbl-6","name":"PBL Opp Adj","set":"PBL","subset":"Opposite-Adjacent","puzzle":"2x2","notation":"y R2 U R2 U' R2 U R2 U' R2","alternatives":[{"notation":"R' D R' F2 R D' R","moveCount":7,"votes":15}],"moveCount":9,"setup":"","votes":31,"source":"speedcubedb"}
+  ]
+}

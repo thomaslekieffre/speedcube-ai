@@ -1,0 +1,42 @@
+{
+  "id": "cfop-4lll",
+  "name": "CFOP Simplifié (2-Look LL)",
+  "description": "The most popular intermediate step after the beginner method. Uses the same CFOP framework (Cross, F2L) but solves the last layer with a 2-look approach: OCLL to orient corners, then EPLL to permute edges. Edge orientation (EOLL, 3 trivial cases) and corner permutation (CPLL, 2 cases) are done beforehand with simple algorithms, so the real recognition work is only 2 looks. Requires about 16 algorithms total and is a natural stepping stone toward full CFOP.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Cross",
+      "description": "Solve the 4 edge pieces of one face on the bottom layer, ensuring each edge matches its adjacent center color. Same as full CFOP cross. Plan during inspection.",
+      "moveCountRange": "6-8 moves",
+      "tips": ["Always solve the cross on the bottom", "Plan 2-3 edges during inspection", "Aim for under 8 moves"]
+    },
+    {
+      "name": "F2L (First Two Layers)",
+      "description": "Solve the first two layers by pairing corners with edges and inserting them into slots. At this stage, use intuitive F2L — understand how pieces move rather than memorizing algorithms.",
+      "moveCountRange": "28-35 moves",
+      "tips": ["Learn intuitive F2L first, not algorithms", "Use wide moves (Rw, Lw) to reduce rotations", "Do not rush — understanding beats speed"]
+    },
+    {
+      "name": "OLL (2-Look: EOLL → OCLL)",
+      "description": "Orient all last layer pieces in 2 steps. First, make a yellow cross with EOLL (3 trivial cases: dot → line → cross, using F R U R' U' F' and its variant). Then orient all corners with OCLL (7 cases: sune, anti-sune, H, pi, headlights, bowtie, chameleon). EOLL is almost automatic; OCLL is the real recognition step.",
+      "algorithmSets": ["ocll"],
+      "moveCountRange": "7-18 moves",
+      "tips": ["EOLL is only 3 patterns — learn it in 10 minutes", "OCLL is the first real algorithm set to master", "Sune and Anti-Sune cover most OCLL cases", "Hold the pattern in the correct orientation before executing"]
+    },
+    {
+      "name": "PLL (2-Look: CPLL → EPLL)",
+      "description": "Permute all last layer pieces in 2 steps. First, swap corners into position with CPLL (2 cases: adjacent swap = T-perm, diagonal swap = Y-perm). Then permute edges with EPLL (4 cases: Ua, Ub, H, Z). CPLL is just 'headlights or no headlights'; EPLL is the real recognition step.",
+      "algorithmSets": ["epll"],
+      "moveCountRange": "7-26 moves",
+      "tips": ["CPLL: headlights on one side = adjacent swap, no headlights = diagonal swap", "EPLL: find the solved edge and hold it at the back", "M-slice moves make EPLL very fast", "Learn Ua and Ub first — they cover most EPLL cases"]
+    }
+  ],
+  "pros": ["Only 16 algorithms total vs 78 for full CFOP", "2-look recognition: only OCLL and EPLL require real pattern matching", "Natural progression — add full OLL and PLL later", "Achievable sub-45 to sub-30 with practice", "Uses the same F2L as full CFOP"],
+  "cons": ["Last layer takes 2-4 seconds longer than full CFOP", "4 algorithm steps but only 2 real recognition steps", "Some algorithms overlap with full OLL/PLL but are not the same"],
+  "notableUsers": [],
+  "relatedSets": ["OCLL", "EPLL", "F2L"],
+  "avgMoveCount": "65-80",
+  "yearCreated": 1981,
+  "creator": "Jessica Fridrich",
+  "puzzle": "3x3"
+}

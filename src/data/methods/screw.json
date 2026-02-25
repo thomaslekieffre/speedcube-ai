@@ -1,0 +1,56 @@
+{
+  "id": "screw",
+  "name": "Screw Method (Square-1)",
+  "description": "An alternative Square-1 method that takes a different approach to solving by using screw moves (repeated slash-turn sequences) as the primary mechanism. The Screw method simplifies the solving process by relying on a smaller set of intuitive move sequences. After cubeshape, the method focuses on solving corners first, then edges, using screw-like move patterns that are easy to execute and remember. It is considered a beginner-to-intermediate alternative to the Vandenbergh method.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Cubeshape",
+      "description": "Restore the Square-1 to its cubic shape from any scrambled configuration. This step is the same as in other Square-1 methods — perform slash moves and layer turns to get back to a cube shape.",
+      "algorithmSets": ["SQ1 Cube Shape"],
+      "moveCountRange": "5-12 moves",
+      "tips": [
+        "Learn common cubeshape solutions",
+        "Recognize starting shapes quickly",
+        "Some shapes require more slashes than others"
+      ]
+    },
+    {
+      "name": "Solve Corners",
+      "description": "Solve all eight corners using a combination of corner orientation and permutation techniques. The Screw method uses specific screw-like sequences (repeated slash patterns) to orient and place corners. Corners are solved before edges, which simplifies the process.",
+      "algorithmSets": ["SQ1 CO", "SQ1 CP"],
+      "moveCountRange": "8-16 moves",
+      "tips": [
+        "Orient corners first, then permute",
+        "Screw sequences are repetitive and easy to remember",
+        "Practice recognizing corner states from multiple angles"
+      ]
+    },
+    {
+      "name": "Solve Edges",
+      "description": "Solve all eight edges using edge orientation and permutation algorithms. With corners already solved, edge algorithms are simpler because they only need to preserve corner positions. Handle edge parity if present.",
+      "algorithmSets": ["SQ1 EO", "SQ1 EP", "SQ1 Parity"],
+      "moveCountRange": "8-16 moves",
+      "tips": [
+        "Edge algorithms preserve solved corners",
+        "Parity may require a specific algorithm",
+        "Practice smooth slash execution for speed"
+      ]
+    }
+  ],
+  "pros": [
+    "Simpler than Vandenbergh for many solvers",
+    "Screw patterns are intuitive and easy to remember",
+    "Fewer distinct algorithm types needed",
+    "Good intermediate method before learning full Vandenbergh"
+  ],
+  "cons": [
+    "Higher move count than Vandenbergh",
+    "Not widely used competitively",
+    "Limited resources compared to Vandenbergh",
+    "Less optimization potential than other methods"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["SQ1 Cube Shape", "SQ1 CO", "SQ1 CP", "SQ1 EO", "SQ1 EP", "SQ1 Parity"],
+  "avgMoveCount": "25-42"
+}

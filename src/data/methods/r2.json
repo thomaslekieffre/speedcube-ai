@@ -1,0 +1,52 @@
+{
+  "id": "r2",
+  "name": "R2 (BLD Corners)",
+  "description": "The R2 method is an intermediate blindfolded solving technique specifically for 3BLD corner pieces. It uses R2 as the primary swapping move to cycle corners into their correct positions, analogous to how the M2 method handles edges. Together, M2 (edges) and R2 (corners) form a complete and accessible 3BLD solving system.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Memorize Corners",
+      "description": "Memorize the corner cycle sequence using a letter scheme. Each corner sticker is assigned a letter, and the solver traces the cycle of corners that need to be swapped, creating a sequence of letter pairs to remember.",
+      "tips": [
+        "Develop a consistent letter scheme for all corner stickers",
+        "Use memory techniques like letter pairs, images, or stories",
+        "Practice memorization separately from execution to build speed",
+        "Check for parity between edge and corner memo"
+      ]
+    },
+    {
+      "name": "Execute Corner Swaps with R2",
+      "description": "Execute the memorized corner sequence using R2 as the swapping move. Each target is set up to the swap position, R2 is performed, and then the setup moves are reversed. Special cases exist for certain buffer-adjacent targets.",
+      "tips": [
+        "Learn setup moves for each corner target thoroughly",
+        "R2 is the core move — all targets are set up relative to it",
+        "Practice special cases for targets that share the buffer piece's position",
+        "Execute setup-R2-undo sequences fluidly for speed"
+      ]
+    },
+    {
+      "name": "Combine with M2 for Edges",
+      "description": "Pair R2 corner execution with M2 edge execution for a complete 3BLD solve. Typically edges are solved first with M2, followed by corners with R2.",
+      "tips": [
+        "Memorize in the order corners then edges, but execute edges first",
+        "This order minimizes memory decay for the longer corner memo",
+        "Practice the full M2+R2 system as an integrated solve",
+        "Transition smoothly between edge and corner execution phases"
+      ]
+    }
+  ],
+  "pros": [
+    "Accessible entry point for BLD corner solving",
+    "Pairs naturally with M2 for a complete BLD system",
+    "Consistent and systematic approach to corners",
+    "Lower learning barrier than commutator-based methods"
+  ],
+  "cons": [
+    "Slower execution than 3-style commutators",
+    "Some targets require complex setup moves",
+    "Not used at the top competitive BLD level",
+    "Special cases add complexity to an otherwise simple system"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "monkeydude",
+  "name": "Monkeydude1313",
+  "description": "The Monkeydude1313 method is a beginner-friendly Skewb solving approach. It works in three phases: solving the first layer, then the centers, and finally applying an algorithm for the last four corners (L4C). Its straightforward structure makes it an excellent entry point for Skewb speedsolving.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Solve First Layer",
+      "description": "Solve one complete face and its adjacent centers, forming the first layer of the Skewb. This is done intuitively by placing corners one at a time on the bottom face.",
+      "moveCountRange": "4-7",
+      "tips": [
+        "Start with whatever color is easiest to build",
+        "Place corners one at a time — each insertion is a simple sledgehammer move",
+        "Plan the first two corners during inspection"
+      ]
+    },
+    {
+      "name": "Solve Centers",
+      "description": "Orient and position the remaining center pieces to match their adjacent solved corners. This step uses simple, short algorithms to cycle centers into place.",
+      "moveCountRange": "3-5",
+      "tips": [
+        "Only a few center cases exist — learn them all",
+        "Use sledgehammer and anti-sledgehammer combinations",
+        "Try to solve centers without disrupting the first layer"
+      ]
+    },
+    {
+      "name": "Last 4 Corners (L4C)",
+      "description": "Solve the last four corners on the top layer using a single algorithm or short sequence. Since the first layer and centers are complete, only the top corners remain.",
+      "moveCountRange": "4-6",
+      "tips": [
+        "There are a limited number of L4C cases",
+        "Recognition is based on the colors visible on top-layer corners",
+        "Practice the algorithms until they are automatic"
+      ]
+    }
+  ],
+  "pros": [
+    "Very easy to learn for beginners",
+    "Low algorithm count",
+    "Clear step-by-step structure with no ambiguity",
+    "Good foundation for learning more advanced Skewb methods"
+  ],
+  "cons": [
+    "Higher move count than intermediate methods like Sarah",
+    "Not competitive at the top level",
+    "Limited optimization potential",
+    "First layer solving can be slow without practice"
+  ],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "12-18"
+}

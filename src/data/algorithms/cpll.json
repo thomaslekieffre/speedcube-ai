@@ -1,0 +1,40 @@
+{
+  "id": "cpll",
+  "name": "CPLL",
+  "puzzle": "3x3",
+  "description": "Corner Permutation of the Last Layer — 2 cases (plus skip). Permute all 4 corners into their correct positions. Used as step 1 of 2-look PLL, before EPLL.",
+  "category": "last-layer",
+  "caseCount": 2,
+  "algorithms": [
+    {
+      "id": "cpll-adj",
+      "name": "Adjacent Corner Swap",
+      "set": "CPLL",
+      "subset": "Corner Permutation",
+      "puzzle": "3x3",
+      "notation": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "alternatives": [
+        { "notation": "R U R' F' R U R' U' R' F R2 U' R'", "moveCount": 13, "votes": 40, "note": "J-perm variant — equally fast" }
+      ],
+      "moveCount": 14,
+      "setup": "Two corners on one side need to swap. Find the side where both corners are already correct (headlights = two matching stickers). Hold headlights on the LEFT, then apply the algorithm.",
+      "votes": 180,
+      "source": "curated"
+    },
+    {
+      "id": "cpll-diag",
+      "name": "Diagonal Corner Swap",
+      "set": "CPLL",
+      "subset": "Corner Permutation",
+      "puzzle": "3x3",
+      "notation": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "R U R' U' R' F R2 U' R' U' R U R' F' U2 R U R' U' R' F R2 U' R' U' R U R' F'", "moveCount": 28, "votes": 15, "note": "Two adjacent swaps — safe fallback if you forget the Y-perm" }
+      ],
+      "moveCount": 17,
+      "setup": "No side has two matching corner stickers (no headlights anywhere). All 4 corners are in wrong positions. Apply from any angle.",
+      "votes": 140,
+      "source": "curated"
+    }
+  ]
+}

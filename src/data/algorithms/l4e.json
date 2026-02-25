@@ -1,0 +1,1133 @@
+{
+  "id": "l4e",
+  "name": "L4E",
+  "puzzle": "pyraminx",
+  "description": "Last 4 Edges for Pyraminx",
+  "category": "last-layer",
+  "caseCount": 37,
+  "algorithms": [
+    {
+      "id": "l4e-sune",
+      "name": "Sune",
+      "set": "L4E",
+      "subset": "Last Layer",
+      "puzzle": "pyraminx",
+      "notation": "R U R' U R U R'",
+      "alternatives": [
+        {
+          "notation": "L U L' U L U L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L' U L U L' U L",
+          "moveCount": 7,
+          "votes": -4
+        },
+        {
+          "notation": "R' U R U R' U R",
+          "moveCount": 7,
+          "votes": -11
+        }
+      ],
+      "moveCount": 7,
+      "setup": "L' U' L U' L' U' L",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-antisune",
+      "name": "AntiSune",
+      "set": "L4E",
+      "subset": "Last Layer",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' L' U' L",
+          "moveCount": 7,
+          "votes": 1
+        },
+        {
+          "notation": "L U' L' U' L U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' U' R U' R' U' R",
+          "moveCount": 7,
+          "votes": -2
+        }
+      ],
+      "moveCount": 7,
+      "setup": "R U R' U R U R'",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-lefty-bars",
+      "name": "Lefty Bars",
+      "set": "L4E",
+      "subset": "Last Layer",
+      "puzzle": "pyraminx",
+      "notation": "R' U' L' U L R",
+      "alternatives": [
+        {
+          "notation": "U L R U R' U' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "R' L' U' L U R",
+      "votes": 8,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-righty-bars",
+      "name": "Righty Bars",
+      "set": "L4E",
+      "subset": "Last Layer",
+      "puzzle": "pyraminx",
+      "notation": "L U R U' R' L'",
+      "alternatives": [
+        {
+          "notation": "U' R' L' U' L U R",
+          "moveCount": 6,
+          "votes": 1
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L R U R' U' L'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-sledge",
+      "name": "Sledge",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "R' L R L'",
+      "alternatives": [
+        {
+          "notation": "L U' R' L R L2'",
+          "moveCount": 6
+        },
+        {
+          "notation": "U' L R U' R' U L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R' U L' U' L R",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R2' L R L' U' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 4,
+      "setup": "L R' L' R",
+      "votes": 6,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-hedge",
+      "name": "Hedge",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R",
+      "alternatives": [
+        {
+          "notation": "U' L U' R U R' L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "U' L2 R' L' R U L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' U L R' L' R2",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R' L' U L U' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 4,
+      "setup": "R' L R L'",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-clockwise",
+      "name": "Clockwise",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R2 U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U' L' U' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R U' R' L R' L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "U L' U' L2 R' L' R",
+          "moveCount": 6
+        },
+        {
+          "notation": "U' L2 R' L' R L'",
+          "moveCount": 5
+        },
+        {
+          "notation": "L U' R U' R' U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R' L R' L' R2",
+          "moveCount": 5
+        },
+        {
+          "notation": "R' U' L' U' L U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U L U R U R'",
+      "votes": 5,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-counterclockwise",
+      "name": "Counterclockwise",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "R' L R L2' U L",
+      "alternatives": [
+        {
+          "notation": "U L' U L R' L R L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R U R' L R' L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R' L R L' R U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L R' L R L2'",
+          "moveCount": 5
+        },
+        {
+          "notation": "L U R U R' U L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R2' L R L' R",
+          "moveCount": 5
+        },
+        {
+          "notation": "R' U L' U L U R",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' U L' U L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 6,
+      "setup": "R U' R' U' L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-righty",
+      "name": "Righty",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "R U' R'",
+      "alternatives": [
+        {
+          "notation": "L U' L'",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 3,
+      "setup": "U' R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-lefty",
+      "name": "Lefty",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "R' U R",
+      "alternatives": [
+        {
+          "notation": "L' U L",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 3,
+      "setup": "U L' U' L",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-sexy",
+      "name": "Sexy",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "U' R U R'",
+      "alternatives": [
+        {
+          "notation": "U' L U L'",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 3,
+      "setup": "R U' R' U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-left-sexy",
+      "name": "Left Sexy",
+      "set": "L4E",
+      "subset": "L3E",
+      "puzzle": "pyraminx",
+      "notation": "U L' U' L",
+      "alternatives": [
+        {
+          "notation": "U R' U' R",
+          "moveCount": 3
+        }
+      ],
+      "moveCount": 3,
+      "setup": "L' U L U'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-2-flip",
+      "name": "2 Flip",
+      "set": "L4E",
+      "subset": "Flipped Edges",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R' L R L' U L' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' U L' U' L U' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U' R U R' U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "U' R' U L' U L U' R",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-dr-flip",
+      "name": "DR Flip",
+      "set": "L4E",
+      "subset": "Flipped Edges",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R L' U L",
+      "alternatives": [
+        {
+          "notation": "L' U L U' R U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R U R' L R' L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U' L R' L' R L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L2 R' L' R2 U' R' U' L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' U' L' U' L2 R' L' R2",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U' R U R' U L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-dl-flip",
+      "name": "DL Flip",
+      "set": "L4E",
+      "subset": "Flipped Edges",
+      "puzzle": "pyraminx",
+      "notation": "R' L R L' R U' R'",
+      "alternatives": [
+        {
+          "notation": "R U' R' U L' U L",
+          "moveCount": 7
+        },
+        {
+          "notation": "L' U' L R' L R L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U R U R2' L R L2'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' U R' L R L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L R L2' U L U R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U L' U' L U' R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-db-flip",
+      "name": "DB Flip",
+      "set": "L4E",
+      "subset": "Flipped Edges",
+      "puzzle": "pyraminx",
+      "notation": "R U R' U L' U' L",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' R U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R' L R L' U L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L R' L' R U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U L' U L U' R U' R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-4-flip",
+      "name": "4 Flip",
+      "set": "L4E",
+      "subset": "Flipped Edges",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' L' U L R U' R' L' U L",
+      "alternatives": [
+        {
+          "notation": "L' U L R U' R' L' U L R U' R'",
+          "moveCount": 12
+        },
+        {
+          "notation": "L R U' R' L' U L R U' R' L'",
+          "moveCount": 11
+        },
+        {
+          "notation": "R' L' U L R U' R' L' U L R",
+          "moveCount": 11
+        }
+      ],
+      "moveCount": 12,
+      "setup": "L' U' L R U R' L' U' L R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-right-polish-flip",
+      "name": "Right Polish Flip",
+      "set": "L4E",
+      "subset": "Polish Flip",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' L' U' L",
+      "alternatives": [
+        {
+          "notation": "U L' U' L U R U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R U' R' U' L R' L' R",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' L R' L' R U' L' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' L R U' R' L' U' L U L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' L' U L R U' R' U R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "U L' U L R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-left-polish-flip",
+      "name": "Left Polish Flip",
+      "set": "L4E",
+      "subset": "Polish Flip",
+      "puzzle": "pyraminx",
+      "notation": "L' U L R U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U R' U' L' U L",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L' U L U R' L R L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U R' L R L' U R U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L R U' R' L' U L U' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "U R' L' U L R U R' U' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "U' R U' R' L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-sus",
+      "name": "SUS",
+      "set": "L4E",
+      "subset": "Polish Flip",
+      "puzzle": "pyraminx",
+      "notation": "R' L R L' U' R' L R L'",
+      "alternatives": [
+        {
+          "notation": "R U' R2' L R L2' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "L' U' L R U' R2' L R L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "L R U' R2' L R L2'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R2' L R L2' U' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "U' L R' L' R U L R' L' R",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-anti-sus",
+      "name": "Anti SUS",
+      "set": "L4E",
+      "subset": "Polish Flip",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R U L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L' U L2 R' L' R2 U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R U R' L' U L2 R' L' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "L2 R' L' R2 U R' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L' U L2 R' L' R2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "U R' L R L' U' R' L R L'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-good-niky",
+      "name": "Good Niky",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' L' U L",
+      "alternatives": [
+        {
+          "notation": "U R U R' L' U' L",
+          "moveCount": 6
+        },
+        {
+          "notation": "L' B' U B L",
+          "moveCount": 5
+        },
+        {
+          "notation": "R B U B' R'",
+          "moveCount": 5
+        },
+        {
+          "notation": "L R U R' L'",
+          "moveCount": 5
+        },
+        {
+          "notation": "R' L' U L R",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "L' U' L R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-good-sochi",
+      "name": "Good Sochi",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U L R U' R'",
+      "alternatives": [
+        {
+          "notation": "U' L' U' L R U R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "L' B' U' B L",
+          "moveCount": 5
+        },
+        {
+          "notation": "R B U' B' R'",
+          "moveCount": 5
+        },
+        {
+          "notation": "L R U' R' L'",
+          "moveCount": 5
+        },
+        {
+          "notation": "R' L' U' L R",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "R U R' L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-super-sledge",
+      "name": "Super Sledge",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U' R2' L R L'",
+      "alternatives": [
+        {
+          "notation": "U' L R' L' R2 U R'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' L R2 U R' U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U R U' R2' L' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U R' L R L2'",
+          "moveCount": 6
+        },
+        {
+          "notation": "U L2 R' L' R U' L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' L' U L2 R' L' R U' R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 6,
+      "setup": "U' L R' L' R2 U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-super-hedge",
+      "name": "Super Hedge",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U L2' R' L' R",
+      "alternatives": [
+        {
+          "notation": "U R' L R L2' U' L",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' U' L' U L2 R L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R' L2' U' L U R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R U R2' L R L' U L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' U' L R' L' R2",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "R' U' L' U L2 R L'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-niky",
+      "name": "Bad Niky",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' U' L' U L",
+      "alternatives": [
+        {
+          "notation": "U R U R' U' L' U' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "U L U R U' R' U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' U' L' U' L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U' L' U' L U R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-sochi",
+      "name": "Bad Sochi",
+      "set": "L4E",
+      "subset": "Separated Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U L U R U' R'",
+      "alternatives": [
+        {
+          "notation": "U' L' U' L U R U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U R U R' U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R' U' L' U L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U R U R' U' L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-right-spam",
+      "name": "Right Spam",
+      "set": "L4E",
+      "subset": "Connected Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U R' U R' L R L'",
+      "alternatives": [
+        {
+          "notation": "U R U' R' L' U L R U' R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "U' L' U' L2 R' L' R2 U R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' L R' L' R2 U R' L' U' L",
+          "moveCount": 9
+        },
+        {
+          "notation": "L U R U' R' U L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U L U' R U' R' L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "R' L' U L2 R' L' R U R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "R U R' L' U' L R U R' U'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-left-spam",
+      "name": "Left Spam",
+      "set": "L4E",
+      "subset": "Connected Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U' L U' L R' L' R",
+      "alternatives": [
+        {
+          "notation": "U' L' U L R U' R' L' U L",
+          "moveCount": 9
+        },
+        {
+          "notation": "U R U R2' L R L2' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "U R' L R L2' U' L R U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "L R U' R2' L R L' U' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' U' L' U L U' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R' U L' U L R",
+          "moveCount": 6
+        },
+        {
+          "notation": "U' R' U' L R L' U' L' U L",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 8,
+      "setup": "L' U' L R U R' L' U' L U",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-sledge",
+      "name": "Bad Sledge",
+      "set": "L4E",
+      "subset": "Connected Bar",
+      "puzzle": "pyraminx",
+      "notation": "L R' L' R U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R U R' L' U' L R U R'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R U' R2' L R L2' U L",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' L R' L' R2 U R' U' L' U L",
+          "moveCount": 10
+        },
+        {
+          "notation": "L R U R' U L'",
+          "moveCount": 6
+        },
+        {
+          "notation": "U' L U' R U R' U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' U' R' L R L2' U' L R",
+          "moveCount": 9
+        },
+        {
+          "notation": "U' R2' L R L2' U' L U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "U R U R' U R' L R L'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-hedge",
+      "name": "Bad Hedge",
+      "set": "L4E",
+      "subset": "Connected Bar",
+      "puzzle": "pyraminx",
+      "notation": "R' L R L' U L' U L",
+      "alternatives": [
+        {
+          "notation": "U' L' U' L R U' R' L' U' L",
+          "moveCount": 9
+        },
+        {
+          "notation": "L' U L2 R' L' R2 U' R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U R' L R L2' U' L U R U' R'",
+          "moveCount": 10
+        },
+        {
+          "notation": "L U L R' L' R2 U R' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "U L2 R' L' R2 U R' U L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' L' U' L U' R",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R' U L' U' L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "U' L' U L R U R' L' U L U",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-sexy",
+      "name": "Bad Sexy",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U' L U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "U L2 R' L' R2 U' R' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L' U' L2 R' L' R2",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "R U R' U L' U L",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-ugly",
+      "name": "Bad Ugly",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U R' U L' U L",
+      "alternatives": [
+        {
+          "notation": "L R U R2' L R L2'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R2' L R L2' U L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "L' U' L U' R U' R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-righty",
+      "name": "Bad Righty",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U L U' R U R'",
+      "alternatives": [
+        {
+          "notation": "R' L R L' U R' L R L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "L U' L R' L' R U' L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U L U' L' U L R U' R' L'",
+          "moveCount": 9
+        },
+        {
+          "notation": "R' U' L R' L' R U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U R U' R' U L' U' L",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-bad-lefty",
+      "name": "Bad Lefty",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' U L' U' L",
+      "alternatives": [
+        {
+          "notation": "L R' L' R U' L R' L' R",
+          "moveCount": 9
+        },
+        {
+          "notation": "L U R' L R L' U L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R' U R' L R L' U R",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' R' U R U' R' L' U L R",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U' L' U L U' R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-double-sexy",
+      "name": "Double Sexy",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "R U' R' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "L' U' L U R' L R L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' R U' R' U R U R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R U R' U' R U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L U' L' U' L U L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U L U L' U' L U' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L U' L' U L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U' R U' R' U R U R'",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l4e-double-ugly",
+      "name": "Double Ugly",
+      "set": "L4E",
+      "subset": "No Bar",
+      "puzzle": "pyraminx",
+      "notation": "L' U L U L' U' L",
+      "alternatives": [
+        {
+          "notation": "R U R' U' L R' L' R",
+          "moveCount": 8
+        },
+        {
+          "notation": "U L' U L U' L' U' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L' U' L U L' U L",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' U R U R' U' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R' U R U' R' U' R",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' R' U' R U R' U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "U L' U L U' L' U' L",
+      "votes": 0,
+      "source": "speedcubedb"
+    }
+  ]
+}

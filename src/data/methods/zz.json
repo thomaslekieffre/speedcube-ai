@@ -1,0 +1,34 @@
+{
+  "id": "zz",
+  "name": "ZZ",
+  "description": "A method that begins with edge orientation (EOLine), enabling rotationless F2L solving. Popular for one-handed solving and ZBLL finishing.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "EOLine",
+      "description": "Orient all edges and place the DF and DB edges, creating a line on the bottom. This ensures all subsequent moves are rotation-free.",
+      "moveCountRange": "6-9 moves",
+      "tips": ["Edge orientation detection is the hardest part", "Practice recognizing bad edges", "Plan EOLine fully in inspection"]
+    },
+    {
+      "name": "F2L (ZZF2L)",
+      "description": "Complete both first two layer blocks using only R, U, and L moves. No rotations needed since edges are already oriented.",
+      "moveCountRange": "25-28 moves",
+      "tips": ["No cube rotations needed", "Very ergonomic RUL moveset", "Can use blockbuilding approach"]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer. With oriented edges, can use ZBLL (493 algs) for one-look, or OCLL+PLL for two-look.",
+      "algorithmSets": ["ZBLL U", "ZBLL T", "ZBLL L", "ZBLL H", "ZBLL Pi", "ZBLL S", "ZBLL AS"],
+      "moveCountRange": "12-15 moves",
+      "tips": ["OCLL+PLL is the standard approach", "ZBLL gives massive time save", "Consider COLL+EPLL as intermediate step"]
+    }
+  ],
+  "pros": ["Completely rotationless after EOLine", "Ergonomic R/U/L moveset", "Great for one-handed (OH) solving", "ZBLL finish potential"],
+  "cons": ["EOLine is difficult to plan", "Edge orientation recognition takes practice", "ZBLL is 493 algorithms", "Fewer resources"],
+  "notableUsers": ["Chris Tran", "Michael Humphreys"],
+  "relatedSets": ["ZBLL U", "ZBLL T", "ZBLL L", "ZBLL H", "ZBLL Pi", "ZBLL S", "ZBLL AS"],
+  "avgMoveCount": "48-55",
+  "yearCreated": 2003,
+  "creator": "Zbigniew Zborowski"
+}

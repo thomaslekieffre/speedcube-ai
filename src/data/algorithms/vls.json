@@ -1,0 +1,2971 @@
+{
+  "id": "vls",
+  "name": "VLS",
+  "puzzle": "3x3",
+  "description": "Valk Last Slot — solves the last F2L pair while orienting the last layer edges. Large advanced algorithm set with cases split across different edge orientations.",
+  "category": "f2l",
+  "caseCount": 189,
+  "algorithms": [
+    {
+      "id": "vls-no-edges-1",
+      "name": "VLS No Edges 1",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U S R S' R U' R2 F' U' F R",
+      "alternatives": [
+        { "notation": "y' U2 R U R' U' R' y R U2 R' M' U' M", "moveCount": 12, "votes": 1 },
+        { "notation": "U l R U' R' U l' U' R' F R2 U R' U' F'", "moveCount": 14, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-2",
+      "name": "VLS No Edges 2",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U2 R2 F R F' R U2 R'",
+      "alternatives": [
+        { "notation": "U2 M' U' R U' r' U2 M' U' M", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-3",
+      "name": "VLS No Edges 3",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U R' U' M' F' U' F R2 r'",
+      "alternatives": [
+        { "notation": "U R B' U' R' U R y R2 U R' U' F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-4",
+      "name": "VLS No Edges 4",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y R' F' R U2 M' U' M",
+      "alternatives": [
+        { "notation": "y' L' B' L U2 r' R U' M'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-5",
+      "name": "VLS No Edges 5",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U' F' U F R U' R2 U' F U R U' F'",
+      "alternatives": [
+        { "notation": "U2 R' U2 R' F R2 F' R' U' F' U' F U' R", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-6",
+      "name": "VLS No Edges 6",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U' r U' r' F U R' F R U' F'",
+      "alternatives": [
+        { "notation": "U2 R U R2 D' r U r' D R2 U R'", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-7",
+      "name": "VLS No Edges 7",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R U R2 D' r U' r' D R2 U R'",
+      "alternatives": [
+        { "notation": "U R U' R2 F2 R2 U2 R' F' R U2 R2 F2 R", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-8",
+      "name": "VLS No Edges 8",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U R U R2 F R F' U2 R' F R F'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-9",
+      "name": "VLS No Edges 9",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U R U2 R2 D' r U r' D R2 U R'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-10",
+      "name": "VLS No Edges 10",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U2 R' U R2 D r' U r D' R'",
+      "alternatives": [
+        { "notation": "U' R U R' F R' F' R2 U2 R2 F R F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-11",
+      "name": "VLS No Edges 11",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "R' F R S R U R' U' f'",
+      "alternatives": [
+        { "notation": "U2 M U r U2 r' U' r U2 R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-12",
+      "name": "VLS No Edges 12",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U R U' r' U R U R' U' r R2 F R F'",
+      "alternatives": [
+        { "notation": "U2 r' R2 U' R' U r U' y R U' R' F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-13",
+      "name": "VLS No Edges 13",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U R' F' L' U' L U L' U' L F R",
+      "alternatives": [
+        { "notation": "y U r' U' x R' U' R U R' U' R x' U r", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-14",
+      "name": "VLS No Edges 14",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U r' U' r R' U2 R U' r' U' r",
+      "alternatives": [
+        { "notation": "y' U L U2 R2 F R2 U2 R' F' L' U' R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-15",
+      "name": "VLS No Edges 15",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U' F U R U' R' F2 U' F R U R'",
+      "alternatives": [
+        { "notation": "y' R' U2 r U' r' U2 r U M", "moveCount": 9, "votes": 1 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-16",
+      "name": "VLS No Edges 16",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U F' U2 F U' R' F R2 U R' U' F'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-17",
+      "name": "VLS No Edges 17",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U R' U R2 D r' U' r D' R'",
+      "alternatives": [
+        { "notation": "y' U' R' U' F' L' U2 L U' F U R", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-18",
+      "name": "VLS No Edges 18",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R2 F R F' U2 R' F R2 F' U2 R' U2 R",
+      "alternatives": [
+        { "notation": "U R2 U' D r' U r D' R' d' r U' r'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-19",
+      "name": "VLS No Edges 19",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R' F R F' U2 M' U R U' r'",
+      "alternatives": [
+        { "notation": "U2 F' L' U2 L F R U2 R'", "moveCount": 8, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-20",
+      "name": "VLS No Edges 20",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U x' R2 U' R' U x U' R2 U' F' U F R",
+      "alternatives": [
+        { "notation": "U R2 B' R' B U' R2 U' F' U F R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-21",
+      "name": "VLS No Edges 21",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y' U R' U' R' D' r U' r' D R2",
+      "alternatives": [
+        { "notation": "U2 R B' R' U' R U y R2 U2 R' F'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-22",
+      "name": "VLS No Edges 22",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "R' F R U' M' U R U' r' U R U R' F'",
+      "alternatives": [
+        { "notation": "U F' L' U2 L U' F l R U' R' U l'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-23",
+      "name": "VLS No Edges 23",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 F' U2 F R U' R2 F R F'",
+      "alternatives": [
+        { "notation": "U2 x U' r' U2 r U x' U' R U' R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-25",
+      "name": "VLS No Edges 25",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R' F R F' U2 R' F R F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-26",
+      "name": "VLS No Edges 26",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "y U F r' R2 U' R' U r U' R' F'",
+      "alternatives": [
+        { "notation": "U F' U' F R U R' U2 R' F R F'", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-27",
+      "name": "VLS No Edges 27",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' F' U F U F R' F' R2 U2 R'",
+      "alternatives": [
+        { "notation": "U2 R' F R F' r' U' R2 U' R2 U2 r", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-no-edges-28",
+      "name": "VLS No Edges 28",
+      "set": "VLS",
+      "subset": "No Edges",
+      "puzzle": "3x3",
+      "notation": "U2 R' F R F' U' R' U' R' F R U R U' F'",
+      "alternatives": [
+        { "notation": "U2 R' F R F2 L' U' L F R U2 R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-29",
+      "name": "VLS UB 29",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "l' U2' R U' R' U2' L U M U2'",
+      "alternatives": [
+        { "notation": "U2 R U R' U2 R U B U' B' U' R'", "moveCount": 11, "votes": 2 },
+        { "notation": "r' R' D R2 U' R U R2 D' r", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-30",
+      "name": "VLS UB 30",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "R' U2 r U R U' r' R' U2 R",
+      "alternatives": [
+        { "notation": "y' U R' F' L' U' L F R", "moveCount": 7, "votes": 0 },
+        { "notation": "y U r' U' R' F' R U r", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-31",
+      "name": "VLS UB 31",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U F' U F R U' R'",
+      "alternatives": [
+        { "notation": "U F' U' L' U' L F", "moveCount": 6, "votes": 0 },
+        { "notation": "d R' U' F' U' F R", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-32",
+      "name": "VLS UB 32",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R U R2 U' F' U F R2 U' R'",
+      "alternatives": [
+        { "notation": "U2 R' F2 L F L' F2 R F'", "moveCount": 8, "votes": 2 },
+        { "notation": "y' U M' U' r' U' r U M", "moveCount": 7, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-33",
+      "name": "VLS UB 33",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 F2 r U r' F",
+      "alternatives": [
+        { "notation": "y U2 r2 F r U' r", "moveCount": 5, "votes": 1 },
+        { "notation": "y' U2 R2 F R F' R", "moveCount": 5, "votes": 1 }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-34",
+      "name": "VLS UB 34",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "R U' R' U2 r U' R' U2 R U r'",
+      "alternatives": [
+        { "notation": "y U F R2 D R' U' R D' R2 F'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-35",
+      "name": "VLS UB 35",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U' F' U' F R' U' R2 U' R2 U2 R",
+      "alternatives": [
+        { "notation": "U2 M' U' R U R' U' R U' R' U' M", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-36",
+      "name": "VLS UB 36",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 r U' R' U R U2 R' U' R r'",
+      "alternatives": [
+        { "notation": "x' U' R' D R2 U R' D' x U' R' U R", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-37",
+      "name": "VLS UB 37",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 R' F R F' R U' R' U R U2 R'",
+      "alternatives": [
+        { "notation": "U R U' R' U F R U R' U' R U R' U' F'", "moveCount": 14, "votes": 1 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-38",
+      "name": "VLS UB 38",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U F' U F U' R U2 R'",
+      "alternatives": [
+        { "notation": "U R B U' B' R2 U2 R U R' U R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-39",
+      "name": "VLS UB 39",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R2 F R F' U F R' F' R",
+      "alternatives": [
+        { "notation": "U F' L' U' L F2 R U R' U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-40",
+      "name": "VLS UB 40",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U' F' U' F U' R U R' U' R U' R'",
+      "alternatives": [
+        { "notation": "R' F R F' r' U' R U' R' U2 r", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-41",
+      "name": "VLS UB 41",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 F R' F' r U' R U' R' U R r'",
+      "alternatives": [
+        { "notation": "U2 R' F R F2 R U2 R' U2 R' F R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-42",
+      "name": "VLS UB 42",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 R' F R F' R U2 R'",
+      "alternatives": [
+        { "notation": "U F' U F R2 D R' U' R D' R2", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-43",
+      "name": "VLS UB 43",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "R' U2 F U R U' F' R' U2 R",
+      "alternatives": [
+        { "notation": "U F D R' U R' U' R D' F'", "moveCount": 9, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-44",
+      "name": "VLS UB 44",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U F' U F R U R D R' U2 R D' R' U2 R'",
+      "alternatives": [
+        { "notation": "U R U' R' U R' U' F' U F R", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-45",
+      "name": "VLS UB 45",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U F' L' U2 L U F",
+      "alternatives": [
+        { "notation": "y' U R' F' U2 F U R", "moveCount": 6, "votes": 1 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-46",
+      "name": "VLS UB 46",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 F2 r U2 R' U' r' F R",
+      "alternatives": [
+        { "notation": "U F' U F R U R' U' R U' R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-47",
+      "name": "VLS UB 47",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R B U' B' R'",
+      "alternatives": [
+        { "notation": "U' F' U' F R U2 R'", "moveCount": 6, "votes": 1 }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-48",
+      "name": "VLS UB 48",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R' F' U' F R2 U' R2 U F' U F R",
+      "alternatives": [
+        { "notation": "y' U2 R' U R U R' U R U' R' U' R U' B U B'", "moveCount": 15, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-49",
+      "name": "VLS UB 49",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U F' U F U R U2 R'",
+      "alternatives": [
+        { "notation": "R' F R F' U F U R U' R' F'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-50",
+      "name": "VLS UB 50",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U' F' U' F U' R U' R'",
+      "alternatives": [
+        { "notation": "F' U2 F U R U R'", "moveCount": 7, "votes": 1 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-51",
+      "name": "VLS UB 51",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' F' L' U' L F",
+      "alternatives": [
+        { "notation": "y' U2 Fw R' Fw' R' F' U' F R", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-52",
+      "name": "VLS UB 52",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R' F R y' R2 U' R U R' U R",
+      "alternatives": [
+        { "notation": "U y' Fw' U Fw R2 U' R U R' U R", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-53",
+      "name": "VLS UB 53",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R B U' B' R D' R U2 R' D R U2 R",
+      "alternatives": [
+        { "notation": "U2 R U2 R' r' U2 R U R' U r", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-54",
+      "name": "VLS UB 54",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R U R' F R' F' R U' R U' R'",
+      "alternatives": [
+        { "notation": "U R U' R' r' U' R U' R' U2 r", "moveCount": 10, "votes": 1 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-55",
+      "name": "VLS UB 55",
+      "set": "VLS",
+      "subset": "UB",
+      "puzzle": "3x3",
+      "notation": "U R B U' B' U R D R' U' R D' R2",
+      "alternatives": [
+        { "notation": "R' F R U R' F R y' R2 U R U2 R'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-56",
+      "name": "VLS UB-UL 56",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "y' U R D r' U' r D' R'",
+      "alternatives": [
+        { "notation": "d R D r' U' r D' R'", "moveCount": 8, "votes": 1 },
+        { "notation": "U R U' R' U R' F R U R' U' F' U R", "moveCount": 13, "votes": 0 },
+        { "notation": "R' F R U R U' R' F' U F R U R' U' F'", "moveCount": 15, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-57",
+      "name": "VLS UB-UL 57",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U S' R U' R' S",
+      "alternatives": [
+        { "notation": "U2 L R' F' R F' R' F L' R", "moveCount": 9, "votes": 0 },
+        { "notation": "M U R U' R' U' M'", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-58",
+      "name": "VLS UB-UL 58",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U x' U' R U x U' R' U' R' U R",
+      "alternatives": [
+        { "notation": "r' F R U R U' R' F' U' M'", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 R U' y R U2 R' U' R U2 R' U' F'", "moveCount": 12, "votes": 0 },
+        { "notation": "U' R U' R' U' R' F R F' U2 F' U' F", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-59",
+      "name": "VLS UB-UL 59",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "y' U S R U R' U' R' S'",
+      "alternatives": [
+        { "notation": "U R U' R2 y' R' U R U' R' U' R B", "moveCount": 12, "votes": 0 },
+        { "notation": "U R U' R' U' R U R' U' R' F R F'", "moveCount": 12, "votes": 0 },
+        { "notation": "y U S' L U L' U' L' S", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-60",
+      "name": "VLS UB-UL 60",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' y R' F R U' R' F' R",
+      "alternatives": [
+        { "notation": "U2 R U' R' U R' F R F' R U2 R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-61",
+      "name": "VLS UB-UL 61",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U' F' L' U' L F",
+      "alternatives": [
+        { "notation": "U R U R' U' F' U2 F R U' R'", "moveCount": 10, "votes": 1 },
+        { "notation": "U R U' R' U2 R' U' R' F R F' U R", "moveCount": 12, "votes": 1 },
+        { "notation": "U R U R' U' y' R' F' U' F R", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-62",
+      "name": "VLS UB-UL 62",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U' R2 U' y' R' U2 R U R' U' R B",
+      "alternatives": [
+        { "notation": "U2 R' U' R2 U' R2 U R' F R F' U R", "moveCount": 12, "votes": 0 },
+        { "notation": "U S' R U' R' S R U2 R' U' R U' R'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-63",
+      "name": "VLS UB-UL 63",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R2 U' R U' R' U2 F R F'",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-64",
+      "name": "VLS UB-UL 64",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U2 R' U' F U R U' F'",
+      "alternatives": [
+        { "notation": "U R B' U' R' U y R U2 R U2 R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-65",
+      "name": "VLS UB-UL 65",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U' R2 F' U' F U' R U R' U R",
+      "alternatives": [
+        { "notation": "R' U2 L F l' U R2 U2 r'", "moveCount": 9, "votes": 1 },
+        { "notation": "R' U2 L F R' F R2 F2 L'", "moveCount": 9, "votes": 0 },
+        { "notation": "U l U' R U R' U' R U l' U' R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-66",
+      "name": "VLS UB-UL 66",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U' R U R' U' F' U F R U' R'",
+      "alternatives": [
+        { "notation": "U2 R' U' R S' R U' R2 U2 R S", "moveCount": 10, "votes": 1 },
+        { "notation": "U' F' U' F U' R U' R2 F' U' F U R", "moveCount": 12, "votes": 0 },
+        { "notation": "U R U R' U' R B' U' R' U R B R'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-67",
+      "name": "VLS UB-UL 67",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U R U R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "y' U' R' F2 R U' R2 F R2 U R' F2 R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-68",
+      "name": "VLS UB-UL 68",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 F R' F' R U' R U' R'",
+      "alternatives": [
+        { "notation": "U R U' y R U R' U' F'", "moveCount": 8, "votes": 1 },
+        { "notation": "U R U' R' U F R U R' U' F'", "moveCount": 10, "votes": 0 },
+        { "notation": "U R d' R U R' U' F'", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-69",
+      "name": "VLS UB-UL 69",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 F' r U2 R' U r' F2 R",
+      "alternatives": [
+        { "notation": "U2 F' L F2 R' F L' F2 R", "moveCount": 8, "votes": 0 },
+        { "notation": "U2 R r D r' U2 r D' r' R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-70",
+      "name": "VLS UB-UL 70",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 r2 F' r U' L' U2 L U' M'",
+      "alternatives": [
+        { "notation": "U' F2 U' r' F r2 U r' F", "moveCount": 8, "votes": 1 },
+        { "notation": "U x' R2 U' R' U l' U R U' R' U R U2 R'", "moveCount": 14, "votes": 0 },
+        { "notation": "U' F2 U' L' U L2 F L' F", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-71",
+      "name": "VLS UB-UL 71",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 F R' F' R2 U2 R'",
+      "alternatives": [
+        { "notation": "U R2 B' R' B U' R'", "moveCount": 6, "votes": 0 },
+        { "notation": "U2 R U' R' F' U F R U' R'", "moveCount": 9, "votes": 0 },
+        { "notation": "U x' R2 U' R' U x U' R'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-72",
+      "name": "VLS UB-UL 72",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 r U R' U' M U R U R'",
+      "alternatives": [
+        { "notation": "U2 R' D' U' F' U F D R2 U' R'", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 L F R' F' L' R U R U R'", "moveCount": 10, "votes": 0 },
+        { "notation": "d R' U2 R' D' r U' r' D R2", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-73",
+      "name": "VLS UB-UL 73",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U f' U f U' R' U2 R' U2 R",
+      "alternatives": [
+        { "notation": "U B' R B U' R' U2 R' U2 R", "moveCount": 9, "votes": 0 },
+        { "notation": "U x' U' R U x U' R' U2 R' U2 R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-74",
+      "name": "VLS UB-UL 74",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U R U' R2 F' U' F U R",
+      "alternatives": [
+        { "notation": "U R' F R2 U R' U' F2 U2 F", "moveCount": 9, "votes": 0 },
+        { "notation": "U R U' R' U' F R U R' U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-75",
+      "name": "VLS UB-UL 75",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R' U R' U' F' U F R",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-76",
+      "name": "VLS UB-UL 76",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "R U R' F' U2 F R U2 R'",
+      "alternatives": [
+        { "notation": "U2 R' U' F' U F R2 U' R'", "moveCount": 8, "votes": 1 },
+        { "notation": "y U F R U2 R' U' R U R' F'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-77",
+      "name": "VLS UB-UL 77",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' d R2 F R F' R",
+      "alternatives": [
+        { "notation": "U2 R U' R2 F R F2 U F", "moveCount": 8, "votes": 1 },
+        { "notation": "U2 R U2 x' U2 L' U' L U' R' x", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-78",
+      "name": "VLS UB-UL 78",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R d' R U' R' F'",
+      "alternatives": [
+        { "notation": "U2 R U' B U' B' R'", "moveCount": 6, "votes": 1 },
+        { "notation": "U2 R' F R F r U r' F", "moveCount": 8, "votes": 1 },
+        { "notation": "U2 R U' y R U' R' F'", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-79",
+      "name": "VLS UB-UL 79",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R' U' R2 y R U' R2 F' R2 U' R'",
+      "alternatives": [
+        { "notation": "U R U' R2 r' D' r U' r' D r U R", "moveCount": 12, "votes": 2 },
+        { "notation": "U2 R' U' F' U F R2 U R D R' U2 R D' R2", "moveCount": 14, "votes": 0 },
+        { "notation": "U x' R2 U' R' U l' U R2 D R' U2 R D' R2", "moveCount": 14, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-80",
+      "name": "VLS UB-UL 80",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 F R' F' R2 U' R' U R U2 R'",
+      "alternatives": [
+        { "notation": "U Lw R U' R' U Lw' U R U2 R'", "moveCount": 10, "votes": 1 },
+        { "notation": "U R U' R' U F U R U' R' U R U' R' F'", "moveCount": 14, "votes": 0 },
+        { "notation": "y U F R U' R' U R U' R' F'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-81",
+      "name": "VLS UB-UL 81",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R' U l' U l2 U' l2 U' l2 U l'",
+      "alternatives": [
+        { "notation": "U R' D' R U R' D R2 U' B U' B' R'", "moveCount": 12, "votes": 1 },
+        { "notation": "y' U' R' U' R U R2 U' y' R' U R2 B R' B", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ub-ul-82",
+      "name": "VLS UB-UL 82",
+      "set": "VLS",
+      "subset": "UB-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R' U' F' U F R U R U2 R'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-83",
+      "name": "VLS UF 83",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U F' U' F U R U2 R'",
+      "alternatives": [
+        { "notation": "x B U' B' U B R B2 R'", "moveCount": 9, "votes": 0 },
+        { "notation": "y U L' U' L U F U2 F'", "moveCount": 7, "votes": 0 },
+        { "notation": "R' F R F' U' R U R' U R U2 R'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-84",
+      "name": "VLS UF 84",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "M' U R U' r'",
+      "alternatives": [
+        { "notation": "L R' F R F' L'", "moveCount": 6, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-85",
+      "name": "VLS UF 85",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "F2 r U r' F U' R U R'",
+      "alternatives": [
+        { "notation": "U R' D' R U2 R' D R U R' F R F'", "moveCount": 12, "votes": 1 },
+        { "notation": "M' R' F R U R U' R' F' R r'", "moveCount": 11, "votes": 1 },
+        { "notation": "r R2 F R U R U' R' F' M", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-86",
+      "name": "VLS UF 86",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "y' r' U' R U M'",
+      "alternatives": [
+        { "notation": "U R' U' R' F R U R U' F'", "moveCount": 9, "votes": 4 },
+        { "notation": "y Lw' U' L U M", "moveCount": 5, "votes": 1 },
+        { "notation": "B' R' F R F' B", "moveCount": 6, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-87",
+      "name": "VLS UF 87",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "M' U l F' U2 L' U' L U' L'",
+      "alternatives": [
+        { "notation": "y' U2 R2 F' r U' r' F2 R2", "moveCount": 7, "votes": 2 },
+        { "notation": "U2 R U2 R' U' Lw' U2 L U L' U Lw", "moveCount": 11, "votes": 1 },
+        { "notation": "M' U R U' r' U R' U' R U' R' U2 R", "moveCount": 13, "votes": 1 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-88",
+      "name": "VLS UF 88",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U R U' R' F R U R' U' F'",
+      "alternatives": [
+        { "notation": "x' R' D R2 U R' D' R U' R' x", "moveCount": 11, "votes": 1 },
+        { "notation": "U F' U' F L' U2 R U R' U2 L", "moveCount": 10, "votes": 0 },
+        { "notation": "R' F R l U R' D' R U' l'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-89",
+      "name": "VLS UF 89",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R2 B' R' F' R B R'",
+      "alternatives": [
+        { "notation": "R' F D' R U R' D R U' F'", "moveCount": 10, "votes": 1 },
+        { "notation": "R' F R2 U R' U' R' F' R U R U' R'", "moveCount": 13, "votes": 1 },
+        { "notation": "R' U' R U R U' r' U' R' U r", "moveCount": 11, "votes": 1 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-90",
+      "name": "VLS UF 90",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "M' U' r' F2 R F' U L' U L",
+      "alternatives": [
+        { "notation": "R' F R F' U' R U2 R2 U' R2 U' R2 U2 R", "moveCount": 14, "votes": 0 },
+        { "notation": "y' U R' U R U R' U R d' R U2 R'", "moveCount": 11, "votes": 0 },
+        { "notation": "y' U R' U R U R' U R U' y R U2 R'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-91",
+      "name": "VLS UF 91",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R U' R' U R' F' U' F U R2",
+      "alternatives": [
+        { "notation": "R' F R F' U2 R U R' U R U2 R'", "moveCount": 12, "votes": 0 },
+        { "notation": "R' F R F' U R' U2 R U R' U R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-92",
+      "name": "VLS UF 92",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U R U R' U2 R' F R2 U R' U' F'",
+      "alternatives": [
+        { "notation": "R' F R F' R U2 R2 U' R2 U' R2 U2 R", "moveCount": 13, "votes": 0 },
+        { "notation": "U2 R U2 R' U' r U R' U R U2 r'", "moveCount": 11, "votes": 0 },
+        { "notation": "U R U' R' f R U R' U' R U R' U' f'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-93",
+      "name": "VLS UF 93",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U2 r' U' R2 U' R2 U2 r",
+      "alternatives": [
+        { "notation": "R' F R F' U R2 D' R U2 R' D R U2 R", "moveCount": 14, "votes": 0 },
+        { "notation": "y' U R' F' U' F U' F' U F R", "moveCount": 9, "votes": 0 },
+        { "notation": "M' U R U' r' L' U' L U' L' U2 L", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-94",
+      "name": "VLS UF 94",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R' U' R U' R' U2 R",
+      "alternatives": [
+        { "notation": "U F' U' F d S R2 F R F' R S'", "moveCount": 11, "votes": 1 },
+        { "notation": "M' U R U' r' U r U R' U' r' F R F'", "moveCount": 14, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-95",
+      "name": "VLS UF 95",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U F' R' U' R F R' U R2 U2 R'",
+      "alternatives": [
+        { "notation": "R' F R F' U2 R2 D' R U2 R' D R U2 R", "moveCount": 14, "votes": 0 },
+        { "notation": "U R U' R' U' R' U' R' F R F' U R", "moveCount": 12, "votes": 0 },
+        { "notation": "R' U2 R U R U' R2 U F' U F R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-96",
+      "name": "VLS UF 96",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "L R' F R F' U L' U L U2 L'",
+      "alternatives": [
+        { "notation": "R' F R F' U R' U' R' D' R U R' D R2", "moveCount": 14, "votes": 1 },
+        { "notation": "R' F R F' U2 r U R' U' r' F R F'", "moveCount": 13, "votes": 0 },
+        { "notation": "U F' U' F R2 D R' U' R D' R2", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-97",
+      "name": "VLS UF 97",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F'",
+      "alternatives": [
+        { "notation": "Lw' U R U' x'", "moveCount": 5, "votes": 1 },
+        { "notation": "y' x' U' R U R'", "moveCount": 5, "votes": 0 }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-98",
+      "name": "VLS UF 98",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U' R' F' U' F U R",
+      "alternatives": [
+        { "notation": "U R U' R' f U R U' R' f'", "moveCount": 9, "votes": 1 },
+        { "notation": "U2 R U' R' U R U' R' U' R U' R' F' U' F R U R'", "moveCount": 17, "votes": 0 },
+        { "notation": "U R U' R' F' L' U' L U F", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-99",
+      "name": "VLS UF 99",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U R' U R U2 R'",
+      "alternatives": [
+        { "notation": "M' U R U' M U R' U R U2 R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-100",
+      "name": "VLS UF 100",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "y' U2 R' U R U r' U' R U M'",
+      "alternatives": [
+        { "notation": "U R U' R' U2 R U R' U' R' F R F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-101",
+      "name": "VLS UF 101",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U R' U' R' F R2 F' R' U R",
+      "alternatives": [
+        { "notation": "U2 R U2 R' U' R' U' F' U F R", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-102",
+      "name": "VLS UF 102",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U F' L' U2 L U L' U' L U F",
+      "alternatives": [
+        { "notation": "M' U R U' r' L' U2 L U L' U L", "moveCount": 12, "votes": 0 },
+        { "notation": "L R' F R F' L2 U2 L U L' U L", "moveCount": 12, "votes": 0 },
+        { "notation": "U F' U' F U R U' R' U R U2 R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-103",
+      "name": "VLS UF 103",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R2 D' R U2 R' D R U2 R",
+      "alternatives": [
+        { "notation": "L R' F R F' L' R' U2 R U R' U R", "moveCount": 13, "votes": 0 },
+        { "notation": "R' F U2 R' D' R U2 R' D R2 F'", "moveCount": 11, "votes": 0 },
+        { "notation": "M' U R U' r' R' U2 R U R' U R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-104",
+      "name": "VLS UF 104",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R2 F' r U R' U' r'",
+      "alternatives": [
+        { "notation": "R' F R F' r U R' U' r' F R F'", "moveCount": 12, "votes": 0 },
+        { "notation": "U F' U2 F R' F R F2 U F", "moveCount": 9, "votes": 0 },
+        { "notation": "R' F R2 F' L F R' F' L'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-105",
+      "name": "VLS UF 105",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "F' U' F R' F R F' R U R'",
+      "alternatives": [
+        { "notation": "U R' U' R' F R2 F' U' R' U2 R", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-106",
+      "name": "VLS UF 106",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R U2 y' R' U' R U' R'",
+      "alternatives": [
+        { "notation": "U R U' R2 F R U R' U' F' U R", "moveCount": 11, "votes": 0 },
+        { "notation": "U F' U' F R U R' U' R U' R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-107",
+      "name": "VLS UF 107",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F' U R' U' R U' R' U2 R",
+      "alternatives": [
+        { "notation": "M' U R U' r' U' R U2 R2 U' R2 U' R2 U2 R", "moveCount": 15, "votes": 0 },
+        { "notation": "y' U R2 F R U2 y' R' U' R U' R' U B", "moveCount": 12, "votes": 0 },
+        { "notation": "R' F R U R' U' R F' U' R' U2 R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-108",
+      "name": "VLS UF 108",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "U' F' U' F U2 R' F R F'",
+      "alternatives": [
+        { "notation": "U' F' U F R U' R' U R U' R'", "moveCount": 10, "votes": 0 },
+        { "notation": "R' F R F' R U2 R' U' R U' R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-109",
+      "name": "VLS UF 109",
+      "set": "VLS",
+      "subset": "UF",
+      "puzzle": "3x3",
+      "notation": "R' F R F2 r U R' U' r' F R",
+      "alternatives": [
+        { "notation": "U F' U' F R U R D R' U2 R D' R2", "moveCount": 12, "votes": 0 },
+        { "notation": "y' U2 R' U R U' R2 F' r U' r' F2 R2", "moveCount": 11, "votes": 0 },
+        { "notation": "y' U2 R2 F R F2 L F' L' F2 R", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-110",
+      "name": "VLS UF-UB 110",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R' F' U' F U R2 U2 R'",
+      "alternatives": [
+        { "notation": "d R' U R' D' r U' r' D R2", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-111",
+      "name": "VLS UF-UB 111",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' M' U R' U' M U R U' R'",
+      "alternatives": [
+        { "notation": "U R U' R2 F R S R' F' R S'", "moveCount": 10, "votes": 0 },
+        { "notation": "U' F' U' F R U2 R2 U' F' U F R", "moveCount": 11, "votes": 0 },
+        { "notation": "y' U' R' U' R U R D r' U r D' R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-112",
+      "name": "VLS UF-UB 112",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "U2 R U' R' F' U' F R U' R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-113",
+      "name": "VLS UF-UB 113",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' F' U' F U R U2 R'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-114",
+      "name": "VLS UF-UB 114",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R' D' R U R' D R2 U' R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "U2 R L' U L U2 R' L' B' U B L", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R U2 x' U' R' F' R U R' U' F U x", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-115",
+      "name": "VLS UF-UB 115",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "M' U R U' r' F R U R' U' F'",
+      "alternatives": [
+        { "notation": "d R' U' R2 D r' U' r D' R'", "moveCount": 10, "votes": 0 },
+        { "notation": "L R' F R F' L' F R U R' U' F'", "moveCount": 12, "votes": 0 },
+        { "notation": "y' U R' U' R2 D r' U' r D' R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-116",
+      "name": "VLS UF-UB 116",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "M' U M R U R' U' r U' r'",
+      "alternatives": [
+        { "notation": "U R U' R' U R' F' r U' r' F2 R", "moveCount": 11, "votes": 0 },
+        { "notation": "U R U' R' U' r' U' R U' R' U2 r", "moveCount": 11, "votes": 0 },
+        { "notation": "L R' F L' R2 U R' U' L F' L'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-117",
+      "name": "VLS UF-UB 117",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U R' U y' R' U' R U' R'",
+      "alternatives": [
+        { "notation": "R' F R2 U R' U F' U' F U' F'", "moveCount": 11, "votes": 0 },
+        { "notation": "U R U' R2 x U' L U' L' U L U' L' U2 l", "moveCount": 14, "votes": 0 },
+        { "notation": "U R U' R2 F' r U' L' U L U' L' U2 l", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-118",
+      "name": "VLS UF-UB 118",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U R2 U' R F' R' U R",
+      "alternatives": [
+        { "notation": "U2 R U2 R' U2 R U R' U' R' F R F'", "moveCount": 12, "votes": 0 },
+        { "notation": "y U R U2 R' U2 R' F R2 U R' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-119",
+      "name": "VLS UF-UB 119",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U R' U' R U R' U2 R' F R F'",
+      "alternatives": [
+        { "notation": "R' F R U R' U' F' U R U2 R U2 R'", "moveCount": 13, "votes": 0 },
+        { "notation": "U R U' R' F R U R' U' R U R' U' F'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-120",
+      "name": "VLS UF-UB 120",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U R' U' F'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-121",
+      "name": "VLS UF-UB 121",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U R' U' F U R U' R' F' R",
+      "alternatives": [
+        { "notation": "U R' F' U' F U R2 U' R' U R U2 R'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-122",
+      "name": "VLS UF-UB 122",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R2 U' F' U F R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-123",
+      "name": "VLS UF-UB 123",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R' F R F' U2 R U R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "U2 F R U' R' U R U2 R' U' R' F' R", "moveCount": 12, "votes": 0 },
+        { "notation": "U2 R U2 R' U2 R' F R U R' U' F' U R", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-124",
+      "name": "VLS UF-UB 124",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R U' R' F' U' F R U R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-125",
+      "name": "VLS UF-UB 125",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R' F U R U' R' F'",
+      "alternatives": [
+        { "notation": "R' F R U R U' R' U R U' R' F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-126",
+      "name": "VLS UF-UB 126",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U' M' U R U' r'",
+      "alternatives": [
+        { "notation": "U R U' M' U R' U R U2 r'", "moveCount": 9, "votes": 0 },
+        { "notation": "U2 R U' R' U' L R' F R F' L'", "moveCount": 10, "votes": 0 },
+        { "notation": "R' F R U R U2 R' U' R U R' F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-127",
+      "name": "VLS UF-UB 127",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U' R' F' U' F U R2 U R'",
+      "alternatives": [
+        { "notation": "U2 F R U R' U' F' U R U R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-128",
+      "name": "VLS UF-UB 128",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R' F R U R' U' F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-129",
+      "name": "VLS UF-UB 129",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R2 F2 r U r' F R",
+      "alternatives": [
+        { "notation": "U R U' R2 F2 L F L' F R", "moveCount": 9, "votes": 0 },
+        { "notation": "U2 R U2 R' U2 F R U R' U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-130",
+      "name": "VLS UF-UB 130",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R' F' U' F R2 U' R2 U2 R",
+      "alternatives": [
+        { "notation": "U2 R U' R' U' y' r' U' R U M'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-131",
+      "name": "VLS UF-UB 131",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U' R' U R U R' F'",
+      "alternatives": [
+        { "notation": "R' F R F' R U R' U' R' F R F'", "moveCount": 12, "votes": 0 },
+        { "notation": "U R U' R' F R U' R' U' R U R' F'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-132",
+      "name": "VLS UF-UB 132",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R2 U' R' F R2 F' R' U R",
+      "alternatives": [],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-133",
+      "name": "VLS UF-UB 133",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U2 R U2 R2 F R F' R U2 R'",
+      "alternatives": [
+        { "notation": "U2 L' R U R' U' L F2 L F L' F", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 L' R U R' U' L y' R2 F R F' R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-134",
+      "name": "VLS UF-UB 134",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "R U R' F' U' F U' R U2 R'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-135",
+      "name": "VLS UF-UB 135",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' R' U r U2 R' U' R U' r'",
+      "alternatives": [
+        { "notation": "U R U' R' F x' R2 U' R' U R' D' x", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ub-136",
+      "name": "VLS UF-UB 136",
+      "set": "VLS",
+      "subset": "UF-UB",
+      "puzzle": "3x3",
+      "notation": "U R U' M' U2 R' U' R U R' U' R U' r'",
+      "alternatives": [
+        { "notation": "U2 R U2 R2 F R U R' U' F' U R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-137",
+      "name": "VLS UF-UL 137",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 F R' F' R U2 R' F R F'",
+      "alternatives": [
+        { "notation": "y' U' R D r' U r D' R'", "moveCount": 7, "votes": 1 },
+        { "notation": "U' F u R' F R u' F'", "moveCount": 7, "votes": 1 },
+        { "notation": "U2 R U2 R2 U' F' U F R", "moveCount": 8, "votes": 1 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-138",
+      "name": "VLS UF-UL 138",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U' F R' F' R2 U' R' U2 R U' R' U R U' R'",
+      "alternatives": [
+        { "notation": "y' U R' F U R U' R' F2 U' F R", "moveCount": 10, "votes": 0 },
+        { "notation": "d R' F U R U' R' F2 U' F R", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R U2 R' U l' U' L U' L' U2 l", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 14,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-139",
+      "name": "VLS UF-UL 139",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U' R U' R' F' U' F R U R'",
+      "alternatives": [
+        { "notation": "U R U' R2 U2 R2 B' R' B R' U2 R", "moveCount": 11, "votes": 0 },
+        { "notation": "U R U' R2 U2 x' R2 U' R' U l' U2 R", "moveCount": 12, "votes": 0 },
+        { "notation": "U R U' R' U R U2 R2 F R F' R U2 R'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-140",
+      "name": "VLS UF-UL 140",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R2 F' U' F U R2 U2 R'",
+      "alternatives": [],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-141",
+      "name": "VLS UF-UL 141",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U L' U2 R U R' L U F R U R' F'",
+      "alternatives": [
+        { "notation": "U' R' F R F r U r' F R U R'", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R' F R F' R' F R F' U2 R' F R F'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-142",
+      "name": "VLS UF-UL 142",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "y' U R2 D' r U' r' D R2",
+      "alternatives": [
+        { "notation": "d R2 D' L F' L' D R2", "moveCount": 8, "votes": 0 },
+        { "notation": "U R U' R' U' R' U' F' U F R", "moveCount": 10, "votes": 0 },
+        { "notation": "U F2 u' L F' L' u F2", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-143",
+      "name": "VLS UF-UL 143",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F U R2 U' R' F'",
+      "alternatives": [
+        { "notation": "M' U R U R' U' R U' r'", "moveCount": 9, "votes": 0 },
+        { "notation": "U R U R' U2 M' U R U' r'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-144",
+      "name": "VLS UF-UL 144",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "M' U2 R U' R' U R U2 r'",
+      "alternatives": [
+        { "notation": "L R' F2 R F' R' F R F2 L'", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 r' R2 U' R' U r U2 R'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-145",
+      "name": "VLS UF-UL 145",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U' R U' R' F R U R' U' F'",
+      "alternatives": [
+        { "notation": "R' F2 R F2 r' F U' F U r", "moveCount": 10, "votes": 0 },
+        { "notation": "L' U2 R U2 R' U B' U B L", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-146",
+      "name": "VLS UF-UL 146",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F U' R2 U R2 U R F'",
+      "alternatives": [
+        { "notation": "U R U R' r' U' R2 U' R2 U2 r", "moveCount": 10, "votes": 1 },
+        { "notation": "U2 L' U2 L2 F2 R' F L' F R", "moveCount": 9, "votes": 0 },
+        { "notation": "U2 R U2 R2 F2 r U r' F R", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-147",
+      "name": "VLS UF-UL 147",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U2 R' F R F'",
+      "alternatives": [
+        { "notation": "U R U' R2 F' r U' r' F2 R", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-148",
+      "name": "VLS UF-UL 148",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R2 F R2 B' R2 F' R2 B R'",
+      "alternatives": [
+        { "notation": "U2 R U2 x' R2 D R2 U' R2 D' R2 U l'", "moveCount": 12, "votes": 0 },
+        { "notation": "U R U' R' U R U B' U' R' U R B R'", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-149",
+      "name": "VLS UF-UL 149",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U' R' U2 R U R' F'",
+      "alternatives": [
+        { "notation": "R' F R2 U' R' F' L' U L", "moveCount": 9, "votes": 0 },
+        { "notation": "R' F' r U' r' F2 R2 U2 R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-150",
+      "name": "VLS UF-UL 150",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U F2 u' r U r' D R U2 R",
+      "alternatives": [
+        { "notation": "U2 R U2 R' F R U' R' U' R U R' F'", "moveCount": 12, "votes": 1 },
+        { "notation": "U F2 u' L F L' D R U2 R", "moveCount": 9, "votes": 0 },
+        { "notation": "U' F R B U' B' U R2 F' R", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-151",
+      "name": "VLS UF-UL 151",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U' R' F R2 U R' U' F'",
+      "alternatives": [
+        { "notation": "U R U' R2 U' F U R U' R' F' R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-152",
+      "name": "VLS UF-UL 152",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U R U' R' U' R' F R F'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-153",
+      "name": "VLS UF-UL 153",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "M2 U2 R' F R2 U2 r2 F R",
+      "alternatives": [
+        { "notation": "U' r U r' U2 R U' R2 r U r' R", "moveCount": 11, "votes": 1 },
+        { "notation": "U2 R U' B U2 B' R' U' F' U2 F", "moveCount": 10, "votes": 0 },
+        { "notation": "U' L F L' U2 R U' L R2 F L' R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-154",
+      "name": "VLS UF-UL 154",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U R' F' r U' r' F2 R U F R' F' R",
+      "alternatives": [
+        { "notation": "U2 y' l' U' L U' L' U2 l2 U' R' U x", "moveCount": 11, "votes": 0 },
+        { "notation": "d' U' r' U' R U' R' U2 r2 U' r' F", "moveCount": 12, "votes": 0 },
+        { "notation": "y U2 r' U' R U' R' U2 r2 U' r' F", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-155",
+      "name": "VLS UF-UL 155",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R2 U2 R2 U2 R' F R2 F' U2 R'",
+      "alternatives": [
+        { "notation": "R' F U' R2 U' R2 U2 R U' F'", "moveCount": 10, "votes": 1 },
+        { "notation": "y' U M' R' F' U' F R2 r'", "moveCount": 7, "votes": 0 },
+        { "notation": "d r R2 F' U' F R2 r'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-156",
+      "name": "VLS UF-UL 156",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R' F U R U' R' F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-157",
+      "name": "VLS UF-UL 157",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R' U' R U' R' U2 F R2 U R' U' F'",
+      "alternatives": [
+        { "notation": "d R' U2 R2 D r' U' r D' R'", "moveCount": 10, "votes": 1 },
+        { "notation": "y' x' U' R' F' R2 U' R' U' x y U' R2 U2 R", "moveCount": 14, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-158",
+      "name": "VLS UF-UL 158",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U R' U' R2 U' R2 U2 R U2 R' F R F'",
+      "alternatives": [],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-159",
+      "name": "VLS UF-UL 159",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U R U2 R' F R U R' U' F'",
+      "alternatives": [
+        { "notation": "U' R U' R U R' U F R2 F' R' U2 R2", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-160",
+      "name": "VLS UF-UL 160",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R' F R F' R U2 R' U2 R' F R F'",
+      "alternatives": [
+        { "notation": "U F' R U R' U' R' F R U' R' F R F'", "moveCount": 13, "votes": 0 },
+        { "notation": "R' F R F' l' U' L U' L' U2 l", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-161",
+      "name": "VLS UF-UL 161",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U' F' U F R U' R2 F R F'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-162",
+      "name": "VLS UF-UL 162",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "R' F R2 U' R' U R U2 R' U' F'",
+      "alternatives": [
+        { "notation": "R2 D R' U' R D' R F R F'", "moveCount": 10, "votes": 0 },
+        { "notation": "R' F R F' r U2 R' U' R U' r'", "moveCount": 11, "votes": 0 },
+        { "notation": "R2 U' R F R' U R' U' R' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-uf-ul-163",
+      "name": "VLS UF-UL 163",
+      "set": "VLS",
+      "subset": "UF-UL",
+      "puzzle": "3x3",
+      "notation": "U R U' M' U2 R' U' R U R' U2 M U R U' R'",
+      "alternatives": [
+        { "notation": "R' F R F' U' F R U' R' U' R U R' F'", "moveCount": 14, "votes": 1 },
+        { "notation": "y' U R' F' U' F U' R U R B' R' B", "moveCount": 11, "votes": 0 },
+        { "notation": "U R y R U' R' U F' U' R' F' R U2 M' U' M", "moveCount": 15, "votes": 0 }
+      ],
+      "moveCount": 15,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-164",
+      "name": "VLS UL 164",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 F' U F U2 R U' R'",
+      "alternatives": [
+        { "notation": "U2 R U2 y R U R' U' F'", "moveCount": 8, "votes": 0 },
+        { "notation": "y U2 F U2 R U R' U' F'", "moveCount": 7, "votes": 0 },
+        { "notation": "U2 R U2 R' U F R U R' U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-165",
+      "name": "VLS UL 165",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U' F' L' U2 L U F",
+      "alternatives": [
+        { "notation": "U R U' B r' U' M' U L U' L'", "moveCount": 10, "votes": 0 },
+        { "notation": "R' U' F U R U' F' R2 D' R U2 R' D R U2 R", "moveCount": 16, "votes": 0 },
+        { "notation": "U R U R' U' R' F R F' U' F' U2 F", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-166",
+      "name": "VLS UL 166",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F R F' U' R' U2 R",
+      "alternatives": [
+        { "notation": "U2 R' U' y' R' U R2 B R2 U R", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 R' U' F' U F2 R F2 U F", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-167",
+      "name": "VLS UL 167",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F R F' R' U R",
+      "alternatives": [
+        { "notation": "U F' U2 F R2 D R' U' R D' R2", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-168",
+      "name": "VLS UL 168",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' U F' U' F U' R U' R'",
+      "alternatives": [
+        { "notation": "U R' F R F' d M U' R' U r", "moveCount": 10, "votes": 0 },
+        { "notation": "U R U' R' U' R' F' r U' r' F2 R", "moveCount": 11, "votes": 0 },
+        { "notation": "U F' U2 F R U R D R' U2 R D' R2", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-169",
+      "name": "VLS UL 169",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F U R U' F'",
+      "alternatives": [
+        { "notation": "U F' U2 F U R U2 R'", "moveCount": 7, "votes": 0 },
+        { "notation": "U R U' R' f R U R' U' f'", "moveCount": 9, "votes": 0 },
+        { "notation": "U R U R2 F R F' U' R U' R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-170",
+      "name": "VLS UL 170",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' F R F' U R U R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "U2 R' F R F' U' R' F R F' U F R' F' R", "moveCount": 14, "votes": 0 },
+        { "notation": "y F' L F L' R U R' U' R' F R F'", "moveCount": 12, "votes": 0 },
+        { "notation": "R U' F U F' R2 F R U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-171",
+      "name": "VLS UL 171",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "y R U R' F R U' R' F2 U2 F",
+      "alternatives": [
+        { "notation": "U x' R U' R U R2 x U' L' U R U' R' L", "moveCount": 14, "votes": 0 },
+        { "notation": "U R U' R' r' U' R U' R' U R U' R' U2 r", "moveCount": 14, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-172",
+      "name": "VLS UL 172",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' U' F U R F' U F U2 F'",
+      "alternatives": [
+        { "notation": "U' y' R' F' U' F R U' R' U' R U R' U R", "moveCount": 13, "votes": 0 },
+        { "notation": "R' U' F U R y' R' U R U2 R'", "moveCount": 11, "votes": 0 },
+        { "notation": "R' U' F d B R' U R U2 R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-173",
+      "name": "VLS UL 173",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R' F R F' U F R' F' R",
+      "alternatives": [
+        { "notation": "U y' x' U' R U R' F R U' R' U x", "moveCount": 11, "votes": 0 },
+        { "notation": "U R' F R F' R U R' F' U F", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-174",
+      "name": "VLS UL 174",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R2 U' R F R' U R2 U' F'",
+      "alternatives": [
+        { "notation": "U' F' U' F U' R B U' B' R'", "moveCount": 9, "votes": 0 },
+        { "notation": "U2 R' u' R U' R' U R' u R", "moveCount": 9, "votes": 0 },
+        { "notation": "U' F' U' F U' R y R U' R' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-175",
+      "name": "VLS UL 175",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U R U' B U' B' R'",
+      "alternatives": [
+        { "notation": "M' U R U' r' U R U R' U' R' F R F'", "moveCount": 14, "votes": 0 },
+        { "notation": "U2 R U' R' U R d' R U' R' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-176",
+      "name": "VLS UL 176",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "R' F R F' U F R U R' U' F'",
+      "alternatives": [
+        { "notation": "R' F R F' R y R U R' U' F'", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R' F R F' U2 R' U' F U R y' R' U R U2 R'", "moveCount": 16, "votes": 0 },
+        { "notation": "R' F R F' R B U B' U' R'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-177",
+      "name": "VLS UL 177",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R U R' F2 r U r' F",
+      "alternatives": [
+        { "notation": "U R U R' y' R2 F R F' R", "moveCount": 9, "votes": 0 },
+        { "notation": "U R U' x' U L' U L U2 l'", "moveCount": 9, "votes": 0 },
+        { "notation": "U R U R' U' R' F R y' R2 U R", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-178",
+      "name": "VLS UL 178",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R B' U' R' U R B R'",
+      "alternatives": [
+        { "notation": "U' F2 r U r' F U2 R U' R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-179",
+      "name": "VLS UL 179",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "y' R' U' R U' F R2 U R2 U' R2 F'",
+      "alternatives": [
+        { "notation": "U F' U2 F U R' U' R2 U' R2 U2 R", "moveCount": 11, "votes": 0 },
+        { "notation": "R' F R F' R U R' U R U' B U' B' R'", "moveCount": 14, "votes": 0 },
+        { "notation": "U F' L' U' L F R' U' R U' R' U2 R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 11,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-180",
+      "name": "VLS UL 180",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' S' R U' R' S",
+      "alternatives": [
+        { "notation": "y' R' U R U' R' U' R U' B U B'", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R U' R' U' M U R U' R' U' M'", "moveCount": 11, "votes": 0 },
+        { "notation": "F' U F U' F' U' F U' R U R'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-181",
+      "name": "VLS UL 181",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R' U R U R' U' R' F R F'",
+      "alternatives": [
+        { "notation": "U' F' U' F R' F R F' R U2 R'", "moveCount": 10, "votes": 0 },
+        { "notation": "y' U' R' U' R U' r' U r U' r' U' r", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-182",
+      "name": "VLS UL 182",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U F' U2 F R U' R'",
+      "alternatives": [
+        { "notation": "U F' L' U' L F", "moveCount": 5, "votes": 0 },
+        { "notation": "M' U R B U' B' r'", "moveCount": 7, "votes": 0 },
+        { "notation": "U F' U' F U' R' F R F'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-183",
+      "name": "VLS UL 183",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 F' U F U' R U2 R'",
+      "alternatives": [
+        { "notation": "U2 R U2 R2 U' R' F R F' U R", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 R U' R B' R' B U' R'", "moveCount": 8, "votes": 0 },
+        { "notation": "U2 R U' l U' R' U x U' R'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-184",
+      "name": "VLS UL 184",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U F' U r' F2 r U F",
+      "alternatives": [
+        { "notation": "R' F R F' R' F' U' F U R", "moveCount": 10, "votes": 0 },
+        { "notation": "R' F R F' U' F R U R' U' F'", "moveCount": 11, "votes": 0 },
+        { "notation": "U F' U L' U2 L U F", "moveCount": 7, "votes": 0 }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-185",
+      "name": "VLS UL 185",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U R U R2 F R F' R U2 R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-186",
+      "name": "VLS UL 186",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U2 R2 F' U' F U R",
+      "alternatives": [
+        { "notation": "M' U2 R U' B U' B' r'", "moveCount": 8, "votes": 0 },
+        { "notation": "U F' U2 F R U R' U' R U' R'", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 R U2 R' U' F R U R' U' F'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 2,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-187",
+      "name": "VLS UL 187",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R' U' R U' R' U2 F R F'",
+      "alternatives": [
+        { "notation": "R' U' F R F' R' U' R U R' U R", "moveCount": 12, "votes": 0 },
+        { "notation": "R' U' F U R U' F' r U R' U' r' F R F'", "moveCount": 15, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-188",
+      "name": "VLS UL 188",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 R U' R' U R' U' F' U F R2 U' R'",
+      "alternatives": [
+        { "notation": "U2 R' F R F' U' y' R' F' U' F R", "moveCount": 11, "votes": 0 },
+        { "notation": "U2 R U' y R U2 R' U' R U R' F'", "moveCount": 11, "votes": 0 },
+        { "notation": "R' F2 R U' R' F R F' R U R' F2", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-189",
+      "name": "VLS UL 189",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "U2 x' R F' R U' R' U l' U R U2 R'",
+      "alternatives": [
+        { "notation": "U2 R d' R U' R' U R U' R' F'", "moveCount": 10, "votes": 0 },
+        { "notation": "U2 R U' y R U' R' U R U' R' F'", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "vls-ul-190",
+      "name": "VLS UL 190",
+      "set": "VLS",
+      "subset": "UL",
+      "puzzle": "3x3",
+      "notation": "y' U R' U R U R2 F R F' R",
+      "alternatives": [
+        { "notation": "d R' U R U R2 F R F' R", "moveCount": 10, "votes": 0 },
+        { "notation": "U y' x' R' F R U' R U R2 F R x", "moveCount": 11, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 1,
+      "source": "speedcubedb"
+    }
+  ]
+}

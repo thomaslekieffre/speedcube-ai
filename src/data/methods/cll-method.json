@@ -1,0 +1,48 @@
+{
+  "id": "cll-method",
+  "name": "CLL (Corners of Last Layer) for 2x2",
+  "description": "A one-look last layer method for the 2x2 cube. After solving one face with correct permutation (a solved layer), a single CLL algorithm solves the remaining four corners in one step. CLL contains 42 algorithms and is the standard advanced method for 2x2, bridging the gap between Ortega and the more demanding EG method. It is widely used by competitive 2x2 solvers.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Solve First Layer",
+      "description": "Solve one complete layer of the 2x2 — all four pieces must be correctly positioned and oriented relative to each other (not just a face). This means the bottom face is solved AND the four bottom side stickers are correct. This is harder than Ortega's first step since permutation matters.",
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Plan the entire first layer during inspection",
+        "Being color-neutral is very important for CLL to find easy first layers",
+        "Learn to recognize when pieces are already in the correct relative positions",
+        "Efficient first layer solutions are crucial for fast solves"
+      ]
+    },
+    {
+      "name": "CLL (Corners of Last Layer)",
+      "description": "Solve all four remaining corners in a single algorithm. CLL simultaneously orients and permutes the last layer corners. There are 42 algorithms divided into categories: Sune (6), Antisune (6), H (4), Pi (6), T (6), U (6), L (6), and solved/skip (2). Recognition is based on the pattern of top-face stickers and the side sticker arrangements.",
+      "algorithmSets": ["CLL"],
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "Learn algorithms in groups by orientation type (Sune, Anti, Pi, etc.)",
+        "Two-sided recognition speeds up identification significantly",
+        "Practice CLL recognition separately from execution",
+        "Many CLL algorithms are also used in 3x3 Roux CMLL"
+      ]
+    }
+  ],
+  "pros": [
+    "One-look last layer is very fast",
+    "42 algorithms is manageable for dedicated cubers",
+    "Well-documented with many resources available",
+    "Natural progression from Ortega",
+    "Sub-2 times are achievable with mastery"
+  ],
+  "cons": [
+    "First layer must be fully solved (permuted), making it slower than EG's face approach",
+    "42 algorithms require dedicated learning time",
+    "Not as fast as EG at the highest level",
+    "First layer planning in inspection is more demanding than Ortega"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["CLL"],
+  "avgMoveCount": "9-16",
+  "yearCreated": 2003
+}

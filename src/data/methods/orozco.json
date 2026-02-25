@@ -1,0 +1,65 @@
+{
+  "id": "orozco",
+  "name": "Orozco (3BLD)",
+  "description": "A hybrid 3BLD method that combines M2 edge solving with 3-style corner commutators. Named after the method's popularizer, Orozco provides a middle ground between the simplicity of M2/OP and the speed of full 3-style. Edges are solved using M2-based techniques (with some 3-style edge commutators mixed in for common cases), while corners are solved using full 3-style commutators. This allows solvers to benefit from fast corner execution while maintaining the simpler M2 framework for edges during the transition to full 3-style.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Memorization (Edges)",
+      "description": "Memorize edge cycles using letter tracing with the DF buffer (standard M2 buffer). Generate letter pairs for the memo sequence. The memo technique is the same as M2 — each letter represents a target for an M2 swap, though some common targets may be handled with 3-style commutators instead.",
+      "tips": [
+        "DF buffer is standard for the M2 portion",
+        "Audio memo is popular for edges",
+        "Note which targets you plan to use 3-style for versus M2",
+        "Practice fast memorization — this is usually the bottleneck"
+      ]
+    },
+    {
+      "name": "Memorization (Corners)",
+      "description": "Memorize corner cycles using letter tracing with the UBL or UFR buffer. Generate letter pairs, where each pair represents one 3-style corner commutator to execute. Visual memo with images is standard for corners.",
+      "tips": [
+        "Same corner memo technique as full 3-style",
+        "Use letter pairs with vivid images for retention",
+        "Practice corner memo speed independently"
+      ]
+    },
+    {
+      "name": "Execution (Corners - 3-Style)",
+      "description": "Execute corner 3-cycles using commutator algorithms, identical to the full 3-style method. Each letter pair in the corner memo corresponds to one commutator that cycles three corners. This gives fast corner execution comparable to world-class solvers.",
+      "moveCountRange": "20-40 moves",
+      "tips": [
+        "Learn corner commutators systematically by target position",
+        "Many corners share common interchange patterns",
+        "Corner execution is where Orozco shines over pure M2/OP",
+        "Practice until corner commutators are automatic"
+      ]
+    },
+    {
+      "name": "Execution (Edges - M2 Hybrid)",
+      "description": "Execute edge swaps using primarily M2-based techniques, with 3-style commutators substituted for common or easy targets. The M2 framework provides a reliable backbone, while gradually incorporating commutators for specific targets improves speed. This hybrid approach allows incremental learning toward full 3-style edges.",
+      "moveCountRange": "40-70 moves",
+      "tips": [
+        "Start with pure M2 edges, then replace common targets with commutators",
+        "M-slice edge commutators are the easiest 3-style edges to learn first",
+        "Keep M2 as a fallback for any target where you have not learned the commutator",
+        "Gradually transition more targets to 3-style as you improve"
+      ]
+    }
+  ],
+  "pros": [
+    "Faster than pure M2/OP due to 3-style corners",
+    "Smoother transition path toward full 3-style",
+    "M2 edges are reliable and well-understood",
+    "Allows incremental improvement as more commutators are learned",
+    "Good competitive performance at intermediate BLD level"
+  ],
+  "cons": [
+    "Still slower than full 3-style for edges",
+    "Hybrid approach means two different execution styles to manage",
+    "M2 special cases still apply for edge targets",
+    "Eventually should be upgraded to full 3-style for top performance"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["PLL"],
+  "avgMoveCount": "60-110"
+}

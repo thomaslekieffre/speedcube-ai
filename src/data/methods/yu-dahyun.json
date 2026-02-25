@@ -1,0 +1,64 @@
+{
+  "id": "yu-dahyun",
+  "name": "Yu Da-Hyun",
+  "description": "The Yu Da-Hyun method is an advanced Megaminx speedsolving technique. It follows the star, F2L, variant Westlund S2L, and last layer structure. Its key innovation is a variant of the Westlund S2L approach where the solver uses a random last layer color rather than a fixed one, allowing for more flexible and sometimes more efficient S2L solutions.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Star",
+      "description": "Solve the first layer edges to form a star on the bottom face of the Megaminx. This is the standard Megaminx opening that provides the foundation for subsequent layers.",
+      "moveCountRange": "8-14",
+      "tips": [
+        "Plan the star during inspection for maximum efficiency",
+        "Prioritize edges that are already close to their correct positions",
+        "A well-planned star leads to easier F2L solutions"
+      ]
+    },
+    {
+      "name": "First 2 Layers (F2L)",
+      "description": "Solve the first two layers by pairing corner and edge pieces and inserting them into their correct positions around the Megaminx.",
+      "moveCountRange": "40-60",
+      "tips": [
+        "Build strong intuitive F2L skills",
+        "Look ahead to future pairs while inserting the current one",
+        "Minimize rotations to save time"
+      ]
+    },
+    {
+      "name": "Variant Westlund S2L (Random LL Color)",
+      "description": "Solve the second-to-last layer using a variant of the Westlund approach. Instead of committing to a fixed last layer color, the solver selects whichever LL color results in the most efficient S2L solve. This flexibility can significantly reduce move count.",
+      "moveCountRange": "30-50",
+      "tips": [
+        "Evaluate multiple potential LL colors before committing",
+        "The random color choice is this method's key strength — use it wisely",
+        "Practice recognizing which color choice leads to fewer S2L moves",
+        "Familiarity with the Westlund S2L approach is a prerequisite"
+      ]
+    },
+    {
+      "name": "Last Layer",
+      "description": "Solve the last layer using Megaminx OLL and PLL algorithms. The last layer color was chosen during S2L to optimize the overall solve.",
+      "algorithmSets": ["Megaminx OLL", "Megaminx PLL"],
+      "moveCountRange": "15-25",
+      "tips": [
+        "The chosen LL color may yield easier or harder LL cases",
+        "Practice LL algorithms for all possible top colors",
+        "Fast recognition is critical for competitive times"
+      ]
+    }
+  ],
+  "pros": [
+    "Random LL color choice can significantly reduce S2L move count",
+    "More adaptable to scramble than fixed-color methods",
+    "Builds on established Westlund S2L knowledge",
+    "Competitive at the highest level of Megaminx solving"
+  ],
+  "cons": [
+    "Evaluating the best LL color adds thinking time",
+    "Requires familiarity with LL algorithms for multiple top colors",
+    "Higher cognitive load during S2L decision-making",
+    "Limited documentation and community support"
+  ],
+  "notableUsers": ["Yu Da-Hyun"],
+  "relatedSets": ["Megaminx OLL", "Megaminx PLL"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bell",
+  "name": "Bell (Pyraminx)",
+  "description": "An advanced Pyraminx method created by Drew Brads. The Bell method is designed for top-level Pyraminx speedcubing and focuses on placing one edge to form a V-shape, then solving the remaining edges using optimized one-look algorithms. What distinguishes Bell from standard L4E is its emphasis on influencing edge orientation during the V-building step and its optimized algorithm set for the remaining edges, allowing for shorter and more ergonomic solutions.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist all four trivial tips to match their adjacent center colors. Done at any point during the solve.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Handle tips as they become convenient",
+        "Many top solvers incorporate tip twists into other moves"
+      ]
+    },
+    {
+      "name": "Build V + Edge Orientation Influence",
+      "description": "Solve one edge to form a V-shape at the back of the Pyraminx while simultaneously influencing the orientation of the remaining edges. By choosing specific move sequences to build the V, you can set up the remaining edges into favorable L4E cases. This is the key innovation of the Bell method.",
+      "moveCountRange": "1-5 moves",
+      "tips": [
+        "Plan the V and edge influence during inspection",
+        "Color neutrality is essential to find optimal V choices",
+        "Study which V solutions lead to the easiest L4E cases",
+        "This step requires deep understanding of how V-building affects remaining edges"
+      ]
+    },
+    {
+      "name": "Solve Last 4 Edges (Optimized)",
+      "description": "Solve the remaining four edges in one look using an optimized Bell algorithm set. Because the V was built with edge influence, many of the harder L4E cases are avoided, and the remaining cases have been optimized for speed and ergonomics.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "The Bell algorithm set prioritizes speed over move count in some cases",
+        "Practice recognition with the specific Bell angle and V placement",
+        "Drill the most common cases for speed"
+      ]
+    }
+  ],
+  "pros": [
+    "One of the fastest Pyraminx methods available",
+    "Edge influence during V reduces hard L4E cases",
+    "Optimized algorithms for ergonomic speed",
+    "Very low move count",
+    "Used by top Pyraminx competitors"
+  ],
+  "cons": [
+    "Requires deep understanding of edge influence",
+    "Inspection planning is more demanding than standard L4E",
+    "Fewer resources than standard L4E",
+    "Marginal improvement over L4E may not justify the added complexity for non-elite solvers"
+  ],
+  "notableUsers": ["Drew Brads"],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "7-12",
+  "creator": "Drew Brads"
+}

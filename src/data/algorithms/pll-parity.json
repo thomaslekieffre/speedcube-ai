@@ -1,0 +1,32 @@
+{
+  "id": "pll-parity",
+  "name": "PLL Parity",
+  "puzzle": "4x4",
+  "description": "PLL Parity algorithms for 4x4 — 22 cases. Fixes parity errors during the PLL step where two edges or corners need to be swapped in a way impossible on a 3x3.",
+  "category": "parity",
+  "caseCount": 22,
+  "algorithms": [
+    {"id":"pll-parity-1","name":"PLL Parity Opp","set":"PLL Parity","subset":"Edge Swap","puzzle":"4x4","notation":"2R2 U2 2R2 Uw2 2R2 Uw2","alternatives":[{"notation":"Rw2 F2 U2 Rw2 R2 U2 F2 Rw2","moveCount":8,"votes":16},{"notation":"Uw2 Rw2 U2 2R2 U2 Rw2 Uw2","moveCount":7,"votes":6}],"moveCount":6,"setup":"","votes":21,"source":"speedcubedb"},
+    {"id":"pll-parity-2","name":"PLL Parity Adj","set":"PLL Parity","subset":"Edge Swap","puzzle":"4x4","notation":"R' U R U' 2R2 U2 2R2 Uw2 2R2 Uw2 U' R' U' R","alternatives":[{"notation":"R U R' U' 2L2 U2 2L2 Uw2 2L2 Uw2 U' R U' R'","moveCount":14,"votes":3}],"moveCount":14,"setup":"","votes":17,"source":"speedcubedb"},
+    {"id":"pll-parity-3","name":"PLL Parity CwO","set":"PLL Parity","subset":"Edge Swap","puzzle":"4x4","notation":"M2 U' M2 U' M' U2 M2 U2 M' 2R2 U2 2R2 Uw2 2R2 Uw2","alternatives":[],"moveCount":15,"setup":"","votes":4,"source":"speedcubedb"},
+    {"id":"pll-parity-4","name":"PLL Parity CcwO","set":"PLL Parity","subset":"Edge Swap","puzzle":"4x4","notation":"Uw2 2L2 Uw2 2L2 U2 3Rw' Rw2 R' U2 M2 U2 M' U M2 U M2","alternatives":[],"moveCount":16,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-5","name":"PLL Parity W","set":"PLL Parity","subset":"Edge Swap","puzzle":"4x4","notation":"R' U R' U' R' U' R' U R U Rw2 U2 2R2 Uw2 2R2 Uw2","alternatives":[],"moveCount":16,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"pll-parity-6","name":"PLL Parity Pj","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"R U R' U' R' F R2 U' R' U' R U R' F' U' 2L2 U2 2L2 Uw2 2L2 Uw2","alternatives":[],"moveCount":21,"setup":"","votes":4,"source":"speedcubedb"},
+    {"id":"pll-parity-7","name":"PLL Parity Ba","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"Uw2 2L2 Uw2 2L2 U2 2L2 U R U R' F' R U R' U' R' F R2 U' R'","alternatives":[],"moveCount":20,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"pll-parity-8","name":"PLL Parity Bb","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"y x Rw2 U2 Rw2 Uw2 2R2 Uw2 B 3Rw' U R' U2 L U' R","alternatives":[],"moveCount":15,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-9","name":"PLL Parity Ca","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"y2 Uw2 2R2 Uw2 2R2 U2 Rw2 F R U R U' R' F' R U2 R' U2 R","alternatives":[],"moveCount":18,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-10","name":"PLL Parity Cb","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"y R' U2 R U2 R' F R U R' U' R' F' Rw2 U2 2R2 Uw2 2R2 Uw2","alternatives":[],"moveCount":18,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-11","name":"PLL Parity Da","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"R' U L' U2 R U' 3Rw B Rw2 U2 Rw2 Uw2 2R2 Uw2 x'","alternatives":[],"moveCount":15,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-12","name":"PLL Parity Db","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"R U R' F' R U R' U' R' F R2 U' R' 2R2 U2 2R2 Uw2 2R2 Uw2","alternatives":[],"moveCount":19,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"pll-parity-13","name":"PLL Parity Ka","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"y 3Lw' U R' D2 R U' R' D2 x' Rw2 U2 2R2 Uw2 2R2 Uw2","alternatives":[],"moveCount":15,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"pll-parity-14","name":"PLL Parity Kb","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"r2 F2 U2 r2 R2 U2 x R' D' R U2 R' D R r2 x' U'","alternatives":[],"moveCount":17,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"pll-parity-15","name":"PLL Parity M","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"y2 Rw2 F2 U2 2R2 U R' U' R U R' D R D' R F2 U Rw2","alternatives":[],"moveCount":17,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"pll-parity-16","name":"PLL Parity Pa","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"R U R' F' R U R' U' R' F R2 U' R' U' 2R2 U2 2R2 u2 2R2 u2","alternatives":[],"moveCount":20,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-17","name":"PLL Parity Pb","set":"PLL Parity","subset":"Adj Corner Swap","puzzle":"4x4","notation":"2R2 U2 2R2 u2 2R2 u2 R U R' F' R U R' U' R' F R2 U' R'","alternatives":[],"moveCount":19,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"pll-parity-18","name":"PLL Parity Diag C","set":"PLL Parity","subset":"Diag Corner Swap","puzzle":"4x4","notation":"F R U' R' U' R U R' F' U' 2R2 U2 2R2 u2 2R2 u2 U' R U R' U' R' F R F'","alternatives":[],"moveCount":25,"setup":"","votes":7,"source":"speedcubedb"},
+    {"id":"pll-parity-19","name":"PLL Parity Q","set":"PLL Parity","subset":"Diag Corner Swap","puzzle":"4x4","notation":"z Rw2 Uw2 R2 Uw2 F R U R' U' R U R' U' R U R' U' F' U2 R2 Uw2 Rw2 z'","alternatives":[],"moveCount":24,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"pll-parity-20","name":"PLL Parity Sa","set":"PLL Parity","subset":"Diag Corner Swap","puzzle":"4x4","notation":"F R U' R' U' R U R' F' R U R' U' R' F R F' U' 2R2 U2 2R2 u2 2R2 u2","alternatives":[],"moveCount":24,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"pll-parity-21","name":"PLL Parity Sb","set":"PLL Parity","subset":"Diag Corner Swap","puzzle":"4x4","notation":"F R U' R' U' R U R' F' R U R' U' R' F R F' 2R2 U2 2R2 u2 2R2 u2","alternatives":[],"moveCount":23,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"pll-parity-22","name":"PLL Parity X","set":"PLL Parity","subset":"Diag Corner Swap","puzzle":"4x4","notation":"Rw2 F2 U2 Rw2 F' U' R' U R U' R' U R U' R' U R F R2 U2 F2 Rw2","alternatives":[],"moveCount":22,"setup":"","votes":2,"source":"speedcubedb"}
+  ]
+}

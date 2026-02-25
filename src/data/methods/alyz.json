@@ -1,0 +1,95 @@
+{
+  "id": "alyz",
+  "name": "Alyz",
+  "description": "The Alyz method is an intermediate Clock solving technique. It structures the solve into three front steps, a flip, three back steps, and four simultaneous corner moves. This balanced approach offers more optimization than beginner flip methods while being more accessible than the expert-level 7-Simul technique.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Front Step 1",
+      "description": "Solve the first set of clocks on the front face using specific pin configurations and wheel turns. This begins the structured front-face solution.",
+      "tips": [
+        "Plan front steps during inspection",
+        "Use efficient pin configurations to affect multiple clocks",
+        "Develop muscle memory for common front patterns"
+      ]
+    },
+    {
+      "name": "Front Step 2",
+      "description": "Continue solving the front face by correcting additional clocks. Build on the progress from step 1 without disturbing already-solved positions.",
+      "tips": [
+        "Maintain awareness of which clocks are solved",
+        "Choose pin configurations that preserve previous work",
+        "Flow smoothly from step 1 into step 2"
+      ]
+    },
+    {
+      "name": "Front Step 3",
+      "description": "Complete the front-face work by solving the remaining front clocks. After this step, the front face should be in a favorable state for the flip.",
+      "tips": [
+        "Ensure the front face is set up correctly before flipping",
+        "This step may partially solve back-face clocks as a bonus",
+        "Speed through this step with practiced sequences"
+      ]
+    },
+    {
+      "name": "Flip",
+      "description": "Flip the Clock puzzle over to access the back face. The front face work is complete at this point.",
+      "tips": [
+        "Flip quickly and consistently",
+        "Maintain your grip for a smooth transition to back-face solving",
+        "Mentally prepare for the back steps during the flip"
+      ]
+    },
+    {
+      "name": "Back Step 1",
+      "description": "Begin solving the back face by correcting clocks using appropriate pin and wheel combinations.",
+      "tips": [
+        "Be mindful of how back moves affect the solved front face",
+        "Use pin configurations that isolate back-face clocks",
+        "Plan back steps based on the state you see after flipping"
+      ]
+    },
+    {
+      "name": "Back Step 2",
+      "description": "Continue solving the back face, building on the progress from back step 1.",
+      "tips": [
+        "Maintain awareness of front-face preservation",
+        "Flow smoothly between back steps for speed",
+        "Recognize common back-face patterns for faster solving"
+      ]
+    },
+    {
+      "name": "Back Step 3",
+      "description": "Complete the back-face edge clocks, setting up for the final corner moves.",
+      "tips": [
+        "Ensure all edge clocks are correct before moving to corners",
+        "This step determines how easy the corner finish will be",
+        "Accuracy here prevents re-solving later"
+      ]
+    },
+    {
+      "name": "4 Simultaneous Corner Moves",
+      "description": "Solve all four corners simultaneously with pre-planned moves. Since all edge clocks are solved, the corners can be corrected with specific pin-and-wheel combinations that affect only corner positions.",
+      "tips": [
+        "Learn the corner-only move sequences",
+        "Each corner move should be executed quickly and precisely",
+        "The simultaneous nature of this step saves significant time",
+        "Practice corner isolation until it becomes automatic"
+      ]
+    }
+  ],
+  "pros": [
+    "More structured than beginner methods",
+    "Simultaneous corner finish is efficient",
+    "Good balance between speed and learning difficulty",
+    "Clear progression path from beginner to advanced Clock solving"
+  ],
+  "cons": [
+    "Still requires a flip, unlike 7-Simul",
+    "More steps than minimal methods",
+    "Front/back interaction requires careful planning",
+    "Not fast enough for world-record-level solves"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

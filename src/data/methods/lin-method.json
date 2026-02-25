@@ -1,0 +1,57 @@
+{
+  "id": "lin-method",
+  "name": "Lin Method (Square-1)",
+  "description": "An alternative Square-1 method inspired by blockbuilding concepts. The Lin method takes a fundamentally different approach from the standard Vandenbergh method by focusing on pairing blocks during cubeshape and solving in fewer, more integrated steps. It pairs edges and corners during the cubeshape phase, then uses a CSP (Cubeshape Parity) aware approach to solve the last layer. The method offers lower move counts but requires more advanced planning and recognition.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Cubeshape + Pair Blocks",
+      "description": "Restore the cube shape while simultaneously pairing edge-corner blocks. Unlike Vandenbergh where cubeshape is purely about restoring the shape, the Lin method aims to create useful blocks during this phase. This requires deeper understanding of how pieces move during slash moves.",
+      "algorithmSets": ["SQ1 Cube Shape"],
+      "moveCountRange": "5-14 moves",
+      "tips": [
+        "Plan blocks during inspection — this is the hardest part",
+        "Understand how slash moves affect both shape and piece permutation",
+        "Practice recognizing which blocks can be formed during cubeshape",
+        "Color neutrality helps find easier block-building opportunities"
+      ]
+    },
+    {
+      "name": "CSP (Cubeshape Parity)",
+      "description": "Handle the cubeshape parity situation. Parity on Square-1 is determined during cubeshape, and the Lin method addresses it explicitly at this stage rather than deferring it to the end. This step may involve specific algorithms or adjustments depending on the parity state.",
+      "algorithmSets": ["SQ1 Parity"],
+      "moveCountRange": "0-10 moves",
+      "tips": [
+        "Learn to detect parity early",
+        "Some cubeshape solutions inherently avoid or resolve parity",
+        "Parity-aware cubeshape planning is a key skill"
+      ]
+    },
+    {
+      "name": "Solve Last Layer",
+      "description": "Solve the remaining pieces of the last layer. Because blocks were paired during cubeshape, the last layer has fewer pieces to solve. This step uses algorithms to orient and permute the remaining corners and edges in as few looks as possible.",
+      "algorithmSets": ["SQ1 CO", "SQ1 CP", "SQ1 EO", "SQ1 EP"],
+      "moveCountRange": "10-20 moves",
+      "tips": [
+        "Recognition is different from Vandenbergh due to pre-paired blocks",
+        "Practice the unique last layer cases that arise from the Lin approach",
+        "Aim to reduce looks by combining orientation and permutation steps"
+      ]
+    }
+  ],
+  "pros": [
+    "Lower overall move count than Vandenbergh",
+    "Fewer total steps when blocks are paired efficiently",
+    "Parity is handled earlier, reducing end-of-solve complexity",
+    "Rewards strong planning and inspection skills"
+  ],
+  "cons": [
+    "Much harder inspection planning than Vandenbergh",
+    "Fewer resources and tutorials available",
+    "Blockbuilding during cubeshape is difficult to master",
+    "Less structured than Vandenbergh, requiring more flexibility"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["SQ1 Cube Shape", "SQ1 CO", "SQ1 CP", "SQ1 EO", "SQ1 EP", "SQ1 Parity"],
+  "avgMoveCount": "20-32"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "westlund",
+  "name": "Westlund (Megaminx)",
+  "description": "An advanced Megaminx method developed by Eric Westlund that adapts CFOP-style techniques for the Megaminx. The Westlund method uses F2L-like pair insertion for the first layers and optimized last-layer algorithms for the final face. It is essentially CFOP applied to the dodecahedral geometry, with adapted cross, F2L pairs, and last-layer algorithms. This is the method used by most top competitive Megaminx solvers to achieve fast times.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Star (Cross)",
+      "description": "Solve the five edges of the first face to create a star, analogous to the cross on a 3x3. The five edges must be correctly positioned and oriented, matching both the center of the first face and the adjacent centers.",
+      "moveCountRange": "8-15 moves",
+      "tips": [
+        "Plan the star during inspection",
+        "Solve efficiently — each extra move adds up on Megaminx",
+        "Practice finding short star solutions"
+      ]
+    },
+    {
+      "name": "F2L Pairs (First Five Slots)",
+      "description": "Insert five corner-edge pairs into the slots around the first face, similar to F2L on a 3x3 but with five pairs instead of four. Each pair consists of a corner and its adjacent edge. Intuitive pairing and insertion techniques are used.",
+      "algorithmSets": ["F2L"],
+      "moveCountRange": "40-60 moves",
+      "tips": [
+        "Apply 3x3 F2L intuition to each pair",
+        "Minimize rotations by learning insertions from multiple angles",
+        "Lookahead to the next pair during each insertion",
+        "Five pairs means this step dominates the solve time"
+      ]
+    },
+    {
+      "name": "Second Layer F2L",
+      "description": "Continue solving the second band of faces using F2L-like pair insertions. Place the remaining edges and corners for the five faces adjacent to the already-solved first face. This extends the solve downward toward the last face.",
+      "moveCountRange": "40-60 moves",
+      "tips": [
+        "Work systematically around the Megaminx",
+        "Use the bottom (unsolved) area as working space",
+        "Keyhole techniques can save moves in this phase"
+      ]
+    },
+    {
+      "name": "Last Layer Star (EO + EP)",
+      "description": "Orient and permute the five edges of the last face to form a complete star. Use edge orientation algorithms (Mega OLL for edges) followed by edge permutation algorithms (Mega PLL for edges).",
+      "algorithmSets": ["Megaminx OLL", "Megaminx EO", "Megaminx EP"],
+      "moveCountRange": "10-20 moves",
+      "tips": [
+        "Learn the Mega OLL edge cases for one-look orientation",
+        "Edge permutation algorithms are similar to 3x3 PLL adapted for 5 edges",
+        "Practice recognition of the five-edge patterns"
+      ]
+    },
+    {
+      "name": "Last Layer Corners (CO + CP)",
+      "description": "Orient and permute the five corners of the last face to complete the Megaminx. Use Mega OLL algorithms for corner orientation and Mega PLL algorithms for corner permutation. Advanced solvers may combine these steps.",
+      "algorithmSets": ["Megaminx PLL", "Megaminx CO", "Megaminx CP"],
+      "moveCountRange": "10-25 moves",
+      "tips": [
+        "Corner orientation uses Sune variants adapted for 5 corners",
+        "Corner permutation uses 3-cycles and 5-cycles",
+        "Advanced solvers learn one-look solutions for common cases",
+        "This is the final step — accuracy is crucial"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest known approach for competitive Megaminx solving",
+    "Leverages existing 3x3 CFOP knowledge",
+    "Efficient F2L-style pairing reduces total moves",
+    "Well-optimized last layer algorithms",
+    "Used by top Megaminx competitors worldwide"
+  ],
+  "cons": [
+    "Requires strong CFOP fundamentals first",
+    "Many last-layer algorithms adapted for pentagonal geometry",
+    "Long solves regardless of skill level due to piece count",
+    "Complex F2L tracking across five pairs per layer"
+  ],
+  "notableUsers": ["Juan Pablo Huanqui", "Amos Nordman"],
+  "relatedSets": ["Megaminx OLL", "Megaminx PLL", "Megaminx CO", "Megaminx CP", "Megaminx EO", "Megaminx EP", "F2L"],
+  "avgMoveCount": "120-180",
+  "creator": "Eric Westlund"
+}

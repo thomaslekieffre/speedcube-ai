@@ -1,0 +1,67 @@
+{
+  "id": "m2-r2",
+  "name": "M2/R2 (3BLD)",
+  "description": "An intermediate 3BLD (3x3 blindfolded) method that improves upon Old Pochmann by using M2 moves for edges and R2 moves for corners. Instead of setup + T-perm for every edge, M2 uses a simpler M2 move to swap the buffer edge with the target (after setup moves), cutting the execution move count roughly in half compared to Old Pochmann. R2 does the same for corners using R2-based swaps. The most popular combination is M2 for edges with Old Pochmann (Y-perm) for corners, often called M2/OP.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "Memorization (Edges)",
+      "description": "Memorize the edge cycles using the same letter-tracing method as Old Pochmann. The buffer is typically the DF edge (for M2). Trace cycles through all edge sticker positions, generating a sequence of letters to memorize.",
+      "tips": [
+        "DF is the standard M2 edge buffer",
+        "Use the Speffz lettering scheme or similar",
+        "Letter pairs with images speed up memorization",
+        "Be aware of special cases for the M-slice edges (UB and UF positions)"
+      ]
+    },
+    {
+      "name": "Memorization (Corners)",
+      "description": "Memorize corner cycles using letter tracing. The corner buffer is typically UBL (for Old Pochmann corners) or UFR (for R2 corners). Trace cycles through all corner sticker positions.",
+      "tips": [
+        "Corners are memorized the same way regardless of execution method",
+        "Use letter pairs combined with a memory palace or story",
+        "Practice corner memo speed separately"
+      ]
+    },
+    {
+      "name": "Execution (Corners - R2 or OP)",
+      "description": "Solve corners using either R2-based swaps or Old Pochmann Y-perm swaps. For R2, the buffer is at UFR, and each target is set up, then an R2 move is performed to swap the buffer with the target. Many solvers prefer using Old Pochmann (Y-perm) for corners as it is more straightforward, making this M2/OP rather than M2/R2.",
+      "moveCountRange": "30-70 moves",
+      "tips": [
+        "Most solvers use OP (Y-perm) for corners even when using M2 for edges",
+        "R2 corners have special cases that must be handled carefully",
+        "Execute corners before edges to avoid disruption"
+      ]
+    },
+    {
+      "name": "Execution (Edges - M2)",
+      "description": "Solve edges using M2-based swaps. The buffer is DF. For each target letter, perform a setup move to bring the target to the UB position, then execute M2 to swap it with the buffer, then undo the setup. The M2 swap is much shorter than a T-perm, resulting in significantly faster execution. Special handling is needed for targets in the M-slice (UF and UB positions).",
+      "moveCountRange": "40-80 moves",
+      "tips": [
+        "M2 is much faster than T-perm for edge swaps",
+        "Special cases: UB target requires just M2, UF target requires a specific algorithm",
+        "Setup moves for M2 are different from Old Pochmann — learn the M2-specific setups",
+        "Practice smooth M2 execution for speed",
+        "Targets on the M-slice need careful handling to avoid errors"
+      ]
+    }
+  ],
+  "pros": [
+    "Significantly faster execution than Old Pochmann",
+    "M2 edge swaps are quick and ergonomic",
+    "Good stepping stone between Old Pochmann and 3-style",
+    "Lower move count than OP (roughly 60-140 total)",
+    "Widely used at intermediate competitive BLD level"
+  ],
+  "cons": [
+    "M-slice special cases can cause errors",
+    "R2 corners are tricky — many solvers stick with OP corners",
+    "Still much slower than 3-style for advanced solvers",
+    "Setup moves still add significant move count",
+    "Must learn new setup moves compared to Old Pochmann"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["PLL"],
+  "avgMoveCount": "70-140",
+  "creator": "Stefan Pochmann"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "vandenbergh",
+  "name": "Vandenbergh (Square-1)",
+  "description": "The most popular and widely-used Square-1 speedcubing method, developed by Lars Vandenbergh. The method solves the Square-1 in five distinct phases: cubeshape, corner orientation, corner permutation, edge orientation, and edge permutation. It provides a structured, systematic approach with well-documented algorithms for each step. Vandenbergh is the standard method for competitive Square-1 solving and is used by the majority of top Square-1 solvers.",
+  "difficulty": "advanced",
+  "steps": [
+    {
+      "name": "Cubeshape",
+      "description": "Transform the Square-1 from its scrambled shape back into a cube. The scrambled Square-1 can have pieces distributed in various non-cubic shapes between the top and bottom layers. This step involves performing slash moves (/) and layer turns to restore the cubic shape. There are many possible starting shapes, and learning efficient solutions for each is key.",
+      "algorithmSets": ["SQ1 Cube Shape"],
+      "moveCountRange": "5-12 moves",
+      "tips": [
+        "Learn the common cubeshape cases and their solutions",
+        "Recognize shapes by counting the pieces on top and bottom layers",
+        "Some shapes can be solved in 1-2 slashes, others take more",
+        "Cubeshape Parity (CSP) awareness helps in later steps"
+      ]
+    },
+    {
+      "name": "CO (Corner Orientation)",
+      "description": "Orient all eight corners so that the top and bottom face colors are on the top and bottom respectively. After cubeshape, corners may be flipped (showing side colors on top/bottom). This step uses algorithms to flip corners into the correct orientation.",
+      "algorithmSets": ["SQ1 CO"],
+      "moveCountRange": "3-9 moves",
+      "tips": [
+        "There are relatively few CO cases",
+        "Learn to recognize which corners need orienting quickly",
+        "Some CO algorithms also partially solve CP"
+      ]
+    },
+    {
+      "name": "CP (Corner Permutation)",
+      "description": "Permute all eight corners into their correct positions while maintaining their orientation. After CO, the top and bottom face colors are correct but corners may be in the wrong locations. CP algorithms swap corners into place.",
+      "algorithmSets": ["SQ1 CP"],
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "Recognize CP cases by looking at corner colors on the sides",
+        "There are several CP cases, but many are related",
+        "Adjacent and opposite swaps are the main case types"
+      ]
+    },
+    {
+      "name": "EO (Edge Orientation)",
+      "description": "Orient all eight edges correctly. On Square-1, edges can be 'flipped' (showing the wrong color on top/bottom). This step flips all misoriented edges using EO algorithms.",
+      "algorithmSets": ["SQ1 EO"],
+      "moveCountRange": "5-11 moves",
+      "tips": [
+        "EO cases are determined by which edges are misoriented",
+        "Learn the common EO patterns",
+        "Some advanced solvers combine EO with EP for fewer steps"
+      ]
+    },
+    {
+      "name": "EP (Edge Permutation)",
+      "description": "Permute all edges into their correct positions to complete the solve. After EO, all pieces are oriented correctly and corners are placed, but edges may still need to be moved to their correct slots. EP algorithms handle the final edge arrangement, including parity cases.",
+      "algorithmSets": ["SQ1 EP", "SQ1 Parity"],
+      "moveCountRange": "5-15 moves",
+      "tips": [
+        "Parity can occur during EP and requires specific algorithms",
+        "Learn to recognize EP cases quickly",
+        "Opposite and adjacent edge swaps are common cases",
+        "Parity algorithms are typically the longest algorithms in the method"
+      ]
+    }
+  ],
+  "pros": [
+    "Most well-documented Square-1 method",
+    "Clear step-by-step structure",
+    "Used by the majority of competitive Square-1 solvers",
+    "Many resources and tutorials available",
+    "Systematic progression through each phase"
+  ],
+  "cons": [
+    "Five steps means more looks per solve",
+    "Total algorithm count is high across all steps",
+    "Parity handling adds complexity",
+    "Cubeshape can have many cases to learn"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["SQ1 Cube Shape", "SQ1 CO", "SQ1 CP", "SQ1 EO", "SQ1 EP", "SQ1 Parity"],
+  "avgMoveCount": "25-40",
+  "creator": "Lars Vandenbergh"
+}

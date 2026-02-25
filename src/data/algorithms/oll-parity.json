@@ -1,0 +1,22 @@
+{
+  "id": "oll-parity",
+  "name": "OLL Parity",
+  "puzzle": "4x4",
+  "description": "OLL Parity algorithms for 4x4 — 12 cases. Fixes the parity error where a single edge is flipped on the last layer, which is impossible on a 3x3.",
+  "category": "parity",
+  "caseCount": 12,
+  "algorithms": [
+    {"id":"oll-parity-1","name":"OLL Parity Basic 1","set":"OLL Parity","subset":"Basic","puzzle":"4x4","notation":"Rw U2 x Rw U2 Rw U2 Rw' U2 Lw U2 Rw' U2 Rw U2 Rw' U2 Rw'","alternatives":[{"notation":"Rw' U2 Rw U2 Rw U2 Rw2 F2 Rw' U2 Rw' U2 F2 Rw2 F2","moveCount":15,"votes":28}],"moveCount":18,"setup":"","votes":35,"source":"speedcubedb"},
+    {"id":"oll-parity-2","name":"OLL Parity Basic 2","set":"OLL Parity","subset":"Basic","puzzle":"4x4","notation":"Rw' U2' Rw U2 Rw U2' Rw2' F2 Rw' U2 Rw' U2' F2 Rw2 F2","alternatives":[{"notation":"Rw2 B2 U2 Lw U2 Rw' U2 Rw U2 F2 Rw F2 Lw' B2 Rw2","moveCount":15,"votes":10}],"moveCount":15,"setup":"","votes":28,"source":"speedcubedb"},
+    {"id":"oll-parity-3","name":"OLL Parity Basic 3","set":"OLL Parity","subset":"Basic","puzzle":"4x4","notation":"Rw2 B2 U2 Lw U2 Rw' U2 Rw U2 F2 Rw F2 Lw' B2 Rw2","alternatives":[{"notation":"Rw2 B2 Rw' U2 Rw' U2 x' U2 Rw' U2 Rw U2 Rw' U2 Rw2 U2 x","moveCount":17,"votes":7}],"moveCount":15,"setup":"","votes":10,"source":"speedcubedb"},
+    {"id":"oll-parity-4","name":"OLL Parity Basic 4","set":"OLL Parity","subset":"Basic","puzzle":"4x4","notation":"Rw2 B2 Rw' U2 Rw' U2 x' U2 Rw' U2 Rw U2 Rw' U2 Rw2 U2 x","alternatives":[],"moveCount":17,"setup":"","votes":7,"source":"speedcubedb"},
+    {"id":"oll-parity-5","name":"OLL Parity Pure 1","set":"OLL Parity","subset":"Pure","puzzle":"4x4","notation":"2R' U2 2L F2 2L' F2 2R2 U2 2R U2 2R' U2 F2 2R2 F2","alternatives":[],"moveCount":15,"setup":"","votes":27,"source":"speedcubedb"},
+    {"id":"oll-parity-6","name":"OLL Parity Pure 2","set":"OLL Parity","subset":"Pure","puzzle":"4x4","notation":"Rw U2 Rw' U2 Rw' F2 Rw U2 Rw U2 Rw' F2 Rw2 F2","alternatives":[],"moveCount":14,"setup":"","votes":13,"source":"speedcubedb"},
+    {"id":"oll-parity-7","name":"OLL Parity Pure 3","set":"OLL Parity","subset":"Pure","puzzle":"4x4","notation":"Rw2 F2 Rw U2 Rw' U2 Rw' F2 Rw' U2 Rw U2 Rw2","alternatives":[],"moveCount":12,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"oll-parity-8","name":"OLL Parity Pure 4","set":"OLL Parity","subset":"Pure","puzzle":"4x4","notation":"Rw2 F2 U2 Rw2 R2 U2 F2 Rw2","alternatives":[],"moveCount":8,"setup":"","votes":3,"source":"speedcubedb"},
+    {"id":"oll-parity-9","name":"OLL Parity M 1","set":"OLL Parity","subset":"M-slice","puzzle":"4x4","notation":"M' U M' U M' U M' U' M' U M' U M' U M'","alternatives":[],"moveCount":15,"setup":"","votes":7,"source":"speedcubedb"},
+    {"id":"oll-parity-10","name":"OLL Parity M 2","set":"OLL Parity","subset":"M-slice","puzzle":"4x4","notation":"M' U M' U' M' U' M' U M' U' M' U' M' U M'","alternatives":[],"moveCount":15,"setup":"","votes":2,"source":"speedcubedb"},
+    {"id":"oll-parity-11","name":"OLL Parity M 3","set":"OLL Parity","subset":"M-slice","puzzle":"4x4","notation":"M U' M U' M U M U M U' M U' M U M","alternatives":[],"moveCount":15,"setup":"","votes":1,"source":"speedcubedb"},
+    {"id":"oll-parity-12","name":"OLL Parity M 4","set":"OLL Parity","subset":"M-slice","puzzle":"4x4","notation":"M U M U' M U M U' M U' M U M U' M","alternatives":[],"moveCount":15,"setup":"","votes":0,"source":"speedcubedb"}
+  ]
+}

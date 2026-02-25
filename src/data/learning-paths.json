@@ -1,0 +1,762 @@
+[
+  {
+    "id": "sub-60",
+    "name": "Sub-60 Path",
+    "target": "sub-60",
+    "description": "Your first major milestone. This path takes you from your very first solve through the beginner method, introduces CFOP fundamentals like bottom cross and intuitive F2L, and gets you consistently under one minute with 2-look last layer.",
+    "milestones": [
+      {
+        "name": "Learn the Beginner Method",
+        "target": "sub-3:00",
+        "description": "Master the layer-by-layer beginner method. You should be able to solve the cube reliably every time without referring to notes or guides. Speed does not matter yet — consistency and understanding do. Learn basic notation (R, U, F, L, D, B and their primes) so you can read algorithms. Expect solves around 3-5 minutes at this stage.",
+        "skills": ["White cross formation", "First layer corner insertion", "Second layer edge insertion", "Last layer orientation", "Last layer permutation", "Basic notation understanding (R, U, F, L, D, B)"],
+        "algorithmSets": ["beginner-last-layer"],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Fluid Beginner Solves",
+        "target": "sub-2:00",
+        "description": "Through repetition, become fluid with the beginner method. Reduce hesitation between steps. You should be able to solve without long pauses to remember algorithms. Start timing every solve with a timer app like csTimer or Twisty Timer. Track your Ao5 and Ao12 to see progress.",
+        "skills": ["Piece recognition speed", "Algorithm fluency", "Consistent solve completion", "Timer usage and averages", "Understanding Ao5 and Ao12"],
+        "algorithmSets": ["beginner-last-layer"],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Cross on Bottom",
+        "target": "sub-1:40",
+        "description": "Switch from solving the cross on top to solving it on the bottom (D face). This is essential because it lets you see the F2L slots immediately after the cross without flipping the cube. It feels awkward at first but becomes natural within a few days. Also start being deliberate about which cross edge you solve first — do not always start with the same one.",
+        "skills": ["Bottom cross solving", "Cross edge identification on D face", "Avoiding cube flips after cross", "Flexible cross solving order", "Basic cube manipulation"],
+        "algorithmSets": ["beginner-last-layer"],
+        "estimatedTime": "1 week"
+      },
+      {
+        "name": "Intuitive F2L Introduction",
+        "target": "sub-1:30",
+        "description": "Begin learning intuitive F2L. Instead of solving the first layer corners and second layer edges separately, learn to pair them together and insert simultaneously. Your times will temporarily increase during the transition — this is normal and expected. Focus on understanding the three fundamental cases: corner and edge both in top layer, corner in slot with edge in top, and both pieces in wrong slots. Do not memorize algorithms yet; understand the logic.",
+        "skills": ["Corner-edge pairing concept", "Basic F2L pair insertion (R U R')", "Recognizing F2L pairs in top layer", "Handling pairs where corner is in slot", "Understanding why moves work, not just memorizing"],
+        "algorithmSets": [],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "4-Look Last Layer (EOLL → OCLL → CPLL → EPLL)",
+        "target": "sub-1:15",
+        "description": "Replace the slow beginner last layer with 4-look LL. First, orient edges with EOLL (3 cases: dot, L-shape, line). Then orient corners with OCLL (7 cases: sune, anti-sune, etc.). Then permute corners with CPLL (2 cases: T-perm, Y-perm). Finally permute edges with EPLL (4 cases: Ua, Ub, H, Z). This is roughly 16 algorithms total and cuts your last layer time in half.",
+        "skills": ["EOLL edge orientation (3 cases)", "OCLL corner orientation (7 cases)", "CPLL corner permutation (T-perm, Y-perm)", "EPLL edge permutation (Ua, Ub, H, Z)", "Last layer case recognition"],
+        "algorithmSets": ["eoll", "ocll", "cpll", "epll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Sub-60 Achievement",
+        "target": "sub-1:00",
+        "description": "Refine your intuitive F2L to handle all common cases without long pauses. Begin planning at least 2-3 cross edges during inspection before starting the timer. Drill your 4-look LL algorithms until recognition is instant. At this point your solve should flow: cross (8-12s) → F2L (30-35s) → EOLL+OCLL+CPLL+EPLL (15-20s). Celebrate this milestone — sub-60 is a real achievement and puts you in the top tier of casual solvers.",
+        "skills": ["Cross planning (2-3 edges in inspection)", "Comfortable intuitive F2L for common cases", "Fast OCLL recognition", "Fast EPLL recognition", "Reducing unnecessary cube rotations", "Consistent sub-60 Ao12"],
+        "algorithmSets": ["eoll", "ocll", "cpll", "epll"],
+        "estimatedTime": "2-3 weeks"
+      }
+    ]
+  },
+  {
+    "id": "sub-45",
+    "name": "Sub-45 Path",
+    "target": "sub-45",
+    "description": "The bridge between beginner and intermediate. You know F2L and 2-look LL, but your solves are still rough around the edges. This path cleans up your cross, makes your F2L efficient, and drills your last layer until recognition is instant. The goal is smooth, consistent solves with no major pauses.",
+    "milestones": [
+      {
+        "name": "Efficient Cross Every Time",
+        "target": "sub-55",
+        "description": "Your cross should never take more than 8 moves and ideally 6-7. Stop solving edges one at a time — learn to solve two edges simultaneously by planning their interaction. Practice cross-only solves: scramble, plan the cross in your head, then execute. Time just the cross phase. Aim for consistent sub-4 second crosses. Also learn to solve the cross with any starting edge, not always the same one.",
+        "skills": ["Sub-8 move crosses consistently", "Solving 2 cross edges simultaneously", "Cross-only practice drills", "Flexible starting edge choice", "Planning full cross during inspection", "Sub-4 second cross execution"],
+        "algorithmSets": [],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "F2L Case Fluency",
+        "target": "sub-52",
+        "description": "You can pair and insert basic cases, but you still fumble when the corner is twisted in the slot, the edge is flipped in the U layer, or both pieces are stuck in wrong slots. Work through all the tricky cases until you have a comfortable solution for each. The key practice method: scramble, solve cross, then solve F2L pairs one at a time very slowly, thinking through each case deliberately. Speed comes from understanding, not from turning faster.",
+        "skills": ["All intuitive F2L cases covered", "Handling corner twisted in slot", "Handling flipped edge in U layer", "Both pieces in wrong slots", "Deliberate slow practice", "Case-by-case understanding"],
+        "algorithmSets": ["f2l"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Reduce Rotations",
+        "target": "sub-49",
+        "description": "Count how many full cube rotations you do per solve — if it is more than 3-4, you are losing significant time. Learn to insert F2L pairs into back slots (BR and BL) using wide moves like r U R' or Rw U R'. Learn to insert into the front-left slot without rotating by using L moves. Each eliminated rotation saves 0.3-0.5 seconds. Record a few solves on video and count your rotations to establish a baseline.",
+        "skills": ["Back-slot insertions (BR and BL)", "Wide move insertions (r, Rw)", "Front-left slot with L moves", "Rotation counting and reduction", "Video self-analysis", "Maximum 2-3 rotations per solve"],
+        "algorithmSets": ["f2l"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "2-Look LL Speed",
+        "target": "sub-47",
+        "description": "Your OCLL and EPLL algorithms should be fast and automatic. Drill each one in isolation: pick a case, set it up, execute, repeat 20 times. Time yourself — each OCLL case should take under 2.5 seconds including recognition, each EPLL under 2 seconds. Work on instant recognition: you should identify the case within 0.5 seconds of looking at it. This drill work is boring but extremely high-impact.",
+        "skills": ["Sub-2.5s per OCLL case", "Sub-2s per EPLL case", "Instant case recognition (<0.5s)", "Algorithm isolation drilling", "Finger trick optimization for each alg", "Smooth transitions between LL steps"],
+        "algorithmSets": ["eoll", "ocll", "cpll", "epll"],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Sub-45 Achievement",
+        "target": "sub-45",
+        "description": "Put it all together: plan cross in inspection (3-4s), efficient F2L with minimal rotations (22-28s), fast 4-look LL (10-14s). Your solves should feel continuous rather than stop-and-go. Start doing timed Ao12 sessions daily to build consistency. If your Ao12 is consistently under 48 seconds, you are very close to sub-45. Resist the urge to learn full OLL/PLL yet — there is more to gain from F2L efficiency at this stage.",
+        "skills": ["Consistent Ao12 tracking", "Sub-4s planned crosses", "Fluid F2L with ≤3 rotations", "Fast OCLL + EPLL execution", "Continuous solving rhythm", "Daily timed practice habit"],
+        "algorithmSets": ["eoll", "ocll", "cpll", "epll", "f2l"],
+        "estimatedTime": "2-3 weeks"
+      }
+    ]
+  },
+  {
+    "id": "sub-20",
+    "name": "Sub-20 Path",
+    "target": "sub-20",
+    "description": "The benchmark that separates intermediate cubers from serious speedcubers. This path completes your algorithm knowledge with full OLL and PLL, develops advanced F2L efficiency, introduces color neutrality, and builds the lookahead skill that defines fast solvers. Requires consistent daily practice.",
+    "milestones": [
+      {
+        "name": "Full PLL (21 Algorithms)",
+        "target": "sub-28",
+        "description": "Learn all 21 PLL algorithms. PLL is the single highest-impact algorithm set because you use exactly one PLL every solve, and eliminating the second look saves 2-4 seconds immediately. Learn them in priority order: start with the easy ones you probably already know (T, Jb, Y, Aa, Ab), then the G-perms (hardest to recognize), and finally N-perms and V-perm. Drill each new algorithm 50+ times in isolation before using it in solves. Two-sided recognition (identifying PLL from two adjacent sides) is essential for fast recognition.",
+        "skills": ["All 21 PLL algorithms memorized", "Two-sided PLL recognition", "Sub-2 second PLL execution", "AUF prediction during PLL recognition", "G-perm recognition mastery", "PLL finger trick optimization"],
+        "algorithmSets": ["pll"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Full OLL (57 Algorithms)",
+        "target": "sub-25",
+        "description": "Learn all 57 OLL algorithms to replace 2-look OLL. This saves 1-2 seconds per solve by eliminating the second recognition step. Learn them in groups by shape: dots (hardest, learn last), lines/crosses, L-shapes, P-shapes, T-shapes, and the awkward shapes. Many OLLs share triggers (R U R' U', F R U R' U' F') which makes learning easier. Space out your learning — 2-3 new OLLs per week is sustainable. Use a trainer app to quiz yourself.",
+        "skills": ["All 57 OLL cases recognized instantly", "OLL recognition from any AUF angle", "Sub-2.5 second OLL execution", "Pattern grouping for faster recognition", "Trainer app usage for drilling", "OLL + PLL combined under 5 seconds"],
+        "algorithmSets": ["oll", "pll"],
+        "estimatedTime": "5-8 weeks"
+      },
+      {
+        "name": "Cross Mastery and First Pair",
+        "target": "sub-23",
+        "description": "Your cross should now be fully planned during inspection every single time, executed in under 2 seconds. The next level is spotting your first F2L pair during inspection so you transition into F2L without any pause after the cross. Practice planning the cross and predicting where the first pair will end up. An occasional X-cross (cross + first pair simultaneously) is a bonus but do not force it — it is only worth it when obvious.",
+        "skills": ["Full cross planned in inspection every time", "Sub-2 second cross execution", "First F2L pair spotted during inspection", "Zero pause between cross and F2L", "X-cross recognition (when obvious)", "Color neutrality for cross (recommended)"],
+        "algorithmSets": ["oll", "pll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "F2L Optimization",
+        "target": "sub-22",
+        "description": "Go beyond intuitive F2L and learn optimal solutions for your slowest cases. Use a trainer or algorithm sheet to compare your current solutions against optimal ones — if your solution for a case is 3+ moves longer than optimal, learn the better one. Focus especially on the cases where the corner is oriented wrong or the pair is split across slots. Learn 2 solutions per common case so you can choose the faster one based on the pair's position relative to the slot.",
+        "skills": ["Optimal F2L solutions for worst cases", "Multiple solutions per case", "Sub-8 second F2L consistently", "Efficient handling of misoriented pairs", "Wide move mastery for all slots", "F2L move count under 32 on average"],
+        "algorithmSets": ["f2l", "oll", "pll"],
+        "estimatedTime": "3-4 weeks"
+      },
+      {
+        "name": "Lookahead Development",
+        "target": "sub-21",
+        "description": "Lookahead is the most important skill separating sub-25 from sub-20. It means tracking your next F2L pair while your hands execute the current one. The key training method: solve at 60% of your max speed with zero pauses. Your eyes should be looking for the next pair while your hands are still inserting the current one. A smooth solve at 4 TPS beats a choppy solve at 7 TPS. Practice metronome solves: set a steady beat and turn one move per beat, never pausing.",
+        "skills": ["Basic F2L lookahead", "Slow-solving practice at 60% speed", "Zero-pause F2L goal", "Metronome practice technique", "Eye tracking during execution", "Peripheral vision for piece scanning"],
+        "algorithmSets": ["f2l", "oll", "pll"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Sub-20 Achievement",
+        "target": "sub-20",
+        "description": "Sub-20 is about everything working together: sub-2s cross into fluid F2L with lookahead (7-8s), 1-look OLL (1.5-2s), 1-look PLL (1.5-2s), AUF. Your Ao100 should be stable in the low 20s before pushing to sub-20 Ao12. Consider color neutrality if you have not already — it gives you 6x more chances for an easy cross. Record and reconstruct your worst solves to find where time is lost. Compete if you can — competition experience is invaluable.",
+        "skills": ["Consistent sub-20 Ao12", "Stable Ao100 in low 20s", "Color neutrality (strongly recommended)", "Solve reconstruction for improvement", "Competition experience", "Identifying weakest phase for targeted practice"],
+        "algorithmSets": ["oll", "pll", "f2l"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "sub-15",
+    "name": "Sub-15 Path",
+    "target": "sub-15",
+    "description": "Advanced territory where every tenth of a second matters. This path develops algorithmic F2L mastery, introduces advanced last-layer techniques like COLL and Winter Variation, and pushes your lookahead and TPS to a level where solves feel nearly automatic. Sub-15 puts you in the top fraction of competitive cubers.",
+    "milestones": [
+      {
+        "name": "Algorithmic F2L Mastery",
+        "target": "sub-18",
+        "description": "Transition from purely intuitive F2L to using optimal algorithmic solutions for all 41 cases. For each case, learn the shortest solution and at least one alternative for different angles. Focus on the cases where your intuitive solution is 3+ moves longer than optimal. Use F2L trainers to identify your weak cases and drill them. Your average F2L move count should drop below 30.",
+        "skills": ["Optimal solutions for all 41 F2L cases", "2-3 solutions per case for flexibility", "Sub-30 move F2L average", "F2L trainer usage for weak case identification", "Instant F2L case recognition", "Smooth execution of non-intuitive solutions"],
+        "algorithmSets": ["f2l", "oll", "pll"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "COLL (42 Algorithms)",
+        "target": "sub-17",
+        "description": "Learn COLL, which solves the last layer corners during OLL when edges are already oriented. This leaves only an EPLL (edge-only permutation: Ua, Ub, H, Z) which is faster than full PLL. COLL is 42 algorithms split into 7 groups by corner orientation pattern. The real power is that 1/12 of the time you get a PLL skip after COLL. Even without skips, EPLL is ~0.3s faster than average PLL. Recognize when you have an oriented-edges OLL to trigger COLL.",
+        "skills": ["All 42 COLL algorithms", "COLL recognition by corner sticker pattern", "Oriented-edges OLL detection", "EPLL speed (Ua, Ub, H, Z under 1s)", "PLL skip probability awareness", "Choosing COLL vs standard OLL"],
+        "algorithmSets": ["coll", "oll", "pll"],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "Winter Variation and Edge Control",
+        "target": "sub-16",
+        "description": "Learn Winter Variation (WV): when your last F2L pair has a connected corner-edge and the corner is oriented correctly, WV algorithms orient all last layer corners during insertion. This means you skip directly to PLL. WV adds about 27 algorithms but only applies to specific last-slot situations. Also practice partial edge control during your last 1-2 F2L pairs: consciously insert pairs in ways that orient LL edges, setting up for COLL or better OLL cases.",
+        "skills": ["WV recognition (connected pair, corner oriented)", "27 WV algorithms", "Partial edge control during last F2L pairs", "Choosing WV vs normal insertion", "Last slot influence on LL state", "Combining WV awareness with F2L speed"],
+        "algorithmSets": ["wv", "coll", "oll", "pll", "f2l"],
+        "estimatedTime": "3-4 weeks"
+      },
+      {
+        "name": "Advanced Cross and X-Cross",
+        "target": "sub-15.5",
+        "description": "Achieve consistent sub-1.5 second crosses planned entirely in inspection. Develop X-cross recognition: when you spot an easy first pair that can be solved with the cross, take it. Do not force X-crosses — only go for them when they add 0-2 moves to the cross solution. Even without an X-cross, always know where your first F2L pair will be after the cross. Full color neutrality is strongly recommended at this level for maximum cross flexibility.",
+        "skills": ["Sub-1.5s crosses consistently", "X-cross recognition (when efficient)", "First pair prediction every solve", "Full color neutrality", "Zero pause cross-to-F2L transition", "Inspection time management"],
+        "algorithmSets": ["oll", "pll", "f2l", "coll", "wv"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Fluid Lookahead and High TPS",
+        "target": "sub-15.2",
+        "description": "Your F2L should feel nearly automatic. Pauses between pairs should be under 0.2 seconds. The key is massive volume: do 100+ solves per day focusing on continuous turning. Practice tracking two pairs simultaneously — know where the next pair is while executing the current one, and have a rough idea of the pair after that. Develop 5-6 sustained TPS through F2L. Film yourself and analyze where pauses occur.",
+        "skills": ["Sub-0.2s pauses between F2L pairs", "5-6 sustained TPS through F2L", "Multi-pair tracking", "100+ daily solve volume", "Video analysis of pause points", "Automatic F2L execution"],
+        "algorithmSets": ["f2l", "oll", "pll", "coll", "wv"],
+        "estimatedTime": "1-3 months"
+      },
+      {
+        "name": "Sub-15 Achievement",
+        "target": "sub-15",
+        "description": "At sub-15, your splits should look like: cross (1.0-1.5s), F2L (6-8s), OLL/COLL (1.2-2s), PLL/EPLL (1.2-1.8s). Your Ao100 should be stable under 16 before pushing for sub-15 Ao12. Focus your practice on your weakest split. Compete regularly — competition solves under pressure are different from home practice and expose weaknesses. Reconstruct your slow solves to find specific improvements.",
+        "skills": ["Stable sub-16 Ao100", "Consistent sub-15 Ao12", "Split time tracking and optimization", "Competition-proven consistency", "Solve reconstruction habit", "Identifying and targeting weakest phase"],
+        "algorithmSets": ["f2l", "oll", "pll", "coll", "wv"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "sub-10",
+    "name": "Sub-10 Path",
+    "target": "sub-10",
+    "description": "World-class territory where sub-10 averages require near-perfect execution in every phase. This path pushes advanced algorithm sets like ZBLL and OLLCP, demands elite F2L and cross, and requires years of accumulated practice. Sub-10 puts you among the best competitive speedcubers in the world.",
+    "milestones": [
+      {
+        "name": "ZBLL Subsets (ZBLL-T, ZBLL-U)",
+        "target": "sub-13",
+        "description": "Begin learning ZBLL, which solves the entire last layer in one look when edges are already oriented. Full ZBLL is 493 algorithms — start with the most common and ergonomic subsets: ZBLL-T (72 cases) and ZBLL-U (72 cases). Combined with edge control during F2L, this gives you a one-look last layer in roughly 1/7 of your solves. ZBLL recognition is harder than OLL/PLL, so drill recognition separately using trainers. This is a long-term project alongside your other improvements.",
+        "skills": ["ZBLL-T recognition and execution (72 cases)", "ZBLL-U recognition and execution (72 cases)", "EO detection during last F2L pair", "ZBLL recognition drilling with trainers", "Choosing ZBLL vs OLL+PLL", "Edge control to enable ZBLL"],
+        "algorithmSets": ["zbll-t", "zbll-u", "coll", "f2l", "oll", "pll"],
+        "estimatedTime": "3-6 months"
+      },
+      {
+        "name": "OLLCP and Advanced Last Layer",
+        "target": "sub-12",
+        "description": "Learn OLLCP for your most common OLL cases. OLLCP solves OLL while permuting corners, leaving only an EPLL. For the ~10 most common OLL cases, learning their OLLCP variants (6 per OLL case) is very high-impact because EPLL is 0.5s faster than average PLL. Also expand your ZBLL knowledge to ZBLL-L and ZBLL-Pi subsets. At this point your last layer toolkit includes: standard OLL+PLL, COLL+EPLL, OLLCP+EPLL, WV+PLL, and ZBLL for oriented edges.",
+        "skills": ["OLLCP for top 10 OLL cases", "ZBLL-L and ZBLL-Pi subsets", "Choosing the optimal LL approach per solve", "Sub-1s EPLL execution", "Advanced LL decision tree", "Combined LL knowledge (500+ algorithms)"],
+        "algorithmSets": ["ollcp", "zbll-l", "zbll-pi", "zbll-t", "zbll-u", "coll", "oll", "pll"],
+        "estimatedTime": "3-6 months"
+      },
+      {
+        "name": "Elite Cross and F2L",
+        "target": "sub-11",
+        "description": "Your cross must be sub-1.2 seconds on average with frequent X-crosses. Your F2L should average under 5 seconds with continuous, fluid turning at 6-7 TPS. At this level, F2L is almost entirely subconscious — your hands solve pairs while your eyes are always one or two pairs ahead. Develop the ability to predict optimal pair ordering: which of the 4 pairs to solve first based on where all pieces are. Eliminate every regrip you can find.",
+        "skills": ["Sub-1.2s crosses with regular X-crosses", "Sub-5s F2L average", "6-7 sustained TPS through F2L", "Optimal pair ordering prediction", "Subconscious F2L execution", "Zero unnecessary regrips"],
+        "algorithmSets": ["f2l", "oll", "pll", "coll", "ollcp"],
+        "estimatedTime": "3-6 months"
+      },
+      {
+        "name": "Full ZBLL and Toolkit Completion",
+        "target": "sub-10.5",
+        "description": "Expand ZBLL to all 7 subsets (T, U, L, Pi, S, H, AS = 493 total). Full ZBLL means that whenever your last F2L pair leaves edges oriented, you solve the last layer in one look. Combined with deliberate edge control, this happens in 30-40% of solves. Recognition must be instant — use trainers daily. Also learn SV (Summer Variation) and explore VLS for last-slot-last-layer integration.",
+        "skills": ["All 7 ZBLL subsets (493 algorithms)", "Instant ZBLL recognition", "Deliberate edge control during F2L", "SV and VLS for LSLL integration", "One-look LL in 30-40% of solves", "Comprehensive algorithm drilling routine"],
+        "algorithmSets": ["zbll-t", "zbll-u", "zbll-l", "zbll-pi", "zbll-s", "zbll-h", "zbll-as", "sv", "vls"],
+        "estimatedTime": "4-8 months"
+      },
+      {
+        "name": "Sub-10 Achievement",
+        "target": "sub-10",
+        "description": "Sub-10 is the culmination of everything: sub-1s cross, sub-4s F2L, sub-2s last layer, at 7+ sustained TPS. Your Ao100 should be stable under 11 before pushing for sub-10 Ao12. Every solve should feel automatic and fluid with no conscious thought during F2L. At this level, gains come from massive volume (200+ solves/day), competition experience, and marginal optimization of your weakest areas. This represents the top 0.1% of all speedcubers worldwide.",
+        "skills": ["7+ sustained TPS through full solves", "Sub-4s F2L average", "Fully automatic F2L with zero conscious pauses", "One-look last layer for 30-40% of solves", "Sub-2s average last layer", "Competition-proven sub-10 consistency", "200+ daily solve volume"],
+        "algorithmSets": ["oll", "pll", "f2l", "coll", "ollcp", "zbll-t", "zbll-u", "zbll-l", "zbll-pi", "zbll-s", "zbll-h", "zbll-as", "wv", "sv"],
+        "estimatedTime": "6-18 months"
+      }
+    ]
+  },
+  {
+    "id": "sub-30",
+    "name": "Sub-30 Path",
+    "target": "sub-30",
+    "description": "The transition from intermediate to advanced speedcubing. Starting from a solid sub-45 foundation, this path introduces full PLL, optimizes your cross planning, sharpens F2L pair selection, and begins the critical lookahead skill. Reaching sub-30 means you are a competent speedcuber ready for full algorithm sets.",
+    "milestones": [
+      {
+        "name": "Learn Easy PLLs First",
+        "target": "sub-42",
+        "description": "Start learning full PLL by tackling the easy, ergonomic cases: Ua, Ub, H, Z (you may already know these from 2-look), then Jb, T, Y, Aa, Ab, Ra, Rb. These 11 PLLs cover about 60% of all PLL encounters and are all fast to execute. Drill each one 30-50 times in isolation before adding it to your solve. Keep using 2-look PLL for the cases you have not learned yet. Two-sided recognition: learn to identify the PLL by looking at the front and one side.",
+        "skills": ["11 easy/common PLLs memorized", "Two-sided PLL recognition for learned cases", "Sub-2s execution for easy PLLs", "Mixing 1-look and 2-look PLL seamlessly", "Algorithm isolation drilling technique"],
+        "algorithmSets": ["pll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Complete Full PLL",
+        "target": "sub-38",
+        "description": "Learn the remaining 10 PLLs: Ga, Gb, Gc, Gd (G-perms are the hardest — learn recognition tricks based on headlight and bar positions), Na, Nb, V, E, Ja, F. G-perms are 4 of 21 cases but cause the most recognition hesitation, so spend extra time on them. After learning all 21, do PLL time attacks: scramble the last layer and solve just PLL repeatedly to build instant recognition. Goal: under 2.5 seconds for any PLL including recognition.",
+        "skills": ["All 21 PLLs memorized and drilled", "G-perm recognition tricks (headlights, bars)", "Sub-2.5s for every PLL case", "PLL time attack practice", "AUF awareness (pre-AUF and post-AUF)", "No more 2-look PLL fallback"],
+        "algorithmSets": ["pll"],
+        "estimatedTime": "3-4 weeks"
+      },
+      {
+        "name": "Cross Planning Mastery",
+        "target": "sub-35",
+        "description": "Plan all 4 cross edges during inspection every single time. Your cross execution should be 2-3 seconds and never more than 8 moves. Practice cross-only timed sessions: scramble, start timer, solve just the cross and stop. Do 50 crosses and track your average. Learn to be flexible with cross color: try solving on white and yellow (dual color neutral) to double your chances of finding an easy cross. Also start identifying where your first F2L pair will be after the cross.",
+        "skills": ["Full cross planned in inspection every time", "Sub-3s cross execution", "Cross-only timed drills", "Dual color neutrality (white + yellow)", "First pair prediction after cross", "Sub-8 move crosses consistently"],
+        "algorithmSets": ["pll", "eoll", "ocll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "F2L Pair Selection",
+        "target": "sub-33",
+        "description": "Stop always solving F2L pairs in the same order. Instead, learn to choose the easiest visible pair first. After inserting a pair, scan the top layer to find the next corner-edge pair that is already connected or easy to pair. Avoid solving pairs that require digging pieces out of solved slots when an easier option is available. This opportunistic approach saves 2-4 seconds per solve because you avoid the hardest F2L cases more often.",
+        "skills": ["Scanning U layer for easy pairs", "Choosing easiest available pair", "Avoiding slot-digging when possible", "Connected pair recognition", "Pair priority assessment", "Flexible solve order"],
+        "algorithmSets": ["f2l", "pll", "eoll", "ocll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Introduction to Lookahead",
+        "target": "sub-31",
+        "description": "Begin developing the fundamental skill of lookahead: tracking the next F2L pair while your hands execute the current one. The training method is slow solving: solve at 50-60% speed with absolutely zero pauses between pairs. Your eyes should move to the next pair while your hands finish the current insertion. It feels painfully slow at first, but a smooth 4 TPS solve is faster than a choppy 6 TPS solve with 2-second pauses between pairs.",
+        "skills": ["Slow-solving practice at 50-60% speed", "Zero-pause F2L as a training goal", "Eye tracking ahead of hand execution", "Continuous turning rhythm", "Not looking at the pair you are inserting", "Patience with the process (it takes weeks)"],
+        "algorithmSets": ["f2l", "pll", "eoll", "ocll"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Sub-30 Achievement",
+        "target": "sub-30",
+        "description": "At sub-30, your typical solve looks like: cross (2-3s) → F2L (14-18s) → EOLL+OCLL (4-5s) → PLL (2-3s). Your Ao50 should be stable under 33 before pushing for sub-30 Ao12. You are still using EOLL+OCLL for orientation, and that is fine — full OLL comes in the sub-20 path. The priority at this stage is F2L fluency and the beginnings of lookahead. Compete at a WCA competition if possible — your first official Ao5 is a memorable milestone regardless of the time.",
+        "skills": ["Stable sub-33 Ao50", "Consistent sub-30 Ao12", "Full PLL mastery", "Efficient F2L with pair selection", "Beginning lookahead", "Competition readiness"],
+        "algorithmSets": ["f2l", "pll", "eoll", "ocll"],
+        "estimatedTime": "2-4 weeks"
+      }
+    ]
+  },
+  {
+    "id": "2x2-mastery",
+    "name": "2x2 Mastery Path",
+    "target": "sub-3",
+    "description": "Master the 2x2 from beginner to competition-level speed. The 2x2 rewards fast recognition and short, optimized algorithms. This path takes you through the major method progressions from Ortega through full EG, building your pattern recognition and turning speed along the way.",
+    "milestones": [
+      {
+        "name": "Learn the Ortega Method",
+        "target": "sub-10",
+        "description": "Transition from the beginner layer-by-layer approach to the Ortega method. Ortega solves the cube in three steps: build one face (not layer), build the opposite face using OLL algorithms, then solve both layers simultaneously with PBL. This method only requires around 12 algorithms total and provides a massive speed improvement because you avoid slow corner-by-corner insertion.",
+        "skills": ["Face building on bottom", "Top face OLL recognition", "PBL case recognition", "Fast face building from any angle", "Efficient U-layer setup moves"],
+        "algorithmSets": ["2x2 OLL", "PBL"],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Full CLL Recognition",
+        "target": "sub-6",
+        "description": "Learn the full CLL algorithm set, which solves the top layer corners in one step regardless of orientation and permutation. CLL replaces the OLL+PBL steps of Ortega with a single algorithm after you build the first face. There are 42 CLL cases to learn, but strong pattern recognition of the sticker arrangements will make identification instant. Drill recognition separately from execution.",
+        "skills": ["All 42 CLL case recognitions", "Sub-1.5 second CLL execution", "Fast first-face building", "Prediction of CLL during face build", "AUF optimization"],
+        "algorithmSets": ["CLL"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Learn EG-1",
+        "target": "sub-4",
+        "description": "EG-1 extends CLL to cases where the first face is built but one piece on the bottom layer is in the wrong position. Instead of fixing the bottom layer and then doing CLL, EG-1 solves both layers simultaneously from this specific setup. This adds roughly 29 new algorithms but eliminates the need to perfectly complete the first layer before solving the top, saving significant time in most solves.",
+        "skills": ["EG-1 case recognition", "Bottom-face-with-adjacent-swap identification", "Sub-1.5 second EG-1 execution", "Choosing between CLL and EG-1 paths", "Fast recognition of bottom layer state"],
+        "algorithmSets": ["CLL", "EG-1"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "EG-2 and Advanced Recognition",
+        "target": "sub-3",
+        "description": "Complete the EG method by learning EG-2, which handles cases where the first face is built but with a diagonal swap on the bottom. Combined with CLL and EG-1, you now have a one-look solution for every possible state after building the first face. At this level, the focus shifts to instant recognition, turning speed, and prediction. Practice identifying the bottom layer state and the corresponding EG case before you finish building the first face.",
+        "skills": ["EG-2 case recognition", "Diagonal-swap identification", "Sub-1.3 second algorithm execution", "Prediction of EG case during face build", "Advanced fingertricks for 2x2", "Competition-level consistency"],
+        "algorithmSets": ["CLL", "EG-1", "EG-2"],
+        "estimatedTime": "4-6 weeks"
+      }
+    ]
+  },
+  {
+    "id": "one-handed",
+    "name": "One-Handed Path",
+    "target": "sub-15",
+    "description": "One-handed solving is a popular WCA event that requires rethinking your fingertricks and algorithms. This path takes you from your first one-handed solve through advanced OH-specific techniques, building the dexterity and table-assisted turning that define fast OH solvers.",
+    "milestones": [
+      {
+        "name": "OH Grip and Basic Solving",
+        "target": "sub-60",
+        "description": "Establish a comfortable one-handed grip and learn to execute basic moves with your dominant hand only. The standard OH grip uses the pinky and ring finger on the bottom layer, the thumb on the front face, and the index and middle fingers for top and right layer turns. Use table-assisted moves for left-hand turns and get comfortable solving the cross and F2L one-handed. Expect your times to be 3-4x your two-handed average initially.",
+        "skills": ["OH grip fundamentals", "Right and U layer fingertricks", "Table-assisted left layer turns", "OH cross solving", "Basic OH F2L insertions", "Cube stability during turning"],
+        "algorithmSets": [],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "OH F2L Fluency",
+        "target": "sub-40",
+        "description": "Adapt your F2L solutions for one-handed execution. Many two-handed F2L solutions use left-hand moves that are slow or awkward one-handed, so you need alternative solutions that favor R, U, and r moves. Learn to use wide r moves to replace rotations. Practice until your OH F2L feels fluid rather than halting, and aim to keep the cube stable without frequent regrips.",
+        "skills": ["OH-optimized F2L solutions", "Wide r-move substitutions", "Minimal regrips during F2L", "OH back-slot insertions", "Fluid one-handed turning", "z and y rotation alternatives"],
+        "algorithmSets": ["F2L"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "OH-Friendly Algorithms",
+        "target": "sub-25",
+        "description": "Replace your two-handed OLL and PLL algorithms with OH-optimized versions. Many standard algorithms use L and F moves that are difficult one-handed. OH-friendly algorithms favor R, U, and r moves, making them faster and more ergonomic. You do not need to relearn every case, only the ones where your current algorithm is noticeably slower one-handed. Prioritize replacing your slowest PLLs first for maximum impact.",
+        "skills": ["OH-optimized OLL algorithms", "OH-optimized PLL algorithms", "Fast OH algorithm execution", "Identifying which algorithms to replace", "R U r dominant fingertricks", "OH-specific AUF speed"],
+        "algorithmSets": ["OLL", "PLL"],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "Advanced OH Techniques",
+        "target": "sub-15",
+        "description": "Push into advanced territory by developing OH-specific lookahead, maximizing turning speed, and refining your grip for zero-regrip solves. Explore OH-specific tricks like using z rotations to exploit fast R-U-R sequences. At this level, practice high-volume solving to build OH-specific endurance, as the hand fatigues faster than in two-handed solving. Consider learning OH COLL for last-layer optimization.",
+        "skills": ["OH lookahead", "High TPS one-handed turning", "Zero-regrip F2L pairs", "OH-specific advanced fingertricks", "OH endurance and consistency", "OH COLL (optional)"],
+        "algorithmSets": ["OLL", "PLL", "F2L"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "blind-solving",
+    "name": "Blind Solving Path",
+    "target": "sub-2:00",
+    "description": "Blindfolded solving is a unique challenge that tests memory and systematic execution rather than turning speed. This path takes you from understanding the concepts through your first successful blind solve and into advanced methods. Patience and consistent memo practice are more important than fast fingers here.",
+    "milestones": [
+      {
+        "name": "Understand Memo and Execution Concepts",
+        "target": "first-success",
+        "description": "Learn the fundamental concepts of blindfolded solving: the memo phase where you memorize the state of every piece, and the execution phase where you solve with your eyes closed. Understand letter schemes for mapping sticker positions, learn how to trace edge and corner cycles, and develop a memo system using letter pairs and images or audio. Your first successful blind solve is the hardest milestone because it requires understanding the entire process end to end.",
+        "skills": ["Letter scheme setup", "Edge tracing and cycle detection", "Corner tracing and cycle detection", "Letter pair memo technique", "Visual or audio memo system", "Parity detection", "Setup move concepts"],
+        "algorithmSets": [],
+        "estimatedTime": "3-6 weeks"
+      },
+      {
+        "name": "Old Pochmann Method",
+        "target": "sub-10:00",
+        "description": "Master the Old Pochmann method for both edges and corners. Old Pochmann uses a fixed buffer position and swaps one piece at a time using setup moves into a single commutator. For edges, you use T-perm or J-perm as your core algorithm, and for corners, you typically use Y-perm. The method is slow but extremely reliable and easy to memorize because you only need a few algorithms. Focus on accurate memo and flawless execution over speed.",
+        "skills": ["Old Pochmann edge execution", "Old Pochmann corner execution", "Setup moves for all positions", "Reliable memo recall under pressure", "Buffer and target identification", "Cycle break handling", "Flipped and twisted piece handling"],
+        "algorithmSets": [],
+        "estimatedTime": "4-8 weeks"
+      },
+      {
+        "name": "M2/OP Method Transition",
+        "target": "sub-5:00",
+        "description": "Upgrade your edge solving to the M2 method while keeping Old Pochmann for corners (this combination is called M2/OP). M2 uses M-slice moves to solve edges two at a time, cutting edge execution time roughly in half compared to Old Pochmann. Learn the special cases for the M-slice targets and practice the transition until execution is smooth. Simultaneously, work on speeding up your memo through faster letter pair recall and more efficient tracing.",
+        "skills": ["M2 edge execution", "M2 special cases", "Faster memo techniques", "Advanced letter pair images", "Reduced memo time through practice", "Combining M2 edges with OP corners", "Accuracy maintenance during speed increase"],
+        "algorithmSets": [],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "3-Style Introduction",
+        "target": "sub-2:00",
+        "description": "Begin learning 3-style, the advanced commutator-based method used by top blind solvers. Instead of using setup moves into a fixed algorithm, 3-style uses direct three-move commutators to solve pieces in just 8-12 moves per target. Start by learning corner commutators for a single buffer, as there are fewer cases than edges. This is a long-term investment: full 3-style requires hundreds of commutators, but even partial adoption dramatically reduces move count and execution time.",
+        "skills": ["Commutator theory and notation", "Corner 3-style commutators", "Interchangeable commutator pairs", "Reducing execution move count", "Advanced memo speed techniques", "Edge 3-style introduction (optional)", "Competition blind solving strategy"],
+        "algorithmSets": [],
+        "estimatedTime": "3-6 months"
+      }
+    ]
+  },
+  {
+    "id": "big-cubes",
+    "name": "Big Cubes Path",
+    "target": "sub-1:00 4x4",
+    "description": "Expand beyond the 3x3 into the world of big cubes from 4x4 through 7x7. Big cube solving builds on your 3x3 foundation but introduces new skills like center building, edge pairing, and parity handling. This path focuses primarily on 4x4 and 5x5 proficiency with extensions to 6x6 and 7x7.",
+    "milestones": [
+      {
+        "name": "Learn Yau Method for 4x4",
+        "target": "sub-2:00",
+        "description": "Learn the Yau method, the dominant speedsolving method for 4x4. Yau solves two opposite centers first, then the cross edges of one color, then the remaining four centers, then pairs all remaining edges, and finally solves the cube like a 3x3. The key advantage of Yau over basic reduction is that your cross is already solved when you finish edge pairing, saving time on the transition to 3x3 stage. Practice efficient center building using commutators and half-center strategies.",
+        "skills": ["First two centers building", "Cross-edge pairing in Yau", "Last four centers efficiently", "3-2-1 edge pairing strategy", "Edge pairing slice moves", "Transition to 3x3 stage"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Efficient Edge Pairing and Parity",
+        "target": "sub-1:00",
+        "description": "Optimize your 4x4 edge pairing to minimize slice moves and solve multiple edges per slice. Learn to recognize and efficiently execute both OLL parity and PLL parity algorithms. OLL parity occurs when a single edge is flipped, which is impossible on a 3x3, and PLL parity occurs when two edges need to be swapped. Master the 3-2-1 edge pairing approach where you pair three edges with the first slice sequence, two with the second, and the last one individually.",
+        "skills": ["Advanced 3-2-1 edge pairing", "OLL parity algorithm", "PLL parity algorithm", "Parity recognition during solve", "Efficient slice move fingertricks", "Multi-edge pairing per slice", "Look-ahead during edge pairing"],
+        "algorithmSets": ["OLL Parity", "PLL Parity"],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "5x5 Reduction Method",
+        "target": "sub-2:30",
+        "description": "Apply the reduction approach to 5x5, where you solve centers first, then pair edges, and finally solve as a 3x3. The 5x5 has no parity issues, making the 3x3 stage straightforward. Center building on 5x5 requires solving 3x3 blocks on each face, which introduces commutator-like techniques for the last few centers without disrupting solved ones. Edge pairing extends naturally from 4x4 but involves matching three edge pieces instead of two, requiring freeslice techniques.",
+        "skills": ["5x5 center building strategies", "Last two centers techniques", "5x5 freeslice edge pairing", "Tredge (triple edge) recognition", "Efficient move sequences for centers", "Transition from 5x5 to 3x3 stage"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "6x6 and 7x7 Optimization",
+        "target": "competitive",
+        "description": "Extend your big cube skills to 6x6 and 7x7. These puzzles follow the same reduction framework but introduce additional center-building complexity and return the possibility of parity on even-layered cubes like 6x6. Focus on efficient center building using the cage method or freestyle approaches, and develop strategies for the large number of edges that need pairing. Speed on bigger cubes is primarily determined by how efficiently you build centers and how few moves you waste during edge pairing.",
+        "skills": ["6x6 center cage method", "6x6 parity handling", "7x7 center building strategies", "High edge count pairing efficiency", "Big cube lookahead during centers", "Endurance for longer solves", "Hardware optimization for big cubes"],
+        "algorithmSets": ["OLL Parity", "PLL Parity"],
+        "estimatedTime": "4-8 weeks"
+      }
+    ]
+  },
+  {
+    "id": "pyraminx-mastery",
+    "name": "Pyraminx Mastery Path",
+    "target": "sub-3",
+    "description": "Master the Pyraminx from first solve to sub-3 competition speed. The Pyraminx rewards fast recognition and efficient layer-by-layer execution. This path progresses through the major method stages, from understanding the trivial tips through advanced last-five-edges techniques used by world-class solvers.",
+    "milestones": [
+      {
+        "name": "Layer-by-Layer Basics",
+        "target": "sub-20",
+        "description": "Learn to solve the Pyraminx using the beginner layer-by-layer approach. Start by trivially placing the four tips, then build the first layer by inserting edges one at a time into the bottom face. Finish by solving the top layer edges with simple algorithms. At this stage, focus on understanding how the puzzle moves and building reliable solve habits. Recognize that tip placement is always trivial and should take under one second.",
+        "skills": ["Tip placement intuition", "First layer edge insertion", "Top layer edge recognition", "Basic notation understanding", "Reliable solve completion", "Consistent orientation during solve"],
+        "algorithmSets": ["l3e"],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Keyhole and L4E Method",
+        "target": "sub-10",
+        "description": "Transition to the L4E (Last 4 Edges) method by learning to build the first layer using the keyhole technique, leaving one slot open to make edge insertion more efficient. After building three edges of the first layer, solve all four remaining edges on the top layer simultaneously using L4E algorithms. This is a major efficiency jump over pure layer-by-layer and is how intermediate competitors approach the puzzle. L4E recognition is the core skill to develop at this stage.",
+        "skills": ["Keyhole first-layer building", "L4E case recognition", "L4E algorithm execution", "Smooth transition from first layer to L4E", "AUF prediction and optimization", "Tip placement during inspection"],
+        "algorithmSets": ["l4e"],
+        "estimatedTime": "2-4 weeks"
+      },
+      {
+        "name": "Top First Approach",
+        "target": "sub-5",
+        "description": "Learn the Top First method, which solves the top vertex and its three surrounding edges first, then inserts the remaining three bottom edges. Top First is popular among fast solvers because the top layer cases can be predicted and executed very quickly, and the bottom edge insertions are intuitive. Master the top layer recognition to identify which algorithm to use before you start turning, and develop smooth bottom edge insertion from all angles without cube rotations.",
+        "skills": ["Top layer case recognition", "Top First algorithm set", "Intuitive bottom edge insertion", "Rotation-free bottom layer solving", "Inspection time usage for top case", "Efficient grip changes"],
+        "algorithmSets": ["pyra-top-first"],
+        "estimatedTime": "2-4 weeks"
+      },
+      {
+        "name": "Advanced L5E Methods",
+        "target": "sub-3",
+        "description": "Reach competition speed by learning advanced last-five-edges techniques including ML4E (modified L4E for specific tip states), and the TL4E and BL5E method families used by sub-2 competitors. These methods exploit specific orientations of the trivial tips to enable shorter, faster algorithms. Develop the ability to recognize which L5E subset applies during inspection and choose the fastest execution path. At this level, turning speed and recognition speed both need to be maximized through high-volume drilling.",
+        "skills": ["ML4E case recognition and execution", "TL4E-B and TL4E-R identification", "BL5E algorithm execution", "Subset selection during inspection", "Sub-0.5 second tip placement", "Advanced fingertricks for Pyraminx", "Competition-consistent execution"],
+        "algorithmSets": ["pyra-ml4e", "pyra-tl4e-b", "pyra-tl4e-r", "pyra-bl5e"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "megaminx-mastery",
+    "name": "Megaminx Mastery Path",
+    "target": "sub-2:00",
+    "description": "Conquer the Megaminx from your first solve to sub-2:00 competition speed. The Megaminx is a 12-sided puzzle that solves analogously to the 3x3 but with five F2L pairs per face and a unique last layer. This path builds efficient layer-by-layer technique, fast F2L star solving, and strong last layer algorithm knowledge.",
+    "milestones": [
+      {
+        "name": "First Solve with Beginner Method",
+        "target": "sub-10:00",
+        "description": "Learn to solve the Megaminx using the layer-by-layer beginner approach. Solve the first layer star (five edges around the top face), then place the five corner-edge pairs below it to complete the first two layers, and finally solve the last layer using algorithms adapted from 3x3 knowledge. The Megaminx moves more slowly than a 3x3, so raw turning speed matters less at this stage. Focus on understanding the puzzle geometry and how pieces move relative to each other.",
+        "skills": ["Megaminx notation and face identification", "Top star edge placement", "First layer corner insertion", "Second layer edge insertion", "Last layer orientation recognition", "Last layer permutation"],
+        "algorithmSets": ["mega-oll", "mega-pll"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Efficient F2L Star Solving",
+        "target": "sub-5:00",
+        "description": "Develop efficient technique for building the F2L star, which involves solving five corner-edge pairs in the first two layers. Learn to pair corners and edges efficiently before inserting them, just as in 3x3 F2L, and reduce unnecessary moves and rotations. Practice solving the star from all angles to avoid always rotating to a comfortable position. Efficient star building is the highest time-saving opportunity on Megaminx because it accounts for the majority of each solve.",
+        "skills": ["Paired corner-edge insertion", "Rotation reduction during star", "Back-slot Megaminx insertions", "Multi-pair planning", "Efficient star from all angles", "Fluid turning without pausing"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "OLL and PLL Learning",
+        "target": "sub-3:00",
+        "description": "Learn the Megaminx OLL and PLL algorithm sets to solve the last layer efficiently. Megaminx OLL and PLL cases are analogous to 3x3 but with five-fold symmetry, resulting in more total cases but with familiar structures. If you already know 3x3 OLL and PLL, many Megaminx algorithms use the same sequences adapted for the dodecahedron geometry. Focus on fast recognition and fluid execution, as the last layer represents a disproportionate amount of time at intermediate speeds.",
+        "skills": ["Megaminx OLL recognition", "Megaminx PLL recognition", "Fast algorithm execution on Megaminx", "AUF prediction", "Smooth transition from F2L to last layer", "Two-sided PLL recognition"],
+        "algorithmSets": ["mega-oll", "mega-pll", "mega-co", "mega-cp"],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "Advanced Last Layer and Speed",
+        "target": "sub-2:00",
+        "description": "Push into competition territory by learning corner orientation and corner permutation as separate recognition steps to improve last layer efficiency, and by developing advanced techniques for the edge orientation and edge permutation phases. Practice fluent Megaminx turning with proper finger placement to maximize TPS on the larger puzzle. Develop consistent inspection strategy to plan the first few moves of the star before starting. At this level, consistency across all layers determines your average more than any single fast solve.",
+        "skills": ["Advanced Megaminx CO recognition", "Advanced Megaminx EO and EP", "High-speed Megaminx turning technique", "Full inspection planning", "Consistent multi-layer lookahead", "Competition-level solve consistency"],
+        "algorithmSets": ["mega-oll", "mega-pll", "mega-co", "mega-cp", "mega-eo", "mega-ep"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "square1-mastery",
+    "name": "Square-1 Mastery Path",
+    "target": "sub-15",
+    "description": "Master the Square-1 from understanding its unique geometry to sub-15 competition speed. The Square-1 is unlike any other WCA puzzle because of its shape-shifting property. This path takes you through cubeshaping, the Vandenbergh-Guimond method, the fast Lin method, and advanced parity handling.",
+    "milestones": [
+      {
+        "name": "Understanding the Puzzle and Cubeshape",
+        "target": "sub-2:00",
+        "description": "Learn how the Square-1 moves and understand cubeshaping, the process of returning the puzzle from any scrambled shape to cube shape. The Square-1 has a middle layer that determines whether top and bottom layers can be rotated, so you must learn to orient slices correctly before applying moves. Study the cubeshape algorithms systematically, starting with the most common shapes. Cubeshape can account for 5-8 seconds for beginners, so efficient shape recognition is critical from the start.",
+        "skills": ["Square-1 movement mechanics", "Middle layer slice recognition", "Common cubeshape case recognition", "Cubeshape algorithm execution", "Piece identification after cubeshape", "Reliable full solve completion"],
+        "algorithmSets": ["sq1-cs"],
+        "estimatedTime": "2-4 weeks"
+      },
+      {
+        "name": "Vandenbergh Basics: CO, CP, EO, EP",
+        "target": "sub-45",
+        "description": "Learn the full Vandenbergh-Guimond method, which solves the Square-1 in four steps after cubeshaping: Corner Orientation (CO), Corner Permutation (CP), Edge Orientation (EO), and Edge Permutation (EP). Each step has a manageable number of cases and straightforward algorithms. This method gives you a complete, reliable solving system. Focus on clean recognition for each step and building fluency before trying to improve speed. Understanding why each algorithm works will help you remember and apply them correctly.",
+        "skills": ["CO case recognition and execution", "CP case recognition and execution", "EO case recognition and execution", "EP case recognition and execution", "Efficient step transitions", "Parity identification and handling"],
+        "algorithmSets": ["sq1-co", "sq1-cp", "sq1-eo", "sq1-ep", "sq1-parity"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Lin Method Introduction",
+        "target": "sub-30",
+        "description": "Transition to the Lin method, which combines the CO and EO steps of Vandenbergh into a single step (COEO), dramatically reducing the number of algorithm executions per solve. Lin is the method used by all top Square-1 competitors because it is both fast and move-efficient. Learn the Lin PLL recognition system, which simultaneously identifies CP and EP in a single last-layer recognition step. This requires learning new recognition patterns but provides a major time saving once mastered.",
+        "skills": ["Lin COEO combined recognition", "Lin PLL case identification", "Lin PLL algorithm execution", "Faster cubeshape through recognition improvement", "Efficient pair orientation during cubeshape", "Smooth step transitions in Lin"],
+        "algorithmSets": ["sq1-cs", "sq1-co", "sq1-eo", "sq1-lin-pll"],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "Advanced Parity and Speed",
+        "target": "sub-15",
+        "description": "At competition speed, parity cases must be handled instantly without hesitation, and cubeshape must be fast and efficient using advanced shape recognition that identifies shapes from any angle. Develop the ability to plan cubeshape during inspection and identify your CO/EO orientation before you start. Practice Lin PLL recognition until all cases are instantly identifiable. Speed on Square-1 ultimately comes from clean cubeshape, efficient COEO, and fast Lin PLL, so drill each phase independently to identify and remove bottlenecks.",
+        "skills": ["Instant parity recognition and execution", "Advanced cubeshape recognition from any angle", "Sub-3 second cubeshape average", "Inspection cubeshape planning", "Fast COEO execution", "High-speed Square-1 turning technique"],
+        "algorithmSets": ["sq1-cs", "sq1-co", "sq1-eo", "sq1-cp", "sq1-ep", "sq1-parity", "sq1-lin-pll"],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "skewb-mastery",
+    "name": "Skewb Mastery Path",
+    "target": "sub-5",
+    "description": "Master the Skewb from beginner to competition-level sub-5 speed. The Skewb is a deceptively deep puzzle where each move rotates a corner and three adjacent faces. This path builds from the basic layer method through Sarah's system, which is the foundation of all competitive Skewb solving.",
+    "milestones": [
+      {
+        "name": "Beginner Layer Method",
+        "target": "sub-30",
+        "description": "Learn to solve the Skewb using the beginner layer approach by first solving the bottom face, then the top face, and finally correcting the corners. Understand how Skewb moves work: each turn rotates four corners at once, making piece tracking initially confusing. Develop intuitive understanding of how corners cycle and how edges (centers) are affected by moves. Build a reliable solve that you can repeat consistently, even if slowly.",
+        "skills": ["Skewb move mechanics and notation", "Bottom face center and corner placement", "Top face corner orientation", "Intuitive piece tracking", "Setup moves for corner insertion", "Reliable full solve completion"],
+        "algorithmSets": [],
+        "estimatedTime": "1-2 weeks"
+      },
+      {
+        "name": "Sarah's Intermediate Method",
+        "target": "sub-15",
+        "description": "Learn Sarah's method, the standard competitive Skewb approach. Sarah's method solves the Skewb by first building a solved face (bottom center plus all four surrounding corners), then using a set of algorithms to solve the remaining five corners and four centers in a combined last layer step. The key insight is that solving the first face efficiently is the most important skill, and there are only a handful of last-layer cases to learn. Begin with the basic Sarah's algorithms and focus on recognizing the last layer case before the first face is even complete.",
+        "skills": ["First face building efficiency", "Sarah's last layer case recognition", "Basic Sarah's algorithm execution", "Prediction of LL case during first face", "Consistent first face in under 3 seconds", "Understanding center and corner interaction"],
+        "algorithmSets": ["sarah"],
+        "estimatedTime": "2-3 weeks"
+      },
+      {
+        "name": "Sarah's Advanced Algorithms",
+        "target": "sub-8",
+        "description": "Learn the extended Sarah's Advanced algorithm set, which provides faster or more ergonomic alternatives for each last-layer case and includes additional cases for specific first-face states. Drill recognition until you can identify the last layer case from any angle in under half a second. Develop efficient fingertricks for the most common Skewb moves and work on smooth first-face building that flows directly into the last-layer algorithm without pause. First face building should consistently take under 2 seconds at this stage.",
+        "skills": ["Full Sarah's Advanced algorithm set", "Fast last-layer case recognition from all angles", "Sub-0.5 second LL identification", "Skewb fingertrick optimization", "Sub-2 second first face building", "Seamless first-face-to-LL transition"],
+        "algorithmSets": ["sarah", "sarahs-advanced"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Competition Speed",
+        "target": "sub-5",
+        "description": "Reach sub-5 competition speed by maximizing first-face efficiency and algorithm execution speed. At this level, you should be predicting the LL case during inspection and identifying the first face solution in the first 1-2 moves. Practice high-volume drilling of your slowest algorithms until all cases execute in under 1.5 seconds. Develop strong color neutrality so you can choose the easiest first face regardless of color. The difference between sub-5 and sub-3 Skewb is almost entirely first-face speed and LL recognition, not algorithm memorization.",
+        "skills": ["Inspection-based LL case prediction", "Full color neutrality for first face", "Sub-1.5 second last layer execution", "Under 1.5 second first face average", "Advanced Skewb turning efficiency", "Competition-level consistency under pressure"],
+        "algorithmSets": ["sarah", "sarahs-advanced"],
+        "estimatedTime": "2-3 months"
+      }
+    ]
+  },
+  {
+    "id": "roux-path",
+    "name": "Roux Method Path",
+    "target": "sub-15",
+    "description": "Learn the Roux method, a block-building approach that solves the cube with far fewer moves and rotations than CFOP. Roux is used by many top competitors including world record holders. This path takes you from first block fundamentals through efficient second block, full CMLL, and LSE mastery.",
+    "milestones": [
+      {
+        "name": "First Block Fundamentals",
+        "target": "sub-45",
+        "description": "Learn to build a 1x2x3 block on the left side of the cube by pairing and inserting corners with their matching edges. The first block is entirely intuitive with no algorithms, requiring you to understand how pieces relate to each other and how to efficiently maneuver them into position. A good first block uses 8-12 moves and is solved without cube rotations. Practice building the block from all 24 possible starting orientations to develop true color neutrality and block recognition.",
+        "skills": ["1x2x3 block construction", "Corner-edge pairing intuition", "Rotation-free block building", "Block recognition from all angles", "Move efficiency for first block", "Color neutrality development"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Second Block Efficiency",
+        "target": "sub-30",
+        "description": "Build the second 1x2x3 block on the right side while preserving the first block, using only R, U, r, and M moves. The constraint of maintaining the first block makes the second block harder than the first, and it requires learning to work with a restricted move set. Develop efficient techniques for the common cases where pieces are in the U layer or in the wrong slot. The second block is where most of your time is spent in Roux, so even minor improvements here have large effects on your average.",
+        "skills": ["Second block with preserved left block", "R, U, r, M move restriction", "Common second-block case solutions", "Second block lookahead", "Pseudo-block recognition", "Smooth FB-to-SB transition"],
+        "algorithmSets": [],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "CMLL Learning",
+        "target": "sub-20",
+        "description": "Learn CMLL (Corners of the Last Layer ignoring M-slice), which solves all four top-layer corners in one algorithm. CMLL has 42 cases and operates only on the top layer corners, ignoring the M-slice edges entirely. This is one of the most visually distinct recognition steps in competitive speedcubing and becomes very fast once mastered. Learn the cases grouped by corner orientation type (same as OLL groups) and drill each group until recognition is instant. Good CMLL execution is under 1.5 seconds for all cases.",
+        "skills": ["All 42 CMLL case recognitions", "CMLL algorithm execution", "Sub-1.5 second CMLL execution", "CMLL recognition grouping strategy", "Predicting CMLL case during SB", "AUF optimization after CMLL"],
+        "algorithmSets": ["cmll"],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "LSE Mastery: EO, ULUR, 4c",
+        "target": "sub-15",
+        "description": "Master LSE (Last Six Edges), the final phase of Roux, which solves the remaining six M-slice and U-layer edges using only M and U moves. LSE has three sub-steps: edge orientation (EO), ULUR (moving the UL and UR edges into their correct positions), and 4c (solving the final four centers and edges). LSE is what makes Roux so distinctive: it is often 10-15 moves long and uses only two types of moves, allowing extremely high TPS. Develop the ability to predict the EO case during CMLL and execute the entire LSE phase without pausing.",
+        "skills": ["EO case recognition (all 7 cases)", "ULUR case identification", "4c algorithm execution", "Continuous LSE without pauses", "EO prediction during CMLL", "High-speed M and U move execution", "EOLR technique for EO+ULUR combination"],
+        "algorithmSets": [],
+        "estimatedTime": "2-4 months"
+      }
+    ]
+  },
+  {
+    "id": "zz-path",
+    "name": "ZZ Method Path",
+    "target": "sub-15",
+    "description": "Learn the ZZ method, a powerful approach that orients all edges at the start of the solve, enabling the entire F2L and most last-layer steps to be done with only R, U, and L moves. ZZ rewards solvers who enjoy efficiency and plan-based solving. This path covers EOLine, ZZF2L, and the advanced ZBLL algorithm sets.",
+    "milestones": [
+      {
+        "name": "EOLine and EOCross",
+        "target": "sub-45",
+        "description": "Learn Edge Orientation (EO), the defining step of ZZ that orients all 12 edges to be non-bad (no edge is misoriented relative to the F/B axis) before any other solving. EOLine additionally places the DF and DB edges to form a line, setting up the ZZF2L stage. EOLine takes 5-10 moves on average and must be planned entirely during the 15-second inspection period. This is the hardest conceptual hurdle in ZZ: understanding which edges are bad and how to orient them efficiently. Once EO is comfortable, every move for the rest of the solve can use only R, U, and L.",
+        "skills": ["Edge orientation concept", "Bad edge identification", "EOLine inspection planning", "EOLine execution in 5-10 moves", "DF and DB edge placement", "Transition from EOLine to blocks"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "ZZF2L with RUL Only",
+        "target": "sub-30",
+        "description": "Build both 1x2x3 blocks in ZZF2L using only R, U, and L moves, which is possible because all edges are already oriented after EOLine. This move restriction makes ZZ inherently efficient and reduces the chance of mistaken moves. Learn to build the left block first (or simultaneously with the right block), using L, U, and R moves for each side respectively. ZZF2L is fully intuitive like CFOP F2L but with the added benefit that no edge can be flipped, making pair recognition more predictable.",
+        "skills": ["RUL-only block building", "Left block construction", "Right block with preserved left", "ZZF2L case recognition", "Lookahead between ZZF2L blocks", "Rotation-free ZZF2L"],
+        "algorithmSets": [],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "ZBLL Subsets",
+        "target": "sub-20",
+        "description": "Learn the ZBLL algorithm sets, which solve the entire last layer in one look when all edges are already oriented (which they always are in ZZ). ZBLL has 493 total cases, grouped by corner orientation pattern. Begin with the U and T subsets, which together cover a large portion of cases and have manageable algorithm counts. ZBLL is a long-term investment but gives ZZ its most significant speed advantage: a one-look last layer that averages around 1-1.5 seconds for experts. Learn subsets one at a time, drilling recognition and execution for each before moving on.",
+        "skills": ["ZBLL case grouping by CO pattern", "ZBLL-U subset recognition and execution", "ZBLL-T subset recognition and execution", "ZBLL-L subset recognition and execution", "Sub-1.5 second ZBLL execution", "ZBLL recognition from all angles"],
+        "algorithmSets": ["zbll-u", "zbll-t", "zbll-l"],
+        "estimatedTime": "3-6 months"
+      },
+      {
+        "name": "Advanced ZZ Variants",
+        "target": "sub-15",
+        "description": "Reach competition speed by completing more ZBLL subsets and exploring advanced ZZ variants. Learn the remaining ZBLL subsets (Pi, S, H, AS) for a fully one-look last layer. Explore ZZ-CT (a variant that achieves EO and corner solving simultaneously) or ZZ-b for an even more efficient solve on favorable cases. Develop the ability to predict the ZBLL case during ZZF2L by tracking corner orientation as you build the blocks. At this level, EOLine efficiency and full ZBLL coverage are the key differentiators.",
+        "skills": ["Full ZBLL coverage", "ZBLL-Pi, S, H, AS subsets", "ZBLL case prediction during F2L", "Advanced EOLine in 5-8 moves", "COLL as ZBLL backup strategy", "ZZ variant case recognition"],
+        "algorithmSets": ["zbll-u", "zbll-t", "zbll-l", "zbll-pi", "zbll-s", "zbll-h", "zbll-as", "coll"],
+        "estimatedTime": "3-6 months"
+      }
+    ]
+  },
+  {
+    "id": "fmc-path",
+    "name": "FMC Path",
+    "target": "sub-30 moves",
+    "description": "Fewest Moves Challenge (FMC) is the WCA event where you have 60 minutes to find the shortest possible solution for a single scramble. This path develops the blockbuilding, inverse scramble, and insertion techniques needed to consistently find solutions under 30 moves and compete for sub-25 results.",
+    "milestones": [
+      {
+        "name": "Basic Blockbuilding Approach",
+        "target": "sub-50 moves",
+        "description": "Learn to approach FMC through blockbuilding: building pairs, squares, and 2x2x2 and 2x2x3 blocks from multiple starting angles before attempting a full solution. FMC success begins with exploring many different starts rather than committing to the first one you find. Practice writing out solutions and annotating your work during the solve. At this stage, aim to finish the cube using any method you know, prioritizing completion over efficiency, and study what a good blockbuilding start looks like.",
+        "skills": ["2x2x2 block construction", "2x2x3 block extension", "Pair and square recognition", "Multi-angle exploration", "Written solution annotation", "Move counting and notation"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "NISS Technique",
+        "target": "sub-40 moves",
+        "description": "Learn Normal-Inverse Scramble Switch (NISS), the most powerful technique in FMC. NISS allows you to switch between solving the normal scramble and solving the inverse scramble, combining moves from both perspectives into a single short solution. When you reach a dead end on the normal scramble, you can continue on the inverse, and vice versa. Understanding when and how to switch requires practice, but NISS can save 5-10 moves on many scrambles and is used in virtually every competitive FMC attempt.",
+        "skills": ["Inverse scramble construction", "NISS switching concept", "Combining normal and inverse moves", "Recognizing good NISS switch points", "Continuation on inverse scramble", "Reconstructing full solution after NISS"],
+        "algorithmSets": [],
+        "estimatedTime": "3-5 weeks"
+      },
+      {
+        "name": "Insertions",
+        "target": "sub-30 moves",
+        "description": "Learn the insertion technique, where you leave a set of unsolved pieces (typically corners) at the end of a skeleton solution and then insert short algorithms into earlier parts of the solution to fix them without disturbing other pieces. A typical skeleton solves everything except 3-5 corners in 20-25 moves, and then insertions add only 8-12 moves to fix all remaining corners. Learn commutator insertions for corners, and practice finding insertion points that cancel moves for net 6-move or better insertions. Insertions combined with NISS bring average FMC results below 30 moves.",
+        "skills": ["Skeleton construction for corners", "Insertion point identification", "Corner commutator insertions", "Move cancellation in insertions", "3-cycle and 5-corner skeleton recognition", "Combining insertions with NISS skeleton"],
+        "algorithmSets": [],
+        "estimatedTime": "4-6 weeks"
+      },
+      {
+        "name": "Advanced Strategies",
+        "target": "sub-25 moves",
+        "description": "Reach competitive FMC levels by learning advanced strategies including domino reduction (DR), which restricts the cube to a subgroup solvable without F and B quarter turns, enabling extremely short solutions. Learn edge insertions to fix skeletons with bad edges as well as corners. Develop efficient time management within the 60-minute window: explore multiple starts for the first 20 minutes, commit to the best one, build a skeleton, and spend the final 20 minutes on insertions and cancellations. Study reconstructions of sub-20 results from top competitors to internalize what elite FMC looks like.",
+        "skills": ["Domino reduction (DR) concept", "EO to DR transition", "DR finish techniques", "Edge insertion technique", "60-minute time management strategy", "Solution reconstruction and study"],
+        "algorithmSets": [],
+        "estimatedTime": "3-6 months"
+      }
+    ]
+  }
+]

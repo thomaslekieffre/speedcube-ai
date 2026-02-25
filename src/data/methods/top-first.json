@@ -1,0 +1,54 @@
+{
+  "id": "top-first",
+  "name": "Top-First (Pyraminx)",
+  "description": "A beginner-friendly Pyraminx method that solves the puzzle from the top down. The solver first orients the tips, then solves the top layer, and finally solves the bottom layer. This method is intuitive and requires very few algorithms, making it the standard starting method for Pyraminx beginners. It provides a clear, structured approach to understanding the Pyraminx.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "Orient Tips",
+      "description": "Twist the four trivial tips of the Pyraminx so each tip matches the color of its adjacent center. Tips can be rotated independently without affecting any other pieces, so this step is always a simple twist.",
+      "moveCountRange": "0-4 moves",
+      "tips": [
+        "Tips are trivial — just twist them to match",
+        "You can do tips at any point during the solve",
+        "Many solvers do tips last or as they encounter them"
+      ]
+    },
+    {
+      "name": "Solve Top Layer",
+      "description": "Solve the top layer (the layer around the top tip) by placing the three edge pieces into their correct positions and orientations. This is done intuitively using simple R and L moves to cycle and flip edges into place.",
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "Work with the Pyraminx held with one tip pointing up",
+        "Use simple R and L turns to move edges around",
+        "Plan this step during inspection"
+      ]
+    },
+    {
+      "name": "Solve Bottom Layer",
+      "description": "Solve the remaining three edge pieces on the bottom layer. This may require flipping edges or cycling them into position. A few short algorithms handle all possible cases for the bottom layer, including 3-cycles and edge flips.",
+      "algorithmSets": ["L3E"],
+      "moveCountRange": "3-8 moves",
+      "tips": [
+        "There are only a handful of bottom layer cases",
+        "Learn the 3-cycle algorithm for rotating bottom edges",
+        "The flip algorithm handles edges that are in position but oriented wrong"
+      ]
+    }
+  ],
+  "pros": [
+    "Very easy to learn and understand",
+    "Few algorithms required (under 5)",
+    "Good introduction to the Pyraminx",
+    "Intuitive top layer solve"
+  ],
+  "cons": [
+    "Not competitive for speedcubing",
+    "Bottom layer can be awkward to solve efficiently",
+    "Higher move count than L4E or keyhole approaches",
+    "Limited speed ceiling"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["L3E"],
+  "avgMoveCount": "10-16"
+}

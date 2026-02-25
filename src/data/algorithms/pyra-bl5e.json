@@ -1,0 +1,1492 @@
+{
+  "id": "pyra-bl5e",
+  "name": "BL5E",
+  "puzzle": "Pyraminx",
+  "description": "Bheem Last 5 Edges for Pyraminx. An alternative L5E method with R and L variants.",
+  "category": "last-layer",
+  "caseCount": 82,
+  "algorithms": [
+    {
+      "id": "pyra-bl5e-r-keyhole-1",
+      "name": "BL5E R - Keyhole 1",
+      "set": "BL5E",
+      "subset": "R - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "R U L' U' L R'",
+      "alternatives": [
+        {
+          "notation": "U' R L U L' U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U L R L2' R' L",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-keyhole-1",
+      "name": "BL5E L - Keyhole 1",
+      "set": "BL5E",
+      "subset": "L - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "R U L U' L' R'",
+      "alternatives": [
+        {
+          "notation": "U R L' U L U' R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L' R L2 R' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-keyhole-2",
+      "name": "BL5E R - Keyhole 2",
+      "set": "BL5E",
+      "subset": "R - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "L R L' U' R U R2'",
+      "alternatives": [
+        {
+          "notation": "R U R' U L U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-keyhole-2",
+      "name": "BL5E L - Keyhole 2",
+      "set": "BL5E",
+      "subset": "L - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "U' L U L' U' R U' R'",
+      "alternatives": [
+        {
+          "notation": "U R' U' R' U L R' L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "R L' U' L2 U L' R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-keyhole-3",
+      "name": "BL5E R - Keyhole 3",
+      "set": "BL5E",
+      "subset": "R - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "U R U L' U L U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U' R' U L U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-keyhole-3",
+      "name": "BL5E L - Keyhole 3",
+      "set": "BL5E",
+      "subset": "L - Keyhole",
+      "puzzle": "Pyraminx",
+      "notation": "U L U' L' U' R U R'",
+      "alternatives": [
+        {
+          "notation": "U' R U' L' U' L U' R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bars-1",
+      "name": "BL5E R - Bars 1",
+      "set": "BL5E",
+      "subset": "R - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' U' R' U R L",
+      "alternatives": [
+        {
+          "notation": "L' R U' R' U L",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R L' R2' L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bars-1",
+      "name": "BL5E L - Bars 1",
+      "set": "BL5E",
+      "subset": "L - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' R U R' L",
+      "alternatives": [
+        {
+          "notation": "L' R' U' R U L",
+          "moveCount": 6
+        },
+        {
+          "notation": "U R' L' R2 L R'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bars-2",
+      "name": "BL5E R - Bars 2",
+      "set": "BL5E",
+      "subset": "R - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U L' U L",
+      "alternatives": [
+        {
+          "notation": "L U L2' U' R' L R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L' R U R2' U' R L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bars-2",
+      "name": "BL5E L - Bars 2",
+      "set": "BL5E",
+      "subset": "L - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' R U L2 U' L'",
+      "alternatives": [
+        {
+          "notation": "L' U' L U' R' U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bars-3",
+      "name": "BL5E R - Bars 3",
+      "set": "BL5E",
+      "subset": "R - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R' U R U L' U' L",
+      "alternatives": [
+        {
+          "notation": "L' U R U R' U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bars-3",
+      "name": "BL5E L - Bars 3",
+      "set": "BL5E",
+      "subset": "L - Bars",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' R U' R' U' L",
+      "alternatives": [
+        {
+          "notation": "L' U L U' R' U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-rb-pole-1",
+      "name": "BL5E R - RB Pole 1",
+      "set": "BL5E",
+      "subset": "R - RB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' L2 R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R' L R2 U' R' U",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-rb-pole-1",
+      "name": "BL5E L - RB Pole 1",
+      "set": "BL5E",
+      "subset": "L - RB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' R' L R L'",
+      "alternatives": [
+        {
+          "notation": "R U L R' L2' U L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-rb-pole-2",
+      "name": "BL5E R - RB Pole 2",
+      "set": "BL5E",
+      "subset": "R - RB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' L' U' L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R' L R2 U' R' U' L' U'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-rb-pole-2",
+      "name": "BL5E L - RB Pole 2",
+      "set": "BL5E",
+      "subset": "L - RB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R' L2' R U L",
+      "alternatives": [
+        {
+          "notation": "L R' L2' U L U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-lb-pole-1",
+      "name": "BL5E R - LB Pole 1",
+      "set": "BL5E",
+      "subset": "R - LB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L R' L' R L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-lb-pole-1",
+      "name": "BL5E L - LB Pole 1",
+      "set": "BL5E",
+      "subset": "L - LB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U R2' L' R U L",
+      "alternatives": [
+        {
+          "notation": "R' L R L' R' U' R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-lb-pole-2",
+      "name": "BL5E R - LB Pole 2",
+      "set": "BL5E",
+      "subset": "R - LB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L R2 L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R' L2 R L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-lb-pole-2",
+      "name": "BL5E L - LB Pole 2",
+      "set": "BL5E",
+      "subset": "L - LB Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U L U R U R2' L' R",
+      "alternatives": [
+        {
+          "notation": "R2' U L R L' R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-rf-pole-1",
+      "name": "BL5E R - RF Pole 1",
+      "set": "BL5E",
+      "subset": "R - RF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U' L' U' L2 R L' R2'",
+      "alternatives": [
+        {
+          "notation": "L2' R' L R2 U' R' U' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-rf-pole-1",
+      "name": "BL5E L - RF Pole 1",
+      "set": "BL5E",
+      "subset": "L - RF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U L U' L' R' L R U' L'",
+      "alternatives": [
+        {
+          "notation": "R' L R' L2' U L U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-rf-pole-2",
+      "name": "BL5E L - RF Pole 2",
+      "set": "BL5E",
+      "subset": "L - RF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L2' U' L U' R U' R'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-lf-pole-1",
+      "name": "BL5E R - LF Pole 1",
+      "set": "BL5E",
+      "subset": "R - LF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U R L R' L' U R",
+      "alternatives": [
+        {
+          "notation": "L U R' L' R L U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-lf-pole-1",
+      "name": "BL5E L - LF Pole 1",
+      "set": "BL5E",
+      "subset": "L - LF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U R U R2' L' R L2",
+      "alternatives": [
+        {
+          "notation": "R' U' L R L' R' U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-lf-pole-2",
+      "name": "BL5E R - LF Pole 2",
+      "set": "BL5E",
+      "subset": "R - LF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R2 U R' U L' U L",
+      "alternatives": [
+        {
+          "notation": "R U R' U L' U L2 U L'",
+          "moveCount": 9
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-lf-pole-2",
+      "name": "BL5E L - LF Pole 2",
+      "set": "BL5E",
+      "subset": "L - LF Pole",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U' R U' R2' U' R",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-sochi-1",
+      "name": "BL5E R - Bad Sochi 1",
+      "set": "BL5E",
+      "subset": "R - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L2 R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R' L R2 U R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-sochi-1",
+      "name": "BL5E L - Bad Sochi 1",
+      "set": "BL5E",
+      "subset": "L - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' R U L2 U L'",
+      "alternatives": [
+        {
+          "notation": "R2 U R' L' U L R'",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L' R U' R L R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-sochi-2",
+      "name": "BL5E L - Bad Sochi 2",
+      "set": "BL5E",
+      "subset": "L - Bad Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U' R U R' L' U' L2",
+      "alternatives": [
+        {
+          "notation": "R U L R' L' R U R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-niky-1",
+      "name": "BL5E R - Bad Niky 1",
+      "set": "BL5E",
+      "subset": "R - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R L' U' R U' R2'",
+      "alternatives": [
+        {
+          "notation": "L2' U' L U' R' L R",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R L' U L' R' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-niky-1",
+      "name": "BL5E L - Bad Niky 1",
+      "set": "BL5E",
+      "subset": "L - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R2' L' R U L",
+      "alternatives": [
+        {
+          "notation": "R L' U' L U' L R' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-niky-2",
+      "name": "BL5E R - Bad Niky 2",
+      "set": "BL5E",
+      "subset": "R - Bad Niky",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U L' U' L R U R2'",
+      "alternatives": [
+        {
+          "notation": "L2' U L R U' R' U L",
+          "moveCount": 8
+        },
+        {
+          "notation": "L2' R L U R' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-good-sochi-1",
+      "name": "BL5E R - Good Sochi 1",
+      "set": "BL5E",
+      "subset": "R - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "U L R L2' U' L U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R U' R2 L R",
+          "moveCount": 7
+        },
+        {
+          "notation": "R' L R U' R' L' U' R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-good-sochi-1",
+      "name": "BL5E L - Good Sochi 1",
+      "set": "BL5E",
+      "subset": "L - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L U L' U R' L R L'",
+      "alternatives": [
+        {
+          "notation": "R' U R' U L R L' R",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' R' U' L' U R' L R2",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-good-sochi-2",
+      "name": "BL5E R - Good Sochi 2",
+      "set": "BL5E",
+      "subset": "R - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' L' U' L R L' U' L",
+      "alternatives": [
+        {
+          "notation": "R U' R' L R U' R' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-good-sochi-2",
+      "name": "BL5E L - Good Sochi 2",
+      "set": "BL5E",
+      "subset": "L - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "R U' R U' R' L R' L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-good-sochi-3",
+      "name": "BL5E L - Good Sochi 3",
+      "set": "BL5E",
+      "subset": "L - Good Sochi",
+      "puzzle": "Pyraminx",
+      "notation": "L' U L R U' R2' U' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-good-niky-1",
+      "name": "BL5E R - Good Niky 1",
+      "set": "BL5E",
+      "subset": "R - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' L R' L' R",
+      "alternatives": [
+        {
+          "notation": "L R' L' R U' L U' L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U L U R U' L R' L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-good-niky-1",
+      "name": "BL5E L - Good Niky 1",
+      "set": "BL5E",
+      "subset": "L - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' L' R2 U R' U L",
+      "alternatives": [
+        {
+          "notation": "R U L' U L2 R' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "L R' L' U L R U L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-good-niky-2",
+      "name": "BL5E R - Good Niky 2",
+      "set": "BL5E",
+      "subset": "R - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U' R' L' U L2 U L'",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-good-niky-2",
+      "name": "BL5E L - Good Niky 2",
+      "set": "BL5E",
+      "subset": "L - Good Niky",
+      "puzzle": "Pyraminx",
+      "notation": "U L R U R' L' R U R'",
+      "alternatives": [
+        {
+          "notation": "L' U L R' L' U L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-sledge-1",
+      "name": "BL5E R - Bad Sledge 1",
+      "set": "BL5E",
+      "subset": "R - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L U' R' L' U' L R L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-sledge-1",
+      "name": "BL5E L - Bad Sledge 1",
+      "set": "BL5E",
+      "subset": "L - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R' L R U L' U L'",
+      "alternatives": [
+        {
+          "notation": "R' L R L' U R' U R",
+          "moveCount": 8
+        },
+        {
+          "notation": "U' L2 R L' U R' U' L'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-sledge-2",
+      "name": "BL5E R - Bad Sledge 2",
+      "set": "BL5E",
+      "subset": "R - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' R' L' U' L R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-sledge-2",
+      "name": "BL5E L - Bad Sledge 2",
+      "set": "BL5E",
+      "subset": "L - Bad Sledge",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' L' R L' U' L U' L",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-hedge-1",
+      "name": "BL5E R - Bad Hedge 1",
+      "set": "BL5E",
+      "subset": "R - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L R' L' U' R U' R",
+      "alternatives": [
+        {
+          "notation": "L U' L U' R' L' R L'",
+          "moveCount": 8
+        },
+        {
+          "notation": "U R2' L' R U' L U R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-hedge-1",
+      "name": "BL5E L - Bad Hedge 1",
+      "set": "BL5E",
+      "subset": "L - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U L R U R' L' R",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bad-hedge-2",
+      "name": "BL5E R - Bad Hedge 2",
+      "set": "BL5E",
+      "subset": "R - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "U L R L' R U R' U R'",
+      "alternatives": [
+        {
+          "notation": "L' U L' U L R' L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bad-hedge-2",
+      "name": "BL5E L - Bad Hedge 2",
+      "set": "BL5E",
+      "subset": "L - Bad Hedge",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R L R U R' L'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-right-spam-1",
+      "name": "BL5E R - Right Spam 1",
+      "set": "BL5E",
+      "subset": "R - Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R L' U L' U L R'",
+      "alternatives": [
+        {
+          "notation": "L' R U R' U R' L R",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-right-spam-1",
+      "name": "BL5E L - Right Spam 1",
+      "set": "BL5E",
+      "subset": "L - Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' R U R' L' U L2",
+      "alternatives": [
+        {
+          "notation": "R2 U R' U L R' L'",
+          "moveCount": 7
+        },
+        {
+          "notation": "U' L' U R U' L' R' L2",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-right-spam-2",
+      "name": "BL5E L - Right Spam 2",
+      "set": "BL5E",
+      "subset": "L - Right Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' U L R' L' R U L",
+      "alternatives": [
+        {
+          "notation": "R2 U' R' L' U L U' R'",
+          "moveCount": 8
+        },
+        {
+          "notation": "L' R L U' L R' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-left-spam-1",
+      "name": "BL5E R - Left Spam 1",
+      "set": "BL5E",
+      "subset": "R - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L R U' R2'",
+      "alternatives": [
+        {
+          "notation": "L2' U' L R U' R' L",
+          "moveCount": 7
+        },
+        {
+          "notation": "U R U' L' U R L R2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-left-spam-1",
+      "name": "BL5E L - Left Spam 1",
+      "set": "BL5E",
+      "subset": "L - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L' R U' R U' R' L",
+      "alternatives": [
+        {
+          "notation": "R U L R' L2' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-left-spam-2",
+      "name": "BL5E R - Left Spam 2",
+      "set": "BL5E",
+      "subset": "R - Left Spam",
+      "puzzle": "Pyraminx",
+      "notation": "U R U' R' L R L' U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R' L R L' U' L",
+          "moveCount": 8
+        },
+        {
+          "notation": "R L' R' U R' L R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-br-bars-1",
+      "name": "BL5E R - BR Bars 1",
+      "set": "BL5E",
+      "subset": "R - BR Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R' L R' L2' U' L U' R'",
+      "alternatives": [
+        {
+          "notation": "L' U' R U' R2' L' R L2",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-br-bars-1",
+      "name": "BL5E L - BR Bars 1",
+      "set": "BL5E",
+      "subset": "L - BR Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U L U R' L' R2 U R'",
+      "alternatives": [
+        {
+          "notation": "R2 L R' L2' U L R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-bl-bars-1",
+      "name": "BL5E R - BL Bars 1",
+      "set": "BL5E",
+      "subset": "R - BL Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' L R L2' U' L",
+      "alternatives": [
+        {
+          "notation": "R U' R2' L R U' L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-bl-bars-1",
+      "name": "BL5E L - BL Bars 1",
+      "set": "BL5E",
+      "subset": "L - BL Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U' L R' L R2 U R' U L",
+      "alternatives": [
+        {
+          "notation": "L R' L2' U' L R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-fl-bars-1",
+      "name": "BL5E R - FL Bars 1",
+      "set": "BL5E",
+      "subset": "R - FL Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L2 R L' R2'",
+      "alternatives": [
+        {
+          "notation": "L R' L R2 U' R' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-fl-bars-1",
+      "name": "BL5E L - FL Bars 1",
+      "set": "BL5E",
+      "subset": "L - FL Bars",
+      "puzzle": "Pyraminx",
+      "notation": "L R U' R2' L' R",
+      "alternatives": [
+        {
+          "notation": "R U L' U L2 R L' R2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-fr-bars-1",
+      "name": "BL5E R - FR Bars 1",
+      "set": "BL5E",
+      "subset": "R - FR Bars",
+      "puzzle": "Pyraminx",
+      "notation": "R' L' U L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R' L R2 U R' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-fr-bars-1",
+      "name": "BL5E L - FR Bars 1",
+      "set": "BL5E",
+      "subset": "L - FR Bars",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' R U R2' L' R L2",
+      "alternatives": [
+        {
+          "notation": "L' U L2 R' L' U R",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-r-flips-1",
+      "name": "BL5E R - R-Flips 1",
+      "set": "BL5E",
+      "subset": "R - R-Flips",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L2 R L' U' R2'",
+      "alternatives": [
+        {
+          "notation": "L U' R' L R' U' R' L",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-r-flips-1",
+      "name": "BL5E L - R-Flips 1",
+      "set": "BL5E",
+      "subset": "L - R-Flips",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L' R U' R L' R",
+      "alternatives": [
+        {
+          "notation": "R2 U L R' L2' U L R'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-l-flips-1",
+      "name": "BL5E R - L-Flips 1",
+      "set": "BL5E",
+      "subset": "R - L-Flips",
+      "puzzle": "Pyraminx",
+      "notation": "R2' U R L' U L2 R L'",
+      "alternatives": [
+        {
+          "notation": "R' L R2 U R' L U L2'",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-l-flips-1",
+      "name": "BL5E L - L-Flips 1",
+      "set": "BL5E",
+      "subset": "L - L-Flips",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' R U R2' L' R U L2",
+      "alternatives": [
+        {
+          "notation": "L R' L2' U' L R' U' R2",
+          "moveCount": 8
+        }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-double-sexy-1",
+      "name": "BL5E R - Double Sexy 1",
+      "set": "BL5E",
+      "subset": "R - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R U' L' U L U R'",
+      "alternatives": [
+        {
+          "notation": "L' U R U R' U' L",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-double-sexy-1",
+      "name": "BL5E L - Double Sexy 1",
+      "set": "BL5E",
+      "subset": "L - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "R L U' L' R'",
+      "alternatives": [
+        {
+          "notation": "R L' U L R'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-double-sexy-2",
+      "name": "BL5E L - Double Sexy 2",
+      "set": "BL5E",
+      "subset": "L - Double Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "L U' L' U R U' R'",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-double-ugly-1",
+      "name": "BL5E R - Double Ugly 1",
+      "set": "BL5E",
+      "subset": "R - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "L' R' U R L",
+      "alternatives": [
+        {
+          "notation": "R L U L' R'",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 5,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-double-ugly-1",
+      "name": "BL5E L - Double Ugly 1",
+      "set": "BL5E",
+      "subset": "L - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "L' U R U' R' U' L",
+      "alternatives": [
+        {
+          "notation": "L' U L R' U R",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-double-ugly-2",
+      "name": "BL5E R - Double Ugly 2",
+      "set": "BL5E",
+      "subset": "R - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "R' U R U' L' U L",
+      "alternatives": [
+        {
+          "notation": "R U R' U' L U L'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-double-ugly-2",
+      "name": "BL5E L - Double Ugly 2",
+      "set": "BL5E",
+      "subset": "L - Double Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "L' U R' U R U' L",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-super-sexy-1",
+      "name": "BL5E R - Super Sexy 1",
+      "set": "BL5E",
+      "subset": "R - Super Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U R L' U' L R'",
+      "alternatives": [
+        {
+          "notation": "L' R U' R' L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-super-sexy-1",
+      "name": "BL5E L - Super Sexy 1",
+      "set": "BL5E",
+      "subset": "L - Super Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U L U L' R U R'",
+      "alternatives": [
+        {
+          "notation": "R U' L' U' L U R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-super-sexy-2",
+      "name": "BL5E L - Super Sexy 2",
+      "set": "BL5E",
+      "subset": "L - Super Sexy",
+      "puzzle": "Pyraminx",
+      "notation": "U' R U' L U L' U R'",
+      "alternatives": [],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-super-ugly-1",
+      "name": "BL5E R - Super Ugly 1",
+      "set": "BL5E",
+      "subset": "R - Super Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' U' R L' U' L",
+      "alternatives": [
+        {
+          "notation": "R U' R' L U' L'",
+          "moveCount": 6
+        }
+      ],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-super-ugly-1",
+      "name": "BL5E L - Super Ugly 1",
+      "set": "BL5E",
+      "subset": "L - Super Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U' L' R U R' L",
+      "alternatives": [
+        {
+          "notation": "L' R' U' R L",
+          "moveCount": 5
+        }
+      ],
+      "moveCount": 6,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-r-super-ugly-2",
+      "name": "BL5E R - Super Ugly 2",
+      "set": "BL5E",
+      "subset": "R - Super Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "U L' U R' U' R U' L",
+      "alternatives": [
+        {
+          "notation": "R U' L U' L' U R'",
+          "moveCount": 7
+        }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    },
+    {
+      "id": "pyra-bl5e-l-super-ugly-2",
+      "name": "BL5E L - Super Ugly 2",
+      "set": "BL5E",
+      "subset": "L - Super Ugly",
+      "puzzle": "Pyraminx",
+      "notation": "L' U' L U R' U' R",
+      "alternatives": [],
+      "moveCount": 7,
+      "setup": "",
+      "votes": 0,
+      "source": "pyraminx-sheet"
+    }
+  ]
+}

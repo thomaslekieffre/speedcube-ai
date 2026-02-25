@@ -1,0 +1,60 @@
+{
+  "id": "ortega",
+  "name": "Ortega (2x2)",
+  "description": "The standard intermediate method for 2x2 speedcubing, also known as the Varasano method. The solver first completes one face (without worrying about correct permutation), then orients the opposite face, and finally permutes both layers simultaneously using PBL algorithms. With only about 12 algorithms total, Ortega is the go-to method for cubers looking to break sub-5 on 2x2 before learning CLL or EG.",
+  "difficulty": "intermediate",
+  "steps": [
+    {
+      "name": "First Face",
+      "description": "Solve one face of the 2x2 cube so all four stickers are the same color. Importantly, the four pieces do NOT need to be in their correct positions relative to each other — only the color orientation of one face matters. This makes the step very fast and flexible.",
+      "moveCountRange": "2-5 moves",
+      "tips": [
+        "Plan the entire first face during the 15-second inspection",
+        "Do not worry about which corners are where, just get the color right",
+        "Choose the easiest face to solve (color-neutral helps)",
+        "Aim for 4 moves or fewer"
+      ]
+    },
+    {
+      "name": "Orient Opposite Face (OLL)",
+      "description": "Orient the opposite face so all four stickers match, creating a solid color on top. There are 7 OLL cases for the 2x2 (excluding the solved case). These are short algorithms that are easy to learn and fast to execute.",
+      "algorithmSets": ["2x2 OLL"],
+      "moveCountRange": "3-7 moves",
+      "tips": [
+        "There are only 7 OLL cases to learn",
+        "Many of these algorithms are shared with 3x3 OLL",
+        "Recognition is straightforward — look at the top face pattern"
+      ]
+    },
+    {
+      "name": "PBL (Permutation of Both Layers)",
+      "description": "Permute both layers simultaneously to complete the solve. Both faces now have solid colors, and you need to rearrange the pieces so all sides are uniform. There are 6 PBL cases (including the solved and AUF-only cases). This is the defining step of Ortega.",
+      "algorithmSets": ["PBL"],
+      "moveCountRange": "4-9 moves",
+      "tips": [
+        "Learn to recognize PBL cases by looking at two adjacent sides",
+        "Practice AUF (Adjust Upper Face) before PBL to optimize",
+        "Y-perm and T-perm variants are common PBL algorithms",
+        "The adjacent-adjacent case and opposite-opposite case are most common"
+      ]
+    }
+  ],
+  "pros": [
+    "Very few algorithms to learn (approximately 12 total)",
+    "Fast to learn and implement",
+    "Good stepping stone toward CLL and EG methods",
+    "First face is very flexible since permutation does not matter",
+    "Achievable sub-4 times with practice"
+  ],
+  "cons": [
+    "Not as fast as CLL or EG for top-level solving",
+    "PBL step can feel slow compared to one-look methods",
+    "Speed ceiling around sub-3 for most solvers",
+    "Two-look last layer after face solve is inherently slower than one-look approaches"
+  ],
+  "notableUsers": [],
+  "relatedSets": ["2x2 OLL", "PBL", "CLL", "EG-1"],
+  "avgMoveCount": "11-20",
+  "yearCreated": 1982,
+  "creator": "Victor Ortega"
+}

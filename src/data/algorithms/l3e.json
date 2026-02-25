@@ -1,0 +1,88 @@
+{
+  "id": "l3e",
+  "name": "L3E",
+  "puzzle": "Pyraminx",
+  "description": "Last 3 Edges - 5 algorithms for solving the last 3 edges of the Pyraminx. Essential for sub-5 solves.",
+  "category": "Last Layer",
+  "caseCount": 5,
+  "algorithms": [
+    {
+      "id": "l3e-1",
+      "name": "Sune",
+      "set": "L3E",
+      "subset": "Orientation",
+      "puzzle": "Pyraminx",
+      "notation": "R U R' U R U R'",
+      "alternatives": [
+        {"notation": "L U L' U L U L'", "moveCount": 7, "votes": 1},
+        {"notation": "R' U R U R' U R", "moveCount": 7, "votes": 0}
+      ],
+      "moveCount": 7,
+      "setup": "L' U' L U' L' U' L",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l3e-2",
+      "name": "AntiSune",
+      "set": "L3E",
+      "subset": "Orientation",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' R U' R' U' R",
+      "alternatives": [
+        {"notation": "L' U' L U' L' U' L", "moveCount": 7, "votes": 2},
+        {"notation": "R U' R' U' R U' R'", "moveCount": 7, "votes": 1}
+      ],
+      "moveCount": 7,
+      "setup": "R U R' U R U R'",
+      "votes": 7,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l3e-3",
+      "name": "Lefty Bars",
+      "set": "L3E",
+      "subset": "Permutation",
+      "puzzle": "Pyraminx",
+      "notation": "R' U' L' U L R",
+      "alternatives": [
+        {"notation": "U L R U R' U' L'", "moveCount": 6, "votes": 0}
+      ],
+      "moveCount": 6,
+      "setup": "R' L' U' L U R",
+      "votes": 3,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l3e-4",
+      "name": "Righty Bars",
+      "set": "L3E",
+      "subset": "Permutation",
+      "puzzle": "Pyraminx",
+      "notation": "U' R' L' U' L U R",
+      "alternatives": [
+        {"notation": "L U R U' R' L'", "moveCount": 6, "votes": 0}
+      ],
+      "moveCount": 6,
+      "setup": "L R U R' U' L'",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "l3e-5",
+      "name": "2 Flip",
+      "set": "L3E",
+      "subset": "Orientation",
+      "puzzle": "Pyraminx",
+      "notation": "L R' L' R U' R U R'",
+      "alternatives": [
+        {"notation": "R' L R L' U L' U' L", "moveCount": 8, "votes": 0},
+        {"notation": "R' U L' U' L U' R", "moveCount": 7, "votes": 0}
+      ],
+      "moveCount": 8,
+      "setup": "U' R' U L' U L U' R",
+      "votes": 3,
+      "source": "speedcubedb"
+    }
+  ]
+}

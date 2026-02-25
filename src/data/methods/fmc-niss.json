@@ -1,0 +1,65 @@
+{
+  "id": "fmc-niss",
+  "name": "NISS (Normal-Inverse Scramble Switching)",
+  "description": "A fundamental FMC (Fewest Moves Challenge) technique that allows the solver to work on the scramble and its inverse interchangeably, combining moves from both directions into a single efficient solution. NISS exploits the mathematical property that solving on the inverse scramble is equivalent to prepending moves to the normal solution. By switching between normal and inverse scrambles, solvers can find blocks, pairs, and continuations that would be invisible working from only one direction. NISS is not a complete method by itself but rather a powerful technique used within FMC blockbuilding.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Explore Normal Scramble",
+      "description": "Begin by working on the normal scramble. Search for efficient blocks, pairs, or useful structures. Write down the moves you find. If you reach a point where continuation is difficult or inefficient, consider switching to the inverse.",
+      "tips": [
+        "Write down your moves clearly — you will switch between directions",
+        "Look for 2x2x2 blocks and easy pairs on the normal scramble",
+        "If the normal scramble does not yield good blocks in 4-5 moves, try the inverse",
+        "Use multiple starting moves to broaden your search"
+      ]
+    },
+    {
+      "name": "Switch to Inverse Scramble",
+      "description": "Apply the inverse of your current solution to the inverse scramble, creating a new state to work from. On this new state, continue building blocks or searching for efficient continuations. Moves found on the inverse will become premoves when translated back to the normal solution. The key insight: moves done on the inverse scramble are prepended (in reverse) to the normal solution.",
+      "tips": [
+        "To switch: take your normal solution so far, invert it, and apply it AFTER the inverse scramble",
+        "The resulting cube state is what you work on",
+        "Moves you find here will be prepended to your normal solution",
+        "You can switch back and forth multiple times"
+      ]
+    },
+    {
+      "name": "Combine Solutions",
+      "description": "Merge the moves found on normal and inverse scrambles into a single solution. Moves from the inverse scramble (in reverse order) are prepended to the normal solution. Check for cancellations where normal and inverse moves meet — adjacent moves may cancel, saving moves.",
+      "tips": [
+        "Inverse moves are placed at the beginning of the solution",
+        "Check for cancellations at the junction point between inverse and normal moves",
+        "Cancellations of 2-3 moves at the junction are common and very valuable",
+        "Verify the combined solution by applying it to the original scramble"
+      ]
+    },
+    {
+      "name": "Insertions and Finishing",
+      "description": "After combining NISS sequences, you typically have a 'skeleton' that solves most of the cube except for a few pieces (often a 3-cycle). Insert commutators into the skeleton to solve the remaining pieces, searching for maximum cancellation with existing moves.",
+      "tips": [
+        "Walk through the skeleton move by move, checking at each point if a commutator for the remaining pieces cancels well",
+        "Insertions at the beginning and end of the skeleton often cancel well with NISS junction moves",
+        "Multiple insertions can handle more than one 3-cycle",
+        "The best solutions combine NISS + insertions for maximum cancellation"
+      ]
+    }
+  ],
+  "pros": [
+    "Dramatically expands the search space for efficient solutions",
+    "Often reveals blocks and pairs invisible from one direction alone",
+    "Used by virtually all top FMC solvers",
+    "Can save 5-10 moves compared to single-direction approaches",
+    "Elegant mathematical foundation"
+  ],
+  "cons": [
+    "Mentally demanding — requires tracking moves on two scrambles",
+    "Easy to make errors when switching directions",
+    "Requires practice to develop intuition for when to switch",
+    "Not a standalone method — must be combined with blockbuilding",
+    "Adds complexity to an already complex FMC process"
+  ],
+  "notableUsers": ["Sebastiano Tronto", "Cale Schoon"],
+  "relatedSets": [],
+  "avgMoveCount": "20-28"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "seven-simul",
+  "name": "7-Simul",
+  "description": "The 7-Simul method is an expert-level Clock solving technique used for world-record-level solves. It solves the entire Clock in just seven moves, each of which simultaneously affects clocks on both the front and back faces. Crucially, it requires no flip, meaning the solver never turns the puzzle over. This method demands exceptional mental calculation and deep understanding of Clock mechanics.",
+  "difficulty": "expert",
+  "steps": [
+    {
+      "name": "Analyze Scramble",
+      "description": "During inspection, calculate all seven moves needed to solve the Clock. Each move must be planned to simultaneously correct clocks on both faces, and the entire solution must be computed before execution begins.",
+      "tips": [
+        "This step is entirely mental — no physical moves are made",
+        "Develop a systematic approach to calculating simultaneous front/back corrections",
+        "Practice mental math for clock arithmetic (mod 12)",
+        "Speed of analysis directly determines solve time"
+      ]
+    },
+    {
+      "name": "Execute 7 Simultaneous Moves",
+      "description": "Execute exactly seven pre-planned moves. Each move involves setting pins and turning wheels to simultaneously solve clocks on both the front and back faces. No flip is performed at any point during the solve.",
+      "tips": [
+        "Execute moves as quickly as possible — all planning is done",
+        "Develop fast and precise finger techniques for pin pressing and wheel turning",
+        "Minimize hesitation between moves",
+        "Practice the physical execution separately from the mental planning"
+      ]
+    }
+  ],
+  "pros": [
+    "Fastest possible Clock method — used for world records",
+    "No flip required, saving significant time",
+    "Only 7 moves for a complete solve",
+    "Simultaneous solving is maximally efficient"
+  ],
+  "cons": [
+    "Extremely difficult mental calculation required",
+    "Requires complete mastery of Clock mechanics and interactions",
+    "Very steep learning curve even for experienced Clock solvers",
+    "Inspection time limits can be a constraint in competition"
+  ],
+  "notableUsers": [],
+  "relatedSets": []
+}

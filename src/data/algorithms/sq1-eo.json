@@ -1,0 +1,107 @@
+{
+  "id": "sq1-eo",
+  "name": "SQ1 EO",
+  "puzzle": "Square-1",
+  "description": "Edge Orientation algorithms for Square-1 - 7 cases. These algorithms orient the edges after corners are oriented.",
+  "category": "orientation",
+  "caseCount": 7,
+  "algorithms": [
+    {
+      "id": "sq1-eo-1",
+      "name": "1-1",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,0 / 3,0 / -1,-1 / -2,1 / -3,0 / -1,0",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "1,0 / 3,0 / 2,-1 / 1,1 / -3,0 / -3,0 / -1,0",
+      "votes": 4,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-2",
+      "name": "I-I",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -1,-1 / 0,1",
+      "alternatives": [
+        { "notation": "0,-1 / 1,1 / -1,0", "moveCount": 5, "votes": 0 }
+      ],
+      "moveCount": 5,
+      "setup": "0,-1 / 1,1 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-3",
+      "name": "L-L",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -4,-1 / 1,1 / 3,0 / -1,0",
+      "alternatives": [],
+      "moveCount": 9,
+      "setup": "1,0 / -4,-1 / 1,1 / 3,0 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-4",
+      "name": "L-I",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,0 / 3,0 / -1,-1 / -2,1 / -4,-1 / 0,1",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "0,-1 / 4,1 / 2,-1 / 1,1 / -3,0 / -3,0 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-5",
+      "name": "3-3",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / 3,0 / 3,0 / -1,-1 / -3,0 / -3,0 / 0,1",
+      "alternatives": [
+        { "notation": "0,-1 / 3,0 / 3,0 / 1,1 / -3,0 / -3,0 / -1,0", "moveCount": 13, "votes": 0 }
+      ],
+      "moveCount": 13,
+      "setup": "0,-1 / 3,0 / 3,0 / 1,1 / -3,0 / -3,0 / -1,0",
+      "votes": 0,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-6",
+      "name": "4-4",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -1,-1 / -2,4 / -1,-1 / 1,0",
+      "alternatives": [
+        { "notation": "1,0 / -1,-1 / 3,3 / 1,1 / -1,0", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "1,0 / -1,-1 / -3,-3 / 1,1 / -1,0",
+      "votes": 1,
+      "source": "speedcubedb"
+    },
+    {
+      "id": "sq1-eo-7",
+      "name": "I-L",
+      "set": "SQ1 EO",
+      "subset": "EO",
+      "puzzle": "Square-1",
+      "notation": "1,0 / -3,0 / 3,0 / -1,-1 / -3,0 / 3,0 / 0,1",
+      "alternatives": [],
+      "moveCount": 13,
+      "setup": "0,-1 / -3,0 / 3,0 / 1,1 / -3,0 / 3,0 / -1,0",
+      "votes": -1,
+      "source": "speedcubedb"
+    }
+  ]
+}

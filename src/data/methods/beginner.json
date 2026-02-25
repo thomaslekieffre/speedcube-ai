@@ -1,0 +1,57 @@
+{
+  "id": "beginner",
+  "name": "Beginner's Method (LBL)",
+  "description": "The layer-by-layer method most people learn first. Solves the cube one layer at a time with a small set of easy-to-memorize algorithms.",
+  "difficulty": "beginner",
+  "steps": [
+    {
+      "name": "White Cross",
+      "description": "Form a plus sign on the white face, ensuring edge pieces match adjacent center colors.",
+      "moveCountRange": "6-10 moves",
+      "tips": ["Daisy method: make a yellow cross first, then flip edges down", "Match edge colors to centers"]
+    },
+    {
+      "name": "White Corners",
+      "description": "Insert the 4 white corner pieces to complete the first layer.",
+      "moveCountRange": "12-16 moves",
+      "tips": ["Use R U R' U' trigger repeatedly", "Position corner above its slot", "Repeat up to 5 times per corner"]
+    },
+    {
+      "name": "Second Layer Edges",
+      "description": "Insert the 4 middle layer edge pieces using two mirror algorithms.",
+      "moveCountRange": "16-24 moves",
+      "tips": ["Only 2 algorithms needed (left and right insert)", "Find edges in top layer", "If edge is flipped, insert wrong then redo"]
+    },
+    {
+      "name": "Yellow Cross",
+      "description": "Form a yellow cross on the top face (orientation only).",
+      "moveCountRange": "4-8 moves",
+      "tips": ["F R U R' U' F' is the key algorithm", "May need to repeat 1-3 times", "Dot \u2192 L \u2192 Line \u2192 Cross"]
+    },
+    {
+      "name": "Yellow Face",
+      "description": "Orient all yellow corners so the entire top face is yellow.",
+      "moveCountRange": "8-14 moves",
+      "tips": ["R U R' U R U2 R' is the key algorithm", "Apply to each unoriented corner", "Don't panic if cube looks scrambled mid-algorithm"]
+    },
+    {
+      "name": "Position Yellow Corners",
+      "description": "Move yellow corners to their correct positions (ignoring orientation which is already done).",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Look for a corner that's already correct", "U R U' L' U R' U' L cycle", "May need to repeat"]
+    },
+    {
+      "name": "Position Yellow Edges",
+      "description": "Cycle the last layer edges into their correct positions to complete the solve.",
+      "moveCountRange": "8-12 moves",
+      "tips": ["Find one solved edge and position it at back", "R U' R U R U R U' R' U' R2 cycle", "Clockwise or counterclockwise"]
+    }
+  ],
+  "pros": ["Easy to learn and memorize", "Very few algorithms (5-7)", "Great foundation for CFOP", "Abundant tutorials available"],
+  "cons": ["Very high move count (~120+ moves)", "Slow solve times", "Not efficient for speed", "Layer restriction limits optimization"],
+  "notableUsers": [],
+  "relatedSets": [],
+  "avgMoveCount": "100-130",
+  "yearCreated": 1980,
+  "creator": "David Singmaster"
+}

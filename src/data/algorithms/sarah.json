@@ -1,0 +1,173 @@
+{
+  "id": "sarah",
+  "name": "Sarah",
+  "puzzle": "Skewb",
+  "description": "Sarah's intermediate method for Skewb - 11 cases for the last layer. After solving the first layer (one face plus adjacent centers), these algorithms complete the puzzle.",
+  "category": "last-layer",
+  "caseCount": 11,
+  "algorithms": [
+    {
+      "id": "sarah-o1",
+      "name": "Sarah Oriented 1 (Solved)",
+      "set": "Sarah",
+      "subset": "Oriented",
+      "puzzle": "Skewb",
+      "notation": "(solved)",
+      "alternatives": [],
+      "moveCount": 0,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-o2",
+      "name": "Sarah Oriented 2 (Pi)",
+      "set": "Sarah",
+      "subset": "Oriented",
+      "puzzle": "Skewb",
+      "notation": "R L R' L' R L R' L'",
+      "alternatives": [
+        { "notation": "L' R' L R L' R' L R", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-1c1",
+      "name": "Sarah 1-Corner CW",
+      "set": "Sarah",
+      "subset": "1 Corner",
+      "puzzle": "Skewb",
+      "notation": "R' L R L'",
+      "alternatives": [
+        { "notation": "L R' L' R", "moveCount": 4, "votes": 0 }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-1c2",
+      "name": "Sarah 1-Corner CCW",
+      "set": "Sarah",
+      "subset": "1 Corner",
+      "puzzle": "Skewb",
+      "notation": "L R' L' R",
+      "alternatives": [
+        { "notation": "R' L R L'", "moveCount": 4, "votes": 0 }
+      ],
+      "moveCount": 4,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-2c1",
+      "name": "Sarah 2-Corner Adjacent CW",
+      "set": "Sarah",
+      "subset": "2 Corners",
+      "puzzle": "Skewb",
+      "notation": "R' L R L' R' L R L'",
+      "alternatives": [
+        { "notation": "L R' L' R L R' L' R", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-2c2",
+      "name": "Sarah 2-Corner Adjacent CCW",
+      "set": "Sarah",
+      "subset": "2 Corners",
+      "puzzle": "Skewb",
+      "notation": "L R' L' R L R' L' R",
+      "alternatives": [
+        { "notation": "R' L R L' R' L R L'", "moveCount": 8, "votes": 0 }
+      ],
+      "moveCount": 8,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-2c3",
+      "name": "Sarah 2-Corner Opposite CW",
+      "set": "Sarah",
+      "subset": "2 Corners",
+      "puzzle": "Skewb",
+      "notation": "R' L R L' U R' L R L'",
+      "alternatives": [
+        { "notation": "L R' L' R U' L R' L' R", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-2c4",
+      "name": "Sarah 2-Corner Opposite CCW",
+      "set": "Sarah",
+      "subset": "2 Corners",
+      "puzzle": "Skewb",
+      "notation": "L R' L' R U' L R' L' R",
+      "alternatives": [
+        { "notation": "R' L R L' U R' L R L'", "moveCount": 9, "votes": 0 }
+      ],
+      "moveCount": 9,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-3c1",
+      "name": "Sarah 3-Corner CW",
+      "set": "Sarah",
+      "subset": "3 Corners",
+      "puzzle": "Skewb",
+      "notation": "R' L R L' R' L R L' R' L R L'",
+      "alternatives": [
+        { "notation": "L R' L' R L R' L' R L R' L' R", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-3c2",
+      "name": "Sarah 3-Corner CCW",
+      "set": "Sarah",
+      "subset": "3 Corners",
+      "puzzle": "Skewb",
+      "notation": "L R' L' R L R' L' R L R' L' R",
+      "alternatives": [
+        { "notation": "R' L R L' R' L R L' R' L R L'", "moveCount": 12, "votes": 0 }
+      ],
+      "moveCount": 12,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    },
+    {
+      "id": "sarah-3c3",
+      "name": "Sarah 3-Corner Mixed",
+      "set": "Sarah",
+      "subset": "3 Corners",
+      "puzzle": "Skewb",
+      "notation": "R' L R L' U R' L R L' U",
+      "alternatives": [
+        { "notation": "L R' L' R U' L R' L' R U'", "moveCount": 10, "votes": 0 }
+      ],
+      "moveCount": 10,
+      "setup": "",
+      "votes": 0,
+      "source": "curated"
+    }
+  ]
+}
