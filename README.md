@@ -151,7 +151,3 @@ Every push to `main` triggers automatic deployment.
 | `pnpm run scrape:wca` | Scrape WCA world records |
 | `pnpm run scrape:all` | Run all scrapers |
 | `pnpm run generate` | Validate data + regenerate index |
-
-## License
-
-Private project. All rights reserved.
