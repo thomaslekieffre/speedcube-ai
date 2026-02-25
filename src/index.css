@@ -1,0 +1,372 @@
+@import "tailwindcss";
+
+/* ============================================================
+   DARK THEME
+   ============================================================ */
+.dark {
+  color-scheme: dark;
+  --color-background: #08080d;
+  --color-surface: #0e0e16;
+  --color-card: #14141f;
+  --color-card-hover: #1c1c29;
+  --color-muted: #252532;
+  --color-foreground: #ededf0;
+  --color-muted-foreground: #8585a0;
+  --color-primary: #ef4444;
+  --color-primary-hover: #dc2626;
+  --color-accent: #8b5cf6;
+  --color-warning: #f59e0b;
+  --color-destructive: #ef4444;
+  --color-success: #22c55e;
+  --color-border: rgba(180, 180, 220, 0.08);
+  --color-border-hover: rgba(180, 180, 220, 0.16);
+
+  --color-overlay: rgba(180, 180, 255, 0.04);
+  --color-overlay-hover: rgba(180, 180, 255, 0.07);
+  --color-overlay-strong: rgba(180, 180, 255, 0.10);
+  --color-overlay-intense: rgba(180, 180, 255, 0.14);
+  --color-overlay-muted: rgba(180, 180, 255, 0.03);
+  --color-overlay-subtle: rgba(180, 180, 255, 0.02);
+
+  /* Backward compat — glass vars now point to solid card surfaces */
+  --glass-from: #14141f;
+  --glass-to: #14141f;
+  --glass-hover-from: #1c1c29;
+  --glass-hover-to: #1c1c29;
+  --glass-border: rgba(180, 180, 220, 0.08);
+  --glass-border-hover: rgba(180, 180, 220, 0.16);
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 10, 0.5);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 20, 0.6);
+  --shadow-glow-primary: 0 0 24px rgba(239, 68, 68, 0.15);
+  --shadow-glow-accent: 0 0 24px rgba(139, 92, 246, 0.15);
+
+  --scrollbar-thumb: rgba(180, 180, 220, 0.08);
+  --scrollbar-thumb-hover: rgba(180, 180, 220, 0.16);
+  --selection-bg: rgba(239, 68, 68, 0.3);
+
+  --grid-line: rgba(140, 140, 200, 0.02);
+}
+
+/* ============================================================
+   LIGHT THEME
+   ============================================================ */
+.light {
+  color-scheme: light;
+  --color-background: #fafaf9;
+  --color-surface: #ffffff;
+  --color-card: #ffffff;
+  --color-card-hover: #f5f5f4;
+  --color-muted: #f4f4f5;
+  --color-foreground: #0a0a0b;
+  --color-muted-foreground: #71717a;
+  --color-primary: #dc2626;
+  --color-primary-hover: #b91c1c;
+  --color-accent: #7c3aed;
+  --color-warning: #d97706;
+  --color-destructive: #dc2626;
+  --color-success: #16a34a;
+  --color-border: rgba(0, 0, 0, 0.07);
+  --color-border-hover: rgba(0, 0, 0, 0.15);
+
+  --color-overlay: rgba(0, 0, 0, 0.025);
+  --color-overlay-hover: rgba(0, 0, 0, 0.05);
+  --color-overlay-strong: rgba(0, 0, 0, 0.075);
+  --color-overlay-intense: rgba(0, 0, 0, 0.10);
+  --color-overlay-muted: rgba(0, 0, 0, 0.02);
+  --color-overlay-subtle: rgba(0, 0, 0, 0.01);
+
+  --glass-from: #ffffff;
+  --glass-to: #ffffff;
+  --glass-hover-from: #f5f5f4;
+  --glass-hover-to: #f5f5f4;
+  --glass-border: rgba(0, 0, 0, 0.07);
+  --glass-border-hover: rgba(0, 0, 0, 0.15);
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-glow-primary: 0 0 24px rgba(220, 38, 38, 0.08);
+  --shadow-glow-accent: 0 0 24px rgba(124, 58, 237, 0.08);
+
+  --scrollbar-thumb: rgba(0, 0, 0, 0.1);
+  --scrollbar-thumb-hover: rgba(0, 0, 0, 0.2);
+  --selection-bg: rgba(220, 38, 38, 0.2);
+
+  --grid-line: rgba(0, 0, 0, 0.03);
+}
+
+/* ============================================================
+   THEME (Tailwind tokens — shared)
+   ============================================================ */
+@theme {
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-card: var(--color-card);
+  --color-muted: var(--color-muted);
+  --color-foreground: var(--color-foreground);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-accent: var(--color-accent);
+  --color-warning: var(--color-warning);
+  --color-destructive: var(--color-destructive);
+  --color-success: var(--color-success);
+  --color-border: var(--color-border);
+  --color-border-hover: var(--color-border-hover);
+  --color-overlay: var(--color-overlay);
+  --color-overlay-hover: var(--color-overlay-hover);
+  --color-overlay-strong: var(--color-overlay-strong);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-base: 0.75rem;
+  --radius-sm: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+
+  --shadow-card: var(--shadow-card);
+  --shadow-hover: var(--shadow-hover);
+  --shadow-glow-primary: var(--shadow-glow-primary);
+  --shadow-glow-accent: var(--shadow-glow-accent);
+
+  --animate-duration-fast: 150ms;
+  --animate-duration-base: 200ms;
+  --animate-duration-slow: 300ms;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-variant-numeric: tabular-nums;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* ============================================================
+   NATIVE SELECT OPTIONS
+   ============================================================ */
+.dark select option {
+  background: var(--color-card);
+  color: var(--color-foreground);
+}
+.light select option {
+  background: var(--color-card);
+  color: var(--color-foreground);
+}
+
+/* ============================================================
+   GLASS EFFECT (legacy compat — simplified to solid)
+   ============================================================ */
+.glass {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+}
+
+.glass-hover:hover {
+  background: var(--color-card-hover);
+  border-color: var(--color-border-hover);
+}
+
+/* ============================================================
+   GLOW
+   ============================================================ */
+.glow-primary {
+  box-shadow: var(--shadow-glow-primary);
+}
+.glow-accent {
+  box-shadow: var(--shadow-glow-accent);
+}
+
+/* ============================================================
+   GRADIENT TEXT
+   ============================================================ */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================================
+   BACKGROUND PATTERNS
+   ============================================================ */
+.bg-grid {
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+.bg-noise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ============================================================
+   SELECTION & FOCUS
+   ============================================================ */
+::selection {
+  background: var(--selection-bg);
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-background), 0 0 0 4px var(--color-primary);
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+@keyframes animated-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: animated-gradient 8s ease infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* ============================================================
+   CREATIVE EFFECTS
+   ============================================================ */
+
+/* Animated gradient text */
+.gradient-text-animated {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent), var(--color-primary));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: animated-gradient 6s ease infinite;
+}
+
+/* Pulsing decorative dot */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.5); }
+}
+.animate-pulse-dot {
+  animation: pulse-dot 3s ease-in-out infinite;
+}
+
+/* Slow floating for decorative shapes */
+@keyframes float-geometric {
+  0%, 100% { transform: translateY(0) rotate(var(--float-rotate, 12deg)); }
+  50% { transform: translateY(-8px) rotate(calc(var(--float-rotate, 12deg) + 3deg)); }
+}
+.animate-float-geo {
+  animation: float-geometric 8s ease-in-out infinite;
+}
+
+/* Row entrance animation for tables */
+@keyframes fade-slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-row {
+  animation: fade-slide-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Animated underline on hover */
+.animated-underline {
+  position: relative;
+  display: inline-block;
+}
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  border-radius: 1px;
+  transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.group:hover .animated-underline::after,
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+/* Gradient line decoration */
+.gradient-line {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  border-radius: 999px;
+}
+
+/* Scale bounce on hover (for icons) */
+@keyframes icon-bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1.1); }
+}
+.group:hover .icon-hover-bounce {
+  animation: icon-bounce 0.3s ease forwards;
+}
