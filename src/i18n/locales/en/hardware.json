@@ -1,0 +1,55 @@
+{
+  "searchPlaceholder": "Search hardware...",
+  "cubes": "Cubes",
+  "lubes": "Lubes",
+  "features": "+{{count}} more",
+  "smart": "Smart",
+  "allFeatures": "Features",
+  "bestFor": "Best for",
+  "tiers": {
+    "flagship": "Flagship",
+    "mid": "Mid-range",
+    "budget": "Budget"
+  },
+  "types": {
+    "silicone": "Silicone",
+    "water-based": "Water-based",
+    "hybrid": "Hybrid"
+  },
+  "viscosities": {
+    "light": "Light",
+    "medium": "Medium",
+    "heavy": "Heavy"
+  },
+  "filters": {
+    "brand": "Brand",
+    "allBrands": "All brands",
+    "magnetic": "Magnetic",
+    "nonMagnetic": "Non-magnetic",
+    "allMagnetic": "Magnetic: All",
+    "smartCube": "Smart Cube",
+    "year": "Year",
+    "allYears": "All years",
+    "allTiers": "All tiers",
+    "type": "Type",
+    "allTypes": "All types",
+    "viscosity": "Viscosity",
+    "allViscosities": "All viscosities"
+  },
+  "sort": {
+    "label": "Sort by",
+    "priceAsc": "Price ↑",
+    "priceDesc": "Price ↓",
+    "nameAz": "Name A-Z",
+    "newest": "Newest"
+  },
+  "loadMore": "Show more ({{count}} remaining)",
+  "showing": "Showing {{visible}} of {{total}}",
+  "detail": {
+    "features": "Features",
+    "rating": "Rating",
+    "noReviews": "No reviews yet",
+    "reviews": "{{count}} reviews",
+    "review": "{{count}} review"
+  }
+}

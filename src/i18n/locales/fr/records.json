@@ -1,0 +1,8 @@
+{
+  "count": "{{count}} épreuves WCA",
+  "searchPlaceholder": "Rechercher épreuves ou détenteurs...",
+  "event": "Épreuve",
+  "single": "Single",
+  "average": "Moyenne",
+  "holder": "Détenteur"
+}

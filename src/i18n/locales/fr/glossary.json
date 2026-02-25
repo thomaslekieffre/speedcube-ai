@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Rechercher des termes...",
+  "count": "{{count}} termes",
+  "related": "Associés :",
+  "categories": {
+    "all": "Tous",
+    "notation": "Notation",
+    "competition": "Compétition",
+    "technique": "Technique",
+    "hardware": "Matériel",
+    "method": "Méthode",
+    "general": "Général"
+  }
+}

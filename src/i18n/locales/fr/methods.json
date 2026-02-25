@@ -1,0 +1,15 @@
+{
+  "count": "{{count}} méthodes de résolution — du débutant au niveau expert.",
+  "by": "par {{creator}} ({{year}})",
+  "searchPlaceholder": "Rechercher...",
+  "steps": "Étapes",
+  "pros": "Avantages",
+  "cons": "Inconvénients",
+  "notableUsers": "Utilisateurs notables",
+  "relatedSets": "Sets d'algorithmes liés",
+  "createdBy": "Créé par {{creator}}",
+  "notFound": "Méthode introuvable.",
+  "backToMethods": "Retour aux méthodes",
+  "movesLabel": "~{{val}} mouvements",
+  "tips": "Conseils"
+}

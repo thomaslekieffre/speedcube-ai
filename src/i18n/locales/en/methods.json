@@ -1,0 +1,15 @@
+{
+  "count": "{{count}} solving methods — from beginner to expert level.",
+  "by": "by {{creator}} ({{year}})",
+  "searchPlaceholder": "Search...",
+  "steps": "Steps",
+  "pros": "Pros",
+  "cons": "Cons",
+  "notableUsers": "Notable Users",
+  "relatedSets": "Related Algorithm Sets",
+  "createdBy": "Created by {{creator}}",
+  "notFound": "Method not found.",
+  "backToMethods": "Back to methods",
+  "movesLabel": "~{{val}} moves",
+  "tips": "Tips"
+}

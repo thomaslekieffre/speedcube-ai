@@ -1,0 +1,15 @@
+{
+  "description": "Parcours d'apprentissage structurés pour améliorer votre vitesse.",
+  "target": "Objectif : {{target}}",
+  "milestones": "{{name}} — Étapes",
+  "skills": "Compétences",
+  "algoSets": "Sets d'algorithmes",
+  "estimatedTime": "Temps estimé",
+  "pathCount": "{{count}} parcours pour guider votre progression.",
+  "backToPaths": "Tous les parcours",
+  "filters": {
+    "3x3": "3x3",
+    "2x2": "2x2",
+    "specialty": "Spécialité"
+  }
+}

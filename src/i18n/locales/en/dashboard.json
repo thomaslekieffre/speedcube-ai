@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "badge": "Knowledge Base",
+    "title": "SpeedCube AI",
+    "description": "The complete speedcubing knowledge base. Algorithms, methods, hardware, records, and everything you need to get faster.",
+    "browseAlgorithms": "Browse Algorithms",
+    "startLearning": "Start Learning"
+  },
+  "stats": {
+    "algorithms": "Algorithms",
+    "methods": "Methods",
+    "wcaEvents": "WCA Events",
+    "cubes": "Cubes"
+  },
+  "explore": "Explore",
+  "featured": "Popular Algorithm Sets",
+  "quickLinks": {
+    "algorithms": { "label": "Algorithms", "desc": "Browse algorithm sets across all puzzles" },
+    "methods": { "label": "Methods", "desc": "Learn CFOP, Roux, ZZ, and more" },
+    "hardware": { "label": "Hardware", "desc": "Top cubes and lubes reviewed" },
+    "records": { "label": "Records", "desc": "Current WCA world records" },
+    "tips": { "label": "Tips", "desc": "Improve your solving technique" },
+    "learning": { "label": "Learning", "desc": "Structured paths to get faster" }
+  }
+}

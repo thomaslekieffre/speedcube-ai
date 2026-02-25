@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "badge": "Base de connaissances",
+    "title": "SpeedCube AI",
+    "description": "La base de connaissances complète du speedcubing. Algorithmes, méthodes, matériel, records et tout ce dont vous avez besoin pour progresser.",
+    "browseAlgorithms": "Parcourir les algorithmes",
+    "startLearning": "Commencer à apprendre"
+  },
+  "stats": {
+    "algorithms": "Algorithmes",
+    "methods": "Méthodes",
+    "wcaEvents": "Épreuves WCA",
+    "cubes": "Cubes"
+  },
+  "explore": "Explorer",
+  "featured": "Sets d'algorithmes populaires",
+  "quickLinks": {
+    "algorithms": { "label": "Algorithmes", "desc": "Parcourir les sets d'algorithmes pour tous les puzzles" },
+    "methods": { "label": "Méthodes", "desc": "Apprendre CFOP, Roux, ZZ et plus" },
+    "hardware": { "label": "Matériel", "desc": "Meilleurs cubes et lubrifiants testés" },
+    "records": { "label": "Records", "desc": "Records du monde WCA actuels" },
+    "tips": { "label": "Astuces", "desc": "Améliorer votre technique de résolution" },
+    "learning": { "label": "Apprentissage", "desc": "Parcours structurés pour progresser" }
+  }
+}

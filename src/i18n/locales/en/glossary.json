@@ -1,0 +1,14 @@
+{
+  "searchPlaceholder": "Search terms...",
+  "count": "{{count}} terms",
+  "related": "Related:",
+  "categories": {
+    "all": "All",
+    "notation": "Notation",
+    "competition": "Competition",
+    "technique": "Technique",
+    "hardware": "Hardware",
+    "method": "Method",
+    "general": "General"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "count": "{{count}} WCA events",
+  "searchPlaceholder": "Search events or holders...",
+  "event": "Event",
+  "single": "Single",
+  "average": "Average",
+  "holder": "Holder"
+}

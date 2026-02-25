@@ -1,0 +1,55 @@
+{
+  "searchPlaceholder": "Rechercher du matériel...",
+  "cubes": "Cubes",
+  "lubes": "Lubrifiants",
+  "features": "+{{count}} de plus",
+  "smart": "Smart",
+  "allFeatures": "Caractéristiques",
+  "bestFor": "Idéal pour",
+  "tiers": {
+    "flagship": "Haut de gamme",
+    "mid": "Milieu de gamme",
+    "budget": "Entrée de gamme"
+  },
+  "types": {
+    "silicone": "Silicone",
+    "water-based": "À base d'eau",
+    "hybrid": "Hybride"
+  },
+  "viscosities": {
+    "light": "Légère",
+    "medium": "Moyenne",
+    "heavy": "Épaisse"
+  },
+  "filters": {
+    "brand": "Marque",
+    "allBrands": "Toutes les marques",
+    "magnetic": "Magnétique",
+    "nonMagnetic": "Non-magnétique",
+    "allMagnetic": "Aimants : tous",
+    "smartCube": "Smart Cube",
+    "year": "Année",
+    "allYears": "Toutes les années",
+    "allTiers": "Tous les niveaux",
+    "type": "Type",
+    "allTypes": "Tous les types",
+    "viscosity": "Viscosité",
+    "allViscosities": "Toutes viscosités"
+  },
+  "sort": {
+    "label": "Trier par",
+    "priceAsc": "Prix ↑",
+    "priceDesc": "Prix ↓",
+    "nameAz": "Nom A-Z",
+    "newest": "Plus récent"
+  },
+  "loadMore": "Voir plus ({{count}} restants)",
+  "showing": "Affichage {{visible}} sur {{total}}",
+  "detail": {
+    "features": "Caractéristiques",
+    "rating": "Note",
+    "noReviews": "Aucun avis pour le moment",
+    "reviews": "{{count}} avis",
+    "review": "{{count}} avis"
+  }
+}

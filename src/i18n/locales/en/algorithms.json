@@ -1,0 +1,15 @@
+{
+  "setsCount": "{{count}} sets",
+  "algosCount": "{{count}} algorithms",
+  "searchPlaceholder": "Search algorithm sets...",
+  "searchInSet": "Search {{count}} algorithms...",
+  "noResults": "No algorithm sets found matching your criteria.",
+  "noAlgosResults": "No algorithms found matching \"{{query}}\".",
+  "notFound": "Algorithm set not found.",
+  "backToAlgorithms": "Back to algorithms",
+  "alternatives": "{{count}} alternative",
+  "alternatives_plural": "{{count}} alternatives",
+  "setup": "Setup",
+  "replay": "Replay",
+  "selectToPlay": "Click an alternative to visualize it"
+}

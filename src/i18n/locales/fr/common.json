@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "algorithms": "Algorithmes",
+    "methods": "Méthodes",
+    "hardware": "Matériel",
+    "records": "Records",
+    "tips": "Astuces",
+    "glossary": "Glossaire",
+    "learning": "Apprentissage"
+  },
+  "search": {
+    "placeholder": "Rechercher...",
+    "commandPlaceholder": "Rechercher algorithmes, méthodes, matériel...",
+    "noResults": "Aucun résultat trouvé.",
+    "pages": "Pages",
+    "results": "Résultats",
+    "types": {
+      "algo": "Algo",
+      "method": "Méthode",
+      "hardware": "Matos",
+      "record": "Record",
+      "term": "Terme",
+      "tip": "Astuce"
+    }
+  },
+  "actions": {
+    "copy": "Copier",
+    "copied": "Copié !",
+    "viewAll": "Voir tout",
+    "details": "Détails",
+    "back": "Retour",
+    "backTo": "Retour à {{page}}"
+  },
+  "badges": {
+    "cases": "{{count}} cas",
+    "subsets": "{{count}} sous-ensembles",
+    "steps": "{{count}} étapes",
+    "moves": "~{{count}} mouvements",
+    "etm": "{{count}} ETM",
+    "smart": "Smart"
+  },
+  "levels": {
+    "all": "Tous",
+    "beginner": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé",
+    "expert": "Expert"
+  },
+  "puzzles": {
+    "all": "Tous",
+    "3x3": "3x3",
+    "2x2": "2x2",
+    "4x4": "4x4",
+    "pyraminx": "Pyraminx",
+    "skewb": "Skewb",
+    "square1": "Square-1",
+    "megaminx": "Megaminx"
+  },
+  "categories": {
+    "all": "Tous",
+    "notation": "Notation",
+    "competition": "Compétition",
+    "technique": "Technique",
+    "hardware": "Matériel",
+    "method": "Méthode",
+    "general": "Général"
+  },
+  "footer": {
+    "tagline": "Construit avec passion pour le speedcubing.",
+    "navigation": "Navigation",
+    "stats": "Statistiques",
+    "algorithms": "algorithmes",
+    "sets": "sets d'algorithmes",
+    "methods": "méthodes",
+    "cubes": "cubes testés",
+    "built": "Construit avec passion pour le speedcubing"
+  },
+  "notFound": {
+    "message": "Cette page n'existe pas. L'algorithme a peut-être été permuté ?",
+    "backHome": "Retour au tableau de bord"
+  },
+  "lang": {
+    "switched": "Langue changée en français"
+  },
+  "filters": {
+    "all": "Tous",
+    "refine": "Filtres"
+  },
+  "sidebar": {
+    "explore": "Explorer",
+    "resources": "Ressources",
+    "quickSearch": "Recherche rapide"
+  },
+  "chat": {
+    "title": "SpeedCube AI",
+    "subtitle": "Pose-moi tes questions sur le cubing",
+    "placeholder": "Demande-moi sur les algos, méthodes, tips...",
+    "welcome": "Comment puis-je t'aider ?",
+    "welcomeDesc": "Je peux répondre à tes questions sur les algorithmes, méthodes, matériel, techniques et tout le speedcubing.",
+    "suggestion1": "Meilleure méthode pour sub-20 ?",
+    "suggestion2": "Comment apprendre le F2L ?",
+    "suggestion3": "OLL vs 2-Look OLL ?",
+    "clear": "Effacer le chat",
+    "retry": "Réessayer",
+    "disclaimer": "Réponses basées uniquement sur la base de données locale",
+    "noApiKey": "Ajoutez VITE_OPENROUTER_API_KEY dans votre fichier .env pour activer l'assistant IA. Clé gratuite sur openrouter.ai/keys.",
+    "quotaError": "Limite de requêtes atteinte. Attends une minute et réessaie — le tier gratuit permet 15 requêtes/minute.",
+    "sugAlgo1": "Différence OLL et 2-Look OLL ?",
+    "sugAlgo2": "Meilleurs algos PLL à apprendre ?",
+    "sugAlgo3": "Combien d'algos en CFOP complet ?",
+    "sugMethod1": "CFOP vs Roux, lequel choisir ?",
+    "sugMethod2": "C'est quoi la méthode ZZ ?",
+    "sugMethod3": "Meilleure méthode pour débuter ?",
+    "sugHw1": "Meilleur cube 3x3 pour débuter ?",
+    "sugHw2": "Quel lube utiliser ?",
+    "sugHw3": "Cube flagship vs budget ?",
+    "sugTip1": "Comment améliorer mon lookahead ?",
+    "sugTip2": "Conseils pour passer sub-20 ?",
+    "sugTip3": "Comment bien planifier la croix ?"
+  }
+}
