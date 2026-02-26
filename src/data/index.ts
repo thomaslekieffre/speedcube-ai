@@ -1,6 +1,6 @@
 /**
  * Auto-generated data index - DO NOT EDIT MANUALLY
- * Generated at: 2026-02-24T15:20:05.353Z
+ * Generated at: 2026-02-26T10:23:48.693Z
  * Run: npx tsx scripts/generate-knowledge.ts
  */
 

@@ -626,6 +626,37 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/2x2_20Christmas_20Cube_20with_20Starry_20Night_20Stickers.jpg?v=1733350966"
   },
   {
+    "id": "2x2-keyboard-cube",
+    "name": "2x2 Keyboard Cube",
+    "brand": "Calvin's Puzzle",
+    "puzzle": "2x2",
+    "price": "$13.99",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2022,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/products/2x2_20Keyboard_20Cube.jpg?v=1661997946"
+  },
+  {
+    "id": "dayan-tengyun-2x2-magnetic",
+    "name": "DaYan TengYun 2x2 (Magnetic)",
+    "brand": "DaYan",
+    "puzzle": "2x2",
+    "price": "$13.85",
+    "tier": "budget",
+    "features": [
+      "Magnetic",
+      "Corner cutting"
+    ],
+    "releaseYear": 2024,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/dayan-tengyun-2x2-magnetic-stickerless.jpg?v=1771619483"
+  },
+  {
     "id": "cyclone-boys-metallic-2x2-magnetic",
     "name": "Cyclone Boys Metallic 2x2 (Magnetic)",
     "brand": "Cyclone Boys",
@@ -846,21 +877,6 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ShengShou_202x2_20FTO_20_Magnetic.jpg?v=1744398359"
-  },
-  {
-    "id": "ziina-dollar-4x4",
-    "name": "Ziina Dollar 4x4",
-    "brand": "Ziina",
-    "puzzle": "4x4",
-    "price": "$9.99",
-    "tier": "budget",
-    "features": [
-      "Stickerless"
-    ],
-    "releaseYear": 2025,
-    "magnetic": false,
-    "smartCube": false,
-    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Dollar_204x4_28c008fc-96d6-4b14-a548-0eb83e34c731.png?v=1764786757"
   },
   {
     "id": "mfjs-meilong-2x2-3x3-pack",
@@ -6592,6 +6608,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/dayan-guhong-pro-3x3-magnetic-maglev-core-magnets-56mm_497beac2.jpg?v=1771619502"
   },
   {
+    "id": "gan-356-rs-2-3x3",
+    "name": "GAN 356 RS 2 3x3",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$14.58",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2023,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/GAN-356-RS-2.jpg?v=1771619412"
+  },
+  {
     "id": "yj-mgc-v2-3x3",
     "name": "YJ MGC V2 3x3",
     "brand": "YJ",
@@ -7788,6 +7819,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/FanXin_20UFO_20Cube.png?v=1768622640"
+  },
+  {
+    "id": "practice-special-cube-f2l-2",
+    "name": "Practice Special Cube (F2L-2)",
+    "brand": "Calvin's Puzzle",
+    "puzzle": "3x3",
+    "price": "$9.99",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2022,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/products/Practice_20Special_20Cube_20_F2L-2.jpg?v=1661999807"
   },
   {
     "id": "moyu-rs3-m-3x3-v5-magnetic-dual-adjustment-robot-box",
@@ -11456,6 +11502,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/Calendar-Cube_15302317.jpg?v=1771619369"
+  },
+  {
+    "id": "ziina-dollar-4x4",
+    "name": "Ziina Dollar 4x4",
+    "brand": "Ziina",
+    "puzzle": "4x4",
+    "price": "$9.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2025,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Dollar_204x4_28c008fc-96d6-4b14-a548-0eb83e34c731.png?v=1764786757"
   },
   {
     "id": "qiyi-qiyuan-s3-4x4-jelly",

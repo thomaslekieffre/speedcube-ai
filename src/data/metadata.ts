@@ -1,19 +1,19 @@
 /**
- * Lightweight metadata — pre-computed stats and featured set summaries.
- * Does NOT import the full data bundle (3.3MB).
- * Kept in sync with the generation script.
+ * Auto-generated lightweight metadata - DO NOT EDIT MANUALLY
+ * Generated at: 2026-02-26T10:23:48.694Z
+ * Run: npx tsx scripts/generate-knowledge.ts
  */
 
 export const stats = {
-  totalAlgorithmSets: 78,
-  totalAlgorithms: 4277,
-  totalMethods: 76,
-  totalCubes: 975,
-  totalLubes: 31,
+  totalAlgorithmSets: 79,
+  totalAlgorithms: 4229,
+  totalMethods: 79,
+  totalCubes: 977,
+  totalLubes: 417,
   totalRecords: 17,
-  totalGlossaryTerms: 120,
-  totalTips: 25,
-  totalLearningPaths: 8,
+  totalGlossaryTerms: 170,
+  totalTips: 55,
+  totalLearningPaths: 17,
 } as const;
 
 export interface FeaturedSetSummary {
@@ -25,10 +25,10 @@ export interface FeaturedSetSummary {
 }
 
 export const featuredSets: FeaturedSetSummary[] = [
-  { id: 'oll', name: 'OLL', puzzle: '3x3', description: 'Orientation of the Last Layer — orient all last-layer pieces in one step.', algorithmCount: 57 },
-  { id: 'pll', name: 'PLL', puzzle: '3x3', description: 'Permutation of the Last Layer — permute all last-layer pieces in one step.', algorithmCount: 21 },
-  { id: 'f2l', name: 'F2L', puzzle: '3x3', description: 'First Two Layers — pair corners and edges to fill the first two layers simultaneously.', algorithmCount: 41 },
-  { id: 'coll', name: 'COLL', puzzle: '3x3', description: 'Corners of the Last Layer — orient and permute corners when edges are already oriented.', algorithmCount: 42 },
-  { id: 'cmll', name: 'CMLL', puzzle: '3x3', description: 'Corners of the Last Layer (Roux) — orient and permute corners ignoring M-slice edges.', algorithmCount: 42 },
-  { id: 'cll', name: 'CLL', puzzle: '2x2', description: 'Corners of the Last Layer — solve all corner positions and orientations in one step.', algorithmCount: 42 },
+  { id: 'oll', name: 'OLL', puzzle: '3x3', description: 'Orientation of the Last Layer - 57 cases. These algorithms orient all last layer pieces so the top face is one color. Part of the CFOP method.', algorithmCount: 57 },
+  { id: 'pll', name: 'PLL', puzzle: '3x3', description: 'Permutation of the Last Layer - 21 cases. These algorithms permute all last layer pieces to their correct positions. The final step of the CFOP method.', algorithmCount: 21 },
+  { id: 'f2l', name: 'F2L', puzzle: '3x3', description: 'First Two Layers - 42 intuitive and algorithmic cases for simultaneously solving the first two layers. The second step of the CFOP method.', algorithmCount: 41 },
+  { id: 'coll', name: 'COLL', puzzle: '3x3', description: 'Corners of the Last Layer - 40 cases. These algorithms orient and permute corners while preserving edge orientation, leaving only an EPLL to solve.', algorithmCount: 40 },
+  { id: 'cmll', name: 'CMLL', puzzle: '3x3', description: 'Corners of the Last Layer for Roux method - 42 cases. Solves corners while preserving the M-slice and oriented edges. Used in the Roux method.', algorithmCount: 42 },
+  { id: 'cll', name: 'CLL', puzzle: '2x2', description: 'Corners of the Last Layer for 2x2 - 42 cases across 7 subsets. Solves the last layer corners in one step after completing the first layer.', algorithmCount: 40 },
 ];
