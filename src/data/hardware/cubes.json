@@ -3749,6 +3749,36 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN356_20i_20Carry_20V4.png?v=1769814980"
   },
   {
+    "id": "sam-gear-orbit-city-cube-1-2-turn",
+    "name": "Sam Gear Orbit City Cube (1/2 Turn)",
+    "brand": "Calvin's Puzzle",
+    "puzzle": "3x3",
+    "price": "$34.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Sam_20Gear_20Orbit_20City_20Cube_202_20Turn.jpg?v=1772234758"
+  },
+  {
+    "id": "sam-gear-orbit-city-cube-1-4-turn",
+    "name": "Sam Gear Orbit City Cube (1/4 Turn)",
+    "brand": "Calvin's Puzzle",
+    "puzzle": "3x3",
+    "price": "$34.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Sam_20Gear_20Orbit_20City_20Cube_204_20Turn.jpg?v=1772234821"
+  },
+  {
     "id": "diansheng-giant-3x3-14-8cm",
     "name": "DianSheng Giant 3x3 - 14.8cm",
     "brand": "DianSheng",
@@ -14583,6 +14613,22 @@
     "magnetic": true,
     "smartCube": false,
     "rating": 4
+  },
+  {
+    "id": "qiyi-warrior-pyraminx-magnetic",
+    "name": "QiYi Warrior Pyraminx (Magnetic)",
+    "brand": "QiYi",
+    "puzzle": "Pyraminx",
+    "price": "$6.83",
+    "tier": "budget",
+    "features": [
+      "Magnetic",
+      "Frosted plastic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/qiyi-warrior-pyraminx-magnetic_de3ceff0.jpg?v=1771619429"
   },
   {
     "id": "moyu-meilong-pyraminx-v2-magnetic",
