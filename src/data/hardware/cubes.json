@@ -177,6 +177,36 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/GAN-251-2x2-Leap-Magnetic-Core-Magnets.jpg?v=1771619503"
   },
   {
+    "id": "lee-super-four-leaf-clover-plus",
+    "name": "Lee Super Four-Leaf Clover Plus",
+    "brand": "Lee",
+    "puzzle": "2x2",
+    "price": "$33.99",
+    "tier": "flagship",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Lee_20Four-Leaf-Clover_20Plus.jpg?v=1772298923"
+  },
+  {
+    "id": "lee-super-four-leaf-clover-plus-bandaged",
+    "name": "Lee Super Four-Leaf Clover Plus (Bandaged)",
+    "brand": "Lee",
+    "puzzle": "2x2",
+    "price": "$33.99",
+    "tier": "flagship",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Lee_20Four-Leaf-Clover_20Plus_20_Bandaged.jpg?v=1772298965"
+  },
+  {
     "id": "gan-251-m-pro",
     "name": "GAN 251 M Pro",
     "brand": "GAN",
