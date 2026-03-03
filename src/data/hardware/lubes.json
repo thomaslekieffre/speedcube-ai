@@ -5989,5 +5989,35 @@
       "Control"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/YJ_20YuLong_203x3_20V3_20M_20_UV_20Coated_20_20Clicky.jpg?v=1746039568"
+  },
+  {
+    "id": "moyu-weilong-ferrocore-v2-3x3",
+    "name": "MoYu WeiLong Ferrocore V2 3x3",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$54.99",
+    "description": "The WeiLong Ferrocore V2 is here. This updated version builds on the original Ferrocore V1, now based on the MoYu WeiLong V11. It keeps everything people loved about V1, but takes advantage of the smoother, more refined feel of the V11.",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ferrocorev2.jpg?v=1772485870"
+  },
+  {
+    "id": "moyu-weilong-ferrocore-v2-3x3-uv-coated",
+    "name": "MoYu WeiLong Ferrocore V2 3x3 (UV Coated)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$59.99",
+    "description": "The WeiLong Ferrocore V2 is here. This updated version builds on the original Ferrocore V1, now based on the MoYu WeiLong V11. It keeps everything people loved about V1, but takes advantage of the smoother, more refined feel of the V11.",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ferrocorev2uv.jpg?v=1772485923"
   }
 ]
