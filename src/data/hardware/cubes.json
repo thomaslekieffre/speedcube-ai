@@ -5804,6 +5804,22 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/Fanxin-Light-3x3-Flagship-Magnetic-Ball-Core-UV-Coated.jpg?v=1760588179"
   },
   {
+    "id": "rubik-s-cube-squish-cube-3x3",
+    "name": "Rubik's Cube Squish Cube 3x3",
+    "brand": "Spin Master",
+    "puzzle": "3x3",
+    "price": "$18.29",
+    "tier": "mid",
+    "features": [
+      "Magnetic",
+      "Stickerless"
+    ],
+    "releaseYear": 2025,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/rubiks-cube-squish-cube.jpg?v=1771619517"
+  },
+  {
     "id": "moyu-rs3-m-3x3-v5-magnetic-maglev-ball-core-uv-coated-robot-box",
     "name": "MoYu RS3 M 3x3 V5 (Magnetic, MagLev, Ball-Core, UV Coated) + Robot Box",
     "brand": "MoYu",
