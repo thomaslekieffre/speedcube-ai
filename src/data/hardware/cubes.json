@@ -4888,6 +4888,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/qiyismartcube1.jpg?v=1713457584"
   },
   {
+    "id": "rubik-s-x-disney-cubers-3x3-mickey-mouse",
+    "name": "Rubik's x Disney Cubers 3x3 (Mickey Mouse)",
+    "brand": "Rubik's",
+    "puzzle": "3x3",
+    "price": "$22.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/mickey_20mouse_20cuber.jpg?v=1772823788"
+  },
+  {
     "id": "moyu-ys3-m-3x3-magnetic-maglev-ball-core",
     "name": "MoYu YS3 M 3x3 (Magnetic, MagLev, Ball-Core)",
     "brand": "MoYu",
