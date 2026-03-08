@@ -2370,6 +2370,25 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/XMD_Tornado_V4_AI_Charging_Base_1.png?v=1756573834"
   },
   {
+    "id": "gan-i4-maglev-uv-3x3-smart-cube",
+    "name": "GAN i4 MagLev UV 3x3 (Smart Cube)",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$69.99",
+    "tier": "flagship",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Ball-core system",
+      "76 magnets"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN_20i4_20MagLev_20UV.png?v=1772872883"
+  },
+  {
     "id": "moyu-super-aolong-3x3-magnetic-maglev-20-magnet-ball-core-uv-coated",
     "name": "MoYu Super AoLong 3x3 (Magnetic, MagLev, 20-Magnet Ball-Core, UV Coated)",
     "brand": "MoYu",
@@ -2877,6 +2896,25 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Tommy_Cherry_WeiLong_V10.png?v=1767113097"
+  },
+  {
+    "id": "gan-i4-leap-frosted-3x3-smart-cube",
+    "name": "GAN i4 Leap Frosted 3x3 (Smart Cube)",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$54.99",
+    "tier": "flagship",
+    "features": [
+      "Magnetic",
+      "Ball-core system",
+      "Smart cube",
+      "Spring system",
+      "Frosted plastic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN_20i4_20Leap_20Frosted.png?v=1772873775"
   },
   {
     "id": "qiyi-warrior-plus-big-3x3-18-8cm-magnetic",
@@ -10880,6 +10918,21 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/DianSheng_20Mirror_204x4_20_Magnetic_20_20Ball-Core_20-_20Metallized_20Silver.jpg?v=1749238313"
+  },
+  {
+    "id": "zepuzzles-master-cto-tiled",
+    "name": "ZePuzzles Master CTO (Tiled)",
+    "brand": "ZePuzzles",
+    "puzzle": "4x4",
+    "price": "$39.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ZePuzzles_20Master_20CTO.png?v=1772872219"
   },
   {
     "id": "moyu-aosu-v7-double-track-uv",
