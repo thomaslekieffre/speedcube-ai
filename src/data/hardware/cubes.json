@@ -3085,6 +3085,23 @@
     "rating": 4.5
   },
   {
+    "id": "the-cheggins-cube-3x3",
+    "name": "The Cheggins Cube 3x3",
+    "brand": "MoYu",
+    "puzzle": "3x3",
+    "price": "$47.99",
+    "tier": "flagship",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "Ball-core system"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/chegginscube2.jpg?v=1773070820"
+  },
+  {
     "id": "moyu-weilong-ai-3x3-v10-magnetic-ball-core-bluetooth-smart-cube",
     "name": "MoYu WeiLong AI 3x3 V10 (Magnetic, Ball-Core) - Bluetooth Smart Cube",
     "brand": "MoYu",
