@@ -6652,6 +6652,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/Fanxin-Light-3x3-Magnetic-Ball-Core.jpg?v=1760588184"
   },
   {
+    "id": "sudoku-cube-3x3-ultra",
+    "name": "Sudoku Cube 3x3 (Ultra)",
+    "brand": "Calvin's Puzzle",
+    "puzzle": "3x3",
+    "price": "$14.8",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2025,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/sudoku-cube-3x3-ultra.jpg?v=1761927415"
+  },
+  {
     "id": "diansheng-big-3x3-8cm-magnetic",
     "name": "DianSheng Big 3x3 - 8cm (Magnetic)",
     "brand": "DianSheng",
