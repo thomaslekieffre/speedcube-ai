@@ -7099,6 +7099,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN356RS23x3.jpg?v=1701288245"
   },
   {
+    "id": "swift-355s-3x3",
+    "name": "Swift 355S 3x3",
+    "brand": "Swift Block",
+    "puzzle": "3x3",
+    "price": "$12.99",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2023,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/swiftblocks3x3.jpg?v=1682620626"
+  },
+  {
     "id": "scs-speed-cube-pro-3x3-magnetic",
     "name": "SCS Speed Cube Pro 3x3 (Magnetic)",
     "brand": "SpeedCubeShop",
@@ -11127,6 +11142,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/products/Electroplated_20Metal_20Alloy_204x4_20black.jpg?v=1663261720"
+  },
+  {
+    "id": "meffert-s-checkerboard-4x4",
+    "name": "Meffert's Checkerboard 4x4",
+    "brand": "Meffert's",
+    "puzzle": "4x4",
+    "price": "$24.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2021,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/products/meffertscheckerboard4x4blackborder.jpg?v=1618603862"
   },
   {
     "id": "vin-cube-4x4-v2-surge-magnetic-core-magnets-uv-coated",

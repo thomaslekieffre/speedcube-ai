@@ -6049,5 +6049,101 @@
       "General maintenance"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Swift_20Block_20Super_20MagLev_20UV.png?v=1773242293"
+  },
+  {
+    "id": "swift-super-maglev-uv-3x3",
+    "name": "Swift Super MagLev UV 3x3",
+    "brand": "Swift Block",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$23.99",
+    "description": "The Swift Super MagLev UV 3x3 is the latest evolution in GAN's entry-level Swift Block series, designed for speedcubers who crave top-tier performance at an accessible price. Featuring state-of-the-art MagLev technology, this cube offers frictionless, magnet-driven repulsion and attraction for light",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Piece surfaces",
+      "Smooth feel",
+      "Control",
+      "Long-lasting"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Swift_20Block_20Super_20MagLev_20UV.png?v=1773242293"
+  },
+  {
+    "id": "swift-maglev-3x3",
+    "name": "Swift MagLev 3x3",
+    "brand": "Swift Block",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$14.99",
+    "description": "The Swift MagLev 3x3 is a magnetic 3x3 with tension and compression adjustments. It has a ball core with core/corner magnetization, giving it a strong magnetic feel and extremely fast turns. If you're looking for something different with most of the flagship features, check out the Swift MagLev 3x3 ",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Swift_20Block_203x3_20MagLev.jpg?v=1731710467"
+  },
+  {
+    "id": "moyu-weilong-v11-3x3-8-magnet-ball-core-spring-uv-picube-se",
+    "name": "MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + Spring + UV PiCube SE)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$44.99",
+    "description": "Discover the ultimate evolution of a modern speedcubing icon with the MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + UV PiCube SE). This special edition, customized by PiCube, captures the signature performance of the WeiLong V11 while paying homage to the Sixth Anniversary V9 with its classic powder bl",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Spring noise reduction"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_WeiLong_V11_Spring_UV_1.png?v=1773835404"
+  },
+  {
+    "id": "moyu-weilong-v11-3x3-8-magnet-ball-core-maglev-uv-picube-se",
+    "name": "MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + MagLev + UV PiCube SE)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$49.99",
+    "description": "Discover the ultimate evolution of a modern speedcubing icon with the MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + UV PiCube SE). This special edition, customized by PiCube, captures the signature performance of the WeiLong V11 while paying homage to the Sixth Anniversary V9 with its classic powder bl",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Spring noise reduction"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_WeiLong_V11_MagLev_UV_2.png?v=1773846303"
+  },
+  {
+    "id": "moyu-weilong-v11-3x3-8-magnet-ball-core-spring-edge-repulsion-uv-picube-se",
+    "name": "MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + Spring + Edge-Repulsion + UV PiCube SE)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$49.99",
+    "description": "Discover the ultimate evolution of a modern speedcubing icon with the MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + UV PiCube SE). This special edition, customized by PiCube, captures the signature performance of the WeiLong V11 while paying homage to the Sixth Anniversary V9 with its classic powder bl",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Spring noise reduction"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_20WeiLong_20V11_20Spring_20Edge_20Repulsion_20UV.png?v=1773835578"
+  },
+  {
+    "id": "moyu-weilong-v11-3x3-8-magnet-ball-core-maglev-edge-repulsion-uv-picube-se",
+    "name": "MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + MagLev + Edge-Repulsion + UV PiCube SE)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$54.99",
+    "description": "Discover the ultimate evolution of a modern speedcubing icon with the MoYu WeiLong V11 3x3 (8-Magnet Ball-Core + UV PiCube SE). This special edition, customized by PiCube, captures the signature performance of the WeiLong V11 while paying homage to the Sixth Anniversary V9 with its classic powder bl",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Spring noise reduction"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_WeiLong_V11_MagLev_UV_Edge_Repulsion_cf14faf4-aedd-48c7-9817-c8a0d37f8418.png?v=1773846194"
   }
 ]
