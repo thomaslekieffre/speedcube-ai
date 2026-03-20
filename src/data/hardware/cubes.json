@@ -2484,6 +2484,24 @@
     "rating": 4.5
   },
   {
+    "id": "gan-16-3x3-maxl-magnetic-maglev-core-magnets-uv-coated",
+    "name": "GAN 16 3x3 MaxL (Magnetic, MagLev, Core Magnets, UV Coated)",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$63.38",
+    "tier": "flagship",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Spring system"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/gan-16-3x3-maxl-magnetic-maglev-core-magnets-uv-coated.jpg?v=1773967089"
+  },
+  {
     "id": "gan-i3-3x3",
     "name": "GAN i3 3x3",
     "brand": "GAN",
@@ -11472,6 +11490,24 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/4x4_20Practice_20Cube_20_Edges.jpg?v=1742841086"
   },
   {
+    "id": "qiyi-m-pro-4x4-v2-magnetic-ball-core-uv-coated",
+    "name": "QiYi M Pro 4x4 V2 (Magnetic, Ball-Core, UV Coated)",
+    "brand": "QiYi",
+    "puzzle": "4x4",
+    "price": "$15.75",
+    "tier": "budget",
+    "features": [
+      "Magnetic",
+      "UV coated",
+      "Ball-core system",
+      "Corner cutting"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/qiyi-m-pro-4x4-v2-magnetic-ball-core-uv-coated.jpg?v=1773967096"
+  },
+  {
     "id": "calendar-cube-4x4-v1",
     "name": "Calendar Cube 4x4 V1",
     "brand": "Calvin's Puzzle",
@@ -14133,6 +14169,25 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/DianSheng-Big-Megaminx-Magnetic_33941df2.jpg?v=1771619442"
+  },
+  {
+    "id": "yj-yuhu-megaminx-v3-magnetic-maglev-ball-core",
+    "name": "YJ YuHu Megaminx V3 (Magnetic, MagLev, Ball-Core)",
+    "brand": "YJ",
+    "puzzle": "Megaminx",
+    "price": "$21.02",
+    "tier": "mid",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "Ball-core system",
+      "Spring system",
+      "184 magnets"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/yj-yuhu-megaminx-v3-magnetic-maglev-ball-core.jpg?v=1773967061"
   },
   {
     "id": "qiyi-xman-galaxy-v2-m-sculpted",
