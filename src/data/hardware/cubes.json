@@ -5892,6 +5892,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/Fanxin-Light-3x3-Flagship-Magnetic-Ball-Core-UV-Coated.jpg?v=1760588179"
   },
   {
+    "id": "rubiks-tetris-3x3-cube",
+    "name": "Rubiks Tetris 3x3 Cube",
+    "brand": "Spin Master",
+    "puzzle": "3x3",
+    "price": "$18.35",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/rubiks-tetris-3x3-cube.jpg?v=1771619377"
+  },
+  {
     "id": "rubik-s-cube-squish-cube-3x3",
     "name": "Rubik's Cube Squish Cube 3x3",
     "brand": "Spin Master",
