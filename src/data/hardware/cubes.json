@@ -747,6 +747,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Lee_202x2_20Axis_20Cube.png?v=1763782810"
   },
   {
+    "id": "lee-2x2-fisher-cube",
+    "name": "Lee 2x2 Fisher Cube",
+    "brand": "Lee",
+    "puzzle": "2x2",
+    "price": "$12.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Lee_20Fisher_202x2_d8abec5c-c31d-4c92-8a6c-52de93d898a6.png?v=1774487983"
+  },
+  {
     "id": "gan-251-2x2-v2",
     "name": "GAN 251 2x2 V2",
     "brand": "GAN",
