@@ -6173,5 +6173,31 @@
       "Smooth feel"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ShengShou_20MoSheng_204x4_04819840-f61a-43cd-8442-c64cc837b1b2.png?v=1774404291"
+  },
+  {
+    "id": "qiyi-m-pro-4x4-v2-ball-core-uv",
+    "name": "QiYi M Pro 4x4 V2 (Ball-Core + UV)",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$17.99",
+    "description": "QiYi M Pro 4x4 V2 (Ball-Core + UV) - more details coming soon!",
+    "bestFor": [
+      "Core lubrication"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20M_20Pro_204x4_20BC_20UV.png?v=1774667286"
+  },
+  {
+    "id": "shengshou-mosheng-5x5",
+    "name": "ShengShou MoSheng 5x5",
+    "brand": "ShengShou",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$8.99",
+    "description": "The ShengShou MoSheng 5x5 is a standout addition to the MoSheng series, bringing a completely redesigned 5x5 experience to speedcubers and enthusiasts alike. With vibrant stickerless colors and high-quality construction, this cube offers outstanding visual appeal and durability. Weighing in at just ",
+    "bestFor": [
+      "Speed boost"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ShengShou_20Mosheng_205x5_94ff802a-2f90-450d-8a3c-a32792c682b5.png?v=1774624903"
   }
 ]

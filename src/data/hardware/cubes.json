@@ -841,6 +841,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Calvin_s_202x2_20Twist.png?v=1764992782"
   },
   {
+    "id": "moyu-2x2-magic-bead-cube",
+    "name": "MoYu 2x2 Magic Bead Cube",
+    "brand": "MoYu",
+    "puzzle": "2x2",
+    "price": "$11.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MoYu_202x2_20Bead_20Cube.png?v=1774670025"
+  },
+  {
     "id": "moyu-weipo-wr-s-2x2-magnetic",
     "name": "MoYu WeiPo WR S 2x2 (Magnetic)",
     "brand": "MoYu",
@@ -15302,6 +15317,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Calvins_20Mirror_20Skewb.png?v=1764992313"
+  },
+  {
+    "id": "lanlan-phoenix-eyes-skewb",
+    "name": "LanLan Phoenix Eyes Skewb",
+    "brand": "LanLan",
+    "puzzle": "Skewb",
+    "price": "$12.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/LanLan_20Skewb_20PE.png?v=1774668429"
   },
   {
     "id": "moyu-rs-skewb-magnetic-maglev",
