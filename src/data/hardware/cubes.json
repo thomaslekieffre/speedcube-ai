@@ -856,6 +856,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MoYu_202x2_20Bead_20Cube.png?v=1774670025"
   },
   {
+    "id": "mfjs-2x2-magic-bead-cube",
+    "name": "MFJS 2x2 Magic Bead Cube",
+    "brand": "MFJS",
+    "puzzle": "2x2",
+    "price": "$11.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MoYu_202x2_20Bead_20Cube.png?v=1774670025"
+  },
+  {
     "id": "moyu-weipo-wr-s-2x2-magnetic",
     "name": "MoYu WeiPo WR S 2x2 (Magnetic)",
     "brand": "MoYu",
@@ -6697,6 +6712,21 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ZCube_20Golden_20Mogao-Caves_203x3_20_Magnetic.jpg?v=1746649530"
+  },
+  {
+    "id": "mfjs-3x3-magic-bead-cube",
+    "name": "MFJS 3x3 Magic Bead Cube",
+    "brand": "MFJS",
+    "puzzle": "3x3",
+    "price": "$14.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MoYu_203x3_20Bead_20Cube.png?v=1774670460"
   },
   {
     "id": "fanxin-light-3x3-magnetic-ball-core",

@@ -6199,5 +6199,31 @@
       "Speed boost"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ShengShou_20Mosheng_205x5_94ff802a-2f90-450d-8a3c-a32792c682b5.png?v=1774624903"
+  },
+  {
+    "id": "qiyi-m-pro-3x3-v2-flagship",
+    "name": "QiYi M Pro 3x3 V2 (Flagship)",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$9.99",
+    "description": "The QiYi M Pro 3x3 V2 is a budget-friendly magnetic 3x3. This puzzle has tension (screw) and compression adjustment, and piece-to-piece magnetization.",
+    "bestFor": [
+      "Piece surfaces"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20M_20Pro_20V2_203x3_20_Flagship.jpg?v=1732567408"
+  },
+  {
+    "id": "qiyi-m-pro-3x3-v2-pioneer-uv",
+    "name": "QiYi M Pro 3x3 V2 (Pioneer UV)",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$15.99",
+    "description": "The QiYi M Pro 3x3 V2 is a budget-friendly magnetic 3x3. This puzzle has tension (screw) and compression adjustment, and piece-to-piece magnetization.",
+    "bestFor": [
+      "Piece surfaces"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20M_20Pro_20V2_203x3_20_Pioneer_20UV.jpg?v=1732567429"
   }
 ]
