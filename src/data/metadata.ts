@@ -1,6 +1,6 @@
 /**
  * Auto-generated lightweight metadata - DO NOT EDIT MANUALLY
- * Generated at: 2026-03-30T04:33:16.112Z
+ * Generated at: 2026-03-31T04:32:53.845Z
  * Run: npx tsx scripts/generate-knowledge.ts
  */
 
@@ -8,7 +8,7 @@ export const stats = {
   totalAlgorithmSets: 79,
   totalAlgorithms: 4229,
   totalMethods: 79,
-  totalCubes: 1000,
+  totalCubes: 1005,
   totalLubes: 434,
   totalRecords: 17,
   totalGlossaryTerms: 170,

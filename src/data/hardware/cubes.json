@@ -2598,6 +2598,27 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/olorcubesolidbg.jpg?v=1720227169"
   },
   {
+    "id": "gan-i4-3x3-magnetic-maglev-ball-core-uv-coated-bluetooth-smart-cube",
+    "name": "GAN i4 3x3 (Magnetic, MagLev, Ball-Core, UV Coated) - Bluetooth Smart Cube",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$61.87",
+    "tier": "flagship",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Ball-core system",
+      "Smart cube",
+      "Spring system",
+      "Corner cutting"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/gan-i4-3x3-magnetic-maglev-ball-core-uv-coated-bluetooth-smart-cube.jpg?v=1774917338"
+  },
+  {
     "id": "moyu-weilong-3x3-v11-se-magnetic-maglev-20-magnet-ball-core-uv-coated",
     "name": "MoYu WeiLong 3x3 V11 SE (Magnetic, MagLev, 20-Magnet Ball-Core, UV Coated)",
     "brand": "MoYu",
@@ -3109,6 +3130,25 @@
     "magnetic": true,
     "smartCube": true,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN_20356_20i_20Carry_202_20_UV_20Coated.jpg?v=1710361752"
+  },
+  {
+    "id": "gan-i4-3x3-leap-magnetic-ball-core-bluetooth-smart-cube",
+    "name": "GAN i4 3x3 Leap (Magnetic, Ball-Core) - Bluetooth Smart Cube",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$48.6",
+    "tier": "flagship",
+    "features": [
+      "Magnetic",
+      "Ball-core system",
+      "Smart cube",
+      "Corner cutting",
+      "Frosted plastic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/gan-i4-3x3-leap-magnetic-ball-core-bluetooth-smart-cube.jpg?v=1774917386"
   },
   {
     "id": "moyu-weilong-wrm-v10-20m-ball-core-maglev-uv",
@@ -5275,6 +5315,26 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/moyu-weilong-wr-m-3x3-v9-magnetic-maglev-stickerless.jpg?v=1771619412"
   },
   {
+    "id": "swift-block-super-3x3-magnetic-maglev-core-magnets-uv-coated",
+    "name": "Swift Block Super 3x3 (Magnetic, MagLev, Core Magnets, UV Coated)",
+    "brand": "Swift Block",
+    "puzzle": "3x3",
+    "price": "$21.18",
+    "tier": "mid",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Spring system",
+      "Corner cutting",
+      "76 magnets"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/swift-block-super-3x3-magnetic-maglev-core-magnets-uv-coated.jpg?v=1774917428"
+  },
+  {
     "id": "x-man-xt3-3x3-v1-pioneer-magnetic-maglev-core-magnets-uv-coated",
     "name": "X-Man XT3 3x3 V1 Pioneer (Magnetic, MagLev, Core Magnets, UV Coated)",
     "brand": "X-Man Designs",
@@ -5686,6 +5746,25 @@
     "magnetic": true,
     "smartCube": true,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/QiYi-AI-3x3-Magnetic-UV-Coated-Bluetooth-Smart-Cube.jpg?v=1771619487"
+  },
+  {
+    "id": "es3-air-3x3-magnetic-20-magnet-ball-core",
+    "name": "ES3 Air 3x3 (Magnetic, 20-Magnet Ball-Core)",
+    "brand": "ES Cube",
+    "puzzle": "3x3",
+    "price": "$19.41",
+    "tier": "mid",
+    "features": [
+      "Magnetic",
+      "Ball-core system",
+      "Spring system",
+      "Frosted plastic",
+      "Dual adjustment"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/es3-air-3x3-magnetic-20-magnet-ball-core-stickerless-primary-internals.jpg?v=1771619390"
   },
   {
     "id": "yj-mgc-beta-3x3-magnetic-maglev-core-magnets-limited-edition",
@@ -6727,6 +6806,25 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MoYu_203x3_20Bead_20Cube.png?v=1774670460"
+  },
+  {
+    "id": "es3-air-3x3-magnetic-ball-core",
+    "name": "ES3 Air 3x3 (Magnetic, Ball-Core)",
+    "brand": "ES Cube",
+    "puzzle": "3x3",
+    "price": "$14.99",
+    "tier": "budget",
+    "features": [
+      "Magnetic",
+      "Ball-core system",
+      "Spring system",
+      "Frosted plastic",
+      "Dual adjustment"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/es3-air-3x3-magnetic-ball-core_7f1b1e7b.jpg?v=1771619427"
   },
   {
     "id": "fanxin-light-3x3-magnetic-ball-core",
