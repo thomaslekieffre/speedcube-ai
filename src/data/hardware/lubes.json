@@ -6239,5 +6239,19 @@
       "Control"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN16_20XL.png?v=1774093237"
+  },
+  {
+    "id": "gan16-maglev-max-l-uv-3x3",
+    "name": "GAN16 MagLev MAX-L UV 3x3",
+    "brand": "GAN",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$84.99",
+    "description": "Introducing the GAN16 MagLev MAX-L UV 3x3 — the highly anticipated 57mm upgrade of the outstanding GAN16 MagLev MAX UV. Crafted for serious speedcubers and collectors, this cube boasts an expanded form factor for a more ergonomic grip and enhanced turning precision. Inside, custom N52-grade magnets ",
+    "bestFor": [
+      "Speed boost",
+      "Control"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN16_XL_1.png?v=1775020817"
   }
 ]
