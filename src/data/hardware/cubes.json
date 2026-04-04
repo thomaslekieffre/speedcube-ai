@@ -3833,6 +3833,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN_20356_20i_20Carry_202.jpg?v=1705091892"
   },
   {
+    "id": "string-cube-3x3-magnetic",
+    "name": "String Cube 3x3 (Magnetic)",
+    "brand": "Doug Engel",
+    "puzzle": "3x3",
+    "price": "$35.2",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/string-cube-3x3-magnetic.jpg?v=1775263082"
+  },
+  {
     "id": "gan-v100-maglev-frosted",
     "name": "GAN V100 MagLev Frosted",
     "brand": "GAN",
@@ -8455,6 +8470,51 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Graffiti_203x3_e93fac31-0947-41c7-ae80-29a2b33bffca.jpg?v=1729111307"
+  },
+  {
+    "id": "circuit-3x3-uv-printed",
+    "name": "Circuit 3x3 (UV Printed)",
+    "brand": "SpeedCubeShop",
+    "puzzle": "3x3",
+    "price": "$8.77",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/circuit-3x3-uv-printed_e966f726.jpg?v=1771619514"
+  },
+  {
+    "id": "space-3x3-uv-printed",
+    "name": "Space 3x3 (UV Printed)",
+    "brand": "SpeedCubeShop",
+    "puzzle": "3x3",
+    "price": "$8.77",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/space-3x3-uv-printed_e814e605.jpg?v=1771375977"
+  },
+  {
+    "id": "marble-luxury-3x3-uv-printed",
+    "name": "Marble Luxury 3x3 (UV Printed)",
+    "brand": "SpeedCubeShop",
+    "puzzle": "3x3",
+    "price": "$8.77",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/marble-luxury-3x3-uv-printed_893d6ebc.jpg?v=1771619515"
   },
   {
     "id": "calendar-cube-3x3",
@@ -13942,6 +14002,21 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/qiyi-clock-magnetic-blue.jpg?v=1771806148"
+  },
+  {
+    "id": "shengshou-clock-v2-magnetic-limited-edition-red",
+    "name": "ShengShou Clock V2 (Magnetic) - Limited Edition Red",
+    "brand": "ShengShou",
+    "puzzle": "Clock",
+    "price": "$22.87",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/shengshou-clock-v2-magnetic-limited-edition-red.jpg?v=1775263095"
   },
   {
     "id": "qiyi-clock-magnetic-grey-limited-edition",

@@ -6253,5 +6253,48 @@
       "Control"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN16_XL_1.png?v=1775020817"
+  },
+  {
+    "id": "vin3-3x3-nova-flagship-edition",
+    "name": "VIN3 3x3 Nova (Flagship Edition)",
+    "brand": "Vin Cube",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$41.99",
+    "description": "The VIN3 3x3 Nova (Flagship Edition) is the ultimate evolution of Vin Cube’s debut 3x3, designed specifically for speedcubers and enthusiasts seeking peak performance. As the flagship model, Nova brings together next-generation engineering and premium materials for an unmatched solving experience.",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Piece surfaces",
+      "Smooth feel",
+      "Control"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/VIN3_20Nova.png?v=1768626099"
+  },
+  {
+    "id": "vin3-3x3-lite-standard-edition",
+    "name": "VIN3 3x3 Lite (Standard Edition)",
+    "brand": "Vin Cube",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$21.99",
+    "description": "VIN3 3x3 Lite (Standard) - more details coming soon!",
+    "bestFor": [
+      "General maintenance"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/VIN3_20Nova_20-_20Lite.png?v=1775228220"
+  },
+  {
+    "id": "vin3-3x3-racer-speed-edition",
+    "name": "VIN3 3x3 Racer (Speed Edition)",
+    "brand": "Vin Cube",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$31.99",
+    "description": "VIN3 3x3 Racer (Speed Edition) - more details coming soon!",
+    "bestFor": [
+      "Speed boost"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/VIN3_20Nova_20-_20Racer.png?v=1775228652"
   }
 ]
