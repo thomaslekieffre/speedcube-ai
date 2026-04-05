@@ -13871,6 +13871,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/MoYu-MeiLong-7x7-V2.jpg?v=1771619394"
   },
   {
+    "id": "estar-clock-magnetic-bearing-limited-edition",
+    "name": "ESTAR Clock (Magnetic) - Bearing, Limited Edition",
+    "brand": "ES Cube",
+    "puzzle": "Clock",
+    "price": "$44.01",
+    "tier": "flagship",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/estar-clock-magnetic-bearing-limited-edition.jpg?v=1775349143"
+  },
+  {
     "id": "estar-clock-magnetic-bearing",
     "name": "ESTAR Clock (Magnetic) - Bearing",
     "brand": "ES Cube",
