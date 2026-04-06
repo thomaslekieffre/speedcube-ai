@@ -1,6 +1,6 @@
 /**
  * Auto-generated lightweight metadata - DO NOT EDIT MANUALLY
- * Generated at: 2026-04-05T04:35:13.938Z
+ * Generated at: 2026-04-06T04:35:11.614Z
  * Run: npx tsx scripts/generate-knowledge.ts
  */
 
