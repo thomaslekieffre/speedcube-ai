@@ -2529,6 +2529,21 @@
     "rating": 4.5
   },
   {
+    "id": "steven-s-ferrocore-v2-3x3",
+    "name": "Steven's Ferrocore V2 3x3",
+    "brand": "MoYu",
+    "puzzle": "3x3",
+    "price": "$64.99",
+    "tier": "flagship",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/steven3x3.jpg?v=1775504169"
+  },
+  {
     "id": "gan-16-3x3-maxl-magnetic-maglev-core-magnets-uv-coated",
     "name": "GAN 16 3x3 MaxL (Magnetic, MagLev, Core Magnets, UV Coated)",
     "brand": "GAN",
