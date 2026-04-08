@@ -3997,6 +3997,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Sam_20Gear_20Orbit_20City_20Cube_204_20Turn.jpg?v=1772234821"
   },
   {
+    "id": "string-cube-3x3",
+    "name": "String Cube 3x3",
+    "brand": "Doug Engel",
+    "puzzle": "3x3",
+    "price": "$34.74",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/string-cube.jpg?v=1775608882"
+  },
+  {
     "id": "diansheng-giant-3x3-14-8cm",
     "name": "DianSheng Giant 3x3 - 14.8cm",
     "brand": "DianSheng",
