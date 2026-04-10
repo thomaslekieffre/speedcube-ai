@@ -4474,6 +4474,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/YJ_203x3_20Mosaic_209_20Cubes.png?v=1764211263"
   },
   {
+    "id": "rubik-s-perplexus-fusion-3x3",
+    "name": "Rubik's Perplexus Fusion 3x3",
+    "brand": "Rubik's",
+    "puzzle": "3x3",
+    "price": "$29.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2024,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Rubik_s_20Perplexus_20Fusion_203x3_4d4210e1-3ff8-4c7c-8440-a1155cdc4d3b.jpg?v=1734125314"
+  },
+  {
     "id": "gan-v100-3x3-magnetic-maglev-core-magnets-uv-coated",
     "name": "GAN V100 3x3 (Magnetic, MagLev, Core Magnets, UV Coated)",
     "brand": "GAN",
