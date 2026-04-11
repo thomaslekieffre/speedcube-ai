@@ -4012,6 +4012,23 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/string-cube.jpg?v=1775608882"
   },
   {
+    "id": "gan-i-carry-4-3x3-magnetic-uv-coated-ssl-limited-bluetooth-smart-cube",
+    "name": "GAN i Carry 4 3x3 (Magnetic, UV Coated) - SSL Limited, Bluetooth Smart Cube",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$34.59",
+    "tier": "mid",
+    "features": [
+      "Magnetic",
+      "UV coated",
+      "Smart cube"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/gan-i-carry-4-3x3-magnetic-uv-coated-ssl-limited-bluetooth-smart-cube.jpg?v=1775868111"
+  },
+  {
     "id": "diansheng-giant-3x3-14-8cm",
     "name": "DianSheng Giant 3x3 - 14.8cm",
     "brand": "DianSheng",
@@ -4554,6 +4571,23 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/MFJS_20Mirror_20Cube_203x3_20V2_20_Magnetic_20_20Ball-Core_20_20UV_20silver.jpg?v=1741126107"
+  },
+  {
+    "id": "vin-cube-3x3-racer-magnetic-ball-core-uv-coated",
+    "name": "VIN Cube 3x3 Racer (Magnetic, Ball-Core, UV Coated)",
+    "brand": "VIN Cube",
+    "puzzle": "3x3",
+    "price": "$28.53",
+    "tier": "mid",
+    "features": [
+      "Magnetic",
+      "UV coated",
+      "Ball-core system"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/vin-cube-3x3-racer-magnetic-ball-core-uv-coated.jpg?v=1775868137"
   },
   {
     "id": "moyu-rs3-m-3x3-v5-se-magnetic-maglev-ball-core-uv-coated",
@@ -5734,6 +5768,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/ZePuzzles_20Squished_203x3_206-Color.png?v=1757135178"
+  },
+  {
+    "id": "vin-cube-3x3-lite-magnetic",
+    "name": "VIN Cube 3x3 Lite (Magnetic)",
+    "brand": "VIN Cube",
+    "puzzle": "3x3",
+    "price": "$19.87",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/vin-cube-3x3-lite-magnetic.jpg?v=1775868180"
   },
   {
     "id": "x-man-tornado-3x3-v3-premium-magnetic",
@@ -12878,6 +12927,21 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/qiyi-ms-5x5-magnetic-stickerless.jpg?v=1771619427"
+  },
+  {
+    "id": "qiyi-warrior-5x5-magnetic",
+    "name": "QiYi Warrior 5x5 (Magnetic)",
+    "brand": "QiYi",
+    "puzzle": "5x5",
+    "price": "$11.21",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/qiyi-warrior-5x5-magnetic.jpg?v=1775868123"
   },
   {
     "id": "yj-pocket-cube-5x5-mini-magnetic-5-8cm",

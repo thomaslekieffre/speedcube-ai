@@ -6309,5 +6309,145 @@
       "Speed boost"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/TV3_20Premium_20SAOCube.png?v=1775705732"
+  },
+  {
+    "id": "cubicle-pro-shop-aoshi-v4-6x6-triple-track-enhanced-special-edition",
+    "name": "Cubicle Pro Shop AoShi V4 6x6 (Triple-Track Enhanced Special Edition)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$79.99",
+    "description": "Cubicle Pro Shop AoShi V4 6x6 (Triple-Track Enhanced Special Edition) features MoYu's triple track magnetization, but with additional 3x1.5 magnets glued to the corner stalks. This creates a stronger magnetic feel between the corners and core of the puzzle, increasing stability and creating a more t",
+    "bestFor": [
+      "Core lubrication",
+      "Piece surfaces"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/CPS_20AoShi_20V4_206x6_20Triple_20Track_20SE.png?v=1775789914"
+  },
+  {
+    "id": "cubicle-pro-shop-aoshi-v4-6x6-triple-track-enhanced-special-edition-uv",
+    "name": "Cubicle Pro Shop AoShi V4 6x6 (Triple-Track Enhanced Special Edition + UV)",
+    "brand": "MoYu",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$97.99",
+    "description": "Cubicle Pro Shop AoShi V4 6x6 (Triple-Track Enhanced Special Edition + UV) features MoYu's triple track magnetization, but with additional 3x1.5 magnets glued to the corner stalks. This creates a stronger magnetic feel between the corners and core of the puzzle, increasing stability and creating a m",
+    "bestFor": [
+      "Core lubrication",
+      "Piece surfaces"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/CPS_20AoShi_20V4_206x6_20Triple_20Track_20UV_20SE.png?v=1775790333"
+  },
+  {
+    "id": "picube-mgc-sq-1-magnetic",
+    "name": "PiCube MGC SQ-1 (Magnetic)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$21.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_MGC_SQ-1_Yellow.png?v=1756245088"
+  },
+  {
+    "id": "picube-mgc-sq-1-magnetic-uv",
+    "name": "PiCube MGC SQ-1 (Magnetic + UV)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$29.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/PiCube_MGC_SQ-1_Yellow_UV.png?v=1756244883"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$29.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755073544uni.png?v=1756244549"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic-equator-magnetic-maglev-uv",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic + Equator-Magnetic + MagLev + UV)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$54.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755071013Vii.png?v=1756244060"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic-uv",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic + UV)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$39.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/17550735596ky.png?v=1756244486"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic-equator-magnetic",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic + Equator-Magnetic)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$44.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755074304IVT.png?v=1756244437"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic-equator-magnetic-uv",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic + Equator-Magnetic + UV)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$49.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755072989Ky4.png?v=1756244386"
+  },
+  {
+    "id": "picube-mgc-sq-1-edge-magnetic-equator-magnetic-maglev",
+    "name": "PiCube MGC SQ-1 (Edge-Magnetic + Equator-Magnetic + MagLev)",
+    "brand": "YJ",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$49.99",
+    "description": "Take your Square-1 solving to the next level with the PiCube MGC SQ-1, a groundbreaking evolution of the classic MGC Square-1, co-engineered by PiCube and YJ. This advanced Square-1 delivers a host of innovative features tailored for speedcubers who demand peak performance, customization, and cuttin",
+    "bestFor": [
+      "Speed boost",
+      "Smooth feel"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755071057z2k.png?v=1756244325"
   }
 ]
