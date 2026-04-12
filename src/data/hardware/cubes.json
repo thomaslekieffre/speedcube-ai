@@ -9445,6 +9445,36 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_203D_20World_20Map_20Mirror_203x3_cee11bee-5785-499e-a86f-cfbb9aca910f.png?v=1768624856"
   },
   {
+    "id": "spooky-cube-glow-in-the-dark-limited-edition",
+    "name": "Spooky Cube (Glow in the Dark) - Limited Edition",
+    "brand": "SpeedCubeShop",
+    "puzzle": "3x3",
+    "price": "$7.76",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2025,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/spooky-cube-glow-in-the-dark-limited-edition.gif?v=1775953461"
+  },
+  {
+    "id": "dollar-3x3-uv-printed",
+    "name": "Dollar 3x3 (UV Printed)",
+    "brand": "Z-Cube",
+    "puzzle": "3x3",
+    "price": "$7.75",
+    "tier": "budget",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/dollar-3x3-uv-printed.jpg?v=1775953859"
+  },
+  {
     "id": "spooky-cube-glow-in-the-dark-2025-limited-edition",
     "name": "Spooky Cube (Glow in the Dark) - 2025 Limited Edition",
     "brand": "SpeedCubeShop",
