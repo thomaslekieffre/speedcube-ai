@@ -6462,5 +6462,31 @@
       "General maintenance"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20Warrior_205x5_20Magnetic.png?v=1776225571"
+  },
+  {
+    "id": "qiyi-sail-2x2",
+    "name": "QiYi Sail 2x2",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$3.99",
+    "description": "QiYi Sail 2x2 - more details coming soon!",
+    "bestFor": [
+      "General maintenance"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20Sail_202x2_20Black.png?v=1776231689"
+  },
+  {
+    "id": "qiyi-warrior-2x2",
+    "name": "QiYi Warrior 2x2",
+    "brand": "QiYi",
+    "type": "silicone",
+    "viscosity": "medium",
+    "price": "$3.99",
+    "description": "QiYi Warrior 2x2 - more details coming soon!",
+    "bestFor": [
+      "General maintenance"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20Warrior_202x2_20Stickerless.png?v=1776232271"
   }
 ]
