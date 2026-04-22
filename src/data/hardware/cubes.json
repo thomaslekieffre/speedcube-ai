@@ -3623,6 +3623,22 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/YJ_20Big_203x3_85235590-db2e-43e2-b487-ed5c2a71e3ae.png?v=1763783330"
   },
   {
+    "id": "gan356-i-carry-4-3x3-uv-coated-ssl-le",
+    "name": "GAN356 i Carry 4 3x3 (UV Coated, SSL LE)",
+    "brand": "GAN",
+    "puzzle": "3x3",
+    "price": "$39.99",
+    "tier": "mid",
+    "features": [
+      "Magnetic",
+      "UV coated"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": true,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/GAN_20i_20carry_20SSL_20Edition.png?v=1776760016"
+  },
+  {
     "id": "moyu-weilong-wr-m-3x3-v9-magnetic-maglev-20-magnet-ball-core-uv-coated",
     "name": "MoYu WeiLong WR M 3x3 V9 (Magnetic, MagLev, 20-Magnet Ball-Core, UV Coated)",
     "brand": "MoYu",
