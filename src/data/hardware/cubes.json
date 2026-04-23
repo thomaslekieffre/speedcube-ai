@@ -5924,6 +5924,36 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/yj-mgc-beta-3x3-magnetic-maglev-core-magnets-limited-edition-transparent-green.jpg?v=1765327332"
   },
   {
+    "id": "rubik-s-mickey-mouse-cuber",
+    "name": "Rubik's Mickey Mouse Cuber",
+    "brand": "Spin Master",
+    "puzzle": "3x3",
+    "price": "$19.04",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/rubiks-mickey-mouse-cuber.jpg?v=1776908165"
+  },
+  {
+    "id": "rubik-s-minnie-mouse-cuber",
+    "name": "Rubik's Minnie Mouse Cuber",
+    "brand": "Spin Master",
+    "puzzle": "3x3",
+    "price": "$19.04",
+    "tier": "mid",
+    "features": [
+      "Magnetic"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/rubiks-minnie-mouse-cuber.jpg?v=1776908172"
+  },
+  {
     "id": "rubik-s-magnetic-speed-cube-3x3",
     "name": "Rubik's Magnetic Speed Cube 3x3",
     "brand": "Rubik's",
@@ -9476,6 +9506,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_203D_20World_20Map_20Mirror_203x3_cee11bee-5785-499e-a86f-cfbb9aca910f.png?v=1768624856"
   },
   {
+    "id": "ziina-flower-cube-3x3-glow-in-the-dark",
+    "name": "Ziina Flower Cube 3x3 (Glow-in-the-Dark)",
+    "brand": "Ziina",
+    "puzzle": "3x3",
+    "price": "$7.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Flower_20Cube_203x3_865a0fa7-e1d6-48d1-bd66-9c8ad6c51d28.png?v=1776914471"
+  },
+  {
     "id": "spooky-cube-glow-in-the-dark-limited-edition",
     "name": "Spooky Cube (Glow in the Dark) - Limited Edition",
     "brand": "SpeedCubeShop",
@@ -10024,6 +10069,21 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/YJ_20Fisher_20Cube_20V3.jpg?v=1748639142"
+  },
+  {
+    "id": "ziina-maze-3x3",
+    "name": "Ziina Maze 3x3",
+    "brand": "Ziina",
+    "puzzle": "3x3",
+    "price": "$6.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Maze_203x3_ee5e2760-6914-4284-b4d6-d02a0eec97b4.png?v=1776914825"
   },
   {
     "id": "las-vegas-3x3-speed-cube-puzzle",
