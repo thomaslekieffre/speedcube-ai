@@ -1413,6 +1413,36 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/cheeseburger2x2.jpg?v=1765572366"
   },
   {
+    "id": "ziina-rainbow-cube-2x2-6-color",
+    "name": "Ziina Rainbow Cube 2x2 (6-Color)",
+    "brand": "Ziina",
+    "puzzle": "2x2",
+    "price": "$6.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Rainbow_202x2_00efcf38-eeb1-42f1-83bc-6d14e5d20b7c.png?v=1776917948"
+  },
+  {
+    "id": "ziina-mosaic-2x2-rainbow",
+    "name": "Ziina Mosaic 2x2 (Rainbow)",
+    "brand": "Ziina",
+    "puzzle": "2x2",
+    "price": "$6.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Mosaic_202x2_02f3ea0b-f97c-4b1f-a963-143a1dcb6eb4.png?v=1776918348"
+  },
+  {
     "id": "yj-yupo-2x2-magnetic-clicky-2025-edition",
     "name": "YJ YuPo 2x2 (Magnetic) - Clicky, 2025 Edition",
     "brand": "YJ",
@@ -12267,6 +12297,36 @@
     "magnetic": false,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Poker_204x4_fce89064-1567-4b4b-84ba-9926db7ebc8b.png?v=1765572581"
+  },
+  {
+    "id": "ziina-rainbow-cube-4x4-6-color",
+    "name": "Ziina Rainbow Cube 4x4 (6-Color)",
+    "brand": "Ziina",
+    "puzzle": "4x4",
+    "price": "$9.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Rainbow_204x4_4dc9c978-4896-4be3-9532-cdc9535af014.png?v=1776918154"
+  },
+  {
+    "id": "ziina-mosaic-4x4-rainbow",
+    "name": "Ziina Mosaic 4x4 (Rainbow)",
+    "brand": "Ziina",
+    "puzzle": "4x4",
+    "price": "$9.99",
+    "tier": "budget",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Ziina_20Mosaic_204x4_c560896b-443f-4a50-8fc1-805048034946.png?v=1776918589"
   },
   {
     "id": "qiyi-warrior-4x4-magnetic-uv-coated",
