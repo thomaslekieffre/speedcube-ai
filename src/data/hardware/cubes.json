@@ -16314,6 +16314,21 @@
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/1755073544uni.png?v=1756244549"
   },
   {
+    "id": "kanyon-hexagon-1",
+    "name": "Kanyon Hexagon-1",
+    "brand": "Kanyon",
+    "puzzle": "Square-1",
+    "price": "$29.99",
+    "tier": "mid",
+    "features": [
+      "Stickerless"
+    ],
+    "releaseYear": 2026,
+    "magnetic": false,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Kanyon_20Hexagon-1.jpg?v=1777053611"
+  },
+  {
     "id": "calvin-s-mirror-2-layer-super-square-1",
     "name": "Calvin's Mirror 2-Layer Super Square-1",
     "brand": "Calvin's Puzzle",
