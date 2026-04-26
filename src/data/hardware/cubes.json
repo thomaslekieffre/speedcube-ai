@@ -3540,6 +3540,27 @@
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/moyu-super-rs3-m-3x3-v2-magnetic-maglev-ball-core-uv-coated-stickerless.jpg?v=1771619470"
   },
   {
+    "id": "x-man-tornado-3x3-v5-pioneer-magnetic-maglev-20-magnet-ball-core-uv-coated",
+    "name": "X-Man Tornado 3x3 V5 Pioneer (Magnetic, MagLev, 20-Magnet Ball-Core, UV Coated)",
+    "brand": "X-Man Designs",
+    "puzzle": "3x3",
+    "price": "$40.45",
+    "tier": "flagship",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Ball-core system",
+      "Spring system",
+      "Dual adjustment",
+      "8 magnets"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/x-man-tornado-3x3-v5-pioneer-magnetic-maglev-20-magnet-ball-core-uv-coated.jpg?v=1777163425"
+  },
+  {
     "id": "gan-v100-maglev-uv",
     "name": "GAN V100 MagLev UV",
     "brand": "GAN",
@@ -4165,6 +4186,25 @@
     "magnetic": true,
     "smartCube": false,
     "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/max-park-tornado-3x3-v4-flagship-magnetic-ball-core.jpg?v=1771619507"
+  },
+  {
+    "id": "x-man-tornado-3x3-v5-flagship-magnetic-ball-core-uv-coated",
+    "name": "X-Man Tornado 3x3 V5 Flagship (Magnetic, Ball-Core, UV Coated)",
+    "brand": "X-Man Designs",
+    "puzzle": "3x3",
+    "price": "$33.09",
+    "tier": "mid",
+    "features": [
+      "MagLev tensioning",
+      "Magnetic",
+      "UV coated",
+      "Ball-core system",
+      "Dual adjustment"
+    ],
+    "releaseYear": 2026,
+    "magnetic": true,
+    "smartCube": false,
+    "image": "https://cdn.shopify.com/s/files/1/0978/8602/files/x-man-tornado-3x3-v5-flagship-magnetic-ball-core-uv-coated.jpg?v=1777163455"
   },
   {
     "id": "moyu-weilong-ai-v10-lite",

@@ -6488,5 +6488,38 @@
       "General maintenance"
     ],
     "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/QiYi_20Warrior_202x2_20Stickerless.png?v=1776232271"
+  },
+  {
+    "id": "x-man-tornado-v5-3x3-flagship-uv-pre-order",
+    "name": "X-Man Tornado V5 3x3 (Flagship UV) [Pre-Order]",
+    "brand": "X-Man Design",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$42.74",
+    "description": "The X-Man Tornado V5 3x3 (Flagship) pushes the boundaries of flagship speedcubes, blending next-generation technology with legendary performance. The V5 continues the acclaimed Tornado legacy from QiYi and X-Man Designs, delivering a meticulously refined solving experience for competitive speedcuber",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Spring noise reduction",
+      "Long-lasting"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Tornado_V5_Flagship_1.png?v=1777091772"
+  },
+  {
+    "id": "x-man-tornado-v5-3x3-pioneer-uv-pre-order",
+    "name": "X-Man Tornado V5 3x3 (Pioneer UV) [Pre-Order]",
+    "brand": "X-Man Design",
+    "type": "silicone",
+    "viscosity": "light",
+    "price": "$52.24",
+    "description": "The X-Man Tornado V5 3x3 (Pioneer) pushes the boundaries of flagship speedcubes, blending next-generation technology with legendary performance. The V5 continues the acclaimed Tornado legacy from QiYi and X-Man Designs, delivering a meticulously refined solving experience for competitive speedcubers",
+    "bestFor": [
+      "Speed boost",
+      "Core lubrication",
+      "Control",
+      "Long-lasting"
+    ],
+    "image": "https://cdn.shopify.com/s/files/1/0035/5205/1273/files/Tornado_V5_Pioneer_1.png?v=1777091795"
   }
 ]
